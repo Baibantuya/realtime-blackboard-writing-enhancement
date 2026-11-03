@@ -1,0 +1,289 @@
+{
+  "schema": "registered-followup-test-independent-verification-v1",
+  "images": 2000,
+  "source_videos": 2000,
+  "registry_sha256": "d455e6db87a611d20d0139472b8f37b1a2d44ee6828f1ed3d7e3bfc149a3ac79",
+  "annotations_sha256": "599543cb312b63e1ee8022e6c4562fe56399d9fd84ecabde2c9ed23600875e9f",
+  "models": {
+    "original_default": {
+      "counts": {
+        "hands_gt": 3595,
+        "hands_pred": 3231,
+        "hands_matched": 2871,
+        "objects_gt": 1719,
+        "objects_pred": 1098,
+        "objects_matched": 767,
+        "valid_pairs_gt": 2114,
+        "pairs_correct": 878,
+        "nearest_hand_center_pairs_correct": 885,
+        "pair_boxes_detected": 951,
+        "links_pred": 1572,
+        "contact_evaluated": 2871,
+        "contact_correct": 1909,
+        "portable_tp": 1728,
+        "portable_fp": 778,
+        "portable_tn": 181,
+        "portable_fn": 184,
+        "multiobject_valid_pairs_gt": 590,
+        "multiobject_pairs_correct": 161,
+        "multiobject_nearest_hand_center_pairs_correct": 165
+      },
+      "metrics": {
+        "hands": {
+          "precision": 0.8885793871866295,
+          "recall": 0.7986091794158554
+        },
+        "objects": {
+          "precision": 0.6985428051001822,
+          "recall": 0.44618964514252474
+        },
+        "pair_recall": 0.4153263954588458,
+        "nearest_hand_center_pair_recall": 0.41863765373699147,
+        "pair_boxes_detected_oracle_recall": 0.4498580889309366,
+        "multiobject_pair_recall": 0.27288135593220336,
+        "multiobject_nearest_hand_center_pair_recall": 0.2796610169491525,
+        "contact_accuracy_matched_hands": 0.6649251132009752,
+        "portable_precision_matched_hands": 0.6895450917797287,
+        "portable_recall_matched_hands": 0.9037656903765691,
+        "portable_false_positive_rate_matched_hands": 0.8112617309697602,
+        "vector_angle_degrees": {
+          "p50": 20.252162295459264,
+          "p95": 101.15936427704972
+        },
+        "endpoint_error_px": {
+          "p50": 104.04979528226079,
+          "p95": 263.3340744007778
+        },
+        "endpoint_error_hand_diagonals": {
+          "p50": 0.3976027061486661,
+          "p95": 1.7522249911862935
+        },
+        "vector_matched_samples": 1806
+      },
+      "coco": {
+        "ap50_95": 0.40760292219523797,
+        "ap50": 0.6693807530621149,
+        "by_class": {
+          "hand": {
+            "ap50_95": 0.5256322668306094,
+            "ap50": 0.8336289362919245
+          },
+          "held_object": {
+            "ap50_95": 0.2895735775598666,
+            "ap50": 0.5051325698323053
+          }
+        }
+      },
+      "summary_sha256": "d1d407bc7d71f80cda81d5cbdb74c27d66de035dd986a1749f3f22ebe45024f4",
+      "checkpoint_sha256": "ef6ce1ff42ba0cd781e39e3f1ad931b0760dcb0fe7f353e83c2c602fe7bbd52a",
+      "native_predictions_recounted": true,
+      "standard_coco_ap_exact": true
+    },
+    "expanded7500_calibrated": {
+      "counts": {
+        "hands_gt": 3595,
+        "hands_pred": 3174,
+        "hands_matched": 2937,
+        "objects_gt": 1719,
+        "objects_pred": 1198,
+        "objects_matched": 866,
+        "valid_pairs_gt": 2114,
+        "pairs_correct": 972,
+        "nearest_hand_center_pairs_correct": 983,
+        "pair_boxes_detected": 1080,
+        "links_pred": 1643,
+        "contact_evaluated": 2937,
+        "contact_correct": 1990,
+        "portable_tp": 1751,
+        "portable_fp": 751,
+        "portable_tn": 239,
+        "portable_fn": 196,
+        "multiobject_valid_pairs_gt": 590,
+        "multiobject_pairs_correct": 185,
+        "multiobject_nearest_hand_center_pairs_correct": 192
+      },
+      "metrics": {
+        "hands": {
+          "precision": 0.9253308128544423,
+          "recall": 0.8169680111265647
+        },
+        "objects": {
+          "precision": 0.7228714524207012,
+          "recall": 0.5037812681791739
+        },
+        "pair_recall": 0.4597918637653737,
+        "nearest_hand_center_pair_recall": 0.4649952696310312,
+        "pair_boxes_detected_oracle_recall": 0.510879848628193,
+        "multiobject_pair_recall": 0.3135593220338983,
+        "multiobject_nearest_hand_center_pair_recall": 0.3254237288135593,
+        "contact_accuracy_matched_hands": 0.6775621382362955,
+        "portable_precision_matched_hands": 0.6998401278976819,
+        "portable_recall_matched_hands": 0.8993323061119671,
+        "portable_false_positive_rate_matched_hands": 0.7585858585858586,
+        "vector_angle_degrees": {
+          "p50": 17.688748136854766,
+          "p95": 94.46865172415886
+        },
+        "endpoint_error_px": {
+          "p50": 99.0051622244386,
+          "p95": 251.71404624900077
+        },
+        "endpoint_error_hand_diagonals": {
+          "p50": 0.38349209745192103,
+          "p95": 1.6924695691164273
+        },
+        "vector_matched_samples": 1836
+      },
+      "coco": {
+        "ap50_95": 0.45264998248547683,
+        "ap50": 0.7230385500858851,
+        "by_class": {
+          "hand": {
+            "ap50_95": 0.5637995667224398,
+            "ap50": 0.8758438984856094
+          },
+          "held_object": {
+            "ap50_95": 0.34150039824851364,
+            "ap50": 0.5702332016861609
+          }
+        }
+      },
+      "summary_sha256": "b9a5533dbe3d73e0b1243b17a7f7691a14376834d911439ad7b7d0e68ec39a82",
+      "checkpoint_sha256": "2a084e2a6626ba2b262dd81226fb0c28d9d66a27c5ce4c5108fe5fc80b182ec9",
+      "native_predictions_recounted": true,
+      "standard_coco_ap_exact": true
+    }
+  },
+  "data_binding_sha256": "5d6a29f498b1a4e23af6111305b73ae0b8c3c5174a39cda8633f79b865eb58c6",
+  "disjoint_from_prior_1000_evaluated_videos": true,
+  "comparison": {
+    "hand_precision": {
+      "reference": 0.8885793871866295,
+      "candidate": 0.9253308128544423,
+      "difference": 0.036751425667812754,
+      "paired_video_bootstrap_95_interval": [
+        0.027604005409701742,
+        0.04610256891446206
+      ],
+      "interval_above_zero": true
+    },
+    "hand_recall": {
+      "reference": 0.7986091794158554,
+      "candidate": 0.8169680111265647,
+      "difference": 0.01835883171070929,
+      "paired_video_bootstrap_95_interval": [
+        0.009948834565093875,
+        0.02669981842579391
+      ],
+      "interval_above_zero": true
+    },
+    "object_precision": {
+      "reference": 0.6985428051001822,
+      "candidate": 0.7228714524207012,
+      "difference": 0.02432864732051898,
+      "paired_video_bootstrap_95_interval": [
+        0.0019853985321190266,
+        0.04689940794473597
+      ],
+      "interval_above_zero": true
+    },
+    "object_recall": {
+      "reference": 0.44618964514252474,
+      "candidate": 0.5037812681791739,
+      "difference": 0.057591623036649164,
+      "paired_video_bootstrap_95_interval": [
+        0.040212738928360504,
+        0.0746960743960206
+      ],
+      "interval_above_zero": true
+    },
+    "pair_recall": {
+      "reference": 0.4153263954588458,
+      "candidate": 0.4597918637653737,
+      "difference": 0.04446546830652787,
+      "paired_video_bootstrap_95_interval": [
+        0.028041492056754245,
+        0.061044049066129265
+      ],
+      "interval_above_zero": true
+    }
+  },
+  "held_object_ap_difference": 0.05192682068864701,
+  "ap_interval_computed": false,
+  "common_gt_hands": 2786,
+  "common_gt_auxiliary": {
+    "original_default": {
+      "counts": {
+        "hands": 2786,
+        "known_contact": 2786,
+        "tp": 1702,
+        "fp": 766,
+        "tn": 154,
+        "fn": 164,
+        "valid_vectors": 1763,
+        "detected_object_boxes": 938,
+        "correct_pairs": 867
+      },
+      "metrics": {
+        "portable_false_positive_rate": 0.8326086956521739,
+        "portable_precision": 0.6896272285251216,
+        "portable_recall": 0.9121114683815649,
+        "contact_accuracy": 0.6661880832735104,
+        "vector_angle_degrees": {
+          "p50": 20.241898153962214,
+          "p95": 100.65131565477606
+        },
+        "endpoint_error_px": {
+          "p50": 103.4380890773096,
+          "p95": 264.34262357322774
+        },
+        "endpoint_error_hand_diagonals": {
+          "p50": 0.3914005272967403,
+          "p95": 1.7109386693061643
+        },
+        "conditional_pair_recall": 0.49177538287010775
+      }
+    },
+    "expanded7500_calibrated": {
+      "counts": {
+        "hands": 2786,
+        "known_contact": 2786,
+        "tp": 1700,
+        "fp": 722,
+        "tn": 198,
+        "fn": 166,
+        "valid_vectors": 1763,
+        "detected_object_boxes": 1045,
+        "correct_pairs": 948
+      },
+      "metrics": {
+        "portable_false_positive_rate": 0.7847826086956522,
+        "portable_precision": 0.7018992568125516,
+        "portable_recall": 0.9110396570203644,
+        "contact_accuracy": 0.6812634601579325,
+        "vector_angle_degrees": {
+          "p50": 17.408203244031657,
+          "p95": 92.72863381965529
+        },
+        "endpoint_error_px": {
+          "p50": 98.46281107436441,
+          "p95": 252.17959278352177
+        },
+        "endpoint_error_hand_diagonals": {
+          "p50": 0.37540457396485954,
+          "p95": 1.6610027730558798
+        },
+        "conditional_pair_recall": 0.5377197958026092
+      }
+    }
+  },
+  "all_five_primary_point_metrics_improved": true,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261019,
+  "independent_prediction_recount_and_coco_scoring_passed": true,
+  "goal_completion_automatically_decided": false,
+  "no_model_or_threshold_adjustment_from_test": true,
+  "source_sha256": "9a1b68477d53eb568574f37f7a7e763a9eb983ca27aef0f0c64c38a3ec8332ae",
+  "deployment_approved": false,
+  "limitation": "Follow-up on 2000 newly evaluated videos. Candidate thresholds were fixed before the primary test; no tuning to this cohort. Percentile intervals cover five rates, not AP. This is an iterative research comparison, not board/IMX219 or deployment qualification."
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PARTIAL_LOCAL_VERIFICATION",
+  "updated_at": "2026-10-29T00:31:11.839577+08:00",
+  "passed": {
+    "codegen_windows_tests": 19,
+    "codegen_linux_tests": 19,
+    "real_hwh_versions": 2,
+    "register_metadata_per_version": 70,
+    "ae_bd_behavior_and_ooc": true,
+    "rectify_small_rtl_transactions": 63,
+    "rectify_boundary_rtl_transactions": 12,
+    "rectify_generated_files_equal_r5": 45,
+    "extended_reset_events": 18,
+    "baseline_identity_preserved": true
+  },
+  "not_completed": [
+    "1080p full-frame RTL cosimulation: two runs stopped for host memory growth; neither passed.",
+    "CDC and reset protocol signoff: 70 warnings and four LUTAR-1 retained.",
+    "New full-system implementation of AE metadata candidate: not run."
+  ],
+  "out_of_scope": "Physical KV260 acceptance, per user request.",
+  "unchanged_prior_limit": "Vitis software platform/BSP still not verified due missing QEMU resources; no change in this phase.",
+  "original_v24_c5_r5_preserved": true,
+  "new_bitstream_exported": false,
+  "fpga_processes_remaining": 0,
+  "w_drive_alias_removed": true
+}

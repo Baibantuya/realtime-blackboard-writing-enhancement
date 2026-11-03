@@ -1,0 +1,35 @@
+{
+  "schema": "rgb565-extra-seed-replication-v1",
+  "reference_seed": 20261019,
+  "additional_seeds": [
+    20261020,
+    20261021
+  ],
+  "epochs_per_arm": 4,
+  "batch_size_pairs": 128,
+  "arms": {
+    "paired_ce": 0.0,
+    "paired_ce_js": 1.0
+  },
+  "backbone_lr": 1e-05,
+  "head_lr": 5e-05,
+  "label_smoothing": 0.02,
+  "weight_decay": 0.0001,
+  "shared_data_root": "/home/wutong/hand_training_20261010/runs/gesture_rgb565_pairs_20261019_01/paired_dataset_01",
+  "shared_data_sha256": "1d8acd4ee2b0786ac9fd6320ba242d24cee23ada8aae6a8ad01e5a53d007f774",
+  "initial_checkpoint": "/home/wutong/hand_training_20261010/runs/gesture_upright_rehearsal_20261019_01/upright_rehearsal_25/epoch_06.pth",
+  "initial_checkpoint_sha256": "f3a4f13bee1a7dc66cf6826ad58261220a93f893302bc76dc565acff505fc575",
+  "seed_variation_scope": "only this four-epoch continuation stage; upstream pretrained checkpoint is fixed",
+  "train_and_development_selection_precision": {
+    "cudnn_allow_tf32": true,
+    "matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest"
+  },
+  "final_quality_precision": "highest; cuDNN TF32=false, matmul TF32=false",
+  "selection": "same original development-only mean angle/pair F1, within original clean-dev gate",
+  "canonical_deployment_research_seed_remains": 20261019,
+  "selection_across_seeds_by_test_forbidden": true,
+  "real_data_or_event_validation_done": false,
+  "test_is_reused_regression": true,
+  "all_files_retained": true
+}

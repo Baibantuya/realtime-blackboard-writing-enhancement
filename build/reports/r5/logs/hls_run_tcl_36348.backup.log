@@ -1,0 +1,657 @@
+  **** HLS Build v2025.2 6295257
+Sourcing Tcl script 'W:/r5/build/hls_r.tcl'
+INFO: [HLS 200-1510] Running: open_project W:/r5/h/r 
+WARNING: [HLS 200-2182] The 'r' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Creating and opening solution 'W:/r5/h/r'.
+INFO: [HLS 200-1510] Running: set_top board_rectify_rgb 
+INFO: [HLS 200-1510] Running: add_files W:/r5/src/pl/hls/board_rectify_rgb.cpp -cflags -std=c++14 -IW:/r5/src/pl/hls -DWB_HLS 
+INFO: [HLS 200-10] Adding design file 'W:/r5/src/pl/hls/board_rectify_rgb.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb W:/r5/sim/tb/test_rectify.cpp -cflags -std=c++14 -IW:/r5/src/pl/hls 
+INFO: [HLS 200-10] Adding test bench file 'W:/r5/sim/tb/test_rectify.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution s -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution 'W:/r5/h/r/s'.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xck26-sfvc784-2LV-c 
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+INFO: [HLS 200-1510] Running: create_clock -period 5.0 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-1510] Running: config_rtl -reset control 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64=false 
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../sim/tb/test_rectify.cpp in debug mode
+   Compiling ../../../../../src/pl/hls/board_rectify_rgb.cpp in debug mode
+   Generating csim.exe
+PASS 20 cases 1920x1080, full RGB comparison, cache refresh, atomic invalid and guards
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2073600
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-2161] Finished Command csim_design Elapsed time: 00:00:40; Allocated memory: 0.496 MB.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.645 seconds; current allocated memory: 134.695 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file '../src/pl/hls/board_rectify_rgb.cpp' ... 
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (../src/pl/hls/board_rectify_rgb.cpp:125:16)
+Resolution: For help on HLS 214-113 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=214-113.html
+WARNING: [HLS 200-471] Dataflow form checks found 1 issue(s) in file ../src/pl/hls/board_rectify_rgb.cpp
+Resolution: For help on HLS 200-471 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-471.html
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 3.444 seconds; current allocated memory: 137.684 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 5,956 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 910 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 652 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 616 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 526 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 665 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 649 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 649 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 648 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 689 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 628 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 614 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 609 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 609 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 635 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 686 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (W:/r5/h/r/s/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::data() const' into 'fp_struct<float>::to_float() const' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:322:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_float() const' into 'fp_struct<float>::to_ieee() const' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:346:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'float generic_copysign<float>(float, float)' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_ieee() const' into 'float generic_copysign<float>(float, float)' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'float generic_copysign<float>(float, float)' into 'float generic_fabs<float>(float)' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_fabs.h:12:0)
+INFO: [HLS 214-178] Inlining function 'float generic_fabs<float>(float)' into 'fabsf' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib\hlsmath\src\c\fabsfloat.cpp:7:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::mantissa() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::expv() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::__signbit() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' into 'int generic_cast_IEEE754<int, float>(float, bool)' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116:0)
+INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, float>(float, bool)' into '__hls_fptosi_float_i32' (C:\scratch\2025.2\hls_product\665\2025.2\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51:0)
+INFO: [HLS 214-178] Inlining function '__hls_fptosi_float_i32' into 'coordinates(float const*, int, int, int, int, int, int, hls::stream<unsigned int, 0>&)' (../src/pl/hls/board_rectify_rgb.cpp:19:0)
+INFO: [HLS 214-178] Inlining function 'cached_word(unsigned int const*, unsigned int, int, unsigned int (*) [16], unsigned int*, bool*, unsigned int&, unsigned int&, unsigned int&)' into 'fetch(unsigned int const*, int, int, unsigned int, unsigned int, unsigned int, unsigned int, hls::stream<unsigned int, 0>&, hls::stream<unsigned int, 0>&, unsigned int*)' (../src/pl/hls/board_rectify_rgb.cpp:69:0)
+INFO: [HLS 214-178] Inlining function 'wb_expand565(unsigned short)' into 'fetch(unsigned int const*, int, int, unsigned int, unsigned int, unsigned int, unsigned int, hls::stream<unsigned int, 0>&, hls::stream<unsigned int, 0>&, unsigned int*)' (../src/pl/hls/board_rectify_rgb.cpp:69:0)
+INFO: [HLS 214-178] Inlining function 'wb_pack565(unsigned int)' into 'pack(int, hls::stream<unsigned int, 0>&, hls::stream<unsigned int, 0>&)' (../src/pl/hls/board_rectify_rgb.cpp:97:0)
+INFO: [HLS 214-178] Inlining function 'as_float(unsigned int)' into 'board_rectify_rgb' (../src/pl/hls/board_rectify_rgb.cpp:131:0)
+INFO: [HLS 214-178] Inlining function 'fabsf' into 'board_rectify_rgb' (../src/pl/hls/board_rectify_rgb.cpp:131:0)
+WARNING: [HLS 214-464] Skipping array undecay on variable length array 'src'. (../src/pl/hls/board_rectify_rgb.cpp:116:0)
+WARNING: [HLS 214-464] Skipping array undecay on variable length array 'dst'. (../src/pl/hls/board_rectify_rgb.cpp:116:0)
+INFO: [HLS 214-248] Applying array_partition to 'data': Complete partitioning on dimension 1. (../src/pl/hls/board_rectify_rgb.cpp:70:14)
+INFO: [HLS 214-248] Applying array_partition to 'tags': Complete partitioning on dimension 1. (../src/pl/hls/board_rectify_rgb.cpp:70:26)
+INFO: [HLS 214-248] Applying array_partition to 'valid': Complete partitioning on dimension 1. (../src/pl/hls/board_rectify_rgb.cpp:70:40)
+INFO: [HLS 214-248] Applying array_partition to 'c': Complete partitioning on dimension 1. (../src/pl/hls/board_rectify_rgb.cpp:157:11)
+INFO: [HLS 214-376] Pipelining loop< VITIS_LOOP_98_1> at ../src/pl/hls/board_rectify_rgb.cpp:98:22 due to pipeline_loops threshold
+INFO: [HLS 214-376] Pipelining loop< unknown> at  due to pipeline_loops threshold
+INFO: [HLS 214-376] Pipelining loop< VITIS_LOOP_152_1> at ../src/pl/hls/board_rectify_rgb.cpp:152:23 due to pipeline_loops threshold
+INFO: [HLS 214-376] Pipelining loop< VITIS_LOOP_159_2> at ../src/pl/hls/board_rectify_rgb.cpp:159:23 due to pipeline_loops threshold
+INFO: [HLS 214-376] Pipelining loop< VITIS_LOOP_161_3> at ../src/pl/hls/board_rectify_rgb.cpp:161:23 due to pipeline_loops threshold
+INFO: [HLS 214-115] Multiple burst reads of length 16 and bit width 32 in loop 'VITIS_LOOP_52_1'(../src/pl/hls/board_rectify_rgb.cpp:52:30) has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/pl/hls/board_rectify_rgb.cpp:52:30)
+INFO: [HLS 214-115] Multiple burst writes of length 9 and bit width 32 has been inferred on bundle 'gmem2'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/pl/hls/board_rectify_rgb.cpp:95:1)
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 32 in loop 'VITIS_LOOP_107_1'(../src/pl/hls/board_rectify_rgb.cpp:107:23) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/pl/hls/board_rectify_rgb.cpp:107:23)
+INFO: [HLS 214-115] Multiple burst reads of length 20 and bit width 32 in loop 'VITIS_LOOP_152_1'(../src/pl/hls/board_rectify_rgb.cpp:152:23) has been inferred on bundle 'gmem2'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/pl/hls/board_rectify_rgb.cpp:152:23)
+INFO: [HLS 214-115] Multiple burst writes of length 4 and bit width 32 in loop 'VITIS_LOOP_161_3'(../src/pl/hls/board_rectify_rgb.cpp:161:23) has been inferred on bundle 'gmem2'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../src/pl/hls/board_rectify_rgb.cpp:161:23)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.154 seconds; current allocated memory: 141.668 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 141.668 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.124 seconds; current allocated memory: 148.535 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.076 seconds; current allocated memory: 151.883 MB.
+INFO: [HLS 200-1947] Using 'stable' for argument 'gmem0' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'src' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'dst' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'c_0.val1' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'c_1.val2' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'c_2.val3' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'c_3.val4' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'c_4.val5' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'c_5.val6' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'c_6.val7' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'c_7.val8' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'width' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'height' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'ox' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'oy' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'ow' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'oh' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'binary_enable' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'threshold' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'bgr' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [HLS 200-1947] Using 'stable' for argument 'diagnostics' of dataflow function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1).
+INFO: [XFORM 203-712] Applying dataflow to function 'render' (../src/pl/hls/board_rectify_rgb.cpp:117:1), detected/extracted 5 process function(s): 
+	 'render_Block_entry_proc'
+	 'coordinates'
+	 'fetch'
+	 'pack'
+	 'write_frame'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock in function 'fetch'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../src/pl/hls/board_rectify_rgb.cpp:70:26) to (../src/pl/hls/board_rectify_rgb.cpp:75:22) in function 'fetch'... converting 6 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../src/pl/hls/board_rectify_rgb.cpp:159:82) to (../src/pl/hls/board_rectify_rgb.cpp:159:23) in function 'board_rectify_rgb'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../src/pl/hls/board_rectify_rgb.cpp:161:31) to (../src/pl/hls/board_rectify_rgb.cpp:161:23) in function 'board_rectify_rgb'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../src/pl/hls/board_rectify_rgb.cpp:153:15) to (../src/pl/hls/board_rectify_rgb.cpp:159:36) in function 'board_rectify_rgb'... converting 4 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'coordinates' (../src/pl/hls/board_rectify_rgb.cpp:15:21)...3 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'board_rectify_rgb' (../src/pl/hls/board_rectify_rgb.cpp:16:1)...13 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.883 seconds; current allocated memory: 176.422 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_20_1'(../src/pl/hls/board_rectify_rgb.cpp:20:22) and 'VITIS_LOOP_22_2'(../src/pl/hls/board_rectify_rgb.cpp:22:26) in function 'coordinates' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_20_1' (../src/pl/hls/board_rectify_rgb.cpp:20:22) in function 'coordinates'.
+WARNING: [HLS 200-1450] Process fetch has both a successor and writes an output to its caller (see the GUI dataflow viewer). This may lead to lower throughput. Consider copying this output via a successor process.
+Resolution: For help on HLS 200-1450 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1450.html
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.255 seconds; current allocated memory: 293.980 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'board_rectify_rgb' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_152_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_152_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.349 seconds; current allocated memory: 298.148 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 299.164 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'board_rectify_rgb_Pipeline_VITIS_LOOP_159_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_159_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_159_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 299.922 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.019 seconds; current allocated memory: 299.930 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_161_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_161_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.024 seconds; current allocated memory: 300.367 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.012 seconds; current allocated memory: 300.480 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'render_Block_entry_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.015 seconds; current allocated memory: 300.586 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.011 seconds; current allocated memory: 300.629 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'coordinates_Pipeline_VITIS_LOOP_20_1_VITIS_LOOP_22_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_20_1_VITIS_LOOP_22_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 80, loop 'VITIS_LOOP_20_1_VITIS_LOOP_22_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 302.625 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 303.000 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'coordinates' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.055 seconds; current allocated memory: 303.469 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.024 seconds; current allocated memory: 303.688 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fetch_Pipeline_VITIS_LOOP_52_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_52_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_52_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.024 seconds; current allocated memory: 303.945 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.016 seconds; current allocated memory: 304.035 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fetch_Pipeline_VITIS_LOOP_57_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_57_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 11, loop 'VITIS_LOOP_57_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.026 seconds; current allocated memory: 304.527 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.021 seconds; current allocated memory: 304.531 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fetch' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=cond_i_in) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln86_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln86) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.097 seconds; current allocated memory: 306.344 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.748 seconds; current allocated memory: 306.672 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pack_Pipeline_VITIS_LOOP_98_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_98_1'.
+INFO: [HLS 200-2199] The II Violation in module 'pack_Pipeline_VITIS_LOOP_98_1' (loop 'VITIS_LOOP_98_1'): Potential resource conflict between fifo read operation ('a', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) and fifo read operation ('b', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on common resource 'colors'.
+INFO: [HLS 200-2198] Existing conflicting constraints include from fifo read operation ('a', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) to fifo read operation ('b', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) with distance of 1 (conflict 1 of 1)
+INFO: [HLS 200-2199] The II Violation in module 'pack_Pipeline_VITIS_LOOP_98_1' (loop 'VITIS_LOOP_98_1'): Potential resource conflict between fifo read operation ('a', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) and fifo read operation ('c', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on common resource 'colors'.
+INFO: [HLS 200-2198] Existing conflicting constraints include from fifo read operation ('a', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) to fifo read operation ('b', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) with distance of 1 (conflict 1 of 2)
+INFO: [HLS 200-2198] Existing conflicting constraints include from fifo read operation ('b', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) to fifo read operation ('c', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) with distance of 1 (conflict 2 of 2)
+INFO: [HLS 200-2199] The II Violation in module 'pack_Pipeline_VITIS_LOOP_98_1' (loop 'VITIS_LOOP_98_1'): Potential resource conflict between fifo read operation ('a', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) and fifo read operation ('d', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on common resource 'colors'.
+INFO: [HLS 200-2198] Existing conflicting constraints include from fifo read operation ('a', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) to fifo read operation ('b', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) with distance of 1 (conflict 1 of 3)
+INFO: [HLS 200-2198] Existing conflicting constraints include from fifo read operation ('b', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) to fifo read operation ('c', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) with distance of 1 (conflict 2 of 3)
+INFO: [HLS 200-2198] Existing conflicting constraints include from fifo read operation ('c', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) to fifo read operation ('d', ../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) on port 'colors' (../src/pl/hls/board_rectify_rgb.cpp:100->../src/pl/hls/board_rectify_rgb.cpp:125) with distance of 1 (conflict 3 of 3)
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 4, Depth = 5, loop 'VITIS_LOOP_98_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.019 seconds; current allocated memory: 307.082 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.018 seconds; current allocated memory: 307.090 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pack' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.028 seconds; current allocated memory: 307.301 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.009 seconds; current allocated memory: 307.305 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'write_frame_Pipeline_VITIS_LOOP_107_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_107_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_107_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.017 seconds; current allocated memory: 307.613 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.013 seconds; current allocated memory: 307.707 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'write_frame' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 307.789 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.012 seconds; current allocated memory: 307.879 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'render' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 308.270 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.864 seconds; current allocated memory: 308.668 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'board_rectify_rgb' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 309.652 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.044 seconds; current allocated memory: 310.031 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1' pipeline 'VITIS_LOOP_152_1' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1/m_axi_gmem2_0_ARUSER' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'board_rectify_rgb_Pipeline_VITIS_LOOP_152_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 312.387 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'board_rectify_rgb_Pipeline_VITIS_LOOP_159_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'board_rectify_rgb_Pipeline_VITIS_LOOP_159_2' pipeline 'VITIS_LOOP_159_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'board_rectify_rgb_Pipeline_VITIS_LOOP_159_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.139 seconds; current allocated memory: 314.148 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3' pipeline 'VITIS_LOOP_161_3' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_AWUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3/m_axi_gmem2_0_BREADY' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'board_rectify_rgb_Pipeline_VITIS_LOOP_161_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.135 seconds; current allocated memory: 316.004 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'render_Block_entry_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'render_Block_entry_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.115 seconds; current allocated memory: 316.516 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'coordinates_Pipeline_VITIS_LOOP_20_1_VITIS_LOOP_22_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'coordinates_Pipeline_VITIS_LOOP_20_1_VITIS_LOOP_22_2' pipeline 'VITIS_LOOP_20_1_VITIS_LOOP_22_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_8_full_dsp_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fdiv_32ns_32ns_32_16_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_5_max_dsp_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitofp_32ns_32_6_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'coordinates_Pipeline_VITIS_LOOP_20_1_VITIS_LOOP_22_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.229 seconds; current allocated memory: 322.871 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'coordinates' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_8_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_31ns_62_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitofp_32ns_32_6_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'coordinates'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.347 seconds; current allocated memory: 328.453 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fetch_Pipeline_VITIS_LOOP_52_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fetch_Pipeline_VITIS_LOOP_52_1' pipeline 'VITIS_LOOP_52_1' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'fetch_Pipeline_VITIS_LOOP_52_1/m_axi_gmem0_0_ARUSER' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fetch_Pipeline_VITIS_LOOP_52_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 328.695 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fetch_Pipeline_VITIS_LOOP_57_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fetch_Pipeline_VITIS_LOOP_57_2' pipeline 'VITIS_LOOP_57_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fetch_Pipeline_VITIS_LOOP_57_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.107 seconds; current allocated memory: 329.703 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fetch' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_5ns_15s_15_4_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_15ns_16_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_8ns_15_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_2_1_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_2_32_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fetch'.
+INFO: [RTMG 210-278] Implementing memory 'board_rectify_rgb_fetch_data_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.52 seconds; current allocated memory: 332.949 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pack_Pipeline_VITIS_LOOP_98_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pack_Pipeline_VITIS_LOOP_98_1' pipeline 'VITIS_LOOP_98_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pack_Pipeline_VITIS_LOOP_98_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.274 seconds; current allocated memory: 337.922 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pack' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pack'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.096 seconds; current allocated memory: 338.324 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'write_frame_Pipeline_VITIS_LOOP_107_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'write_frame_Pipeline_VITIS_LOOP_107_1' pipeline 'VITIS_LOOP_107_1' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_AWUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'write_frame_Pipeline_VITIS_LOOP_107_1/m_axi_gmem1_0_BREADY' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'write_frame_Pipeline_VITIS_LOOP_107_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.063 seconds; current allocated memory: 338.930 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'write_frame' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'write_frame'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 339.871 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'render' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_AWUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_WVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_WDATA' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_WSTRB' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_WLAST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_WID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_WUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem0_0_BREADY' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_ARUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem1_0_RREADY' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_ARUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'render/m_axi_gmem2_0_RREADY' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'render'.
+INFO: [RTMG 210-285] Implementing FIFO 'mul_loc_c2_channel_U(board_rectify_rgb_fifo_w32_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'positions_U(board_rectify_rgb_fifo_w32_d256_A)' using Vivado Default RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'colors_U(board_rectify_rgb_fifo_w32_d64_A)' using Vivado Default RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'mul_loc_c1_U(board_rectify_rgb_fifo_w32_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'words_U(board_rectify_rgb_fifo_w32_d128_A)' using Vivado Default RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'mul_loc_c_U(board_rectify_rgb_fifo_w32_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'start_for_pack_U0_U(board_rectify_rgb_start_for_pack_U0)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'start_for_write_frame_U0_U(board_rectify_rgb_start_for_write_frame_U0)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.473 seconds; current allocated memory: 341.840 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'board_rectify_rgb' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/gmem0' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/gmem1' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/gmem2' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/src' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/dst' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/status' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/hint' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/corners' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/binary_enable' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/mode' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/threshold' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/bgr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/geometry' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'board_rectify_rgb/diagnostics' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'board_rectify_rgb' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'src', 'dst', 'status', 'hint', 'corners', 'binary_enable', 'mode', 'threshold', 'bgr', 'geometry', 'diagnostics' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'board_rectify_rgb'.
+INFO: [RTMG 210-278] Implementing memory 'board_rectify_rgb_g_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.273 seconds; current allocated memory: 346.832 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.634 seconds; current allocated memory: 353.277 MB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-2225] Wrote inferred directives to file W:/r5/h/r/s/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.079 seconds; current allocated memory: 364.648 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for board_rectify_rgb.
+INFO: [VLOG 209-307] Generating Verilog RTL for board_rectify_rgb.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 273.97 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:41; Allocated memory: 230.359 MB.
+INFO: [HLS 200-1510] Running: export_design -format ip_catalog -vendor whiteboard.org -library hls -version 1.0 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Oct 28 18:33:45 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=W:/r5/h/r/s/s_data.json outdir=W:/r5/h/r/s/impl/ip srcdir=W:/r5/h/r/s ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to W:/r5/h/r/s/impl/ip/misc
+INFO: Copied 43 verilog file(s) to W:/r5/h/r/s/impl/ip/hdl/verilog
+INFO: Copied 40 vhdl file(s) to W:/r5/h/r/s/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to W:/r5/h/r/s/impl/ip/drivers
+Generating 5 subcores in W:/r5/h/r/s/impl/ip/subcore_prj:
+impl/misc/board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip.tcl
+impl/misc/board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+impl/misc/board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip.tcl
+impl/misc/board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip.tcl
+impl/misc/board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip.tcl
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 529.172 ; gain = 223.148
+INFO: Using COE_DIR=W:/r5/h/r/s/impl/ip/hdl/verilog
+INFO: Generating board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip via file impl/misc/board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip.tcl
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xillinx/2025.2/Vivado/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip'...
+INFO: Done generating board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip via file impl/misc/board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip.tcl
+INFO: Generating board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip via file impl/misc/board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: Done generating board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip via file impl/misc/board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+INFO: Generating board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip via file impl/misc/board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip'...
+INFO: Done generating board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip via file impl/misc/board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip.tcl
+INFO: Generating board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip via file impl/misc/board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip'...
+INFO: Done generating board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip via file impl/misc/board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip.tcl
+INFO: Generating board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip via file impl/misc/board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip'...
+INFO: Done generating board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip via file impl/misc/board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip.tcl
+INFO: Found 1 unique subcore IP: xilinx.com:ip:floating_point:7.1
+INFO: Copied 5 subcore files: W:/r5/h/r/s/impl/ip/hdl/ip/board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip/board_rectify_rgb_fadd_32ns_32ns_32_8_full_dsp_1_ip.xci W:/r5/h/r/s/impl/ip/hdl/ip/board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip/board_rectify_rgb_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci W:/r5/h/r/s/impl/ip/hdl/ip/board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip/board_rectify_rgb_fdiv_32ns_32ns_32_16_no_dsp_1_ip.xci W:/r5/h/r/s/impl/ip/hdl/ip/board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip/board_rectify_rgb_fmul_32ns_32ns_32_5_max_dsp_1_ip.xci W:/r5/h/r/s/impl/ip/hdl/ip/board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip/board_rectify_rgb_sitofp_32ns_32_6_no_dsp_1_ip.xci
+INFO: Import ports from HDL: W:/r5/h/r/s/impl/ip/hdl/vhdl/board_rectify_rgb.vhd (board_rectify_rgb)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xillinx/2025.2/Vivado/data/ip'.
+INFO: Add axi4full interface m_axi_gmem0
+INFO: Add axi4full interface m_axi_gmem1
+INFO: Add axi4full interface m_axi_gmem2
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP W:/r5/h/r/s/impl/ip/component.xml
+INFO: Created IP archive W:/r5/h/r/s/impl/ip/whiteboard_org_hls_board_rectify_rgb_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 18:34:03 2026...
+INFO: [HLS 200-802] Generated output file r/s/impl/export.zip
+INFO: [HLS 200-2161] Finished Command export_design Elapsed time: 00:00:20; Allocated memory: 6.090 MB.
+CLEAN_HLS_R_COMPLETE
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 6 seconds. Total elapsed time: 106.761 seconds; peak allocated memory: 370.781 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 1m 50s
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.

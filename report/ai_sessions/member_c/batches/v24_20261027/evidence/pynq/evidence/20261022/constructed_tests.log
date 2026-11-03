@@ -1,0 +1,28 @@
+test_address_drift (__main__.OfflineTests.test_address_drift) ... ok
+test_cli_exit_codes_and_json (__main__.OfflineTests.test_cli_exit_codes_and_json) ... ok
+test_corrupt_bit (__main__.OfflineTests.test_corrupt_bit) ... ok
+test_duplicate_module (__main__.OfflineTests.test_duplicate_module) ... ok
+test_empty_contract (__main__.OfflineTests.test_empty_contract) ... ok
+test_environment_mismatch (__main__.OfflineTests.test_environment_mismatch) ... ok
+test_field_drift (__main__.OfflineTests.test_field_drift) ... ok
+test_identity_drift (__main__.OfflineTests.test_identity_drift) ... ok
+test_malformed_metadata_types (__main__.OfflineTests.test_malformed_metadata_types) ... ok
+test_malformed_xml (__main__.OfflineTests.test_malformed_xml) ... ok
+test_manifest_drift (__main__.OfflineTests.test_manifest_drift) ... ok
+test_missing_file (__main__.OfflineTests.test_missing_file) ... ok
+test_missing_ip (__main__.OfflineTests.test_missing_ip) ... ok
+test_missing_register (__main__.OfflineTests.test_missing_register) ... ok
+test_name_mismatch (__main__.OfflineTests.test_name_mismatch) ... ok
+test_normal_and_no_input_writes (__main__.OfflineTests.test_normal_and_no_input_writes) ... ok
+test_null_json (__main__.OfflineTests.test_null_json) ... ok
+test_path_traversal (__main__.OfflineTests.test_path_traversal) ... ok
+test_register_offset (__main__.OfflineTests.test_register_offset) ... ok
+test_register_width (__main__.OfflineTests.test_register_width) ... ok
+test_unknown_config_field (__main__.OfflineTests.test_unknown_config_field) ... ok
+test_wrong_vlnv (__main__.OfflineTests.test_wrong_vlnv) ... ok
+test_xml_entities_rejected (__main__.OfflineTests.test_xml_entities_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.743s
+
+OK

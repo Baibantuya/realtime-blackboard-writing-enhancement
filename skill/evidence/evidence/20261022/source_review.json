@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Taipei",
+  "selected_files": [
+    {
+      "path": "board/runtime/baseline_stages.py",
+      "sha256": "fad15077fb1fef3a98069004c1c5df3395c89e9e55c1858b610ec821cf9d2fb9",
+      "size": 7346,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/bundle.json",
+      "sha256": "231a68b554b849b52d880823d50f4ad84b7d23266b2062175af06d04fe841635",
+      "size": 18553,
+      "manifest_match": true,
+      "bundle_match": "not_listed",
+      "system_manifest_match": "not_listed"
+    },
+    {
+      "path": "board/runtime/deployment.json",
+      "sha256": "3f0219609c8402b5acbc55c4f3b526f1d925d540ccc704df4cde47a7fee63d5b",
+      "size": 1604,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/ensure_kernel.py",
+      "sha256": "6561c0667b11423559d03b8b3eb3ac50119be2a02409126432281cac1fd83730",
+      "size": 1947,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/hardware_abi.py",
+      "sha256": "1f230b153d982a4141ab7f278f05ef61da3048902ffd5c324f9da98a1a9647b4",
+      "size": 2498,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/imx219-fusion-v22.bit",
+      "sha256": "5fa20f6bcb6ed323ee2acc7cccdf105975dce2d789c29ccefaca85a7812a6888",
+      "size": 7797812,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/imx219-fusion-v22.bit.bin",
+      "sha256": "2643c20c349eab6fe71355b1080180e559dd9f6d00be7845b13037c75069c1d0",
+      "size": 7797692,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/imx219-fusion-v22.dtbo",
+      "sha256": "eceb74c2a7bf6d1512ef359c748fe51508569243cc106bd3f9d99ff022e83937",
+      "size": 15540,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/imx219-fusion-v22.hwh",
+      "sha256": "9cae7d1534d52a331424aa5a891e501851e05f6a65c9a1ec6c2f5946f9ca5eca",
+      "size": 1526498,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/kv260_board_run.py",
+      "sha256": "12f9e8ae3abe7ae96b4777074db664f261d2cb656b4baa2b526febb8e729536a",
+      "size": 12157,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/kv260_overlay.py",
+      "sha256": "784ee1d809b59b66693e8a58874d0fe33444186f7ee55adb63b879769ff1d71f",
+      "size": 4404,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/ps_runtime_v2/__main__.py",
+      "sha256": "8014a00124c0da6427fd2d92267d12f7cf3fa7f39f5701e42546b829328d17e8",
+      "size": 2521,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/ps_runtime_v2/board.py",
+      "sha256": "8098bd884ff21cf5db3a82039b0d288b6c5523decdc4559afe08a1f93e1f4cba",
+      "size": 16024,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/run.sh",
+      "sha256": "f9a9eaaf7b0eb19cfb4cfb87cd9768e4835b5b599bb1147f3961fd273e9b4dfe",
+      "size": 146,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/run_ps_runtime_v2.py",
+      "sha256": "f35dc062646f0fa125b509c31bff3a2d6a048ef1ee7a6798042022b223e2f979",
+      "size": 81,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/scene_stage.py",
+      "sha256": "41ad43ff97b1936e7902caa1886c2bc51bf7a1b4377e83d023069832354c986d",
+      "size": 7797,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/shared_scanout.py",
+      "sha256": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+      "size": 14280,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/system_manifest.json",
+      "sha256": "ff2d6994872b2f92adbff8bf5c3b2faa942623701d1cddff5d22f7b7c6385211",
+      "size": 20487,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": "not_listed"
+    },
+    {
+      "path": "board/runtime/verify_manifest.py",
+      "sha256": "8bcf850db893c585c2cbfddf566537fa8dd5379130287cfbcd26af61d3a9042c",
+      "size": 1681,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/verify_runtime.py",
+      "sha256": "fe482bd860902f67c74b9963a31eb5897bc9589161539686731d9a9281a1cb93",
+      "size": 1635,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/wb_frame_pool.ko",
+      "sha256": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+      "size": 422384,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/wb_rgb565_format.ko",
+      "sha256": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+      "size": 445480,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "board/runtime/whiteboard_ip.py",
+      "sha256": "d58b68dc5dfbd3ea906c5126233ed8db6f79b29949453bc2a257c6dc713d3fc9",
+      "size": 6042,
+      "manifest_match": true,
+      "bundle_match": true,
+      "system_manifest_match": true
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "sha256": "1a01fc174863224d6cc86c6291843a0668f4ebd37d9f1ac8f9e622c09118669a",
+      "size": 7377,
+      "manifest_match": true
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "sha256": "f68445c6bd58809743242615db242d22d6ef2cad22926c1335ee2a0a1d0ed23c",
+      "size": 10141,
+      "manifest_match": true
+    },
+    {
+      "path": "evidence/board_identity.json",
+      "sha256": "c526742c273a419859693e3ab26281d2b7bb4374c11b439fb602dcee12b2ff30",
+      "size": 3990,
+      "manifest_match": true
+    },
+    {
+      "path": "evidence/hardware_export.json",
+      "sha256": "102a6b9e3b4bb1eef1bad3cc448b7010a0a6ad786934308cc0db64063f631fa4",
+      "size": 4791,
+      "manifest_match": true
+    },
+    {
+      "path": "evidence/r4_validation.json",
+      "sha256": "bb8e9126a0caada5dff50dcb7005cd4ae194848f13202e27f5923e284511a8de",
+      "size": 562,
+      "manifest_match": true
+    },
+    {
+      "path": "evidence/VALIDATION.md",
+      "sha256": "1e4137eb29553414429410194b7f1943ba01a0d3841b8ee9414cbb007bc53c61",
+      "size": 1757,
+      "manifest_match": true
+    },
+    {
+      "path": "release_identity.json",
+      "sha256": "9d2ae21ca6673d28e782311bc86bd87063c2ad6b23a9bc6d0882300243fa79c9",
+      "size": 995,
+      "manifest_match": true
+    },
+    {
+      "path": "tools/restart_ps_only.py",
+      "sha256": "13307832658342830adbf8c50d471f81ccb3c1a709116dbb9cc828be2161ce16",
+      "size": 2031,
+      "manifest_match": true
+    },
+    {
+      "path": "tools/verify_release.py",
+      "sha256": "1273adfabae8b44b72e4c954b8a3b472f6213dac255e887c08e85c2fd947cda2",
+      "size": 1425,
+      "manifest_match": true
+    }
+  ],
+  "external_documents": [
+    {
+      "path": "报告/pynq_new_chat_prompt_20261022.md",
+      "size": 7696,
+      "sha256": "831e9bfd6fa0236b6823a71ca0d472cfed4fbe6b3fd7740cf51c1875a05f8c46"
+    },
+    {
+      "path": "报告/pynq_submission_preparation_20261022.md",
+      "size": 13509,
+      "sha256": "606b1a21f84aef9ac865162228bd8ddaabc82d0f844b56fb36b39199adb2fe88"
+    },
+    {
+      "path": "docs/V22架构与背景更新_20261022.md",
+      "size": 14531,
+      "sha256": "25070a4c9fc31da92f8867db4c716df6fdfc943549dec35bf0ca37cdd8a0e8f8"
+    },
+    {
+      "path": "docs/V23现场进度与模型部署边界更新_20261022.md",
+      "size": 3652,
+      "sha256": "ba42f69282e409741fa5a852396ca8078e3032d3ea2d090cc11675d0c76c84a0"
+    },
+    {
+      "path": "docs/V22背景核验记录_20261022.json",
+      "size": 3473,
+      "sha256": "6262e305947bf62494d132119eabffd2cbdf7164a50eadb74de02d51646d8bbf"
+    },
+    {
+      "path": "报告/ai_session_preparation_20261022.md",
+      "size": 11227,
+      "sha256": "4763338bd920bdb8167215195fc8ab60c6b5ec3361e62b2c1b29735e06907929"
+    },
+    {
+      "path": "报告/ai_session_case_template.md",
+      "size": 3725,
+      "sha256": "18cd4bbc8677a5743eed4ed4f9aea483ad3dd8ec458649bb57b962c532290b09"
+    },
+    {
+      "path": "报告/ai_session_material_index_20261022.md",
+      "size": 8615,
+      "sha256": "53c6b16325e00559e934207a3f304f65cef679bff887a33f4a0d9e41da76321a"
+    },
+    {
+      "path": "工作空间/A和B发送的资料/V22/HANDOFF (1).md",
+      "size": 10141,
+      "sha256": "f68445c6bd58809743242615db242d22d6ef2cad22926c1335ee2a0a1d0ed23c"
+    },
+    {
+      "path": "工作空间/A和B发送的资料/V22/CHANGELOG.md",
+      "size": 7377,
+      "sha256": "1a01fc174863224d6cc86c6291843a0668f4ebd37d9f1ac8f9e622c09118669a"
+    }
+  ],
+  "external_docs_match": {
+    "HANDOFF (1).md": true,
+    "CHANGELOG.md": true
+  },
+  "entrypoint_conflict": {
+    "method": "AST literal extraction plus JSON comparison; no board code execution",
+    "expected_by_verify_runtime": "{dir}/run_stage_pipeline_archive.py",
+    "deployment_live_entry": "{dir}/run_ps_runtime_v2.py",
+    "stale_entry_guard_would_raise": true,
+    "scope": "When prior verify_package returns, check/deploy will reject this configured entry",
+    "error_literal": "Deployment does not select the v22 archive UI entry"
+  },
+  "not_run": [
+    "board code",
+    "full archive manifest recheck",
+    "inner archive revalidation"
+  ]
+}

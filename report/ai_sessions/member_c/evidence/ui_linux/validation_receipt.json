@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "date": "2026-10-18",
+  "scope": "Synthetic Linux/WSLg UI only; no KV260 hardware verification",
+  "kernel": "6.18.54.1-microsoft-standard-WSL2",
+  "architecture": "x86_64",
+  "linux_ctest": 4,
+  "real_window_checks": 65,
+  "windows_ctest": 3,
+  "windows_view_pointer": "PASS",
+  "auto_hide_ms": 10000,
+  "auto_hide_observed_seconds": 10.209647945,
+  "final_window_run": "x11_14/interaction_receipt.json",
+  "renderer_captures": [
+    "startup-collapsed.png",
+    "main.png",
+    "auto-collapsed.png",
+    "white.png",
+    "initialize.png",
+    "recovery.png",
+    "parameters.png",
+    "diagnostics.png",
+    "collapsed.png",
+    "disconnected.png",
+    "resized.png",
+    "resized-collapsed.png"
+  ],
+  "source_sha256": {
+    "CMakeLists.txt": "d0dacdc713b83445b1957def784d5dc74e96b1943bec2ec5ded910804ebca530",
+    "linux_assert.h": "4d1d997ae2a5685c1285572411785c2282b96028dbb0112b0bbdd6c62933cf4b",
+    "lv_conf.h": "cb0d9eb90fbb076de6ce19207aae7a09399ea6a2fa0dc3e022aec3d115188e81",
+    "overlay_control.c": "746608b6eb1817ee686bd30ff23f1b31753993bfd5ac93bfa93326f8f20a056f",
+    "overlay_control.h": "31702b19bab2513df3e2545f12da3b247cb666d8387512dd36a5d88cdd56ddfd",
+    "overlay_diagnostics.c": "014535ca018d411b3538ca7618a499ed50036d512d2429f9d71c715f0e6b7cf8",
+    "overlay_diagnostics.h": "dde0d96c66dea9abfdf28f9d1e615aaf487c046a9905d865e45c4693b49d34c7",
+    "overlay_diag_inbox.c": "422cd7918421c418d05708ac3672214ec3232818ff334d868e1b1b6a053c137c",
+    "overlay_diag_inbox.h": "cb4323d0365a519b57d6b58f544c1b797c3d568a654ed9bf6ffca3fc671e32ad",
+    "overlay_view.c": "2fc2bd3b280d5a98027fe7baf6e549b1619dbaf7804ace6c91a7c2aa05469001",
+    "overlay_view.h": "efe7d4a2374ff30b8503e9f59cfdc11008a6d112995c998893599a210913763e",
+    "preview_sdl.c": "8a52dcc9a146372cbc950ac7447de05885a81cb3fa0be8434bd3db6c58b87b81",
+    "preview_win32.c": "084b3672900b1b8fe2e01b4023e4f4779b8a73f41f2a28f64e78743197744030",
+    "test_control.c": "2d7c34dd86249f342dcd720fc838be96e8ee1a11ab15edd6eb5c3c95740d0a8e",
+    "test_diagnostics.c": "4203ec6e7ac86ab9794ea40efe8255a3535220cb8099564e259b1a56fc4314b6",
+    "test_diag_inbox.c": "5dcf553ce9f0875849c317c19c21f0ad40a4ca9991f4b1e82f5ca8f5b6eb57a7",
+    "fonts/board_ui_cjk24.c": "8b5a56460221f0ad8d62b50737482a3be17b1384baca53ebeb18ded2ec6166b5"
+  },
+  "linux_binary_sha256": "487e7ecf6342812cca442485422698d0e89f2c683a123d325238a4f13f24f456",
+  "lvgl_pool_bytes": {
+    "usable": 517096,
+    "used_after_check": 32160,
+    "peak": 58096
+  },
+  "font": "Noto Sans SC Regular 400; 20/24/28px; 358 glyphs; embedded 8bpp subset",
+  "display": "1920x1080 native default; pixel-exact native readback; linear scaling for resized windows",
+  "font_resources": {
+    "before_binary_sha256": "84b57956f2ab2b1074f405e34974ee60a2fb83a7e7aeeed47dc32a724705f546",
+    "before_binary_bytes": 1457488,
+    "before_font": "Noto Sans SC Medium 500 / 4bpp",
+    "before_font_bitmap_bytes": 251584,
+    "after_binary_sha256": "487e7ecf6342812cca442485422698d0e89f2c683a123d325238a4f13f24f456",
+    "after_binary_bytes": 1703448,
+    "font": "Noto Sans SC Regular 400",
+    "font_bpp": 8,
+    "font_bitmap_bytes_by_size": {
+      "20": 113122,
+      "24": 163842,
+      "28": 220111
+    },
+    "font_bitmap_bytes": 497075,
+    "video_rgba_bytes": 8294400,
+    "ui_rgba_bytes": 2457600,
+    "lvgl_draw_buffer_bytes": 245760,
+    "default_window": [
+      1920,
+      1080
+    ],
+    "native_pixel_readback": "PASS",
+    "scaled_filter": "linear",
+    "font_bitmap_delta_bytes": 245491,
+    "binary_delta_bytes": 245960
+  }
+}

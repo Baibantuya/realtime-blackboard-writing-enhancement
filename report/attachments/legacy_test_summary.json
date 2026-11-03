@@ -1,0 +1,7 @@
+{
+  "host_regression_tests": "60 PASS, 0 FAIL, 0 ERROR",
+  "host_tri_fixes_tests": "4 PASS, 0 FAIL",
+  "arm_regression_tests": "60 PASS, 0 FAIL, 0 ERROR (including Native C Q)",
+  "arm_tri_fixes_tests": "4 PASS, 0 FAIL (0.355s)",
+  "all_tests_passed": true
+}

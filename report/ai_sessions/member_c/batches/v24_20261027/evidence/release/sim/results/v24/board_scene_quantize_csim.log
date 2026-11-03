@@ -1,0 +1,8 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../source/tests/test_scene_hls.cpp in debug mode
+   Compiling ../../../../../source/hls/board_scene_quantize.cpp in debug mode
+   Generating csim.exe
+scene native/HLS-compatible testbench errors=0
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

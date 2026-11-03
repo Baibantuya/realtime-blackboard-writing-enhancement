@@ -1,0 +1,126 @@
+{
+  "state": {
+    "folder": "/home/ubuntu/kv260_apps/whiteboard_candidate",
+    "pid": 12500,
+    "process_marker": "/home/ubuntu/kv260_apps/whiteboard_candidate/app/main.py",
+    "hardware_hash": "b73e57106610dd1e91dbf6f46f81048ebe28f84f63e8928472c5c78d0686113d",
+    "started": "2025-10-17 08:29:46"
+  },
+  "alive": true,
+  "fresh_reports": 20,
+  "first_report": {
+    "board_state": "search",
+    "content_updates": 0,
+    "content_faults": 0,
+    "bad_frames": 0,
+    "content_duration_ms": 0,
+    "throughput": {
+      "capture_completed": 5.5,
+      "rectify_completed": 0.0,
+      "restore_completed": 0.0,
+      "quantize_completed": 0.0,
+      "display_submitted": 0.0,
+      "display_presented": 0.0
+    },
+    "scheduler": {
+      "admitted": 0,
+      "completed": 0,
+      "content_deadline_holds": 0,
+      "capacity_skips": 0,
+      "camera_skips": 0,
+      "transform_updates": 0,
+      "geometry_resets": 0,
+      "manual_resets": 0
+    }
+  },
+  "last_reports": [
+    {
+      "board_state": "track",
+      "content_updates": 267,
+      "content_faults": 0,
+      "bad_frames": 0,
+      "content_duration_ms": 23.93549899898062,
+      "throughput": {
+        "capture_completed": 19.5,
+        "rectify_completed": 13.0,
+        "restore_completed": 12.5,
+        "quantize_completed": 13.0,
+        "display_submitted": 13.0,
+        "display_presented": 12.5
+      },
+      "scheduler": {
+        "admitted": 365,
+        "completed": 363,
+        "content_deadline_holds": 73,
+        "capacity_skips": 0,
+        "camera_skips": 0,
+        "transform_updates": 3,
+        "geometry_resets": 0,
+        "manual_resets": 0
+      }
+    },
+    {
+      "board_state": "track",
+      "content_updates": 290,
+      "content_faults": 0,
+      "bad_frames": 0,
+      "content_duration_ms": 23.886939001386054,
+      "throughput": {
+        "capture_completed": 19.5,
+        "rectify_completed": 13.0,
+        "restore_completed": 13.0,
+        "quantize_completed": 12.5,
+        "display_submitted": 12.0,
+        "display_presented": 12.5
+      },
+      "scheduler": {
+        "admitted": 391,
+        "completed": 388,
+        "content_deadline_holds": 75,
+        "capacity_skips": 0,
+        "camera_skips": 0,
+        "transform_updates": 3,
+        "geometry_resets": 0,
+        "manual_resets": 0
+      }
+    }
+  ],
+  "events": [
+    {
+      "event": "startup_begin",
+      "elapsed_ms": 0.0
+    },
+    {
+      "event": "startup_devices_ready",
+      "elapsed_ms": 7423.581176999505
+    },
+    {
+      "event": "startup_geometry_ready",
+      "elapsed_ms": 9062.071794000076
+    },
+    {
+      "event": "startup_sensor_ready",
+      "elapsed_ms": 10858.995205999236
+    },
+    {
+      "event": "startup_first_content",
+      "elapsed_ms": 11159.920675998364
+    }
+  ],
+  "errors": [],
+  "file_count": 81,
+  "python": 35,
+  "root": [
+    "README.md",
+    "app",
+    "config",
+    "drivers",
+    "hardware",
+    "run.sh",
+    "ui"
+  ],
+  "all_payload_hashes_match": true,
+  "extra_files": [],
+  "data": "/home/ubuntu/kv260_apps/whiteboard_candidate.data",
+  "previous_exists": true
+}

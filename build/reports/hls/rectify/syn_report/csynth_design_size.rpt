@@ -1,0 +1,65 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                       | Instructions | Description                                                                            |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                            | 5,956        | After all functions are compiled and linked into a single design                       |
+|               |                            |              |                                                                                        |
+| Unroll/Inline |                            |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                 |   910        | user unroll pragmas are applied                                                        |
+|               | (2) simplification         |   652        | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                 |   616        | user inline pragmas are applied                                                        |
+|               | (4) simplification         |   526        | simplification of applied user inline pragmas                                          |
+|               |                            |              |                                                                                        |
+| Array/Struct  |                            |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition        |   665        | user array partition pragmas are applied                                               |
+|               | (2) simplification         |   649        | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate |   649        | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape          |   648        | apply array reshape pragmas                                                            |
+|               | (5) access patterns        |   689        | array access pattern optmizations                                                      |
+|               |                            |              |                                                                                        |
+| Performance   |                            |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification    |   628        | loop and instruction simplification                                                    |
+|               | (2) parallelization        |   614        | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition        |   609        | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification         |   609        | simplification of design after performance transformations                             |
+|               |                            |              |                                                                                        |
+| HW Transforms |                            |              | After hardware transfomations                                                          |
+|               | (1) lowering               |   635        | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations          |   686        | high level synthesis optimizations                                                     |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++------------------------------+---------------------------+----------------+---------------+--------------+-------------+---------------+
+| Function                     | Location                  | Compile/Link   | Unroll/Inline | Array/Struct | Performance | HW Transforms |
++------------------------------+---------------------------+----------------+---------------+--------------+-------------+---------------+
+| + board_rectify_rgb          | board_rectify_rgb.cpp:129 | 5,956          | 526           | 689          | 609         | 686           |
+|    as_float                  | board_rectify_rgb.cpp:16  |   10           |               |              |             |               |
+|  + fabsf                     | fabsfloat.cpp:7           |  961           |               |              |             |               |
+|   + generic_fabs<float>      | hls_fabs.h:12             |  959           |               |              |             |               |
+|    + generic_copysign<float> | hls_copysign.h:10         |  957           |               |              |             |               |
+|       fp_struct              | x_hls_utils.h:283         |  636 (2 calls) |               |              |             |               |
+|     + to_ieee                | x_hls_utils.h:346         |  303           |               |              |             |               |
+|      + to_float              | x_hls_utils.h:322         |  301           |               |              |             |               |
+|         data                 | x_hls_utils.h:309         |  279           |               |              |             |               |
+|  + render                    | board_rectify_rgb.cpp:114 | 4,825          | 396           | 472          | 452         | 502           |
+|     coordinates              | board_rectify_rgb.cpp:18  | 4,362          | 128           | 121          | 111         | 116           |
+|   + fetch                    | board_rectify_rgb.cpp:67  |  269           | 179           | 257          | 249         |               |
+|      cached_word             | board_rectify_rgb.cpp:44  |   90           |               |              |             |               |
+|      wb_expand565            | rgb565.h:5                |   22           |               |              |             |               |
+|   + pack                     | board_rectify_rgb.cpp:97  |  136           |  59           |  59          |  58         |               |
+|      wb_pack565              | rgb565.h:9                |   40 (4 calls) |               |              |             |               |
+|     write_frame              | board_rectify_rgb.cpp:106 |   26           |  13           |  18          |  17         |               |
++------------------------------+---------------------------+----------------+---------------+--------------+-------------+---------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

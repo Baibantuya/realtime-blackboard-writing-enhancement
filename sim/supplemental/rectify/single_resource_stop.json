@@ -1,0 +1,76 @@
+{
+  "reason": "Stopped for sustained memory growth during initialization after previous 20.5 GiB run exhausted host memory",
+  "time": "2026-10-29T00:17:07.5492036+08:00",
+  "cpu_seconds": 344.3125,
+  "result": "NOT_VALIDATED_RESOURCE_LIMIT",
+  "free_memory_kib": 6167576,
+  "working_set_bytes": 16972673024,
+  "process_chain": [
+    {
+      "Id": 14032,
+      "Parent": 36980,
+      "Name": "xsimk.exe",
+      "Command": "xsim.dir/board_rectify_rgb/xsimk.exe -simmode gui -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=board_rectify_rgb_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -wdb board_rectify_rgb.wdb -simrunnum 0 -socket 56883"
+    },
+    {
+      "Id": 36980,
+      "Parent": 41088,
+      "Name": "xsim.exe",
+      "Command": "\"D:/Xillinx/2025.2/Vivado/bin/unwrapped/win64.o/xsim.exe\"   -testplusarg \"UVM_VERBOSITY=UVM_NONE\" -testplusarg \"UVM_TESTNAME=board_rectify_rgb_test_lib\" -testplusarg \"UVM_TIMEOUT=20000000000000\" --noieeewarnings board_rectify_rgb -tclbatch board_rectify_rgb.tcl"
+    },
+    {
+      "Id": 41088,
+      "Parent": 34528,
+      "Name": "cmd.exe",
+      "Command": "C:\\WINDOWS\\system32\\cmd.exe /c W:\\local6\\rectify\\oneframe\\s\\sim\\verilog\\run_xsim.bat"
+    },
+    {
+      "Id": 34528,
+      "Parent": 41880,
+      "Name": "vitis_hls.exe",
+      "Command": "\"D:/Xillinx/2025.2/Vitis/bin/unwrapped/win64.o/vitis_hls.exe\"   -run tcl W:/local6/rectify/single.tcl -work_dir W:/local6/rectify -nolog"
+    },
+    {
+      "Id": 41880,
+      "Parent": 27552,
+      "Name": "cmd.exe",
+      "Command": " /c D:/Xillinx/2025.2/Vitis/bin/loader -exec vitis_hls -run tcl W:/local6/rectify/single.tcl -work_dir W:/local6/rectify -nolog"
+    },
+    {
+      "Id": 27552,
+      "Parent": 5820,
+      "Name": "vitis-run.exe",
+      "Command": "\"D:/Xillinx/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe\"   --mode hls --tcl single.tcl"
+    },
+    {
+      "Id": 5820,
+      "Parent": 8624,
+      "Name": "cmd.exe",
+      "Command": "C:\\WINDOWS\\system32\\cmd.exe /c \"\"D:\\Xillinx\\2025.2\\Vitis\\bin\\vitis-run.bat\" --mode hls --tcl single.tcl\""
+    },
+    {
+      "Id": 8624,
+      "Parent": 23712,
+      "Name": "pwsh.exe",
+      "Command": "\"C:\\Users\\32898\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe\" -Command \"try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}\n& 'W:\\local6\\run_rectify_single.ps1'\""
+    },
+    {
+      "Id": 23712,
+      "Parent": 3988,
+      "Name": "codex.exe",
+      "Command": "C:\\Users\\32898\\AppData\\Local\\OpenAI\\Codex\\bin\\08d187884f2330d1\\codex.exe -c features.code_mode_host=true app-server --analytics-default-enabled -c features.prefer_mxc=true -c plugins.codex-app-tools@openai-bundled.mcp_servers.codex_app.enabled=true"
+    },
+    {
+      "Id": 3988,
+      "Parent": 15376,
+      "Name": "ChatGPT.exe",
+      "Command": "\"C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1023.6123.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe\" "
+    },
+    {
+      "Id": 15376,
+      "Parent": 15352,
+      "Name": "explorer.exe",
+      "Command": "C:\\WINDOWS\\Explorer.EXE"
+    }
+  ]
+}

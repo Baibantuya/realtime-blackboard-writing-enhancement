@@ -1,0 +1,598 @@
+{
+  "checked_at": "2026-10-28T22:31:52.258661+08:00",
+  "folder": "r5/i",
+  "status": "NUMERIC_TIMING_PASS_REVIEW_PENDING",
+  "timing": {
+    "WNS_ns": 0.011,
+    "TNS_ns": 0.0,
+    "setup_failures": 0.0,
+    "setup_endpoints": 317430.0,
+    "WHS_ns": 0.01,
+    "THS_ns": 0.0,
+    "hold_failures": 0.0,
+    "hold_endpoints": 317357.0,
+    "WPWS_ns": 0.164,
+    "TPWS_ns": 0.0,
+    "pulse_failures": 0.0,
+    "pulse_endpoints": 105410.0
+  },
+  "coverage": {
+    "no_clock": 0,
+    "constant_clock": 0,
+    "pulse_width_clock": 0,
+    "unconstrained_internal_endpoints": 0,
+    "no_input_delay": 4,
+    "no_output_delay": 2,
+    "multiple_clock": 0,
+    "generated_clocks": 0,
+    "loops": 0,
+    "partial_input_delay": 0,
+    "partial_output_delay": 0,
+    "latch_loops": 0
+  },
+  "route": {
+    "routable": 156816,
+    "routed": 156816,
+    "errors": 0
+  },
+  "resources": {
+    "CLB LUTs": 75317.0,
+    "CLB Registers": 92127.0,
+    "Unique Control Sets": 4095.0,
+    "CLB": 14240.0,
+    "Block RAM Tile": 81.5,
+    "URAM": 50.0,
+    "DSPs": 839.0
+  },
+  "processing_clock_periods_ns": {
+    "clk_out1_design_1_clk_wiz_0_0": 5.0,
+    "clk_out2_video_design_1_clk_wiz_0_0": 5.0,
+    "clk_out3_phy_design_1_clk_wiz_0_0": 5.0
+  },
+  "drc": {
+    "DPIP-2": {
+      "severity": "Warning",
+      "count": 387
+    },
+    "DPOP-3": {
+      "severity": "Warning",
+      "count": 581
+    },
+    "DPOP-4": {
+      "severity": "Warning",
+      "count": 113
+    },
+    "DPREG-7": {
+      "severity": "Warning",
+      "count": 14
+    },
+    "PDCN-1569": {
+      "severity": "Warning",
+      "count": 3
+    },
+    "RTSTAT-10": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "AVAL-155": {
+      "severity": "Advisory",
+      "count": 26
+    },
+    "AVAL-156": {
+      "severity": "Advisory",
+      "count": 6
+    },
+    "REQP-1669": {
+      "severity": "Advisory",
+      "count": 26
+    },
+    "REQP-1673": {
+      "severity": "Advisory",
+      "count": 26
+    },
+    "REQP-1678": {
+      "severity": "Advisory",
+      "count": 26
+    },
+    "REQP-1680": {
+      "severity": "Advisory",
+      "count": 2
+    }
+  },
+  "methodology": {
+    "LUTAR-1": {
+      "severity": "Warning",
+      "count": 4
+    },
+    "TIMING-9": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "ULMTCS-1": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "CLKC-56": {
+      "severity": "Advisory",
+      "count": 1
+    },
+    "CLKC-58": {
+      "severity": "Advisory",
+      "count": 1
+    }
+  },
+  "cdc": {
+    "CDC-3": {
+      "severity": "Info",
+      "count": 85
+    },
+    "CDC-6": {
+      "severity": "Warning",
+      "count": 2
+    },
+    "CDC-9": {
+      "severity": "Info",
+      "count": 3
+    },
+    "CDC-15": {
+      "severity": "Warning",
+      "count": 68
+    }
+  },
+  "severe_counts": {
+    "drc": 0,
+    "cdc": 0
+  },
+  "setup30": {
+    "scope": "Only 30 worst reported paths, not all failing paths",
+    "destination_ip_counts": {
+      "board_quantize_rgb_0": 25,
+      "whiteboard_restore_0": 4,
+      "board_rectify_rgb_0": 1
+    },
+    "paths": [
+      {
+        "slack_ns": 0.011,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/or_ln585_reg_60899_pp0_iter25_reg_reg[0]/C",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/opposed_direction_66_reg_3454_reg[1]/D",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.904,
+        "logic_ns": 2.937,
+        "logic_percent": 59.894,
+        "route_ns": 1.967,
+        "levels": "11  (DSP_ALU=2 DSP_C_DATA=2 DSP_OUTPUT=2 LUT2=1 LUT3=1 LUT4=1 LUT6=2)"
+      },
+      {
+        "slack_ns": 0.046,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/and_ln123_3_reg_62837_pp0_iter24_reg_reg[0]/C",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/opposed_direction_50_reg_68983_reg[0]/D",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.9,
+        "logic_ns": 3.208,
+        "logic_percent": 65.476,
+        "route_ns": 1.692,
+        "levels": "14  (DSP_ALU=2 DSP_C_DATA=2 DSP_OUTPUT=2 LUT3=1 LUT4=2 LUT5=2 LUT6=3)"
+      },
+      {
+        "slack_ns": 0.049,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U534/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/opposed_direction_60_reg_3779_reg[1]/D",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.772,
+        "logic_ns": 3.391,
+        "logic_percent": 71.053,
+        "route_ns": 1.381,
+        "levels": "10  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=3 LUT3=1 LUT4=1 LUT5=1)"
+      },
+      {
+        "slack_ns": 0.05,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/and_ln123_3_reg_62837_pp0_iter26_reg_reg[0]/C",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/or_ln327_3_reg_69397_reg[0]/D",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.833,
+        "logic_ns": 3.181,
+        "logic_percent": 65.815,
+        "route_ns": 1.652,
+        "levels": "12  (DSP_ALU=2 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1 LUT5=1 LUT6=4)"
+      },
+      {
+        "slack_ns": 0.076,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_6ns_6ns_6_1_1_U598/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/or_ln368_1_reg_70773_reg[0]/D",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.734,
+        "logic_ns": 2.992,
+        "logic_percent": 63.205,
+        "route_ns": 1.742,
+        "levels": "12  (DSP_A_B_DATA=1 DSP_ALU=2 DSP_OUTPUT=2 LUT4=1 LUT5=3 LUT6=3)"
+      },
+      {
+        "slack_ns": 0.087,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/and_ln123_3_reg_62837_pp0_iter24_reg_reg[0]/C",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/opposed_direction_50_reg_68983_reg[2]/D",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.767,
+        "logic_ns": 3.132,
+        "logic_percent": 65.709,
+        "route_ns": 1.635,
+        "levels": "14  (DSP_ALU=2 DSP_C_DATA=2 DSP_OUTPUT=2 LUT4=2 LUT5=2 LUT6=4)"
+      },
+      {
+        "slack_ns": 0.092,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/and_ln123_3_reg_62837_pp0_iter24_reg_reg[0]/C",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/opposed_direction_50_reg_68983_reg[1]/D",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.854,
+        "logic_ns": 3.107,
+        "logic_percent": 64.016,
+        "route_ns": 1.747,
+        "levels": "14  (DSP_ALU=2 DSP_C_DATA=2 DSP_OUTPUT=2 LUT3=1 LUT4=2 LUT5=2 LUT6=3)"
+      },
+      {
+        "slack_ns": 0.109,
+        "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_746/compose_U0/quiet_buf_U/ram_reg_uram_0/CLK",
+        "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_746/compose_U0/grp_compose_Pipeline_VITIS_LOOP_188_5_VITIS_LOOP_198_6_fu_355/q_1_reg_1930_reg[27]/D",
+        "source_ip": "whiteboard_restore_0",
+        "destination_ip": "whiteboard_restore_0",
+        "data_delay_ns": 4.721,
+        "logic_ns": 2.935,
+        "logic_percent": 62.171,
+        "route_ns": 1.786,
+        "levels": "8  (CARRY8=2 DSP_ALU=1 DSP_C_DATA=1 DSP_OUTPUT=1 LUT2=1 LUT4=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.11,
+        "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_746/compose_U0/quiet_buf_U/ram_reg_uram_0/CLK",
+        "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_746/compose_U0/grp_compose_Pipeline_VITIS_LOOP_188_5_VITIS_LOOP_198_6_fu_355/q_1_reg_1930_reg[22]/D",
+        "source_ip": "whiteboard_restore_0",
+        "destination_ip": "whiteboard_restore_0",
+        "data_delay_ns": 4.72,
+        "logic_ns": 2.933,
+        "logic_percent": 62.142,
+        "route_ns": 1.787,
+        "levels": "8  (CARRY8=2 DSP_ALU=1 DSP_C_DATA=1 DSP_OUTPUT=1 LUT2=1 LUT4=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.11,
+        "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_746/compose_U0/quiet_buf_U/ram_reg_uram_0/CLK",
+        "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_746/compose_U0/grp_compose_Pipeline_VITIS_LOOP_188_5_VITIS_LOOP_198_6_fu_355/q_1_reg_1930_reg[31]/D",
+        "source_ip": "whiteboard_restore_0",
+        "destination_ip": "whiteboard_restore_0",
+        "data_delay_ns": 4.72,
+        "logic_ns": 2.934,
+        "logic_percent": 62.163,
+        "route_ns": 1.786,
+        "levels": "8  (CARRY8=2 DSP_ALU=1 DSP_C_DATA=1 DSP_OUTPUT=1 LUT2=1 LUT4=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.111,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_6ns_6ns_6_1_1_U598/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/support_reg_70698_pp0_iter31_reg_reg[7]_srl2/D",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.513,
+        "logic_ns": 2.734,
+        "logic_percent": 60.585,
+        "route_ns": 1.779,
+        "levels": "10  (DSP_A_B_DATA=1 DSP_ALU=2 DSP_OUTPUT=2 LUT5=3 LUT6=2)"
+      },
+      {
+        "slack_ns": 0.114,
+        "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_746/compose_U0/quiet_buf_U/ram_reg_uram_0/CLK",
+        "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_746/compose_U0/grp_compose_Pipeline_VITIS_LOOP_188_5_VITIS_LOOP_198_6_fu_355/q_1_reg_1930_reg[20]/D",
+        "source_ip": "whiteboard_restore_0",
+        "destination_ip": "whiteboard_restore_0",
+        "data_delay_ns": 4.716,
+        "logic_ns": 2.933,
+        "logic_percent": 62.194,
+        "route_ns": 1.783,
+        "levels": "8  (CARRY8=2 DSP_ALU=1 DSP_C_DATA=1 DSP_OUTPUT=1 LUT2=1 LUT4=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.119,
+        "source": "design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/MAXIGP2ACLK",
+        "destination": "design_1_i/board_rectify_rgb_0/inst/control_s_axi_U/int_hint_reg[7]/D",
+        "source_ip": "zynq_ultra_ps_e_0",
+        "destination_ip": "board_rectify_rgb_0",
+        "data_delay_ns": 4.504,
+        "logic_ns": 0.874,
+        "logic_percent": 19.405,
+        "route_ns": 3.63,
+        "levels": "1  (LUT3=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[0]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[10]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[11]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[12]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[13]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[14]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[15]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[16]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[17]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[18]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[19]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[1]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[20]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[21]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[22]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[23]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      },
+      {
+        "slack_ns": 0.12,
+        "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_4ns_4s_4_1_1_U502/dout/DSP_C_DATA_INST/CLK",
+        "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_541_5_fu_380/add_ln293_8_reg_68968_reg/DSP_OUTPUT_INST/ALU_OUT[24]",
+        "source_ip": "board_quantize_rgb_0",
+        "destination_ip": "board_quantize_rgb_0",
+        "data_delay_ns": 4.719,
+        "logic_ns": 3.238,
+        "logic_percent": 68.616,
+        "route_ns": 1.481,
+        "levels": "8  (DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT5=1 LUT6=1)"
+      }
+    ]
+  },
+  "board_test": "NOT_RUN",
+  "cdc_signoff": "REVIEW_PENDING",
+  "bitstream_export": "NOT_RUN",
+  "limitations": "Numerical routed checks do not prove opaque vendor CDC behavior, Linux driver compatibility or video performance. Inspect tool exit and sealed input records separately.",
+  "artifacts": {
+    "r5/i/before_implementation_clocks.rpt": {
+      "sha256": "aaa6f9cfd3cb68ee8eb93e171432200637c8b8904de4f3cf74cdedeed501e23e",
+      "bytes": 9885
+    },
+    "r5/i/bus_skew.rpt": {
+      "sha256": "1d672ad75178865d9f87f4df8c40b672284da75f915d60788ec6f8de6699a8cc",
+      "bytes": 206900
+    },
+    "r5/i/cdc.rpt": {
+      "sha256": "6866becc71f9e7cdb751da091e1c1da1ba9c0c8431e39e97165fd66313ba5196",
+      "bytes": 80909
+    },
+    "r5/i/clocks.rpt": {
+      "sha256": "5125f85d497cd9a525a77edd937eb1efba06c735eda72da121357be680b75021",
+      "bytes": 8873
+    },
+    "r5/i/control_sets.rpt": {
+      "sha256": "bc2e469c5b0c2a0623673a08537659a2bf022d7b00b0b2e614cafb7a29b5eb7d",
+      "bytes": 3712924
+    },
+    "r5/i/drc.rpt": {
+      "sha256": "bb79191562fa09071da7bec95c55d21c51d105b5ea42ba9a54852de001548466",
+      "bytes": 872583
+    },
+    "r5/i/hold30.rpt": {
+      "sha256": "7891e503d2e0c98ae61e29f4a2880b447e738df44e024997dd20b49366fc418e",
+      "bytes": 198639
+    },
+    "r5/i/interactions.rpt": {
+      "sha256": "44fd732f29841a6136ab9a227c84e29f899e964e6a1d957ebbb49cddb18699b9",
+      "bytes": 9191
+    },
+    "r5/i/methodology.rpt": {
+      "sha256": "2fe5d086474310cd4f047adc1c09cb543dc07af78e096cbdf6f4b7a331b47a18",
+      "bytes": 17857
+    },
+    "r5/i/post_opt_drc.rpt": {
+      "sha256": "e61995804f5c5d6d45e2ac5a919784f1d07ff428dd58e0a8baeac44b693f247e",
+      "bytes": 861563
+    },
+    "r5/i/post_place_timing.rpt": {
+      "sha256": "4e9bf2f160e0b1b3e425d9ee5eae6cc5a050db39f42e760ea1e7d272ee615b03",
+      "bytes": 610524
+    },
+    "r5/i/route_status.rpt": {
+      "sha256": "d13373646e788338ae33d053285928c4b406e126858a911e7175e8469694c973",
+      "bytes": 651
+    },
+    "r5/i/routed.dcp": {
+      "sha256": "7dbdb7ec751691b004be3fb1961a2708cea5e4c52f3f1d2d9a1a85fa00d53f21",
+      "bytes": 92796414
+    },
+    "r5/i/setup30.rpt": {
+      "sha256": "2f93c0a1ecd89d2248cca0287ebfc9305aafe7e5d9edd8b2acc4998859893fda",
+      "bytes": 393970
+    },
+    "r5/i/stages.tsv": {
+      "sha256": "a25d917347eb6ddb0958f4c068ee951378b0b736d72f5d08cb1076e9eecc3a8c",
+      "bytes": 495
+    },
+    "r5/i/timing.rpt": {
+      "sha256": "ecdb93bb32dc2edb9d43fcf0cd1749d3f174d69025888169b8330260a137156d",
+      "bytes": 609250
+    },
+    "r5/i/timing_constraints.xdc": {
+      "sha256": "1a37df5380f40e0b532c162f6d8b5a531ef672f8a0ab6633bae146db14dbd17f",
+      "bytes": 69155
+    },
+    "r5/i/utilization.rpt": {
+      "sha256": "3cf1329195b7e4e2898b02a2f9bf05c37778f0dd97e6c8a05cb823df816ce930",
+      "bytes": 16631
+    },
+    "r5/i/utilization_hierarchy.rpt": {
+      "sha256": "58455f878fce38db47b1f5c6aeaf554d49695eb5ee5928cb56c1a32f330c97b1",
+      "bytes": 9687
+    }
+  }
+}

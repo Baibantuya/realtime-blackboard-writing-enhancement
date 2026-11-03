@@ -1,0 +1,75 @@
+{
+  "status": "PASS_REAL_HWH_AND_GENERATED_MOCK_ACCESS",
+  "checked_at": "2026-10-29T00:12:00.500050+08:00",
+  "rows": [
+    {
+      "version": "v24",
+      "ip": "board_rectify_rgb_0",
+      "registers": 15,
+      "baseline_wrong_offsets": 14,
+      "candidate_wrong_offsets": 0,
+      "generated_register_contracts_checked": 14,
+      "wide_registers_checked": 0,
+      "split_64_pointer_pairs_checked": 0
+    },
+    {
+      "version": "v24",
+      "ip": "board_quantize_rgb_0",
+      "registers": 20,
+      "baseline_wrong_offsets": 19,
+      "candidate_wrong_offsets": 0,
+      "generated_register_contracts_checked": 19,
+      "wide_registers_checked": 0,
+      "split_64_pointer_pairs_checked": 0
+    },
+    {
+      "version": "v24",
+      "ip": "whiteboard_restore_0",
+      "registers": 35,
+      "baseline_wrong_offsets": 34,
+      "candidate_wrong_offsets": 0,
+      "generated_register_contracts_checked": 34,
+      "wide_registers_checked": 0,
+      "split_64_pointer_pairs_checked": 7
+    },
+    {
+      "version": "r5",
+      "ip": "board_rectify_rgb_0",
+      "registers": 15,
+      "baseline_wrong_offsets": 14,
+      "candidate_wrong_offsets": 0,
+      "generated_register_contracts_checked": 14,
+      "wide_registers_checked": 0,
+      "split_64_pointer_pairs_checked": 0
+    },
+    {
+      "version": "r5",
+      "ip": "board_quantize_rgb_0",
+      "registers": 20,
+      "baseline_wrong_offsets": 19,
+      "candidate_wrong_offsets": 0,
+      "generated_register_contracts_checked": 19,
+      "wide_registers_checked": 0,
+      "split_64_pointer_pairs_checked": 0
+    },
+    {
+      "version": "r5",
+      "ip": "whiteboard_restore_0",
+      "registers": 35,
+      "baseline_wrong_offsets": 34,
+      "candidate_wrong_offsets": 0,
+      "generated_register_contracts_checked": 34,
+      "wide_registers_checked": 0,
+      "split_64_pointer_pairs_checked": 7
+    }
+  ],
+  "board_test": "OUT_OF_SCOPE",
+  "scope": "Actual HWH offsets/width/access and generated Python read/write addresses; MockIP only, no PYNQ or hardware access.",
+  "input_sha256": {
+    "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\imx219-fusion-v24.hwh": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\v\\b\\design_1\\hw_handoff\\design_1.hwh": "8c1f42ee2b24d1efae7c06b84ad4edfbc69dc466138f7c91d875694923a24792",
+    "D:\\2026嵌赛\\v24_2025_2\\local6\\codegen\\before.py": "8925a02b16d21eeed1bc8fd2ed8613606e845c817d34bc948f6c1ef1b36011a0",
+    "D:\\2026嵌赛\\v24_2025_2\\local6\\codegen\\codegen_pynq_driver.py": "d3926609dd0b5ee219e4aef9e1bddd030953ec6affa3d6887755ba16e627c379",
+    "D:\\2026嵌赛\\v24_2025_2\\local6\\codegen\\audit_real_contracts.py": "a9d4adf97c667d85228b2737c771f8ee7412440e1bdc9c143e0ead1dcca7a028"
+  }
+}

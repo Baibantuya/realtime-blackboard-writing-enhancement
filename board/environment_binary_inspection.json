@@ -1,0 +1,21 @@
+{
+  "board/runtime/hardware/wb_frame_pool.ko": {
+    "elf_machine": 183,
+    "vermagic": [
+      "5.15.0-1027-xilinx-zynqmp SMP mod_unload modversions aarch64"
+    ],
+    "sha256": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca"
+  },
+  "board/runtime/hardware/wb_rgb565_format.ko": {
+    "elf_machine": 183,
+    "vermagic": [
+      "5.15.0-1027-xilinx-zynqmp SMP mod_unload modversions aarch64"
+    ],
+    "sha256": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c"
+  },
+  "board/runtime/ui/libboard_ps_ui.so": {
+    "elf_machine": 183,
+    "vermagic": [],
+    "sha256": "bcada0570a63f4d2ff739a9fcfde98fb81884c20fbc8c384fbf0384d30e5b0aa"
+  }
+}

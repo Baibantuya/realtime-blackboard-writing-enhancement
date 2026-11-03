@@ -1,0 +1,47 @@
+{
+  "record_date": "2026-11-03",
+  "board": "AMD Kria KV260 / K26",
+  "camera": "Raspberry Pi Camera Module V2 / Sony IMX219",
+  "display": "Orange Pi portable display",
+  "os": {
+    "value": "Ubuntu 22.04",
+    "status": "historical_user_confirmation"
+  },
+  "pynq": {
+    "value": "3.0.1",
+    "status": "historical_user_confirmation"
+  },
+  "kernel_target": {
+    "value": "5.15.0-1027-xilinx-zynqmp",
+    "status": "inspected_vermagic_of_both_packaged_modules"
+  },
+  "architecture": {
+    "value": "aarch64",
+    "status": "ELF_e_machine_183_in_both_modules_and_ui_library"
+  },
+  "python_executable": {
+    "value": "/usr/local/share/pynq-venv/bin/python3",
+    "status": "deployment_configuration"
+  },
+  "python_version": null,
+  "numpy_version": null,
+  "opencv_version": null,
+  "os_image_url": null,
+  "os_image_sha256": null,
+  "current_board_probe": "NOT_RUN",
+  "vivado_2025_2_board_run": "NOT_RUN",
+  "source_chat": {
+    "title": "优化UI叠层",
+    "thread_id": "01a0f813-493c-71b0-9b02-e764a034d8f7",
+    "turn_id": "01a0f813-56b1-7bd3-bccf-18f8419d5f7e",
+    "role": "user",
+    "excerpt": "系统为 Ubuntu 22.04＋PYNQ 3.0.1。"
+  },
+  "other_chats_reviewed": [
+    "整理PYNQ提交材料",
+    "整理 AI Sessions",
+    "视频拍摄和制作"
+  ],
+  "config": "runtime/config/deployment.json",
+  "binary_inspection": "environment_binary_inspection.json"
+}

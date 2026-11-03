@@ -1,0 +1,27 @@
+{
+  "before_binary_sha256": "84b57956f2ab2b1074f405e34974ee60a2fb83a7e7aeeed47dc32a724705f546",
+  "before_binary_bytes": 1457488,
+  "before_font": "Noto Sans SC Medium 500 / 4bpp",
+  "before_font_bitmap_bytes": 251584,
+  "after_binary_sha256": "487e7ecf6342812cca442485422698d0e89f2c683a123d325238a4f13f24f456",
+  "after_binary_bytes": 1703448,
+  "font": "Noto Sans SC Regular 400",
+  "font_bpp": 8,
+  "font_bitmap_bytes_by_size": {
+    "20": 113122,
+    "24": 163842,
+    "28": 220111
+  },
+  "font_bitmap_bytes": 497075,
+  "video_rgba_bytes": 8294400,
+  "ui_rgba_bytes": 2457600,
+  "lvgl_draw_buffer_bytes": 245760,
+  "default_window": [
+    1920,
+    1080
+  ],
+  "native_pixel_readback": "PASS",
+  "scaled_filter": "linear",
+  "font_bitmap_delta_bytes": 245491,
+  "binary_delta_bytes": 245960
+}

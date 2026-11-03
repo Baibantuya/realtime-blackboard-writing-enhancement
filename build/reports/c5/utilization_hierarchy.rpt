@@ -1,0 +1,73 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Wed Oct 28 18:23:40 2026
+| Host         : 白板涂鸦 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 3 -file W:/impl5/utilization_hierarchy.rpt
+| Design       : design_1_wrapper
+| Device       : xck26-sfvc784-2LV-c
+| Speed File   : -2LV
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------+------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+|          Instance          |                        Module                        | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | URAM | DSP Blocks |
++----------------------------+------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+| design_1_wrapper           |                                                (top) |      75317 |      67181 |    4530 | 3606 | 92127 |     63 |     37 |   50 |        839 |
+|   (design_1_wrapper)       |                                                (top) |          0 |          0 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
+|   design_1_i               |                                             design_1 |      75317 |      67181 |    4530 | 3606 | 92127 |     63 |     37 |   50 |        839 |
+|     whiteboard_restore_0   |                      design_1_whiteboard_restore_0_0 |      16378 |      15421 |      56 |  901 | 21763 |     42 |     10 |   35 |        190 |
+|       inst                 |   design_1_whiteboard_restore_0_0_whiteboard_restore |      16378 |      15421 |      56 |  901 | 21763 |     42 |     10 |   35 |        190 |
+|     ae_gpio                |                                   design_1_ae_gpio_0 |         91 |         91 |       0 |    0 |   318 |      0 |      0 |    0 |          0 |
+|       U0                   |                          design_1_ae_gpio_0_axi_gpio |         91 |         91 |       0 |    0 |   318 |      0 |      0 |    0 |          0 |
+|     ae_status              |                                 design_1_ae_status_0 |        263 |        263 |       0 |    0 |   159 |      0 |      0 |    0 |          0 |
+|       inst                 |                  design_1_ae_status_0_axis_ae_status |        263 |        263 |       0 |    0 |   159 |      0 |      0 |    0 |          0 |
+|     axi_iic_0              |                                 design_1_axi_iic_0_0 |        379 |        361 |       0 |   18 |   374 |      0 |      0 |    0 |          0 |
+|       U0                   |                         design_1_axi_iic_0_0_axi_iic |        379 |        361 |       0 |   18 |   374 |      0 |      0 |    0 |          0 |
+|     axi_smc                |                                   design_1_axi_smc_0 |        534 |        354 |     176 |    4 |   748 |      0 |      0 |    0 |          0 |
+|       inst                 |                           design_1_axi_smc_0_bd_afc3 |        534 |        354 |     176 |    4 |   748 |      0 |      0 |    0 |          0 |
+|     board_quantize_rgb_0   |                      design_1_board_quantize_rgb_0_0 |      18024 |      16543 |     260 | 1221 | 15564 |      0 |      2 |    6 |        546 |
+|       inst                 | design_1_board_quantize_rgb_0_0_board_scene_quantize |      18024 |      16543 |     260 | 1221 | 15564 |      0 |      2 |    6 |        546 |
+|     board_rectify_rgb_0    |                       design_1_board_rectify_rgb_0_0 |       8967 |       8450 |     136 |  381 | 12996 |      4 |      4 |    0 |         49 |
+|       inst                 |     design_1_board_rectify_rgb_0_0_board_rectify_rgb |       8967 |       8450 |     136 |  381 | 12996 |      4 |      4 |    0 |         49 |
+|     debug_bridge_xvc       |                          design_1_debug_bridge_xvc_0 |        278 |        278 |       0 |    0 |   406 |      0 |      0 |    0 |          0 |
+|       inst                 |                  design_1_debug_bridge_xvc_0_bd_0411 |        278 |        278 |       0 |    0 |   406 |      0 |      0 |    0 |          0 |
+|     mipi_csi2_rx_subsyst_0 |                    design_1_mipi_csi2_rx_subsyst_0_0 |       2176 |       2118 |      56 |    2 |  3234 |      0 |      0 |    1 |          0 |
+|       inst                 |            design_1_mipi_csi2_rx_subsyst_0_0_bd_d10d |       2176 |       2118 |      56 |    2 |  3234 |      0 |      0 |    1 |          0 |
+|     ps8_0_axi_periph       |                          design_1_ps8_0_axi_periph_0 |        665 |        596 |       0 |   69 |   749 |      0 |      0 |    0 |          0 |
+|       s00_couplers         |                             s00_couplers_imp_1A7ZMW4 |        424 |        355 |       0 |   69 |   610 |      0 |      0 |    0 |          0 |
+|       xbar                 |                 design_1_ps8_0_axi_periph_imp_xbar_0 |        241 |        241 |       0 |    0 |   139 |      0 |      0 |    0 |          0 |
+|     ps8_0_axi_periph_1     |                        design_1_ps8_0_axi_periph_1_0 |       1432 |       1347 |      40 |   45 |  1488 |      0 |      0 |    0 |          0 |
+|       s00_couplers         |                             s00_couplers_imp_1VXTOR1 |       1220 |       1135 |      40 |   45 |  1349 |      0 |      0 |    0 |          0 |
+|       xbar                 |               design_1_ps8_0_axi_periph_1_imp_xbar_0 |        212 |        212 |       0 |    0 |   139 |      0 |      0 |    0 |          0 |
+|     rectify_mem            |                               design_1_rectify_mem_0 |       4396 |       3263 |    1084 |   49 |  6371 |      0 |      0 |    0 |          0 |
+|       inst                 |                       design_1_rectify_mem_0_bd_6758 |       4396 |       3263 |    1084 |   49 |  6371 |      0 |      0 |    0 |          0 |
+|     rectify_monitor        |                           design_1_rectify_monitor_0 |        304 |        304 |       0 |    0 |   788 |      0 |      0 |    0 |          0 |
+|       inst                 |        design_1_rectify_monitor_0_wb_rectify_monitor |        304 |        304 |       0 |    0 |   788 |      0 |      0 |    0 |          0 |
+|     restore_mem            |                               design_1_restore_mem_0 |       7434 |       5530 |    1834 |   70 | 10913 |      0 |      0 |    0 |          0 |
+|       inst                 |                       design_1_restore_mem_0_bd_39fa |       7434 |       5530 |    1834 |   70 | 10913 |      0 |      0 |    0 |          0 |
+|     rst_clk_wiz_0_100M     |                        design_1_rst_clk_wiz_0_100M_0 |         16 |         15 |       0 |    1 |   115 |      0 |      0 |    0 |          0 |
+|       (U0)                 |         design_1_rst_clk_wiz_0_100M_0_proc_sys_reset |          0 |          0 |       0 |    0 |    83 |      0 |      0 |    0 |          0 |
+|     v_demosaic_0           |                              design_1_v_demosaic_0_0 |       3424 |       3204 |       0 |  220 |  4665 |      2 |      2 |    8 |          8 |
+|       inst                 |                   design_1_v_demosaic_0_0_v_demosaic |       3424 |       3204 |       0 |  220 |  4665 |      2 |      2 |    8 |          8 |
+|     v_frmbuf_wr_0          |                             design_1_v_frmbuf_wr_0_0 |       2919 |       2665 |       0 |  254 |  3514 |      2 |      0 |    0 |          1 |
+|       inst                 |                 design_1_v_frmbuf_wr_0_0_v_frmbuf_wr |       2919 |       2665 |       0 |  254 |  3514 |      2 |      0 |    0 |          1 |
+|     v_gamma_lut_0          |                             design_1_v_gamma_lut_0_0 |        694 |        566 |      96 |   32 |   617 |      3 |      0 |    0 |          0 |
+|       inst                 |                 design_1_v_gamma_lut_0_0_v_gamma_lut |        694 |        566 |      96 |   32 |   617 |      3 |      0 |    0 |          0 |
+|     v_proc_ss_csc          |                             design_1_v_proc_ss_csc_0 |       2351 |       2251 |       0 |  100 |  3059 |      0 |      7 |    0 |          9 |
+|       inst                 |                     design_1_v_proc_ss_csc_0_bd_039a |       2351 |       2251 |       0 |  100 |  3059 |      0 |      7 |    0 |          9 |
+|     v_proc_ss_scaler       |                          design_1_v_proc_ss_scaler_0 |       4618 |       3588 |     792 |  238 |  4251 |     10 |     12 |    0 |         36 |
+|       inst                 |                  design_1_v_proc_ss_scaler_0_bd_c7bd |       4618 |       3588 |     792 |  238 |  4251 |     10 |     12 |    0 |         36 |
++----------------------------+------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_HOST_UI_SMOKE",
+  "architecture": "x86_64",
+  "library_sha256": "fbd139dec94ee4bb743d52444cf279375312a8831a99c1ef72c2a5f8c1cbbfea",
+  "checks": [
+    "mode_0_render",
+    "mode_1_render",
+    "mode_2_render",
+    "previous_next_command_queue",
+    "idle_autohide",
+    "up_down_navigation",
+    "rgb565_copy_exact"
+  ],
+  "board_test": "NOT_RUN",
+  "limits": "Headless x86 Linux render/API test; not ARM binary or real input/display validation."
+}

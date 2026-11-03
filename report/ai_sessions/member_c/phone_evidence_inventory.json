@@ -1,0 +1,50 @@
+[
+  {
+    "source": "model_integration\\v16_sidecar_20261017\\phone_miss_analysis_08\\漏检原因分析.md",
+    "copy": "sources/user_models/phone_miss_analysis.md",
+    "source_sha256": "ae314b7ac5ab1c4352c6c47ac025c05e7bbd087f8d94e2907cf485143e84df96",
+    "copy_sha256": "ae314b7ac5ab1c4352c6c47ac025c05e7bbd087f8d94e2907cf485143e84df96",
+    "redactions": 0,
+    "status": "read_and_copied"
+  },
+  {
+    "source": "model_integration\\v16_sidecar_20261017\\phone_miss_analysis_08\\summary.json",
+    "copy": "evidence/model_detection/phone/summary.json",
+    "source_sha256": "25e8898f0be77db2ed205797f30667a8531852a8050de5eebc1330c7019e64e7",
+    "copy_sha256": "25e8898f0be77db2ed205797f30667a8531852a8050de5eebc1330c7019e64e7",
+    "redactions": 0,
+    "status": "read_and_copied"
+  },
+  {
+    "source": "model_integration\\v16_sidecar_20261017\\phone_miss_analysis_08\\peripheral_context_control.json",
+    "copy": "evidence/model_detection/phone/peripheral_context_control.json",
+    "source_sha256": "844839f1e4e101f23f3854d6e85c2b5474435f4f83c5da75daf3ad7992895a7d",
+    "copy_sha256": "844839f1e4e101f23f3854d6e85c2b5474435f4f83c5da75daf3ad7992895a7d",
+    "redactions": 0,
+    "status": "read_and_copied"
+  },
+  {
+    "source": "model_integration\\v16_sidecar_20261017\\phone_miss_analysis_08\\verification.txt",
+    "copy": "evidence/model_detection/phone/verification.txt",
+    "source_sha256": "13d1a1bcb244ae17b613d9ffa0eb2588253cb94f2029e9db4d2ab3b9d46d178d",
+    "copy_sha256": "13d1a1bcb244ae17b613d9ffa0eb2588253cb94f2029e9db4d2ab3b9d46d178d",
+    "redactions": 0,
+    "status": "read_and_copied"
+  },
+  {
+    "source": "model_integration\\v16_sidecar_20261017\\phone_miss_analysis_08\\analysis_manifest.json",
+    "copy": "evidence/model_detection/phone/analysis_manifest.json",
+    "source_sha256": "bbd1dbd377f7febb97688edd3d6c4a05f5ea3bfb5f169c11e4aa4dbbd48b6bb8",
+    "copy_sha256": "bbd1dbd377f7febb97688edd3d6c4a05f5ea3bfb5f169c11e4aa4dbbd48b6bb8",
+    "redactions": 0,
+    "status": "read_and_copied"
+  },
+  {
+    "source": "model_integration\\v16_sidecar_20261017\\phone_miss_analysis_08\\per_hand.csv",
+    "copy": "evidence/model_detection/phone/per_hand.csv",
+    "source_sha256": "11c5e13c1b275e212196775a58cde01e675081591eb5e3a35d5a9431e973ab55",
+    "copy_sha256": "0d609a028abb77e4cd65bd5eee1b727b7b5f8c3ce3f58667394b0fb1aa20c190",
+    "redactions": 0,
+    "status": "read_and_copied"
+  }
+]

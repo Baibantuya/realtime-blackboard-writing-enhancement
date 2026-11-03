@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Taipei",
+  "archive": "D:\\2026嵌赛\\实时板书增强系统\\工作空间\\A和B发送的资料\\V22\\v22_ps_runtime_v2_r4_20261020.zip",
+  "archive_size": 1514967469,
+  "archive_sha256": "0f61f9865931e94cd7571236a4ac45a3dbe03ba6cfdca72bb41b3e8bd5a78eed",
+  "release": "v22_ps_runtime_v2_r4_20261020",
+  "files": [
+    {
+      "path": "release_identity.json",
+      "size": 995,
+      "sha256": "9d2ae21ca6673d28e782311bc86bd87063c2ad6b23a9bc6d0882300243fa79c9",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "MANIFEST.json",
+      "size": 117345,
+      "sha256": "34d1bf6bb2e9613269c2d2e2adf0a62a24af58d60630a107a14ac93341ac902d",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "size": 10141,
+      "sha256": "f68445c6bd58809743242615db242d22d6ef2cad22926c1335ee2a0a1d0ed23c",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "size": 7377,
+      "sha256": "1a01fc174863224d6cc86c6291843a0668f4ebd37d9f1ac8f9e622c09118669a",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "size": 1425,
+      "sha256": "1273adfabae8b44b72e4c954b8a3b472f6213dac255e887c08e85c2fd947cda2",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "tools/restart_ps_only.py",
+      "size": 2031,
+      "sha256": "13307832658342830adbf8c50d471f81ccb3c1a709116dbb9cc828be2161ce16",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/run.sh",
+      "size": 146,
+      "sha256": "f9a9eaaf7b0eb19cfb4cfb87cd9768e4835b5b599bb1147f3961fd273e9b4dfe",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/kv260_overlay.py",
+      "size": 4404,
+      "sha256": "784ee1d809b59b66693e8a58874d0fe33444186f7ee55adb63b879769ff1d71f",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/kv260_board_run.py",
+      "size": 12157,
+      "sha256": "12f9e8ae3abe7ae96b4777074db664f261d2cb656b4baa2b526febb8e729536a",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/deployment.json",
+      "size": 1604,
+      "sha256": "3f0219609c8402b5acbc55c4f3b526f1d925d540ccc704df4cde47a7fee63d5b",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/hardware_abi.py",
+      "size": 2498,
+      "sha256": "1f230b153d982a4141ab7f278f05ef61da3048902ffd5c324f9da98a1a9647b4",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/whiteboard_ip.py",
+      "size": 6042,
+      "sha256": "d58b68dc5dfbd3ea906c5126233ed8db6f79b29949453bc2a257c6dc713d3fc9",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/ensure_kernel.py",
+      "size": 1947,
+      "sha256": "6561c0667b11423559d03b8b3eb3ac50119be2a02409126432281cac1fd83730",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/verify_runtime.py",
+      "size": 1635,
+      "sha256": "fe482bd860902f67c74b9963a31eb5897bc9589161539686731d9a9281a1cb93",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/verify_manifest.py",
+      "size": 1681,
+      "sha256": "8bcf850db893c585c2cbfddf566537fa8dd5379130287cfbcd26af61d3a9042c",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/run_ps_runtime_v2.py",
+      "size": 81,
+      "sha256": "f35dc062646f0fa125b509c31bff3a2d6a048ef1ee7a6798042022b223e2f979",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/ps_runtime_v2/__main__.py",
+      "size": 2521,
+      "sha256": "8014a00124c0da6427fd2d92267d12f7cf3fa7f39f5701e42546b829328d17e8",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/ps_runtime_v2/board.py",
+      "size": 16024,
+      "sha256": "8098bd884ff21cf5db3a82039b0d288b6c5523decdc4559afe08a1f93e1f4cba",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/scene_stage.py",
+      "size": 7797,
+      "sha256": "41ad43ff97b1936e7902caa1886c2bc51bf7a1b4377e83d023069832354c986d",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/baseline_stages.py",
+      "size": 7346,
+      "sha256": "fad15077fb1fef3a98069004c1c5df3395c89e9e55c1858b610ec821cf9d2fb9",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/shared_scanout.py",
+      "size": 14280,
+      "sha256": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/system_manifest.json",
+      "size": 20487,
+      "sha256": "ff2d6994872b2f92adbff8bf5c3b2faa942623701d1cddff5d22f7b7c6385211",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/bundle.json",
+      "size": 18553,
+      "sha256": "231a68b554b849b52d880823d50f4ad84b7d23266b2062175af06d04fe841635",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "evidence/r4_validation.json",
+      "size": 562,
+      "sha256": "bb8e9126a0caada5dff50dcb7005cd4ae194848f13202e27f5923e284511a8de",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "evidence/VALIDATION.md",
+      "size": 1757,
+      "sha256": "1e4137eb29553414429410194b7f1943ba01a0d3841b8ee9414cbb007bc53c61",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "evidence/board_identity.json",
+      "size": 3990,
+      "sha256": "c526742c273a419859693e3ab26281d2b7bb4374c11b439fb602dcee12b2ff30",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "evidence/hardware_export.json",
+      "size": 4791,
+      "sha256": "102a6b9e3b4bb1eef1bad3cc448b7010a0a6ad786934308cc0db64063f631fa4",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/imx219-fusion-v22.bit",
+      "size": 7797812,
+      "sha256": "5fa20f6bcb6ed323ee2acc7cccdf105975dce2d789c29ccefaca85a7812a6888",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/imx219-fusion-v22.bit.bin",
+      "size": 7797692,
+      "sha256": "2643c20c349eab6fe71355b1080180e559dd9f6d00be7845b13037c75069c1d0",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/imx219-fusion-v22.hwh",
+      "size": 1526498,
+      "sha256": "9cae7d1534d52a331424aa5a891e501851e05f6a65c9a1ec6c2f5946f9ca5eca",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/imx219-fusion-v22.dtbo",
+      "size": 15540,
+      "sha256": "eceb74c2a7bf6d1512ef359c748fe51508569243cc106bd3f9d99ff022e83937",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/wb_frame_pool.ko",
+      "size": 422384,
+      "sha256": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+      "status": "copied_not_executed"
+    },
+    {
+      "path": "board/runtime/wb_rgb565_format.ko",
+      "size": 445480,
+      "sha256": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+      "status": "copied_not_executed"
+    }
+  ],
+  "scope": "Allowlisted byte copies and outer hash; no full MANIFEST or inner archive revalidation."
+}

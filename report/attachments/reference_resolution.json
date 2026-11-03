@@ -1,0 +1,787 @@
+{
+  "date": "2026-11-03",
+  "initial_historical_relative_references": 93,
+  "repaired": 65,
+  "added_files": 12,
+  "remaining_original_references": 28,
+  "interpretation": "Counts are historical hyperlinks, not mandatory submission attachments. Current report evidence is indexed separately.",
+  "repairs": [
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old_target": "报告模板/_build/word_report_v24_20261026/model_scope_change.json",
+      "new_target": "../word/model_scope_change.json",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/word/model_scope_change.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old_target": "报告模板/_build/word_report_v24_20261026/qa_model_scope.md",
+      "new_target": "../word/qa_model_scope.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/word/qa_model_scope.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old_target": "../../v24_2025_2/readme.md",
+      "new_target": "../migration/README.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/README.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old_target": "pynq_sync_v24_20261027.md",
+      "new_target": "pynq_sync.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old_target": "video_sync_v24_20261027.md",
+      "new_target": "../../../../../../attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "resolved_file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old_target": "../docs/V24最终素材核验与Word报告交接_20261026.md",
+      "new_target": "v24_word_handoff.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/v24_word_handoff.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old_target": "../../v24_2025_2/phase2_notes_20261027.md",
+      "new_target": "../migration/phase2_notes_20261027.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_notes_20261027.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old_target": "../../v24_2025_2/phase2_validation.json",
+      "new_target": "../migration/phase2_validation.json",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_validation.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "pynq_submission_workspace/readme.md",
+      "new_target": "../../../../../../attachments/history/readme_0d63f2ae.md",
+      "resolved_file": "report/attachments/history/readme_0d63f2ae.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "pynq_submission_workspace/evidence/20261022/competition_section_3_3.txt",
+      "new_target": "../../../../../../../skill/evidence/evidence/20261022/competition_section_3_3.txt",
+      "resolved_file": "skill/evidence/evidence/20261022/competition_section_3_3.txt",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "_sync_checks_20261027/pynq_codegen_audit.json",
+      "new_target": "../pynq/pynq_codegen_audit.json",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/pynq_codegen_audit.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "../../v24_2025_2/readme.md",
+      "new_target": "../migration/README.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/README.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "../../v24_2025_2/hwh_contract_diff.json",
+      "new_target": "../../../../../../attachments/history/hwh_contract_diff_3bd15731.json",
+      "resolved_file": "report/attachments/history/hwh_contract_diff_3bd15731.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "../../v24_2025_2/bd_structural_diff.json",
+      "new_target": "../../../../../../attachments/history/bd_structural_diff_02f3e03d.json",
+      "resolved_file": "report/attachments/history/bd_structural_diff_02f3e03d.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "../../v24_2025_2/rectify_ip_contract_diff.json",
+      "new_target": "../../../../../../attachments/history/rectify_ip_contract_diff_0d94a1d5.json",
+      "resolved_file": "report/attachments/history/rectify_ip_contract_diff_0d94a1d5.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "../docs/V24最终素材核验与Word报告交接_20261026.md",
+      "new_target": "v24_word_handoff.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/v24_word_handoff.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "../../v24_2025_2/phase2_notes_20261027.md",
+      "new_target": "../migration/phase2_notes_20261027.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_notes_20261027.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "old_target": "../../v24_2025_2/phase2_validation.json",
+      "new_target": "../migration/phase2_validation.json",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_validation.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_notes_20261027.md",
+      "old_target": "cdc_review_packet_20261027.md",
+      "new_target": "../../../../../../attachments/history/cdc_review_packet_20261027_11a2fcaf.md",
+      "resolved_file": "report/attachments/history/cdc_review_packet_20261027_11a2fcaf.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/readme.md",
+      "old_target": "../实时板书增强系统/报告/video_sync_v24_20261027.md",
+      "new_target": "../../../../../../attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "resolved_file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/readme.md",
+      "old_target": "../实时板书增强系统/报告/pynq_sync_v24_20261027.md",
+      "new_target": "../handoff/pynq_sync.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/readme.md",
+      "old_target": "../实时板书增强系统/报告/ai_sessions_sync_v24_20261027.md",
+      "new_target": "../handoff/ai_sessions_sync.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/ai_session_links.md",
+      "old_target": "evidence/20261022/source_review.json",
+      "new_target": "../../../../../../../skill/evidence/evidence/20261022/source_review.json",
+      "resolved_file": "skill/evidence/evidence/20261022/source_review.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/ai_session_links.md",
+      "old_target": "../ai_session_preparation_20261022.md",
+      "new_target": "../../../../../../attachments/history/ai_session_preparation_20261022_4763338b.md",
+      "resolved_file": "report/attachments/history/ai_session_preparation_20261022_4763338b.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/ai_session_links.md",
+      "old_target": "../ai_session_case_template.md",
+      "new_target": "../../../../../../attachments/history/ai_session_case_template_18cd4bbc.md",
+      "resolved_file": "report/attachments/history/ai_session_case_template_18cd4bbc.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/ai_session_links.md",
+      "old_target": "../ai_session_material_index_20261022.md",
+      "new_target": "../../../../../../attachments/history/ai_session_material_index_20261022_53c6b163.md",
+      "resolved_file": "report/attachments/history/ai_session_material_index_20261022_53c6b163.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/skill/pynq-overlay-preflight/skill.md",
+      "old_target": "readme.md",
+      "new_target": "../../../../../../../../../skill/overlay_preflight/readme.md",
+      "resolved_file": "skill/overlay_preflight/readme.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/skill/pynq-overlay-preflight/skill.md",
+      "old_target": "workflow.md",
+      "new_target": "../../../../../../../../../skill/overlay_preflight/workflow.md",
+      "resolved_file": "skill/overlay_preflight/workflow.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/skill/pynq-overlay-preflight/skill.md",
+      "old_target": "scripts/preflight.py",
+      "new_target": "../../../../../../../../../skill/overlay_preflight/scripts/preflight.py",
+      "resolved_file": "skill/overlay_preflight/scripts/preflight.py",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/skill/pynq-overlay-preflight/skill.md",
+      "old_target": "references/configuration.md",
+      "new_target": "../../../../../../../../../skill/overlay_preflight/references/configuration.md",
+      "resolved_file": "skill/overlay_preflight/references/configuration.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/skill/pynq-overlay-preflight/skill.md",
+      "old_target": "../../board_reproduction/entrypoint_conflict.md",
+      "new_target": "../../../../../../../../../skill/evidence/board_reproduction/entrypoint_conflict.md",
+      "resolved_file": "skill/evidence/board_reproduction/entrypoint_conflict.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/received_skills/05_troubleshooting/troubleshooting.md",
+      "old_target": "../02_dma_buffer_guard/dma_buffer_pool.py",
+      "new_target": "../../../../../../../../skill/legacy_tools/02_dma_buffer_guard/dma_buffer_pool.py",
+      "resolved_file": "skill/legacy_tools/02_dma_buffer_guard/dma_buffer_pool.py",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/received_skills/05_troubleshooting/troubleshooting.md",
+      "old_target": "../01_overlay_manager/overlay_loader.py",
+      "new_target": "../../../../../../../../skill/legacy_tools/01_overlay_manager/overlay_loader.py",
+      "resolved_file": "skill/legacy_tools/01_overlay_manager/overlay_loader.py",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/received_skills/05_troubleshooting/troubleshooting.md",
+      "old_target": "../02_dma_buffer_guard/cache_coherent_guard.py",
+      "new_target": "../../../../../../../../skill/legacy_tools/02_dma_buffer_guard/cache_coherent_guard.py",
+      "resolved_file": "skill/legacy_tools/02_dma_buffer_guard/cache_coherent_guard.py",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/received_skills/05_troubleshooting/troubleshooting.md",
+      "old_target": "../01_overlay_manager/register_map_inspector.py",
+      "new_target": "../../../../../../../../skill/legacy_tools/01_overlay_manager/register_map_inspector.py",
+      "resolved_file": "skill/legacy_tools/01_overlay_manager/register_map_inspector.py",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/background/v23_scope.md",
+      "old_target": "V22架构与背景更新_20261022.md",
+      "new_target": "v22_review.md",
+      "resolved_file": "report/ai_sessions/member_c/sources/background/v22_review.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/team_b_selected/case-01-kv260-fps-bottleneck.md",
+      "old_target": "../02_source_records/candidate-sessions/2026-09-22-003-kv260-four-level-fps-optimization.md",
+      "new_target": "../../../member_b/shared_records/2026-09-22-003-kv260-four-level-fps-optimization.md",
+      "resolved_file": "report/ai_sessions/member_b/shared_records/2026-09-22-003-kv260-four-level-fps-optimization.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/team_b_selected/case-02-restoration-repair-and-correction.md",
+      "old_target": "../02_source_records/candidate-sessions/2026-10-01-003-restoration-repair-test.md",
+      "new_target": "../../../member_b/shared_records/2026-10-01-003-restoration-repair-test.md",
+      "resolved_file": "report/ai_sessions/member_b/shared_records/2026-10-01-003-restoration-repair-test.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/team_b_selected/case-03-restore-deadlock-and-board-fix.md",
+      "old_target": "../02_source_records/candidate-sessions/2026-10-13-002-restore-freeze-investigation.md",
+      "new_target": "../../../member_b/shared_records/2026-10-13-002-restore-freeze-investigation.md",
+      "resolved_file": "report/ai_sessions/member_b/shared_records/2026-10-13-002-restore-freeze-investigation.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/team_b_selected/case-04-async-reset-buffer-full.md",
+      "old_target": "../02_source_records/candidate-sessions/2026-10-18-004-v19-ila-capture-buffer-full.md",
+      "new_target": "../../../member_b/shared_records/2026-10-18-004-v19-ila-capture-buffer-full.md",
+      "resolved_file": "report/ai_sessions/member_b/shared_records/2026-10-18-004-v19-ila-capture-buffer-full.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/ai_session_links.md",
+      "old_target": "../ai_session_preparation_20261022.md",
+      "new_target": "../../report/attachments/history/ai_session_preparation_20261022_4763338b.md",
+      "resolved_file": "report/attachments/history/ai_session_preparation_20261022_4763338b.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/ai_session_links.md",
+      "old_target": "../ai_session_case_template.md",
+      "new_target": "../../report/attachments/history/ai_session_case_template_18cd4bbc.md",
+      "resolved_file": "report/attachments/history/ai_session_case_template_18cd4bbc.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/ai_session_links.md",
+      "old_target": "../ai_session_material_index_20261022.md",
+      "new_target": "../../report/attachments/history/ai_session_material_index_20261022_53c6b163.md",
+      "resolved_file": "report/attachments/history/ai_session_material_index_20261022_53c6b163.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../pynq_sync_v24_20261027.md",
+      "new_target": "../../report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../pynq_new_chat_prompt_20261022.md",
+      "new_target": "../../report/attachments/history/pynq_new_chat_prompt_20261022_831e9bfd.md",
+      "resolved_file": "report/attachments/history/pynq_new_chat_prompt_20261022_831e9bfd.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../pynq_submission_preparation_20261022.md",
+      "new_target": "../../report/attachments/history/pynq_submission_preparation_20261022_606b1a21.md",
+      "resolved_file": "report/attachments/history/pynq_submission_preparation_20261022_606b1a21.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../../docs/V22架构与背景更新_20261022.md",
+      "new_target": "../../report/ai_sessions/member_c/sources/background/v22_review.md",
+      "resolved_file": "report/ai_sessions/member_c/sources/background/v22_review.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../../docs/V22背景核验记录_20261022.json",
+      "new_target": "../../report/ai_sessions/member_c/evidence/team_v22/local_prior_audit.json",
+      "resolved_file": "report/ai_sessions/member_c/evidence/team_v22/local_prior_audit.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../../docs/V23现场进度与模型部署边界更新_20261022.md",
+      "new_target": "../../report/ai_sessions/member_c/sources/background/v23_scope.md",
+      "resolved_file": "report/ai_sessions/member_c/sources/background/v23_scope.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../../工作空间/A和B发送的资料/V22/CHANGELOG.md",
+      "new_target": "../../report/attachments/history/changelog_1a01fc17.md",
+      "resolved_file": "report/attachments/history/changelog_1a01fc17.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../ai_session_preparation_20261022.md",
+      "new_target": "../../report/attachments/history/ai_session_preparation_20261022_4763338b.md",
+      "resolved_file": "report/attachments/history/ai_session_preparation_20261022_4763338b.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../ai_session_case_template.md",
+      "new_target": "../../report/attachments/history/ai_session_case_template_18cd4bbc.md",
+      "resolved_file": "report/attachments/history/ai_session_case_template_18cd4bbc.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old_target": "../ai_session_material_index_20261022.md",
+      "new_target": "../../report/attachments/history/ai_session_material_index_20261022_53c6b163.md",
+      "resolved_file": "report/attachments/history/ai_session_material_index_20261022_53c6b163.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/v24_review_20261027.md",
+      "old_target": "../pynq_sync_v24_20261027.md",
+      "new_target": "../../report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/pynq_sync.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "pynq_submission_workspace/readme.md",
+      "new_target": "../../../../../report/attachments/history/readme_0d63f2ae.md",
+      "resolved_file": "report/attachments/history/readme_0d63f2ae.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "pynq_submission_workspace/evidence/20261022/competition_section_3_3.txt",
+      "new_target": "../../20261022/competition_section_3_3.txt",
+      "resolved_file": "skill/evidence/evidence/20261022/competition_section_3_3.txt",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "_sync_checks_20261027/pynq_codegen_audit.json",
+      "new_target": "../../../../../report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/pynq_codegen_audit.json",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/pynq/pynq_codegen_audit.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "../../v24_2025_2/readme.md",
+      "new_target": "../../../../../report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/README.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/README.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "../../v24_2025_2/hwh_contract_diff.json",
+      "new_target": "../../../../../report/attachments/history/hwh_contract_diff_3bd15731.json",
+      "resolved_file": "report/attachments/history/hwh_contract_diff_3bd15731.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "../../v24_2025_2/bd_structural_diff.json",
+      "new_target": "../../../../../report/attachments/history/bd_structural_diff_02f3e03d.json",
+      "resolved_file": "report/attachments/history/bd_structural_diff_02f3e03d.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "../../v24_2025_2/rectify_ip_contract_diff.json",
+      "new_target": "../../../../../report/attachments/history/rectify_ip_contract_diff_0d94a1d5.json",
+      "resolved_file": "report/attachments/history/rectify_ip_contract_diff_0d94a1d5.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "../docs/V24最终素材核验与Word报告交接_20261026.md",
+      "new_target": "../../../../../report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/v24_word_handoff.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/v24_word_handoff.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "../../v24_2025_2/phase2_notes_20261027.md",
+      "new_target": "../../../../../report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_notes_20261027.md",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_notes_20261027.md",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "old_target": "../../v24_2025_2/phase2_validation.json",
+      "new_target": "../../../../../report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_validation.json",
+      "resolved_file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/migration/phase2_validation.json",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    },
+    {
+      "file": "skill/evidence/skill/pynq-overlay-preflight/skill.md",
+      "old_target": "scripts/preflight.py",
+      "new_target": "../../../overlay_preflight/scripts/preflight.py",
+      "resolved_file": "skill/overlay_preflight/scripts/preflight.py",
+      "identity_method": "original_source_sha256_or_recorded_archive_origin"
+    }
+  ],
+  "added_sources": [
+    {
+      "path": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "source": "实时板书增强系统\\报告\\video_sync_v24_20261027.md",
+      "source_sha256": "f98266a976bff866dc200eb9bf1a79bdc527dbc88b874c7fd0629b938ba14530",
+      "published_sha256": "05a811cae477dbacd0964b7e05cf5e2e22e4001914b982d669d8fdfaa5721d24",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/readme_0d63f2ae.md",
+      "source": "实时板书增强系统\\报告\\pynq_submission_workspace\\readme.md",
+      "source_sha256": "0d63f2ae7889602bd4a6867277920999141e8d35f3200b22e926998638f1a31e",
+      "published_sha256": "f38e3215eaf64622f3f9cc3ebce02786d2138e9ea7582c8d52100b12b99b79b5",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/hwh_contract_diff_3bd15731.json",
+      "source": "v24_2025_2\\hwh_contract_diff.json",
+      "source_sha256": "3bd157313ce7625fa2d1a05079de06f9bc4f0ff8aaeb8a4d5f5a39e6fbdd3ab4",
+      "published_sha256": "3bd157313ce7625fa2d1a05079de06f9bc4f0ff8aaeb8a4d5f5a39e6fbdd3ab4",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/bd_structural_diff_02f3e03d.json",
+      "source": "v24_2025_2\\bd_structural_diff.json",
+      "source_sha256": "02f3e03d3e8023144223b0d3fa06394c8c8561ba144f1638755e07e28f9db244",
+      "published_sha256": "02f3e03d3e8023144223b0d3fa06394c8c8561ba144f1638755e07e28f9db244",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/rectify_ip_contract_diff_0d94a1d5.json",
+      "source": "v24_2025_2\\rectify_ip_contract_diff.json",
+      "source_sha256": "0d94a1d550c3cb684dffdc93fe73fd9e609f57fa7620cbc5fe2ad8d059e67a42",
+      "published_sha256": "0d94a1d550c3cb684dffdc93fe73fd9e609f57fa7620cbc5fe2ad8d059e67a42",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/cdc_review_packet_20261027_11a2fcaf.md",
+      "source": "v24_2025_2\\cdc_review_packet_20261027.md",
+      "source_sha256": "11a2fcafdc147b0fe05b7c0a65b9504c2084f29c8a3f61ff74daa40c7c0a1648",
+      "published_sha256": "11a2fcafdc147b0fe05b7c0a65b9504c2084f29c8a3f61ff74daa40c7c0a1648",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/ai_session_preparation_20261022_4763338b.md",
+      "source": "实时板书增强系统\\报告\\ai_session_preparation_20261022.md",
+      "source_sha256": "4763338bd920bdb8167215195fc8ab60c6b5ec3361e62b2c1b29735e06907929",
+      "published_sha256": "7c04c5c8e2e114ba09d54aede2cc33d0255a13ae7f95b8e79f9ccca801de4952",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/ai_session_case_template_18cd4bbc.md",
+      "source": "实时板书增强系统\\报告\\ai_session_case_template.md",
+      "source_sha256": "18cd4bbc8677a5743eed4ed4f9aea483ad3dd8ec458649bb57b962c532290b09",
+      "published_sha256": "33f051873c35fc03272cd6b73dff232bac4d4be804ded3cfe08cc94194856e83",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/ai_session_material_index_20261022_53c6b163.md",
+      "source": "实时板书增强系统\\报告\\ai_session_material_index_20261022.md",
+      "source_sha256": "53c6b16325e00559e934207a3f304f65cef679bff887a33f4a0d9e41da76321a",
+      "published_sha256": "5ad31e1806735068c1c21dd183f804912b15276eae416177c864328bd6b5bb68",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/pynq_new_chat_prompt_20261022_831e9bfd.md",
+      "source": "实时板书增强系统\\报告\\pynq_new_chat_prompt_20261022.md",
+      "source_sha256": "831e9bfd6fa0236b6823a71ca0d472cfed4fbe6b3fd7740cf51c1875a05f8c46",
+      "published_sha256": "40bbe2c6596ee603cd23b1840e7d5546f077fd93f9e864a145cfb81088f7f5d9",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/pynq_submission_preparation_20261022_606b1a21.md",
+      "source": "实时板书增强系统\\报告\\pynq_submission_preparation_20261022.md",
+      "source_sha256": "606b1a21f84aef9ac865162228bd8ddaabc82d0f844b56fb36b39199adb2fe88",
+      "published_sha256": "0734abc6689582e30ffcef4d7db8417dc757992d91ae0008a1e71054918817da",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    },
+    {
+      "path": "report/attachments/history/changelog_1a01fc17.md",
+      "source": "实时板书增强系统\\工作空间\\A和B发送的资料\\V22\\CHANGELOG.md",
+      "source_sha256": "1a01fc174863224d6cc86c6291843a0668f4ebd37d9f1ac8f9e622c09118669a",
+      "published_sha256": "f585e0aa4c9efd88c09916224414bbc6dcb2b9b255363522ff3377feb2f5cd7d",
+      "redaction": "private_ip_if_present",
+      "kind": "historical_reference_snapshot"
+    }
+  ],
+  "retained_historical_references": [
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "target": "报告模板/实时板书增强系统技术报告_v24_20261026.docx",
+      "reason": "historical_reference_retained_source_not_in_this_delivery"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "手形RGB565成对训练与抓握诊断记录_20261019.md",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "../evidence/member_c/gesture_rgb565_replicates_20261019_01/server_results/three_seed_summary.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "../evidence/member_c/gesture_rgb565_replicates_20261019_01/server_results/replication_config.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "../evidence/member_c/gesture_rgb565_replicates_20261019_01/server_results/phone66_multiseed_native_cpu.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "实拍手形复核与数据接入说明_20261019.md",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "../evidence/member_c/gesture_rgb565_replicates_20261019_01/local_verification.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "手势公开数据适配训练方案与研究依据_20261019.md",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/author_detector_opencv_compatibility.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/s640_15hz_01/summary.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/author_10hz_01/summary.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/s640_15hz_01/review/manual_box_crops.jpg",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/s640_15hz_01/review/frame_000306.jpg",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/s640_15hz_01/review/frame_004856.jpg",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/cached_rate_comparison_01/comparison.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/keypoints_phone55_01/keypoints_vs_classifier.jpg",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/keypoints_phone55_01/summary.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/versioned_candidates_01/domain_aug_events.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/versioned_candidates_01/manual_box_shapes_to_annotate.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/versioned_candidates_01/event_truth_to_annotate.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/public_data/IPN_quarantine_record.json",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "手形旋转适配与真实素材回放记录_20261019.md",
+      "reason": "historical_model_or_gesture_scope_deferred"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_ui/guidance_readme.md",
+      "target": "../lvgl/fonts/OFL.txt",
+      "reason": "historical_reference_retained_source_not_in_this_delivery"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_ui/guidance_readme.md",
+      "target": "../../model_integration/v16_ps_ui_2hz_20261018/UI_2HZ_readme.md",
+      "reason": "historical_reference_retained_source_not_in_this_delivery"
+    },
+    {
+      "file": "sim/supplemental/local7/readme.md",
+      "target": "tooling/FPGA工作流_Skill_MCP优化建议_20261029.md",
+      "reason": "historical_reference_retained_source_not_in_this_delivery"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "target": "../../../赛题信息/AMD赛题.pdf",
+      "reason": "historical_reference_retained_source_not_in_this_delivery"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "target": "../../工作空间/A和B发送的资料/V22/v22_ps_runtime_v2_r4_20261020.zip",
+      "reason": "historical_reference_retained_source_not_in_this_delivery"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "target": "../../工作空间/A和B发送的资料/V22/HANDOFF (1",
+      "reason": "historical_reference_retained_source_not_in_this_delivery"
+    }
+  ],
+  "additional_snapshot_external_references": [
+    {
+      "file": "report/attachments/history/ai_session_material_index_20261022_53c6b163.md",
+      "target": "ai_session_new_chat_prompt_20261022.md"
+    },
+    {
+      "file": "report/attachments/history/readme_0d63f2ae.md",
+      "target": "status.md"
+    },
+    {
+      "file": "report/attachments/history/readme_0d63f2ae.md",
+      "target": "skill/readme.md"
+    },
+    {
+      "file": "report/attachments/history/readme_0d63f2ae.md",
+      "target": "update_log.md"
+    },
+    {
+      "file": "report/attachments/history/readme_0d63f2ae.md",
+      "target": "evidence/20261022"
+    },
+    {
+      "file": "report/attachments/history/readme_0d63f2ae.md",
+      "target": "evidence/20261027/previous_workspace"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "../../v24_2025_2/local6/readme.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "../../v24_2025_2/local6/preservation.json"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "../../v24_2025_2/clean_rebuild5_20261028.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "../../v24_2025_2/candidate_delivery5.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "../../v24_2025_2/xsa_warning_review5.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "../../v24_2025_2/phase3_notes_20261027.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "../../v24_2025_2/phase3_validation_r4b.json"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "../../v24_2025_2/cdc_reset_review4.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "video_production_workspace/readme.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "video_production_workspace/narration.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "video_production_workspace/shot_list.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "video_production_workspace/connection_plan.md"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "报告模板/实时板书增强系统技术报告_v24_20261026.docx"
+    },
+    {
+      "file": "report/attachments/history/video_sync_v24_20261027_f98266a9.md",
+      "target": "video_v24_update_handoff_20261025.md"
+    }
+  ]
+}

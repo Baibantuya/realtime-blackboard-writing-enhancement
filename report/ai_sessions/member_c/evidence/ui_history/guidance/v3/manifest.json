@@ -1,0 +1,597 @@
+{
+  "scope": "Offline typography preview; real video frame, explicitly selected directions; no board or detector evaluation",
+  "image_sha256": "6bed033b945775c209b94a2fc886fd52ab6b38c95f7926c8c5ffe541417227dd",
+  "asset_manifest_sha256": "2c306a7fe338a03e028d712f9e46343b9c28f3c0ae0ea88696e216389f2b7809",
+  "compositor_sha256": "3da41c08e6414c8121dcac7891f64fb43605b3f3f77a1b3442a5218cabd7e0ac",
+  "previous_camera_pixels_unchanged": true,
+  "pages": [
+    {
+      "name": "guidance_search.png",
+      "layout": {
+        "page": "guidance",
+        "state": "search",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "df7870d4f130b8024cf9e39fe37f5d085fb382acd4026ac5f972e755f3de0d53"
+    },
+    {
+      "name": "guidance_left.png",
+      "layout": {
+        "page": "guidance",
+        "state": "left",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "9b02e217be3b24f197b892571b48f3cd5f778aa3d859d919b2538daeb314c545"
+    },
+    {
+      "name": "guidance_right.png",
+      "layout": {
+        "page": "guidance",
+        "state": "right",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "29b9fdc99fb9b82d82a4b56c535e01676db8dc3b4f3aaa15c21029efce88ee3b"
+    },
+    {
+      "name": "guidance_up.png",
+      "layout": {
+        "page": "guidance",
+        "state": "up",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "fc2ef647d24c4bdb8f6dae59f887f7313b29eb1dd9f08266ecb5d6aa00334b43"
+    },
+    {
+      "name": "guidance_down.png",
+      "layout": {
+        "page": "guidance",
+        "state": "down",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "b61dfe4388ba55000f0d541f5a08fa3ae2a38ef57da16d1251aaad7484ef2897"
+    },
+    {
+      "name": "guidance_zoom_out.png",
+      "layout": {
+        "page": "guidance",
+        "state": "zoom_out",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "255bfefa65b5ef0ec325dd2947433943945e89d5c63acc46b8353267a5f90bb0"
+    },
+    {
+      "name": "guidance_zoom_in.png",
+      "layout": {
+        "page": "guidance",
+        "state": "zoom_in",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "f19da5d9be928033e4247f1f3a0d364b698552df41f08e162baccaa0f846f514"
+    },
+    {
+      "name": "guidance_hold.png",
+      "layout": {
+        "page": "guidance",
+        "state": "hold",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "1f9c5bfe0a2e85052b9ed3e852cf8dde581177686e3adfbc6bd3cbf93c20a394"
+    },
+    {
+      "name": "guidance_clockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "clockwise",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "ff24534a4f94142ec9d6875f83bf7b537ce151cdf812f0b9c3cc0aca31d8fe77"
+    },
+    {
+      "name": "guidance_counterclockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "counterclockwise",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "935e52e00bd67680a33d1e42b4c70efbdf2529ddf8020ba9f077e9ea406a9228"
+    },
+    {
+      "name": "guidance_confirming.png",
+      "layout": {
+        "page": "guidance",
+        "state": "confirming",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "b432331f05669364fbbd63129eb2d9855f09b09439199a8f9013058a83d02888"
+    },
+    {
+      "name": "guidance_recalibrating.png",
+      "layout": {
+        "page": "guidance",
+        "state": "recalibrating",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": null,
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "35aef41709f469883817677730096779e8814d60f497a6eb5457859e59ca1a00"
+    },
+    {
+      "name": "guidance_up_then_clockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "up",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "clockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "a22f8d4aa392d4c070dcb7b2b8e2691ea03d73f32752a213eb98c4ffde97fb46"
+    },
+    {
+      "name": "guidance_up_then_counterclockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "up",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "counterclockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "9dee248ab03b76ab72c5a475ef40739bd432f51c077c0f2095226b1110c56265"
+    },
+    {
+      "name": "guidance_down_then_clockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "down",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "clockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "da874a85865325cdefa75403f59a79fa680c87d8ceeb9f9cf4feeeaa44845d1a"
+    },
+    {
+      "name": "guidance_down_then_counterclockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "down",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "counterclockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "2bad2e6f20524b2406ed3446e7479a0724782fa4396311766a8b2580d101a71d"
+    },
+    {
+      "name": "guidance_left_then_clockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "left",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "clockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "157eb61e536a3af5c609f8d023ddd09bd0546bdde22f2aad94515213de264334"
+    },
+    {
+      "name": "guidance_left_then_counterclockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "left",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "counterclockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "0a0cfc06d8234697d34d7d9bdd1a8cc22273e8dc4e4e36d60f75c6ceb6ae2b34"
+    },
+    {
+      "name": "guidance_right_then_clockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "right",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "clockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "d5752f17da31cded14d0b7bb8f5da8f9f58577856e8eee0e052db9a34b12e1b1"
+    },
+    {
+      "name": "guidance_right_then_counterclockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "right",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "counterclockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "dcaff53e977ac8ff03f68c9a69c5cad4c3ac2d6d398bff9b9ff94a23f22c95e3"
+    },
+    {
+      "name": "guidance_zoom_out_then_clockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "zoom_out",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "clockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "62c2a64bee2500e3e9460ee8a8b782736c24ecdee3c2fe661a1a0891de83d9cc"
+    },
+    {
+      "name": "guidance_zoom_out_then_counterclockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "zoom_out",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "counterclockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "d49ac3987254b3d83f7e4b297b3fc903abfc9680ed07e9f8a9d271401e2d6e1c"
+    },
+    {
+      "name": "guidance_zoom_in_then_clockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "zoom_in",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "clockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "d24589c655a45bebf98cbca2992187cbd08af333ef8bf91ec07b09b860f19886"
+    },
+    {
+      "name": "guidance_zoom_in_then_counterclockwise.png",
+      "layout": {
+        "page": "guidance",
+        "state": "zoom_in",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "counterclockwise",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "2d1478720608390ecc0773b8c63e7230d1426248f5460e4354fc3414efb46cba"
+    },
+    {
+      "name": "guidance_up_then_left.png",
+      "layout": {
+        "page": "guidance",
+        "state": "up",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "left",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "04dd12b3c82eab19a6a34e12acb339f12abfe0fa69a26406b2c99d687a453b1d"
+    },
+    {
+      "name": "guidance_up_then_right.png",
+      "layout": {
+        "page": "guidance",
+        "state": "up",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "right",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "d638d4cbb77abe406b93608cdf5d4c3a7cac66cb46320790ebeeaf56d656855d"
+    },
+    {
+      "name": "guidance_down_then_left.png",
+      "layout": {
+        "page": "guidance",
+        "state": "down",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "left",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "b1f8c9f2b7b77f41796039c90fa4f010700d06891464b52a237b0a7cc2a4af3f"
+    },
+    {
+      "name": "guidance_down_then_right.png",
+      "layout": {
+        "page": "guidance",
+        "state": "down",
+        "raw_rect": [
+          32,
+          168,
+          1440,
+          810
+        ],
+        "coordinate_space": "original_capture_pixels_scaled_for_display",
+        "evidence": "offline_typography_preview",
+        "next_state": "right",
+        "image_rotation_degrees": null,
+        "rotation_convention": "positive_clockwise_image_on_screen",
+        "advisory_only": true,
+        "controls_restoration": false
+      },
+      "sha256": "934f4ae4de099cd6366a7178ee44a700eef1f39695286d7defea15c8c5e3d4dc"
+    }
+  ]
+}

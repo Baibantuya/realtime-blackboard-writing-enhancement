@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/r5/v/b/design_1/ip/design_1_rst_clk_wiz_0_200M_0/design_1_rst_clk_wiz_0_200M_0_sim_netlist.v" into library work
+INFO: [VRFC 10-311] analyzing module design_1_rst_clk_wiz_0_200M_0
+INFO: [VRFC 10-311] analyzing module design_1_rst_clk_wiz_0_200M_0_lpf
+INFO: [VRFC 10-311] analyzing module design_1_rst_clk_wiz_0_200M_0_proc_sys_reset
+INFO: [VRFC 10-311] analyzing module design_1_rst_clk_wiz_0_200M_0_sequence_psr
+INFO: [VRFC 10-311] analyzing module design_1_rst_clk_wiz_0_200M_0_upcnt_n
+INFO: [VRFC 10-311] analyzing module design_1_rst_clk_wiz_0_200M_0_xpm_cdc_single
+INFO: [VRFC 10-311] analyzing module design_1_rst_clk_wiz_0_200M_0_xpm_cdc_single__1
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xillinx/2025.2/data/verilog/src/glbl.v" into library work

@@ -1,0 +1,398 @@
+{
+  "status": "PACKAGED_FOR_BOARD_VALIDATION_NOT_BOARD_VERIFIED",
+  "created_at": "2026-10-28T18:46:50.620230+08:00",
+  "files": {
+    "app/main.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\main.py",
+      "sha256": "b4398db514cff31974601079906e2f5e116eb674786ba7e5f87952c0b9d8d63a",
+      "kind": "sealed_ps_source"
+    },
+    "app/manage.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\manage.py",
+      "sha256": "a7ac89cb2d41c6a9251f2bef59e142ef67c503d1f4231def9a6e8229c3284d2d",
+      "kind": "sealed_ps_source"
+    },
+    "app/pipeline_metrics.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\pipeline_metrics.py",
+      "sha256": "a2b7e00eb5142176269c59e0fede19fd3e437cde3f12dfad60e3f8761fb6e01c",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/__init__.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\__init__.py",
+      "sha256": "c38db3736659d64a346960410841dd770495e65ca057e8f4d51bb0644f9b4816",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/__main__.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\__main__.py",
+      "sha256": "079850810cd5a6341512268e57d52f9938b1b3beb1075f6d7d18a900d80546f8",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/board.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\board.py",
+      "sha256": "7e64c978f6244a0510e744e8845f7f6ca8c61838b62700bc3b075aa03a5b194a",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/content.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\content.py",
+      "sha256": "17cf90065fd49212a8620404cac5ac81fd79e86490f7040b51ed2e845115b99a",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/contracts.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\contracts.py",
+      "sha256": "608cf0529c6ce003c174fd5c562c95c8681ead0c9b274da85b53da06de6ab957",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/geometry.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\geometry.py",
+      "sha256": "2044513dc27d5041cae842657b803618df8025c62654743cf88ed114f91f32d8",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/policy.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\policy.py",
+      "sha256": "8a9c96b0b1692ea3afb01611d378667419a55bc37d98a494f9c17d940b67492f",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/scheduler.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\scheduler.py",
+      "sha256": "ecafa1731418d309cb69107ae29a76e50d5e36c67d9d15d7d9ecb8969ac2c586",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/sensor.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\sensor.py",
+      "sha256": "346c9fde827a481bd29c65a27d6caa98dcdffe83307b6d2e835be81e2fdd2d5b",
+      "kind": "sealed_ps_source"
+    },
+    "app/ps_runtime_v2/service.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\ps_runtime_v2\\service.py",
+      "sha256": "f01f14b4a332ed76d157548b18ada2ac00be730f3ec1d7811b4df536f5545f83",
+      "kind": "sealed_ps_source"
+    },
+    "app/rgb565.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\rgb565.py",
+      "sha256": "41719431e3de849e71a196a781bbb16650dba4a74aa010d1ef5b8a9a3e51eed5",
+      "kind": "sealed_ps_source"
+    },
+    "app/runtime_paths.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\runtime_paths.py",
+      "sha256": "8e8521e9f8f061143e086f818aa0150e2b9dd0f87196ade8f1ec53eaf00fd5d2",
+      "kind": "sealed_ps_source"
+    },
+    "app/scene_tracking.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\scene_tracking.py",
+      "sha256": "7461451b01727255e7325261792e55ffddad3732f6780e4bc374141c622ca2d0",
+      "kind": "sealed_ps_source"
+    },
+    "app/verify_manifest.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\app\\verify_manifest.py",
+      "sha256": "84bfd921a9e39d5045b60023d9c8580adc63baed2e48195c684d2c495a7a7fe5",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/auto_exposure.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\auto_exposure.py",
+      "sha256": "0a52b5b9a73dcc715ab6a6df5a774e759e30bf1916fedc281d66694b5f556fc8",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/baseline_stages.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\baseline_stages.py",
+      "sha256": "78ce515a17811e6ebf374d53c766fbe55bcaab851d093b0bc3e401937a8bda13",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/configure_restore_capture.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\configure_restore_capture.py",
+      "sha256": "07fa63d2716ddb1982dacb8d238d36bbb33aca789feecbfbf94f42a399e66112",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/ensure_kernel.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\ensure_kernel.py",
+      "sha256": "38db2266e3ca9257a072dd0530c4f151668d82075e2662870dcf89e9220a58cb",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/isp_white_balance.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\isp_white_balance.py",
+      "sha256": "9c008e71e16bb3e966bc5f4c036b5a6852be4ff850a8a17989251542c768aa71",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/load_overlay.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\load_overlay.py",
+      "sha256": "39db9559a0575976a4169523c933a11bfc5913e75a4e7f2fe1232181f146133a",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/preload_v6.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\preload_v6.py",
+      "sha256": "3113a701fbc59c0ff0df706a136b63625441eb02017b40f446cb706bea36b85d",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/rectify_rgb.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\rectify_rgb.py",
+      "sha256": "201c765b581147c777e2f139ff2f2e5ecfd3826872f8ec596bbdb4a56b556729",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/scene_registers.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\scene_registers.py",
+      "sha256": "e8ddc0c95bfedf353daff82483438c417dd879a684f8f45c7f19086874c267e4",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/scene_stage.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\scene_stage.py",
+      "sha256": "f2f4e27608f574a6aea1effc0ed518f4b7b978333f4b80125da07bb5fd7be8fe",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/set_ps_widths.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\set_ps_widths.py",
+      "sha256": "562080598bc3346e29abfdb44d1b56fdd85a555bee95e2b9e1a048ec3aa2befe",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/shared_scanout.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\shared_scanout.py",
+      "sha256": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/v4l2_rgb565.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\v4l2_rgb565.py",
+      "sha256": "7c05374b46a734b8ac42f1981ab0bea311ad5bec06fac4ad665896e8664b702c",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/v4l2_types.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\v4l2_types.py",
+      "sha256": "01d3fd5d24a35a3f02ba862efde088546decf9d88e5348679fa902e954eac4d3",
+      "kind": "sealed_ps_source"
+    },
+    "drivers/whiteboard_ip.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\drivers\\whiteboard_ip.py",
+      "sha256": "c07d4730f0deeb63062a2a54815afcfbcd164c86c26e45f3cedd6d251750ec3b",
+      "kind": "sealed_ps_source"
+    },
+    "ui/archive_ui.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\ui\\archive_ui.py",
+      "sha256": "c8e1c9081f90a4c915d769826ad5f210fa375dcc839a3cc623c108b821d2f9d0",
+      "kind": "sealed_ps_source"
+    },
+    "ui/osd_frontend.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\ui\\osd_frontend.py",
+      "sha256": "d67985881d124a2cf75182bb2c1594a36d093a1354dca38a6e823424f89a9d05",
+      "kind": "sealed_ps_source"
+    },
+    "ui/scene_input.py": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\r4b\\src\\ps\\ui\\scene_input.py",
+      "sha256": "62a34b0978fb84987b4224f5655ff4f54c1714ae6c5dba11ab48394c278617b7",
+      "kind": "sealed_ps_source"
+    },
+    "ui/assets/guidance_clockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_clockwise.png",
+      "sha256": "17e9df05a25d703f5082184f3f2aab6d0e299b81f37e30244bd3573d63238e1e",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_confirming.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_confirming.png",
+      "sha256": "dce047123aee054f5577571c30df3102bc4c8e83f1dbd394ee83713f77738b55",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_counterclockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_counterclockwise.png",
+      "sha256": "2e52455db7919438d50b633c4b9501126b625e6c2688dcd73a89d70ce97d8482",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_down.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down.png",
+      "sha256": "acd5141d341fd457a4470569770b7a80414e3ef86e21165068f9e1b1c742662a",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_down_then_clockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down_then_clockwise.png",
+      "sha256": "1621e839d91737caf1d3d115c86386e1404430e98ce58ada2f25248bb308cf5f",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_down_then_counterclockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down_then_counterclockwise.png",
+      "sha256": "fc4c40740bc20781eb085934fd4ce46bead64f590d82fcf68aa5b0a623fdb981",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_down_then_left.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down_then_left.png",
+      "sha256": "cd0b782e301c479581ce3b220bc538fd54899aeb4ffbe02ebd34655b891eaf66",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_down_then_right.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down_then_right.png",
+      "sha256": "8cbd5fd533151a908fd7b40ee6a13bef2a00c25ae891db2afaf18420820eb391",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_hold.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_hold.png",
+      "sha256": "9f454bc49073b5ee6ce18ba8eaf425041b68cf8ad0380f78d1cc1a36dd4b311e",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_left.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_left.png",
+      "sha256": "04024d51803c228ac92bd973554426e529e97a531b7270723ce90b2042047014",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_left_then_clockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_left_then_clockwise.png",
+      "sha256": "ceed8a7f93a7d6e6dca81dec2f3063fda70cca63b1ff3a57cb325c21d9a6adae",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_left_then_counterclockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_left_then_counterclockwise.png",
+      "sha256": "0d89609e440ef1329c557e9e78202faf2653b150d7d0a9506dc0ff45fc69b340",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_recalibrating.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_recalibrating.png",
+      "sha256": "fdc83b0f550d3161758b845f9875074676c9c61023473f0ee7b1c2b5c231e2d0",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_right.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_right.png",
+      "sha256": "b8f0563e835df561eafca482a369ff9fdc0f1355f0289dade99cb6979138a665",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_right_then_clockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_right_then_clockwise.png",
+      "sha256": "5fe84131c5697d972b9bca3b0fba60b89ef820cf12a6db78f0ccccd98c0d585e",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_right_then_counterclockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_right_then_counterclockwise.png",
+      "sha256": "21363f20eef7d8376b444b73899c67185c87e1dd362cbfa584d499f974d5e67f",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_search.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_search.png",
+      "sha256": "6294165196a243f27aae2c1ee6ac724d9a06af01910e073b479ec8a2e3bd260e",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_up.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up.png",
+      "sha256": "eb986bdf598f02420ae2261bdd9fe83df90c62c2926071e8a22e6c12050a82d8",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_up_then_clockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up_then_clockwise.png",
+      "sha256": "80fd91c6d46729b5e851163183a4a6466ddfef04c8c1a0b453b9da096e241af6",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_up_then_counterclockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up_then_counterclockwise.png",
+      "sha256": "0ef51efefd973437adc02ecfbc7f4fac8feeef49879f999c33f70d8a0b2e48ec",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_up_then_left.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up_then_left.png",
+      "sha256": "18549dd9c97f06e37187cfb36ebca64cda305e74c8d5f13e0345bad868a3bc7a",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_up_then_right.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up_then_right.png",
+      "sha256": "acf283f21b0a262fcc9149c48b00dac028cb8e27b583ae0b928b7b4795ccd1b6",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_zoom_in.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_in.png",
+      "sha256": "be9766d0cd778bef8f718c6bf9487fb72b2c9dfab7183b817a3dd9c529c03f7a",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_zoom_in_then_clockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_in_then_clockwise.png",
+      "sha256": "5e9efd28f8666b0bebfccfb9b696d6a46f92e00192550e1f5c9ed0466ed42bd4",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_zoom_in_then_counterclockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_in_then_counterclockwise.png",
+      "sha256": "3933ca2549abb7937cc6a2b8c163bdce8923f1743f6b1dc7abb13e3bc27d776d",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_zoom_out.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_out.png",
+      "sha256": "bf7f0f51452f6a48d48f6f024050942392f2e0cbf0b6536cc753ecd58d0165ca",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_zoom_out_then_clockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_out_then_clockwise.png",
+      "sha256": "56952e5d0736919a688fa5968899a6cff71243498db54992e3da7e1b19480d1d",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/guidance_zoom_out_then_counterclockwise.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_out_then_counterclockwise.png",
+      "sha256": "137f28e5d142c045792644b82bb12f0da1805d1db42d06f6c0feb654ddb58101",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/history_available.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\history_available.png",
+      "sha256": "e3eb05d914e06963e33f4bf115ad3eda975228619dfa5e4a68039f11492d4bc2",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/history_demo.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\history_demo.png",
+      "sha256": "29d4346905abf8f54e4831010dfed9afcf780941766e8c9b605cce301c2367f7",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/history_empty.png": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\history_empty.png",
+      "sha256": "39b521cfc17760fee8d7c699c8144c7605961f1ce510e8a59e6bdf0fb602a854",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/assets/manifest.json": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\manifest.json",
+      "sha256": "47a88ae12f553d35628a97c74fb4b52144748087e4e9f01ddf69cfa2972b2515",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/licenses/lvgl-license.txt": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\licenses\\lvgl-license.txt",
+      "sha256": "27a80bd36832ab42d35ad60c08b2b230a807a9bc0d58e94ec1531543dc49cbe8",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "ui/licenses/ofl.txt": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\licenses\\ofl.txt",
+      "sha256": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded",
+      "kind": "unchanged_v24_asset_or_license"
+    },
+    "hardware/wb_frame_pool.ko": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\wb_frame_pool.ko",
+      "sha256": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+      "kind": "unchanged_v24_kernel_or_register_metadata"
+    },
+    "hardware/wb_rgb565_format.ko": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\wb_rgb565_format.ko",
+      "sha256": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+      "kind": "unchanged_v24_kernel_or_register_metadata"
+    },
+    "hardware/whiteboard_registers.json": {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\whiteboard_registers.json",
+      "sha256": "dc5832cf9a2f5a93c470b7f9cdfe5eb9857f78c667010b92b84af43b065786a4",
+      "kind": "unchanged_v24_kernel_or_register_metadata"
+    },
+    "hardware/imx219-v24-2025-2-c5.bit": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\hardware_candidate5\\imx219-v24-2025-2-c5.bit",
+      "sha256": "159c246baa0e5182649de16eff0b5e5c4c58df625e7ec11924146bc7773226e4",
+      "kind": "paired_c5_hardware"
+    },
+    "hardware/imx219-v24-2025-2-c5.bit.bin": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\hardware_candidate5\\imx219-v24-2025-2-c5.bit.bin",
+      "sha256": "9d0813f8b193dab7517b4992ff4a057c7cdfd47d175b7802f9979126c9ae2387",
+      "kind": "paired_c5_hardware"
+    },
+    "hardware/imx219-v24-2025-2-c5.hwh": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\hardware_candidate5\\imx219-v24-2025-2-c5.hwh",
+      "sha256": "a45979c5e66187d9b06dbaef02553e74197c891570fec64b9a6812ae434fa567",
+      "kind": "paired_c5_hardware"
+    },
+    "hardware/imx219-v24-2025-2-c5.dtbo": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\dtbo_candidate5\\imx219-v24-2025-2-c5.dtbo",
+      "sha256": "f7e26198fd5e8391b4b02b4d33b9f9a1447bdd5f61ee4bf2d5b4907b4088d5ed",
+      "kind": "c5_firmware_name_only_overlay"
+    },
+    "ui/libboard_ps_ui.so": {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\arm_ui4b\\libboard_ps_ui.so",
+      "sha256": "bcada0570a63f4d2ff739a9fcfde98fb81884c20fbc8c384fbf0384d30e5b0aa",
+      "kind": "arm64_cross_build_not_executed_on_arm"
+    }
+  },
+  "timing": "impl5: WNS +0.011ns, setup/hold/pulse failures zero",
+  "cdc": "Critical 0; Warning 70; review pending",
+  "kernel_target": "5.15.0-1027-xilinx-zynqmp",
+  "arm_ui_execution": "NOT_RUN",
+  "board_test": "NOT_RUN",
+  "full_clean_rebuild": "r5 in progress; do not claim complete",
+  "default_action": "check (may prepare PYNQ cache/temp files; not purely read-only)"
+}

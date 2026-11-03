@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "original_candidate_files_unchanged": 204,
+  "latest_ui_files_identical": 32,
+  "modified_candidate_files": [
+    "coarse_guidance.py",
+    "deployment.json",
+    "osd_frontend.py",
+    "run_stage_pipeline_frontend.py",
+    "tests/test_frontend_pipeline.py"
+  ],
+  "linux_tests": "wsl_regression_01/validation.json",
+  "linux_window": "wsl_window_01/replay.json",
+  "board_tested": false,
+  "hardware_modified": false
+}

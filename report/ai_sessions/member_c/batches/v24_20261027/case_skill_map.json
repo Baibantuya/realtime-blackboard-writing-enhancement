@@ -1,0 +1,152 @@
+[
+  {
+    "skill_id": "ui-evidence-validation",
+    "case_id": "U01-U03",
+    "source_message_ids": [
+      "01a14ac4-b60b-7970-b9b7-271a88d46b34",
+      "msg_073a7c0911f31663016ad3bb7781108194a4c6448d5af0e013",
+      "01a14d19-5a9a-7bf0-a7bb-f225d82ee6e6",
+      "msg_073a7c0911f31663016ad4443ca6488194bd53a9d8d9df5550",
+      "01a14d49-3b5b-78e2-bb63-c5fc9bdfc9b2",
+      "msg_073a7c0911f31663016ad4f2bbe688819496ea4d9598a1a5e3"
+    ],
+    "source_message_labels": [
+      "user_01_ui_linux:U01",
+      "user_01_ui_linux:U41",
+      "user_02_ui_guidance:U01",
+      "user_02_ui_guidance:U19",
+      "user_03_ui_pipeline:U01",
+      "user_03_ui_pipeline:U33"
+    ],
+    "source_tool_log": "../../validation_results.json",
+    "artifact_hash": "799c91422f6ec9ceaeb11a1c0968562b6ab1dd4f2774f3a18cf5315973f8826a",
+    "test_environment": "Windows/WSL historical; 10/23 structure check",
+    "actual_result": "STRUCTURE_ONLY_FOR_NEW_SKILL",
+    "limitations": "No independent transfer task",
+    "older_message_source": [
+      "../../report/ai_session/user_01_ui_linux/messages.json",
+      "../../report/ai_session/user_02_ui_guidance/messages.json",
+      "../../report/ai_session/user_03_ui_pipeline/messages.json"
+    ]
+  },
+  {
+    "skill_id": "controlled-model-comparison",
+    "case_id": "C01-C03",
+    "source_message_ids": [
+      "01a149b4-e24e-7951-aa84-f95d21d186a8",
+      "msg_073a7c0911f31663016ad37c5ef73481949307ebc5b246369f",
+      "01a14ffe-7633-7242-97ca-9914df727180",
+      "msg_0f8229cbcc778672016ad5248eb31481939a2985049e99e63e",
+      "01a15297-8c9d-74e2-8342-7768e7ebba34",
+      "msg_0f8229cbcc778672016ad5d4a6802c8193b472bfad61e84120"
+    ],
+    "source_message_labels": [
+      "session_01_detection:M01",
+      "session_01_detection:M18",
+      "session_02_model_selection:M01",
+      "session_02_model_selection:M40",
+      "session_03_rgb565:M01",
+      "session_03_rgb565:M31"
+    ],
+    "source_tool_log": "../../validation_results.json",
+    "artifact_hash": "799c91422f6ec9ceaeb11a1c0968562b6ab1dd4f2774f3a18cf5315973f8826a",
+    "test_environment": "Historical model experiments",
+    "actual_result": "HISTORICAL_RESEARCH",
+    "limitations": "Out of current deployment scope",
+    "older_message_source": [
+      "../../report/ai_session/session_01_detection/messages.json",
+      "../../report/ai_session/session_02_model_selection/messages.json",
+      "../../report/ai_session/session_03_rgb565/messages.json"
+    ]
+  },
+  {
+    "skill_id": "pynq-overlay-preflight",
+    "case_id": "A02/V24-A",
+    "source_message_ids": [],
+    "source_message_labels": [],
+    "source_tool_log": "evidence/pynq/evidence/20261022/v22_preflight.json",
+    "artifact_hash": "5bd8ee9f228e21fdf7fb89dcf46c77e36ea98ae7f54d48e83c4ffdd066fcb985",
+    "test_environment": "V22 offline Windows",
+    "actual_result": "429 PASS, 7 NOT_CHECKED; 23 constructed tests",
+    "limitations": "Not V24/board/cross-board validation",
+    "older_message_source": null
+  },
+  {
+    "skill_id": "01_overlay_manager",
+    "case_id": "V24-A",
+    "source_message_ids": [],
+    "source_message_labels": [],
+    "source_tool_log": "evidence/received_skills/01_overlay_manager/README.md",
+    "artifact_hash": "c10195ab77c7fb115fc081c7a3c22d1cb975e2abb17579c16f8810e8acdfac32",
+    "test_environment": "Candidate source/document review",
+    "actual_result": "EXECUTION_RECEIPT_NOT_OBTAINED",
+    "limitations": "Side effects and cross-board claims unverified",
+    "older_message_source": null
+  },
+  {
+    "skill_id": "02_dma_buffer_guard",
+    "case_id": "V24-A",
+    "source_message_ids": [],
+    "source_message_labels": [],
+    "source_tool_log": "evidence/received_skills/02_dma_buffer_guard/README.md",
+    "artifact_hash": "4b58e9ef0062b8860538152527317a484469593b19dfd2b6dca39c06b5827d3b",
+    "test_environment": "Candidate source/document review",
+    "actual_result": "EXECUTION_RECEIPT_NOT_OBTAINED",
+    "limitations": "In-flight buffer isolation after timeout unproven",
+    "older_message_source": null
+  },
+  {
+    "skill_id": "03_contract_codegen",
+    "case_id": "V24-C",
+    "source_message_ids": [
+      "msg_0845cedac3b655ce016ae01de537348190b69ceb2574b67489",
+      "msg_0845cedac3b655ce016ae0268847d48190b68daf542e4dd3b7"
+    ],
+    "source_message_labels": [
+      "N042",
+      "N057"
+    ],
+    "source_tool_log": "evidence/pynq/pynq_codegen_audit.json",
+    "artifact_hash": "cf093b7d4fd7b576779e8155883494b5751ec81decfa97471348470858f347ff",
+    "test_environment": "Other thread actual offline HWH parser test",
+    "actual_result": "FAIL: 67/70 offsets",
+    "limitations": "Not the current board runtime driver; original child transcript not archived",
+    "older_message_source": null
+  },
+  {
+    "skill_id": "04_golden_benchmark",
+    "case_id": "V24-A",
+    "source_message_ids": [],
+    "source_message_labels": [],
+    "source_tool_log": "evidence/received_skills/04_golden_benchmark/README.md",
+    "artifact_hash": "eded6556fdc06edcab7593a1ae515b45cdabb47b2b994be51b18e56f565b2680",
+    "test_environment": "Candidate documentation",
+    "actual_result": "EXECUTION_RECEIPT_NOT_OBTAINED",
+    "limitations": "Event definitions/acceptance thresholds need evidence",
+    "older_message_source": null
+  },
+  {
+    "skill_id": "05_troubleshooting",
+    "case_id": "V24-A",
+    "source_message_ids": [],
+    "source_message_labels": [],
+    "source_tool_log": "evidence/received_skills/05_troubleshooting/TROUBLESHOOTING.md",
+    "artifact_hash": "d3c21a1a7987d7d5b0aad59fa1da506ed8eb438626c0074e76600e435120888a",
+    "test_environment": "Document received",
+    "actual_result": "UNVERIFIED_AS_TRANSFER",
+    "limitations": "No per-rule original-message mapping",
+    "older_message_source": null
+  },
+  {
+    "skill_id": "06_prompt_workflows",
+    "case_id": "V24-A",
+    "source_message_ids": [],
+    "source_message_labels": [],
+    "source_tool_log": "evidence/received_skills/06_prompt_workflows/README.md",
+    "artifact_hash": "7171f2454df556577d6a14751ee9d618074681b9b3be36f6f38443d4e9ff9117",
+    "test_environment": "Template received",
+    "actual_result": "NO_MATCHED_HISTORICAL_USE",
+    "limitations": "Do not present new templates as historical prompts",
+    "older_message_source": null
+  }
+]

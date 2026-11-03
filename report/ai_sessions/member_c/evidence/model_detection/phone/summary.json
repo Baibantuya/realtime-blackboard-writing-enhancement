@@ -1,0 +1,225 @@
+{
+  "video_sha256": "92aa53739e7cef05ce74a91980db2bd82ad9b4ba750ac00be24aee3a29566581",
+  "annotations_sha256": "831f507402baff8c77692393f062f2a8fe85d1faf689f7c4251370544921e740",
+  "model_sha256": "842898a9f2b54b8aac75c505fb5c51825f7a38daabbe749a76f71b4d903dffae",
+  "baseline_reproduced_exactly": true,
+  "frames": 55,
+  "hands": 66,
+  "reasons": {
+    "original": {
+      "matched": 21,
+      "no_hand_candidate_iou05_score01": 17,
+      "overlap_candidate_poor_localization": 10,
+      "aligned_candidate_score_01_to_05": 16,
+      "nms_suppressed": 2
+    },
+    "rgb565": {
+      "matched": 19,
+      "overlap_candidate_poor_localization": 12,
+      "aligned_candidate_score_01_to_05": 17,
+      "no_hand_candidate_iou05_score01": 16,
+      "nms_suppressed": 2
+    }
+  },
+  "size_bins_short_side_416_pixels": {
+    "(0,8]": {
+      "hands": 8,
+      "original_matched": 2,
+      "rgb565_matched": 2
+    },
+    "(8,12]": {
+      "hands": 47,
+      "original_matched": 12,
+      "rgb565_matched": 10
+    },
+    "(12,16]": {
+      "hands": 6,
+      "original_matched": 2,
+      "rgb565_matched": 2
+    },
+    "(16,999]": {
+      "hands": 5,
+      "original_matched": 5,
+      "rgb565_matched": 5
+    }
+  },
+  "threshold_diagnostic": {
+    "0.5": {
+      "original_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 29,
+        "precision_iou50": 0.7241379310344828,
+        "recall_iou50": 0.3181818181818182,
+        "roi_hand_coverage90": 0.10606060606060606,
+        "median_candidate_to_truth_area_when_covered": 1.5367745056126618,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 21
+      },
+      "rgb565_expanded_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 25,
+        "precision_iou50": 0.76,
+        "recall_iou50": 0.2878787878787879,
+        "roi_hand_coverage90": 0.10606060606060606,
+        "median_candidate_to_truth_area_when_covered": 1.5257526539974933,
+        "negative_frames_with_hand_predictions": 0,
+        "matched_hands": 19
+      }
+    },
+    "0.4": {
+      "original_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 36,
+        "precision_iou50": 0.6388888888888888,
+        "recall_iou50": 0.3484848484848485,
+        "roi_hand_coverage90": 0.12121212121212122,
+        "median_candidate_to_truth_area_when_covered": 1.347885031650279,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 23
+      },
+      "rgb565_expanded_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 33,
+        "precision_iou50": 0.696969696969697,
+        "recall_iou50": 0.3484848484848485,
+        "roi_hand_coverage90": 0.12121212121212122,
+        "median_candidate_to_truth_area_when_covered": 1.3404096543768755,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 23
+      }
+    },
+    "0.3": {
+      "original_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 49,
+        "precision_iou50": 0.5510204081632653,
+        "recall_iou50": 0.4090909090909091,
+        "roi_hand_coverage90": 0.18181818181818182,
+        "median_candidate_to_truth_area_when_covered": 1.2462191195898042,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 27
+      },
+      "rgb565_expanded_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 47,
+        "precision_iou50": 0.574468085106383,
+        "recall_iou50": 0.4090909090909091,
+        "roi_hand_coverage90": 0.18181818181818182,
+        "median_candidate_to_truth_area_when_covered": 1.2452008758427022,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 27
+      }
+    },
+    "0.2": {
+      "original_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 55,
+        "precision_iou50": 0.4909090909090909,
+        "recall_iou50": 0.4090909090909091,
+        "roi_hand_coverage90": 0.18181818181818182,
+        "median_candidate_to_truth_area_when_covered": 1.2462191195898042,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 27
+      },
+      "rgb565_expanded_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 54,
+        "precision_iou50": 0.5185185185185185,
+        "recall_iou50": 0.42424242424242425,
+        "roi_hand_coverage90": 0.18181818181818182,
+        "median_candidate_to_truth_area_when_covered": 1.2452008758427022,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 28
+      }
+    },
+    "0.1": {
+      "original_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 78,
+        "precision_iou50": 0.4230769230769231,
+        "recall_iou50": 0.5,
+        "roi_hand_coverage90": 0.22727272727272727,
+        "median_candidate_to_truth_area_when_covered": 1.3887157382184716,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 33
+      },
+      "rgb565_expanded_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 79,
+        "precision_iou50": 0.4177215189873418,
+        "recall_iou50": 0.5,
+        "roi_hand_coverage90": 0.22727272727272727,
+        "median_candidate_to_truth_area_when_covered": 1.3579469187211508,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 33
+      }
+    },
+    "0.05": {
+      "original_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 104,
+        "precision_iou50": 0.3269230769230769,
+        "recall_iou50": 0.5151515151515151,
+        "roi_hand_coverage90": 0.24242424242424243,
+        "median_candidate_to_truth_area_when_covered": 1.3610792098550917,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 34
+      },
+      "rgb565_expanded_bgr": {
+        "reviewed_frames": 55,
+        "truth_boxes": 66,
+        "candidate_boxes": 106,
+        "precision_iou50": 0.32075471698113206,
+        "recall_iou50": 0.5151515151515151,
+        "roi_hand_coverage90": 0.24242424242424243,
+        "median_candidate_to_truth_area_when_covered": 1.346641007825149,
+        "negative_frames_with_hand_predictions": 1,
+        "matched_hands": 34
+      }
+    }
+  },
+  "controls": {
+    "gt_centered_640": {
+      "matched": 60,
+      "recovered_from_rgb565_misses": 41
+    },
+    "same_crop_reduced_detail": {
+      "matched": 58,
+      "recovered_from_rgb565_misses": 39
+    },
+    "high_detail_only": 3,
+    "reduced_detail_only": 1
+  },
+  "changes": {
+    "lost_after_rgb565": [
+      {
+        "index": 53,
+        "source_ordinal": 5776,
+        "gt_index": 0
+      },
+      {
+        "index": 65,
+        "source_ordinal": 6070,
+        "gt_index": 1
+      }
+    ],
+    "gained_after_rgb565": []
+  },
+  "limitations": [
+    "Diagnostic reason bins use confidence .1 and IoU .1/.5; not proven physical root causes.",
+    "GT-centered 640 crops use labels and are not deployable detector performance.",
+    "Reduced-detail control uses down/up linear sampling; measures sensitivity to this perturbation, not unique cause.",
+    "Existing single phone video reused in development; no new independent domain or board test."
+  ]
+}

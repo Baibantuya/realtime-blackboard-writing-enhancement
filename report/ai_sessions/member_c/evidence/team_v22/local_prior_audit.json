@@ -1,0 +1,97 @@
+{
+  "review_date": "2026-10-22",
+  "timezone": "Asia/Taipei",
+  "archive": "D:\\2026嵌赛\\实时板书增强系统\\工作空间\\A和B发送的资料\\V22\\v22_ps_runtime_v2_r4_20261020.zip",
+  "archive_size": 1514967469,
+  "archive_sha256": "0f61f9865931e94cd7571236a4ac45a3dbe03ba6cfdca72bb41b3e8bd5a78eed",
+  "external_sha256_sidecars": [],
+  "release": "v22_ps_runtime_v2_r4_20261020",
+  "manifest_file_count": 647,
+  "manifest_files_hashed": 647,
+  "bundle_files_checked": 174,
+  "python_copies": [
+    {
+      "runtime": "board/runtime/ps_runtime_v2/__init__.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/__init__.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/service.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/service.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/policy.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/policy.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/scheduler.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/scheduler.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/tests/test_services.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/tests/test_services.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/sensor.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/sensor.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/__main__.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/__main__.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/geometry.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/geometry.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/board.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/board.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/contracts.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/contracts.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/content.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/content.py"
+    },
+    {
+      "runtime": "board/runtime/ps_runtime_v2/tests/test_runtime.py",
+      "equal": true,
+      "source": "source/software/ps_runtime_v2/tests/test_runtime.py"
+    }
+  ],
+  "frozen_hls_files_checked": 8,
+  "external_docs": [
+    {
+      "external": "CHANGELOG.md",
+      "equal": true,
+      "packaged": "docs/CHANGELOG.md"
+    },
+    {
+      "external": "HANDOFF (1).md",
+      "equal": true,
+      "packaged": "docs/HANDOFF.md"
+    }
+  ],
+  "duplicates": [],
+  "unlisted_files": [],
+  "board_zip_sha256": "51ac1476c94f99980911f60b2f32e51a98e5390df4404539cea7174a9c2f3491",
+  "board_zip_matches_identity": true,
+  "server_archive_sha256": "3a545eeea0ad5d741b243641e600573602b56a16a55fc2ca33fa914bb03fed0d",
+  "server_archive_matches_identity": true,
+  "v22_restore_sha256": "f52d9e207f2704b5409e1bb4688c2f05a13b04c76340b855b0be668a5918a2ef",
+  "v22_q_sha256": "d8f4f9558f783ebb4c741c51620f47e5caec0cc0f1d884c554dff1f7457a613e",
+  "mismatches": [],
+  "scope": "Local archive reads and SHA256/size checks only; no extraction, code execution, server/board connection, synthesis or runtime tests; nested archives verified as files, not individually re-expanded."
+}

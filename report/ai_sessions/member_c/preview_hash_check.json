@@ -1,0 +1,119 @@
+{
+  "checked": 28,
+  "matched": 28,
+  "items": [
+    {
+      "name": "guidance_search.png",
+      "match": true
+    },
+    {
+      "name": "guidance_left.png",
+      "match": true
+    },
+    {
+      "name": "guidance_right.png",
+      "match": true
+    },
+    {
+      "name": "guidance_up.png",
+      "match": true
+    },
+    {
+      "name": "guidance_down.png",
+      "match": true
+    },
+    {
+      "name": "guidance_zoom_out.png",
+      "match": true
+    },
+    {
+      "name": "guidance_zoom_in.png",
+      "match": true
+    },
+    {
+      "name": "guidance_hold.png",
+      "match": true
+    },
+    {
+      "name": "guidance_clockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_counterclockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_confirming.png",
+      "match": true
+    },
+    {
+      "name": "guidance_recalibrating.png",
+      "match": true
+    },
+    {
+      "name": "guidance_up_then_clockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_up_then_counterclockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_down_then_clockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_down_then_counterclockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_left_then_clockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_left_then_counterclockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_right_then_clockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_right_then_counterclockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_zoom_out_then_clockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_zoom_out_then_counterclockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_zoom_in_then_clockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_zoom_in_then_counterclockwise.png",
+      "match": true
+    },
+    {
+      "name": "guidance_up_then_left.png",
+      "match": true
+    },
+    {
+      "name": "guidance_up_then_right.png",
+      "match": true
+    },
+    {
+      "name": "guidance_down_then_left.png",
+      "match": true
+    },
+    {
+      "name": "guidance_down_then_right.png",
+      "match": true
+    }
+  ],
+  "scope": "Read-only file hashes against existing manifest, no rerender"
+}

@@ -1,0 +1,49 @@
+{
+  "images": 55,
+  "counts": {
+    "hands_gt": 66,
+    "hands_pred": 62,
+    "hands_matched": 60,
+    "objects_pred": 0,
+    "objects_gt": null,
+    "objects_matched": null,
+    "valid_pairs_gt": null,
+    "pairs_correct": null
+  },
+  "metrics": {
+    "hands": {
+      "precision": 0.967741935483871,
+      "recall": 0.9090909090909091
+    },
+    "objects": {
+      "precision": null,
+      "recall": null
+    },
+    "pair_recall": null
+  },
+  "coco": {
+    "ap50_95": 0.45761144161715156,
+    "ap50": 0.9349249428446672,
+    "by_class": {
+      "hand": 0.45761144161715156,
+      "held_object": null
+    }
+  },
+  "empty_gt_frames": 9,
+  "empty_gt_frames_with_hand_prediction": 0,
+  "box_area_coverage_90": {
+    "covered": 17,
+    "total": 66,
+    "covered_subset_prediction_gt_area_ratio_median": 1.1265057502205469,
+    "definition": "Maximum intersection/GT area per hand box. Large boxes may score well; not a pixel mask."
+  },
+  "checkpoint_sha256": "723e4f9259810ed2091de8923fdacdfcaf0b29e3eb7590b600f6edf048c6d498",
+  "registry_sha256": "0879dd5e7eb77ec854cc1f9563e73582eb1c498fc07b573bbe75c5ddc5614601",
+  "native_backend": "torch CPU FP32, 640 BGR, hand threshold .5",
+  "input_size": 640,
+  "relation_magnitude_pixel_scale": 640,
+  "annotations_sha256": "bb8379b905eaba06f9ce627b1b0cdbcbee54090c801bb330eba87a5b9e5b0273",
+  "object_contact_and_link_truth": null,
+  "deployment_approved": false,
+  "limitation": "Reused phone55 hand-only development regression. Not independent test, IMX219 data, gesture/occlusion-mask truth or board timing."
+}

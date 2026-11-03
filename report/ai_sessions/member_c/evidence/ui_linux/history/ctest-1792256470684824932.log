@@ -1,0 +1,20 @@
+Internal ctest changing into directory: /home/ubuntu/board-system/ui-linux-20261018/build
+Test project /home/ubuntu/board-system/ui-linux-20261018/build
+    Start 1: control
+1/4 Test #1: control ..........................   Passed    0.00 sec
+    Start 2: diagnostics
+2/4 Test #2: diagnostics ......................   Passed    0.00 sec
+    Start 3: diagnostic_inbox
+3/4 Test #3: diagnostic_inbox .................   Passed    0.00 sec
+    Start 4: linux_display_input
+4/4 Test #4: linux_display_input ..............Subprocess aborted***Exception:   0.06 sec
+LVGL assertion failed at /home/ubuntu/board-system/ui-linux-20261018/dependency/lvgl-80ca777e37a2b176770726a02e07a6fb79ef0b39/src/core/lv_obj_style.c:548
+
+
+75% tests passed, 1 tests failed out of 4
+
+Total Test time (real) =   0.07 sec
+
+The following tests FAILED:
+	  4 - linux_display_input (Subprocess aborted)
+Errors while running CTest

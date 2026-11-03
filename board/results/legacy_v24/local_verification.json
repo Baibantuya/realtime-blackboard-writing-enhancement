@@ -1,0 +1,16 @@
+{
+  "files": 81,
+  "python": 35,
+  "root_entries": [
+    "README.md",
+    "app",
+    "config",
+    "drivers",
+    "hardware",
+    "run.sh",
+    "ui"
+  ],
+  "unchanged_algorithms": true,
+  "active_stage_classes_ast_identical": true,
+  "payload_hashes_match": true
+}

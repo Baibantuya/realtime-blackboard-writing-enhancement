@@ -1,0 +1,42 @@
+import argparse
+import json
+import os
+from pathlib import Path
+import sys
+import unittest
+from unittest.mock import patch
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--reference', type=Path, required=True)
+    parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--native', type=Path)
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    sys.dont_write_bytecode = True
+    os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
+    os.environ['PS_V2_SOURCE'] = str(root)
+    os.environ['PS_V2_REFERENCE'] = str(root)
+    if args.native:
+        os.environ['WB_SCENE_NATIVE'] = str(args.native.resolve())
+    sys.path[:0] = [str(root), str(args.reference.resolve())]
+    suite = unittest.TestSuite()
+    for name in ('legacy_tests', 'tests'):
+        suite.addTests(unittest.defaultTestLoader.discover(str(root / name), top_level_dir=str(root / name)))
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    log = args.output.with_suffix('.log')
+    with log.open('w', encoding='utf-8') as stream, patch('scene_input.os.O_NONBLOCK', getattr(os, 'O_NONBLOCK', 0), create=True):
+        result = unittest.TextTestRunner(stream=stream, verbosity=2).run(suite)
+    report = dict(result='PASS' if result.wasSuccessful() else 'FAIL', tests=result.testsRun,
+                  failures=len(result.failures), errors=len(result.errors), skipped=len(result.skipped),
+                  board_validation='NOT_RUN', native_q=bool(args.native), log=str(log))
+    args.output.write_text(json.dumps(report, indent=2), encoding='utf-8')
+    print(json.dumps(report))
+    if not result.wasSuccessful():
+        print(log.read_text(encoding='utf-8'))
+    return 0 if result.wasSuccessful() else 1
+
+
+if __name__ == '__main__':
+    sys.exit(main())

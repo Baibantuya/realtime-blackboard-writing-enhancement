@@ -1,0 +1,21 @@
+{
+  "original_current_package": "EXPECTED_REJECTION",
+  "original_error": "Incomplete scene HWH register map",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.9.23 (main, Jun  5 2025, 13:25:08) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "D:\\2026嵌赛\\实时板书增强系统\\.venv\\Scripts\\python.exe",
+  "candidate_old_and_new_register_maps_equal": true,
+  "register_count": 20,
+  "control": {
+    "offset": 104,
+    "width": 32
+  },
+  "duplicate_alias_rejected": true,
+  "board_test": "NOT_RUN",
+  "candidate_final_hwh": {
+    "status": "PASS",
+    "instance": "board_quantize_rgb_0",
+    "base": 2147876864,
+    "length": 65536
+  }
+}

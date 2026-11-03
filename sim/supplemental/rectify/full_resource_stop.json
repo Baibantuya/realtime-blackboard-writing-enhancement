@@ -1,0 +1,27 @@
+{
+  "reason": "Stopped only 1080p RTL simulation after xsimk used 20.51 GiB and available system memory fell to 0.31 GiB",
+  "time": "2026-10-28T23:56:35.6673196+08:00",
+  "pid": 3328,
+  "process_name": "xsimk.exe",
+  "executable": "W:\\local6\\rectify\\f\\s\\sim\\verilog\\xsim.dir\\board_rectify_rgb\\xsimk.exe",
+  "created": "2026-10-28T23:48:41.037215+08:00",
+  "matched_ancestors": [
+    {
+      "ProcessId": 8944,
+      "Name": "cmd.exe"
+    },
+    {
+      "ProcessId": 40272,
+      "Name": "vitis-run.exe"
+    },
+    {
+      "ProcessId": 41752,
+      "Name": "cmd.exe"
+    },
+    {
+      "ProcessId": 35592,
+      "Name": "pwsh.exe"
+    }
+  ],
+  "result": "STOP_REQUESTED_NOT_TEST_PASS"
+}

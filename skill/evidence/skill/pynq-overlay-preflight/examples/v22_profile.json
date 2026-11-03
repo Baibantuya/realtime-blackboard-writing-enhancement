@@ -1,0 +1,486 @@
+{
+  "schema": 1,
+  "release": "v22_ps_runtime_v2_r4_20261020",
+  "backend": "kv260_fpgautil_metadata_only_documented",
+  "target_part": "xck26-sfvc784-2LV-c",
+  "files": {
+    "bit": {
+      "path": "board/runtime/imx219-fusion-v22.bit",
+      "size": 7797812,
+      "sha256": "5fa20f6bcb6ed323ee2acc7cccdf105975dce2d789c29ccefaca85a7812a6888"
+    },
+    "hwh": {
+      "path": "board/runtime/imx219-fusion-v22.hwh",
+      "size": 1526498,
+      "sha256": "9cae7d1534d52a331424aa5a891e501851e05f6a65c9a1ec6c2f5946f9ca5eca"
+    },
+    "bit_bin": {
+      "path": "board/runtime/imx219-fusion-v22.bit.bin",
+      "size": 7797692,
+      "sha256": "2643c20c349eab6fe71355b1080180e559dd9f6d00be7845b13037c75069c1d0"
+    },
+    "dtbo": {
+      "path": "board/runtime/imx219-fusion-v22.dtbo",
+      "size": 15540,
+      "sha256": "eceb74c2a7bf6d1512ef359c748fe51508569243cc106bd3f9d99ff022e83937"
+    },
+    "frame_driver": {
+      "path": "board/runtime/wb_frame_pool.ko",
+      "size": 422384,
+      "sha256": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca"
+    },
+    "format_driver": {
+      "path": "board/runtime/wb_rgb565_format.ko",
+      "size": 445480,
+      "sha256": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c"
+    },
+    "release_identity": {
+      "path": "release_identity.json",
+      "size": 995,
+      "sha256": "9d2ae21ca6673d28e782311bc86bd87063c2ad6b23a9bc6d0882300243fa79c9"
+    },
+    "deployment": {
+      "path": "board/runtime/deployment.json",
+      "size": 1604,
+      "sha256": "3f0219609c8402b5acbc55c4f3b526f1d925d540ccc704df4cde47a7fee63d5b"
+    },
+    "system_manifest": {
+      "path": "board/runtime/system_manifest.json",
+      "size": 20487,
+      "sha256": "ff2d6994872b2f92adbff8bf5c3b2faa942623701d1cddff5d22f7b7c6385211"
+    }
+  },
+  "manifest": {
+    "path": "MANIFEST.json"
+  },
+  "identity": {
+    "path": "release_identity.json",
+    "fields": {
+      "release": "v22_ps_runtime_v2_r4_20261020",
+      "current_ps": "ps_runtime_v2_r4",
+      "authoritative_entrypoint": "board/runtime/run_ps_runtime_v2.py"
+    }
+  },
+  "ips": [
+    {
+      "fullname": "/board_rectify_rgb_0",
+      "vlnv": "whiteboard.org:hls:board_rectify_rgb:1.0",
+      "registers": {
+        "CTRL": {
+          "offset": 0,
+          "width": 32,
+          "access": "read-write",
+          "fields": {
+            "AP_START": {
+              "offset": 0,
+              "width": 1
+            },
+            "AP_DONE": {
+              "offset": 1,
+              "width": 1
+            }
+          }
+        },
+        "GIER": {
+          "offset": 4,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_IER": {
+          "offset": 8,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_ISR": {
+          "offset": 12,
+          "width": 32,
+          "access": "read-write"
+        },
+        "src": {
+          "offset": 16,
+          "width": 32,
+          "access": "write-only"
+        },
+        "dst": {
+          "offset": 24,
+          "width": 32,
+          "access": "write-only"
+        },
+        "status": {
+          "offset": 32,
+          "width": 32,
+          "access": "write-only"
+        },
+        "hint": {
+          "offset": 40,
+          "width": 32,
+          "access": "write-only"
+        },
+        "corners": {
+          "offset": 48,
+          "width": 32,
+          "access": "write-only"
+        },
+        "binary_enable": {
+          "offset": 56,
+          "width": 32,
+          "access": "write-only"
+        },
+        "mode": {
+          "offset": 64,
+          "width": 32,
+          "access": "write-only"
+        },
+        "threshold": {
+          "offset": 72,
+          "width": 32,
+          "access": "write-only"
+        },
+        "bgr": {
+          "offset": 80,
+          "width": 32,
+          "access": "write-only"
+        },
+        "geometry": {
+          "offset": 88,
+          "width": 32,
+          "access": "write-only"
+        },
+        "diagnostics": {
+          "offset": 96,
+          "width": 32,
+          "access": "write-only"
+        }
+      },
+      "address": {
+        "interface": "s_axi_control",
+        "base": "0x80040000",
+        "high": "0x8004FFFF"
+      }
+    },
+    {
+      "fullname": "/whiteboard_restore_0",
+      "vlnv": "whiteboard.org:hls:whiteboard_restore:1.0",
+      "registers": {
+        "CTRL": {
+          "offset": 0,
+          "width": 32,
+          "access": "read-write",
+          "fields": {
+            "AP_START": {
+              "offset": 0,
+              "width": 1
+            },
+            "AP_DONE": {
+              "offset": 1,
+              "width": 1
+            }
+          }
+        },
+        "GIER": {
+          "offset": 4,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_IER": {
+          "offset": 8,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_ISR": {
+          "offset": 12,
+          "width": 32,
+          "access": "read-write"
+        },
+        "ap_return": {
+          "offset": 16,
+          "width": 32,
+          "access": "read-only"
+        },
+        "input_r_1": {
+          "offset": 24,
+          "width": 32,
+          "access": "write-only"
+        },
+        "input_r_2": {
+          "offset": 28,
+          "width": 32,
+          "access": "write-only"
+        },
+        "output_r_1": {
+          "offset": 36,
+          "width": 32,
+          "access": "write-only"
+        },
+        "output_r_2": {
+          "offset": 40,
+          "width": 32,
+          "access": "write-only"
+        },
+        "background_1": {
+          "offset": 48,
+          "width": 32,
+          "access": "write-only"
+        },
+        "background_2": {
+          "offset": 52,
+          "width": 32,
+          "access": "write-only"
+        },
+        "previous_1": {
+          "offset": 60,
+          "width": 32,
+          "access": "write-only"
+        },
+        "previous_2": {
+          "offset": 64,
+          "width": 32,
+          "access": "write-only"
+        },
+        "pixel_quiet_1": {
+          "offset": 72,
+          "width": 32,
+          "access": "write-only"
+        },
+        "pixel_quiet_2": {
+          "offset": 76,
+          "width": 32,
+          "access": "write-only"
+        },
+        "block_state_1": {
+          "offset": 84,
+          "width": 32,
+          "access": "write-only"
+        },
+        "block_state_2": {
+          "offset": 88,
+          "width": 32,
+          "access": "write-only"
+        },
+        "roi_1": {
+          "offset": 96,
+          "width": 32,
+          "access": "write-only"
+        },
+        "roi_2": {
+          "offset": 100,
+          "width": 32,
+          "access": "write-only"
+        },
+        "width": {
+          "offset": 108,
+          "width": 32,
+          "access": "write-only"
+        },
+        "height": {
+          "offset": 116,
+          "width": 32,
+          "access": "write-only"
+        },
+        "initialize": {
+          "offset": 124,
+          "width": 32,
+          "access": "write-only"
+        },
+        "bgr": {
+          "offset": 132,
+          "width": 32,
+          "access": "write-only"
+        },
+        "delta": {
+          "offset": 140,
+          "width": 32,
+          "access": "write-only"
+        },
+        "quiet_delta": {
+          "offset": 148,
+          "width": 32,
+          "access": "write-only"
+        },
+        "dense": {
+          "offset": 156,
+          "width": 32,
+          "access": "write-only"
+        },
+        "weak_threshold": {
+          "offset": 164,
+          "width": 32,
+          "access": "write-only"
+        },
+        "hold": {
+          "offset": 172,
+          "width": 32,
+          "access": "write-only"
+        },
+        "stable_r": {
+          "offset": 180,
+          "width": 32,
+          "access": "write-only"
+        },
+        "quiet_max": {
+          "offset": 188,
+          "width": 32,
+          "access": "write-only"
+        },
+        "chalk_min": {
+          "offset": 196,
+          "width": 32,
+          "access": "write-only"
+        },
+        "chalk_spread": {
+          "offset": 204,
+          "width": 32,
+          "access": "write-only"
+        },
+        "fine_min": {
+          "offset": 212,
+          "width": 32,
+          "access": "write-only"
+        },
+        "fine_spread": {
+          "offset": 220,
+          "width": 32,
+          "access": "write-only"
+        },
+        "red_bias": {
+          "offset": 228,
+          "width": 32,
+          "access": "write-only"
+        }
+      },
+      "address": {
+        "interface": "s_axi_control",
+        "base": "0x80050000",
+        "high": "0x8005FFFF"
+      }
+    },
+    {
+      "fullname": "/board_quantize_rgb_0",
+      "vlnv": "whiteboard.org:hls:board_scene_quantize:1.0",
+      "registers": {
+        "CTRL": {
+          "offset": 0,
+          "width": 32,
+          "access": "read-write",
+          "fields": {
+            "AP_START": {
+              "offset": 0,
+              "width": 1
+            },
+            "AP_DONE": {
+              "offset": 1,
+              "width": 1
+            }
+          }
+        },
+        "GIER": {
+          "offset": 4,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_IER": {
+          "offset": 8,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_ISR": {
+          "offset": 12,
+          "width": 32,
+          "access": "read-write"
+        },
+        "ap_return": {
+          "offset": 16,
+          "width": 32,
+          "access": "read-only"
+        },
+        "src": {
+          "offset": 24,
+          "width": 32,
+          "access": "write-only"
+        },
+        "canvas_in": {
+          "offset": 32,
+          "width": 32,
+          "access": "write-only"
+        },
+        "canvas_out": {
+          "offset": 40,
+          "width": 32,
+          "access": "write-only"
+        },
+        "metadata": {
+          "offset": 48,
+          "width": 32,
+          "access": "write-only"
+        },
+        "dst": {
+          "offset": 56,
+          "width": 32,
+          "access": "write-only"
+        },
+        "width": {
+          "offset": 64,
+          "width": 32,
+          "access": "write-only"
+        },
+        "height": {
+          "offset": 72,
+          "width": 32,
+          "access": "write-only"
+        },
+        "dst_stride": {
+          "offset": 80,
+          "width": 32,
+          "access": "write-only"
+        },
+        "frame_cookie": {
+          "offset": 88,
+          "width": 32,
+          "access": "write-only"
+        },
+        "metadata_cookie": {
+          "offset": 96,
+          "width": 32,
+          "access": "write-only"
+        },
+        "control": {
+          "offset": 104,
+          "width": 32,
+          "access": "write-only"
+        },
+        "order": {
+          "offset": 112,
+          "width": 32,
+          "access": "write-only"
+        },
+        "ink_delta": {
+          "offset": 120,
+          "width": 32,
+          "access": "write-only"
+        },
+        "erase_delta": {
+          "offset": 128,
+          "width": 32,
+          "access": "write-only"
+        },
+        "color_margin": {
+          "offset": 136,
+          "width": 32,
+          "access": "write-only"
+        }
+      },
+      "address": {
+        "interface": "s_axi_control",
+        "base": "0x80060000",
+        "high": "0x8006FFFF"
+      }
+    }
+  ],
+  "environment": {
+    "expected": {
+      "kernel": "5.15.0-1027-xilinx",
+      "board": "KV260/K26"
+    }
+  },
+  "provenance": "2026-10-22 observed V22 HWH snapshot + package manifest. No independent build attestation; no cross-board test. Do not regenerate against new inputs to hide drift."
+}

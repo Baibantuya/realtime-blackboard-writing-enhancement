@@ -1,0 +1,44 @@
+{
+  "status": "PASS_SMALL_AND_BOUNDARY_RTL_ONLY",
+  "checks": {
+    "source_board_rectify_rgb.cpp": true,
+    "source_rgb565.h": true,
+    "small": true,
+    "boundary": true
+  },
+  "projects": {
+    "small": {
+      "exit_code": 0,
+      "cosim_verilog_pass": true,
+      "all_transactions_observed": true,
+      "transactions": 63,
+      "generated_rtl_file_count": 45,
+      "generated_files_identical_to_r5": true
+    },
+    "boundary": {
+      "exit_code": 0,
+      "cosim_verilog_pass": true,
+      "all_transactions_observed": true,
+      "transactions": 12,
+      "generated_rtl_file_count": 45,
+      "generated_files_identical_to_r5": true
+    }
+  },
+  "full_frame_attempts": {
+    "full": {
+      "exit_code": 1,
+      "result": "NOT_VALIDATED_RESOURCE_LIMIT",
+      "csim_pass": true,
+      "resource_stop_record": "full_resource_stop.json",
+      "reason": "Stopped only 1080p RTL simulation after xsimk used 20.51 GiB and available system memory fell to 0.31 GiB"
+    },
+    "single": {
+      "exit_code": 1,
+      "result": "NOT_VALIDATED_RESOURCE_LIMIT",
+      "csim_pass": true,
+      "resource_stop_record": "single_resource_stop.json",
+      "reason": "Stopped for sustained memory growth during initialization after previous 20.5 GiB run exhausted host memory"
+    }
+  },
+  "scope": "Unchanged R5 DUT; synthetic small/boundary frames. Full 1080p RTL verification remains incomplete. Not video-rate or board measurement."
+}

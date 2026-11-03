@@ -1,0 +1,22 @@
+{
+  "output": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\实时板书增强系统技术报告_v24_20261026.docx",
+  "bytes": 219190,
+  "sha256": "2515eaf921b70149b22cda16078d4d3fbadc3dd57dc4ae12953974b156100cd9",
+  "template_unchanged": true,
+  "changed_parts": [
+    "[Content_Types].xml",
+    "docProps/app.xml",
+    "docProps/core.xml",
+    "word/_rels/document.xml.rels",
+    "word/document.xml",
+    "word/settings.xml",
+    "word/styles.xml"
+  ],
+  "preserve_only_differences": [],
+  "new_parts": [
+    "word/media/image2.png"
+  ],
+  "red_runs": 40,
+  "body_paragraphs": 148,
+  "tables": 10
+}

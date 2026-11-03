@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "scope": "recorded_V24_vectors_only_no_new_simulation",
+  "transactions": 9,
+  "returns": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "memory_output_sha256": "f87ef1d0807b58b517c5c8c1b39c133ac66caca55a3fff404660e653b40e8ad7"
+}

@@ -1,0 +1,3 @@
+* -text
+src/pl/generated_rtl/** linguist-generated=true
+build/reports/** linguist-generated=true

@@ -1,0 +1,515 @@
+{
+  "schema": 1,
+  "release": "V24-PS-SLIM-20261026",
+  "backend": "kv260_fpgautil_metadata_only_documented",
+  "target_part": "xck26-sfvc784-2LV-c",
+  "files": {
+    "bit": {
+      "path": "hardware/imx219-fusion-v24.bit",
+      "size": 7797812,
+      "sha256": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6"
+    },
+    "hwh": {
+      "path": "hardware/imx219-fusion-v24.hwh",
+      "size": 1164029,
+      "sha256": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45"
+    },
+    "bit_bin": {
+      "path": "hardware/imx219-fusion-v24.bit.bin",
+      "size": 7797692,
+      "sha256": "4a22dd880535517d01f00455bad0a5cbe8f472909fc246c59946f5290b8bf8bc"
+    },
+    "dtbo": {
+      "path": "hardware/imx219-fusion-v24.dtbo",
+      "size": 15536,
+      "sha256": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f"
+    },
+    "frame_driver": {
+      "path": "hardware/wb_frame_pool.ko",
+      "size": 422384,
+      "sha256": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca"
+    },
+    "format_driver": {
+      "path": "hardware/wb_rgb565_format.ko",
+      "size": 445480,
+      "sha256": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c"
+    },
+    "deployment": {
+      "path": "config/deployment.json",
+      "size": 1032,
+      "sha256": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d"
+    },
+    "runtime_manifest": {
+      "path": "config/runtime_manifest.json",
+      "size": 24883,
+      "sha256": "4096087e94f67d736c169c2d1014bfa8c74d773ca3b9b60f76a26c552a5bbf08"
+    },
+    "entry_wrapper": {
+      "path": "run.sh",
+      "size": 174,
+      "sha256": "b2328f10acd1a9d109b6285fb4acd49ea75f4192b76ede944009c9f0b3ff9b26"
+    }
+  },
+  "identity": {
+    "path": "config/deployment.json",
+    "fields": {
+      "schema": 2,
+      "version": "V24-PS-SLIM-20261026",
+      "hardware_revision": "V24-200MHz",
+      "algorithm_abi": "0x57425321",
+      "package_layout": "structured"
+    }
+  },
+  "ips": [
+    {
+      "fullname": "/board_rectify_rgb_0",
+      "vlnv": "whiteboard.org:hls:board_rectify_rgb:1.0",
+      "registers": {
+        "CTRL": {
+          "offset": 0,
+          "width": 32,
+          "access": "read-write",
+          "fields": {
+            "AP_START": {
+              "offset": 0,
+              "width": 1
+            },
+            "AP_DONE": {
+              "offset": 1,
+              "width": 1
+            },
+            "AP_IDLE": {
+              "offset": 2,
+              "width": 1
+            },
+            "AP_READY": {
+              "offset": 3,
+              "width": 1
+            },
+            "AUTO_RESTART": {
+              "offset": 7,
+              "width": 1
+            }
+          }
+        },
+        "GIER": {
+          "offset": 4,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_IER": {
+          "offset": 8,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_ISR": {
+          "offset": 12,
+          "width": 32,
+          "access": "read-write"
+        },
+        "src": {
+          "offset": 16,
+          "width": 32,
+          "access": "write-only"
+        },
+        "dst": {
+          "offset": 24,
+          "width": 32,
+          "access": "write-only"
+        },
+        "status": {
+          "offset": 32,
+          "width": 32,
+          "access": "write-only"
+        },
+        "hint": {
+          "offset": 40,
+          "width": 32,
+          "access": "write-only"
+        },
+        "corners": {
+          "offset": 48,
+          "width": 32,
+          "access": "write-only"
+        },
+        "binary_enable": {
+          "offset": 56,
+          "width": 32,
+          "access": "write-only"
+        },
+        "mode": {
+          "offset": 64,
+          "width": 32,
+          "access": "write-only"
+        },
+        "threshold": {
+          "offset": 72,
+          "width": 32,
+          "access": "write-only"
+        },
+        "bgr": {
+          "offset": 80,
+          "width": 32,
+          "access": "write-only"
+        },
+        "geometry": {
+          "offset": 88,
+          "width": 32,
+          "access": "write-only"
+        },
+        "diagnostics": {
+          "offset": 96,
+          "width": 32,
+          "access": "write-only"
+        }
+      },
+      "address": {
+        "interface": "s_axi_control",
+        "base": "0x80040000",
+        "high": "0x8004FFFF"
+      }
+    },
+    {
+      "fullname": "/board_quantize_rgb_0",
+      "vlnv": "whiteboard.org:hls:board_scene_quantize:1.0",
+      "registers": {
+        "CTRL": {
+          "offset": 0,
+          "width": 32,
+          "access": "read-write",
+          "fields": {
+            "AP_START": {
+              "offset": 0,
+              "width": 1
+            },
+            "AP_DONE": {
+              "offset": 1,
+              "width": 1
+            },
+            "AP_IDLE": {
+              "offset": 2,
+              "width": 1
+            },
+            "AP_READY": {
+              "offset": 3,
+              "width": 1
+            },
+            "AUTO_RESTART": {
+              "offset": 7,
+              "width": 1
+            }
+          }
+        },
+        "GIER": {
+          "offset": 4,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_IER": {
+          "offset": 8,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_ISR": {
+          "offset": 12,
+          "width": 32,
+          "access": "read-write"
+        },
+        "ap_return": {
+          "offset": 16,
+          "width": 32,
+          "access": "read-only"
+        },
+        "src": {
+          "offset": 24,
+          "width": 32,
+          "access": "write-only"
+        },
+        "canvas_in": {
+          "offset": 32,
+          "width": 32,
+          "access": "write-only"
+        },
+        "canvas_out": {
+          "offset": 40,
+          "width": 32,
+          "access": "write-only"
+        },
+        "metadata": {
+          "offset": 48,
+          "width": 32,
+          "access": "write-only"
+        },
+        "dst": {
+          "offset": 56,
+          "width": 32,
+          "access": "write-only"
+        },
+        "width": {
+          "offset": 64,
+          "width": 32,
+          "access": "write-only"
+        },
+        "height": {
+          "offset": 72,
+          "width": 32,
+          "access": "write-only"
+        },
+        "dst_stride": {
+          "offset": 80,
+          "width": 32,
+          "access": "write-only"
+        },
+        "frame_cookie": {
+          "offset": 88,
+          "width": 32,
+          "access": "write-only"
+        },
+        "metadata_cookie": {
+          "offset": 96,
+          "width": 32,
+          "access": "write-only"
+        },
+        "control": {
+          "offset": 104,
+          "width": 32,
+          "access": "write-only"
+        },
+        "order": {
+          "offset": 112,
+          "width": 32,
+          "access": "write-only"
+        },
+        "ink_delta": {
+          "offset": 120,
+          "width": 32,
+          "access": "write-only"
+        },
+        "erase_delta": {
+          "offset": 128,
+          "width": 32,
+          "access": "write-only"
+        },
+        "color_margin": {
+          "offset": 136,
+          "width": 32,
+          "access": "write-only"
+        }
+      },
+      "address": {
+        "interface": "s_axi_control",
+        "base": "0x80060000",
+        "high": "0x8006FFFF"
+      }
+    },
+    {
+      "fullname": "/whiteboard_restore_0",
+      "vlnv": "whiteboard.org:hls:whiteboard_restore:1.0",
+      "registers": {
+        "CTRL": {
+          "offset": 0,
+          "width": 32,
+          "access": "read-write",
+          "fields": {
+            "AP_START": {
+              "offset": 0,
+              "width": 1
+            },
+            "AP_DONE": {
+              "offset": 1,
+              "width": 1
+            },
+            "AP_IDLE": {
+              "offset": 2,
+              "width": 1
+            },
+            "AP_READY": {
+              "offset": 3,
+              "width": 1
+            },
+            "AUTO_RESTART": {
+              "offset": 7,
+              "width": 1
+            }
+          }
+        },
+        "GIER": {
+          "offset": 4,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_IER": {
+          "offset": 8,
+          "width": 32,
+          "access": "read-write"
+        },
+        "IP_ISR": {
+          "offset": 12,
+          "width": 32,
+          "access": "read-write"
+        },
+        "ap_return": {
+          "offset": 16,
+          "width": 32,
+          "access": "read-only"
+        },
+        "input_r_1": {
+          "offset": 24,
+          "width": 32,
+          "access": "write-only"
+        },
+        "input_r_2": {
+          "offset": 28,
+          "width": 32,
+          "access": "write-only"
+        },
+        "output_r_1": {
+          "offset": 36,
+          "width": 32,
+          "access": "write-only"
+        },
+        "output_r_2": {
+          "offset": 40,
+          "width": 32,
+          "access": "write-only"
+        },
+        "background_1": {
+          "offset": 48,
+          "width": 32,
+          "access": "write-only"
+        },
+        "background_2": {
+          "offset": 52,
+          "width": 32,
+          "access": "write-only"
+        },
+        "previous_1": {
+          "offset": 60,
+          "width": 32,
+          "access": "write-only"
+        },
+        "previous_2": {
+          "offset": 64,
+          "width": 32,
+          "access": "write-only"
+        },
+        "pixel_quiet_1": {
+          "offset": 72,
+          "width": 32,
+          "access": "write-only"
+        },
+        "pixel_quiet_2": {
+          "offset": 76,
+          "width": 32,
+          "access": "write-only"
+        },
+        "block_state_1": {
+          "offset": 84,
+          "width": 32,
+          "access": "write-only"
+        },
+        "block_state_2": {
+          "offset": 88,
+          "width": 32,
+          "access": "write-only"
+        },
+        "roi_1": {
+          "offset": 96,
+          "width": 32,
+          "access": "write-only"
+        },
+        "roi_2": {
+          "offset": 100,
+          "width": 32,
+          "access": "write-only"
+        },
+        "width": {
+          "offset": 108,
+          "width": 32,
+          "access": "write-only"
+        },
+        "height": {
+          "offset": 116,
+          "width": 32,
+          "access": "write-only"
+        },
+        "initialize": {
+          "offset": 124,
+          "width": 32,
+          "access": "write-only"
+        },
+        "bgr": {
+          "offset": 132,
+          "width": 32,
+          "access": "write-only"
+        },
+        "delta": {
+          "offset": 140,
+          "width": 32,
+          "access": "write-only"
+        },
+        "quiet_delta": {
+          "offset": 148,
+          "width": 32,
+          "access": "write-only"
+        },
+        "dense": {
+          "offset": 156,
+          "width": 32,
+          "access": "write-only"
+        },
+        "weak_threshold": {
+          "offset": 164,
+          "width": 32,
+          "access": "write-only"
+        },
+        "hold": {
+          "offset": 172,
+          "width": 32,
+          "access": "write-only"
+        },
+        "stable_r": {
+          "offset": 180,
+          "width": 32,
+          "access": "write-only"
+        },
+        "quiet_max": {
+          "offset": 188,
+          "width": 32,
+          "access": "write-only"
+        },
+        "chalk_min": {
+          "offset": 196,
+          "width": 32,
+          "access": "write-only"
+        },
+        "chalk_spread": {
+          "offset": 204,
+          "width": 32,
+          "access": "write-only"
+        },
+        "fine_min": {
+          "offset": 212,
+          "width": 32,
+          "access": "write-only"
+        },
+        "fine_spread": {
+          "offset": 220,
+          "width": 32,
+          "access": "write-only"
+        },
+        "red_bias": {
+          "offset": 228,
+          "width": 32,
+          "access": "write-only"
+        }
+      },
+      "address": {
+        "interface": "s_axi_control",
+        "base": "0x80050000",
+        "high": "0x8005FFFF"
+      }
+    }
+  ],
+  "provenance": "Frozen from S runtime 2026-10-27; 70 words independently compared to supplied HLS headers. Identity/consistency only. Schema2 runtime manifest independently audited in input_review.json, not passed into the historical generic manifest parser."
+}

@@ -1,0 +1,89 @@
+{
+  "original_artifacts_unchanged": true,
+  "records": [
+    {
+      "path": "runs/public20k_bs32_60/settings.json",
+      "expected_sha256": "d1a5ebc2d1a83309923a0322be724c0b94f0ad9b01e6a0ee6f1d804ff92b2d06",
+      "actual_sha256": "d1a5ebc2d1a83309923a0322be724c0b94f0ad9b01e6a0ee6f1d804ff92b2d06",
+      "unchanged": true
+    },
+    {
+      "path": "runs/public20k_bs32_60/result.json",
+      "expected_sha256": "029d840932325905b1b7f80b396004873146442463c58c210eb4fda897592758",
+      "actual_sha256": "029d840932325905b1b7f80b396004873146442463c58c210eb4fda897592758",
+      "unchanged": true
+    },
+    {
+      "path": "runs/public20k_bs32_60/hand_object_yolox_nano/best_ckpt.pth",
+      "expected_sha256": "82b91a9a107a9b143455fb1c79c3f6ab5da550d6f53cccee78b4a038b0bcdabb",
+      "actual_sha256": "82b91a9a107a9b143455fb1c79c3f6ab5da550d6f53cccee78b4a038b0bcdabb",
+      "unchanged": true
+    },
+    {
+      "path": "runs/public20k_bs32_60/hand_object_yolox_nano/last_epoch_ckpt.pth",
+      "expected_sha256": "bb747f0af81e61338540cc5e8137980056cd52ccb57a294fb2574b3283f2cc50",
+      "actual_sha256": "bb747f0af81e61338540cc5e8137980056cd52ccb57a294fb2574b3283f2cc50",
+      "unchanged": true
+    },
+    {
+      "path": "runs/public20k_bs32_60/hand_object_yolox_nano_float32.onnx",
+      "expected_sha256": "842898a9f2b54b8aac75c505fb5c51825f7a38daabbe749a76f71b4d903dffae",
+      "actual_sha256": "842898a9f2b54b8aac75c505fb5c51825f7a38daabbe749a76f71b4d903dffae",
+      "unchanged": true
+    },
+    {
+      "path": "data/public20k/manifest.json",
+      "expected_sha256": "fcab323d53aa70b4d320dcaff5f46bf59cf92418f8bc81b0ecdbb13c8b58a700",
+      "actual_sha256": "fcab323d53aa70b4d320dcaff5f46bf59cf92418f8bc81b0ecdbb13c8b58a700",
+      "unchanged": true
+    },
+    {
+      "path": "data/public20k/annotations/instances_train2017.json",
+      "expected_sha256": "bb5fe9d55410b4ca1e34fdec8e8cf96fc74778162c188deb81b037aea24be18f",
+      "actual_sha256": "bb5fe9d55410b4ca1e34fdec8e8cf96fc74778162c188deb81b037aea24be18f",
+      "unchanged": true
+    },
+    {
+      "path": "data/public20k/annotations/instances_val2017.json",
+      "expected_sha256": "04ae667e0bfc372c9acb272a63dd6a2abfa3e34915f97a1fe5c6483f54a11fdc",
+      "actual_sha256": "04ae667e0bfc372c9acb272a63dd6a2abfa3e34915f97a1fe5c6483f54a11fdc",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/train_hand_object_yolox.py",
+      "expected_sha256": "b40f0a71b25277c5409dc0f774c7cdba2e60ddbb47d67b83f230d9ed86eb27db",
+      "actual_sha256": "b40f0a71b25277c5409dc0f774c7cdba2e60ddbb47d67b83f230d9ed86eb27db",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/hand_object_yolox_model.py",
+      "expected_sha256": "dc90b329d81021609e80d1efc96d7c13209f0f6bebc9862facc3065402498670",
+      "actual_sha256": "dc90b329d81021609e80d1efc96d7c13209f0f6bebc9862facc3065402498670",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/hand_object_yolox_data.py",
+      "expected_sha256": "c6f0fa8ff08aa78f4eec0ae5dd7b728b901020fa5892ce050802e530f10363a1",
+      "actual_sha256": "c6f0fa8ff08aa78f4eec0ae5dd7b728b901020fa5892ce050802e530f10363a1",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/hand_object_yolox_exp.py",
+      "expected_sha256": "c03c9f468e8d19d5b47969e93f3fbd20ee50a7d20cddfa0aacde74c8aea70edd",
+      "actual_sha256": "c03c9f468e8d19d5b47969e93f3fbd20ee50a7d20cddfa0aacde74c8aea70edd",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/hand_object_yolox_geometry.py",
+      "expected_sha256": "89c48e432b814d6a0f6c22fccd00e17f523a2a7eb4c048ae288ac1485e64cdb1",
+      "actual_sha256": "89c48e432b814d6a0f6c22fccd00e17f523a2a7eb4c048ae288ac1485e64cdb1",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/hand_yolox_nano_exp.py",
+      "expected_sha256": "93dc592615306f559cd7f8596dbc51ac9130db379095807cd67cfd3e7ad285f9",
+      "actual_sha256": "93dc592615306f559cd7f8596dbc51ac9130db379095807cd67cfd3e7ad285f9",
+      "unchanged": true
+    }
+  ]
+}

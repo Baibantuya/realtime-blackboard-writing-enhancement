@@ -1,0 +1,10 @@
+{
+  "before_binary_sha256": "6c2271970bfd5250ea2c712f239f27fb57ce2699656eb975b7283d025baf6eab",
+  "before_binary_bytes": 1453392,
+  "after_binary_sha256": "84b57956f2ab2b1074f405e34974ee60a2fb83a7e7aeeed47dc32a724705f546",
+  "after_binary_bytes": 1457488,
+  "bitmap_before": 248562,
+  "bitmap_after": 251584,
+  "bitmap_delta": 3022,
+  "binary_delta_bytes": 4096
+}

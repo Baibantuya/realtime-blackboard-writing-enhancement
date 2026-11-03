@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-28T19:45:28.428651+08:00",
+  "status": "XSA_SDT_PROCESSOR_QUERY_PASS_SOFTWARE_PLATFORM_BLOCKED",
+  "xsa_sha256": "ad0d6a989cec4efba1157a139cc67aa20b298436e99b60369543a5a8e458592e",
+  "xsa_unchanged_all_probes": true,
+  "initial_sdt_failure": "Vitis process PATH could not find sdtgen.bat.",
+  "confirmed_process_only_fix": "Prepend D:\\Xillinx\\2025.2\\Vivado\\bin to this Vitis process PATH.",
+  "sdt_generation": "PASS_TOOL_OUTPUT_WITH_WARNINGS",
+  "processor_query": "PASS_A53_R5_ZYNQMP",
+  "standalone_platform_build": "NOT_COMPLETED_CREATION_FAILED",
+  "missing_install_resource": "D:\\Xillinx\\2025.2\\Vitis\\data\\emulation\\platforms\\zynqmp\\sw\\a53_linux\\qemu",
+  "missing_resource_confirmed": true,
+  "export_warning_74": "RETAINED_ROOT_CAUSE_NOT_ESTABLISHED",
+  "sdt_warnings": [
+    "WARNING: no s_axi_aclk for clockwizard IP block: \" clk_wiz_0\"",
+    "WARNING: Interrupt pin \"interrupt\" of IP block: \"board_rectify_rgb_0\" is not connected to any interrupt controller",
+    "WARNING: clock frequency for the mipi_phy_if_clk_n is NULL of IP block: \" mipi_csi2_rx_subsyst_0\"",
+    "WARNING: clock frequency for the mipi_phy_if_clk_p is NULL of IP block: \" mipi_csi2_rx_subsyst_0\"",
+    "WARNING: Interrupt pin \"interrupt\" of IP block: \"mipi_csi2_rx_subsyst_0_rx\" is not connected to any interrupt controller",
+    "WARNING: Interrupt pin \"interrupt\" of IP block: \"v_proc_ss_csc_csc\" is not connected to any interrupt controller",
+    "WARNING: Interrupt pin \"interrupt\" of IP block: \"v_proc_ss_scaler_hsc\" is not connected to any interrupt controller",
+    "WARNING: Interrupt pin \"interrupt\" of IP block: \"v_proc_ss_scaler_vsc\" is not connected to any interrupt controller",
+    "WARNING: expected integer but got \"rggb\"",
+    "WARNING: psu_usb_xhci_0: No reset found",
+    "WARNING: v_gamma_lut_0 pin s_axis_video is not connected..check your design",
+    "WARNING: v_proc_ss_csc unsupportedd topology for linux driver",
+    "WARNING: v_proc_ss_scaler unsupportedd topology for linux driver"
+  ],
+  "generated_sdt_files": {
+    "imx219-v24-2025-2-c5.bit": "19b71e1bcfaf6b10b5db9180760a601c99694da08efebae235b6ebdf04ffd154",
+    "pcw.dtsi": "39517d294101671f7510ad5bc7135b2db6e987ad4e4d565e396640e3e1785d50",
+    "pl.dtsi": "5d02e41871bd5e2f0a9e8508f89e96e6eee3693796f63f78fbc24f5fa31b9d44",
+    "psu_init.c": "b1a3ddae23ceb141083732bf04def939634d40a5cdecdff7bb2a99c904be476a",
+    "psu_init.h": "5e976295919d164b91dc34c9fdc24a160344ab0637269f2a1eb09630f1274b75",
+    "psu_init.html": "b3bfaa3f919f52c0e5005ecd3eea3d9a905de0b5f53690954063385217d07d66",
+    "psu_init.tcl": "b4b278f1b35b1221fc2205937dcaedc390a788c47365a814fceb2b030d027690",
+    "psu_init_gpl.c": "626748fe71c5aaec59c7fea1d8aaa0213b9d48cf2ece59be1dfcd42fbf374a04",
+    "psu_init_gpl.h": "e2cfdf73f11c5a75d3fe942fef6a9e91959ede23fe04c4e423db49e65dfb7734",
+    "system-top.dts": "08acb6c59b83ef18241c3c8d8b4dadf158160daddf1db385650a5aff7d6ec110",
+    "zynqmp-clk-ccf.dtsi": "b0b445c927072f9c9ee9a3d56429c2491ccfe5e3e13a07a784d9e15d995714e3",
+    "zynqmp-u-boot.dtsi": "923f395c5dfb183e71d305d5d05a84e770a01958106a2f42277814b2721ae5f9",
+    "zynqmp.dtsi": "b34e3260aa7c222488637d33728b9b54a8f9e4b7a807f8f3c64a02ec25d8a632"
+  },
+  "evidence_sha256": {
+    "xsa_probe5_retry1/workspace/_ide/logs/vitis.log": "c33c090a1dd1c63ec79ff74a749fefe803b3bac8e66972df49fffbe9f781b23a",
+    "xsa_probe5_retry3/backend_stdout.log": "189bf49da2c12833f2e88d758df0d7eadf2d191fe57aec2bb2fbcdb7a6fcd84b",
+    "xsa_probe5_retry3/processors.json": "b0d666acaabeaf59d36a28debab7ebdf5b93eda280da3026a388e15026262e5a",
+    "xsa_probe5_retry3/result.json": "9b7767714d435a05c480579ca80d77b4325c2cde5059d7056c0b155d20ff9004",
+    "xsa_probe5/sdtgen_direct.log": "092042f9b2edbcde29c78a9c9a25861c601509c5fb8b6a5b705ff14d65c49128"
+  },
+  "board_test": "NOT_RUN",
+  "scope": "Offline XSA/SDT parsing only. Generated SDT is diagnostic, not the candidate runtime DTBO and not approved for deployment. No ARM BSP compilation or Linux driver compatibility claim."
+}

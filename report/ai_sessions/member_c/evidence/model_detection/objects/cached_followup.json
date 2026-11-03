@@ -1,0 +1,156 @@
+{
+  "schema": "hand-object-cached-followup-v1",
+  "model_sha256": "842898a9f2b54b8aac75c505fb5c51825f7a38daabbe749a76f71b4d903dffae",
+  "annotations_sha256": "04ae667e0bfc372c9acb272a63dd6a2abfa3e34915f97a1fe5c6483f54a11fdc",
+  "predictions_sha256": "5a5295685ca2838fc62b868e1e81d4b90bfe3b9a06a3c192d61dd1f835d9ffad",
+  "inference_calls": 0,
+  "source_videos": 1412,
+  "valid_relations": 2272,
+  "association_comparison": {
+    "0.1": {
+      "vector_correct": 886,
+      "geometry_correct": 877,
+      "multiobject_vector_correct": 191,
+      "multiobject_geometry_correct": 197
+    },
+    "0.3": {
+      "vector_correct": 850,
+      "geometry_correct": 847,
+      "multiobject_vector_correct": 171,
+      "multiobject_geometry_correct": 172
+    },
+    "0.5": {
+      "vector_correct": 759,
+      "geometry_correct": 767,
+      "multiobject_vector_correct": 148,
+      "multiobject_geometry_correct": 151
+    }
+  },
+  "short_side_416_by_threshold": {
+    "0.1": {
+      "<=8": {
+        "gt": 72,
+        "tp": 0,
+        "recall": 0.0
+      },
+      ">32": {
+        "gt": 1292,
+        "tp": 787,
+        "recall": 0.6091331269349846
+      },
+      "16-32": {
+        "gt": 329,
+        "tp": 104,
+        "recall": 0.3161094224924012
+      },
+      "8-16": {
+        "gt": 136,
+        "tp": 18,
+        "recall": 0.1323529411764706
+      }
+    },
+    "0.3": {
+      "<=8": {
+        "gt": 72,
+        "tp": 0,
+        "recall": 0.0
+      },
+      ">32": {
+        "gt": 1292,
+        "tp": 685,
+        "recall": 0.5301857585139319
+      },
+      "16-32": {
+        "gt": 329,
+        "tp": 63,
+        "recall": 0.19148936170212766
+      },
+      "8-16": {
+        "gt": 136,
+        "tp": 8,
+        "recall": 0.058823529411764705
+      }
+    },
+    "0.5": {
+      "<=8": {
+        "gt": 72,
+        "tp": 0,
+        "recall": 0.0
+      },
+      ">32": {
+        "gt": 1292,
+        "tp": 590,
+        "recall": 0.456656346749226
+      },
+      "16-32": {
+        "gt": 329,
+        "tp": 40,
+        "recall": 0.12158054711246201
+      },
+      "8-16": {
+        "gt": 136,
+        "tp": 3,
+        "recall": 0.022058823529411766
+      }
+    }
+  },
+  "closest_linked_hand_distance_in_hand_diagonals": {
+    "<=0.5": {
+      "gt": 1122,
+      "tp": 385,
+      "recall": 0.3431372549019608
+    },
+    "0.5-1": {
+      "gt": 508,
+      "tp": 200,
+      "recall": 0.3937007874015748
+    },
+    "1-2": {
+      "gt": 145,
+      "tp": 37,
+      "recall": 0.25517241379310346
+    },
+    ">2": {
+      "gt": 54,
+      "tp": 11,
+      "recall": 0.2037037037037037
+    }
+  },
+  "paired_source_video_bootstrap": {
+    "replicates": 2000,
+    "seed": 20261017,
+    "intervals": {
+      "0.1": {
+        "vector_minus_geometry_recall_ci95": [
+          -0.0047817898960124455,
+          0.013042287915740415
+        ],
+        "vector_recall_difference_from_0_5_ci95": [
+          0.04268131938788632,
+          0.0699025785007356
+        ]
+      },
+      "0.3": {
+        "vector_minus_geometry_recall_ci95": [
+          -0.0031863446421630023,
+          0.005994314152493286
+        ],
+        "vector_recall_difference_from_0_5_ci95": [
+          0.030104712041884817,
+          0.04972761383002668
+        ]
+      },
+      "0.5": {
+        "vector_minus_geometry_recall_ci95": [
+          -0.0066166740185266875,
+          -0.0008691496010882756
+        ],
+        "vector_recall_difference_from_0_5_ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "limits": "Exploratory validation comparisons. Source-video grouping does not prove person independence or final-test generalization."
+}

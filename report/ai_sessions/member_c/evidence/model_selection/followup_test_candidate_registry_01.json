@@ -1,0 +1,48 @@
+{
+  "schema": "followup-independent-video-fixed-candidate-before-data-v1",
+  "utc": "2026-10-18T19:16:40.138109+00:00",
+  "original_pre_primary_test_registry_sha256": "cb60808d1b46f0500f062cd35b6db9f0a8d73b6e73cab57ca6554cb03400da40",
+  "configs": {
+    "original_default": {
+      "checkpoint_path": "/home/wutong/hand_training_20261010/runs/teacher_trials_20261018_01/s/hand_object_yolox_nano/best_ckpt.pth",
+      "checkpoint_sha256": "ef6ce1ff42ba0cd781e39e3f1ad931b0760dcb0fe7f353e83c2c602fe7bbd52a",
+      "checkpoint_receipt": null,
+      "checkpoint_receipt_sha256": null,
+      "input_size": 416,
+      "hand_threshold": 0.5,
+      "contact_threshold": 0.5,
+      "nms": 0.3,
+      "ap_candidate_floor": 0.01,
+      "object_threshold": 0.5
+    },
+    "expanded7500_calibrated": {
+      "checkpoint_path": "/home/wutong/hand_training_20261010/runs/s_full_detector_expanded_20261019_01/checkpoints/step_07500.pth",
+      "checkpoint_sha256": "2a084e2a6626ba2b262dd81226fb0c28d9d66a27c5ce4c5108fe5fc80b182ec9",
+      "checkpoint_receipt": "/home/wutong/hand_training_20261010/runs/s_full_detector_expanded_20261019_01/checkpoint_07500.json",
+      "checkpoint_receipt_sha256": "bb3ec6a64a15c9c4759338dac518c6317a8b0468a490f9a7860235bf7a7a4d3a",
+      "input_size": 416,
+      "hand_threshold": 0.5,
+      "contact_threshold": 0.5,
+      "nms": 0.3,
+      "ap_candidate_floor": 0.01,
+      "object_threshold": 0.4
+    }
+  },
+  "scheduled_configs": [
+    "original_default",
+    "expanded7500_calibrated"
+  ],
+  "candidate_settings_unchanged_from_before_primary_test": true,
+  "selection_basis": "Existing public development video-split calibration, not fitting to either test subset.",
+  "primary_test_results_already_observed": true,
+  "prior_evaluated_source_videos_excluded": 1000,
+  "new_source_videos": 2000,
+  "frames_per_video": 1,
+  "selection_seed": 2026101902,
+  "dataset": "/home/wutong/hand_training_20261010/data/public_frozen_test2000_followup_20261019_01",
+  "source": "/home/wutong/hand_training_20261010/data/100doh_frozen_test2000_followup_source_20261019_01",
+  "selector_sha256": "2c5c482c4f181979c20166da81606be6c6e05346f835edf150a61a50892a2826",
+  "new_test_results_not_observed": true,
+  "no_threshold_or_model_changes_from_followup_test": true,
+  "deployment_approved": false
+}

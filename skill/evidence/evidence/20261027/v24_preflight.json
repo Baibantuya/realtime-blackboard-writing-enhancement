@@ -1,0 +1,3601 @@
+{
+  "schema": 1,
+  "tool": "pynq-overlay-preflight/0.1",
+  "status": "PASS_OFFLINE",
+  "release": "V24-PS-SLIM-20261026",
+  "backend": "kv260_fpgautil_metadata_only_documented",
+  "target_part_declared": "xck26-sfvc784-2LV-c",
+  "checks": [
+    {
+      "code": "nonempty:bit",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:bit",
+      "status": "pass",
+      "detail": {
+        "actual": 7797812,
+        "expected": 7797812
+      }
+    },
+    {
+      "code": "sha256:bit",
+      "status": "pass",
+      "detail": {
+        "actual": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6",
+        "expected": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6"
+      }
+    },
+    {
+      "code": "nonempty:hwh",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:hwh",
+      "status": "pass",
+      "detail": {
+        "actual": 1164029,
+        "expected": 1164029
+      }
+    },
+    {
+      "code": "sha256:hwh",
+      "status": "pass",
+      "detail": {
+        "actual": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+        "expected": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45"
+      }
+    },
+    {
+      "code": "nonempty:bit_bin",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:bit_bin",
+      "status": "pass",
+      "detail": {
+        "actual": 7797692,
+        "expected": 7797692
+      }
+    },
+    {
+      "code": "sha256:bit_bin",
+      "status": "pass",
+      "detail": {
+        "actual": "4a22dd880535517d01f00455bad0a5cbe8f472909fc246c59946f5290b8bf8bc",
+        "expected": "4a22dd880535517d01f00455bad0a5cbe8f472909fc246c59946f5290b8bf8bc"
+      }
+    },
+    {
+      "code": "nonempty:dtbo",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:dtbo",
+      "status": "pass",
+      "detail": {
+        "actual": 15536,
+        "expected": 15536
+      }
+    },
+    {
+      "code": "sha256:dtbo",
+      "status": "pass",
+      "detail": {
+        "actual": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f",
+        "expected": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f"
+      }
+    },
+    {
+      "code": "nonempty:frame_driver",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:frame_driver",
+      "status": "pass",
+      "detail": {
+        "actual": 422384,
+        "expected": 422384
+      }
+    },
+    {
+      "code": "sha256:frame_driver",
+      "status": "pass",
+      "detail": {
+        "actual": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+        "expected": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca"
+      }
+    },
+    {
+      "code": "nonempty:format_driver",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:format_driver",
+      "status": "pass",
+      "detail": {
+        "actual": 445480,
+        "expected": 445480
+      }
+    },
+    {
+      "code": "sha256:format_driver",
+      "status": "pass",
+      "detail": {
+        "actual": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+        "expected": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c"
+      }
+    },
+    {
+      "code": "nonempty:deployment",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:deployment",
+      "status": "pass",
+      "detail": {
+        "actual": 1032,
+        "expected": 1032
+      }
+    },
+    {
+      "code": "sha256:deployment",
+      "status": "pass",
+      "detail": {
+        "actual": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d",
+        "expected": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d"
+      }
+    },
+    {
+      "code": "nonempty:runtime_manifest",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:runtime_manifest",
+      "status": "pass",
+      "detail": {
+        "actual": 24883,
+        "expected": 24883
+      }
+    },
+    {
+      "code": "sha256:runtime_manifest",
+      "status": "pass",
+      "detail": {
+        "actual": "4096087e94f67d736c169c2d1014bfa8c74d773ca3b9b60f76a26c552a5bbf08",
+        "expected": "4096087e94f67d736c169c2d1014bfa8c74d773ca3b9b60f76a26c552a5bbf08"
+      }
+    },
+    {
+      "code": "nonempty:entry_wrapper",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "size:entry_wrapper",
+      "status": "pass",
+      "detail": {
+        "actual": 174,
+        "expected": 174
+      }
+    },
+    {
+      "code": "sha256:entry_wrapper",
+      "status": "pass",
+      "detail": {
+        "actual": "b2328f10acd1a9d109b6285fb4acd49ea75f4192b76ede944009c9f0b3ff9b26",
+        "expected": "b2328f10acd1a9d109b6285fb4acd49ea75f4192b76ede944009c9f0b3ff9b26"
+      }
+    },
+    {
+      "code": "bit_suffix",
+      "status": "pass",
+      "detail": {
+        "actual": ".bit",
+        "expected": ".bit"
+      }
+    },
+    {
+      "code": "hwh_pair_name",
+      "status": "pass",
+      "detail": {
+        "actual": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\evidence\\20261027\\runtime_v24\\hardware\\imx219-fusion-v24.hwh",
+        "expected": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\evidence\\20261027\\runtime_v24\\hardware\\imx219-fusion-v24.hwh"
+      }
+    },
+    {
+      "code": "manifest",
+      "status": "not_checked",
+      "detail": "No release manifest configured"
+    },
+    {
+      "code": "identity:schema",
+      "status": "pass",
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "code": "identity:version",
+      "status": "pass",
+      "detail": {
+        "actual": "V24-PS-SLIM-20261026",
+        "expected": "V24-PS-SLIM-20261026"
+      }
+    },
+    {
+      "code": "identity:hardware_revision",
+      "status": "pass",
+      "detail": {
+        "actual": "V24-200MHz",
+        "expected": "V24-200MHz"
+      }
+    },
+    {
+      "code": "identity:algorithm_abi",
+      "status": "pass",
+      "detail": {
+        "actual": "0x57425321",
+        "expected": "0x57425321"
+      }
+    },
+    {
+      "code": "identity:package_layout",
+      "status": "pass",
+      "detail": {
+        "actual": "structured",
+        "expected": "structured"
+      }
+    },
+    {
+      "code": "hwh_xml",
+      "status": "pass",
+      "detail": {
+        "modules": 35,
+        "attributes": {
+          "EDWVERSION": "1.2",
+          "TIMESTAMP": "Fri Oct 23 07:29:39 2026",
+          "VIVADOVERSION": "2021.2"
+        }
+      }
+    },
+    {
+      "code": "ip_count:/board_rectify_rgb_0",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "vlnv:/board_rectify_rgb_0",
+      "status": "pass",
+      "detail": {
+        "actual": "whiteboard.org:hls:board_rectify_rgb:1.0",
+        "expected": "whiteboard.org:hls:board_rectify_rgb:1.0"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "field_count:/board_rectify_rgb_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_rectify_rgb_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "code": "field_width:/board_rectify_rgb_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/board_rectify_rgb_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_rectify_rgb_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_width:/board_rectify_rgb_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/board_rectify_rgb_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_rectify_rgb_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "code": "field_width:/board_rectify_rgb_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/board_rectify_rgb_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_rectify_rgb_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 3,
+        "expected": 3
+      }
+    },
+    {
+      "code": "field_width:/board_rectify_rgb_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/board_rectify_rgb_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_rectify_rgb_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 7,
+        "expected": 7
+      }
+    },
+    {
+      "code": "field_width:/board_rectify_rgb_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 4,
+        "expected": 4
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 8,
+        "expected": 8
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 12,
+        "expected": 12
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": 16,
+        "expected": 16
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": 24,
+        "expected": 24
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/status",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/status",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/status",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/status",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/status",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/hint",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/hint",
+      "status": "pass",
+      "detail": {
+        "actual": 40,
+        "expected": 40
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/hint",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/hint",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/hint",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/corners",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/corners",
+      "status": "pass",
+      "detail": {
+        "actual": 48,
+        "expected": 48
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/corners",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/corners",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/corners",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/binary_enable",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/binary_enable",
+      "status": "pass",
+      "detail": {
+        "actual": 56,
+        "expected": 56
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/binary_enable",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/binary_enable",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/binary_enable",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/mode",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/mode",
+      "status": "pass",
+      "detail": {
+        "actual": 64,
+        "expected": 64
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/mode",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/mode",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/mode",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/threshold",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/threshold",
+      "status": "pass",
+      "detail": {
+        "actual": 72,
+        "expected": 72
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/threshold",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/threshold",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/threshold",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": 80,
+        "expected": 80
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/geometry",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/geometry",
+      "status": "pass",
+      "detail": {
+        "actual": 88,
+        "expected": 88
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/geometry",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/geometry",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/geometry",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_rectify_rgb_0/diagnostics",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_rectify_rgb_0/diagnostics",
+      "status": "pass",
+      "detail": {
+        "actual": 96,
+        "expected": 96
+      }
+    },
+    {
+      "code": "register_width:/board_rectify_rgb_0/diagnostics",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_rectify_rgb_0/diagnostics",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_rectify_rgb_0/diagnostics",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "address:/board_rectify_rgb_0",
+      "status": "pass",
+      "detail": {
+        "actual": [
+          [
+            2147745792,
+            2147811327
+          ]
+        ],
+        "expected": [
+          [
+            2147745792,
+            2147811327
+          ]
+        ]
+      }
+    },
+    {
+      "code": "ip_count:/board_quantize_rgb_0",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "vlnv:/board_quantize_rgb_0",
+      "status": "pass",
+      "detail": {
+        "actual": "whiteboard.org:hls:board_scene_quantize:1.0",
+        "expected": "whiteboard.org:hls:board_scene_quantize:1.0"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "field_count:/board_quantize_rgb_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_quantize_rgb_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "code": "field_width:/board_quantize_rgb_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/board_quantize_rgb_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_quantize_rgb_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_width:/board_quantize_rgb_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/board_quantize_rgb_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_quantize_rgb_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "code": "field_width:/board_quantize_rgb_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/board_quantize_rgb_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_quantize_rgb_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 3,
+        "expected": 3
+      }
+    },
+    {
+      "code": "field_width:/board_quantize_rgb_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/board_quantize_rgb_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/board_quantize_rgb_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 7,
+        "expected": 7
+      }
+    },
+    {
+      "code": "field_width:/board_quantize_rgb_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 4,
+        "expected": 4
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 8,
+        "expected": 8
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 12,
+        "expected": 12
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": 16,
+        "expected": 16
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": "read-only",
+        "expected": "read-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": 24,
+        "expected": 24
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/src",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/canvas_in",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/canvas_in",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/canvas_in",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/canvas_in",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/canvas_in",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/canvas_out",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/canvas_out",
+      "status": "pass",
+      "detail": {
+        "actual": 40,
+        "expected": 40
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/canvas_out",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/canvas_out",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/canvas_out",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/metadata",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/metadata",
+      "status": "pass",
+      "detail": {
+        "actual": 48,
+        "expected": 48
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/metadata",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/metadata",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/metadata",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": 56,
+        "expected": 56
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/dst",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": 64,
+        "expected": 64
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": 72,
+        "expected": 72
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/dst_stride",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/dst_stride",
+      "status": "pass",
+      "detail": {
+        "actual": 80,
+        "expected": 80
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/dst_stride",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/dst_stride",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/dst_stride",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/frame_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/frame_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": 88,
+        "expected": 88
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/frame_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/frame_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/frame_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/metadata_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/metadata_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": 96,
+        "expected": 96
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/metadata_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/metadata_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/metadata_cookie",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/control",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/control",
+      "status": "pass",
+      "detail": {
+        "actual": 104,
+        "expected": 104
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/control",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/control",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/control",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/order",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/order",
+      "status": "pass",
+      "detail": {
+        "actual": 112,
+        "expected": 112
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/order",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/order",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/order",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/ink_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/ink_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 120,
+        "expected": 120
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/ink_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/ink_delta",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/ink_delta",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/erase_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/erase_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 128,
+        "expected": 128
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/erase_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/erase_delta",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/erase_delta",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/board_quantize_rgb_0/color_margin",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/board_quantize_rgb_0/color_margin",
+      "status": "pass",
+      "detail": {
+        "actual": 136,
+        "expected": 136
+      }
+    },
+    {
+      "code": "register_width:/board_quantize_rgb_0/color_margin",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/board_quantize_rgb_0/color_margin",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/board_quantize_rgb_0/color_margin",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "address:/board_quantize_rgb_0",
+      "status": "pass",
+      "detail": {
+        "actual": [
+          [
+            2147876864,
+            2147942399
+          ]
+        ],
+        "expected": [
+          [
+            2147876864,
+            2147942399
+          ]
+        ]
+      }
+    },
+    {
+      "code": "ip_count:/whiteboard_restore_0",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "vlnv:/whiteboard_restore_0",
+      "status": "pass",
+      "detail": {
+        "actual": "whiteboard.org:hls:whiteboard_restore:1.0",
+        "expected": "whiteboard.org:hls:whiteboard_restore:1.0"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/CTRL",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "field_count:/whiteboard_restore_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/whiteboard_restore_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "code": "field_width:/whiteboard_restore_0/CTRL/AP_START",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/whiteboard_restore_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/whiteboard_restore_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_width:/whiteboard_restore_0/CTRL/AP_DONE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/whiteboard_restore_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/whiteboard_restore_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "code": "field_width:/whiteboard_restore_0/CTRL/AP_IDLE",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/whiteboard_restore_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/whiteboard_restore_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 3,
+        "expected": 3
+      }
+    },
+    {
+      "code": "field_width:/whiteboard_restore_0/CTRL/AP_READY",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_count:/whiteboard_restore_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "field_offset:/whiteboard_restore_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 7,
+        "expected": 7
+      }
+    },
+    {
+      "code": "field_width:/whiteboard_restore_0/CTRL/AUTO_RESTART",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 4,
+        "expected": 4
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/GIER",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 8,
+        "expected": 8
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/IP_IER",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 12,
+        "expected": 12
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/IP_ISR",
+      "status": "pass",
+      "detail": {
+        "actual": "read-write",
+        "expected": "read-write"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": 16,
+        "expected": 16
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/ap_return",
+      "status": "pass",
+      "detail": {
+        "actual": "read-only",
+        "expected": "read-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/input_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/input_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": 24,
+        "expected": 24
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/input_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/input_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/input_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/input_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/input_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": 28,
+        "expected": 28
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/input_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/input_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/input_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/output_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/output_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": 36,
+        "expected": 36
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/output_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/output_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/output_r_1",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/output_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/output_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": 40,
+        "expected": 40
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/output_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/output_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/output_r_2",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/background_1",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/background_1",
+      "status": "pass",
+      "detail": {
+        "actual": 48,
+        "expected": 48
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/background_1",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/background_1",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/background_1",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/background_2",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/background_2",
+      "status": "pass",
+      "detail": {
+        "actual": 52,
+        "expected": 52
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/background_2",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/background_2",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/background_2",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/previous_1",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/previous_1",
+      "status": "pass",
+      "detail": {
+        "actual": 60,
+        "expected": 60
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/previous_1",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/previous_1",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/previous_1",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/previous_2",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/previous_2",
+      "status": "pass",
+      "detail": {
+        "actual": 64,
+        "expected": 64
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/previous_2",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/previous_2",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/previous_2",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/pixel_quiet_1",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/pixel_quiet_1",
+      "status": "pass",
+      "detail": {
+        "actual": 72,
+        "expected": 72
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/pixel_quiet_1",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/pixel_quiet_1",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/pixel_quiet_1",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/pixel_quiet_2",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/pixel_quiet_2",
+      "status": "pass",
+      "detail": {
+        "actual": 76,
+        "expected": 76
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/pixel_quiet_2",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/pixel_quiet_2",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/pixel_quiet_2",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/block_state_1",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/block_state_1",
+      "status": "pass",
+      "detail": {
+        "actual": 84,
+        "expected": 84
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/block_state_1",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/block_state_1",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/block_state_1",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/block_state_2",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/block_state_2",
+      "status": "pass",
+      "detail": {
+        "actual": 88,
+        "expected": 88
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/block_state_2",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/block_state_2",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/block_state_2",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/roi_1",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/roi_1",
+      "status": "pass",
+      "detail": {
+        "actual": 96,
+        "expected": 96
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/roi_1",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/roi_1",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/roi_1",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/roi_2",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/roi_2",
+      "status": "pass",
+      "detail": {
+        "actual": 100,
+        "expected": 100
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/roi_2",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/roi_2",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/roi_2",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": 108,
+        "expected": 108
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/width",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": 116,
+        "expected": 116
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/height",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/initialize",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/initialize",
+      "status": "pass",
+      "detail": {
+        "actual": 124,
+        "expected": 124
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/initialize",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/initialize",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/initialize",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": 132,
+        "expected": 132
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/bgr",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/delta",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/delta",
+      "status": "pass",
+      "detail": {
+        "actual": 140,
+        "expected": 140
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/delta",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/delta",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/delta",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/quiet_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/quiet_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 148,
+        "expected": 148
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/quiet_delta",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/quiet_delta",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/quiet_delta",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/dense",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/dense",
+      "status": "pass",
+      "detail": {
+        "actual": 156,
+        "expected": 156
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/dense",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/dense",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/dense",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/weak_threshold",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/weak_threshold",
+      "status": "pass",
+      "detail": {
+        "actual": 164,
+        "expected": 164
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/weak_threshold",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/weak_threshold",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/weak_threshold",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/hold",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/hold",
+      "status": "pass",
+      "detail": {
+        "actual": 172,
+        "expected": 172
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/hold",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/hold",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/hold",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/stable_r",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/stable_r",
+      "status": "pass",
+      "detail": {
+        "actual": 180,
+        "expected": 180
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/stable_r",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/stable_r",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/stable_r",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/quiet_max",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/quiet_max",
+      "status": "pass",
+      "detail": {
+        "actual": 188,
+        "expected": 188
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/quiet_max",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/quiet_max",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/quiet_max",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/chalk_min",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/chalk_min",
+      "status": "pass",
+      "detail": {
+        "actual": 196,
+        "expected": 196
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/chalk_min",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/chalk_min",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/chalk_min",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/chalk_spread",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/chalk_spread",
+      "status": "pass",
+      "detail": {
+        "actual": 204,
+        "expected": 204
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/chalk_spread",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/chalk_spread",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/chalk_spread",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/fine_min",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/fine_min",
+      "status": "pass",
+      "detail": {
+        "actual": 212,
+        "expected": 212
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/fine_min",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/fine_min",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/fine_min",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/fine_spread",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/fine_spread",
+      "status": "pass",
+      "detail": {
+        "actual": 220,
+        "expected": 220
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/fine_spread",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/fine_spread",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/fine_spread",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "register_count:/whiteboard_restore_0/red_bias",
+      "status": "pass",
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "code": "register_offset:/whiteboard_restore_0/red_bias",
+      "status": "pass",
+      "detail": {
+        "actual": 228,
+        "expected": 228
+      }
+    },
+    {
+      "code": "register_width:/whiteboard_restore_0/red_bias",
+      "status": "pass",
+      "detail": {
+        "actual": 32,
+        "expected": 32
+      }
+    },
+    {
+      "code": "register_nonoverlap:/whiteboard_restore_0/red_bias",
+      "status": "pass",
+      "detail": {
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "code": "register_access:/whiteboard_restore_0/red_bias",
+      "status": "pass",
+      "detail": {
+        "actual": "write-only",
+        "expected": "write-only"
+      }
+    },
+    {
+      "code": "address:/whiteboard_restore_0",
+      "status": "pass",
+      "detail": {
+        "actual": [
+          [
+            2147811328,
+            2147876863
+          ]
+        ],
+        "expected": [
+          [
+            2147811328,
+            2147876863
+          ]
+        ]
+      }
+    },
+    {
+      "code": "environment",
+      "status": "not_checked",
+      "detail": "No target-board environment record supplied"
+    },
+    {
+      "code": "target_device",
+      "status": "not_checked",
+      "detail": "Declared target only; no bitstream device decode or physical board identification"
+    },
+    {
+      "code": "build_provenance",
+      "status": "not_checked",
+      "detail": "Hashes prove consistency against inputs, not independent build origin or authenticity"
+    },
+    {
+      "code": "dtbo_semantics",
+      "status": "not_checked",
+      "detail": "DTBO bytes only; firmware-name, bindings and live DT applicability not parsed"
+    },
+    {
+      "code": "driver_abi",
+      "status": "not_checked",
+      "detail": "No module vermagic, loaded driver or runtime ABI readback"
+    },
+    {
+      "code": "pynq_parser",
+      "status": "not_checked",
+      "detail": "Independent XML parser; installed PYNQ interpretation not exercised"
+    },
+    {
+      "code": "board_function",
+      "status": "not_checked",
+      "detail": "No load, MMIO, CMA, cache/DMA, camera, display, timing or cross-board test"
+    }
+  ],
+  "host": {
+    "os": "Windows",
+    "python": "3.12.14"
+  },
+  "scope": "Offline comparisons only; backend is descriptive and never executed"
+}

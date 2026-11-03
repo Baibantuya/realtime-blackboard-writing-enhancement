@@ -1,0 +1,21 @@
+{
+  "original_current_package": "EXPECTED_REJECTION",
+  "original_error": "Incomplete scene HWH register map",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "executable": "/home/ubuntu/board-system/venvs/ui/bin/python",
+  "candidate_old_and_new_register_maps_equal": true,
+  "register_count": 20,
+  "control": {
+    "offset": 104,
+    "width": 32
+  },
+  "duplicate_alias_rejected": true,
+  "board_test": "NOT_RUN",
+  "candidate_final_hwh": {
+    "status": "PASS",
+    "instance": "board_quantize_rgb_0",
+    "base": 2147876864,
+    "length": 65536
+  }
+}

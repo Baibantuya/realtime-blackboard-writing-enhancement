@@ -1,0 +1,13 @@
+{
+  "status": "PASS_DTC_AND_STATIC_FDT_COMPARISON",
+  "property_count": 377,
+  "legacy_rebuild_equal": true,
+  "changed_property": "/fragment@0/__overlay__:firmware-name",
+  "inputs": {
+    "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\imx219-fusion-v24.dtbo": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f",
+    "D:\\2026嵌赛\\v24_2025_2\\dtbo_candidate5\\legacy_recompiled.dtbo": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f",
+    "D:\\2026嵌赛\\v24_2025_2\\dtbo_candidate5\\imx219-v24-2025-2-c5.dtbo": "f7e26198fd5e8391b4b02b4d33b9f9a1447bdd5f61ee4bf2d5b4907b4088d5ed"
+  },
+  "board_test": "NOT_RUN",
+  "scope": "Compilation and property comparison only; no DT overlay application, binding, reset, camera or DMA verification."
+}

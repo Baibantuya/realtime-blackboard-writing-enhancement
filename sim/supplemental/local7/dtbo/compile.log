@@ -1,0 +1,72 @@
+imx219-v24-2025-2-c5-local7.dts:557.18-579.7: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/i2c@80030000: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:560.17-578.8: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/i2c@80030000/i2c_mux@74: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:562.13-577.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@2: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:564.18-576.10: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@2/sensor@10: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:581.37-600.7: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:586.14-591.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000/ports/port@1: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:593.14-598.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000/ports/port@0: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:602.25-621.7: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_demosaic@a0010000: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:607.14-612.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_demosaic@a0010000/ports/port@1: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:614.14-619.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_demosaic@a0010000/ports/port@0: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:623.26-625.7: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_frmbuf_wr@a0020000: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:627.26-646.7: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_gamma_lut@a0030000: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:632.14-637.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_gamma_lut@a0030000/ports/port@1: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:639.14-644.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_gamma_lut@a0030000/ports/port@0: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:648.28-667.7: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_proc_ss_csc@a0040000: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:653.14-658.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_proc_ss_csc@a0040000/ports/port@1: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:660.14-665.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_proc_ss_csc@a0040000/ports/port@0: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:669.31-688.7: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_proc_ss_scaler@a0080000: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:674.14-679.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_proc_ss_scaler@a0080000/ports/port@1: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:681.14-686.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/v_proc_ss_scaler@a0080000/ports/port@0: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:694.14-699.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/rgb565_format_adapter/ports/port@0: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:701.14-706.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/rgb565_format_adapter/ports/port@1: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:715.14-720.9: Warning (unit_address_vs_reg): /__local_fixups__/fragment@3/__overlay__/vcap_v_proc_ss_scaler/ports/port@0: node has a unit name, but no reg or ranges property
+imx219-v24-2025-2-c5-local7.dts:557.18-579.7: Warning (i2c_bus_bridge): /__local_fixups__/fragment@3/__overlay__/i2c@80030000: incorrect #address-cells for I2C bus
+imx219-v24-2025-2-c5-local7.dts:557.18-579.7: Warning (i2c_bus_bridge): /__local_fixups__/fragment@3/__overlay__/i2c@80030000: incorrect #size-cells for I2C bus
+imx219-v24-2025-2-c5-local7.dts:562.13-577.9: Warning (i2c_bus_bridge): /__local_fixups__/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@2: incorrect #address-cells for I2C bus
+imx219-v24-2025-2-c5-local7.dts:562.13-577.9: Warning (i2c_bus_bridge): /__local_fixups__/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@2: incorrect #size-cells for I2C bus
+imx219-v24-2025-2-c5-local7.dtbo: Warning (i2c_bus_reg): Failed prerequisite 'i2c_bus_bridge'
+imx219-v24-2025-2-c5-local7.dts:34.5-32: Warning (clocks_property): /fragment@1/__overlay__/clocking0:clocks: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:34.5-32: Warning (clocks_property): /fragment@1/__overlay__/clocking0:clocks: Could not get phandle node for (cell 1)
+imx219-v24-2025-2-c5-local7.dts:44.5-32: Warning (clocks_property): /fragment@1/__overlay__/clocking1:clocks: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:44.5-32: Warning (clocks_property): /fragment@1/__overlay__/clocking1:clocks: Could not get phandle node for (cell 1)
+imx219-v24-2025-2-c5-local7.dts:102.5-21: Warning (clocks_property): /fragment@3/__overlay__/i2c@80030000:clocks: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:136.8-24: Warning (clocks_property): /fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@2/sensor@10:clocks: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:166.5-31: Warning (clocks_property): /fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:clocks: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:166.5-31: Warning (clocks_property): /fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:clocks: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:166.5-31: Warning (clocks_property): /fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:clocks: cell 2 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:220.5-21: Warning (clocks_property): /fragment@3/__overlay__/v_demosaic@a0010000:clocks: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:265.5-21: Warning (clocks_property): /fragment@3/__overlay__/v_frmbuf_wr@a0020000:clocks: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:286.5-21: Warning (clocks_property): /fragment@3/__overlay__/v_gamma_lut@a0030000:clocks: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:332.5-21: Warning (clocks_property): /fragment@3/__overlay__/v_proc_ss_csc@a0040000:clocks: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:378.5-26: Warning (clocks_property): /fragment@3/__overlay__/v_proc_ss_scaler@a0080000:clocks: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:378.5-26: Warning (clocks_property): /fragment@3/__overlay__/v_proc_ss_scaler@a0080000:clocks: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:582.6-32: Warning (clocks_property): /__local_fixups__/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:clocks: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:581.37-600.7: Warning (clocks_property): /__local_fixups__/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000: Missing property '#clock-cells' in node /fragment@2/__overlay__/fixedregulator1 or bad phandle (referred from clocks[1])
+imx219-v24-2025-2-c5-local7.dts:670.6-27: Warning (clocks_property): /__local_fixups__/fragment@3/__overlay__/v_proc_ss_scaler@a0080000:clocks: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:669.31-688.7: Warning (clocks_property): /__local_fixups__/fragment@3/__overlay__/v_proc_ss_scaler@a0080000: Missing property '#clock-cells' in node /fragment@2/__overlay__/fixedregulator1 or bad phandle (referred from clocks[1])
+imx219-v24-2025-2-c5-local7.dts:463.5-24: Warning (dmas_property): /fragment@3/__overlay__/vcap_v_proc_ss_scaler:dmas: cell 0 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:12.4-31: Warning (resets_property): /fragment@0/__overlay__:resets: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:12.4-31: Warning (resets_property): /fragment@0/__overlay__:resets: Could not get phandle node for (cell 1)
+imx219-v24-2025-2-c5-local7.dts:226.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_demosaic@a0010000:reset-gpios: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:226.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_demosaic@a0010000:reset-gpios: Could not get phandle node for (cell 1)
+imx219-v24-2025-2-c5-local7.dts:271.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_frmbuf_wr@a0020000:reset-gpios: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:271.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_frmbuf_wr@a0020000:reset-gpios: Could not get phandle node for (cell 1)
+imx219-v24-2025-2-c5-local7.dts:292.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_gamma_lut@a0030000:reset-gpios: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:292.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_gamma_lut@a0030000:reset-gpios: Could not get phandle node for (cell 1)
+imx219-v24-2025-2-c5-local7.dts:335.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_proc_ss_csc@a0040000:reset-gpios: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:335.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_proc_ss_csc@a0040000:reset-gpios: Could not get phandle node for (cell 1)
+imx219-v24-2025-2-c5-local7.dts:381.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_proc_ss_scaler@a0080000:reset-gpios: cell 1 is not a phandle reference
+imx219-v24-2025-2-c5-local7.dts:381.5-42: Warning (gpios_property): /fragment@3/__overlay__/v_proc_ss_scaler@a0080000:reset-gpios: Could not get phandle node for (cell 1)
+imx219-v24-2025-2-c5-local7.dts:548.3-317: Warning (gpios_property): /__fixups__:gpio: property size (301) is invalid, expected multiple of 4
+imx219-v24-2025-2-c5-local7.dts:105.5-37: Warning (interrupts_property): /fragment@3/__overlay__/i2c@80030000:interrupt-parent: Invalid phandle
+imx219-v24-2025-2-c5-local7.dts:98.17-155.6: Warning (interrupts_property): /fragment@3/__overlay__/i2c@80030000: Missing interrupt-parent
+imx219-v24-2025-2-c5-local7.dts:169.5-37: Warning (interrupts_property): /fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:interrupt-parent: Invalid phandle
+imx219-v24-2025-2-c5-local7.dts:164.36-209.6: Warning (interrupts_property): /fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000: Missing interrupt-parent
+imx219-v24-2025-2-c5-local7.dts:223.5-37: Warning (interrupts_property): /fragment@3/__overlay__/v_demosaic@a0010000:interrupt-parent: Invalid phandle
+imx219-v24-2025-2-c5-local7.dts:218.24-260.6: Warning (interrupts_property): /fragment@3/__overlay__/v_demosaic@a0010000: Missing interrupt-parent
+imx219-v24-2025-2-c5-local7.dts:268.5-37: Warning (interrupts_property): /fragment@3/__overlay__/v_frmbuf_wr@a0020000:interrupt-parent: Invalid phandle
+imx219-v24-2025-2-c5-local7.dts:262.25-282.6: Warning (interrupts_property): /fragment@3/__overlay__/v_frmbuf_wr@a0020000: Missing interrupt-parent
+imx219-v24-2025-2-c5-local7.dts:289.5-37: Warning (interrupts_property): /fragment@3/__overlay__/v_gamma_lut@a0030000:interrupt-parent: Invalid phandle
+imx219-v24-2025-2-c5-local7.dts:284.25-328.6: Warning (interrupts_property): /fragment@3/__overlay__/v_gamma_lut@a0030000: Missing interrupt-parent
+imx219-v24-2025-2-c5-local7.dts:465.11-479.7: Warning (graph_child_address): /fragment@3/__overlay__/vcap_v_proc_ss_scaler/ports: graph node has single child node 'port@0', #address-cells/#size-cells are not necessary

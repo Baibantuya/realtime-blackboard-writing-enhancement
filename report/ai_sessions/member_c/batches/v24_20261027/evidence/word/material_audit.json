@@ -1,0 +1,336 @@
+{
+  "roots": {
+    "submission_v24": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24",
+    "v24_final_freeze_20261024": "D:\\2026嵌赛\\最终素材\\v24_final_freeze_20261024\\v24_final_freeze_20261024",
+    "v24_slim_runtime_20261026": "D:\\2026嵌赛\\最终素材\\v24_slim_runtime_20261026\\v24_slim_runtime_20261026"
+  },
+  "inventory_counts": {
+    "submission_v24": 876,
+    "v24_final_freeze_20261024": 4107,
+    "v24_slim_runtime_20261026": 81
+  },
+  "submission": {
+    "checked": 835,
+    "missing": [
+      "build/reports/v24/clocks_clock_fixed.rpt",
+      "build/reports/v24/combined_cdc.rpt",
+      "build/reports/v24/combined_clock_interaction.rpt",
+      "build/reports/v24/combined_control_sets.rpt",
+      "build/reports/v24/combined_drc.rpt",
+      "build/reports/v24/combined_hierarchy.rpt",
+      "build/reports/v24/combined_hold20.rpt",
+      "build/reports/v24/combined_methodology.rpt",
+      "build/reports/v24/combined_setup20.rpt",
+      "build/reports/v24/combined_timing.rpt",
+      "build/reports/v24/combined_utilization.rpt",
+      "build/reports/v24/hls_resource_preflight.json",
+      "build/reports/v24/signoff_timing.json",
+      "build/reports/v24/timing_result.txt"
+    ],
+    "mismatched": [],
+    "unlisted": [
+      "skill/README.md",
+      "build/reports/impl/clocks_clock_fixed.rpt",
+      "build/reports/impl/combined_cdc.rpt",
+      "build/reports/impl/combined_clock_interaction.rpt",
+      "build/reports/impl/combined_control_sets.rpt",
+      "build/reports/impl/combined_drc.rpt",
+      "build/reports/impl/combined_hierarchy.rpt",
+      "build/reports/impl/combined_hold20.rpt",
+      "build/reports/impl/combined_methodology.rpt",
+      "build/reports/impl/combined_setup20.rpt",
+      "build/reports/impl/combined_timing.rpt",
+      "build/reports/impl/combined_utilization.rpt",
+      "build/reports/impl/hls_resource_preflight.json",
+      "build/reports/impl/signoff_timing.json",
+      "build/reports/impl/timing_result.txt",
+      "skill/01_overlay_manager/overlay_loader.py",
+      "skill/01_overlay_manager/README.md",
+      "skill/01_overlay_manager/register_map_inspector.py",
+      "skill/01_overlay_manager/test_overlay_manager.py",
+      "skill/01_overlay_manager/__init__.py",
+      "skill/02_dma_buffer_guard/cache_coherent_guard.py",
+      "skill/02_dma_buffer_guard/dma_buffer_pool.py",
+      "skill/02_dma_buffer_guard/README.md",
+      "skill/02_dma_buffer_guard/test_dma_guard.py",
+      "skill/02_dma_buffer_guard/__init__.py",
+      "skill/03_contract_codegen/codegen_pynq_driver.py",
+      "skill/03_contract_codegen/example_generated_driver.py",
+      "skill/03_contract_codegen/README.md",
+      "skill/03_contract_codegen/test_codegen.py",
+      "skill/03_contract_codegen/__init__.py",
+      "skill/04_golden_benchmark/golden_comparator.py",
+      "skill/04_golden_benchmark/pynq_benchmarker.py",
+      "skill/04_golden_benchmark/README.md",
+      "skill/04_golden_benchmark/test_benchmark.py",
+      "skill/04_golden_benchmark/__init__.py",
+      "skill/05_troubleshooting/TROUBLESHOOTING.md",
+      "skill/06_prompt_workflows/01_algorithmic_hardware_partition.md",
+      "skill/06_prompt_workflows/02_hls_interface_optimization.md",
+      "skill/06_prompt_workflows/03_arm_cpu_bottleneck_audit.md",
+      "skill/06_prompt_workflows/README.md",
+      "skill/01_overlay_manager/__pycache__/register_map_inspector.cpython-39.pyc",
+      "skill/01_overlay_manager/__pycache__/test_overlay_manager.cpython-39.pyc",
+      "skill/01_overlay_manager/__pycache__/__init__.cpython-39.pyc",
+      "skill/02_dma_buffer_guard/__pycache__/cache_coherent_guard.cpython-39.pyc",
+      "skill/02_dma_buffer_guard/__pycache__/dma_buffer_pool.cpython-39.pyc",
+      "skill/02_dma_buffer_guard/__pycache__/test_dma_guard.cpython-39.pyc",
+      "skill/02_dma_buffer_guard/__pycache__/__init__.cpython-39.pyc",
+      "skill/03_contract_codegen/__pycache__/codegen_pynq_driver.cpython-39.pyc",
+      "skill/03_contract_codegen/__pycache__/test_codegen.cpython-39.pyc",
+      "skill/03_contract_codegen/__pycache__/__init__.cpython-39.pyc",
+      "skill/04_golden_benchmark/__pycache__/golden_comparator.cpython-39.pyc",
+      "skill/04_golden_benchmark/__pycache__/pynq_benchmarker.cpython-39.pyc",
+      "skill/04_golden_benchmark/__pycache__/test_benchmark.cpython-39.pyc",
+      "skill/04_golden_benchmark/__pycache__/__init__.cpython-39.pyc"
+    ]
+  },
+  "runtime_checks": {
+    "submission_runtime": {
+      "checked": 80,
+      "missing": [],
+      "mismatched": []
+    },
+    "slim": {
+      "checked": 80,
+      "missing": [],
+      "mismatched": []
+    }
+  },
+  "old_release": {
+    "checked": 4106,
+    "missing": [],
+    "mismatched": []
+  },
+  "runtime_vs_slim": {
+    "equal": [
+      "readme.md",
+      "run.sh",
+      "app/main.py",
+      "app/manage.py",
+      "app/pipeline_metrics.py",
+      "app/rgb565.py",
+      "app/runtime_paths.py",
+      "app/scene_tracking.py",
+      "app/verify_manifest.py",
+      "config/deployment.json",
+      "drivers/auto_exposure.py",
+      "drivers/baseline_stages.py",
+      "drivers/configure_restore_capture.py",
+      "drivers/ensure_kernel.py",
+      "drivers/isp_white_balance.py",
+      "drivers/load_overlay.py",
+      "drivers/preload_v6.py",
+      "drivers/rectify_rgb.py",
+      "drivers/scene_registers.py",
+      "drivers/scene_stage.py",
+      "drivers/set_ps_widths.py",
+      "drivers/shared_scanout.py",
+      "drivers/v4l2_rgb565.py",
+      "drivers/v4l2_types.py",
+      "drivers/whiteboard_ip.py",
+      "hardware/imx219-fusion-v24.bit",
+      "hardware/imx219-fusion-v24.bit.bin",
+      "hardware/imx219-fusion-v24.dtbo",
+      "hardware/imx219-fusion-v24.hwh",
+      "hardware/wb_frame_pool.ko",
+      "hardware/wb_rgb565_format.ko",
+      "hardware/whiteboard_registers.json",
+      "ui/archive_ui.py",
+      "ui/libboard_ps_ui.so",
+      "ui/osd_frontend.py",
+      "ui/scene_input.py",
+      "app/ps_runtime_v2/board.py",
+      "app/ps_runtime_v2/content.py",
+      "app/ps_runtime_v2/contracts.py",
+      "app/ps_runtime_v2/geometry.py",
+      "app/ps_runtime_v2/policy.py",
+      "app/ps_runtime_v2/scheduler.py",
+      "app/ps_runtime_v2/sensor.py",
+      "app/ps_runtime_v2/service.py",
+      "app/ps_runtime_v2/__init__.py",
+      "app/ps_runtime_v2/__main__.py",
+      "ui/assets/guidance_clockwise.png",
+      "ui/assets/guidance_confirming.png",
+      "ui/assets/guidance_counterclockwise.png",
+      "ui/assets/guidance_down.png",
+      "ui/assets/guidance_down_then_clockwise.png",
+      "ui/assets/guidance_down_then_counterclockwise.png",
+      "ui/assets/guidance_down_then_left.png",
+      "ui/assets/guidance_down_then_right.png",
+      "ui/assets/guidance_hold.png",
+      "ui/assets/guidance_left.png",
+      "ui/assets/guidance_left_then_clockwise.png",
+      "ui/assets/guidance_left_then_counterclockwise.png",
+      "ui/assets/guidance_recalibrating.png",
+      "ui/assets/guidance_right.png",
+      "ui/assets/guidance_right_then_clockwise.png",
+      "ui/assets/guidance_right_then_counterclockwise.png",
+      "ui/assets/guidance_search.png",
+      "ui/assets/guidance_up.png",
+      "ui/assets/guidance_up_then_clockwise.png",
+      "ui/assets/guidance_up_then_counterclockwise.png",
+      "ui/assets/guidance_up_then_left.png",
+      "ui/assets/guidance_up_then_right.png",
+      "ui/assets/guidance_zoom_in.png",
+      "ui/assets/guidance_zoom_in_then_clockwise.png",
+      "ui/assets/guidance_zoom_in_then_counterclockwise.png",
+      "ui/assets/guidance_zoom_out.png",
+      "ui/assets/guidance_zoom_out_then_clockwise.png",
+      "ui/assets/guidance_zoom_out_then_counterclockwise.png",
+      "ui/assets/history_available.png",
+      "ui/assets/history_demo.png",
+      "ui/assets/history_empty.png",
+      "ui/assets/manifest.json",
+      "ui/licenses/lvgl-license.txt",
+      "ui/licenses/ofl.txt"
+    ],
+    "different": [
+      "config/runtime_manifest.json"
+    ],
+    "only_submission": []
+  },
+  "source_vs_runtime": {
+    "checked": 35,
+    "different": []
+  },
+  "recorded_vector_check": {
+    "scope": "Existing C/RTL output comparison only, no new simulation",
+    "c_memory_sha256": "f87ef1d0807b58b517c5c8c1b39c133ac66caca55a3fff404660e653b40e8ad7",
+    "rtl_memory_sha256": "f87ef1d0807b58b517c5c8c1b39c133ac66caca55a3fff404660e653b40e8ad7",
+    "memory_bytes": 69050960,
+    "c_returns": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rtl_returns": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "pass": true
+  },
+  "board_snapshot": {
+    "release": "V24-PS-SLIM-20261026",
+    "date": "2026-10-26",
+    "package": "kv260-whiteboard-enhance\\releases\\v24_slim_runtime_20261026.zip",
+    "bytes": 9958038,
+    "sha256": "b7b0936637554d94f96a89f4eb06b09fb38984d9c06b0b65e610ac5d50717bfc",
+    "reduction": {
+      "files_before": 632,
+      "files_after": 81,
+      "python_before": 84,
+      "python_after": 35,
+      "root_python_before": 67,
+      "root_python_after": 0
+    },
+    "validation": {
+      "local_syntax_and_resource_hashes": true,
+      "archive_crc_and_member_hashes": true,
+      "board_runtime_payload_identical": true,
+      "automatic_startup_tests": false,
+      "new_synthesis": false,
+      "algorithm_change": false
+    },
+    "board": {
+      "pid": 12500,
+      "alive": true,
+      "fresh_reports": 20,
+      "last_reports": [
+        {
+          "board_state": "track",
+          "content_updates": 267,
+          "content_faults": 0,
+          "bad_frames": 0,
+          "content_duration_ms": 23.93549899898062,
+          "throughput": {
+            "capture_completed": 19.5,
+            "rectify_completed": 13.0,
+            "restore_completed": 12.5,
+            "quantize_completed": 13.0,
+            "display_submitted": 13.0,
+            "display_presented": 12.5
+          },
+          "scheduler": {
+            "admitted": 365,
+            "completed": 363,
+            "content_deadline_holds": 73,
+            "capacity_skips": 0,
+            "camera_skips": 0,
+            "transform_updates": 3,
+            "geometry_resets": 0,
+            "manual_resets": 0
+          }
+        },
+        {
+          "board_state": "track",
+          "content_updates": 290,
+          "content_faults": 0,
+          "bad_frames": 0,
+          "content_duration_ms": 23.886939001386054,
+          "throughput": {
+            "capture_completed": 19.5,
+            "rectify_completed": 13.0,
+            "restore_completed": 13.0,
+            "quantize_completed": 12.5,
+            "display_submitted": 12.0,
+            "display_presented": 12.5
+          },
+          "scheduler": {
+            "admitted": 391,
+            "completed": 388,
+            "content_deadline_holds": 75,
+            "capacity_skips": 0,
+            "camera_skips": 0,
+            "transform_updates": 3,
+            "geometry_resets": 0,
+            "manual_resets": 0
+          }
+        }
+      ],
+      "startup_events": [
+        {
+          "event": "startup_begin",
+          "elapsed_ms": 0.0
+        },
+        {
+          "event": "startup_devices_ready",
+          "elapsed_ms": 7423.581176999505
+        },
+        {
+          "event": "startup_geometry_ready",
+          "elapsed_ms": 9062.071794000076
+        },
+        {
+          "event": "startup_sensor_ready",
+          "elapsed_ms": 10858.995205999236
+        },
+        {
+          "event": "startup_first_content",
+          "elapsed_ms": 11159.920675998364
+        }
+      ],
+      "errors": [],
+      "payload_hashes_match": true,
+      "extra_files": [],
+      "rollback": "whiteboard_candidate.previous",
+      "data": "whiteboard_candidate.data"
+    }
+  },
+  "skill_file_count": 40,
+  "report_file_count": 0,
+  "image_evidence": []
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "three-seed-local-verification-v1",
+  "bundle_sha256": "ce7994408e7ddcb01acfaa5d4a11f81398e2dccaa2a3691333e28d3764521eea",
+  "file_count_verified": 33,
+  "seed_arm_results_verified": 6,
+  "selected_additional_checkpoints_verified": 4,
+  "independent_statistical_checks": 21,
+  "source_scripts_equal": true,
+  "native_real_roi_checks_are_not_accuracy": true,
+  "default_nano_unchanged": true,
+  "all_seed_quality_gates": {
+    "paired_ce": true,
+    "paired_ce_js": true
+  },
+  "additional_seed_models_not_exported": true,
+  "deployment_changed": false,
+  "files_moved_or_deleted": 0,
+  "timestamp_utc": "2026-10-19T08:25:01.914463+00:00"
+}

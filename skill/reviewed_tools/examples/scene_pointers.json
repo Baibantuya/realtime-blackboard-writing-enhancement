@@ -1,0 +1,7 @@
+{
+  "src": {"width": 32, "words": ["src"]},
+  "canvas_in": {"width": 32, "words": ["canvas_in"]},
+  "canvas_out": {"width": 32, "words": ["canvas_out"]},
+  "metadata": {"width": 32, "words": ["metadata"]},
+  "dst": {"width": 32, "words": ["dst"]}
+}

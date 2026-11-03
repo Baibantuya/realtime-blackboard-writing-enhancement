@@ -1,0 +1,5327 @@
+{
+  "schema": 2,
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "font_family": "Noto Sans SC Regular",
+  "font_source_sha256": "763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a",
+  "font_weights": [
+    400
+  ],
+  "font_sizes": [
+    20,
+    22,
+    24,
+    28,
+    32
+  ],
+  "raster_text_only": true,
+  "sidebar_alignment": "goal/action/next centered at x=1696; body block centered and lines left aligned",
+  "text_layout": {
+    "guidance_search": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "寻找板面",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "正在寻找板面",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "请缓慢调整相机，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          578.0,
+          1744.0,
+          601.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让整块板面进入左侧画面。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          616.0,
+          1840.0,
+          639.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "四个角都需要完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1586.0,
+          850.0,
+          1806.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_left": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "向左微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面左侧。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向左调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "箭头表示相机调整方向。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1586.0,
+          850.0,
+          1806.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_right": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "向右微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面右侧。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向右调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "箭头表示相机调整方向。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1586.0,
+          850.0,
+          1806.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_up": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "向上微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面上沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向上调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "箭头表示相机调整方向。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1586.0,
+          850.0,
+          1806.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_down": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "向下微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面下沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向下调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "箭头表示相机调整方向。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1586.0,
+          850.0,
+          1806.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_zoom_out": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整取景",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "适当后移相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面占满部分取景边缘。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          578.0,
+          1828.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "请适当后移相机，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          616.0,
+          1756.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "为板面四周留出空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          654.0,
+          1804.0,
+          677.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先让四个角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1586.0,
+          850.0,
+          1806.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_zoom_in": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整取景",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "让相机靠近板面",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面在画面中较小。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          578.0,
+          1780.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "可适当靠近并调整取景，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          616.0,
+          1828.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让板面占据更大范围。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          654.0,
+          1804.0,
+          677.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "靠近时仍需保留完整板面。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          850.0,
+          1816.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_hold": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "识别边缘",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "保持相机平稳",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面区域已进入取景范围。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          578.0,
+          1840.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "正在继续识别边缘，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          616.0,
+          1768.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "请保持相机平稳。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          654.0,
+          1744.0,
+          677.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "边缘确认后将继续处理。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1586.0,
+          850.0,
+          1806.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_clockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调平画面",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          61.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "顺时针调平画面",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让板面上边缘接近水平。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          578.0,
+          1816.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "以左侧原画面为准，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          616.0,
+          1768.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "缓慢调整，避免大幅晃动。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          654.0,
+          1840.0,
+          677.5
+        ]
+      },
+      {
+        "role": "note",
+        "text": "箭头表示画面的调平方向。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          850.0,
+          1816.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_counterclockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调平画面",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          61.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "逆时针调平画面",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让板面上边缘接近水平。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          578.0,
+          1816.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "以左侧原画面为准，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          616.0,
+          1768.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "缓慢调整，避免大幅晃动。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1552.0,
+        "bounds": [
+          1552.0,
+          654.0,
+          1840.0,
+          677.5
+        ]
+      },
+      {
+        "role": "note",
+        "text": "箭头表示画面的调平方向。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          850.0,
+          1816.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_confirming": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "确认板面",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "保持相机平稳",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "已找到板面，正在确认位置。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1540.0,
+        "bounds": [
+          1540.0,
+          578.0,
+          1852.0,
+          601.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "请稍候，尽量不要移动相机。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1540.0,
+        "bounds": [
+          1540.0,
+          616.0,
+          1852.0,
+          639.5
+        ]
+      },
+      {
+        "role": "note",
+        "text": "确认后将继续处理画面。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1586.0,
+          850.0,
+          1806.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_recalibrating": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "重新定位",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "重新寻找板面",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1600.0,
+          504.0,
+          1792.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "请让板面完整进入取景范围，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1540.0,
+        "bounds": [
+          1540.0,
+          578.0,
+          1852.0,
+          601.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "保持相机平稳。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1540.0,
+        "bounds": [
+          1540.0,
+          616.0,
+          1708.0,
+          639.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "定位完成后会继续处理画面。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1566.0,
+          850.0,
+          1826.0,
+          869.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_up_then_clockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向上微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面上沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向上调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "顺时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_up_then_counterclockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向上微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面上沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向上调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "逆时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_down_then_clockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向下微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面下沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向下调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "顺时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_down_then_counterclockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向下微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面下沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向下调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "逆时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_left_then_clockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向左微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面左侧。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向左调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "顺时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_left_then_counterclockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向左微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面左侧。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向左调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "逆时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_right_then_clockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向右微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面右侧。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向右调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "顺时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_right_then_counterclockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向右微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面右侧。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向右调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "逆时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_zoom_out_then_clockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整取景",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先适当后移相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面占满部分取景边缘。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          578.0,
+          1828.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "请适当后移相机，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          616.0,
+          1756.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "为板面四周留出空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          654.0,
+          1804.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "顺时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_zoom_out_then_counterclockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整取景",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先适当后移相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面占满部分取景边缘。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          578.0,
+          1828.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "请适当后移相机，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          616.0,
+          1756.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "为板面四周留出空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          654.0,
+          1804.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "逆时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_zoom_in_then_clockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整取景",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先让相机靠近板面",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1568.0,
+          504.0,
+          1824.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面在画面中较小。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          578.0,
+          1780.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "可适当靠近并调整取景，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          616.0,
+          1828.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让板面占据更大范围。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          654.0,
+          1804.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "顺时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_zoom_in_then_counterclockwise": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整取景",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先让相机靠近板面",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1568.0,
+          504.0,
+          1824.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面在画面中较小。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          578.0,
+          1780.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "可适当靠近并调整取景，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          616.0,
+          1828.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让板面占据更大范围。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1564.0,
+        "bounds": [
+          1564.0,
+          654.0,
+          1804.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "逆时针调平画面",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1612.0,
+          864.0,
+          1780.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先完成取景调整，再调平。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_up_then_left": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向上微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面上沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向上调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "向左微调相机",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1624.0,
+          864.0,
+          1768.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先调整上下，再调整左右。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_up_then_right": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向上微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面上沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向上调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "向右微调相机",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1624.0,
+          864.0,
+          1768.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先调整上下，再调整左右。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_down_then_left": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向下微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面下沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向下调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "向左微调相机",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1624.0,
+          864.0,
+          1768.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先调整上下，再调整左右。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "guidance_down_then_right": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "板面定位",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "调整相机",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "相机原画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          132.0,
+          134.0
+        ]
+      },
+      {
+        "role": "goal",
+        "text": "让完整板面进入取景范围",
+        "size": 22,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1575.0,
+          211.0,
+          1817.0,
+          232.5
+        ]
+      },
+      {
+        "role": "action",
+        "text": "先向下微调相机",
+        "size": 32,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1584.0,
+          504.0,
+          1808.0,
+          534.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "板面靠近画面下沿。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          578.0,
+          1792.0,
+          601.0
+        ]
+      },
+      {
+        "role": "body",
+        "text": "向下调整取景方向，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          616.0,
+          1792.0,
+          639.5
+        ]
+      },
+      {
+        "role": "body",
+        "text": "让边缘留出一些空间。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1576.0,
+        "bounds": [
+          1576.0,
+          654.0,
+          1816.0,
+          677.0
+        ]
+      },
+      {
+        "role": "next_label",
+        "text": "下一步",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1666.0,
+          826.0,
+          1726.0,
+          845.0
+        ]
+      },
+      {
+        "role": "next_action",
+        "text": "向右微调相机",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1624.0,
+          864.0,
+          1768.0,
+          887.0
+        ]
+      },
+      {
+        "role": "note",
+        "text": "先调整上下，再调整左右。",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1696,
+        "bounds": [
+          1576.0,
+          914.0,
+          1816.0,
+          933.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "观察左侧原画面，让板面四角都完整可见。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          412.0,
+          1044.0
+        ]
+      }
+    ],
+    "history_empty": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "历史板书",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "历史内容",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "历史板书画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          152.0,
+          134.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "原画面对照",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          181.0,
+          1656.0,
+          204.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "当前画面与历史分开展示",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          456.0,
+          1800.0,
+          479.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "左侧显示历史内容，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          518.0,
+          1752.0,
+          541.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "右上角保留原画面对照。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          554.0,
+          1800.0,
+          577.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "保留原画面对照，",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          799.0,
+          1696.0,
+          818.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "便于查看板面变化。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          831.0,
+          1716.0,
+          850.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "暂无历史板书",
+        "size": 28,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 752,
+        "bounds": [
+          668.0,
+          480.0,
+          836.0,
+          506.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "有可用历史画面后，将在这里显示。",
+        "size": 24,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 752,
+        "bounds": [
+          560.0,
+          550.0,
+          944.0,
+          573.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "历史板书与原画面对照显示。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          292.0,
+          1044.0
+        ]
+      }
+    ],
+    "history_available": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "历史板书",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "历史内容",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "历史板书画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          152.0,
+          134.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "原画面对照",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          181.0,
+          1656.0,
+          204.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "当前画面与历史分开展示",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          456.0,
+          1800.0,
+          479.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "左侧显示历史内容，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          518.0,
+          1752.0,
+          541.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "右上角保留原画面对照。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          554.0,
+          1800.0,
+          577.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "保留原画面对照，",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          799.0,
+          1696.0,
+          818.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "便于查看板面变化。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          831.0,
+          1716.0,
+          850.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "历史板书与原画面对照显示。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          292.0,
+          1044.0
+        ]
+      }
+    ],
+    "history_demo": [
+      {
+        "role": "label",
+        "text": "实时板书增强",
+        "size": 28,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          38.0,
+          200.0,
+          64.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "历史板书",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 280,
+        "bounds": [
+          280.0,
+          43.0,
+          376.0,
+          66.0
+        ]
+      },
+      {
+        "role": "badge",
+        "text": "布局预览",
+        "size": 20,
+        "weight": 400,
+        "align": "center",
+        "anchor_x": 1796,
+        "bounds": [
+          1756.0,
+          43.0,
+          1836.0,
+          62.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "历史板书画面",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          115.0,
+          152.0,
+          134.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "原画面对照",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          181.0,
+          1656.0,
+          204.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "当前画面与历史分开展示",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          456.0,
+          1800.0,
+          479.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "左侧显示历史内容，",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          518.0,
+          1752.0,
+          541.5
+        ]
+      },
+      {
+        "role": "label",
+        "text": "右上角保留原画面对照。",
+        "size": 24,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          554.0,
+          1800.0,
+          577.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "保留原画面对照，",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          799.0,
+          1696.0,
+          818.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "便于查看板面变化。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 1536,
+        "bounds": [
+          1536.0,
+          831.0,
+          1716.0,
+          850.0
+        ]
+      },
+      {
+        "role": "label",
+        "text": "同一视频帧用于布局演示，非板端历史恢复结果。",
+        "size": 20,
+        "weight": 400,
+        "align": "left",
+        "anchor_x": 32,
+        "bounds": [
+          32.0,
+          1025.0,
+          472.0,
+          1044.5
+        ]
+      }
+    ]
+  },
+  "font_file_distributed": false,
+  "sha256": {
+    "guidance_search.png": "985d969c52004cd907711c8552ce2580bff7bc4017220726f41656bf5a1f5ea6",
+    "guidance_left.png": "1e9e12385912ca85f438f0126093e931bfd5f760216079251ad5a37b7805f0c9",
+    "guidance_right.png": "cc8a3aacad42dec166ba060b371c511e7315574f81f785398490890339c3d29a",
+    "guidance_up.png": "3564139fe815b111372288fd061dec6dc3d4b19911bda559da5d939cf0db387c",
+    "guidance_down.png": "48a94fc7eb1721d1b1efc9b7813e59d00fcf31ae677b0b96ad4ffc8fbeadf7a7",
+    "guidance_zoom_out.png": "deb64807c33b67a0e231b060179c76fceab9630b2aa0ed5b5c5d8e7637f134da",
+    "guidance_zoom_in.png": "f1291a9b8813478b8330183c3c6aadec650b4c8dcf10caec2bf4f5d4a58fb47c",
+    "guidance_hold.png": "eca7c8d72f8a3a57c863067652f3fb2ee7c9a7afc0fa662c68e9599f102006c1",
+    "guidance_clockwise.png": "84fe0a20e3bbbbd5a2e5c7b6b2d3568ce18b8aef771cb7c7684f9eb7f338df14",
+    "guidance_counterclockwise.png": "1d61224f96b1d4071cbda80a576e40d6820c6b5476949a7eb41a79fb08ca69c7",
+    "guidance_confirming.png": "f25be0978788b0d870e2649f260a395216652170d3d296188fbb12c79771d8a8",
+    "guidance_recalibrating.png": "8793adae625418b24d26a812f1080805e9000b9e2e6d53d7225c2fe2aab576fe",
+    "guidance_up_then_clockwise.png": "ee5fb5c03fe09986ed899b70828344e173fc197e4030d08b72f5b766b718fa49",
+    "guidance_up_then_counterclockwise.png": "aeaf28cb1451778e6e46428730a00d8fb7d81f36f4c4b72410e5c763c4752bca",
+    "guidance_down_then_clockwise.png": "7eda992ab804720ee169420462868d6ff9a5b6f92e42af1288adee5cd76d63f0",
+    "guidance_down_then_counterclockwise.png": "f2bbe8fe6794be1f59ab74de4115d22f3777901c3ee409358c5da5dd9bf595f2",
+    "guidance_left_then_clockwise.png": "f8c82996d428b1d9c39df96ba61ea25928f17bed1cc9c36694e898cb3c47d0c6",
+    "guidance_left_then_counterclockwise.png": "d18194dee5784c69a487f532fc134aba4a926aacf34780a58d1aa248800e9026",
+    "guidance_right_then_clockwise.png": "a891cce250a739554719d9aedc9e10d4e17513cfde241790cf6f75fe64a7dccd",
+    "guidance_right_then_counterclockwise.png": "4baa6eb14e6bd322f7255733053996ccdc1cb9053787bd72e5e5623e5c08c0c8",
+    "guidance_zoom_out_then_clockwise.png": "c618ee5c9f7fc2f30cc4bccdf44465413e9aa9090fdcc54da29ef259aa76f54c",
+    "guidance_zoom_out_then_counterclockwise.png": "969e71c10c4ee1a6bd89399b652646b3d8169cd8b77a29f107bb072ed9eff05f",
+    "guidance_zoom_in_then_clockwise.png": "e4da116542fa14ca65ca592e5ec007b91d57653b82aa1365c7099930f0054880",
+    "guidance_zoom_in_then_counterclockwise.png": "a6b587c64ebde117166c0272b9191fbdbfaed9aca0907bfb3f14efb9a6fee9e2",
+    "guidance_up_then_left.png": "03461aa34ad493bb5cc5dbbe8b1b0a57c1bfd4cc8f444b023b67b95dce35e7b4",
+    "guidance_up_then_right.png": "5668fb0543cd15e0069d094d515b91587da164772d91e08ae1fac280e10bef31",
+    "guidance_down_then_left.png": "4bda2d1919c1fa82305b713db06bc7e1ec8c48dda4ce14995c71e5016bde5abd",
+    "guidance_down_then_right.png": "6ecf74d1494f50e41018ddf2682c7c10f034184ee78508d748e4b5de48b89d13",
+    "history_empty.png": "903ffeae18eb8066a68e35be2fa9f9ae4b0809afa83ce995c876625bf750ede6",
+    "history_available.png": "3c0e520722dd1bc4c619b89b4c7ad50efd0d3c0cd8851416888cdb2a6cce3cbd",
+    "history_demo.png": "dcf2aef72d1c810e4b4fc3dc34b8c9cf34cd9be634d0f2f393b61be9684a1eb4"
+  }
+}

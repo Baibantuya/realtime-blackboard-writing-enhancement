@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../v24_build/test_scene_rebase565.cpp in debug mode
+   Compiling ../../../../../source/hls/guarded_state.cpp in debug mode
+   Compiling ../../../../../source/hls/whiteboard_restore.cpp in debug mode
+   Generating csim.exe
+SCENE_REBASE565 PASS static_person white_shirt trusted_frames one_shot epochs=2 tail_guard
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

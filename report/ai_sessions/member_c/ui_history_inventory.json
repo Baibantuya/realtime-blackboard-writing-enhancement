@@ -1,0 +1,853 @@
+{
+  "review_date": "2026-10-22",
+  "scope": "Scoped local reads/copies, existing message links and manifest arithmetic only. No rendering, UI execution, training or board tests.",
+  "files": [
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_04\\main.png",
+      "copy": "evidence/ui_history/linux/x11_04/main.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 757222,
+      "source_sha256": "65795ab8714212ccd0f7d1ba31a49f6f4da050aae83a3f3ed278da805e4fb083",
+      "copy_sha256": "65795ab8714212ccd0f7d1ba31a49f6f4da050aae83a3f3ed278da805e4fb083",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_04\\initialize.png",
+      "copy": "evidence/ui_history/linux/x11_04/initialize.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 728642,
+      "source_sha256": "676db44e9e840a9398327b813c2aa641dd8a12a4e303d21a5c053ab9400bf9ce",
+      "copy_sha256": "676db44e9e840a9398327b813c2aa641dd8a12a4e303d21a5c053ab9400bf9ce",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_04\\recovery.png",
+      "copy": "evidence/ui_history/linux/x11_04/recovery.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 758137,
+      "source_sha256": "258d6c884aea6c7a257bc45d71ef18a390d1c1b9450d87914484362ab514fb81",
+      "copy_sha256": "258d6c884aea6c7a257bc45d71ef18a390d1c1b9450d87914484362ab514fb81",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_04\\disconnected.png",
+      "copy": "evidence/ui_history/linux/x11_04/disconnected.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 751489,
+      "source_sha256": "9ac0eb558d2fddeeea12a998b7ba6bf9dc595237d175ec376353c08164dbe224",
+      "copy_sha256": "9ac0eb558d2fddeeea12a998b7ba6bf9dc595237d175ec376353c08164dbe224",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_04\\interaction_receipt.json",
+      "copy": "evidence/ui_history/linux/x11_04/interaction_receipt.json",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 18259,
+      "source_sha256": "600c8af69663cd1f539b7b8e678a8987a3d33a0ccdb1da2bbe21463eae22695f",
+      "copy_sha256": "600c8af69663cd1f539b7b8e678a8987a3d33a0ccdb1da2bbe21463eae22695f",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_11\\main.png",
+      "copy": "evidence/ui_history/linux/x11_11/main.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 756558,
+      "source_sha256": "b2799c7067ea62d3cbd43c3f4784e2bfe5e896c994df4a4cc617eaffd99a645c",
+      "copy_sha256": "b2799c7067ea62d3cbd43c3f4784e2bfe5e896c994df4a4cc617eaffd99a645c",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_11\\startup-collapsed.png",
+      "copy": "evidence/ui_history/linux/x11_11/startup-collapsed.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 890186,
+      "source_sha256": "f193f5abf99bb60d0a1abd3f064cb2cf2a512b0667f9d02a22ac4522c50874fb",
+      "copy_sha256": "f193f5abf99bb60d0a1abd3f064cb2cf2a512b0667f9d02a22ac4522c50874fb",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_11\\initialize.png",
+      "copy": "evidence/ui_history/linux/x11_11/initialize.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 728698,
+      "source_sha256": "b401369172ee8ab300f102aa0e270e54961b44e75041c48f5d714185cec617ec",
+      "copy_sha256": "b401369172ee8ab300f102aa0e270e54961b44e75041c48f5d714185cec617ec",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_11\\recovery.png",
+      "copy": "evidence/ui_history/linux/x11_11/recovery.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 757486,
+      "source_sha256": "9936f3822f6bb00eca7aea9f4061713a863778a08d2da62b30b09fe27ce5362e",
+      "copy_sha256": "9936f3822f6bb00eca7aea9f4061713a863778a08d2da62b30b09fe27ce5362e",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_11\\interaction_receipt.json",
+      "copy": "evidence/ui_history/linux/x11_11/interaction_receipt.json",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 29924,
+      "source_sha256": "75d6e5fe2f65beba8aacfa2816cd3bc7f4eebef7cbd752e5c14601e53980eb33",
+      "copy_sha256": "75d6e5fe2f65beba8aacfa2816cd3bc7f4eebef7cbd752e5c14601e53980eb33",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_12\\main.png",
+      "copy": "evidence/ui_history/linux/x11_12/main.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 756558,
+      "source_sha256": "b2799c7067ea62d3cbd43c3f4784e2bfe5e896c994df4a4cc617eaffd99a645c",
+      "copy_sha256": "b2799c7067ea62d3cbd43c3f4784e2bfe5e896c994df4a4cc617eaffd99a645c",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_12\\auto-collapsed.png",
+      "copy": "evidence/ui_history/linux/x11_12/auto-collapsed.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 890186,
+      "source_sha256": "f193f5abf99bb60d0a1abd3f064cb2cf2a512b0667f9d02a22ac4522c50874fb",
+      "copy_sha256": "f193f5abf99bb60d0a1abd3f064cb2cf2a512b0667f9d02a22ac4522c50874fb",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_12\\interaction_receipt.json",
+      "copy": "evidence/ui_history/linux/x11_12/interaction_receipt.json",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 40945,
+      "source_sha256": "fe6c89c672394addf2cd49d0a1f508faed0993de6bcc7a0d7c2bf2e0cb5b8af6",
+      "copy_sha256": "fe6c89c672394addf2cd49d0a1f508faed0993de6bcc7a0d7c2bf2e0cb5b8af6",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_13\\main.png",
+      "copy": "evidence/ui_history/linux/x11_13/main.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 756776,
+      "source_sha256": "7b63ab8a01104db100e3b7a9f6aaad825a557d944fbce7826681cea1d864bf0c",
+      "copy_sha256": "7b63ab8a01104db100e3b7a9f6aaad825a557d944fbce7826681cea1d864bf0c",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1440,
+        810
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_13\\interaction_receipt.json",
+      "copy": "evidence/ui_history/linux/x11_13/interaction_receipt.json",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 40944,
+      "source_sha256": "4528a5c61aca7eb036df40b8880491744fec582b4126405d7c97141cc4231909",
+      "copy_sha256": "4528a5c61aca7eb036df40b8880491744fec582b4126405d7c97141cc4231909",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_14\\initialize.png",
+      "copy": "evidence/ui_history/linux/x11_14/initialize.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 529043,
+      "source_sha256": "b3454e8630a27ffb6c3d729035d428b9fe133883875d63ef6d916257d521af41",
+      "copy_sha256": "b3454e8630a27ffb6c3d729035d428b9fe133883875d63ef6d916257d521af41",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\x11_14\\recovery.png",
+      "copy": "evidence/ui_history/linux/x11_14/recovery.png",
+      "reason": "Historical renderer capture or interaction receipt",
+      "status": "read_and_copied",
+      "bytes": 499233,
+      "source_sha256": "e4b6c36de6e91925bd2573b32fc81179c59142252b57e80ef80c727d2913d508",
+      "copy_sha256": "e4b6c36de6e91925bd2573b32fc81179c59142252b57e80ef80c727d2913d508",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\evidence\\member_c\\light_overlay_linux_20261018\\export_sha256.json",
+      "copy": "evidence/ui_history/linux/export_sha256.json",
+      "reason": "Existing export manifest; authenticates selected archived bytes, not independent signature",
+      "status": "read_and_copied",
+      "bytes": 22464,
+      "source_sha256": "27702eb5f8877142ee5ed1866f97e300b1443c6f06d2e1abbd965241b0a0d268",
+      "copy_sha256": "27702eb5f8877142ee5ed1866f97e300b1443c6f06d2e1abbd965241b0a0d268",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U01",
+      "source": "C:\\Users\\32898\\AppData\\Local\\Temp\\codex-clipboard-140aa7fe-f7a3-43f8-b93d-f757eeaaff38.png",
+      "copy": "evidence/ui_history/attachments/wording_question.png",
+      "reason": "Exact localImage path from user message 01a14ae0-bb09-7fd3-93be-7ca1276915fd",
+      "status": "read_and_copied",
+      "bytes": 1083368,
+      "source_sha256": "d988c061e7ca14e6298853f420e76c0f3b935ea8870347094f629c5cededed42",
+      "copy_sha256": "d988c061e7ca14e6298853f420e76c0f3b935ea8870347094f629c5cededed42",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        3839,
+        2075
+      ]
+    },
+    {
+      "case": "U01",
+      "source": "C:\\Users\\32898\\AppData\\Local\\Temp\\codex-clipboard-b6c148ae-5c35-4dc5-b4cd-3cde14f8174b.png",
+      "copy": "evidence/ui_history/attachments/recovery_color_feedback.png",
+      "reason": "Exact localImage path from user message 01a14ae1-7df2-7960-b569-052e79e58151",
+      "status": "read_and_copied",
+      "bytes": 1135445,
+      "source_sha256": "1dac7ac13fc81467ef759184d2672415d6cd4f7afc77cc71ada15d82e3efd6b4",
+      "copy_sha256": "1dac7ac13fc81467ef759184d2672415d6cd4f7afc77cc71ada15d82e3efd6b4",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        3839,
+        2075
+      ]
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018\\manifest.json",
+      "copy": "evidence/ui_history/guidance/v1/manifest.json",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 19275,
+      "source_sha256": "4463a3e8a2c2640086155d957a7eba0ac3ebdf8acce7595fb832812b1fc829c5",
+      "copy_sha256": "4463a3e8a2c2640086155d957a7eba0ac3ebdf8acce7595fb832812b1fc829c5",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018\\validation.json",
+      "copy": "evidence/ui_history/guidance/v1/validation.json",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 516,
+      "source_sha256": "3f36161293925849d54e365deaaca7df969f7b59fa58354d40d399bad17c87b0",
+      "copy_sha256": "3f36161293925849d54e365deaaca7df969f7b59fa58354d40d399bad17c87b0",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018\\guidance_up_then_clockwise.png",
+      "copy": "evidence/ui_history/guidance/v1/guidance_up_then_clockwise.png",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 724175,
+      "source_sha256": "7c02f26aa0865f9889f70b8ad457f1ace19a2ad49bfa27c3f778337203285e05",
+      "copy_sha256": "7c02f26aa0865f9889f70b8ad457f1ace19a2ad49bfa27c3f778337203285e05",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\assets_20261018\\manifest.json",
+      "copy": "evidence/ui_history/guidance/v1/assets_manifest.json",
+      "reason": "Versioned typography and asset hashes",
+      "status": "read_and_copied",
+      "bytes": 114291,
+      "source_sha256": "cdc60232f863cc99bc45a9b282d7ffb78744ed6bbce53fd271620acf65f50777",
+      "copy_sha256": "cdc60232f863cc99bc45a9b282d7ffb78744ed6bbce53fd271620acf65f50777",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v2\\manifest.json",
+      "copy": "evidence/ui_history/guidance/v2/manifest.json",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 19275,
+      "source_sha256": "34698d520c55cbed5e5fbf1b37e99f95ba612d6e94d88fb094415b5c81905b4a",
+      "copy_sha256": "34698d520c55cbed5e5fbf1b37e99f95ba612d6e94d88fb094415b5c81905b4a",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v2\\validation.json",
+      "copy": "evidence/ui_history/guidance/v2/validation.json",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 123,
+      "source_sha256": "cf6520baea7cdb2c08da1ae8ce6929c518900940789d14e405ada23f5c0557e0",
+      "copy_sha256": "cf6520baea7cdb2c08da1ae8ce6929c518900940789d14e405ada23f5c0557e0",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v2\\guidance_up_then_clockwise.png",
+      "copy": "evidence/ui_history/guidance/v2/guidance_up_then_clockwise.png",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 724209,
+      "source_sha256": "c4e2f64b9bea28a3afc45ed581cde69efef23c66fe5fcec1e4edbf3ab8791393",
+      "copy_sha256": "c4e2f64b9bea28a3afc45ed581cde69efef23c66fe5fcec1e4edbf3ab8791393",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\assets_20261018_v2\\manifest.json",
+      "copy": "evidence/ui_history/guidance/v2/assets_manifest.json",
+      "reason": "Versioned typography and asset hashes",
+      "status": "read_and_copied",
+      "bytes": 114226,
+      "source_sha256": "ce3d5d4b5db0e4e4345c9b6181ba3f9c0bd7425749b8596a46e3e6fa19cc7855",
+      "copy_sha256": "ce3d5d4b5db0e4e4345c9b6181ba3f9c0bd7425749b8596a46e3e6fa19cc7855",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v3\\manifest.json",
+      "copy": "evidence/ui_history/guidance/v3/manifest.json",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 19275,
+      "source_sha256": "3e2114ba7003102ebad8f16a847d6302936b7f6fe62472e7b6ac50f6830cf983",
+      "copy_sha256": "3e2114ba7003102ebad8f16a847d6302936b7f6fe62472e7b6ac50f6830cf983",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v3\\validation.json",
+      "copy": "evidence/ui_history/guidance/v3/validation.json",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 119,
+      "source_sha256": "f380bd6bb0f46f15f883b11bd32a4c82c870b806c9c10f854a83fb7c7d9ba8a0",
+      "copy_sha256": "f380bd6bb0f46f15f883b11bd32a4c82c870b806c9c10f854a83fb7c7d9ba8a0",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v3\\guidance_up_then_clockwise.png",
+      "copy": "evidence/ui_history/guidance/v3/guidance_up_then_clockwise.png",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 724168,
+      "source_sha256": "a22f8d4aa392d4c070dcb7b2b8e2691ea03d73f32752a213eb98c4ffde97fb46",
+      "copy_sha256": "a22f8d4aa392d4c070dcb7b2b8e2691ea03d73f32752a213eb98c4ffde97fb46",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\assets_20261018_v3\\manifest.json",
+      "copy": "evidence/ui_history/guidance/v3/assets_manifest.json",
+      "reason": "Versioned typography and asset hashes",
+      "status": "read_and_copied",
+      "bytes": 114258,
+      "source_sha256": "2c306a7fe338a03e028d712f9e46343b9c28f3c0ae0ea88696e216389f2b7809",
+      "copy_sha256": "2c306a7fe338a03e028d712f9e46343b9c28f3c0ae0ea88696e216389f2b7809",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v4\\manifest.json",
+      "copy": "evidence/ui_history/guidance/v4/manifest.json",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 19275,
+      "source_sha256": "e01fd8e81b9b216fa39d9aec17efc9adb86abfff46953da0d961564e3cbfbf2a",
+      "copy_sha256": "e01fd8e81b9b216fa39d9aec17efc9adb86abfff46953da0d961564e3cbfbf2a",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v4\\validation.json",
+      "copy": "evidence/ui_history/guidance/v4/validation.json",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 12568,
+      "source_sha256": "9ff86456eabbd2bb8859314df17af6d82c4333024233cd1f6e725e9ba490727a",
+      "copy_sha256": "9ff86456eabbd2bb8859314df17af6d82c4333024233cd1f6e725e9ba490727a",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\preview_20261018_v4\\guidance_up_then_clockwise.png",
+      "copy": "evidence/ui_history/guidance/v4/guidance_up_then_clockwise.png",
+      "reason": "Linked intermediate preview and existing validation",
+      "status": "read_and_copied",
+      "bytes": 692290,
+      "source_sha256": "82257b9609b6f061c4181c01c648d17f86ceb144599adae5d7d754c7e87a03d6",
+      "copy_sha256": "82257b9609b6f061c4181c01c648d17f86ceb144599adae5d7d754c7e87a03d6",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "case": "U02",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\ui\\camera_guidance\\assets_20261018_v4\\manifest.json",
+      "copy": "evidence/ui_history/guidance/v4/assets_manifest.json",
+      "reason": "Versioned typography and asset hashes",
+      "status": "read_and_copied",
+      "bytes": 87923,
+      "source_sha256": "6e8cafd7d4f43ae3483e40876748e207b1d15219917f0c0fcdabd3baf69a9001",
+      "copy_sha256": "6e8cafd7d4f43ae3483e40876748e207b1d15219917f0c0fcdabd3baf69a9001",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U03",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\model_integration\\v16_ps_full_ui_20261018\\evidence\\full_regression_01\\validation.json",
+      "copy": "evidence/ui_history/full_ui/evidence/full_regression_01/validation.json",
+      "reason": "Intermediate single-frame integration; distinct from final pipeline",
+      "status": "read_and_copied",
+      "bytes": 7727,
+      "source_sha256": "33f4d5c00f013c69709b57bcbe62279c837c5ad8606ff38f56df12af3de56cc4",
+      "copy_sha256": "33f4d5c00f013c69709b57bcbe62279c837c5ad8606ff38f56df12af3de56cc4",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U03",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\model_integration\\v16_ps_full_ui_20261018\\evidence\\full_regression_02\\validation.json",
+      "copy": "evidence/ui_history/full_ui/evidence/full_regression_02/validation.json",
+      "reason": "Intermediate single-frame integration; distinct from final pipeline",
+      "status": "read_and_copied",
+      "bytes": 9771,
+      "source_sha256": "f47babcddf24a9057f91bbd2bb54aa738bc40bc582eabab3ba0f073b1154f2a6",
+      "copy_sha256": "f47babcddf24a9057f91bbd2bb54aa738bc40bc582eabab3ba0f073b1154f2a6",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U03",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\model_integration\\v16_ps_full_ui_20261018\\evidence\\full_regression_02\\unittest.log",
+      "copy": "evidence/ui_history/full_ui/evidence/full_regression_02/unittest.log",
+      "reason": "Intermediate single-frame integration; distinct from final pipeline",
+      "status": "read_and_copied",
+      "bytes": 9274,
+      "source_sha256": "6aefd2276abbf010a62c23a61433e5631b8eff43f90b23a053f9c954a66fc664",
+      "copy_sha256": "6aefd2276abbf010a62c23a61433e5631b8eff43f90b23a053f9c954a66fc664",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U03",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\model_integration\\v16_ps_full_ui_20261018\\evidence\\full_window_01\\expanded.png",
+      "copy": "evidence/ui_history/full_ui/evidence/full_window_01/expanded.png",
+      "reason": "Intermediate single-frame integration; distinct from final pipeline",
+      "status": "read_and_copied",
+      "bytes": 796174,
+      "source_sha256": "aca7c213ed7fdeb4ac369bfb3f2bac9a74b35c698bb839211039c612d7b8fae5",
+      "copy_sha256": "aca7c213ed7fdeb4ac369bfb3f2bac9a74b35c698bb839211039c612d7b8fae5",
+      "transformation": "none; byte-for-byte copy",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "case": "U03",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\model_integration\\v16_ps_full_ui_20261018\\evidence\\full_window_01\\interaction.json",
+      "copy": "evidence/ui_history/full_ui/evidence/full_window_01/interaction.json",
+      "reason": "Intermediate single-frame integration; distinct from final pipeline",
+      "status": "read_and_copied",
+      "bytes": 2227,
+      "source_sha256": "b6516fed0fc081a4f367ae12c81357263756b51d4754e82078cca2b5a2de2ad4",
+      "copy_sha256": "b6516fed0fc081a4f367ae12c81357263756b51d4754e82078cca2b5a2de2ad4",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "case": "U03",
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\model_integration\\v16_ps_full_ui_20261018\\FULL_UI_README.md",
+      "copy": "evidence/ui_history/full_ui/FULL_UI_README.md",
+      "reason": "Intermediate single-frame integration; distinct from final pipeline",
+      "status": "read_and_copied",
+      "bytes": 8938,
+      "source_sha256": "12a7ef6dbd896d7406cd72ac4e5c4bedfab8bd6b39137ab33448dfdc685971d4",
+      "copy_sha256": "12a7ef6dbd896d7406cd72ac4e5c4bedfab8bd6b39137ab33448dfdc685971d4",
+      "transformation": "none; byte-for-byte copy"
+    }
+  ],
+  "message_links": [
+    {
+      "case": "user_01_ui_linux",
+      "organizer_id": "U12",
+      "message_id": "msg_073a7c0911f31663016ad3ad5bcaa08194a8116b0bc665f913",
+      "turn_id": "01a14ac4-b4d0-7272-a82f-18961e7986f8",
+      "link": "D:/2026嵌赛/实时板书增强系统/ui/lvgl/README-linux.md",
+      "exists": true,
+      "sha256_if_read": "cd03c7479559d49247513b2c587c560d7bbe1d095e8d6d739805f0cc0c1b0a72"
+    },
+    {
+      "case": "user_01_ui_linux",
+      "organizer_id": "U12",
+      "message_id": "msg_073a7c0911f31663016ad3ad5bcaa08194a8116b0bc665f913",
+      "turn_id": "01a14ac4-b4d0-7272-a82f-18961e7986f8",
+      "link": "D:/2026嵌赛/实时板书增强系统/evidence/member_c/light_overlay_linux_20261018/x11_04/main.png",
+      "exists": true,
+      "sha256_if_read": "65795ab8714212ccd0f7d1ba31a49f6f4da050aae83a3f3ed278da805e4fb083"
+    },
+    {
+      "case": "user_01_ui_linux",
+      "organizer_id": "U23",
+      "message_id": "msg_073a7c0911f31663016ad3b27bc5c481948247e9aa0b796169",
+      "turn_id": "01a14ae0-b91a-7db0-8ce8-429125b64b80",
+      "link": "D:/2026嵌赛/实时板书增强系统/evidence/member_c/light_overlay_linux_20261018/x11_11/startup-collapsed.png",
+      "exists": true,
+      "sha256_if_read": "f193f5abf99bb60d0a1abd3f064cb2cf2a512b0667f9d02a22ac4522c50874fb"
+    },
+    {
+      "case": "user_01_ui_linux",
+      "organizer_id": "U23",
+      "message_id": "msg_073a7c0911f31663016ad3b27bc5c481948247e9aa0b796169",
+      "turn_id": "01a14ae0-b91a-7db0-8ce8-429125b64b80",
+      "link": "D:/2026嵌赛/实时板书增强系统/evidence/member_c/light_overlay_linux_20261018/x11_11/main.png",
+      "exists": true,
+      "sha256_if_read": "b2799c7067ea62d3cbd43c3f4784e2bfe5e896c994df4a4cc617eaffd99a645c"
+    },
+    {
+      "case": "user_01_ui_linux",
+      "organizer_id": "U35",
+      "message_id": "msg_073a7c0911f31663016ad3b7868d308194b9a4ea6ab0b79b6d",
+      "turn_id": "01a14af3-9019-7d72-9b95-7dc143cfcf7b",
+      "link": "D:/2026嵌赛/实时板书增强系统/evidence/member_c/light_overlay_linux_20261018/x11_13/main.png",
+      "exists": true,
+      "sha256_if_read": "7b63ab8a01104db100e3b7a9f6aaad825a557d944fbce7826681cea1d864bf0c"
+    },
+    {
+      "case": "user_01_ui_linux",
+      "organizer_id": "U41",
+      "message_id": "msg_073a7c0911f31663016ad3bb7781108194a4c6448d5af0e013",
+      "turn_id": "01a14b0d-1670-7242-bec4-d4bccc6dfdbc",
+      "link": "D:/2026嵌赛/实时板书增强系统/evidence/member_c/light_overlay_linux_20261018/x11_14/main.png",
+      "exists": true,
+      "sha256_if_read": "085d61d70ed60e3b29364927c7c6ffbded75ba39260aaba43e695480ca0cf217"
+    },
+    {
+      "case": "user_02_ui_guidance",
+      "organizer_id": "U05",
+      "message_id": "msg_073a7c0911f31663016ad4410f594c81949b4201f7b2b104dd",
+      "turn_id": "01a14d19-595c-7272-8fec-c6cd2064785a",
+      "link": "D:/2026嵌赛/实时板书增强系统/ui/camera_guidance/preview_20261018/guidance_up_then_clockwise.png",
+      "exists": true,
+      "sha256_if_read": "7c02f26aa0865f9889f70b8ad457f1ace19a2ad49bfa27c3f778337203285e05"
+    },
+    {
+      "case": "user_02_ui_guidance",
+      "organizer_id": "U08",
+      "message_id": "msg_073a7c0911f31663016ad441c3d12481949cabdfcd2481d4fe",
+      "turn_id": "01a14d1e-d2b4-7801-9abc-6ba71be9fcd5",
+      "link": "D:/2026嵌赛/实时板书增强系统/ui/camera_guidance/preview_20261018_v2/guidance_up_then_clockwise.png",
+      "exists": true,
+      "sha256_if_read": "c4e2f64b9bea28a3afc45ed581cde69efef23c66fe5fcec1e4edbf3ab8791393"
+    },
+    {
+      "case": "user_02_ui_guidance",
+      "organizer_id": "U11",
+      "message_id": "msg_073a7c0911f31663016ad4423eb9a481949d354c90b304e62a",
+      "turn_id": "01a14d21-a4b7-7471-91c8-b73a087648b7",
+      "link": "D:/2026嵌赛/实时板书增强系统/ui/camera_guidance/preview_20261018_v3/guidance_up_then_clockwise.png",
+      "exists": true,
+      "sha256_if_read": "a22f8d4aa392d4c070dcb7b2b8e2691ea03d73f32752a213eb98c4ffde97fb46"
+    },
+    {
+      "case": "user_02_ui_guidance",
+      "organizer_id": "U16",
+      "message_id": "msg_073a7c0911f31663016ad443ad95a481948e72baf2ab692148",
+      "turn_id": "01a14d25-deb1-7ed0-9430-8a9eaf568cc5",
+      "link": "D:/2026嵌赛/实时板书增强系统/ui/camera_guidance/preview_20261018_v4/guidance_up_then_clockwise.png",
+      "exists": true,
+      "sha256_if_read": "82257b9609b6f061c4181c01c648d17f86ceb144599adae5d7d754c7e87a03d6"
+    },
+    {
+      "case": "user_02_ui_guidance",
+      "organizer_id": "U19",
+      "message_id": "msg_073a7c0911f31663016ad4443ca6488194bd53a9d8d9df5550",
+      "turn_id": "01a14d29-b6e8-7ad3-b8d4-68963dc6f4bf",
+      "link": "D:/2026嵌赛/实时板书增强系统/ui/camera_guidance/preview_20261018_v5/guidance_up_then_clockwise.png",
+      "exists": true,
+      "sha256_if_read": "0b96d90cc33a4ccde02f6044534125d06f66a38fb06f91b9985ff4988ed8a4ae"
+    },
+    {
+      "case": "user_03_ui_pipeline",
+      "organizer_id": "U07",
+      "message_id": "msg_073a7c0911f31663016ad44f6c215c819497be32599b7e65b2",
+      "turn_id": "01a14d49-3a57-79a1-a697-6033df9a348b",
+      "link": "D:/2026嵌赛/实时板书增强系统/model_integration/v16_ps_ui_2hz_20261018/UI_2HZ_README.md",
+      "exists": true,
+      "sha256_if_read": "b449ae37fb0638def1861fe41ce11c23e072c3f9bd0c944da0cab86fcb9fd388"
+    },
+    {
+      "case": "user_03_ui_pipeline",
+      "organizer_id": "U15",
+      "message_id": "msg_073a7c0911f31663016ad49ba0c5b4819480adf06c60de2e6b",
+      "turn_id": "01a14e67-3e51-7613-a72f-122a0adafe4f",
+      "link": "D:/2026嵌赛/实时板书增强系统/deliverables/ps_full_ui_20261018/ps_full_ui_20261018.zip",
+      "exists": true,
+      "sha256_if_read": null
+    },
+    {
+      "case": "user_03_ui_pipeline",
+      "organizer_id": "U15",
+      "message_id": "msg_073a7c0911f31663016ad49ba0c5b4819480adf06c60de2e6b",
+      "turn_id": "01a14e67-3e51-7613-a72f-122a0adafe4f",
+      "link": "D:/2026嵌赛/实时板书增强系统/deliverables/ps_full_ui_20261018/START_HERE.md",
+      "exists": true,
+      "sha256_if_read": "f1d1f5bce4fbf01ef201d9ca7d52a8abc5139fb8c9dd020a2aecdba4d1a9aa8f"
+    },
+    {
+      "case": "user_03_ui_pipeline",
+      "organizer_id": "U30",
+      "message_id": "msg_073a7c0911f31663016ad4a26ff82c819499f8a604fe32f98d",
+      "turn_id": "01a14e87-30fd-7a02-9436-b3f392024d1a",
+      "link": "D:/2026嵌赛/实时板书增强系统/model_integration/v16_ps_pipeline_ui_20261018/evidence/window_grouped_01/expanded.png",
+      "exists": true,
+      "sha256_if_read": "3f8433a01c9edbd928a5dc80915a5d790d8ea0ceef810ce8660fc587b6b9259d"
+    },
+    {
+      "case": "user_03_ui_pipeline",
+      "organizer_id": "U30",
+      "message_id": "msg_073a7c0911f31663016ad4a26ff82c819499f8a604fe32f98d",
+      "turn_id": "01a14e87-30fd-7a02-9436-b3f392024d1a",
+      "link": "D:/2026嵌赛/实时板书增强系统/deliverables/ps_pipeline_ui_20261018/ps_pipeline_ui_20261018.zip",
+      "exists": true,
+      "sha256_if_read": null
+    },
+    {
+      "case": "user_03_ui_pipeline",
+      "organizer_id": "U30",
+      "message_id": "msg_073a7c0911f31663016ad4a26ff82c819499f8a604fe32f98d",
+      "turn_id": "01a14e87-30fd-7a02-9436-b3f392024d1a",
+      "link": "D:/2026嵌赛/实时板书增强系统/deliverables/ps_pipeline_ui_20261018/PIPELINE_UI_README.md",
+      "exists": true,
+      "sha256_if_read": "df92995ec1bc7340d571c20a3dc38e6be70bcd0f1d4881b2d25e624920d8a309"
+    },
+    {
+      "case": "user_03_ui_pipeline",
+      "organizer_id": "U33",
+      "message_id": "msg_073a7c0911f31663016ad4f2bbe688819496ea4d9598a1a5e3",
+      "turn_id": "01a14fd3-b034-7332-bedc-f5bd85ef46ef",
+      "link": "D:/2026嵌赛/实时板书增强系统/model_integration/v16_ps_pipeline_ui_20261018/archive_ui.py:63",
+      "exists": true,
+      "sha256_if_read": null
+    }
+  ],
+  "historical_hash_checks": [
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_04/main.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_04/initialize.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_04/recovery.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_04/disconnected.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_04/interaction_receipt.json",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_11/main.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_11/startup-collapsed.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_11/initialize.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_11/recovery.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_11/interaction_receipt.json",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_12/main.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_12/auto-collapsed.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_12/interaction_receipt.json",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_13/main.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_13/interaction_receipt.json",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_14/initialize.png",
+      "match": true
+    },
+    {
+      "check": "linux_historical_export_hash",
+      "source": "x11_14/recovery.png",
+      "match": true
+    }
+  ],
+  "guidance_version_checks": [
+    {
+      "version": 1,
+      "checked": 59,
+      "matched": 59,
+      "mismatches": [],
+      "sidebar_alignment": "goal/action/next centered at x=1696; body block centered and lines left aligned",
+      "selected_centered_rows": 28,
+      "max_recorded_bounds_offset_px": 0.0,
+      "bounds_warning": "v1-v3 layout bounds and v4-v5 visible glyph bounds are different metrics; arithmetic on manifest, not pixel rerender"
+    },
+    {
+      "version": 2,
+      "checked": 59,
+      "matched": 59,
+      "mismatches": [],
+      "sidebar_alignment": "action left aligned at x=1536; goal/body lines/next centered at x=1696",
+      "selected_centered_rows": 81,
+      "max_recorded_bounds_offset_px": 0.0,
+      "bounds_warning": "v1-v3 layout bounds and v4-v5 visible glyph bounds are different metrics; arithmetic on manifest, not pixel rerender"
+    },
+    {
+      "version": 3,
+      "checked": 59,
+      "matched": 59,
+      "mismatches": [],
+      "sidebar_alignment": "action/goal/body lines/next centered at x=1696",
+      "selected_centered_rows": 109,
+      "max_recorded_bounds_offset_px": 0.0,
+      "bounds_warning": "v1-v3 layout bounds and v4-v5 visible glyph bounds are different metrics; arithmetic on manifest, not pixel rerender"
+    },
+    {
+      "version": 4,
+      "checked": 59,
+      "matched": 59,
+      "mismatches": [],
+      "sidebar_alignment": "visible glyph bounds centered at x=1696; action 28 px, body/next 24 px",
+      "selected_centered_rows": 84,
+      "max_recorded_bounds_offset_px": 0.25,
+      "bounds_warning": "v1-v3 layout bounds and v4-v5 visible glyph bounds are different metrics; arithmetic on manifest, not pixel rerender"
+    },
+    {
+      "version": 5,
+      "checked": 59,
+      "matched": 59,
+      "mismatches": [],
+      "sidebar_alignment": "visible glyph bounds centered at x=1696; action 28 px, body/next 24 px",
+      "selected_centered_rows": 84,
+      "max_recorded_bounds_offset_px": 0.25,
+      "bounds_warning": "v1-v3 layout bounds and v4-v5 visible glyph bounds are different metrics; arithmetic on manifest, not pixel rerender"
+    }
+  ],
+  "attachment_identity_limit": "Recovered from exact localImage paths; hashes computed now. Historical message does not carry an independent image digest.",
+  "intermediate_binary_limit": "x11_04/11/12/13 receipts lack binary hashes; link via message/command/run directory and export manifest, not final binary identity."
+}

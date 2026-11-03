@@ -1,0 +1,3499 @@
+{
+  "original": {
+    "path": "D:\\2026嵌赛\\v24_2025_2\\baseline\\src\\pl\\ip\\rectify\\component.xml",
+    "sha256": "7a64b530948ff14dfa83352041a9faa728b90803fa3d0768b61aeed801f012a1",
+    "ports": {
+      "ap_local_block": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_AWADDR": {
+        "direction": "in",
+        "left": "6",
+        "right": "0"
+      },
+      "s_axi_control_AWVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_AWREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_WDATA": {
+        "direction": "in",
+        "left": "31",
+        "right": "0"
+      },
+      "s_axi_control_WSTRB": {
+        "direction": "in",
+        "left": "3",
+        "right": "0"
+      },
+      "s_axi_control_WVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_WREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_BRESP": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "s_axi_control_BVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_BREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_ARADDR": {
+        "direction": "in",
+        "left": "6",
+        "right": "0"
+      },
+      "s_axi_control_ARVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_ARREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_RDATA": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "s_axi_control_RRESP": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "s_axi_control_RVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_RREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "ap_clk": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "ap_rst_n": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "interrupt": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_AWID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_AWREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_WID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_WDATA": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem0_WSTRB": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_WLAST": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_WUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_WVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_WREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_BID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_BRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_BUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_BVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_BREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_ARID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_ARREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_RID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_RDATA": {
+        "direction": "in",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem0_RRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_RLAST": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_RUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_RVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_RREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_AWID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_AWREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_WID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_WDATA": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem1_WSTRB": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_WLAST": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_WUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_WVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_WREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_BID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_BRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_BUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_BVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_BREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_ARID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_ARREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_RID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_RDATA": {
+        "direction": "in",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem1_RRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_RLAST": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_RUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_RVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_RREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_AWID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_AWREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_WID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_WDATA": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem2_WSTRB": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_WLAST": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_WUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_WVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_WREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_BID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_BRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_BUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_BVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_BREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_ARID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_ARREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_RID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_RDATA": {
+        "direction": "in",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem2_RRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_RLAST": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_RUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_RVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_RREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      }
+    },
+    "buses": {
+      "s_axi_control": {
+        "role": [
+          "slave"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "AWADDR": "s_axi_control_AWADDR",
+          "AWVALID": "s_axi_control_AWVALID",
+          "AWREADY": "s_axi_control_AWREADY",
+          "WDATA": "s_axi_control_WDATA",
+          "WSTRB": "s_axi_control_WSTRB",
+          "WVALID": "s_axi_control_WVALID",
+          "WREADY": "s_axi_control_WREADY",
+          "BRESP": "s_axi_control_BRESP",
+          "BVALID": "s_axi_control_BVALID",
+          "BREADY": "s_axi_control_BREADY",
+          "ARADDR": "s_axi_control_ARADDR",
+          "ARVALID": "s_axi_control_ARVALID",
+          "ARREADY": "s_axi_control_ARREADY",
+          "RDATA": "s_axi_control_RDATA",
+          "RRESP": "s_axi_control_RRESP",
+          "RVALID": "s_axi_control_RVALID",
+          "RREADY": "s_axi_control_RREADY"
+        },
+        "parameters": {
+          "ADDR_WIDTH": "7",
+          "DATA_WIDTH": "32",
+          "PROTOCOL": "AXI4LITE",
+          "READ_WRITE_MODE": "READ_WRITE"
+        }
+      },
+      "ap_clk": {
+        "role": [
+          "slave"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "signal",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "clock",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "CLK": "ap_clk"
+        },
+        "parameters": {
+          "ASSOCIATED_BUSIF": "s_axi_control:m_axi_gmem0:m_axi_gmem1:m_axi_gmem2",
+          "ASSOCIATED_RESET": "ap_rst_n"
+        }
+      },
+      "ap_rst_n": {
+        "role": [
+          "slave"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "signal",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "reset",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "RST": "ap_rst_n"
+        },
+        "parameters": {
+          "POLARITY": "ACTIVE_LOW"
+        }
+      },
+      "interrupt": {
+        "role": [
+          "master"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "signal",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "interrupt",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "INTERRUPT": "interrupt"
+        },
+        "parameters": {
+          "SENSITIVITY": "LEVEL_HIGH"
+        }
+      },
+      "m_axi_gmem0": {
+        "role": [
+          "master"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "AWID": "m_axi_gmem0_AWID",
+          "AWADDR": "m_axi_gmem0_AWADDR",
+          "AWLEN": "m_axi_gmem0_AWLEN",
+          "AWSIZE": "m_axi_gmem0_AWSIZE",
+          "AWBURST": "m_axi_gmem0_AWBURST",
+          "AWLOCK": "m_axi_gmem0_AWLOCK",
+          "AWREGION": "m_axi_gmem0_AWREGION",
+          "AWCACHE": "m_axi_gmem0_AWCACHE",
+          "AWPROT": "m_axi_gmem0_AWPROT",
+          "AWQOS": "m_axi_gmem0_AWQOS",
+          "AWUSER": "m_axi_gmem0_AWUSER",
+          "AWVALID": "m_axi_gmem0_AWVALID",
+          "AWREADY": "m_axi_gmem0_AWREADY",
+          "WID": "m_axi_gmem0_WID",
+          "WDATA": "m_axi_gmem0_WDATA",
+          "WSTRB": "m_axi_gmem0_WSTRB",
+          "WLAST": "m_axi_gmem0_WLAST",
+          "WUSER": "m_axi_gmem0_WUSER",
+          "WVALID": "m_axi_gmem0_WVALID",
+          "WREADY": "m_axi_gmem0_WREADY",
+          "BID": "m_axi_gmem0_BID",
+          "BRESP": "m_axi_gmem0_BRESP",
+          "BUSER": "m_axi_gmem0_BUSER",
+          "BVALID": "m_axi_gmem0_BVALID",
+          "BREADY": "m_axi_gmem0_BREADY",
+          "ARID": "m_axi_gmem0_ARID",
+          "ARADDR": "m_axi_gmem0_ARADDR",
+          "ARLEN": "m_axi_gmem0_ARLEN",
+          "ARSIZE": "m_axi_gmem0_ARSIZE",
+          "ARBURST": "m_axi_gmem0_ARBURST",
+          "ARLOCK": "m_axi_gmem0_ARLOCK",
+          "ARREGION": "m_axi_gmem0_ARREGION",
+          "ARCACHE": "m_axi_gmem0_ARCACHE",
+          "ARPROT": "m_axi_gmem0_ARPROT",
+          "ARQOS": "m_axi_gmem0_ARQOS",
+          "ARUSER": "m_axi_gmem0_ARUSER",
+          "ARVALID": "m_axi_gmem0_ARVALID",
+          "ARREADY": "m_axi_gmem0_ARREADY",
+          "RID": "m_axi_gmem0_RID",
+          "RDATA": "m_axi_gmem0_RDATA",
+          "RRESP": "m_axi_gmem0_RRESP",
+          "RLAST": "m_axi_gmem0_RLAST",
+          "RUSER": "m_axi_gmem0_RUSER",
+          "RVALID": "m_axi_gmem0_RVALID",
+          "RREADY": "m_axi_gmem0_RREADY"
+        },
+        "parameters": {
+          "ADDR_WIDTH": "32",
+          "MAX_BURST_LENGTH": "256",
+          "NUM_READ_OUTSTANDING": "16",
+          "NUM_WRITE_OUTSTANDING": "16",
+          "MAX_READ_BURST_LENGTH": "16",
+          "MAX_WRITE_BURST_LENGTH": "16",
+          "PROTOCOL": "AXI4",
+          "READ_WRITE_MODE": "READ_WRITE",
+          "HAS_BURST": "0",
+          "SUPPORTS_NARROW_BURST": "0"
+        }
+      },
+      "m_axi_gmem1": {
+        "role": [
+          "master"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "AWID": "m_axi_gmem1_AWID",
+          "AWADDR": "m_axi_gmem1_AWADDR",
+          "AWLEN": "m_axi_gmem1_AWLEN",
+          "AWSIZE": "m_axi_gmem1_AWSIZE",
+          "AWBURST": "m_axi_gmem1_AWBURST",
+          "AWLOCK": "m_axi_gmem1_AWLOCK",
+          "AWREGION": "m_axi_gmem1_AWREGION",
+          "AWCACHE": "m_axi_gmem1_AWCACHE",
+          "AWPROT": "m_axi_gmem1_AWPROT",
+          "AWQOS": "m_axi_gmem1_AWQOS",
+          "AWUSER": "m_axi_gmem1_AWUSER",
+          "AWVALID": "m_axi_gmem1_AWVALID",
+          "AWREADY": "m_axi_gmem1_AWREADY",
+          "WID": "m_axi_gmem1_WID",
+          "WDATA": "m_axi_gmem1_WDATA",
+          "WSTRB": "m_axi_gmem1_WSTRB",
+          "WLAST": "m_axi_gmem1_WLAST",
+          "WUSER": "m_axi_gmem1_WUSER",
+          "WVALID": "m_axi_gmem1_WVALID",
+          "WREADY": "m_axi_gmem1_WREADY",
+          "BID": "m_axi_gmem1_BID",
+          "BRESP": "m_axi_gmem1_BRESP",
+          "BUSER": "m_axi_gmem1_BUSER",
+          "BVALID": "m_axi_gmem1_BVALID",
+          "BREADY": "m_axi_gmem1_BREADY",
+          "ARID": "m_axi_gmem1_ARID",
+          "ARADDR": "m_axi_gmem1_ARADDR",
+          "ARLEN": "m_axi_gmem1_ARLEN",
+          "ARSIZE": "m_axi_gmem1_ARSIZE",
+          "ARBURST": "m_axi_gmem1_ARBURST",
+          "ARLOCK": "m_axi_gmem1_ARLOCK",
+          "ARREGION": "m_axi_gmem1_ARREGION",
+          "ARCACHE": "m_axi_gmem1_ARCACHE",
+          "ARPROT": "m_axi_gmem1_ARPROT",
+          "ARQOS": "m_axi_gmem1_ARQOS",
+          "ARUSER": "m_axi_gmem1_ARUSER",
+          "ARVALID": "m_axi_gmem1_ARVALID",
+          "ARREADY": "m_axi_gmem1_ARREADY",
+          "RID": "m_axi_gmem1_RID",
+          "RDATA": "m_axi_gmem1_RDATA",
+          "RRESP": "m_axi_gmem1_RRESP",
+          "RLAST": "m_axi_gmem1_RLAST",
+          "RUSER": "m_axi_gmem1_RUSER",
+          "RVALID": "m_axi_gmem1_RVALID",
+          "RREADY": "m_axi_gmem1_RREADY"
+        },
+        "parameters": {
+          "ADDR_WIDTH": "32",
+          "MAX_BURST_LENGTH": "256",
+          "NUM_READ_OUTSTANDING": "16",
+          "NUM_WRITE_OUTSTANDING": "16",
+          "MAX_READ_BURST_LENGTH": "16",
+          "MAX_WRITE_BURST_LENGTH": "64",
+          "PROTOCOL": "AXI4",
+          "READ_WRITE_MODE": "READ_WRITE",
+          "HAS_BURST": "0",
+          "SUPPORTS_NARROW_BURST": "0"
+        }
+      },
+      "m_axi_gmem2": {
+        "role": [
+          "master"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "AWID": "m_axi_gmem2_AWID",
+          "AWADDR": "m_axi_gmem2_AWADDR",
+          "AWLEN": "m_axi_gmem2_AWLEN",
+          "AWSIZE": "m_axi_gmem2_AWSIZE",
+          "AWBURST": "m_axi_gmem2_AWBURST",
+          "AWLOCK": "m_axi_gmem2_AWLOCK",
+          "AWREGION": "m_axi_gmem2_AWREGION",
+          "AWCACHE": "m_axi_gmem2_AWCACHE",
+          "AWPROT": "m_axi_gmem2_AWPROT",
+          "AWQOS": "m_axi_gmem2_AWQOS",
+          "AWUSER": "m_axi_gmem2_AWUSER",
+          "AWVALID": "m_axi_gmem2_AWVALID",
+          "AWREADY": "m_axi_gmem2_AWREADY",
+          "WID": "m_axi_gmem2_WID",
+          "WDATA": "m_axi_gmem2_WDATA",
+          "WSTRB": "m_axi_gmem2_WSTRB",
+          "WLAST": "m_axi_gmem2_WLAST",
+          "WUSER": "m_axi_gmem2_WUSER",
+          "WVALID": "m_axi_gmem2_WVALID",
+          "WREADY": "m_axi_gmem2_WREADY",
+          "BID": "m_axi_gmem2_BID",
+          "BRESP": "m_axi_gmem2_BRESP",
+          "BUSER": "m_axi_gmem2_BUSER",
+          "BVALID": "m_axi_gmem2_BVALID",
+          "BREADY": "m_axi_gmem2_BREADY",
+          "ARID": "m_axi_gmem2_ARID",
+          "ARADDR": "m_axi_gmem2_ARADDR",
+          "ARLEN": "m_axi_gmem2_ARLEN",
+          "ARSIZE": "m_axi_gmem2_ARSIZE",
+          "ARBURST": "m_axi_gmem2_ARBURST",
+          "ARLOCK": "m_axi_gmem2_ARLOCK",
+          "ARREGION": "m_axi_gmem2_ARREGION",
+          "ARCACHE": "m_axi_gmem2_ARCACHE",
+          "ARPROT": "m_axi_gmem2_ARPROT",
+          "ARQOS": "m_axi_gmem2_ARQOS",
+          "ARUSER": "m_axi_gmem2_ARUSER",
+          "ARVALID": "m_axi_gmem2_ARVALID",
+          "ARREADY": "m_axi_gmem2_ARREADY",
+          "RID": "m_axi_gmem2_RID",
+          "RDATA": "m_axi_gmem2_RDATA",
+          "RRESP": "m_axi_gmem2_RRESP",
+          "RLAST": "m_axi_gmem2_RLAST",
+          "RUSER": "m_axi_gmem2_RUSER",
+          "RVALID": "m_axi_gmem2_RVALID",
+          "RREADY": "m_axi_gmem2_RREADY"
+        },
+        "parameters": {
+          "ADDR_WIDTH": "32",
+          "MAX_BURST_LENGTH": "256",
+          "NUM_READ_OUTSTANDING": "16",
+          "NUM_WRITE_OUTSTANDING": "16",
+          "MAX_READ_BURST_LENGTH": "16",
+          "MAX_WRITE_BURST_LENGTH": "16",
+          "PROTOCOL": "AXI4",
+          "READ_WRITE_MODE": "READ_WRITE",
+          "HAS_BURST": "0",
+          "SUPPORTS_NARROW_BURST": "0"
+        }
+      }
+    },
+    "blocks": {
+      "s_axi_control/Reg": {
+        "baseAddress": "0",
+        "range": "65536",
+        "width": "32",
+        "usage": "register",
+        "access": "read-write"
+      }
+    },
+    "registers": {
+      "s_axi_control/Reg/CTRL": {
+        "addressOffset": "0",
+        "size": "32",
+        "access": "read-write",
+        "fields": {
+          "AP_START": {
+            "bitOffset": "0",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "AP_DONE": {
+            "bitOffset": "1",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "AP_IDLE": {
+            "bitOffset": "2",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "AP_READY": {
+            "bitOffset": "3",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "RESERVED_1": {
+            "bitOffset": "4",
+            "bitWidth": "3",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "AUTO_RESTART": {
+            "bitOffset": "7",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "RESERVED_2": {
+            "bitOffset": "8",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "RESERVED_3": {
+            "bitOffset": "9",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "RESERVED_4": {
+            "bitOffset": "10",
+            "bitWidth": "22",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/GIER": {
+        "addressOffset": "4",
+        "size": "32",
+        "access": "read-write",
+        "fields": {
+          "Enable": {
+            "bitOffset": "0",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "RESERVED": {
+            "bitOffset": "1",
+            "bitWidth": "31",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/IP_IER": {
+        "addressOffset": "8",
+        "size": "32",
+        "access": "read-write",
+        "fields": {
+          "CHAN0_INT_EN": {
+            "bitOffset": "0",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "CHAN1_INT_EN": {
+            "bitOffset": "1",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "RESERVED_0": {
+            "bitOffset": "2",
+            "bitWidth": "3",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "CHAN2_INT_EN": {
+            "bitOffset": "5",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "RESERVED_1": {
+            "bitOffset": "6",
+            "bitWidth": "26",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/IP_ISR": {
+        "addressOffset": "12",
+        "size": "32",
+        "access": "read-write",
+        "fields": {
+          "CHAN0_INT_ST": {
+            "bitOffset": "0",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": "oneToToggle"
+          },
+          "CHAN1_INT_ST": {
+            "bitOffset": "1",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": "oneToToggle"
+          },
+          "RESERVED_0": {
+            "bitOffset": "2",
+            "bitWidth": "3",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "CHAN2_INT_ST": {
+            "bitOffset": "5",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": "oneToToggle"
+          },
+          "RESERVED_1": {
+            "bitOffset": "6",
+            "bitWidth": "26",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/src": {
+        "addressOffset": "16",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "src": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/dst": {
+        "addressOffset": "24",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "dst": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/status": {
+        "addressOffset": "32",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "status": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/hint": {
+        "addressOffset": "40",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "hint": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/corners": {
+        "addressOffset": "48",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "corners": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/binary_enable": {
+        "addressOffset": "56",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "binary_enable": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/mode": {
+        "addressOffset": "64",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "mode": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/threshold": {
+        "addressOffset": "72",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "threshold": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/bgr": {
+        "addressOffset": "80",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "bgr": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/geometry": {
+        "addressOffset": "88",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "geometry": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/diagnostics": {
+        "addressOffset": "96",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "diagnostics": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      }
+    }
+  },
+  "candidate": {
+    "path": "D:\\2026嵌赛\\v24_2025_2\\hls_runs\\rectify_export\\solution1\\impl\\ip\\component.xml",
+    "sha256": "4272c50ddf05997ee5d2356daba6e9e1583ceb183c5f3ec1b023b56ad422cb68",
+    "ports": {
+      "s_axi_control_ARADDR": {
+        "direction": "in",
+        "left": "6",
+        "right": "0"
+      },
+      "s_axi_control_ARREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_ARVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_AWADDR": {
+        "direction": "in",
+        "left": "6",
+        "right": "0"
+      },
+      "s_axi_control_AWREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_AWVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_BREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_BRESP": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "s_axi_control_BVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_RDATA": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "s_axi_control_RREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_RRESP": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "s_axi_control_RVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_WDATA": {
+        "direction": "in",
+        "left": "31",
+        "right": "0"
+      },
+      "s_axi_control_WREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "s_axi_control_WSTRB": {
+        "direction": "in",
+        "left": "3",
+        "right": "0"
+      },
+      "s_axi_control_WVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "ap_clk": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "ap_rst_n": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "interrupt": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_ARADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_ARREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_ARVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_AWADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_AWREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_AWVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_BID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_BREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_BRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_BUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_BVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_RDATA": {
+        "direction": "in",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem0_RID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_RLAST": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_RREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_RRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem0_RUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_RVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_WDATA": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem0_WID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_WLAST": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_WREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem0_WSTRB": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem0_WUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem0_WVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_ARADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_ARREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_ARVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_AWADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_AWREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_AWVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_BID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_BREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_BRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_BUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_BVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_RDATA": {
+        "direction": "in",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem1_RID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_RLAST": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_RREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_RRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem1_RUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_RVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_WDATA": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem1_WID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_WLAST": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_WREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem1_WSTRB": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem1_WUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem1_WVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_ARADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_ARREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_ARVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_AWADDR": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWBURST": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWCACHE": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWLEN": {
+        "direction": "out",
+        "left": "7",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWLOCK": {
+        "direction": "out",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWPROT": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWQOS": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_AWREGION": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWSIZE": {
+        "direction": "out",
+        "left": "2",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_AWVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_BID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_BREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_BRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_BUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_BVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_RDATA": {
+        "direction": "in",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem2_RID": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_RLAST": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_RREADY": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_RRESP": {
+        "direction": "in",
+        "left": "1",
+        "right": "0"
+      },
+      "m_axi_gmem2_RUSER": {
+        "direction": "in",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_RVALID": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_WDATA": {
+        "direction": "out",
+        "left": "31",
+        "right": "0"
+      },
+      "m_axi_gmem2_WID": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_WLAST": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_WREADY": {
+        "direction": "in",
+        "left": "",
+        "right": ""
+      },
+      "m_axi_gmem2_WSTRB": {
+        "direction": "out",
+        "left": "3",
+        "right": "0"
+      },
+      "m_axi_gmem2_WUSER": {
+        "direction": "out",
+        "left": "0",
+        "right": "0"
+      },
+      "m_axi_gmem2_WVALID": {
+        "direction": "out",
+        "left": "",
+        "right": ""
+      }
+    },
+    "buses": {
+      "s_axi_control": {
+        "role": [
+          "slave"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "ARADDR": "s_axi_control_ARADDR",
+          "ARREADY": "s_axi_control_ARREADY",
+          "ARVALID": "s_axi_control_ARVALID",
+          "AWADDR": "s_axi_control_AWADDR",
+          "AWREADY": "s_axi_control_AWREADY",
+          "AWVALID": "s_axi_control_AWVALID",
+          "BREADY": "s_axi_control_BREADY",
+          "BRESP": "s_axi_control_BRESP",
+          "BVALID": "s_axi_control_BVALID",
+          "RDATA": "s_axi_control_RDATA",
+          "RREADY": "s_axi_control_RREADY",
+          "RRESP": "s_axi_control_RRESP",
+          "RVALID": "s_axi_control_RVALID",
+          "WDATA": "s_axi_control_WDATA",
+          "WREADY": "s_axi_control_WREADY",
+          "WSTRB": "s_axi_control_WSTRB",
+          "WVALID": "s_axi_control_WVALID"
+        },
+        "parameters": {
+          "ADDR_WIDTH": "7",
+          "DATA_WIDTH": "32",
+          "PROTOCOL": "AXI4LITE",
+          "READ_WRITE_MODE": "READ_WRITE"
+        }
+      },
+      "ap_clk": {
+        "role": [
+          "slave"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "signal",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "clock",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "CLK": "ap_clk"
+        },
+        "parameters": {
+          "ASSOCIATED_BUSIF": "s_axi_control:m_axi_gmem0:m_axi_gmem1:m_axi_gmem2",
+          "ASSOCIATED_RESET": "ap_rst_n"
+        }
+      },
+      "ap_rst_n": {
+        "role": [
+          "slave"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "signal",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "reset",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "RST": "ap_rst_n"
+        },
+        "parameters": {
+          "POLARITY": "ACTIVE_LOW"
+        }
+      },
+      "interrupt": {
+        "role": [
+          "master"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "signal",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "interrupt",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "INTERRUPT": "interrupt"
+        },
+        "parameters": {
+          "SENSITIVITY": "LEVEL_HIGH"
+        }
+      },
+      "m_axi_gmem0": {
+        "role": [
+          "master"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "ARADDR": "m_axi_gmem0_ARADDR",
+          "ARBURST": "m_axi_gmem0_ARBURST",
+          "ARCACHE": "m_axi_gmem0_ARCACHE",
+          "ARID": "m_axi_gmem0_ARID",
+          "ARLEN": "m_axi_gmem0_ARLEN",
+          "ARLOCK": "m_axi_gmem0_ARLOCK",
+          "ARPROT": "m_axi_gmem0_ARPROT",
+          "ARQOS": "m_axi_gmem0_ARQOS",
+          "ARREADY": "m_axi_gmem0_ARREADY",
+          "ARREGION": "m_axi_gmem0_ARREGION",
+          "ARSIZE": "m_axi_gmem0_ARSIZE",
+          "ARUSER": "m_axi_gmem0_ARUSER",
+          "ARVALID": "m_axi_gmem0_ARVALID",
+          "AWADDR": "m_axi_gmem0_AWADDR",
+          "AWBURST": "m_axi_gmem0_AWBURST",
+          "AWCACHE": "m_axi_gmem0_AWCACHE",
+          "AWID": "m_axi_gmem0_AWID",
+          "AWLEN": "m_axi_gmem0_AWLEN",
+          "AWLOCK": "m_axi_gmem0_AWLOCK",
+          "AWPROT": "m_axi_gmem0_AWPROT",
+          "AWQOS": "m_axi_gmem0_AWQOS",
+          "AWREADY": "m_axi_gmem0_AWREADY",
+          "AWREGION": "m_axi_gmem0_AWREGION",
+          "AWSIZE": "m_axi_gmem0_AWSIZE",
+          "AWUSER": "m_axi_gmem0_AWUSER",
+          "AWVALID": "m_axi_gmem0_AWVALID",
+          "BID": "m_axi_gmem0_BID",
+          "BREADY": "m_axi_gmem0_BREADY",
+          "BRESP": "m_axi_gmem0_BRESP",
+          "BUSER": "m_axi_gmem0_BUSER",
+          "BVALID": "m_axi_gmem0_BVALID",
+          "RDATA": "m_axi_gmem0_RDATA",
+          "RID": "m_axi_gmem0_RID",
+          "RLAST": "m_axi_gmem0_RLAST",
+          "RREADY": "m_axi_gmem0_RREADY",
+          "RRESP": "m_axi_gmem0_RRESP",
+          "RUSER": "m_axi_gmem0_RUSER",
+          "RVALID": "m_axi_gmem0_RVALID",
+          "WDATA": "m_axi_gmem0_WDATA",
+          "WID": "m_axi_gmem0_WID",
+          "WLAST": "m_axi_gmem0_WLAST",
+          "WREADY": "m_axi_gmem0_WREADY",
+          "WSTRB": "m_axi_gmem0_WSTRB",
+          "WUSER": "m_axi_gmem0_WUSER",
+          "WVALID": "m_axi_gmem0_WVALID"
+        },
+        "parameters": {
+          "NUM_READ_OUTSTANDING": "16",
+          "NUM_WRITE_OUTSTANDING": "16",
+          "MAX_READ_BURST_LENGTH": "16",
+          "MAX_WRITE_BURST_LENGTH": "16",
+          "MAX_BURST_LENGTH": "256",
+          "PROTOCOL": "AXI4",
+          "READ_WRITE_MODE": "READ_ONLY",
+          "HAS_BURST": "0",
+          "SUPPORTS_NARROW_BURST": "0",
+          "ADDR_WIDTH": "32"
+        }
+      },
+      "m_axi_gmem1": {
+        "role": [
+          "master"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "ARADDR": "m_axi_gmem1_ARADDR",
+          "ARBURST": "m_axi_gmem1_ARBURST",
+          "ARCACHE": "m_axi_gmem1_ARCACHE",
+          "ARID": "m_axi_gmem1_ARID",
+          "ARLEN": "m_axi_gmem1_ARLEN",
+          "ARLOCK": "m_axi_gmem1_ARLOCK",
+          "ARPROT": "m_axi_gmem1_ARPROT",
+          "ARQOS": "m_axi_gmem1_ARQOS",
+          "ARREADY": "m_axi_gmem1_ARREADY",
+          "ARREGION": "m_axi_gmem1_ARREGION",
+          "ARSIZE": "m_axi_gmem1_ARSIZE",
+          "ARUSER": "m_axi_gmem1_ARUSER",
+          "ARVALID": "m_axi_gmem1_ARVALID",
+          "AWADDR": "m_axi_gmem1_AWADDR",
+          "AWBURST": "m_axi_gmem1_AWBURST",
+          "AWCACHE": "m_axi_gmem1_AWCACHE",
+          "AWID": "m_axi_gmem1_AWID",
+          "AWLEN": "m_axi_gmem1_AWLEN",
+          "AWLOCK": "m_axi_gmem1_AWLOCK",
+          "AWPROT": "m_axi_gmem1_AWPROT",
+          "AWQOS": "m_axi_gmem1_AWQOS",
+          "AWREADY": "m_axi_gmem1_AWREADY",
+          "AWREGION": "m_axi_gmem1_AWREGION",
+          "AWSIZE": "m_axi_gmem1_AWSIZE",
+          "AWUSER": "m_axi_gmem1_AWUSER",
+          "AWVALID": "m_axi_gmem1_AWVALID",
+          "BID": "m_axi_gmem1_BID",
+          "BREADY": "m_axi_gmem1_BREADY",
+          "BRESP": "m_axi_gmem1_BRESP",
+          "BUSER": "m_axi_gmem1_BUSER",
+          "BVALID": "m_axi_gmem1_BVALID",
+          "RDATA": "m_axi_gmem1_RDATA",
+          "RID": "m_axi_gmem1_RID",
+          "RLAST": "m_axi_gmem1_RLAST",
+          "RREADY": "m_axi_gmem1_RREADY",
+          "RRESP": "m_axi_gmem1_RRESP",
+          "RUSER": "m_axi_gmem1_RUSER",
+          "RVALID": "m_axi_gmem1_RVALID",
+          "WDATA": "m_axi_gmem1_WDATA",
+          "WID": "m_axi_gmem1_WID",
+          "WLAST": "m_axi_gmem1_WLAST",
+          "WREADY": "m_axi_gmem1_WREADY",
+          "WSTRB": "m_axi_gmem1_WSTRB",
+          "WUSER": "m_axi_gmem1_WUSER",
+          "WVALID": "m_axi_gmem1_WVALID"
+        },
+        "parameters": {
+          "NUM_READ_OUTSTANDING": "16",
+          "NUM_WRITE_OUTSTANDING": "16",
+          "MAX_READ_BURST_LENGTH": "16",
+          "MAX_WRITE_BURST_LENGTH": "64",
+          "MAX_BURST_LENGTH": "256",
+          "PROTOCOL": "AXI4",
+          "READ_WRITE_MODE": "WRITE_ONLY",
+          "HAS_BURST": "0",
+          "SUPPORTS_NARROW_BURST": "0",
+          "ADDR_WIDTH": "32"
+        }
+      },
+      "m_axi_gmem2": {
+        "role": [
+          "master"
+        ],
+        "type": {
+          "tag": "busType",
+          "text": "",
+          "attrs": {
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+            "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+          },
+          "children": []
+        },
+        "ports": {
+          "ARADDR": "m_axi_gmem2_ARADDR",
+          "ARBURST": "m_axi_gmem2_ARBURST",
+          "ARCACHE": "m_axi_gmem2_ARCACHE",
+          "ARID": "m_axi_gmem2_ARID",
+          "ARLEN": "m_axi_gmem2_ARLEN",
+          "ARLOCK": "m_axi_gmem2_ARLOCK",
+          "ARPROT": "m_axi_gmem2_ARPROT",
+          "ARQOS": "m_axi_gmem2_ARQOS",
+          "ARREADY": "m_axi_gmem2_ARREADY",
+          "ARREGION": "m_axi_gmem2_ARREGION",
+          "ARSIZE": "m_axi_gmem2_ARSIZE",
+          "ARUSER": "m_axi_gmem2_ARUSER",
+          "ARVALID": "m_axi_gmem2_ARVALID",
+          "AWADDR": "m_axi_gmem2_AWADDR",
+          "AWBURST": "m_axi_gmem2_AWBURST",
+          "AWCACHE": "m_axi_gmem2_AWCACHE",
+          "AWID": "m_axi_gmem2_AWID",
+          "AWLEN": "m_axi_gmem2_AWLEN",
+          "AWLOCK": "m_axi_gmem2_AWLOCK",
+          "AWPROT": "m_axi_gmem2_AWPROT",
+          "AWQOS": "m_axi_gmem2_AWQOS",
+          "AWREADY": "m_axi_gmem2_AWREADY",
+          "AWREGION": "m_axi_gmem2_AWREGION",
+          "AWSIZE": "m_axi_gmem2_AWSIZE",
+          "AWUSER": "m_axi_gmem2_AWUSER",
+          "AWVALID": "m_axi_gmem2_AWVALID",
+          "BID": "m_axi_gmem2_BID",
+          "BREADY": "m_axi_gmem2_BREADY",
+          "BRESP": "m_axi_gmem2_BRESP",
+          "BUSER": "m_axi_gmem2_BUSER",
+          "BVALID": "m_axi_gmem2_BVALID",
+          "RDATA": "m_axi_gmem2_RDATA",
+          "RID": "m_axi_gmem2_RID",
+          "RLAST": "m_axi_gmem2_RLAST",
+          "RREADY": "m_axi_gmem2_RREADY",
+          "RRESP": "m_axi_gmem2_RRESP",
+          "RUSER": "m_axi_gmem2_RUSER",
+          "RVALID": "m_axi_gmem2_RVALID",
+          "WDATA": "m_axi_gmem2_WDATA",
+          "WID": "m_axi_gmem2_WID",
+          "WLAST": "m_axi_gmem2_WLAST",
+          "WREADY": "m_axi_gmem2_WREADY",
+          "WSTRB": "m_axi_gmem2_WSTRB",
+          "WUSER": "m_axi_gmem2_WUSER",
+          "WVALID": "m_axi_gmem2_WVALID"
+        },
+        "parameters": {
+          "NUM_READ_OUTSTANDING": "16",
+          "NUM_WRITE_OUTSTANDING": "16",
+          "MAX_READ_BURST_LENGTH": "16",
+          "MAX_WRITE_BURST_LENGTH": "16",
+          "MAX_BURST_LENGTH": "256",
+          "PROTOCOL": "AXI4",
+          "READ_WRITE_MODE": "READ_WRITE",
+          "HAS_BURST": "0",
+          "SUPPORTS_NARROW_BURST": "0",
+          "ADDR_WIDTH": "32"
+        }
+      }
+    },
+    "blocks": {
+      "s_axi_control/Reg": {
+        "baseAddress": "0",
+        "range": "65536",
+        "width": "32",
+        "usage": "register",
+        "access": "read-write"
+      }
+    },
+    "registers": {
+      "s_axi_control/Reg/CTRL": {
+        "addressOffset": "0",
+        "size": "32",
+        "access": "read-write",
+        "fields": {
+          "AP_START": {
+            "bitOffset": "0",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "AP_DONE": {
+            "bitOffset": "1",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "AP_IDLE": {
+            "bitOffset": "2",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "AP_READY": {
+            "bitOffset": "3",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "RESERVED_1": {
+            "bitOffset": "4",
+            "bitWidth": "3",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "AUTO_RESTART": {
+            "bitOffset": "7",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "RESERVED_2": {
+            "bitOffset": "8",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "INTERRUPT": {
+            "bitOffset": "9",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          },
+          "RESERVED_3": {
+            "bitOffset": "10",
+            "bitWidth": "22",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/GIER": {
+        "addressOffset": "4",
+        "size": "32",
+        "access": "read-write",
+        "fields": {
+          "Enable": {
+            "bitOffset": "0",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "RESERVED": {
+            "bitOffset": "1",
+            "bitWidth": "31",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/IP_IER": {
+        "addressOffset": "8",
+        "size": "32",
+        "access": "read-write",
+        "fields": {
+          "CHAN0_INT_EN": {
+            "bitOffset": "0",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "CHAN1_INT_EN": {
+            "bitOffset": "1",
+            "bitWidth": "1",
+            "access": "read-write",
+            "readAction": "",
+            "modifiedWriteValue": "modify"
+          },
+          "RESERVED_0": {
+            "bitOffset": "2",
+            "bitWidth": "30",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/IP_ISR": {
+        "addressOffset": "12",
+        "size": "32",
+        "access": "read-write",
+        "fields": {
+          "CHAN0_INT_ST": {
+            "bitOffset": "0",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": "oneToToggle"
+          },
+          "CHAN1_INT_ST": {
+            "bitOffset": "1",
+            "bitWidth": "1",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": "oneToToggle"
+          },
+          "RESERVED_0": {
+            "bitOffset": "2",
+            "bitWidth": "30",
+            "access": "read-only",
+            "readAction": "modify",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/src": {
+        "addressOffset": "16",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "src": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/dst": {
+        "addressOffset": "24",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "dst": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/status": {
+        "addressOffset": "32",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "status": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/hint": {
+        "addressOffset": "40",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "hint": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/corners": {
+        "addressOffset": "48",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "corners": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/binary_enable": {
+        "addressOffset": "56",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "binary_enable": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/mode": {
+        "addressOffset": "64",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "mode": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/threshold": {
+        "addressOffset": "72",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "threshold": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/bgr": {
+        "addressOffset": "80",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "bgr": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/geometry": {
+        "addressOffset": "88",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "geometry": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      },
+      "s_axi_control/Reg/diagnostics": {
+        "addressOffset": "96",
+        "size": "32",
+        "access": "write-only",
+        "fields": {
+          "diagnostics": {
+            "bitOffset": "0",
+            "bitWidth": "32",
+            "access": "write-only",
+            "readAction": "",
+            "modifiedWriteValue": ""
+          }
+        }
+      }
+    }
+  },
+  "differences": {
+    "ports": {
+      "ap_local_block": {
+        "old": {
+          "direction": "out",
+          "left": "",
+          "right": ""
+        },
+        "candidate": null
+      }
+    },
+    "buses": {
+      "m_axi_gmem0": {
+        "old": {
+          "role": [
+            "master"
+          ],
+          "type": {
+            "tag": "busType",
+            "text": "",
+            "attrs": {
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+            },
+            "children": []
+          },
+          "ports": {
+            "AWID": "m_axi_gmem0_AWID",
+            "AWADDR": "m_axi_gmem0_AWADDR",
+            "AWLEN": "m_axi_gmem0_AWLEN",
+            "AWSIZE": "m_axi_gmem0_AWSIZE",
+            "AWBURST": "m_axi_gmem0_AWBURST",
+            "AWLOCK": "m_axi_gmem0_AWLOCK",
+            "AWREGION": "m_axi_gmem0_AWREGION",
+            "AWCACHE": "m_axi_gmem0_AWCACHE",
+            "AWPROT": "m_axi_gmem0_AWPROT",
+            "AWQOS": "m_axi_gmem0_AWQOS",
+            "AWUSER": "m_axi_gmem0_AWUSER",
+            "AWVALID": "m_axi_gmem0_AWVALID",
+            "AWREADY": "m_axi_gmem0_AWREADY",
+            "WID": "m_axi_gmem0_WID",
+            "WDATA": "m_axi_gmem0_WDATA",
+            "WSTRB": "m_axi_gmem0_WSTRB",
+            "WLAST": "m_axi_gmem0_WLAST",
+            "WUSER": "m_axi_gmem0_WUSER",
+            "WVALID": "m_axi_gmem0_WVALID",
+            "WREADY": "m_axi_gmem0_WREADY",
+            "BID": "m_axi_gmem0_BID",
+            "BRESP": "m_axi_gmem0_BRESP",
+            "BUSER": "m_axi_gmem0_BUSER",
+            "BVALID": "m_axi_gmem0_BVALID",
+            "BREADY": "m_axi_gmem0_BREADY",
+            "ARID": "m_axi_gmem0_ARID",
+            "ARADDR": "m_axi_gmem0_ARADDR",
+            "ARLEN": "m_axi_gmem0_ARLEN",
+            "ARSIZE": "m_axi_gmem0_ARSIZE",
+            "ARBURST": "m_axi_gmem0_ARBURST",
+            "ARLOCK": "m_axi_gmem0_ARLOCK",
+            "ARREGION": "m_axi_gmem0_ARREGION",
+            "ARCACHE": "m_axi_gmem0_ARCACHE",
+            "ARPROT": "m_axi_gmem0_ARPROT",
+            "ARQOS": "m_axi_gmem0_ARQOS",
+            "ARUSER": "m_axi_gmem0_ARUSER",
+            "ARVALID": "m_axi_gmem0_ARVALID",
+            "ARREADY": "m_axi_gmem0_ARREADY",
+            "RID": "m_axi_gmem0_RID",
+            "RDATA": "m_axi_gmem0_RDATA",
+            "RRESP": "m_axi_gmem0_RRESP",
+            "RLAST": "m_axi_gmem0_RLAST",
+            "RUSER": "m_axi_gmem0_RUSER",
+            "RVALID": "m_axi_gmem0_RVALID",
+            "RREADY": "m_axi_gmem0_RREADY"
+          },
+          "parameters": {
+            "ADDR_WIDTH": "32",
+            "MAX_BURST_LENGTH": "256",
+            "NUM_READ_OUTSTANDING": "16",
+            "NUM_WRITE_OUTSTANDING": "16",
+            "MAX_READ_BURST_LENGTH": "16",
+            "MAX_WRITE_BURST_LENGTH": "16",
+            "PROTOCOL": "AXI4",
+            "READ_WRITE_MODE": "READ_WRITE",
+            "HAS_BURST": "0",
+            "SUPPORTS_NARROW_BURST": "0"
+          }
+        },
+        "candidate": {
+          "role": [
+            "master"
+          ],
+          "type": {
+            "tag": "busType",
+            "text": "",
+            "attrs": {
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+            },
+            "children": []
+          },
+          "ports": {
+            "ARADDR": "m_axi_gmem0_ARADDR",
+            "ARBURST": "m_axi_gmem0_ARBURST",
+            "ARCACHE": "m_axi_gmem0_ARCACHE",
+            "ARID": "m_axi_gmem0_ARID",
+            "ARLEN": "m_axi_gmem0_ARLEN",
+            "ARLOCK": "m_axi_gmem0_ARLOCK",
+            "ARPROT": "m_axi_gmem0_ARPROT",
+            "ARQOS": "m_axi_gmem0_ARQOS",
+            "ARREADY": "m_axi_gmem0_ARREADY",
+            "ARREGION": "m_axi_gmem0_ARREGION",
+            "ARSIZE": "m_axi_gmem0_ARSIZE",
+            "ARUSER": "m_axi_gmem0_ARUSER",
+            "ARVALID": "m_axi_gmem0_ARVALID",
+            "AWADDR": "m_axi_gmem0_AWADDR",
+            "AWBURST": "m_axi_gmem0_AWBURST",
+            "AWCACHE": "m_axi_gmem0_AWCACHE",
+            "AWID": "m_axi_gmem0_AWID",
+            "AWLEN": "m_axi_gmem0_AWLEN",
+            "AWLOCK": "m_axi_gmem0_AWLOCK",
+            "AWPROT": "m_axi_gmem0_AWPROT",
+            "AWQOS": "m_axi_gmem0_AWQOS",
+            "AWREADY": "m_axi_gmem0_AWREADY",
+            "AWREGION": "m_axi_gmem0_AWREGION",
+            "AWSIZE": "m_axi_gmem0_AWSIZE",
+            "AWUSER": "m_axi_gmem0_AWUSER",
+            "AWVALID": "m_axi_gmem0_AWVALID",
+            "BID": "m_axi_gmem0_BID",
+            "BREADY": "m_axi_gmem0_BREADY",
+            "BRESP": "m_axi_gmem0_BRESP",
+            "BUSER": "m_axi_gmem0_BUSER",
+            "BVALID": "m_axi_gmem0_BVALID",
+            "RDATA": "m_axi_gmem0_RDATA",
+            "RID": "m_axi_gmem0_RID",
+            "RLAST": "m_axi_gmem0_RLAST",
+            "RREADY": "m_axi_gmem0_RREADY",
+            "RRESP": "m_axi_gmem0_RRESP",
+            "RUSER": "m_axi_gmem0_RUSER",
+            "RVALID": "m_axi_gmem0_RVALID",
+            "WDATA": "m_axi_gmem0_WDATA",
+            "WID": "m_axi_gmem0_WID",
+            "WLAST": "m_axi_gmem0_WLAST",
+            "WREADY": "m_axi_gmem0_WREADY",
+            "WSTRB": "m_axi_gmem0_WSTRB",
+            "WUSER": "m_axi_gmem0_WUSER",
+            "WVALID": "m_axi_gmem0_WVALID"
+          },
+          "parameters": {
+            "NUM_READ_OUTSTANDING": "16",
+            "NUM_WRITE_OUTSTANDING": "16",
+            "MAX_READ_BURST_LENGTH": "16",
+            "MAX_WRITE_BURST_LENGTH": "16",
+            "MAX_BURST_LENGTH": "256",
+            "PROTOCOL": "AXI4",
+            "READ_WRITE_MODE": "READ_ONLY",
+            "HAS_BURST": "0",
+            "SUPPORTS_NARROW_BURST": "0",
+            "ADDR_WIDTH": "32"
+          }
+        }
+      },
+      "m_axi_gmem1": {
+        "old": {
+          "role": [
+            "master"
+          ],
+          "type": {
+            "tag": "busType",
+            "text": "",
+            "attrs": {
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+            },
+            "children": []
+          },
+          "ports": {
+            "AWID": "m_axi_gmem1_AWID",
+            "AWADDR": "m_axi_gmem1_AWADDR",
+            "AWLEN": "m_axi_gmem1_AWLEN",
+            "AWSIZE": "m_axi_gmem1_AWSIZE",
+            "AWBURST": "m_axi_gmem1_AWBURST",
+            "AWLOCK": "m_axi_gmem1_AWLOCK",
+            "AWREGION": "m_axi_gmem1_AWREGION",
+            "AWCACHE": "m_axi_gmem1_AWCACHE",
+            "AWPROT": "m_axi_gmem1_AWPROT",
+            "AWQOS": "m_axi_gmem1_AWQOS",
+            "AWUSER": "m_axi_gmem1_AWUSER",
+            "AWVALID": "m_axi_gmem1_AWVALID",
+            "AWREADY": "m_axi_gmem1_AWREADY",
+            "WID": "m_axi_gmem1_WID",
+            "WDATA": "m_axi_gmem1_WDATA",
+            "WSTRB": "m_axi_gmem1_WSTRB",
+            "WLAST": "m_axi_gmem1_WLAST",
+            "WUSER": "m_axi_gmem1_WUSER",
+            "WVALID": "m_axi_gmem1_WVALID",
+            "WREADY": "m_axi_gmem1_WREADY",
+            "BID": "m_axi_gmem1_BID",
+            "BRESP": "m_axi_gmem1_BRESP",
+            "BUSER": "m_axi_gmem1_BUSER",
+            "BVALID": "m_axi_gmem1_BVALID",
+            "BREADY": "m_axi_gmem1_BREADY",
+            "ARID": "m_axi_gmem1_ARID",
+            "ARADDR": "m_axi_gmem1_ARADDR",
+            "ARLEN": "m_axi_gmem1_ARLEN",
+            "ARSIZE": "m_axi_gmem1_ARSIZE",
+            "ARBURST": "m_axi_gmem1_ARBURST",
+            "ARLOCK": "m_axi_gmem1_ARLOCK",
+            "ARREGION": "m_axi_gmem1_ARREGION",
+            "ARCACHE": "m_axi_gmem1_ARCACHE",
+            "ARPROT": "m_axi_gmem1_ARPROT",
+            "ARQOS": "m_axi_gmem1_ARQOS",
+            "ARUSER": "m_axi_gmem1_ARUSER",
+            "ARVALID": "m_axi_gmem1_ARVALID",
+            "ARREADY": "m_axi_gmem1_ARREADY",
+            "RID": "m_axi_gmem1_RID",
+            "RDATA": "m_axi_gmem1_RDATA",
+            "RRESP": "m_axi_gmem1_RRESP",
+            "RLAST": "m_axi_gmem1_RLAST",
+            "RUSER": "m_axi_gmem1_RUSER",
+            "RVALID": "m_axi_gmem1_RVALID",
+            "RREADY": "m_axi_gmem1_RREADY"
+          },
+          "parameters": {
+            "ADDR_WIDTH": "32",
+            "MAX_BURST_LENGTH": "256",
+            "NUM_READ_OUTSTANDING": "16",
+            "NUM_WRITE_OUTSTANDING": "16",
+            "MAX_READ_BURST_LENGTH": "16",
+            "MAX_WRITE_BURST_LENGTH": "64",
+            "PROTOCOL": "AXI4",
+            "READ_WRITE_MODE": "READ_WRITE",
+            "HAS_BURST": "0",
+            "SUPPORTS_NARROW_BURST": "0"
+          }
+        },
+        "candidate": {
+          "role": [
+            "master"
+          ],
+          "type": {
+            "tag": "busType",
+            "text": "",
+            "attrs": {
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}library": "interface",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}name": "aximm",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}vendor": "xilinx.com",
+              "{http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009}version": "1.0"
+            },
+            "children": []
+          },
+          "ports": {
+            "ARADDR": "m_axi_gmem1_ARADDR",
+            "ARBURST": "m_axi_gmem1_ARBURST",
+            "ARCACHE": "m_axi_gmem1_ARCACHE",
+            "ARID": "m_axi_gmem1_ARID",
+            "ARLEN": "m_axi_gmem1_ARLEN",
+            "ARLOCK": "m_axi_gmem1_ARLOCK",
+            "ARPROT": "m_axi_gmem1_ARPROT",
+            "ARQOS": "m_axi_gmem1_ARQOS",
+            "ARREADY": "m_axi_gmem1_ARREADY",
+            "ARREGION": "m_axi_gmem1_ARREGION",
+            "ARSIZE": "m_axi_gmem1_ARSIZE",
+            "ARUSER": "m_axi_gmem1_ARUSER",
+            "ARVALID": "m_axi_gmem1_ARVALID",
+            "AWADDR": "m_axi_gmem1_AWADDR",
+            "AWBURST": "m_axi_gmem1_AWBURST",
+            "AWCACHE": "m_axi_gmem1_AWCACHE",
+            "AWID": "m_axi_gmem1_AWID",
+            "AWLEN": "m_axi_gmem1_AWLEN",
+            "AWLOCK": "m_axi_gmem1_AWLOCK",
+            "AWPROT": "m_axi_gmem1_AWPROT",
+            "AWQOS": "m_axi_gmem1_AWQOS",
+            "AWREADY": "m_axi_gmem1_AWREADY",
+            "AWREGION": "m_axi_gmem1_AWREGION",
+            "AWSIZE": "m_axi_gmem1_AWSIZE",
+            "AWUSER": "m_axi_gmem1_AWUSER",
+            "AWVALID": "m_axi_gmem1_AWVALID",
+            "BID": "m_axi_gmem1_BID",
+            "BREADY": "m_axi_gmem1_BREADY",
+            "BRESP": "m_axi_gmem1_BRESP",
+            "BUSER": "m_axi_gmem1_BUSER",
+            "BVALID": "m_axi_gmem1_BVALID",
+            "RDATA": "m_axi_gmem1_RDATA",
+            "RID": "m_axi_gmem1_RID",
+            "RLAST": "m_axi_gmem1_RLAST",
+            "RREADY": "m_axi_gmem1_RREADY",
+            "RRESP": "m_axi_gmem1_RRESP",
+            "RUSER": "m_axi_gmem1_RUSER",
+            "RVALID": "m_axi_gmem1_RVALID",
+            "WDATA": "m_axi_gmem1_WDATA",
+            "WID": "m_axi_gmem1_WID",
+            "WLAST": "m_axi_gmem1_WLAST",
+            "WREADY": "m_axi_gmem1_WREADY",
+            "WSTRB": "m_axi_gmem1_WSTRB",
+            "WUSER": "m_axi_gmem1_WUSER",
+            "WVALID": "m_axi_gmem1_WVALID"
+          },
+          "parameters": {
+            "NUM_READ_OUTSTANDING": "16",
+            "NUM_WRITE_OUTSTANDING": "16",
+            "MAX_READ_BURST_LENGTH": "16",
+            "MAX_WRITE_BURST_LENGTH": "64",
+            "MAX_BURST_LENGTH": "256",
+            "PROTOCOL": "AXI4",
+            "READ_WRITE_MODE": "WRITE_ONLY",
+            "HAS_BURST": "0",
+            "SUPPORTS_NARROW_BURST": "0",
+            "ADDR_WIDTH": "32"
+          }
+        }
+      }
+    },
+    "blocks": {},
+    "registers": {
+      "s_axi_control/Reg/CTRL": {
+        "old": {
+          "addressOffset": "0",
+          "size": "32",
+          "access": "read-write",
+          "fields": {
+            "AP_START": {
+              "bitOffset": "0",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "AP_DONE": {
+              "bitOffset": "1",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "AP_IDLE": {
+              "bitOffset": "2",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "AP_READY": {
+              "bitOffset": "3",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "RESERVED_1": {
+              "bitOffset": "4",
+              "bitWidth": "3",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "AUTO_RESTART": {
+              "bitOffset": "7",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "RESERVED_2": {
+              "bitOffset": "8",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "RESERVED_3": {
+              "bitOffset": "9",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "RESERVED_4": {
+              "bitOffset": "10",
+              "bitWidth": "22",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            }
+          }
+        },
+        "candidate": {
+          "addressOffset": "0",
+          "size": "32",
+          "access": "read-write",
+          "fields": {
+            "AP_START": {
+              "bitOffset": "0",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "AP_DONE": {
+              "bitOffset": "1",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "AP_IDLE": {
+              "bitOffset": "2",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "AP_READY": {
+              "bitOffset": "3",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "RESERVED_1": {
+              "bitOffset": "4",
+              "bitWidth": "3",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "AUTO_RESTART": {
+              "bitOffset": "7",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "RESERVED_2": {
+              "bitOffset": "8",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "INTERRUPT": {
+              "bitOffset": "9",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "RESERVED_3": {
+              "bitOffset": "10",
+              "bitWidth": "22",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            }
+          }
+        }
+      },
+      "s_axi_control/Reg/IP_IER": {
+        "old": {
+          "addressOffset": "8",
+          "size": "32",
+          "access": "read-write",
+          "fields": {
+            "CHAN0_INT_EN": {
+              "bitOffset": "0",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "CHAN1_INT_EN": {
+              "bitOffset": "1",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "RESERVED_0": {
+              "bitOffset": "2",
+              "bitWidth": "3",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "CHAN2_INT_EN": {
+              "bitOffset": "5",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "RESERVED_1": {
+              "bitOffset": "6",
+              "bitWidth": "26",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            }
+          }
+        },
+        "candidate": {
+          "addressOffset": "8",
+          "size": "32",
+          "access": "read-write",
+          "fields": {
+            "CHAN0_INT_EN": {
+              "bitOffset": "0",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "CHAN1_INT_EN": {
+              "bitOffset": "1",
+              "bitWidth": "1",
+              "access": "read-write",
+              "readAction": "",
+              "modifiedWriteValue": "modify"
+            },
+            "RESERVED_0": {
+              "bitOffset": "2",
+              "bitWidth": "30",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            }
+          }
+        }
+      },
+      "s_axi_control/Reg/IP_ISR": {
+        "old": {
+          "addressOffset": "12",
+          "size": "32",
+          "access": "read-write",
+          "fields": {
+            "CHAN0_INT_ST": {
+              "bitOffset": "0",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": "oneToToggle"
+            },
+            "CHAN1_INT_ST": {
+              "bitOffset": "1",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": "oneToToggle"
+            },
+            "RESERVED_0": {
+              "bitOffset": "2",
+              "bitWidth": "3",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            },
+            "CHAN2_INT_ST": {
+              "bitOffset": "5",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": "oneToToggle"
+            },
+            "RESERVED_1": {
+              "bitOffset": "6",
+              "bitWidth": "26",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            }
+          }
+        },
+        "candidate": {
+          "addressOffset": "12",
+          "size": "32",
+          "access": "read-write",
+          "fields": {
+            "CHAN0_INT_ST": {
+              "bitOffset": "0",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": "oneToToggle"
+            },
+            "CHAN1_INT_ST": {
+              "bitOffset": "1",
+              "bitWidth": "1",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": "oneToToggle"
+            },
+            "RESERVED_0": {
+              "bitOffset": "2",
+              "bitWidth": "30",
+              "access": "read-only",
+              "readAction": "modify",
+              "modifiedWriteValue": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "scope": "Static packaged metadata only; not RTL equivalence, timing, or board validation."
+}

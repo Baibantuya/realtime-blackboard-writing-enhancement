@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Oct 29 00:08:18 2026
+# Process ID         : 38428
+# Current directory  : W:/local6/cdc/simulation
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/reset_extended/xsim_script.tcl}
+# Log file           : W:/local6/cdc/simulation/xsim.log
+# Journal file       : W:/local6/cdc/simulation\xsim.jou
+# Running On         : °×°åÍ¿Ñ»
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i9-14900HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 34141 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 68501 MB
+# Available Virtual  : 46957 MB
+#-----------------------------------------------------------
+source xsim.dir/reset_extended/xsim_script.tcl
+# xsim {reset_extended} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+RESET_EVENT count=1 active_edges=95 duration_ns=472.500
+RESET_EVENT count=2 active_edges=64 duration_ns=320.000
+RESET_EVENT count=3 active_edges=84 duration_ns=420.000
+RESET_EVENT count=4 active_edges=124 duration_ns=620.000
+RESET_EVENT count=5 active_edges=64 duration_ns=320.000
+RESET_EVENT count=6 active_edges=84 duration_ns=420.000
+RESET_EVENT count=7 active_edges=124 duration_ns=620.000
+RESET_EVENT count=8 active_edges=64 duration_ns=320.000
+RESET_EVENT count=9 active_edges=84 duration_ns=420.000
+RESET_EVENT count=10 active_edges=124 duration_ns=620.000
+RESET_EVENT count=11 active_edges=64 duration_ns=320.000
+RESET_EVENT count=12 active_edges=84 duration_ns=420.000
+RESET_EVENT count=13 active_edges=124 duration_ns=620.000
+RESET_EVENT count=14 active_edges=64 duration_ns=320.000
+RESET_EVENT count=15 active_edges=124 duration_ns=620.000
+RESET_EVENT count=16 active_edges=68 duration_ns=937.500
+RESET_EVENT count=17 active_edges=68 duration_ns=937.500
+RESET_EVENT count=18 active_edges=124 duration_ns=620.000
+PASS_RESET_EXTENDED_COMPONENT_ONLY pulses=18 min_active_edges=64
+$finish called at time : 12580 ns : File "W:/local6/cdc/tb_reset_extended.sv" Line 87
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Oct 29 00:08:20 2026...

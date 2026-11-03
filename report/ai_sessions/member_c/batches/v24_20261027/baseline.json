@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-27",
+  "protected": [
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\validation_report.md",
+      "sha256": "b4fe4e44dd349de0bbb80e87b033a71d4fe32f7b438aa8db6950fc217865b531"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\validation_results.json",
+      "sha256": "799c91422f6ec9ceaeb11a1c0968562b6ab1dd4f2774f3a18cf5315973f8826a"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\ui_followup_verification.md",
+      "sha256": "5b3fcefe6e28241685f93c10f921ed5962a5e0f7e4bda8cd9d87b27f1f51fba5"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\ui_followup_verification.json",
+      "sha256": "7b7a52487ee02bab9cfbb3680054d9874d15b8076569735d1d3f038d10858499"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\session_01_detection\\messages.json",
+      "sha256": "5083c6c5399853088b733a920cdd25670b41fd912decbe09b6298db827a3ca1a"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\session_02_model_selection\\messages.json",
+      "sha256": "31ed832ba9028a889cfbf22eab4a06f9a64666767c485d4e28e5623ead4b7316"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\session_03_rgb565\\messages.json",
+      "sha256": "6fd774707a016e1b5e020863c303f56c9acf5ac5c23f17331bc1a344906fe63e"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\user_01_ui_linux\\messages.json",
+      "sha256": "83d6f17d54403402d94359112d328494e2e983891b034af38364c624e4adbf88"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\user_02_ui_guidance\\messages.json",
+      "sha256": "f108b434a28487b9b496c84b7c86a62d02fcc4fa5e799158c3e2282e5f4566f1"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\user_03_ui_pipeline\\messages.json",
+      "sha256": "78e21505e6c2f93628535e1f771c9f9c0f1f3d80cde3907a70de70462cd1520a"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\session_01_detection\\conversation.md",
+      "sha256": "615e5ff867a2ff4fb7fb1b000d3f2b2c766817fb2d619beb99826b9b4ca71495"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\session_02_model_selection\\conversation.md",
+      "sha256": "f356b9e0747d497aff3a4f58f1950a0483d6f8fef8c1b60611754d932411e45c"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\session_03_rgb565\\conversation.md",
+      "sha256": "c8f8d6da3f97a584117e44798d9e09708bc1fed3266843544ce8be6919baaa78"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\user_01_ui_linux\\conversation.md",
+      "sha256": "2e34f035a3118fb501e649856367d14885a20de91c5d1e56a2c529a3a0a0d5e8"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\user_02_ui_guidance\\conversation.md",
+      "sha256": "200bab105c1685da9b191c105e2bb8e029e9d7adfaeae4ff1497849cbc535e87"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_session_workspace\\report\\ai_session\\user_03_ui_pipeline\\conversation.md",
+      "sha256": "4c347b798056cb8dfb6c4ae0f1469db13656ed232d7161a1529226782dd1be6f"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\技术文档模板.tex",
+      "sha256": "9c5a9a69938bb6f9e99a6657fdc5533ed2892dbd6ed8cd4cab7869d5191ee4e0"
+    },
+    {
+      "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\实时板书增强系统技术报告_v24_20261026.docx",
+      "sha256": "7ac92fac83cbcd0a6c5cecc550e09ea23bba6f9afc6c78e5d872ab03f1d44521"
+    }
+  ]
+}

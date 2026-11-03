@@ -1,0 +1,6 @@
+{
+  "status": "PASS_RESET_EXTENDED_COMPONENT_ONLY",
+  "scope": "Ideal gated clock and generated reset IP only",
+  "source_sha256": "D71D1707A40578648431351C4E355F09FF40A40FC998D0050DACA11872432E9C",
+  "finished_at": "2026-10-29T00:08:20.7845177+08:00"
+}

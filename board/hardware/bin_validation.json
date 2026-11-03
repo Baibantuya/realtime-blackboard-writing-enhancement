@@ -1,0 +1,9 @@
+{
+  "status": "PASS_BOOTGEN_AND_PAYLOAD_COMPARISON",
+  "checked_at": "2026-10-28T18:42:26.915264+08:00",
+  "expected_transform": "Swap byte order within each 32-bit configuration word; bit header removed.",
+  "bytes": 7797692,
+  "bit_sha256": "159c246baa0e5182649de16eff0b5e5c4c58df625e7ec11924146bc7773226e4",
+  "bin_sha256": "9d0813f8b193dab7517b4992ff4a057c7cdfd47d175b7802f9979126c9ae2387",
+  "board_test": "NOT_RUN"
+}

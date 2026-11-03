@@ -1,0 +1,128 @@
+
+****** vitis-run v2025.2 (64-bit)
+  **** SW Build 6295257 on 2025-11-13-08:29:27
+  **** Start of session at: Tue Oct 27 13:50:40 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+  **** HLS Build v2025.2 6295257
+
+Sourcing Tcl script 'W:/hls_probe_luma.tcl'
+
+INFO: [HLS 200-1510] Running: open_project W:/hp_luma 
+
+WARNING: [HLS 200-2182] The 'hp_luma' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+
+Resolution: For help on HLS 200-2182 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+
+INFO: [HLS 200-10] Creating and opening solution 'W:/hp_luma'.
+
+INFO: [HLS 200-1510] Running: set_top probe_luma 
+
+INFO: [HLS 200-1510] Running: add_files W:/restore_probes.cpp -cflags -std=c++14 -IW:/baseline/src/pl/hls 
+
+INFO: [HLS 200-10] Adding design file 'W:/restore_probes.cpp' to the project
+
+INFO: [HLS 200-1510] Running: add_files W:/baseline/src/pl/hls/guarded_state.cpp -cflags -std=c++14 
+
+INFO: [HLS 200-10] Adding design file 'W:/baseline/src/pl/hls/guarded_state.cpp' to the project
+
+INFO: [HLS 200-1510] Running: open_solution s -flow_target vivado 
+
+INFO: [HLS 200-10] Creating and opening solution 'W:/hp_luma/s'.
+
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+
+INFO: [HLS 200-1510] Running: set_part xck26-sfvc784-2LV-c 
+
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+
+INFO: [HLS 200-1510] Running: create_clock -period 5.0 -name default 
+
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+
+INFO: [HLS 200-1510] Running: config_rtl -reset control 
+
+INFO: [HLS 200-1510] Running: config_op add -impl dsp 
+
+INFO: [HLS 200-1445] Configure operator 'add' with implementation style 'dsp'.
+
+INFO: [HLS 200-1510] Running: config_compile -pipeline_loops 0 
+
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64=true 
+
+INFO: [HLS 200-1510] Running: csynth_design 
+
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.894 seconds; current allocated memory: 134.793 MB.
+
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+
+INFO: [HLS 200-10] Analyzing design file 'baseline/src/pl/hls/guarded_state.cpp' ... 
+
+INFO: [HLS 200-10] Analyzing design file 'restore_probes.cpp' ... 
+
+WARNING: [HLS 207-6591] unused parameter 'c' (W:/baseline/src/pl/hls\whiteboard_restore.cpp:35:55)
+
+WARNING: [HLS 207-6591] unused parameter 'bgr' (W:/baseline/src/pl/hls\whiteboard_restore.cpp:157:26)
+
+WARNING: [HLS 207-6591] unused parameter 'floor' (W:/baseline/src/pl/hls\whiteboard_restore.cpp:157:61)
+
+WARNING: [HLS 207-6591] unused parameter 'spread' (W:/baseline/src/pl/hls\whiteboard_restore.cpp:157:71)
+
+WARNING: [HLS 207-6591] unused parameter 'bias' (W:/baseline/src/pl/hls\whiteboard_restore.cpp:157:82)
+
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 5.049 seconds; current allocated memory: 140.594 MB.
+
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+
+INFO: [HLS 200-1995] There were 105 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 106 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 103 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 87 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (W:/hp_luma/s/syn/report/csynth_design_size.rpt:2)
+
+ERROR: [HLS 200-1715] Encountered problem during source synthesis
+
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:12; Allocated memory: 6.645 MB.
+
+Pre-synthesis failed.
+
+    while executing
+
+"source W:/hls_probe_luma.tcl"
+
+    ("uplevel" body line 1)
+
+    invoked from within
+
+"uplevel \#0 [list source $tclfile] "
+
+
+
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 5 seconds. Total elapsed time: 17.581 seconds; peak allocated memory: 141.258 MB.
+
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.

@@ -1,0 +1,84 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                       | Instructions | Description                                                                            |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                            | 3,894        | After all functions are compiled and linked into a single design                       |
+|               |                            |              |                                                                                        |
+| Unroll/Inline |                            |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                 | 6,400        | user unroll pragmas are applied                                                        |
+|               | (2) simplification         | 3,632        | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                 | 3,700        | user inline pragmas are applied                                                        |
+|               | (4) simplification         | 3,644        | simplification of applied user inline pragmas                                          |
+|               |                            |              |                                                                                        |
+| Array/Struct  |                            |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition        | 4,101        | user array partition pragmas are applied                                               |
+|               | (2) simplification         | 3,851        | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate | 3,851        | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape          | 3,849        | apply array reshape pragmas                                                            |
+|               | (5) access patterns        | 3,769        | array access pattern optmizations                                                      |
+|               |                            |              |                                                                                        |
+| Performance   |                            |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification    | 3,753        | loop and instruction simplification                                                    |
+|               | (2) parallelization        | 3,580        | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition        | 3,560        | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification         | 3,560        | simplification of design after performance transformations                             |
+|               |                            |              |                                                                                        |
+| HW Transforms |                            |              | After hardware transfomations                                                          |
+|               | (1) lowering               | 3,642        | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations          | 3,605        | high level synthesis optimizations                                                     |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++--------------------------+----------------------------+----------------+----------------+----------------+----------------+----------------+
+| Function                 | Location                   | Compile/Link   | Unroll/Inline  | Array/Struct   | Performance    | HW Transforms  |
++--------------------------+----------------------------+----------------+----------------+----------------+----------------+----------------+
+| + whiteboard_restore     | whiteboard_restore.cpp:294 | 3,894          | 3,644          | 3,769          | 3,560          | 3,605          |
+|  + distance              | whiteboard_restore.cpp:13  |  158 (2 calls) |                |                |                |                |
+|   + channel              | whiteboard_restore.cpp:12  |  112 (4 calls) |                |                |                |                |
+|      wb_expand565        | rgb565.h:5                 |   88 (4 calls) |                |                |                |                |
+|  + chalk                 | whiteboard_restore.cpp:22  |  252 (3 calls) |                |                |                |                |
+|   + channel              | whiteboard_restore.cpp:12  |  168 (6 calls) |                |                |                |                |
+|      wb_expand565        | rgb565.h:5                 |  132 (6 calls) |                |                |                |                |
+|    wb_scene_step         | scene_rebase.h:9           |   75           |                |                |                |                |
+|    initialize_frame      | whiteboard_restore.cpp:272 |  104 (2 calls) |   90 (2 calls) |  114 (2 calls) |  114 (2 calls) |  150 (2 calls) |
+|    guarded_state         | guarded_state.cpp:3        |  676           |  438           |  446           |  433           |                |
+|  + render_frame          | whiteboard_restore.cpp:240 | 2,044          | 2,307          | 2,376          | 2,202          | 2,192          |
+|   + neutral_pixels       | whiteboard_restore.cpp:45  |  262           |  185           |  187           |  187           |  200           |
+|      unpack              | whiteboard_restore.cpp:36  |   10           |                |                |                |                |
+|    + fine_color          | whiteboard_restore.cpp:31  |  185           |                |                |                |                |
+|     + channel            | whiteboard_restore.cpp:12  |   84 (3 calls) |                |                |                |                |
+|        wb_expand565      | rgb565.h:5                 |   66 (3 calls) |                |                |                |                |
+|     + chalk              | whiteboard_restore.cpp:22  |   84           |                |                |                |                |
+|      + channel           | whiteboard_restore.cpp:12  |   56 (2 calls) |                |                |                |                |
+|         wb_expand565     | rgb565.h:5                 |   44 (2 calls) |                |                |                |                |
+|      channel             | whiteboard_restore.cpp:12  |                |  125 (5 calls) |  125 (5 calls) |  125 (5 calls) |  125 (5 calls) |
+|   + local_ink            | whiteboard_restore.cpp:62  |  368           |  708           |  663           |  616           |  572           |
+|    + channel             | whiteboard_restore.cpp:12  |   84 (3 calls) |                |                |                |                |
+|       wb_expand565       | rgb565.h:5                 |   66 (3 calls) |                |                |                |                |
+|      wb_luma             | resource_math_inferred.h:4 |    7           |                |                |                |                |
+|      wb_local_sum        | local_sum_tree.h:6         |   72           |                |                |                |                |
+|     box_filter<3, true>  | whiteboard_restore.cpp:102 |  229           |  339           |  391           |  340           |  317           |
+|     box_filter<3, false> | whiteboard_restore.cpp:102 |  229           |  339           |  391           |  340           |  317           |
+|     box_filter<1, false> | whiteboard_restore.cpp:102 |  229           |  148           |  140           |  129           |  142           |
+|   + compose              | whiteboard_restore.cpp:152 |  657           |  553           |  569           |  555           |  607           |
+|      unpack              | whiteboard_restore.cpp:36  |   20 (2 calls) |                |                |                |                |
+|    + distance            | whiteboard_restore.cpp:13  |  158 (2 calls) |                |                |                |                |
+|     + channel            | whiteboard_restore.cpp:12  |  112 (4 calls) |                |                |                |                |
+|        wb_expand565      | rgb565.h:5                 |   88 (4 calls) |                |                |                |                |
+|      pack4               | whiteboard_restore.cpp:40  |   54 (3 calls) |                |                |                |                |
+|      channel             | whiteboard_restore.cpp:12  |                |  225 (9 calls) |  225 (9 calls) |  225 (9 calls) |  225 (9 calls) |
+|    channel               | whiteboard_restore.cpp:12  |                |  225 (9 calls) |  225 (9 calls) |  225 (9 calls) |  225 (9 calls) |
++--------------------------+----------------------------+----------------+----------------+----------------+----------------+----------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

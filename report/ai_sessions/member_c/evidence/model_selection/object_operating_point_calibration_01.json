@@ -1,0 +1,713 @@
+{
+  "schema": "object-threshold-video-split-development-calibration-v1",
+  "models": {
+    "original_s": {
+      "selection": {
+        "hand_threshold": 0.5,
+        "object_threshold": 0.65,
+        "contact_threshold": 0.5,
+        "calibration_minimum_object_precision": 0.75,
+        "rule": "Maximize object recall subject to precision >=0.75 on calibration videos only; tie by precision then threshold"
+      },
+      "checkpoint_sha256": "ef6ce1ff42ba0cd781e39e3f1ad931b0760dcb0fe7f353e83c2c602fe7bbd52a",
+      "source_frames_sha256": "22fb551a2ae474fa1eb4b05916d98abb93d643e6e1bc6acd6eb8af69fe23ef7b",
+      "original_default_counts_reproduced": true,
+      "folds": {
+        "calibration": {
+          "images": 992,
+          "selected_counts": [
+            1928,
+            1711,
+            1567,
+            940,
+            479,
+            366,
+            1153,
+            452
+          ],
+          "selected_metrics": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.7640918580375783,
+            "object_recall": 0.3893617021276596,
+            "pair_recall": 0.3920208152645273
+          },
+          "default_metrics": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.6972176759410802,
+            "object_recall": 0.4531914893617021,
+            "pair_recall": 0.43451864700780574
+          },
+          "coco": {
+            "ap50_95": 0.4285856441669947,
+            "ap50": 0.6721312906537613,
+            "by_class": {
+              "hand": 0.565703716781447,
+              "held_object": 0.2914675715525424
+            }
+          }
+        },
+        "evaluation": {
+          "images": 1008,
+          "selected_counts": [
+            1860,
+            1690,
+            1547,
+            889,
+            475,
+            375,
+            1119,
+            474
+          ],
+          "selected_metrics": {
+            "hand_precision": 0.9153846153846154,
+            "hand_recall": 0.8317204301075268,
+            "object_precision": 0.7894736842105263,
+            "object_recall": 0.421822272215973,
+            "pair_recall": 0.42359249329758714
+          },
+          "default_metrics": {
+            "hand_precision": 0.9153846153846154,
+            "hand_recall": 0.8317204301075268,
+            "object_precision": 0.731239092495637,
+            "object_recall": 0.47131608548931386,
+            "pair_recall": 0.46201966041108133
+          },
+          "coco": {
+            "ap50_95": 0.4477485712641832,
+            "ap50": 0.7041515476620845,
+            "by_class": {
+              "hand": 0.570222674183463,
+              "held_object": 0.3252744683449034
+            }
+          }
+        },
+        "full": {
+          "images": 2000,
+          "selected_counts": [
+            3788,
+            3401,
+            3114,
+            1829,
+            954,
+            741,
+            2272,
+            926
+          ],
+          "selected_metrics": {
+            "hand_precision": 0.9156130549838283,
+            "hand_recall": 0.8220696937697993,
+            "object_precision": 0.7767295597484277,
+            "object_recall": 0.4051394204483324,
+            "pair_recall": 0.40757042253521125
+          },
+          "default_metrics": {
+            "hand_precision": 0.9156130549838283,
+            "hand_recall": 0.8220696937697993,
+            "object_precision": 0.7136824324324325,
+            "object_recall": 0.46200109349371243,
+            "pair_recall": 0.4480633802816901
+          },
+          "coco": {
+            "ap50_95": 0.4377526814520549,
+            "ap50": 0.6889488398100029,
+            "by_class": {
+              "hand": 0.5681276145517219,
+              "held_object": 0.307377748352388
+            }
+          }
+        }
+      },
+      "curve": [
+        {
+          "object_threshold": 0.1,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.46234676007005254,
+            "object_recall": 0.5617021276595745,
+            "pair_recall": 0.46747614917606245
+          }
+        },
+        {
+          "object_threshold": 0.15,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.515,
+            "object_recall": 0.5478723404255319,
+            "pair_recall": 0.47094535993061576
+          }
+        },
+        {
+          "object_threshold": 0.2,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.5508379888268157,
+            "object_recall": 0.524468085106383,
+            "pair_recall": 0.4614050303555941
+          }
+        },
+        {
+          "object_threshold": 0.25,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.5790108564535585,
+            "object_recall": 0.5106382978723404,
+            "pair_recall": 0.4614050303555941
+          }
+        },
+        {
+          "object_threshold": 0.3,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.603359173126615,
+            "object_recall": 0.4968085106382979,
+            "pair_recall": 0.45533391153512576
+          }
+        },
+        {
+          "object_threshold": 0.35,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.6265389876880985,
+            "object_recall": 0.48723404255319147,
+            "pair_recall": 0.4518647007805724
+          }
+        },
+        {
+          "object_threshold": 0.4,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.6524926686217009,
+            "object_recall": 0.4734042553191489,
+            "pair_recall": 0.4483954900260191
+          }
+        },
+        {
+          "object_threshold": 0.45,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.6754658385093167,
+            "object_recall": 0.4627659574468085,
+            "pair_recall": 0.4414570685169124
+          }
+        },
+        {
+          "object_threshold": 0.5,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.6972176759410802,
+            "object_recall": 0.4531914893617021,
+            "pair_recall": 0.43451864700780574
+          }
+        },
+        {
+          "object_threshold": 0.55,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.7180385288966725,
+            "object_recall": 0.43617021276595747,
+            "pair_recall": 0.4241110147441457
+          }
+        },
+        {
+          "object_threshold": 0.6,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.747148288973384,
+            "object_recall": 0.41808510638297874,
+            "pair_recall": 0.41457068516912404
+          }
+        },
+        {
+          "object_threshold": 0.65,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.7640918580375783,
+            "object_recall": 0.3893617021276596,
+            "pair_recall": 0.3920208152645273
+          }
+        },
+        {
+          "object_threshold": 0.7,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.7893518518518519,
+            "object_recall": 0.3627659574468085,
+            "pair_recall": 0.37294015611448394
+          }
+        },
+        {
+          "object_threshold": 0.75,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.824468085106383,
+            "object_recall": 0.32978723404255317,
+            "pair_recall": 0.34865568083261056
+          }
+        },
+        {
+          "object_threshold": 0.8,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.864406779661017,
+            "object_recall": 0.2712765957446808,
+            "pair_recall": 0.2948829141370338
+          }
+        },
+        {
+          "object_threshold": 0.85,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.9134615384615384,
+            "object_recall": 0.20212765957446807,
+            "pair_recall": 0.22723330442324371
+          }
+        },
+        {
+          "object_threshold": 0.9,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.9256198347107438,
+            "object_recall": 0.11914893617021277,
+            "pair_recall": 0.15004336513443192
+          }
+        },
+        {
+          "object_threshold": 0.95,
+          "calibration": {
+            "hand_precision": 0.9158386908240795,
+            "hand_recall": 0.8127593360995851,
+            "object_precision": 0.8333333333333334,
+            "object_recall": 0.005319148936170213,
+            "pair_recall": 0.007805724197745013
+          }
+        }
+      ]
+    },
+    "expanded7500": {
+      "selection": {
+        "hand_threshold": 0.5,
+        "object_threshold": 0.4,
+        "contact_threshold": 0.5,
+        "calibration_minimum_object_precision": 0.75,
+        "rule": "Maximize object recall subject to precision >=0.75 on calibration videos only; tie by precision then threshold"
+      },
+      "checkpoint_sha256": "2a084e2a6626ba2b262dd81226fb0c28d9d66a27c5ce4c5108fe5fc80b182ec9",
+      "source_frames_sha256": "0312b89df87097b38efb18a7f3be74fcd462b0ac017f54fee9c009007110b2f5",
+      "original_default_counts_reproduced": true,
+      "folds": {
+        "calibration": {
+          "images": 992,
+          "selected_counts": [
+            1928,
+            1712,
+            1610,
+            940,
+            618,
+            466,
+            1153,
+            553
+          ],
+          "selected_metrics": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.7540453074433657,
+            "object_recall": 0.4957446808510638,
+            "pair_recall": 0.47961838681699914
+          },
+          "default_metrics": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.797752808988764,
+            "object_recall": 0.4531914893617021,
+            "pair_recall": 0.4562012142237641
+          },
+          "coco": {
+            "ap50_95": 0.47435260531346796,
+            "ap50": 0.7302194404461234,
+            "by_class": {
+              "hand": 0.6011029255961925,
+              "held_object": 0.34760228503074353
+            }
+          }
+        },
+        "evaluation": {
+          "images": 1008,
+          "selected_counts": [
+            1860,
+            1694,
+            1587,
+            889,
+            622,
+            468,
+            1119,
+            563
+          ],
+          "selected_metrics": {
+            "hand_precision": 0.9368358913813459,
+            "hand_recall": 0.853225806451613,
+            "object_precision": 0.752411575562701,
+            "object_recall": 0.5264341957255343,
+            "pair_recall": 0.5031277926720286
+          },
+          "default_metrics": {
+            "hand_precision": 0.9368358913813459,
+            "hand_recall": 0.853225806451613,
+            "object_precision": 0.8056603773584906,
+            "object_recall": 0.48031496062992124,
+            "pair_recall": 0.4718498659517426
+          },
+          "coco": {
+            "ap50_95": 0.48359096980798394,
+            "ap50": 0.7502249661895442,
+            "by_class": {
+              "hand": 0.6022927623210211,
+              "held_object": 0.3648891772949466
+            }
+          }
+        },
+        "full": {
+          "images": 2000,
+          "selected_counts": [
+            3788,
+            3406,
+            3197,
+            1829,
+            1240,
+            934,
+            2272,
+            1116
+          ],
+          "selected_metrics": {
+            "hand_precision": 0.9386376981796829,
+            "hand_recall": 0.8439809926082366,
+            "object_precision": 0.7532258064516129,
+            "object_recall": 0.5106615636960088,
+            "pair_recall": 0.49119718309859156
+          },
+          "default_metrics": {
+            "hand_precision": 0.9386376981796829,
+            "hand_recall": 0.8439809926082366,
+            "object_precision": 0.8016917293233082,
+            "object_recall": 0.466375068343357,
+            "pair_recall": 0.4639084507042254
+          },
+          "coco": {
+            "ap50_95": 0.478883514169574,
+            "ap50": 0.7417930478047535,
+            "by_class": {
+              "hand": 0.6019888483396753,
+              "held_object": 0.35577817999947264
+            }
+          }
+        }
+      },
+      "curve": [
+        {
+          "object_threshold": 0.1,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.49174917491749176,
+            "object_recall": 0.6340425531914894,
+            "pair_recall": 0.5255854293148309
+          }
+        },
+        {
+          "object_threshold": 0.15,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.5525554484088717,
+            "object_recall": 0.6095744680851064,
+            "pair_recall": 0.5299219427580225
+          }
+        },
+        {
+          "object_threshold": 0.2,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.6081229418221734,
+            "object_recall": 0.5893617021276596,
+            "pair_recall": 0.5290546400693842
+          }
+        },
+        {
+          "object_threshold": 0.25,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.6493184634448576,
+            "object_recall": 0.5574468085106383,
+            "pair_recall": 0.5143104943625325
+          }
+        },
+        {
+          "object_threshold": 0.3,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.6854395604395604,
+            "object_recall": 0.5308510638297872,
+            "pair_recall": 0.49956634865568084
+          }
+        },
+        {
+          "object_threshold": 0.35,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.7181008902077152,
+            "object_recall": 0.5148936170212766,
+            "pair_recall": 0.49176062445793584
+          }
+        },
+        {
+          "object_threshold": 0.4,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.7540453074433657,
+            "object_recall": 0.4957446808510638,
+            "pair_recall": 0.47961838681699914
+          }
+        },
+        {
+          "object_threshold": 0.45,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.7818499127399651,
+            "object_recall": 0.4765957446808511,
+            "pair_recall": 0.4666088464874241
+          }
+        },
+        {
+          "object_threshold": 0.5,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.797752808988764,
+            "object_recall": 0.4531914893617021,
+            "pair_recall": 0.4562012142237641
+          }
+        },
+        {
+          "object_threshold": 0.55,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.8187372708757638,
+            "object_recall": 0.4276595744680851,
+            "pair_recall": 0.4362532523850824
+          }
+        },
+        {
+          "object_threshold": 0.6,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.8285077951002228,
+            "object_recall": 0.39574468085106385,
+            "pair_recall": 0.406764960971379
+          }
+        },
+        {
+          "object_threshold": 0.65,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.85785536159601,
+            "object_recall": 0.3659574468085106,
+            "pair_recall": 0.38161318300086733
+          }
+        },
+        {
+          "object_threshold": 0.7,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.8823529411764706,
+            "object_recall": 0.3351063829787234,
+            "pair_recall": 0.3547267996530789
+          }
+        },
+        {
+          "object_threshold": 0.75,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.9084745762711864,
+            "object_recall": 0.2851063829787234,
+            "pair_recall": 0.3113616652211622
+          }
+        },
+        {
+          "object_threshold": 0.8,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.9336283185840708,
+            "object_recall": 0.22446808510638297,
+            "pair_recall": 0.2515177797051171
+          }
+        },
+        {
+          "object_threshold": 0.85,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.9580838323353293,
+            "object_recall": 0.1702127659574468,
+            "pair_recall": 0.20294882914137033
+          }
+        },
+        {
+          "object_threshold": 0.9,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.9702970297029703,
+            "object_recall": 0.10425531914893617,
+            "pair_recall": 0.1344319167389419
+          }
+        },
+        {
+          "object_threshold": 0.95,
+          "calibration": {
+            "hand_precision": 0.9404205607476636,
+            "hand_recall": 0.8350622406639004,
+            "object_precision": 0.9090909090909091,
+            "object_recall": 0.010638297872340425,
+            "pair_recall": 0.014744145706851692
+          }
+        }
+      ]
+    }
+  },
+  "evaluation_comparisons": {
+    "candidate_vs_original_default": {
+      "hand_precision": {
+        "difference": 0.02145127599673058,
+        "paired_video_bootstrap_95_interval": [
+          0.010605757924108236,
+          0.032258929512774676
+        ]
+      },
+      "hand_recall": {
+        "difference": 0.021505376344086113,
+        "paired_video_bootstrap_95_interval": [
+          0.012540687791669345,
+          0.030825725494509588
+        ]
+      },
+      "object_precision": {
+        "difference": 0.021172483067063985,
+        "paired_video_bootstrap_95_interval": [
+          -0.008589836849560438,
+          0.05038950106117376
+        ]
+      },
+      "object_recall": {
+        "difference": 0.05511811023622043,
+        "paired_video_bootstrap_95_interval": [
+          0.033594412542963935,
+          0.07692522321428569
+        ]
+      },
+      "pair_recall": {
+        "difference": 0.04110813226094723,
+        "paired_video_bootstrap_95_interval": [
+          0.018260136340216393,
+          0.06364469415081207
+        ]
+      }
+    },
+    "candidate_vs_original_selected": {
+      "hand_precision": {
+        "difference": 0.02145127599673058,
+        "paired_video_bootstrap_95_interval": [
+          0.010605757924108236,
+          0.032258929512774676
+        ]
+      },
+      "hand_recall": {
+        "difference": 0.021505376344086113,
+        "paired_video_bootstrap_95_interval": [
+          0.012540687791669345,
+          0.030825725494509588
+        ]
+      },
+      "object_precision": {
+        "difference": -0.03706210864782533,
+        "paired_video_bootstrap_95_interval": [
+          -0.06798570297322197,
+          -0.005857331406354404
+        ]
+      },
+      "object_recall": {
+        "difference": 0.10461192350956128,
+        "paired_video_bootstrap_95_interval": [
+          0.08060663850549815,
+          0.1297623530872372
+        ]
+      },
+      "pair_recall": {
+        "difference": 0.07953529937444143,
+        "paired_video_bootstrap_95_interval": [
+          0.055207872061885425,
+          0.105027029018462
+        ]
+      }
+    }
+  },
+  "source_video_split": "sha256(object-calibration-v1:<video>) first byte parity",
+  "calibration_images": 992,
+  "evaluation_images": 1008,
+  "target_precision": 0.75,
+  "threshold_grid": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "annotations_sha256": "04ae667e0bfc372c9acb272a63dd6a2abfa3e34915f97a1fe5c6483f54a11fdc",
+  "source_sha256": "b94432612585727d5db6cae525db7bb5944378403a36d2be1345546c1c9b4e4a",
+  "official_test_images_used": 0,
+  "model_parameters_updated": false,
+  "deployment_approved": false,
+  "limitation": "This is still reused development validation. Checkpoint/model selection has previously used the full validation. The second half isolates threshold fitting only; final confirmation must use the separately frozen official test once configurations are selected."
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "source": "evidence\\member_c\\three_routes_trials_20261019_01\\continuation_02\\unpacked_01\\runs\\three_routes_trials_20261019_01\\object_operating_point_calibration_01.json",
+    "copy": "evidence/model_selection/object_operating_point_calibration_01.json",
+    "source_sha256": "4ed41fa9dc1e86116cbf69a04e73638dcf2124db9d1092df94c4bce3d212400b",
+    "copy_sha256": "4ed41fa9dc1e86116cbf69a04e73638dcf2124db9d1092df94c4bce3d212400b",
+    "status": "read_and_copied",
+    "redactions": 0
+  },
+  {
+    "source": "evidence\\member_c\\three_routes_trials_20261019_01\\continuation_02\\unpacked_01\\runs\\three_routes_trials_20261019_01\\resolution_magnitude_units_cpu_01.json",
+    "copy": "evidence/model_selection/resolution_magnitude_units_cpu_01.json",
+    "source_sha256": "918d856db595f8801186c3b8795d99e510f3b843f73078c3501c069efc9a8c75",
+    "copy_sha256": "918d856db595f8801186c3b8795d99e510f3b843f73078c3501c069efc9a8c75",
+    "status": "read_and_copied",
+    "redactions": 0
+  },
+  {
+    "source": "evidence\\member_c\\three_routes_trials_20261019_01\\continuation_03\\unpacked_01\\runs\\three_routes_trials_20261019_01\\frozen_test_comparison_verified_01.json",
+    "copy": "evidence/model_selection/frozen_test_comparison_verified_01.json",
+    "source_sha256": "a29cb3450e85c2dba7eb7d767e20917f6e097813fe7c9fb1578a6ae11f135c1d",
+    "copy_sha256": "a29cb3450e85c2dba7eb7d767e20917f6e097813fe7c9fb1578a6ae11f135c1d",
+    "status": "read_and_copied",
+    "redactions": 0
+  },
+  {
+    "source": "evidence\\member_c\\three_routes_trials_20261019_01\\continuation_03\\unpacked_01\\runs\\three_routes_trials_20261019_01\\followup_test_candidate_registry_01.json",
+    "copy": "evidence/model_selection/followup_test_candidate_registry_01.json",
+    "source_sha256": "d455e6db87a611d20d0139472b8f37b1a2d44ee6828f1ed3d7e3bfc149a3ac79",
+    "copy_sha256": "d455e6db87a611d20d0139472b8f37b1a2d44ee6828f1ed3d7e3bfc149a3ac79",
+    "status": "read_and_copied",
+    "redactions": 0
+  },
+  {
+    "source": "evidence\\member_c\\three_routes_trials_20261019_01\\continuation_04\\unpacked_01\\runs\\three_routes_trials_20261019_01\\followup_test_comparison_verified_01.json",
+    "copy": "evidence/model_selection/followup_test_comparison_verified_01.json",
+    "source_sha256": "8ac99ec0a0a598c3aff2478c079721731945fc598c8f0b6fd875c012adb56a69",
+    "copy_sha256": "8ac99ec0a0a598c3aff2478c079721731945fc598c8f0b6fd875c012adb56a69",
+    "status": "read_and_copied",
+    "redactions": 0
+  },
+  {
+    "source": "evidence\\member_c\\three_routes_trials_20261019_01\\continuation_05\\unpacked_01\\runs\\three_routes_trials_20261019_01\\research_goal_closeout_audit_01.json",
+    "copy": "evidence/model_selection/research_goal_closeout_audit_01.json",
+    "source_sha256": "b5712a7bd554a5dc4d9c992a9571762e9bf5e87066865f65b0c2a34c53d0cf65",
+    "copy_sha256": "b5712a7bd554a5dc4d9c992a9571762e9bf5e87066865f65b0c2a34c53d0cf65",
+    "status": "read_and_copied",
+    "redactions": 0
+  },
+  {
+    "source": "evidence\\member_c\\three_routes_trials_20261019_01\\continuation_05\\unpacked_01\\runs\\s_highres640_expanded_20261019_01\\step_10000_native640_qualification.json",
+    "copy": "evidence/model_selection/step_10000_native640_qualification.json",
+    "source_sha256": "ef7c014b1877a83f61703fa867de4c8e13ecb170a490cf068406def94248b0d7",
+    "copy_sha256": "ef7c014b1877a83f61703fa867de4c8e13ecb170a490cf068406def94248b0d7",
+    "status": "read_and_copied",
+    "redactions": 0
+  },
+  {
+    "source": "evidence\\member_c\\three_routes_trials_20261019_01\\continuation_05\\unpacked_01\\runs\\s_highres640_phone55_regression_20261019_01\\highres640_final_summary.json",
+    "copy": "evidence/model_selection/highres640_final_summary.json",
+    "source_sha256": "8ea672de5363a5b368e7335dc989a0ef1bf538379ffa3cfdd700ef346d17842b",
+    "copy_sha256": "8ea672de5363a5b368e7335dc989a0ef1bf538379ffa3cfdd700ef346d17842b",
+    "status": "read_and_copied",
+    "redactions": 0
+  }
+]

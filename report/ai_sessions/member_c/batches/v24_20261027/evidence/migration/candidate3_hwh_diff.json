@@ -1,0 +1,3762 @@
+{
+  "old_path": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\imx219-fusion-v24.hwh",
+  "new_path": "D:\\2026嵌赛\\v24_2025_2\\c3\\b\\design_1\\hw_handoff\\design_1.hwh",
+  "old_sha256": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+  "new_sha256": "f5d6c9f578e4e31aa8bb82f7b9046caff7a72290bb74908da1d893d4688d35ca",
+  "memory_ranges_equal": true,
+  "memory_range_counts": [
+    26,
+    26
+  ],
+  "modules": {
+    "board_rectify_rgb_0": {
+      "versions": [
+        "whiteboard.org:hls:board_rectify_rgb:1.0",
+        "whiteboard.org:hls:board_rectify_rgb:1.0"
+      ],
+      "register_blocks_equal": false,
+      "register_status": "compared",
+      "register_counts": [
+        15,
+        15
+      ],
+      "before": {
+        "Reg": {
+          "attributes": {
+            "ACCESS": "read-write",
+            "INTERFACE": "s_axi_control",
+            "NAME": "Reg",
+            "RANGE": "65536",
+            "USAGE": "register"
+          },
+          "registers": {
+            "CTRL": {
+              "properties": {
+                "ADDRESS_OFFSET": "0",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "AP_START": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_DONE": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_IDLE": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_READY": {
+                  "ADDRESS_OFFSET": "3",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "3",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "4",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "4",
+                  "BIT_WIDTH": "3"
+                },
+                "AUTO_RESTART": {
+                  "ADDRESS_OFFSET": "7",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "7",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_2": {
+                  "ADDRESS_OFFSET": "8",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "8",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_3": {
+                  "ADDRESS_OFFSET": "9",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "9",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_4": {
+                  "ADDRESS_OFFSET": "10",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "10",
+                  "BIT_WIDTH": "22"
+                }
+              }
+            },
+            "GIER": {
+              "properties": {
+                "ADDRESS_OFFSET": "4",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "Enable": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "31"
+                }
+              }
+            },
+            "IP_IER": {
+              "properties": {
+                "ADDRESS_OFFSET": "8",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_EN": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_EN": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "3"
+                },
+                "CHAN2_INT_EN": {
+                  "ADDRESS_OFFSET": "5",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "5",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "6",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "6",
+                  "BIT_WIDTH": "26"
+                }
+              }
+            },
+            "IP_ISR": {
+              "properties": {
+                "ADDRESS_OFFSET": "12",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_ST": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_ST": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "3"
+                },
+                "CHAN2_INT_ST": {
+                  "ADDRESS_OFFSET": "5",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "5",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "6",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "6",
+                  "BIT_WIDTH": "26"
+                }
+              }
+            },
+            "src": {
+              "properties": {
+                "ADDRESS_OFFSET": "16",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "src": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "dst": {
+              "properties": {
+                "ADDRESS_OFFSET": "24",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "dst": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "status": {
+              "properties": {
+                "ADDRESS_OFFSET": "32",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "status": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "hint": {
+              "properties": {
+                "ADDRESS_OFFSET": "40",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "hint": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "corners": {
+              "properties": {
+                "ADDRESS_OFFSET": "48",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "corners": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "binary_enable": {
+              "properties": {
+                "ADDRESS_OFFSET": "56",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "binary_enable": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "mode": {
+              "properties": {
+                "ADDRESS_OFFSET": "64",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "mode": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "threshold": {
+              "properties": {
+                "ADDRESS_OFFSET": "72",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "threshold": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "bgr": {
+              "properties": {
+                "ADDRESS_OFFSET": "80",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "bgr": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "geometry": {
+              "properties": {
+                "ADDRESS_OFFSET": "88",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "geometry": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "diagnostics": {
+              "properties": {
+                "ADDRESS_OFFSET": "96",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "diagnostics": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "Reg": {
+          "attributes": {
+            "ACCESS": "read-write",
+            "INTERFACE": "s_axi_control",
+            "NAME": "Reg",
+            "RANGE": "65536",
+            "USAGE": "register"
+          },
+          "registers": {
+            "CTRL": {
+              "properties": {
+                "ADDRESS_OFFSET": "0",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "AP_START": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_DONE": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_IDLE": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_READY": {
+                  "ADDRESS_OFFSET": "3",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "3",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "4",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "4",
+                  "BIT_WIDTH": "3"
+                },
+                "AUTO_RESTART": {
+                  "ADDRESS_OFFSET": "7",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "7",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_2": {
+                  "ADDRESS_OFFSET": "8",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "8",
+                  "BIT_WIDTH": "1"
+                },
+                "INTERRUPT": {
+                  "ADDRESS_OFFSET": "9",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "9",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_3": {
+                  "ADDRESS_OFFSET": "10",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "10",
+                  "BIT_WIDTH": "22"
+                }
+              }
+            },
+            "GIER": {
+              "properties": {
+                "ADDRESS_OFFSET": "4",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "Enable": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "31"
+                }
+              }
+            },
+            "IP_IER": {
+              "properties": {
+                "ADDRESS_OFFSET": "8",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_EN": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_EN": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "30"
+                }
+              }
+            },
+            "IP_ISR": {
+              "properties": {
+                "ADDRESS_OFFSET": "12",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_ST": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_ST": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "30"
+                }
+              }
+            },
+            "src": {
+              "properties": {
+                "ADDRESS_OFFSET": "16",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "src": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "dst": {
+              "properties": {
+                "ADDRESS_OFFSET": "24",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "dst": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "status": {
+              "properties": {
+                "ADDRESS_OFFSET": "32",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "status": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "hint": {
+              "properties": {
+                "ADDRESS_OFFSET": "40",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "hint": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "corners": {
+              "properties": {
+                "ADDRESS_OFFSET": "48",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "corners": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "binary_enable": {
+              "properties": {
+                "ADDRESS_OFFSET": "56",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "binary_enable": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "mode": {
+              "properties": {
+                "ADDRESS_OFFSET": "64",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "mode": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "threshold": {
+              "properties": {
+                "ADDRESS_OFFSET": "72",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "threshold": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "bgr": {
+              "properties": {
+                "ADDRESS_OFFSET": "80",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "bgr": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "geometry": {
+              "properties": {
+                "ADDRESS_OFFSET": "88",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "geometry": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "diagnostics": {
+              "properties": {
+                "ADDRESS_OFFSET": "96",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "diagnostics": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "board_quantize_rgb_0": {
+      "versions": [
+        "whiteboard.org:hls:board_scene_quantize:1.0",
+        "whiteboard.org:hls:board_scene_quantize:1.0"
+      ],
+      "register_blocks_equal": false,
+      "register_status": "compared",
+      "register_counts": [
+        20,
+        20
+      ],
+      "before": {
+        "Reg": {
+          "attributes": {
+            "ACCESS": "read-write",
+            "INTERFACE": "s_axi_control",
+            "NAME": "Reg",
+            "RANGE": "65536",
+            "USAGE": "register"
+          },
+          "registers": {
+            "CTRL": {
+              "properties": {
+                "ADDRESS_OFFSET": "0",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "AP_START": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_DONE": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_IDLE": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_READY": {
+                  "ADDRESS_OFFSET": "3",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "3",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "4",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "4",
+                  "BIT_WIDTH": "3"
+                },
+                "AUTO_RESTART": {
+                  "ADDRESS_OFFSET": "7",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "7",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_2": {
+                  "ADDRESS_OFFSET": "8",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "8",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_3": {
+                  "ADDRESS_OFFSET": "9",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "9",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_4": {
+                  "ADDRESS_OFFSET": "10",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "10",
+                  "BIT_WIDTH": "22"
+                }
+              }
+            },
+            "GIER": {
+              "properties": {
+                "ADDRESS_OFFSET": "4",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "Enable": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "31"
+                }
+              }
+            },
+            "IP_IER": {
+              "properties": {
+                "ADDRESS_OFFSET": "8",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_EN": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_EN": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "3"
+                },
+                "CHAN2_INT_EN": {
+                  "ADDRESS_OFFSET": "5",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "5",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "6",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "6",
+                  "BIT_WIDTH": "26"
+                }
+              }
+            },
+            "IP_ISR": {
+              "properties": {
+                "ADDRESS_OFFSET": "12",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_ST": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_ST": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "3"
+                },
+                "CHAN2_INT_ST": {
+                  "ADDRESS_OFFSET": "5",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "5",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "6",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "6",
+                  "BIT_WIDTH": "26"
+                }
+              }
+            },
+            "ap_return": {
+              "properties": {
+                "ADDRESS_OFFSET": "16",
+                "SIZE": "32",
+                "ACCESS": "read-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "ap_return": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "src": {
+              "properties": {
+                "ADDRESS_OFFSET": "24",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "src": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "canvas_in": {
+              "properties": {
+                "ADDRESS_OFFSET": "32",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "canvas_in": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "canvas_out": {
+              "properties": {
+                "ADDRESS_OFFSET": "40",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "canvas_out": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "metadata": {
+              "properties": {
+                "ADDRESS_OFFSET": "48",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "metadata": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "dst": {
+              "properties": {
+                "ADDRESS_OFFSET": "56",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "dst": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "width": {
+              "properties": {
+                "ADDRESS_OFFSET": "64",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "width": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "height": {
+              "properties": {
+                "ADDRESS_OFFSET": "72",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "height": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "dst_stride": {
+              "properties": {
+                "ADDRESS_OFFSET": "80",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "dst_stride": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "frame_cookie": {
+              "properties": {
+                "ADDRESS_OFFSET": "88",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "frame_cookie": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "metadata_cookie": {
+              "properties": {
+                "ADDRESS_OFFSET": "96",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "metadata_cookie": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "control": {
+              "properties": {
+                "ADDRESS_OFFSET": "104",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "control": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "order": {
+              "properties": {
+                "ADDRESS_OFFSET": "112",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "order": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "ink_delta": {
+              "properties": {
+                "ADDRESS_OFFSET": "120",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "ink_delta": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "erase_delta": {
+              "properties": {
+                "ADDRESS_OFFSET": "128",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "erase_delta": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "color_margin": {
+              "properties": {
+                "ADDRESS_OFFSET": "136",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "color_margin": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "Reg": {
+          "attributes": {
+            "ACCESS": "read-write",
+            "INTERFACE": "s_axi_control",
+            "NAME": "Reg",
+            "RANGE": "65536",
+            "USAGE": "register"
+          },
+          "registers": {
+            "CTRL": {
+              "properties": {
+                "ADDRESS_OFFSET": "0",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "AP_START": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_DONE": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_IDLE": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_READY": {
+                  "ADDRESS_OFFSET": "3",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "3",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "4",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "4",
+                  "BIT_WIDTH": "3"
+                },
+                "AUTO_RESTART": {
+                  "ADDRESS_OFFSET": "7",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "7",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_2": {
+                  "ADDRESS_OFFSET": "8",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "8",
+                  "BIT_WIDTH": "1"
+                },
+                "INTERRUPT": {
+                  "ADDRESS_OFFSET": "9",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "9",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_3": {
+                  "ADDRESS_OFFSET": "10",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "10",
+                  "BIT_WIDTH": "22"
+                }
+              }
+            },
+            "GIER": {
+              "properties": {
+                "ADDRESS_OFFSET": "4",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "Enable": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "31"
+                }
+              }
+            },
+            "IP_IER": {
+              "properties": {
+                "ADDRESS_OFFSET": "8",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_EN": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_EN": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "30"
+                }
+              }
+            },
+            "IP_ISR": {
+              "properties": {
+                "ADDRESS_OFFSET": "12",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_ST": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_ST": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "30"
+                }
+              }
+            },
+            "ap_return": {
+              "properties": {
+                "ADDRESS_OFFSET": "16",
+                "SIZE": "32",
+                "ACCESS": "read-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "ap_return": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "src": {
+              "properties": {
+                "ADDRESS_OFFSET": "24",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "src": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "canvas_in": {
+              "properties": {
+                "ADDRESS_OFFSET": "32",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "canvas_in": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "canvas_out": {
+              "properties": {
+                "ADDRESS_OFFSET": "40",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "canvas_out": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "metadata": {
+              "properties": {
+                "ADDRESS_OFFSET": "48",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "metadata": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "dst": {
+              "properties": {
+                "ADDRESS_OFFSET": "56",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "dst": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "width": {
+              "properties": {
+                "ADDRESS_OFFSET": "64",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "width": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "height": {
+              "properties": {
+                "ADDRESS_OFFSET": "72",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "height": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "dst_stride": {
+              "properties": {
+                "ADDRESS_OFFSET": "80",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "dst_stride": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "frame_cookie": {
+              "properties": {
+                "ADDRESS_OFFSET": "88",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "frame_cookie": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "metadata_cookie": {
+              "properties": {
+                "ADDRESS_OFFSET": "96",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "metadata_cookie": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "control_r": {
+              "properties": {
+                "ADDRESS_OFFSET": "104",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "control_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "order": {
+              "properties": {
+                "ADDRESS_OFFSET": "112",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "order": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "ink_delta": {
+              "properties": {
+                "ADDRESS_OFFSET": "120",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "ink_delta": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "erase_delta": {
+              "properties": {
+                "ADDRESS_OFFSET": "128",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "erase_delta": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "color_margin": {
+              "properties": {
+                "ADDRESS_OFFSET": "136",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "color_margin": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "whiteboard_restore_0": {
+      "versions": [
+        "whiteboard.org:hls:whiteboard_restore:1.0",
+        "whiteboard.org:hls:whiteboard_restore:1.0"
+      ],
+      "register_blocks_equal": false,
+      "register_status": "compared",
+      "register_counts": [
+        35,
+        35
+      ],
+      "before": {
+        "Reg": {
+          "attributes": {
+            "ACCESS": "read-write",
+            "INTERFACE": "s_axi_control",
+            "NAME": "Reg",
+            "RANGE": "65536",
+            "USAGE": "register"
+          },
+          "registers": {
+            "CTRL": {
+              "properties": {
+                "ADDRESS_OFFSET": "0",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "AP_START": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_DONE": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_IDLE": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_READY": {
+                  "ADDRESS_OFFSET": "3",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "3",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "4",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "4",
+                  "BIT_WIDTH": "3"
+                },
+                "AUTO_RESTART": {
+                  "ADDRESS_OFFSET": "7",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "7",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_2": {
+                  "ADDRESS_OFFSET": "8",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "8",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_3": {
+                  "ADDRESS_OFFSET": "9",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "9",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_4": {
+                  "ADDRESS_OFFSET": "10",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "10",
+                  "BIT_WIDTH": "22"
+                }
+              }
+            },
+            "GIER": {
+              "properties": {
+                "ADDRESS_OFFSET": "4",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "Enable": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "31"
+                }
+              }
+            },
+            "IP_IER": {
+              "properties": {
+                "ADDRESS_OFFSET": "8",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_EN": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_EN": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "3"
+                },
+                "CHAN2_INT_EN": {
+                  "ADDRESS_OFFSET": "5",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "5",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "6",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "6",
+                  "BIT_WIDTH": "26"
+                }
+              }
+            },
+            "IP_ISR": {
+              "properties": {
+                "ADDRESS_OFFSET": "12",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_ST": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_ST": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "3"
+                },
+                "CHAN2_INT_ST": {
+                  "ADDRESS_OFFSET": "5",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "5",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "6",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "6",
+                  "BIT_WIDTH": "26"
+                }
+              }
+            },
+            "ap_return": {
+              "properties": {
+                "ADDRESS_OFFSET": "16",
+                "SIZE": "32",
+                "ACCESS": "read-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "ap_return": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "input_r_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "24",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "input_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "input_r_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "28",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "input_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "output_r_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "36",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "output_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "output_r_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "40",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "output_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "background_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "48",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "background": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "background_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "52",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "background": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "previous_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "60",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "previous": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "previous_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "64",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "previous": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "pixel_quiet_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "72",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "pixel_quiet": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "pixel_quiet_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "76",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "pixel_quiet": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "block_state_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "84",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "block_state": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "block_state_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "88",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "block_state": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "roi_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "96",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "roi": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "roi_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "100",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "roi": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "width": {
+              "properties": {
+                "ADDRESS_OFFSET": "108",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "width": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "height": {
+              "properties": {
+                "ADDRESS_OFFSET": "116",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "height": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "initialize": {
+              "properties": {
+                "ADDRESS_OFFSET": "124",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "initialize": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "bgr": {
+              "properties": {
+                "ADDRESS_OFFSET": "132",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "bgr": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "delta": {
+              "properties": {
+                "ADDRESS_OFFSET": "140",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "delta": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "quiet_delta": {
+              "properties": {
+                "ADDRESS_OFFSET": "148",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "quiet_delta": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "dense": {
+              "properties": {
+                "ADDRESS_OFFSET": "156",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "dense": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "weak_threshold": {
+              "properties": {
+                "ADDRESS_OFFSET": "164",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "weak_threshold": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "hold": {
+              "properties": {
+                "ADDRESS_OFFSET": "172",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "hold": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "stable_r": {
+              "properties": {
+                "ADDRESS_OFFSET": "180",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "stable_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "quiet_max": {
+              "properties": {
+                "ADDRESS_OFFSET": "188",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "quiet_max": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "chalk_min": {
+              "properties": {
+                "ADDRESS_OFFSET": "196",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "chalk_min": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "chalk_spread": {
+              "properties": {
+                "ADDRESS_OFFSET": "204",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "chalk_spread": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "fine_min": {
+              "properties": {
+                "ADDRESS_OFFSET": "212",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "fine_min": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "fine_spread": {
+              "properties": {
+                "ADDRESS_OFFSET": "220",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "fine_spread": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "red_bias": {
+              "properties": {
+                "ADDRESS_OFFSET": "228",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "red_bias": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "Reg": {
+          "attributes": {
+            "ACCESS": "read-write",
+            "INTERFACE": "s_axi_control",
+            "NAME": "Reg",
+            "RANGE": "65536",
+            "USAGE": "register"
+          },
+          "registers": {
+            "CTRL": {
+              "properties": {
+                "ADDRESS_OFFSET": "0",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "AP_START": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_DONE": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_IDLE": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "1"
+                },
+                "AP_READY": {
+                  "ADDRESS_OFFSET": "3",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "3",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_1": {
+                  "ADDRESS_OFFSET": "4",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "4",
+                  "BIT_WIDTH": "3"
+                },
+                "AUTO_RESTART": {
+                  "ADDRESS_OFFSET": "7",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "7",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_2": {
+                  "ADDRESS_OFFSET": "8",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "8",
+                  "BIT_WIDTH": "1"
+                },
+                "INTERRUPT": {
+                  "ADDRESS_OFFSET": "9",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "9",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_3": {
+                  "ADDRESS_OFFSET": "10",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "10",
+                  "BIT_WIDTH": "22"
+                }
+              }
+            },
+            "GIER": {
+              "properties": {
+                "ADDRESS_OFFSET": "4",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "Enable": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "31"
+                }
+              }
+            },
+            "IP_IER": {
+              "properties": {
+                "ADDRESS_OFFSET": "8",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_EN": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_EN": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-write",
+                  "MODIFIED_READ_VALUES": "modify",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "30"
+                }
+              }
+            },
+            "IP_ISR": {
+              "properties": {
+                "ADDRESS_OFFSET": "12",
+                "SIZE": "32",
+                "ACCESS": "read-write",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "CHAN0_INT_ST": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "1"
+                },
+                "CHAN1_INT_ST": {
+                  "ADDRESS_OFFSET": "1",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "oneToToggle",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "1",
+                  "BIT_WIDTH": "1"
+                },
+                "RESERVED_0": {
+                  "ADDRESS_OFFSET": "2",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "2",
+                  "BIT_WIDTH": "30"
+                }
+              }
+            },
+            "ap_return": {
+              "properties": {
+                "ADDRESS_OFFSET": "16",
+                "SIZE": "32",
+                "ACCESS": "read-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "ap_return": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "read-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "modify",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "input_r_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "24",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "input_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "input_r_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "28",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "input_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "output_r_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "36",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "output_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "output_r_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "40",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "output_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "background_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "48",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "background": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "background_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "52",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "background": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "previous_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "60",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "previous": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "previous_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "64",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "previous": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "pixel_quiet_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "72",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "pixel_quiet": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "pixel_quiet_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "76",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "pixel_quiet": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "block_state_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "84",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "block_state": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "block_state_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "88",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "block_state": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "roi_1": {
+              "properties": {
+                "ADDRESS_OFFSET": "96",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "roi": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "roi_2": {
+              "properties": {
+                "ADDRESS_OFFSET": "100",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "roi": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "width": {
+              "properties": {
+                "ADDRESS_OFFSET": "108",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "width": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "height": {
+              "properties": {
+                "ADDRESS_OFFSET": "116",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "height": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "initialize": {
+              "properties": {
+                "ADDRESS_OFFSET": "124",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "initialize": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "bgr": {
+              "properties": {
+                "ADDRESS_OFFSET": "132",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "bgr": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "delta": {
+              "properties": {
+                "ADDRESS_OFFSET": "140",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "delta": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "quiet_delta": {
+              "properties": {
+                "ADDRESS_OFFSET": "148",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "quiet_delta": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "dense": {
+              "properties": {
+                "ADDRESS_OFFSET": "156",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "dense": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "weak_threshold": {
+              "properties": {
+                "ADDRESS_OFFSET": "164",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "weak_threshold": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "hold": {
+              "properties": {
+                "ADDRESS_OFFSET": "172",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "hold": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "stable_r": {
+              "properties": {
+                "ADDRESS_OFFSET": "180",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "stable_r": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "quiet_max": {
+              "properties": {
+                "ADDRESS_OFFSET": "188",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "quiet_max": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "chalk_min": {
+              "properties": {
+                "ADDRESS_OFFSET": "196",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "chalk_min": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "chalk_spread": {
+              "properties": {
+                "ADDRESS_OFFSET": "204",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "chalk_spread": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "fine_min": {
+              "properties": {
+                "ADDRESS_OFFSET": "212",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "fine_min": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "fine_spread": {
+              "properties": {
+                "ADDRESS_OFFSET": "220",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "fine_spread": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            },
+            "red_bias": {
+              "properties": {
+                "ADDRESS_OFFSET": "228",
+                "SIZE": "32",
+                "ACCESS": "write-only",
+                "IS_ENABLED": "true",
+                "RESET_VALUE": "0"
+              },
+              "fields": {
+                "red_bias": {
+                  "ADDRESS_OFFSET": "0",
+                  "ACCESS": "write-only",
+                  "MODIFIED_READ_VALUES": "",
+                  "WRITE_CONSTRAINT": "0",
+                  "READ_ACTION": "",
+                  "BIT_OFFSET": "0",
+                  "BIT_WIDTH": "32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "mipi_csi2_rx_subsyst_0": {
+      "versions": [
+        "xilinx.com:ip:mipi_csi2_rx_subsystem:5.1",
+        "xilinx.com:ip:mipi_csi2_rx_subsystem:6.0"
+      ],
+      "register_blocks_equal": null,
+      "register_status": "NOT_CHECKED_NO_REGISTER_METADATA",
+      "register_counts": [
+        0,
+        0
+      ]
+    },
+    "v_frmbuf_wr_0": {
+      "versions": [
+        "xilinx.com:ip:v_frmbuf_wr:2.3",
+        "xilinx.com:ip:v_frmbuf_wr:3.0"
+      ],
+      "register_blocks_equal": null,
+      "register_status": "NOT_CHECKED_NO_REGISTER_METADATA",
+      "register_counts": [
+        0,
+        0
+      ]
+    }
+  },
+  "limitations": "Selected register fields and memory ranges only; excludes behavior, interrupts, cache policy, clock/DRC/timing and board tests."
+}

@@ -1,0 +1,5 @@
+view: PASS (modal, draft, recovery wording, disconnect, collapse, idle timeout/input reset/modal protection, focus, glyphs, bounds, diagnostic expiry/geometry, queued delivery/overflow/resync)
+pointer: PASS (LVGL input read and mouse click)
+LVGL pool: total=517096 used=32280 peak=58096 bytes
+Synthetic preview saved: D:\2026嵌赛\实时板书增强系统\tmp\ui-linux-win-regression-20261018\regression.bmp
+preview: PASS (LVGL render and interaction)

@@ -1,0 +1,207 @@
+{
+  "review_date": "2026-10-23",
+  "scope": "Read-only evidence identity, mapping, receipt reading and arithmetic; no project execution",
+  "checks": [
+    {
+      "check": "ui_history_42_copies_and_originals",
+      "passed": true,
+      "count": 42,
+      "errors": []
+    },
+    {
+      "check": "ui_historical_export_manifest",
+      "passed": true,
+      "count": 17,
+      "errors": []
+    },
+    {
+      "check": "guidance_five_versions_hash_and_manifest_arithmetic",
+      "passed": true,
+      "count": 295,
+      "versions": [
+        {
+          "version": 1,
+          "hash_count": 59,
+          "errors": [],
+          "selected_rows": 28,
+          "max_recorded_bounds_offset_px": 0.0
+        },
+        {
+          "version": 2,
+          "hash_count": 59,
+          "errors": [],
+          "selected_rows": 81,
+          "max_recorded_bounds_offset_px": 0.0
+        },
+        {
+          "version": 3,
+          "hash_count": 59,
+          "errors": [],
+          "selected_rows": 109,
+          "max_recorded_bounds_offset_px": 0.0
+        },
+        {
+          "version": 4,
+          "hash_count": 59,
+          "errors": [],
+          "selected_rows": 84,
+          "max_recorded_bounds_offset_px": 0.25
+        },
+        {
+          "version": 5,
+          "hash_count": 59,
+          "errors": [],
+          "selected_rows": 84,
+          "max_recorded_bounds_offset_px": 0.25
+        }
+      ],
+      "limitation": "Arithmetic of recorded bounds only; layout and visible bounds are different metrics; no rendering/pixel measurement"
+    },
+    {
+      "check": "recovered_attachments_message_mapping",
+      "passed": true,
+      "count": 2,
+      "errors": [],
+      "limitation": "Exact API localImage path plus current bytes; no independent digest embedded in historical message"
+    },
+    {
+      "check": "visible_x11_records_mapping",
+      "passed": true,
+      "count": 14,
+      "successful": 7,
+      "failed": 7,
+      "records": [
+        {
+          "run": "x11_01",
+          "command_id": "exec-95e1cad1-0975-4996-b9d6-b9cfb03af666",
+          "exit_code": 1,
+          "reported_checks": null
+        },
+        {
+          "run": "x11_02",
+          "command_id": "exec-0b14403a-560a-4931-9e35-df35a6527c26",
+          "exit_code": 0,
+          "reported_checks": 37
+        },
+        {
+          "run": "x11_03",
+          "command_id": "exec-65681237-4727-4e2a-a2e9-6610cd237526",
+          "exit_code": 0,
+          "reported_checks": 37
+        },
+        {
+          "run": "x11_04",
+          "command_id": "exec-3f84880d-9647-4823-8dff-62a1a7a35c4c",
+          "exit_code": 0,
+          "reported_checks": 37
+        },
+        {
+          "run": "x11_05",
+          "command_id": "exec-0cb41552-0a3f-4177-8dab-52e571c34db3",
+          "exit_code": 1,
+          "reported_checks": null
+        },
+        {
+          "run": "x11_06",
+          "command_id": "exec-1d2e0f1e-ce4b-4e7a-ba2a-3fb3fb6e5df1",
+          "exit_code": 1,
+          "reported_checks": null
+        },
+        {
+          "run": "x11_07",
+          "command_id": "exec-34d8bc24-0f6c-4f03-9c16-5c9f126d31ad",
+          "exit_code": 1,
+          "reported_checks": null
+        },
+        {
+          "run": "x11_08",
+          "command_id": "exec-f3634831-c614-4d99-9ab9-fb392e7a0c30",
+          "exit_code": 1,
+          "reported_checks": null
+        },
+        {
+          "run": "x11_09",
+          "command_id": "exec-4649ecd5-ff0a-4a14-a173-e32c492e2035",
+          "exit_code": 1,
+          "reported_checks": null
+        },
+        {
+          "run": "x11_10",
+          "command_id": "exec-a89b0c8e-8e64-48cf-b6c8-c7506ec68d0e",
+          "exit_code": 1,
+          "reported_checks": null
+        },
+        {
+          "run": "x11_11",
+          "command_id": "exec-e37e262d-070e-4a88-94c4-a65e20400ef4",
+          "exit_code": 0,
+          "reported_checks": 47
+        },
+        {
+          "run": "x11_12",
+          "command_id": "exec-7be42df8-07f8-4fb4-9fce-391837b7fce9",
+          "exit_code": 0,
+          "reported_checks": 64
+        },
+        {
+          "run": "x11_13",
+          "command_id": "exec-c0580ba3-c6b6-4ddd-a722-3755c1c8ca06",
+          "exit_code": 0,
+          "reported_checks": 64
+        },
+        {
+          "run": "x11_14",
+          "command_id": "exec-f829083d-e37b-43da-963c-f3234becd405",
+          "exit_code": 0,
+          "reported_checks": 65
+        }
+      ],
+      "errors": [],
+      "limitation": "Historical visible output; 7 failures are not an estimated product failure rate"
+    },
+    {
+      "check": "historical_receipt_consistency",
+      "passed": true,
+      "count": 7,
+      "errors": [],
+      "x11_receipts": [
+        {
+          "run": "x11_04",
+          "checks": 37
+        },
+        {
+          "run": "x11_11",
+          "checks": 47
+        },
+        {
+          "run": "x11_12",
+          "checks": 64
+        },
+        {
+          "run": "x11_13",
+          "checks": 64
+        },
+        {
+          "run": "x11_14",
+          "checks": 65
+        }
+      ],
+      "limitation": "Reading existing test output is not rerunning tests"
+    },
+    {
+      "check": "original_message_file_links",
+      "passed": true,
+      "count": 18,
+      "errors": []
+    },
+    {
+      "check": "main_case_quoted_original_text",
+      "passed": true,
+      "count": 5,
+      "errors": []
+    }
+  ],
+  "passed_checks": 8,
+  "total_checks": 8,
+  "all_checks_passed": true
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS_PACKAGING_AND_OFFLINE_CHECKS",
+  "tests": [
+    {
+      "test": "contract_codegen",
+      "exit_code": 0,
+      "tail": "...................\r\n----------------------------------------------------------------------\r\nRan 19 tests in 0.416s\r\n\r\nOK\r\n"
+    },
+    {
+      "test": "reviewed_tools",
+      "exit_code": 0,
+      "tail": "...............................\r\n----------------------------------------------------------------------\r\nRan 31 tests in 1.141s\r\n\r\nOK\r\n"
+    },
+    {
+      "test": "overlay_preflight",
+      "exit_code": 0,
+      "tail": "(__main__.OfflineTests.test_empty_contract) ... ok\r\ntest_environment_mismatch (__main__.OfflineTests.test_environment_mismatch) ... ok\r\ntest_field_drift (__main__.OfflineTests.test_field_drift) ... ok\r\ntest_identity_drift (__main__.OfflineTests.test_identity_drift) ... ok\r\ntest_malformed_metadata_types (__main__.OfflineTests.test_malformed_metadata_types) ... ok\r\ntest_malformed_xml (__main__.OfflineTests.test_malformed_xml) ... ok\r\ntest_manifest_drift (__main__.OfflineTests.test_manifest_drift) ... ok\r\ntest_missing_file (__main__.OfflineTests.test_missing_file) ... ok\r\ntest_missing_ip (__main__.OfflineTests.test_missing_ip) ... ok\r\ntest_missing_register (__main__.OfflineTests.test_missing_register) ... ok\r\ntest_name_mismatch (__main__.OfflineTests.test_name_mismatch) ... ok\r\ntest_normal_and_no_input_writes (__main__.OfflineTests.test_normal_and_no_input_writes) ... ok\r\ntest_null_json (__main__.OfflineTests.test_null_json) ... ok\r\ntest_path_traversal (__main__.OfflineTests.test_path_traversal) ... ok\r\ntest_register_offset (__main__.OfflineTests.test_register_offset) ... ok\r\ntest_register_width (__main__.OfflineTests.test_register_width) ... ok\r\ntest_unknown_config_field (__main__.OfflineTests.test_unknown_config_field) ... ok\r\ntest_wrong_vlnv (__main__.OfflineTests.test_wrong_vlnv) ... ok\r\ntest_xml_entities_rejected (__main__.OfflineTests.test_xml_entities_rejected) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 23 tests in 1.513s\r\n\r\nOK\r\n"
+    }
+  ],
+  "linux_ui": {
+    "status": "PASS_HOST_UI_SMOKE",
+    "architecture": "x86_64",
+    "library_sha256": "fbd139dec94ee4bb743d52444cf279375312a8831a99c1ef72c2a5f8c1cbbfea",
+    "checks": [
+      "mode_0_render",
+      "mode_1_render",
+      "mode_2_render",
+      "previous_next_command_queue",
+      "idle_autohide",
+      "up_down_navigation",
+      "rgb565_copy_exact"
+    ],
+    "board_test": "NOT_RUN",
+    "limits": "Headless x86 Linux render/API test; not ARM binary or real input/display validation."
+  },
+  "native_math": [
+    "212800 local-sum windows",
+    "531441 exhaustive classes + 100000 seeded ray-tally cases"
+  ],
+  "syntax_errors": [],
+  "name_rule": "lowercase_ascii_for_extracted_repository_paths",
+  "archive_crc": "PASS",
+  "private_credential_pattern_scan": "no candidates",
+  "hardware_inputs": "105 code/build/test inputs unchanged; 2 root documentation inputs updated",
+  "original_package_preserved": 876,
+  "hardware_build_this_turn": "NOT_RUN; existing C5/R5 evidence reused",
+  "board_test": "NOT_RUN",
+  "report_edit": "not performed; repository report copied byte-identically",
+  "attempt_notes": [
+    "Word COM export timed out; audited LibreOffice preview instead",
+    "Initial UI attempt on Windows lacked Linux library; used WSL2",
+    "WSL mounted-drive compilation timed out; native Linux workspace build and existing UI venv passed"
+  ]
+}

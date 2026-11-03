@@ -1,0 +1,485 @@
+{
+  "scope": "Windows offline, source snapshots; all hardware objects mocked; no PYNQ import from installation",
+  "codegen": {
+    "registers": {
+      "/board_quantize_rgb_0": 20,
+      "/board_rectify_rgb_0": 15,
+      "/whiteboard_restore_0": 35
+    },
+    "wrong_offsets": 67,
+    "diffs": [
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "GIER",
+        "expected": 4,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "IP_IER",
+        "expected": 8,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "IP_ISR",
+        "expected": 12,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "ap_return",
+        "expected": 16,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "src",
+        "expected": 24,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "canvas_in",
+        "expected": 32,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "canvas_out",
+        "expected": 40,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "metadata",
+        "expected": 48,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "dst",
+        "expected": 56,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "width",
+        "expected": 64,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "height",
+        "expected": 72,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "dst_stride",
+        "expected": 80,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "frame_cookie",
+        "expected": 88,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "metadata_cookie",
+        "expected": 96,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "control",
+        "expected": 104,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "order",
+        "expected": 112,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "ink_delta",
+        "expected": 120,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "erase_delta",
+        "expected": 128,
+        "actual": 0
+      },
+      {
+        "ip": "/board_quantize_rgb_0",
+        "register": "color_margin",
+        "expected": 136,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "GIER",
+        "expected": 4,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "IP_IER",
+        "expected": 8,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "IP_ISR",
+        "expected": 12,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "src",
+        "expected": 16,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "dst",
+        "expected": 24,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "status",
+        "expected": 32,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "hint",
+        "expected": 40,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "corners",
+        "expected": 48,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "binary_enable",
+        "expected": 56,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "mode",
+        "expected": 64,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "threshold",
+        "expected": 72,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "bgr",
+        "expected": 80,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "geometry",
+        "expected": 88,
+        "actual": 0
+      },
+      {
+        "ip": "/board_rectify_rgb_0",
+        "register": "diagnostics",
+        "expected": 96,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "GIER",
+        "expected": 4,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "IP_IER",
+        "expected": 8,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "IP_ISR",
+        "expected": 12,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "ap_return",
+        "expected": 16,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "input_r_1",
+        "expected": 24,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "input_r_2",
+        "expected": 28,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "output_r_1",
+        "expected": 36,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "output_r_2",
+        "expected": 40,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "background_1",
+        "expected": 48,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "background_2",
+        "expected": 52,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "previous_1",
+        "expected": 60,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "previous_2",
+        "expected": 64,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "pixel_quiet_1",
+        "expected": 72,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "pixel_quiet_2",
+        "expected": 76,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "block_state_1",
+        "expected": 84,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "block_state_2",
+        "expected": 88,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "roi_1",
+        "expected": 96,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "roi_2",
+        "expected": 100,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "width",
+        "expected": 108,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "height",
+        "expected": 116,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "initialize",
+        "expected": 124,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "bgr",
+        "expected": 132,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "delta",
+        "expected": 140,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "quiet_delta",
+        "expected": 148,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "dense",
+        "expected": 156,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "weak_threshold",
+        "expected": 164,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "hold",
+        "expected": 172,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "stable_r",
+        "expected": 180,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "quiet_max",
+        "expected": 188,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "chalk_min",
+        "expected": 196,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "chalk_spread",
+        "expected": 204,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "fine_min",
+        "expected": 212,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "fine_spread",
+        "expected": 220,
+        "actual": 0
+      },
+      {
+        "ip": "/whiteboard_restore_0",
+        "register": "red_bias",
+        "expected": 228,
+        "actual": 0
+      }
+    ],
+    "real_header_parsed_counts": {
+      "xboard_rectify_rgb_hw.h": 0,
+      "xwhiteboard_restore_hw.h": 0,
+      "xboard_scene_quantize_hw.h": 0
+    }
+  },
+  "dma": {
+    "timeout_raised": true,
+    "mock_pl_still_busy": true,
+    "same_buffer_reused": true,
+    "buffer_freed_while_busy": true
+  },
+  "overlay_download_false": {
+    "mock_calls": [
+      "clear_stale_state",
+      {
+        "Overlay": {
+          "download": false
+        }
+      }
+    ],
+    "actual_state_modified": false
+  },
+  "benchmark": {
+    "injected_start_s": 0,
+    "injected_events_s": [
+      10,
+      11,
+      12
+    ],
+    "injected_stage_latency_ms": [
+      1,
+      9,
+      1
+    ],
+    "old_results": {
+      "total_frames": 3,
+      "total_elapsed_seconds": 12,
+      "steady_fps": 1.0,
+      "first_frame_latency_ms": 1,
+      "mean_latency_ms": 3.67,
+      "jitter_stdev_ms": 4.62,
+      "p50_latency_ms": 1,
+      "p95_latency_ms": 9,
+      "p99_latency_ms": 9,
+      "bad_frames": 0,
+      "bad_frame_rate": 0.0
+    },
+    "true_start_to_first_ms": 10000,
+    "true_interval_stdev_ms": 0
+  },
+  "input_sha256_before": {
+    "source_skill\\01_overlay_manager\\overlay_loader.py": "7853e0294ddb1f19b1140a48986782e8d3fc5562a3188aeb58a6a05ed2236cac",
+    "source_skill\\01_overlay_manager\\register_map_inspector.py": "43ba3ffcd83ad812a9bcddbc7bb70594398a02a0e965db962915d6e081a7eac3",
+    "source_skill\\01_overlay_manager\\test_overlay_manager.py": "f97d801fcf5ac8a6c3fdfa3eeda41d4b410e3bc235c40fb3ea3bdaf4f6734d86",
+    "source_skill\\01_overlay_manager\\__init__.py": "be7aeaf3ca3796d832d2413bee6a871dc4e2126acca3c9a100f70560be4b631d",
+    "source_skill\\02_dma_buffer_guard\\cache_coherent_guard.py": "77eda10aa883a44c65a4f0e6653226ce59b08eece7be39ec0cce120059b29177",
+    "source_skill\\02_dma_buffer_guard\\dma_buffer_pool.py": "f3e01d0199fc9c0b9e6892294a4dde1dee951d51f7f68f2d3c2cf50c10f31068",
+    "source_skill\\02_dma_buffer_guard\\test_dma_guard.py": "73d279c965241565283712ee2b6505ce1f5851c6c29d18994662a1fd7d5144af",
+    "source_skill\\02_dma_buffer_guard\\__init__.py": "16c62d04f5f72b4c811094e7f5055042910c57e1d8fe0f343f7b861a71cbad3f",
+    "source_skill\\03_contract_codegen\\codegen_pynq_driver.py": "8925a02b16d21eeed1bc8fd2ed8613606e845c817d34bc948f6c1ef1b36011a0",
+    "source_skill\\03_contract_codegen\\example_generated_driver.py": "e79070152e0a79beace2df9aac9cdec77bf8119910f9c11ddd4827d2019cc928",
+    "source_skill\\03_contract_codegen\\test_codegen.py": "788d8c92b8253d9f3a263fe0fc64ba4a96d90d30a8f53f4bafbec4f12ab0fd6d",
+    "source_skill\\03_contract_codegen\\__init__.py": "0bf711d2a33ee63989fb854421a9a116f2ac4f7f1bd63731004664675a296d01",
+    "source_skill\\04_golden_benchmark\\golden_comparator.py": "5921334876c535ed3cbdea9f0d8b6dae851c402967b78b3d8e3cc5ade2714277",
+    "source_skill\\04_golden_benchmark\\pynq_benchmarker.py": "f81959c806d12a794190fb835583de66b90a786b57e97f31087a5983f5eb0a74",
+    "source_skill\\04_golden_benchmark\\test_benchmark.py": "4ec9351517076cdb8c4b21d90064e336b573092b9833577039d69d8b8403a11e",
+    "source_skill\\04_golden_benchmark\\__init__.py": "0464759e046adde40298b784c2a476ddeaccfbfb5f12754982639cdad75c6647",
+    "runtime_v24\\hardware\\imx219-fusion-v24.hwh": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45"
+  },
+  "input_unchanged": true
+}

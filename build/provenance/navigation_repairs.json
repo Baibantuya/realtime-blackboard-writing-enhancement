@@ -1,0 +1,496 @@
+{
+  "repairs": [
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old": "ai_session_workspace/readme.md",
+      "new": "../../../../readme.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old": "ai_session_workspace/requirements_review.md",
+      "new": "../../../../requirements_review.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old": "ai_session_workspace/report/ai_session/readme.md",
+      "new": "../../../../report/ai_session/readme.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old": "ai_session_workspace/report/ai_session/version_and_contribution.md",
+      "new": "../../../../report/ai_session/version_and_contribution.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old": "ai_session_workspace/report/ai_session/readme.md",
+      "new": "../../../../report/ai_session/readme.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old": "ai_session_workspace/report/ai_session/team_review.md",
+      "new": "../../../../report/ai_session/team_review.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old": "ai_session_workspace/missing_items.md",
+      "new": "../../../../missing_items.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "old": "ai_session_workspace/validation_report.md",
+      "new": "../../../../validation_report.md"
+    },
+    {
+      "file": "skill/overlay_preflight/readme.md",
+      "old": "../../v24_review_20261027.md",
+      "new": "../evidence/v24_review_20261027.md"
+    },
+    {
+      "file": "skill/overlay_preflight/skill.md",
+      "old": "../../board_reproduction/entrypoint_conflict.md",
+      "new": "../evidence/board_reproduction/entrypoint_conflict.md"
+    },
+    {
+      "file": "skill/overlay_preflight/workflow.md",
+      "old": "../../board_reproduction/entrypoint_conflict.md",
+      "new": "../evidence/board_reproduction/entrypoint_conflict.md"
+    },
+    {
+      "file": "skill/overlay_preflight/references/provenance.md",
+      "old": "../../../source_inventory.md",
+      "new": "../../evidence/source_inventory.md"
+    },
+    {
+      "file": "skill/overlay_preflight/references/provenance.md",
+      "old": "../../../ai_session_links.md",
+      "new": "../../evidence/ai_session_links.md"
+    },
+    {
+      "file": "skill/overlay_preflight/validation/readme.md",
+      "old": "../../../evidence/20261022/constructed_tests.json",
+      "new": "../../evidence/evidence/20261022/constructed_tests.json"
+    },
+    {
+      "file": "skill/overlay_preflight/validation/readme.md",
+      "old": "../../../evidence/20261022/constructed_tests.log",
+      "new": "../../evidence/evidence/20261022/constructed_tests.log"
+    },
+    {
+      "file": "skill/overlay_preflight/validation/readme.md",
+      "old": "../../../evidence/20261022/v22_preflight.json",
+      "new": "../../evidence/evidence/20261022/v22_preflight.json"
+    },
+    {
+      "file": "skill/overlay_preflight/validation/readme.md",
+      "old": "../../../evidence/20261022/source_review.json",
+      "new": "../../evidence/evidence/20261022/source_review.json"
+    },
+    {
+      "file": "skill/reviewed_tools/readme.md",
+      "old": "../../evidence/20261027/regression_run.json",
+      "new": "../evidence/evidence/20261027/regression_run.json"
+    },
+    {
+      "file": "skill/reviewed_tools/readme.md",
+      "old": "../../evidence/20261027",
+      "new": "../evidence/evidence/20261027"
+    },
+    {
+      "file": "skill/reviewed_tools/skill.md",
+      "old": "../pynq-overlay-preflight/skill.md",
+      "new": "../overlay_preflight/skill.md"
+    },
+    {
+      "file": "skill/reviewed_tools/references/lifecycle.md",
+      "old": "../../../board_reproduction/readme.md",
+      "new": "../../evidence/board_reproduction/readme.md"
+    },
+    {
+      "file": "skill/reviewed_tools/references/troubleshooting.md",
+      "old": "../../../evidence/20261027/candidate_failures.json",
+      "new": "../../evidence/evidence/20261027/candidate_failures.json"
+    },
+    {
+      "file": "skill/reviewed_tools/references/validation_matrix.md",
+      "old": "../../../evidence/20261027/input_review.json",
+      "new": "../../evidence/evidence/20261027/input_review.json"
+    },
+    {
+      "file": "skill/reviewed_tools/references/validation_matrix.md",
+      "old": "../../../evidence/20261027/candidate_failures.json",
+      "new": "../../evidence/evidence/20261027/candidate_failures.json"
+    },
+    {
+      "file": "skill/reviewed_tools/references/validation_matrix.md",
+      "old": "../../../evidence/20261027/regression_run.json",
+      "new": "../../evidence/evidence/20261027/regression_run.json"
+    },
+    {
+      "file": "skill/reviewed_tools/references/validation_matrix.md",
+      "old": "../../../evidence/20261027/v24_contract_regression.json",
+      "new": "../../evidence/evidence/20261027/v24_contract_regression.json"
+    },
+    {
+      "file": "skill/evidence/v24_review_20261027.md",
+      "old": "skill/v24-reviewed-tools/README.md",
+      "new": "skill/v24-reviewed-tools/readme.md"
+    },
+    {
+      "file": "skill/evidence/v24_review_20261027.md",
+      "old": "evidence/20261027/v24_preflight.json",
+      "new": "evidence/20261027/v24_preflight.json"
+    },
+    {
+      "file": "skill/evidence/v24_review_20261027.md",
+      "old": "evidence/20261027/reviewed_tools_tests.log",
+      "new": "evidence/20261027/reviewed_tools_tests.log"
+    },
+    {
+      "file": "skill/evidence/v24_review_20261027.md",
+      "old": "evidence/20261027/historical_preflight_tests_rerun.log",
+      "new": "evidence/20261027/historical_preflight_tests_rerun.log"
+    },
+    {
+      "file": "skill/evidence/v24_review_20261027.md",
+      "old": "board_reproduction/migration_v24_2025_2.md",
+      "new": "board_reproduction/migration_v24_2025_2.md"
+    },
+    {
+      "file": "skill/evidence/v24_review_20261027.md",
+      "old": "missing_items.md",
+      "new": "missing_items.md"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "new": "evidence/20261027/handoff/pynq_sync_v24_20261027.md"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261027/source_skill",
+      "new": "evidence/20261027/source_skill"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261027/handoff/V24最终素材核验与Word报告交接_20261026.md",
+      "new": "evidence/20261027/handoff/v24_material_report_handoff_20261026.md"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261027/handoff/pynq_codegen_audit.json",
+      "new": "evidence/20261027/handoff/pynq_codegen_audit.json"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261027/runtime_v24",
+      "new": "evidence/20261027/runtime_v24"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261027/migration",
+      "new": "evidence/20261027/migration"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261027/migration_interface_review.json",
+      "new": "evidence/20261027/migration_interface_review.json"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261022/collection.json",
+      "new": "evidence/20261022/collection.json"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261022/competition_section_3_3.txt",
+      "new": "evidence/20261022/competition_section_3_3.txt"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "old": "evidence/20261022/archive_entries.json",
+      "new": "evidence/20261022/archive_entries.json"
+    },
+    {
+      "file": "skill/evidence/ai_session_links.md",
+      "old": "skill/pynq-overlay-preflight/SKILL.md",
+      "new": "skill/pynq-overlay-preflight/skill.md"
+    },
+    {
+      "file": "skill/evidence/board_reproduction/readme.md",
+      "old": "environment.md",
+      "new": "environment.md"
+    },
+    {
+      "file": "skill/evidence/board_reproduction/readme.md",
+      "old": "validation_plan.md",
+      "new": "validation_plan.md"
+    },
+    {
+      "file": "skill/evidence/skill/v24-reviewed-tools/readme.md",
+      "old": "references/validation_matrix.md",
+      "new": "references/validation_matrix.md"
+    },
+    {
+      "file": "skill/evidence/skill/pynq-overlay-preflight/skill.md",
+      "old": "README.md",
+      "new": "readme.md"
+    },
+    {
+      "file": "skill/evidence/skill/pynq-overlay-preflight/skill.md",
+      "old": "workflow.md",
+      "new": "workflow.md"
+    },
+    {
+      "file": "skill/evidence/skill/pynq-overlay-preflight/skill.md",
+      "old": "references/configuration.md",
+      "new": "references/configuration.md"
+    },
+    {
+      "file": "skill/evidence/skill/v24-reviewed-tools/references/validation_matrix.md",
+      "old": "troubleshooting.md",
+      "new": "troubleshooting.md"
+    },
+    {
+      "file": "skill/evidence/skill/v24-reviewed-tools/references/validation_matrix.md",
+      "old": "prompt_workflows.md",
+      "new": "prompt_workflows.md"
+    },
+    {
+      "file": "skill/evidence/skill/pynq-overlay-preflight/readme.md",
+      "old": "examples/v24_slim_profile.json",
+      "new": "examples/v24_slim_profile.json"
+    },
+    {
+      "file": "skill/evidence/skill/pynq-overlay-preflight/readme.md",
+      "old": "validation/README.md",
+      "new": "validation/readme.md"
+    },
+    {
+      "file": "skill/evidence/skill/pynq-overlay-preflight/readme.md",
+      "old": "references/provenance.md",
+      "new": "references/provenance.md"
+    },
+    {
+      "file": "skill/evidence/skill/pynq-overlay-preflight/references/configuration.md",
+      "old": "../examples/v22_profile.json",
+      "new": "../examples/v22_profile.json"
+    }
+  ],
+  "added_skill_sources": [
+    {
+      "path": "skill/evidence/v24_review_20261027.md",
+      "source": "v24_review_20261027.md",
+      "source_sha256": "236a24dcf8c674884e1d089ba718aca526f1ad1255ff8b3df1a11a40b714713d"
+    },
+    {
+      "path": "skill/evidence/board_reproduction/entrypoint_conflict.md",
+      "source": "board_reproduction/entrypoint_conflict.md",
+      "source_sha256": "536c5054fb725153e3d37f6861d7e9093a4eaa865b5f305e890ddca13a3857df"
+    },
+    {
+      "path": "skill/evidence/board_reproduction/entrypoint_conflict.md",
+      "source": "board_reproduction/entrypoint_conflict.md",
+      "source_sha256": "536c5054fb725153e3d37f6861d7e9093a4eaa865b5f305e890ddca13a3857df"
+    },
+    {
+      "path": "skill/evidence/source_inventory.md",
+      "source": "source_inventory.md",
+      "source_sha256": "4ffed8a0aea50ba530a698c1f09acb50b15bc829625390d4b77c902c7917bc9c"
+    },
+    {
+      "path": "skill/evidence/ai_session_links.md",
+      "source": "ai_session_links.md",
+      "source_sha256": "fb5f767142d929c8e26f51bc4c4a3843b211df0989d01b2bc6b8f020c53fdd0d"
+    },
+    {
+      "path": "skill/evidence/evidence/20261022/constructed_tests.json",
+      "source": "evidence/20261022/constructed_tests.json",
+      "source_sha256": "f23a1d3623f392b2c2e8339e000a794da13d64b7c98540fde031a38454462768"
+    },
+    {
+      "path": "skill/evidence/evidence/20261022/constructed_tests.log",
+      "source": "evidence/20261022/constructed_tests.log",
+      "source_sha256": "af06a41f8ee301a3206356f2f4603a10d36247554a3862c12ffa29728ae73829"
+    },
+    {
+      "path": "skill/evidence/evidence/20261022/v22_preflight.json",
+      "source": "evidence/20261022/v22_preflight.json",
+      "source_sha256": "5bd8ee9f228e21fdf7fb89dcf46c77e36ea98ae7f54d48e83c4ffdd066fcb985"
+    },
+    {
+      "path": "skill/evidence/evidence/20261022/source_review.json",
+      "source": "evidence/20261022/source_review.json",
+      "source_sha256": "9e796ec44bb22d79b12b83db1a4e30f79ca6458eaa2a5206d6ff9c1ecb905298"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/regression_run.json",
+      "source": "evidence/20261027/regression_run.json",
+      "source_sha256": "2616b4eeddef9e402dcd0542a52780107c6904f51a376849c0292ecfa9b7750f"
+    },
+    {
+      "path": "skill/evidence/board_reproduction/readme.md",
+      "source": "board_reproduction/readme.md",
+      "source_sha256": "a50a58c1ed019010a406456ae9c84e9aeeb81ab0c409e37e0581ab03b36be605"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/candidate_failures.json",
+      "source": "evidence/20261027/candidate_failures.json",
+      "source_sha256": "73275514630fc71af4891836b494c36d6842ef22e5f457afb2b12eb744a5975d"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/input_review.json",
+      "source": "evidence/20261027/input_review.json",
+      "source_sha256": "b2890238ced05bcefcc89a827dd6161abb5b7ca7278bf6943356d3d3c1caf4c8"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/candidate_failures.json",
+      "source": "evidence/20261027/candidate_failures.json",
+      "source_sha256": "73275514630fc71af4891836b494c36d6842ef22e5f457afb2b12eb744a5975d"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/regression_run.json",
+      "source": "evidence/20261027/regression_run.json",
+      "source_sha256": "2616b4eeddef9e402dcd0542a52780107c6904f51a376849c0292ecfa9b7750f"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/v24_contract_regression.json",
+      "source": "evidence/20261027/v24_contract_regression.json",
+      "source_sha256": "dfbcca7936523b0143e0141c909aad3e205009b17cc50022a710026165de52e4"
+    },
+    {
+      "path": "skill/evidence/skill/v24-reviewed-tools/readme.md",
+      "source": "skill/v24-reviewed-tools/README.md",
+      "source_sha256": "5b9a51394f75542ab2ef56029da2a6e118e8d02bc46915fdfa11b3f3a3ca12f2"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/v24_preflight.json",
+      "source": "evidence/20261027/v24_preflight.json",
+      "source_sha256": "e6c4f2738d3e67fad56dba71d226de0dd0d5196ed3929adb269f2b681a7338b5"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/reviewed_tools_tests.log",
+      "source": "evidence/20261027/reviewed_tools_tests.log",
+      "source_sha256": "b9309990d92e11b573212860bacbd098ec033667e377cdf82db9a14b4b789a24"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/historical_preflight_tests_rerun.log",
+      "source": "evidence/20261027/historical_preflight_tests_rerun.log",
+      "source_sha256": "cd17589d166616305a8dfbeb178ed174e0239c5b16c37b9cb237170e04300813"
+    },
+    {
+      "path": "skill/evidence/board_reproduction/migration_v24_2025_2.md",
+      "source": "board_reproduction/migration_v24_2025_2.md",
+      "source_sha256": "558717d3c83bd40820f7c0bfe5d06496cbcd9b96dc0fdf00be977ecf60d829ce"
+    },
+    {
+      "path": "skill/evidence/missing_items.md",
+      "source": "missing_items.md",
+      "source_sha256": "813874743df8b8b093dc475b162ed8542812e20a4159608d13d40d60c90b3e43"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "source": "evidence/20261027/handoff/pynq_sync_v24_20261027.md",
+      "source_sha256": "f38eec50b5b044e2d45988704a986c5f2a5dfa39a972bbf04336bddd7e778e13"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/handoff/v24_material_report_handoff_20261026.md",
+      "source": "evidence/20261027/handoff/V24最终素材核验与Word报告交接_20261026.md",
+      "source_sha256": "ff07556080167f964723aa3dd3d98e003c9b0f5c7b260f52dc0a9bae88058094"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/handoff/pynq_codegen_audit.json",
+      "source": "evidence/20261027/handoff/pynq_codegen_audit.json",
+      "source_sha256": "cf093b7d4fd7b576779e8155883494b5751ec81decfa97471348470858f347ff"
+    },
+    {
+      "path": "skill/evidence/evidence/20261027/migration_interface_review.json",
+      "source": "evidence/20261027/migration_interface_review.json",
+      "source_sha256": "e096fa4fa61b89cb3a312b1a315b5144836f80c9148c13fcf5c7d78b1b59d41e"
+    },
+    {
+      "path": "skill/evidence/evidence/20261022/collection.json",
+      "source": "evidence/20261022/collection.json",
+      "source_sha256": "a4954e2100661d122dc779c405b44d9b8595c0f657b45122a05f6029a70c3ec4"
+    },
+    {
+      "path": "skill/evidence/evidence/20261022/competition_section_3_3.txt",
+      "source": "evidence/20261022/competition_section_3_3.txt",
+      "source_sha256": "81f6251e8bba9053779976f30fc723ecb64eb478da16f1bc4f69c06df6607b8b"
+    },
+    {
+      "path": "skill/evidence/evidence/20261022/archive_entries.json",
+      "source": "evidence/20261022/archive_entries.json",
+      "source_sha256": "21df0dc0eb7b7797052490c8c3054c55ef4b821a4e3c14abe8b8c4143ef69a95"
+    },
+    {
+      "path": "skill/evidence/skill/pynq-overlay-preflight/skill.md",
+      "source": "skill/pynq-overlay-preflight/SKILL.md",
+      "source_sha256": "f156114b41cccc8d0b3d3eb01fcf7b7ab77a39cd060acb19422ad8096ae508e1"
+    },
+    {
+      "path": "skill/evidence/board_reproduction/environment.md",
+      "source": "board_reproduction/environment.md",
+      "source_sha256": "fea553ac7dbab07188dbfe1c104fe631f111b10e44fb065ecfa1d3de505bad65"
+    },
+    {
+      "path": "skill/evidence/board_reproduction/validation_plan.md",
+      "source": "board_reproduction/validation_plan.md",
+      "source_sha256": "1436d80e4ed28ca4d3f503480de74df7664156abfb54c389f767bfd2aea4745d"
+    },
+    {
+      "path": "skill/evidence/skill/v24-reviewed-tools/references/validation_matrix.md",
+      "source": "skill/v24-reviewed-tools/references/validation_matrix.md",
+      "source_sha256": "c9dc10aeb230373710378e4fd4fd7c22cc1df96f7b9b0b789214b1e75f11a2c1"
+    },
+    {
+      "path": "skill/evidence/skill/pynq-overlay-preflight/readme.md",
+      "source": "skill/pynq-overlay-preflight/README.md",
+      "source_sha256": "559d4a1e1500c903714d8acb2a261bb9a4e9ea8f4aaeb3bc5a58a5729ed2796a"
+    },
+    {
+      "path": "skill/evidence/skill/pynq-overlay-preflight/workflow.md",
+      "source": "skill/pynq-overlay-preflight/workflow.md",
+      "source_sha256": "75e6b2ee3cf193e2164aeac1e2e1bcb27d9411da0dff3017ac1adfe794a45722"
+    },
+    {
+      "path": "skill/evidence/skill/pynq-overlay-preflight/references/configuration.md",
+      "source": "skill/pynq-overlay-preflight/references/configuration.md",
+      "source_sha256": "76f7a4e5a4097bfba32a14fa61803feb455d3c7f8f9a3e559b457c24bed6f863"
+    },
+    {
+      "path": "skill/evidence/skill/v24-reviewed-tools/references/troubleshooting.md",
+      "source": "skill/v24-reviewed-tools/references/troubleshooting.md",
+      "source_sha256": "8666190eb38ed827e22bdae5346b80f02a4926ae2e599c5a62a1b76c8357e9b5"
+    },
+    {
+      "path": "skill/evidence/skill/v24-reviewed-tools/references/prompt_workflows.md",
+      "source": "skill/v24-reviewed-tools/references/prompt_workflows.md",
+      "source_sha256": "c4ccb5ac04c2aabdca0efe3fa718dacb5f32aa7fd4d6b05986b66e7a16d53917"
+    },
+    {
+      "path": "skill/evidence/skill/pynq-overlay-preflight/examples/v24_slim_profile.json",
+      "source": "skill/pynq-overlay-preflight/examples/v24_slim_profile.json",
+      "source_sha256": "d6fae76a526d109f7ad22bf0bea119588c84be0879386879cf20d01c1f851927"
+    },
+    {
+      "path": "skill/evidence/skill/pynq-overlay-preflight/validation/readme.md",
+      "source": "skill/pynq-overlay-preflight/validation/README.md",
+      "source_sha256": "8f2aeadb7ca7e0aa1fd6654f0824d68f3e05e96deb5fd4b1f4b59bd810388a92"
+    },
+    {
+      "path": "skill/evidence/skill/pynq-overlay-preflight/references/provenance.md",
+      "source": "skill/pynq-overlay-preflight/references/provenance.md",
+      "source_sha256": "e93cfd851728e723a597cc66eba36142f206dc25dd4857fd28c9375fbe2dbdbe"
+    },
+    {
+      "path": "skill/evidence/skill/pynq-overlay-preflight/examples/v22_profile.json",
+      "source": "skill/pynq-overlay-preflight/examples/v22_profile.json",
+      "source_sha256": "6a98356604d38206267b808b59be5e8b287b82082ad2824c3de4f994bfb116a9"
+    }
+  ],
+  "filename_translation": {
+    "original": "v24最终素材核验与word报告交接_20261026.md",
+    "published": "v24_material_report_handoff_20261026.md",
+    "scope": "publication filename only; original source remains unchanged"
+  }
+}

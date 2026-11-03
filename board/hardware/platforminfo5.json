@@ -1,0 +1,102 @@
+{
+    "versionMajor": "0",
+    "versionMinor": "0",
+    "usesPR": "false",
+    "platformState": "pre_synth",
+    "acceleratorBinaryFormat": "xclbin2",
+    "acceleratorBinaryContent": "bitstream",
+    "validAcceleratorBinaryContentValues": "dcp,bitstream",
+    "dcpFunctionStripped": "false",
+    "dcpEncrypted": "false",
+    "defaultOutputType": "hw_export",
+    "designIntent": {
+        "dataCenter": {
+            "value": "false",
+            "explicit": "false"
+        },
+        "embedded": {
+            "value": "true",
+            "explicit": "false"
+        },
+        "externalHost": {
+            "value": "false",
+            "explicit": "false"
+        },
+        "serverManaged": {
+            "value": "false",
+            "explicit": "false"
+        }
+    },
+    "board": {
+        "name": "xilinx.com:kv260_som:1.2",
+        "vendor": "xilinx.com",
+        "part": "XCK26-SFVC784-2LV-C",
+        "boardPart": "xilinx.com:kv260_som:part0:1.2",
+        "imageFileHdpi": "vsom_kit.jpg"
+    },
+    "devices": [
+        {
+            "name": "fpga0",
+            "type": "8",
+            "fpgaPart": "zynquplus:xck26:sfvc784:-2LV:c",
+            "part": {
+                "name": "xck26-sfvc784-2LV-c",
+                "architecture": "zynquplus",
+                "device": "xck26",
+                "package": "sfvc784",
+                "speedGrade": "-2LV",
+                "tempGrade": "c"
+            },
+            "numSLRs": "1",
+            "core": {
+                "name": "OCL_REGION_0",
+                "type": "clc_region",
+                "numComputeUnits": "60",
+                "availableResources": {
+                    "bramCount": "63",
+                    "dspCount": "409",
+                    "lutCount": "41803",
+                    "registerCount": "142113"
+                }
+            }
+        }
+    ],
+    "files": [
+        {
+            "name": "imx219-v24-2025-2-c5.bit",
+            "type": "FULL_BIT"
+        },
+        {
+            "name": "imx219-v24-2025-2-c5.nts",
+            "type": "NOC_TRAFFIC"
+        }
+    ],
+    "vendor": "xilinx",
+    "boardId": "kv260_som_som240_1_connector_kv260_carrier_som240_1_connector",
+    "uniqueName": "xilinx:kv260_som_som240_1_connector_kv260_carrier_som240_1_connector::0.0",
+    "fpgaPart": "zynquplus",
+    "fpgaDevice": "xck26",
+    "platformFile": "W:\/hardware_candidate5\/imx219-v24-2025-2-c5.xsa",
+    "unifiedPlatform": "true",
+    "expandablePlatform": "false",
+    "hardware": "true",
+    "softwareEmulation": "true",
+    "hardwareEmulation": "false",
+    "hardwareEmuPlatform": "false",
+    "usesNIFD": "false",
+    "generatedName": "Vivado",
+    "generatedVersion": "2025.2",
+    "generatedChangeList": "6299465",
+    "generatedTimestamp": "Wed Oct 28 18:29:20 2026",
+    "idCode": "04a49093",
+    "designIDs": {
+        "designID": "3582626272"
+    },
+    "resources": [
+        {
+            "type": "REG",
+            "count": "142113"
+        }
+    ]
+}
+

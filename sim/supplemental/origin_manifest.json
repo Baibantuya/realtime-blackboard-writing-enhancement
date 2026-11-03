@@ -1,0 +1,56 @@
+{
+  "protected_inputs": {
+    "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\codegen_pynq_driver.py": {
+      "sha256": "8925a02b16d21eeed1bc8fd2ed8613606e845c817d34bc948f6c1ef1b36011a0",
+      "copy": "codegen/before.py"
+    },
+    "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\test_codegen.py": {
+      "sha256": "788d8c92b8253d9f3a263fe0fc64ba4a96d90d30a8f53f4bafbec4f12ab0fd6d",
+      "copy": "codegen/test_codegen_original.py"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\src\\pl\\rtl\\axis_ae_status.v": {
+      "sha256": "425a56afbb2425a3d512f14a9339fcdd7ad4216d4fbb777c8615f5bbe9ef3621",
+      "copy": "ae/rtl/axis_ae_status.v"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\src\\pl\\rtl\\axis_luma_meter.sv": {
+      "sha256": "e4d4bf2fa24d45648f021310a3e437934427be66503db5e946177933d9d32ed6",
+      "copy": "ae/rtl/axis_luma_meter.sv"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\src\\pl\\rtl\\ae_controller.sv": {
+      "sha256": "089d8f135587b70a2f88b52865cf6ede4fba92ac0064f6d3ec482d2b847ee611",
+      "copy": "ae/rtl/ae_controller.sv"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\src\\pl\\hls\\board_rectify_rgb.cpp": {
+      "sha256": "5bdea7222280f8003d2247678914d8a759003571999cec401a4d782694230499",
+      "copy": "rectify/src/board_rectify_rgb.cpp"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\src\\pl\\hls\\rgb565.h": {
+      "sha256": "b9a14553d80e006afbd613def89280da200924a5af1a29bda3c7b047daf4cf7e",
+      "copy": "rectify/src/rgb565.h"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\sim\\tb\\test_rectify.cpp": {
+      "sha256": "8fb28794804edf8981d2530bd9eaebe78cc68e3bbf63497d335827d7612acade",
+      "copy": "rectify/tb/test_rectify_original.cpp"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\sim\\tb\\tb_reset.sv": {
+      "sha256": "88d50f3d9c21b1953670ba4415ca798345a5e69ed05c79b2a1ae5dcec9145c94",
+      "copy": "cdc/tb_reset_original.sv"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\clean5_final_status.json": {
+      "sha256": "9cebecace3238d48c93643386be15dc5e34e8a306fc1c04776c31585ffd0599c"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\report_review_r5_i.json": {
+      "sha256": "75c832f3ff54f7ef800787c56ca3ad14c21e4c96829dbe66a472ff55e7e70fce"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\cdc_evidence_r5_i.json": {
+      "sha256": "caf8a114ec624a22645fa9c90b4e2d457d7963503e83487e1a7eba02bb6aec62"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\r5\\build\\source_manifest.json": {
+      "sha256": "d2caa61887df2a1b5e7e58dbe9824cc312ce9f139c60f85a9956b46239bd0e03"
+    },
+    "D:\\2026嵌赛\\v24_2025_2\\hardware_candidate5\\pairing_validation.json": {
+      "sha256": "ff2d941803500641129ab7ebe0c40baa38419cb181e97f2e5619b823890e4541"
+    }
+  },
+  "board_test": "OUT_OF_SCOPE"
+}

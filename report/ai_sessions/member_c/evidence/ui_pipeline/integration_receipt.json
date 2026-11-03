@@ -1,0 +1,14 @@
+{
+  "previous_candidate_files_verified": 277,
+  "current_runtime_files": 285,
+  "software_tests": 96,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "hardware_modified": false,
+  "board_tested": false,
+  "arm_build_tested": false,
+  "regression": "evidence/regression_03/validation.json",
+  "window": "evidence/window_grouped_01/interaction.json",
+  "notes": "Final window layout unchanged; scanout reservation concurrency subsequently tested in regression_03."
+}

@@ -1,0 +1,71 @@
+Start testing: Oct 18 02:12 CST
+----------------------------------------------------------
+1/4 Testing: control
+1/4 Test: control
+Command: "/home/ubuntu/board-system/ui-linux-20261018/build/board_light_control_test"
+Directory: /home/ubuntu/board-system/ui-linux-20261018/build
+"control" start time: Oct 18 02:12 CST
+Output:
+----------------------------------------------------------
+control: PASS (confirmation, independent modes, invalidation, ACK, stale frame, disconnect)
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"control" end time: Oct 18 02:12 CST
+"control" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: diagnostics
+2/4 Test: diagnostics
+Command: "/home/ubuntu/board-system/ui-linux-20261018/build/board_light_diagnostics_test"
+Directory: /home/ubuntu/board-system/ui-linux-20261018/build
+"diagnostics" start time: Oct 18 02:12 CST
+Output:
+----------------------------------------------------------
+diagnostics: PASS (frame/source/config/geometry, expiry, late revision, bounded regions, unavailable metrics)
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"diagnostics" end time: Oct 18 02:12 CST
+"diagnostics" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: diagnostic_inbox
+3/4 Test: diagnostic_inbox
+Command: "/home/ubuntu/board-system/ui-linux-20261018/build/board_light_inbox_test"
+Directory: /home/ubuntu/board-system/ui-linux-20261018/build
+"diagnostic_inbox" start time: Oct 18 02:12 CST
+Output:
+----------------------------------------------------------
+inbox: PASS (FIFO, copied payload, overflow/recovery, counter wrap, 50000 threaded posts; received=49551 losses=64; host bytes=2448)
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"diagnostic_inbox" end time: Oct 18 02:12 CST
+"diagnostic_inbox" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: linux_display_input
+4/4 Test: linux_display_input
+Command: "/home/ubuntu/board-system/ui-linux-20261018/build/board_light_preview_linux" "--selftest" "--headless"
+Directory: /home/ubuntu/board-system/ui-linux-20261018/build
+"linux_display_input" start time: Oct 18 02:12 CST
+Output:
+----------------------------------------------------------
+Linux backend: SDL dummy; renderer software; software=1; LVGL ARGB8888
+view: PASS (modal, draft, recovery wording, disconnect, collapse, idle timeout/input reset/modal protection, focus, glyphs, bounds, diagnostic expiry/geometry, queued delivery/overflow/resync)
+1080p: PASS (1920x1080 renderer readback matches every native composited pixel)
+LVGL pool: total=517096 used=32160 peak=58096 bytes
+SDL: PASS (3 window sizes, letterboxing, rapid clicks, keyboard, modal edits/cancel, confirmation, recovery, collapse, disconnect, lost focus, ARGB renderer readback)
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"linux_display_input" end time: Oct 18 02:12 CST
+"linux_display_input" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 18 02:12 CST

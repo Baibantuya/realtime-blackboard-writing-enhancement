@@ -1,0 +1,2026 @@
+{
+  "scope": "WSL2 recorded-video software replay; no KV260, PL, live capture or hardware scanout",
+  "video": "/mnt/d/2026嵌赛/实时板书增强系统/工作空间/A和B发送的资料/新阶段/测试视频1.mp4",
+  "start_frame": 212,
+  "elapsed_s": 8.011610843,
+  "decoded_frames": 208,
+  "display_submissions": 208,
+  "recognition_submissions": 16,
+  "recognition_completed": 16,
+  "min_sample_gap_s": 0.5174168689999998,
+  "observed_display_submission_hz": 25.9623194481215,
+  "window_enabled": true,
+  "independent_refresh_confirmed": true,
+  "states": [
+    "search",
+    "up_then_clockwise"
+  ],
+  "worker_closed": true,
+  "assets_sha256": "47a88ae12f553d35628a97c74fb4b52144748087e4e9f01ddf69cfa2972b2515",
+  "recognition": {
+    "board_hz": 2.0,
+    "submitted": 16,
+    "completed": 16,
+    "discarded": 0,
+    "inflight": false,
+    "valid": true,
+    "failure": null,
+    "bounds": [
+      152,
+      24,
+      1823,
+      655
+    ],
+    "physical_edges": 4,
+    "quality": 0.9335617880549733,
+    "sample_size": [
+      480,
+      270
+    ],
+    "controls_restoration": false,
+    "input_size": [
+      1920,
+      1080
+    ],
+    "edges": {
+      "top": {
+        "valid": true,
+        "angle_degrees": -4.842572273894134,
+        "samples": 96,
+        "inliers": 96,
+        "contrast": 67.0
+      },
+      "bottom": {
+        "valid": true,
+        "angle_degrees": -5.527611923468767,
+        "samples": 96,
+        "inliers": 84,
+        "contrast": 84.5
+      },
+      "left": {
+        "valid": true,
+        "angle_degrees": 5.313909040698865,
+        "samples": 96,
+        "inliers": 81,
+        "contrast": 66.0
+      },
+      "right": {
+        "valid": true,
+        "angle_degrees": 5.366888068255549,
+        "samples": 96,
+        "inliers": 76,
+        "contrast": 45.0
+      }
+    },
+    "region_fraction": 0.38057484567901234,
+    "small": false,
+    "source": "coarse_green_board",
+    "stable": true,
+    "elapsed_ms": 14.209065999999382,
+    "proposal": "up",
+    "next_state": "clockwise",
+    "confirmations": 9,
+    "sequence": 417,
+    "sampled_at": 11.117375719
+  },
+  "trace": [
+    {
+      "time": 1.1180000001331791e-06,
+      "sequence": 212,
+      "state": "search",
+      "submitted": 1,
+      "completed": 0,
+      "generation": 0,
+      "restore_safe": true
+    },
+    {
+      "time": 0.14150516800000013,
+      "sequence": 213,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.18521889800000002,
+      "sequence": 214,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.21899273700000021,
+      "sequence": 215,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.25870920500000016,
+      "sequence": 216,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.3033259140000002,
+      "sequence": 217,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.33865916100000026,
+      "sequence": 218,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.37799311300000005,
+      "sequence": 219,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.41512422000000004,
+      "sequence": 220,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.4534228800000002,
+      "sequence": 221,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.48901635600000004,
+      "sequence": 222,
+      "state": "search",
+      "submitted": 1,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.5294517790000004,
+      "sequence": 223,
+      "state": "search",
+      "submitted": 2,
+      "completed": 1,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.5739376480000002,
+      "sequence": 224,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.6711772100000002,
+      "sequence": 225,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.708805361,
+      "sequence": 226,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.748892884,
+      "sequence": 227,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.784868103,
+      "sequence": 228,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.8231311249999997,
+      "sequence": 229,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.8604724060000004,
+      "sequence": 230,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.8991888320000001,
+      "sequence": 231,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.9350078499999999,
+      "sequence": 232,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 0.9748006500000006,
+      "sequence": 233,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.01058249,
+      "sequence": 234,
+      "state": "up_then_clockwise",
+      "submitted": 2,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.0486161670000005,
+      "sequence": 235,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 2,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.1009704280000001,
+      "sequence": 236,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.1395959830000004,
+      "sequence": 237,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.1750140719999997,
+      "sequence": 238,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.2130930370000002,
+      "sequence": 239,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.2482060860000006,
+      "sequence": 240,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.2858975940000006,
+      "sequence": 241,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.3258729960000002,
+      "sequence": 242,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.3637446020000006,
+      "sequence": 243,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.3973355029999999,
+      "sequence": 244,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.433322574,
+      "sequence": 245,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.4702052879999998,
+      "sequence": 246,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.5044560740000001,
+      "sequence": 247,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.54388345,
+      "sequence": 248,
+      "state": "up_then_clockwise",
+      "submitted": 3,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.5806543560000001,
+      "sequence": 249,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 3,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.6290727590000005,
+      "sequence": 250,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.664380533,
+      "sequence": 251,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.7031019760000001,
+      "sequence": 252,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.7384967280000003,
+      "sequence": 253,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.7769039170000003,
+      "sequence": 254,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.8136708750000006,
+      "sequence": 255,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.8509706320000001,
+      "sequence": 256,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.887710641,
+      "sequence": 257,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.9247873800000006,
+      "sequence": 258,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.963062044,
+      "sequence": 259,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 1.997618815,
+      "sequence": 260,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.0330197439999997,
+      "sequence": 261,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.072783729,
+      "sequence": 262,
+      "state": "up_then_clockwise",
+      "submitted": 4,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.1082626810000002,
+      "sequence": 263,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 4,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.153848667,
+      "sequence": 264,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.190422475,
+      "sequence": 265,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.2295749570000005,
+      "sequence": 266,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.2666848020000003,
+      "sequence": 267,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.3022275160000003,
+      "sequence": 268,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.3398991450000004,
+      "sequence": 269,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.3756645790000004,
+      "sequence": 270,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.412894605,
+      "sequence": 271,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.448653791,
+      "sequence": 272,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.484499057,
+      "sequence": 273,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.523609973,
+      "sequence": 274,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.558563535,
+      "sequence": 275,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.592112083,
+      "sequence": 276,
+      "state": "up_then_clockwise",
+      "submitted": 5,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.628614828,
+      "sequence": 277,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 5,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.670622153,
+      "sequence": 278,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.706737642,
+      "sequence": 279,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.745720726,
+      "sequence": 280,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.7814803780000004,
+      "sequence": 281,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.821936298,
+      "sequence": 282,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.8598281760000006,
+      "sequence": 283,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.899440331,
+      "sequence": 284,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.9396749180000006,
+      "sequence": 285,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 2.978294657,
+      "sequence": 286,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.0132520830000002,
+      "sequence": 287,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.0492720680000005,
+      "sequence": 288,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.086470364,
+      "sequence": 289,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.1264728120000003,
+      "sequence": 290,
+      "state": "up_then_clockwise",
+      "submitted": 6,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.162938178,
+      "sequence": 291,
+      "state": "up_then_clockwise",
+      "submitted": 7,
+      "completed": 6,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.2063016090000005,
+      "sequence": 292,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.2429323530000005,
+      "sequence": 293,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.2834548970000004,
+      "sequence": 294,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.319601327,
+      "sequence": 295,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.3596846760000005,
+      "sequence": 296,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.3961836100000005,
+      "sequence": 297,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.436895379,
+      "sequence": 298,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.4731160040000004,
+      "sequence": 299,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.512800509,
+      "sequence": 300,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.551664092,
+      "sequence": 301,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.5875678530000004,
+      "sequence": 302,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.625034477,
+      "sequence": 303,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.663182052,
+      "sequence": 304,
+      "state": "search",
+      "submitted": 7,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.7021467800000005,
+      "sequence": 305,
+      "state": "search",
+      "submitted": 8,
+      "completed": 7,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.7408306590000002,
+      "sequence": 306,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.7775217680000006,
+      "sequence": 307,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.817264003,
+      "sequence": 308,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.8532743920000003,
+      "sequence": 309,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.8912983500000005,
+      "sequence": 310,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.927986388,
+      "sequence": 311,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 3.966339349,
+      "sequence": 312,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.0019105680000004,
+      "sequence": 313,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.040090794,
+      "sequence": 314,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.078708821,
+      "sequence": 315,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.114251924,
+      "sequence": 316,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.151511747,
+      "sequence": 317,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.187940674,
+      "sequence": 318,
+      "state": "search",
+      "submitted": 8,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.222364125,
+      "sequence": 319,
+      "state": "search",
+      "submitted": 9,
+      "completed": 8,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.264264894,
+      "sequence": 320,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.303470926,
+      "sequence": 321,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.339009341000001,
+      "sequence": 322,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.377161698,
+      "sequence": 323,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.413725022,
+      "sequence": 324,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.452671836,
+      "sequence": 325,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.4879886120000005,
+      "sequence": 326,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.5251984,
+      "sequence": 327,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.560239329,
+      "sequence": 328,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.598134626,
+      "sequence": 329,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.633527025,
+      "sequence": 330,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.671621836,
+      "sequence": 331,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.7102621220000005,
+      "sequence": 332,
+      "state": "up_then_clockwise",
+      "submitted": 9,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.7445191190000005,
+      "sequence": 333,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 9,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.787670181,
+      "sequence": 334,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.823689938,
+      "sequence": 335,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.857911991000001,
+      "sequence": 336,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.894204299000001,
+      "sequence": 337,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.9287392169999995,
+      "sequence": 338,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 4.966686862,
+      "sequence": 339,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.006613142,
+      "sequence": 340,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.044709832,
+      "sequence": 341,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.080037647,
+      "sequence": 342,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.119364204000001,
+      "sequence": 343,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.15496168,
+      "sequence": 344,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.192822299,
+      "sequence": 345,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.232186669,
+      "sequence": 346,
+      "state": "up_then_clockwise",
+      "submitted": 10,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.266802899000001,
+      "sequence": 347,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 10,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.308632401,
+      "sequence": 348,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.342549786,
+      "sequence": 349,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.37801323,
+      "sequence": 350,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.4149247009999995,
+      "sequence": 351,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.450457129999999,
+      "sequence": 352,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.487663192,
+      "sequence": 353,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.525904668,
+      "sequence": 354,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.560701811,
+      "sequence": 355,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.598792908000001,
+      "sequence": 356,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.634277862,
+      "sequence": 357,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.673570369999999,
+      "sequence": 358,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.709416107,
+      "sequence": 359,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.747273743,
+      "sequence": 360,
+      "state": "up_then_clockwise",
+      "submitted": 11,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.7831117569999995,
+      "sequence": 361,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 11,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.826369713000001,
+      "sequence": 362,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.860201439,
+      "sequence": 363,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.897197224,
+      "sequence": 364,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.935576622,
+      "sequence": 365,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 5.971104711,
+      "sequence": 366,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.008932129000001,
+      "sequence": 367,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.043696849000001,
+      "sequence": 368,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.0824649719999995,
+      "sequence": 369,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.1177426210000005,
+      "sequence": 370,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.155874331000001,
+      "sequence": 371,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.193587056000001,
+      "sequence": 372,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.228067052999999,
+      "sequence": 373,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.264663224,
+      "sequence": 374,
+      "state": "up_then_clockwise",
+      "submitted": 12,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.300528625999999,
+      "sequence": 375,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 12,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.342850524,
+      "sequence": 376,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.379763532999999,
+      "sequence": 377,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.417473955999999,
+      "sequence": 378,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.4576442599999995,
+      "sequence": 379,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.4929027459999995,
+      "sequence": 380,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.530957590000001,
+      "sequence": 381,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.565731754000001,
+      "sequence": 382,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.604689790999999,
+      "sequence": 383,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.6406521,
+      "sequence": 384,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.6783182430000005,
+      "sequence": 385,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.716346091999999,
+      "sequence": 386,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.752581763999999,
+      "sequence": 387,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.791081679,
+      "sequence": 388,
+      "state": "up_then_clockwise",
+      "submitted": 13,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.826263263,
+      "sequence": 389,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 13,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.868131676,
+      "sequence": 390,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.903463035000001,
+      "sequence": 391,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.941755623,
+      "sequence": 392,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 6.9803822680000005,
+      "sequence": 393,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.016787685,
+      "sequence": 394,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.056770862,
+      "sequence": 395,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.092410386,
+      "sequence": 396,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.13119301,
+      "sequence": 397,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.1670647050000005,
+      "sequence": 398,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.205485540000001,
+      "sequence": 399,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.24517446,
+      "sequence": 400,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.281606062000001,
+      "sequence": 401,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.319672193,
+      "sequence": 402,
+      "state": "up_then_clockwise",
+      "submitted": 14,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.356653272,
+      "sequence": 403,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 14,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.396606691,
+      "sequence": 404,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.434243104000001,
+      "sequence": 405,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.470658299000001,
+      "sequence": 406,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.508766710000001,
+      "sequence": 407,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.5450766499999995,
+      "sequence": 408,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.583475088999999,
+      "sequence": 409,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.619737433,
+      "sequence": 410,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.659117719,
+      "sequence": 411,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.695192445000001,
+      "sequence": 412,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.734884934000001,
+      "sequence": 413,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.775372642,
+      "sequence": 414,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.811024404,
+      "sequence": 415,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.850299000000001,
+      "sequence": 416,
+      "state": "up_then_clockwise",
+      "submitted": 15,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.888348886,
+      "sequence": 417,
+      "state": "up_then_clockwise",
+      "submitted": 16,
+      "completed": 15,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.929496225,
+      "sequence": 418,
+      "state": "up_then_clockwise",
+      "submitted": 16,
+      "completed": 16,
+      "generation": 0,
+      "restore_safe": false
+    },
+    {
+      "time": 7.965292519000001,
+      "sequence": 419,
+      "state": "up_then_clockwise",
+      "submitted": 16,
+      "completed": 16,
+      "generation": 0,
+      "restore_safe": false
+    }
+  ],
+  "samples": [
+    {
+      "time": 1.1180000001331791e-06,
+      "sequence": 212
+    },
+    {
+      "time": 0.5294517790000004,
+      "sequence": 223
+    },
+    {
+      "time": 1.0486161670000005,
+      "sequence": 235
+    },
+    {
+      "time": 1.5806543560000001,
+      "sequence": 249
+    },
+    {
+      "time": 2.1082626810000002,
+      "sequence": 263
+    },
+    {
+      "time": 2.628614828,
+      "sequence": 277
+    },
+    {
+      "time": 3.162938178,
+      "sequence": 291
+    },
+    {
+      "time": 3.696504975,
+      "sequence": 305
+    },
+    {
+      "time": 4.2209039740000005,
+      "sequence": 318
+    },
+    {
+      "time": 4.7445191190000005,
+      "sequence": 333
+    },
+    {
+      "time": 5.265457848,
+      "sequence": 346
+    },
+    {
+      "time": 5.7831117569999995,
+      "sequence": 361
+    },
+    {
+      "time": 6.300528625999999,
+      "sequence": 375
+    },
+    {
+      "time": 6.826263263,
+      "sequence": 389
+    },
+    {
+      "time": 7.356653272,
+      "sequence": 403
+    },
+    {
+      "time": 7.888348886,
+      "sequence": 417
+    }
+  ]
+}

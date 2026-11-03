@@ -1,0 +1,384 @@
+{
+  "checked_at": "2026-10-27T11:30:51.552256+08:00",
+  "timezone": "Asia/Taipei",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\32898\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "scope": "Read-only call of existing parse_hwh_file. No driver generation, no hardware imports or operations; Python invoked with -B. Original module run via runpy with non-main run name.",
+  "command_method": "runpy.run_path(script)[\"parse_hwh_file\"](hwh, ip_name); compare each returned offset against PROPERTY[@NAME=\"ADDRESS_OFFSET\"] in the same MODULE/REGISTER.",
+  "input_sha256": {
+    "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\codegen_pynq_driver.py": "8925a02b16d21eeed1bc8fd2ed8613606e845c817d34bc948f6c1ef1b36011a0",
+    "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\imx219-fusion-v24.hwh": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45"
+  },
+  "inputs_unchanged": true,
+  "results": [
+    {
+      "ip": "board_rectify_rgb_0",
+      "register_count": 15,
+      "unique_parsed_offsets": [
+        0
+      ],
+      "offset_mismatch_count": 14,
+      "differences": [
+        {
+          "register": "gier",
+          "expected": 4,
+          "actual": 0
+        },
+        {
+          "register": "ip_ier",
+          "expected": 8,
+          "actual": 0
+        },
+        {
+          "register": "ip_isr",
+          "expected": 12,
+          "actual": 0
+        },
+        {
+          "register": "src",
+          "expected": 16,
+          "actual": 0
+        },
+        {
+          "register": "dst",
+          "expected": 24,
+          "actual": 0
+        },
+        {
+          "register": "status",
+          "expected": 32,
+          "actual": 0
+        },
+        {
+          "register": "hint",
+          "expected": 40,
+          "actual": 0
+        },
+        {
+          "register": "corners",
+          "expected": 48,
+          "actual": 0
+        },
+        {
+          "register": "binary_enable",
+          "expected": 56,
+          "actual": 0
+        },
+        {
+          "register": "mode",
+          "expected": 64,
+          "actual": 0
+        },
+        {
+          "register": "threshold",
+          "expected": 72,
+          "actual": 0
+        },
+        {
+          "register": "bgr",
+          "expected": 80,
+          "actual": 0
+        },
+        {
+          "register": "geometry",
+          "expected": 88,
+          "actual": 0
+        },
+        {
+          "register": "diagnostics",
+          "expected": 96,
+          "actual": 0
+        }
+      ]
+    },
+    {
+      "ip": "board_quantize_rgb_0",
+      "register_count": 20,
+      "unique_parsed_offsets": [
+        0
+      ],
+      "offset_mismatch_count": 19,
+      "differences": [
+        {
+          "register": "gier",
+          "expected": 4,
+          "actual": 0
+        },
+        {
+          "register": "ip_ier",
+          "expected": 8,
+          "actual": 0
+        },
+        {
+          "register": "ip_isr",
+          "expected": 12,
+          "actual": 0
+        },
+        {
+          "register": "ap_return",
+          "expected": 16,
+          "actual": 0
+        },
+        {
+          "register": "src",
+          "expected": 24,
+          "actual": 0
+        },
+        {
+          "register": "canvas_in",
+          "expected": 32,
+          "actual": 0
+        },
+        {
+          "register": "canvas_out",
+          "expected": 40,
+          "actual": 0
+        },
+        {
+          "register": "metadata",
+          "expected": 48,
+          "actual": 0
+        },
+        {
+          "register": "dst",
+          "expected": 56,
+          "actual": 0
+        },
+        {
+          "register": "width",
+          "expected": 64,
+          "actual": 0
+        },
+        {
+          "register": "height",
+          "expected": 72,
+          "actual": 0
+        },
+        {
+          "register": "dst_stride",
+          "expected": 80,
+          "actual": 0
+        },
+        {
+          "register": "frame_cookie",
+          "expected": 88,
+          "actual": 0
+        },
+        {
+          "register": "metadata_cookie",
+          "expected": 96,
+          "actual": 0
+        },
+        {
+          "register": "control",
+          "expected": 104,
+          "actual": 0
+        },
+        {
+          "register": "order",
+          "expected": 112,
+          "actual": 0
+        },
+        {
+          "register": "ink_delta",
+          "expected": 120,
+          "actual": 0
+        },
+        {
+          "register": "erase_delta",
+          "expected": 128,
+          "actual": 0
+        },
+        {
+          "register": "color_margin",
+          "expected": 136,
+          "actual": 0
+        }
+      ]
+    },
+    {
+      "ip": "whiteboard_restore_0",
+      "register_count": 35,
+      "unique_parsed_offsets": [
+        0
+      ],
+      "offset_mismatch_count": 34,
+      "differences": [
+        {
+          "register": "gier",
+          "expected": 4,
+          "actual": 0
+        },
+        {
+          "register": "ip_ier",
+          "expected": 8,
+          "actual": 0
+        },
+        {
+          "register": "ip_isr",
+          "expected": 12,
+          "actual": 0
+        },
+        {
+          "register": "ap_return",
+          "expected": 16,
+          "actual": 0
+        },
+        {
+          "register": "input_r_1",
+          "expected": 24,
+          "actual": 0
+        },
+        {
+          "register": "input_r_2",
+          "expected": 28,
+          "actual": 0
+        },
+        {
+          "register": "output_r_1",
+          "expected": 36,
+          "actual": 0
+        },
+        {
+          "register": "output_r_2",
+          "expected": 40,
+          "actual": 0
+        },
+        {
+          "register": "background_1",
+          "expected": 48,
+          "actual": 0
+        },
+        {
+          "register": "background_2",
+          "expected": 52,
+          "actual": 0
+        },
+        {
+          "register": "previous_1",
+          "expected": 60,
+          "actual": 0
+        },
+        {
+          "register": "previous_2",
+          "expected": 64,
+          "actual": 0
+        },
+        {
+          "register": "pixel_quiet_1",
+          "expected": 72,
+          "actual": 0
+        },
+        {
+          "register": "pixel_quiet_2",
+          "expected": 76,
+          "actual": 0
+        },
+        {
+          "register": "block_state_1",
+          "expected": 84,
+          "actual": 0
+        },
+        {
+          "register": "block_state_2",
+          "expected": 88,
+          "actual": 0
+        },
+        {
+          "register": "roi_1",
+          "expected": 96,
+          "actual": 0
+        },
+        {
+          "register": "roi_2",
+          "expected": 100,
+          "actual": 0
+        },
+        {
+          "register": "width",
+          "expected": 108,
+          "actual": 0
+        },
+        {
+          "register": "height",
+          "expected": 116,
+          "actual": 0
+        },
+        {
+          "register": "initialize",
+          "expected": 124,
+          "actual": 0
+        },
+        {
+          "register": "bgr",
+          "expected": 132,
+          "actual": 0
+        },
+        {
+          "register": "delta",
+          "expected": 140,
+          "actual": 0
+        },
+        {
+          "register": "quiet_delta",
+          "expected": 148,
+          "actual": 0
+        },
+        {
+          "register": "dense",
+          "expected": 156,
+          "actual": 0
+        },
+        {
+          "register": "weak_threshold",
+          "expected": 164,
+          "actual": 0
+        },
+        {
+          "register": "hold",
+          "expected": 172,
+          "actual": 0
+        },
+        {
+          "register": "stable_r",
+          "expected": 180,
+          "actual": 0
+        },
+        {
+          "register": "quiet_max",
+          "expected": 188,
+          "actual": 0
+        },
+        {
+          "register": "chalk_min",
+          "expected": 196,
+          "actual": 0
+        },
+        {
+          "register": "chalk_spread",
+          "expected": 204,
+          "actual": 0
+        },
+        {
+          "register": "fine_min",
+          "expected": 212,
+          "actual": 0
+        },
+        {
+          "register": "fine_spread",
+          "expected": 220,
+          "actual": 0
+        },
+        {
+          "register": "red_bias",
+          "expected": 228,
+          "actual": 0
+        }
+      ]
+    }
+  ],
+  "total_register_count": 70,
+  "total_offset_mismatch_count": 67,
+  "conclusion": "FAIL: 67 of 70 offsets differ; all 70 offsets returned as zero. This is the candidate Skill code generator, not the active V24 runtime driver.",
+  "limitations": "Checks only existing HWH parser output. Does not execute generated code, other Skill tests, FPGA configuration or board validation."
+}

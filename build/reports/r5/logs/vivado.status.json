@@ -1,0 +1,7 @@
+{
+  "phase": "vivado",
+  "finished_at": "2026-10-28T22:31:38.0256359+08:00",
+  "scope": "Tool completion only, review routed timing and CDC separately",
+  "overlay_used": true,
+  "exit_code": 0
+}

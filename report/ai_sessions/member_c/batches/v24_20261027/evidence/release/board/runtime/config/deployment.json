@@ -1,0 +1,36 @@
+{
+  "name": "imx219-fusion-v24",
+  "firmware_basename": "imx219-fusion-v24",
+  "firmware_name": "imx219-fusion-v24.bit.bin",
+  "bit": "hardware/imx219-fusion-v24.bit",
+  "hwh": "hardware/imx219-fusion-v24.hwh",
+  "dtbo": "hardware/imx219-fusion-v24.dtbo",
+  "bit_bin": "hardware/imx219-fusion-v24.bit.bin",
+  "python": "/usr/local/share/pynq-venv/bin/python3",
+  "restore_photometry": {
+    "exposure": 2724,
+    "analogue_gain": 205,
+    "scope": "Continuous single-global AE with bounded board-first initial metering; retain accepted R5d behavior."
+  },
+  "algorithm_abi": "0x57425321",
+  "schema": 2,
+  "package_layout": "structured",
+  "version": "V24-PS-SLIM-20261026",
+  "hardware_revision": "V24-200MHz",
+  "algorithm_baseline": "live-board-20261026-before-slim",
+  "pre_load": [
+    "{python}",
+    "{dir}/drivers/preload_v6.py",
+    "{hwh}"
+  ],
+  "media_setup": [
+    "{python}",
+    "{dir}/drivers/configure_restore_capture.py"
+  ],
+  "live": [
+    "{python}",
+    "{dir}/app/main.py",
+    "--runtime",
+    "{dir}"
+  ]
+}

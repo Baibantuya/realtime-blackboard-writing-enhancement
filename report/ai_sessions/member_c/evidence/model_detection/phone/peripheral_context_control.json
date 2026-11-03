@@ -1,0 +1,1520 @@
+{
+  "scope": "GT-centered 640 peripheral mask; original full-frame dimensions and 416 scaling unchanged",
+  "matched": 20,
+  "recovered": 2,
+  "lost": 1,
+  "model_input_gt_patches_bit_identical": true,
+  "per_hand": [
+    {
+      "index": 0,
+      "source_ordinal": 332,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1251.4858169555664,
+            453.77307510375977,
+            1319.1870346069336,
+            499.5204429626465
+          ],
+          "score": 0.6599328517913818,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4021724462509155,
+          "magnitude_px": 213.26517545259915,
+          "direction_xy": [
+            0.03953024744987488,
+            0.9992183446884155
+          ],
+          "predicted_object_center_xy": [
+            1293.7668508016145,
+            689.7452380840595
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "source_ordinal": 422,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1180.3416748046875,
+            488.75694847106934,
+            1224.4364013671875,
+            532.7567844390869
+          ],
+          "score": 0.6162720918655396,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.38264772295951843,
+          "magnitude_px": 216.53473487267127,
+          "direction_xy": [
+            -0.19000177085399628,
+            0.9817836880683899
+          ],
+          "predicted_object_center_xy": [
+            1161.2470571077788,
+            723.3471397986779
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "source_ordinal": 422,
+      "gt_index": 1,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1181.7387199401855,
+            487.99281883239746,
+            1226.6238288879395,
+            533.0967807769775
+          ],
+          "score": 0.601004958152771,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.3874903619289398,
+          "magnitude_px": 217.73460388183594,
+          "direction_xy": [
+            0.036804817616939545,
+            0.9993224740028381
+          ],
+          "predicted_object_center_xy": [
+            1212.19495677948,
+            728.1318805401141
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "source_ordinal": 429,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1181.4968967437744,
+            493.07011795043945,
+            1222.1017360687256,
+            534.046215057373
+          ],
+          "score": 0.5632011294364929,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.37519755959510803,
+          "magnitude_px": 220.5606431227464,
+          "direction_xy": [
+            -0.11020336300134659,
+            0.9939090013504028
+          ],
+          "predicted_object_center_xy": [
+            1177.4927916893591,
+            732.77537888747
+          ]
+        },
+        {
+          "box_xyxy": [
+            1159.595027923584,
+            104.05363464355469,
+            1221.882511138916,
+            178.8377227783203
+          ],
+          "score": 0.5020970106124878,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4367896318435669,
+          "magnitude_px": 214.80831439678485,
+          "direction_xy": [
+            0.9960331320762634,
+            -0.08898351341485977
+          ],
+          "predicted_object_center_xy": [
+            1404.6949744591345,
+            122.33128122182993
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "source_ordinal": 429,
+      "gt_index": 1,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1183.1307411193848,
+            492.002010345459,
+            1223.7652549743652,
+            533.3189125061035
+          ],
+          "score": 0.5346606969833374,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.37543365359306335,
+          "magnitude_px": 222.3072052001953,
+          "direction_xy": [
+            0.05287449061870575,
+            0.9986011981964111
+          ],
+          "predicted_object_center_xy": [
+            1215.202378786527,
+            734.6567042424128
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "source_ordinal": 602,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 6,
+      "source_ordinal": 609,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 7,
+      "source_ordinal": 692,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 8,
+      "source_ordinal": 692,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 9,
+      "source_ordinal": 1053,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 10,
+      "source_ordinal": 1060,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 11,
+      "source_ordinal": 1173,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 12,
+      "source_ordinal": 1443,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            564.9252872467041,
+            540.1608924865723,
+            626.9163875579834,
+            591.1313438415527
+          ],
+          "score": 0.7645416855812073,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.42715907096862793,
+          "magnitude_px": 196.8912153977614,
+          "direction_xy": [
+            -0.7176845669746399,
+            0.6963682770729065
+          ],
+          "predicted_object_center_xy": [
+            454.6150547907903,
+            702.7549121563251
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "source_ordinal": 1804,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            651.0961055755615,
+            512.4500732421875,
+            710.3592166900635,
+            576.5504150390625
+          ],
+          "score": 0.7392390966415405,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.44766363501548767,
+          "magnitude_px": 209.37034606933594,
+          "direction_xy": [
+            0.5364682078361511,
+            0.8439204692840576
+          ],
+          "predicted_object_center_xy": [
+            793.0481913639949,
+            721.1921621469351
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "source_ordinal": 1804,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            651.3871879577637,
+            512.2985725402832,
+            709.9643745422363,
+            575.8564567565918
+          ],
+          "score": 0.7334775924682617,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4473450779914856,
+          "magnitude_px": 209.8089893047626,
+          "direction_xy": [
+            0.45633721351623535,
+            0.8898069262504578
+          ],
+          "predicted_object_center_xy": [
+            776.419430072491,
+            730.7670088547927
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "source_ordinal": 1811,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            767.1817588806152,
+            506.3533687591553,
+            819.2550086975098,
+            565.4463138580322
+          ],
+          "score": 0.6118075847625732,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4214216470718384,
+          "magnitude_px": 214.225827730619,
+          "direction_xy": [
+            0.45660024881362915,
+            0.8896719813346863
+          ],
+          "predicted_object_center_xy": [
+            891.0339502187876,
+            726.4905559833232
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "source_ordinal": 1811,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            768.0256080627441,
+            502.9639320373535,
+            818.4945335388184,
+            560.935115814209
+          ],
+          "score": 0.604773223400116,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4147365987300873,
+          "magnitude_px": 214.2201408973107,
+          "direction_xy": [
+            0.40798717737197876,
+            0.9129876494407654
+          ],
+          "predicted_object_center_xy": [
+            880.6591456486628,
+            727.5298626239482
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "source_ordinal": 2074,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 18,
+      "source_ordinal": 2344,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1385.626220703125,
+            303.15030097961426,
+            1452.84228515625,
+            356.1460247039795
+          ],
+          "score": 0.5354710817337036,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4105721712112427,
+          "magnitude_px": 216.56095064603366,
+          "direction_xy": [
+            -0.17652858793735504,
+            0.9842954874038696
+          ],
+          "predicted_object_center_xy": [
+            1381.0050530066858,
+            542.808123075045
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "source_ordinal": 2405,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 20,
+      "source_ordinal": 2555,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 21,
+      "source_ordinal": 2562,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 22,
+      "source_ordinal": 2585,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 23,
+      "source_ordinal": 3155,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1622.4207401275635,
+            420.0630569458008,
+            1669.3524532318115,
+            463.8356246948242
+          ],
+          "score": 0.6546786427497864,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.39268800616264343,
+          "magnitude_px": 209.23863337590143,
+          "direction_xy": [
+            0.2861998975276947,
+            0.9581699371337891
+          ],
+          "predicted_object_center_xy": [
+            1705.770672431359,
+            642.4355151836688
+          ]
+        },
+        {
+          "box_xyxy": [
+            1697.5569915771484,
+            406.4007339477539,
+            1772.2169342041016,
+            454.60872650146484
+          ],
+          "score": 0.6509872674942017,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4157775342464447,
+          "magnitude_px": 210.99114638108472,
+          "direction_xy": [
+            0.10589698702096939,
+            0.9943771362304688
+          ],
+          "predicted_object_center_xy": [
+            1757.230288872352,
+            640.3094940185547
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "source_ordinal": 3155,
+      "gt_index": 1,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1622.4003620147705,
+            420.05810165405273,
+            1669.3923625946045,
+            463.8640785217285
+          ],
+          "score": 0.6543721556663513,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.39282700419425964,
+          "magnitude_px": 209.17481055626502,
+          "direction_xy": [
+            0.29169970750808716,
+            0.9565100073814392
+          ],
+          "predicted_object_center_xy": [
+            1706.9125932546763,
+            642.0388864370493
+          ]
+        },
+        {
+          "box_xyxy": [
+            1697.5512313842773,
+            406.3602752685547,
+            1772.2734756469727,
+            454.62196350097656
+          ],
+          "score": 0.6519410610198975,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.41572707891464233,
+          "magnitude_px": 210.98545954777643,
+          "direction_xy": [
+            0.13717760145664215,
+            0.990546464920044
+          ],
+          "predicted_object_center_xy": [
+            1763.8548336029053,
+            639.4820145827073
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "source_ordinal": 3162,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1662.8279552459717,
+            397.5763740539551,
+            1707.2418689727783,
+            445.2953300476074
+          ],
+          "score": 0.6401958465576172,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.39264145493507385,
+          "magnitude_px": 215.04839383638821,
+          "direction_xy": [
+            0.738236665725708,
+            0.6745417714118958
+          ],
+          "predicted_object_center_xy": [
+            1843.7915262075571,
+            566.4949798583984
+          ]
+        },
+        {
+          "box_xyxy": [
+            1727.4948120117188,
+            408.50189781188965,
+            1809.2805786132812,
+            452.59026527404785
+          ],
+          "score": 0.5492827892303467,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.41509580612182617,
+          "magnitude_px": 217.44079002967246,
+          "direction_xy": [
+            -0.9727967381477356,
+            0.2316606342792511
+          ],
+          "predicted_object_center_xy": [
+            1556.8620042067307,
+            480.9185544527494
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "source_ordinal": 3162,
+      "gt_index": 1,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1662.779146194458,
+            397.3790645599365,
+            1707.185941696167,
+            444.982141494751
+          ],
+          "score": 0.6399663686752319,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.3922134041786194,
+          "magnitude_px": 214.9935326209435,
+          "direction_xy": [
+            0.7360671758651733,
+            0.6769084930419922
+          ],
+          "predicted_object_center_xy": [
+            1843.2322199894832,
+            566.711553133451
+          ]
+        },
+        {
+          "box_xyxy": [
+            1727.682731628418,
+            408.32965660095215,
+            1809.422492980957,
+            452.31231117248535
+          ],
+          "score": 0.5328896641731262,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4162899851799011,
+          "magnitude_px": 218.00121600811298,
+          "direction_xy": [
+            -0.9700458645820618,
+            0.24292197823524475
+          ],
+          "predicted_object_center_xy": [
+            1557.0814302884614,
+            483.27827218862683
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "source_ordinal": 3186,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1620.5060958862305,
+            245.14896202087402,
+            1688.7937088012695,
+            302.610315322876
+          ],
+          "score": 0.7340501546859741,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.42103615403175354,
+          "magnitude_px": 202.5460228553185,
+          "direction_xy": [
+            0.6456050872802734,
+            0.7636714577674866
+          ],
+          "predicted_object_center_xy": [
+            1785.4146464421199,
+            428.5582474928636
+          ]
+        },
+        {
+          "box_xyxy": [
+            1845.100486755371,
+            219.04372215270996,
+            1914.993019104004,
+            279.28186988830566
+          ],
+          "score": 0.5559129118919373,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4207037389278412,
+          "magnitude_px": 214.61846571702222,
+          "direction_xy": [
+            -0.9905836582183838,
+            0.13690879940986633
+          ],
+          "predicted_object_center_xy": [
+            1667.449208186223,
+            278.5459528702956
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "source_ordinal": 3186,
+      "gt_index": 1,
+      "matched": true,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1620.5060958862305,
+            245.14896202087402,
+            1688.7937088012695,
+            302.610315322876
+          ],
+          "score": 0.7340501546859741,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.42103615403175354,
+          "magnitude_px": 202.5460228553185,
+          "direction_xy": [
+            0.6456050872802734,
+            0.7636714577674866
+          ],
+          "predicted_object_center_xy": [
+            1785.4146464421199,
+            428.5582474928636
+          ]
+        },
+        {
+          "box_xyxy": [
+            1845.100486755371,
+            219.04372215270996,
+            1914.993019104004,
+            279.28186988830566
+          ],
+          "score": 0.5559129118919373,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4207037389278412,
+          "magnitude_px": 214.61846571702222,
+          "direction_xy": [
+            -0.9905836582183838,
+            0.13690879940986633
+          ],
+          "predicted_object_center_xy": [
+            1667.449208186223,
+            278.5459528702956
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "source_ordinal": 3366,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1017.7270393371582,
+            374.3870277404785,
+            1121.3960075378418,
+            468.09716415405273
+          ],
+          "score": 0.8408965468406677,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4589753746986389,
+          "magnitude_px": 198.33759014423077,
+          "direction_xy": [
+            0.716728687286377,
+            0.6973520517349243
+          ],
+          "predicted_object_center_xy": [
+            1211.7157622117263,
+            559.5532238300029
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "source_ordinal": 3366,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 31,
+      "source_ordinal": 3366,
+      "gt_index": 2,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 32,
+      "source_ordinal": 3373,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1092.5456619262695,
+            327.82910537719727,
+            1220.3373947143555,
+            443.66979598999023
+          ],
+          "score": 0.8233156800270081,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.5151198506355286,
+          "magnitude_px": 198.13446631798377,
+          "direction_xy": [
+            0.6030508279800415,
+            -0.7977027893066406
+          ],
+          "predicted_object_center_xy": [
+            1275.9266850398137,
+            227.69703556941107
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "source_ordinal": 3373,
+      "gt_index": 1,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1506.9087295532227,
+            689.8800506591797,
+            1617.7196884155273,
+            820.7558135986328
+          ],
+          "score": 0.7206106781959534,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4657224714756012,
+          "magnitude_px": 210.85665189302884,
+          "direction_xy": [
+            -0.9991732835769653,
+            -0.04065527766942978
+          ],
+          "predicted_object_center_xy": [
+            1351.6318770188552,
+            746.7454963830801
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "source_ordinal": 3426,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 35,
+      "source_ordinal": 4207,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 36,
+      "source_ordinal": 4214,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 37,
+      "source_ordinal": 4327,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            777.6882705688477,
+            563.7652759552002,
+            868.0611190795898,
+            620.2219066619873
+          ],
+          "score": 0.5055877566337585,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4589308500289917,
+          "magnitude_px": 214.76417541503906,
+          "direction_xy": [
+            0.8437545299530029,
+            0.5367292165756226
+          ],
+          "predicted_object_center_xy": [
+            1004.0829444298378,
+            707.2638009878306
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "source_ordinal": 5108,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 39,
+      "source_ordinal": 5108,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 40,
+      "source_ordinal": 5115,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1008.8971405029297,
+            514.4307060241699,
+            1071.4380645751953,
+            580.2207832336426
+          ],
+          "score": 0.575025737285614,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4512367248535156,
+          "magnitude_px": 210.59746962327222,
+          "direction_xy": [
+            0.2665904462337494,
+            0.9638099074363708
+          ],
+          "predicted_object_center_xy": [
+            1096.3108775799092,
+            750.3016779972957
+          ]
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "source_ordinal": 5115,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1010.0538883209229,
+            514.8037109375,
+            1070.3621273040771,
+            580.443359375
+          ],
+          "score": 0.544539749622345,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.44061973690986633,
+          "magnitude_px": 213.30640939565805,
+          "direction_xy": [
+            -0.06246614828705788,
+            0.9980471134185791
+          ],
+          "predicted_object_center_xy": [
+            1026.8835780070378,
+            760.5133796105018
+          ]
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "source_ordinal": 5319,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 43,
+      "source_ordinal": 5439,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 44,
+      "source_ordinal": 5469,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 45,
+      "source_ordinal": 5476,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 46,
+      "source_ordinal": 5559,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 47,
+      "source_ordinal": 5589,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 48,
+      "source_ordinal": 5649,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 49,
+      "source_ordinal": 5709,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 50,
+      "source_ordinal": 5739,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 51,
+      "source_ordinal": 5769,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1005.2000904083252,
+            447.30424880981445,
+            1057.0228099822998,
+            514.748851776123
+          ],
+          "score": 0.6070196628570557,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4118804335594177,
+          "magnitude_px": 215.32518240121695,
+          "direction_xy": [
+            -0.2336905300617218,
+            0.9723110198974609
+          ],
+          "predicted_object_center_xy": [
+            980.7919942415677,
+            690.3895897498497
+          ]
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "source_ordinal": 5769,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1004.91237449646,
+            441.23060607910156,
+            1058.17844581604,
+            509.4696502685547
+          ],
+          "score": 0.5841201543807983,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.41527312994003296,
+          "magnitude_px": 215.37368774414062,
+          "direction_xy": [
+            -0.7596890926361084,
+            0.6502864956855774
+          ],
+          "predicted_object_center_xy": [
+            867.9283670278696,
+            615.4047282292292
+          ]
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "source_ordinal": 5776,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            983.1107635498047,
+            495.1615180969238,
+            1038.8714141845703,
+            549.5796928405762
+          ],
+          "score": 0.5460296273231506,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4265364706516266,
+          "magnitude_px": 222.95999380258414,
+          "direction_xy": [
+            -0.2182738333940506,
+            0.9758875966072083
+          ],
+          "predicted_object_center_xy": [
+            962.324758382944,
+            739.9544994647686
+          ]
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "source_ordinal": 5776,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            982.1719341278076,
+            495.1135730743408,
+            1039.8378314971924,
+            551.4135265350342
+          ],
+          "score": 0.5709383487701416,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.433086633682251,
+          "magnitude_px": 221.83086688701923,
+          "direction_xy": [
+            -0.22510865330696106,
+            0.974333643913269
+          ],
+          "predicted_object_center_xy": [
+            961.0688347449669,
+            739.4008225661057
+          ]
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "source_ordinal": 5799,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": []
+    },
+    {
+      "index": 56,
+      "source_ordinal": 5860,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1049.1946544647217,
+            519.1102924346924,
+            1111.6534900665283,
+            569.7472515106201
+          ],
+          "score": 0.7039090991020203,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.42707037925720215,
+          "magnitude_px": 203.91688420222354,
+          "direction_xy": [
+            0.22048380970954895,
+            0.9753906726837158
+          ],
+          "predicted_object_center_xy": [
+            1125.3844448969915,
+            743.327404315655
+          ]
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "source_ordinal": 5860,
+      "gt_index": 1,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1050.8105087280273,
+            519.5229663848877,
+            1111.7336807250977,
+            569.3282299041748
+          ],
+          "score": 0.6924763321876526,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4202626645565033,
+          "magnitude_px": 205.6783235990084,
+          "direction_xy": [
+            0.3581935167312622,
+            0.9336473345756531
+          ],
+          "predicted_object_center_xy": [
+            1154.9447385347808,
+            736.4566133939303
+          ]
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "source_ordinal": 5890,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1091.16157913208,
+            467.90025329589844,
+            1159.13676071167,
+            521.1172637939453
+          ],
+          "score": 0.7204468250274658,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.44004058837890625,
+          "magnitude_px": 205.16062809870792,
+          "direction_xy": [
+            -0.5371212363243103,
+            0.8435050249099731
+          ],
+          "predicted_object_center_xy": [
+            1014.9530416635366,
+            667.5627758319561
+          ]
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "source_ordinal": 5890,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1090.2999382019043,
+            466.4833335876465,
+            1159.1900520324707,
+            521.298282623291
+          ],
+          "score": 0.7323204874992371,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4406202733516693,
+          "magnitude_px": 205.49877460186298,
+          "direction_xy": [
+            -0.5632803440093994,
+            0.826265811920166
+          ],
+          "predicted_object_center_xy": [
+            1008.991571866549,
+            663.6874143160306
+          ]
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "source_ordinal": 5980,
+      "gt_index": 0,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1262.9223403930664,
+            514.1928749084473,
+            1337.9863510131836,
+            560.8825645446777
+          ],
+          "score": 0.5555378794670105,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.40423375368118286,
+          "magnitude_px": 233.27258183405948,
+          "direction_xy": [
+            -0.5750328302383423,
+            0.8181303143501282
+          ],
+          "predicted_object_center_xy": [
+            1166.3149502093975,
+            728.3850989708534
+          ]
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "source_ordinal": 5980,
+      "gt_index": 1,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1261.8397903442383,
+            513.7578449249268,
+            1337.1514205932617,
+            559.4645671844482
+          ],
+          "score": 0.5649644136428833,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.39993226528167725,
+          "magnitude_px": 232.6784221942608,
+          "direction_xy": [
+            -0.5726480484008789,
+            0.8198013305664062
+          ],
+          "predicted_object_center_xy": [
+            1166.2527577326848,
+            727.3612929124099
+          ]
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "source_ordinal": 5987,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1354.6329536437988,
+            522.3170776367188,
+            1427.6331596374512,
+            574.7587280273438
+          ],
+          "score": 0.6640676856040955,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4328685402870178,
+          "magnitude_px": 210.49024728628305,
+          "direction_xy": [
+            -0.3301256597042084,
+            0.9439370036125183
+          ],
+          "predicted_object_center_xy": [
+            1321.6448261554424,
+            747.2274428147537
+          ]
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "source_ordinal": 5987,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1349.8269081115723,
+            521.7986297607422,
+            1428.7834434509277,
+            575.6370391845703
+          ],
+          "score": 0.6799300312995911,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.43955251574516296,
+          "magnitude_px": 210.16102717472955,
+          "direction_xy": [
+            -0.3198029398918152,
+            0.9474840760231018
+          ],
+          "predicted_object_center_xy": [
+            1322.0950634296123,
+            747.8420562744141
+          ]
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "source_ordinal": 6070,
+      "gt_index": 0,
+      "matched": true,
+      "original_rgb565_matched": true,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1661.9403495788574,
+            571.610164642334,
+            1737.5296211242676,
+            654.890811920166
+          ],
+          "score": 0.7452366948127747,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.42054954171180725,
+          "magnitude_px": 204.31392376239484,
+          "direction_xy": [
+            0.9953411221504211,
+            0.09641598910093307
+          ],
+          "predicted_object_center_xy": [
+            1903.0970423771785,
+            632.9496172391451
+          ]
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "source_ordinal": 6070,
+      "gt_index": 1,
+      "matched": false,
+      "original_rgb565_matched": false,
+      "target_input_patch_unchanged": true,
+      "predictions": [
+        {
+          "box_xyxy": [
+            1661.4448013305664,
+            570.9175834655762,
+            1737.6938705444336,
+            654.9012641906738
+          ],
+          "score": 0.7454550266265869,
+          "kind": "trained_hand_box",
+          "contact_probability": 0.4213518798351288,
+          "magnitude_px": 204.0831052339994,
+          "direction_xy": [
+            0.9963698387145996,
+            0.08512991666793823
+          ],
+          "predicted_object_center_xy": [
+            1902.91158588116,
+            630.283001092764
+          ]
+        }
+      ]
+    }
+  ]
+}

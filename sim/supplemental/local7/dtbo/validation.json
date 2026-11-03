@@ -1,0 +1,23 @@
+{
+  "status": "PASS_COMPILE_AND_HARDWARE_FLAG_ALIGNMENT",
+  "changes": {
+    "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:xlnx,en-csi-v2-0": [
+      "",
+      null
+    ],
+    "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:xlnx,en-vcx": [
+      "",
+      null
+    ],
+    "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:xlnx,en-active-lanes": [
+      "",
+      null
+    ]
+  },
+  "unchanged_other_properties": 374,
+  "new_dtbo_sha256": "1619520ce90928f122125682fddc5a9e9b171903dbc0ff50f1af25d0b68d62c5",
+  "board_test": "NOT_RUN",
+  "CDC_waivers_added": 0,
+  "timing_change": "No RTL/clock/constraint/bitstream change",
+  "limit": "Three capability flags only. Does not prove runtime driver compatibility, reset protocol or CDC signoff."
+}

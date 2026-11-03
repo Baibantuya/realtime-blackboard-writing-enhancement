@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+/h/
+/v/
+/i/
+/logs/
+/build/work/
+/report/ui_host/
+/report/native_math/
+*.jou
+.Xil/

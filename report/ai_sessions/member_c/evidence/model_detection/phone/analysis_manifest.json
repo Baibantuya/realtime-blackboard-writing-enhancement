@@ -1,0 +1,14 @@
+{
+  "source_sha256": {
+    "miss_diagnostics.py": "5050f971ed7e6f29b62bad98835eb4674249785cd4b42dd305663b8d02ed946a",
+    "test_miss_diagnostics.py": "248a5fd0fe336e0adaab0f3390d32903adcd3c01caa2dc59d84a483277e03843",
+    "analyze_phone_misses.py": "3d88954000a4e8a5c811c37df0b5496bab6dd99c618baaa5efccc7a4a92fb8e6",
+    "context_control_phone.py": "6906a07259aaa21b28068b5044e3b0a2ea0285f131cb9abace80e15a7bb33d98"
+  },
+  "model_sha256": "842898a9f2b54b8aac75c505fb5c51825f7a38daabbe749a76f71b4d903dffae",
+  "video_sha256": "92aa53739e7cef05ce74a91980db2bd82ad9b4ba750ac00be24aee3a29566581",
+  "annotation_sha256": "831f507402baff8c77692393f062f2a8fe85d1faf689f7c4251370544921e740",
+  "raw_head_files": 308,
+  "hand_cards": 66,
+  "context_control_hands": 66
+}

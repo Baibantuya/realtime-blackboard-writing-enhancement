@@ -1,0 +1,115 @@
+{
+  "profile_sha256": "d6fae76a526d109f7ad22bf0bea119588c84be0879386879cf20d01c1f851927",
+  "hwh_sha256": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+  "header_cross_checks": [
+    {
+      "ip": "/board_rectify_rgb_0",
+      "words": 15,
+      "header": "evidence\\20261027\\submission_selected\\src\\pl\\ip\\rectify\\drivers\\board_rectify_rgb_v1_0\\src\\xboard_rectify_rgb_hw.h",
+      "header_sha256": "6dc74943d6fcdd1bcb2366ee569d26bbd2212a41b8d96a59338b514f20a2ee51",
+      "diffs": []
+    },
+    {
+      "ip": "/board_quantize_rgb_0",
+      "words": 20,
+      "header": "evidence\\20261027\\submission_selected\\src\\pl\\ip\\scene\\drivers\\board_scene_quantize_v1_0\\src\\xboard_scene_quantize_hw.h",
+      "header_sha256": "79f3d397bb9febf5f1c59d39373883c4059c22445b67287bf9078877311eb83f",
+      "diffs": []
+    },
+    {
+      "ip": "/whiteboard_restore_0",
+      "words": 35,
+      "header": "evidence\\20261027\\submission_selected\\src\\pl\\ip\\restore\\drivers\\whiteboard_restore_v1_0\\src\\xwhiteboard_restore_hw.h",
+      "header_sha256": "ff6f04195f16751523c572e11da27edad021d4dbc59152ed0db07c89617aa0f8",
+      "diffs": []
+    }
+  ],
+  "negative_cases": [
+    {
+      "case": "missing_file",
+      "status": "FAIL",
+      "failures": [
+        {
+          "code": "file:bit",
+          "status": "fail",
+          "detail": "Missing regular file: hardware/absent.bit"
+        },
+        {
+          "code": "hwh_pair_name",
+          "status": "fail",
+          "detail": {
+            "actual": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\evidence\\20261027\\runtime_v24\\hardware\\imx219-fusion-v24.hwh",
+            "expected": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\evidence\\20261027\\runtime_v24\\hardware\\absent.hwh"
+          }
+        }
+      ]
+    },
+    {
+      "case": "wrong_hash",
+      "status": "FAIL",
+      "failures": [
+        {
+          "code": "sha256:bit",
+          "status": "fail",
+          "detail": {
+            "actual": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6",
+            "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+          }
+        }
+      ]
+    },
+    {
+      "case": "wrong_abi",
+      "status": "FAIL",
+      "failures": [
+        {
+          "code": "identity:algorithm_abi",
+          "status": "fail",
+          "detail": {
+            "actual": "0x57425321",
+            "expected": "0x00000000"
+          }
+        }
+      ]
+    },
+    {
+      "case": "wrong_pointer_width",
+      "status": "FAIL",
+      "failures": [
+        {
+          "code": "register_width:/board_quantize_rgb_0/src",
+          "status": "fail",
+          "detail": {
+            "actual": 32,
+            "expected": 64
+          }
+        }
+      ]
+    },
+    {
+      "case": "wrong_base",
+      "status": "FAIL",
+      "failures": [
+        {
+          "code": "address:/board_quantize_rgb_0",
+          "status": "fail",
+          "detail": {
+            "actual": [
+              [
+                2147876864,
+                2147942399
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                2147942399
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "inputs_unchanged": true
+}

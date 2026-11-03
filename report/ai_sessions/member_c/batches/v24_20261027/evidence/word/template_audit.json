@@ -1,0 +1,897 @@
+{
+  "path": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\技术文档模板.docx",
+  "sha256": "d15a2aa186f600cb9c234bffd9deff0c4e9b05c569643d8a81d536f66f424f0c",
+  "parts": {
+    "[Content_Types].xml": {
+      "bytes": 2251,
+      "sha256": "618367816a2c5afd3057c26fa3740dc5813bae8910f976db22a409a436c1ea5b"
+    },
+    "_rels/.rels": {
+      "bytes": 737,
+      "sha256": "514e1846381cb6bcfff105a4b0a17d666cf0ed1f0c120bff73b82226ab7ed977"
+    },
+    "docProps/app.xml": {
+      "bytes": 633,
+      "sha256": "3b8588e196c1c392dd8fed6e2be1b54bc58bd8084ec02f7ecde2311a28671d62"
+    },
+    "docProps/core.xml": {
+      "bytes": 635,
+      "sha256": "a8d1f9acf12ca37ae36e3eb1eb5b1e3b9a56ff138bbb261bc7f9f4bce6d563f6"
+    },
+    "docProps/custom.xml": {
+      "bytes": 529,
+      "sha256": "040c6debe0523ee7ab5aac8000a2872b45e9d9820e95217421f91f07bb981ccd"
+    },
+    "word/_rels/document.xml.rels": {
+      "bytes": 1583,
+      "sha256": "253ca60a481d4f261333c8479dbfb702eaaff1c0b086bbab86233d56db916fb0"
+    },
+    "word/_rels/header1.xml.rels": {
+      "bytes": 289,
+      "sha256": "94bca6aec3177c3b64686e1248ecfb39e9750dc067c2274af33e6b442d1f6617"
+    },
+    "word/document.xml": {
+      "bytes": 40556,
+      "sha256": "dad3ece3e66c131ea95ef97723df62e26c213805d2422cab464ec79163bead9c"
+    },
+    "word/fontTable.xml": {
+      "bytes": 3040,
+      "sha256": "17a2a9395fe54c2b4781026ad6faa74bf356dd27ebc280a945825fa0c1a40b5a"
+    },
+    "word/footer1.xml": {
+      "bytes": 2054,
+      "sha256": "7cc9a412ae9680220f6c49983b5cebd0fb1e290d4034fee61a9f587ba977b22f"
+    },
+    "word/footer2.xml": {
+      "bytes": 1385,
+      "sha256": "2c837368fb74bfbd46898144bd35f871a1cb37a00da6135e425c202b665b8cb6"
+    },
+    "word/footer3.xml": {
+      "bytes": 1385,
+      "sha256": "f7f33cbc428f16016b96fd41c6e29b329a91e6a1942a8e4e7c4e8332da35029a"
+    },
+    "word/header1.xml": {
+      "bytes": 2608,
+      "sha256": "79bf0bda36dcc73e5e6b738f5ac470fa8d198b9d4dd0e0b975cfe60549c6fab6"
+    },
+    "word/header2.xml": {
+      "bytes": 1385,
+      "sha256": "3b5eae2c5845bca5504b9d33d322af26cf3a05934ed295799d82acec18e8bd5e"
+    },
+    "word/header3.xml": {
+      "bytes": 1385,
+      "sha256": "528ed28b8703d93b050584d793edeebb427f27bb9a1f23cbda4130caf35b5522"
+    },
+    "word/media/image1.png": {
+      "bytes": 67191,
+      "sha256": "787db8fa20de80a88e406e5eb8bc8c3076d71592635851045bb8a8cbfb4aaadc"
+    },
+    "word/numbering.xml": {
+      "bytes": 8482,
+      "sha256": "4c856d1c47d7214f308853fb4cdf4cf1f694e8f574c29f0b1027a0b64335c747"
+    },
+    "word/settings.xml": {
+      "bytes": 3757,
+      "sha256": "8bfaf5cc4c8ec38e67426db79208e1bd4e907a17b15a084e6273b07f400a0d14"
+    },
+    "word/styles.xml": {
+      "bytes": 24784,
+      "sha256": "b11bf8e04b2fca7ea9cc332a299dcc23002339164176d9e1bd3bb8c20fdfb40f"
+    },
+    "word/theme/theme1.xml": {
+      "bytes": 6444,
+      "sha256": "20b1cf0f6bd861afd2ee727424bf2da47b72e5e70232e7477547132a50c1f809"
+    }
+  },
+  "paragraphs": [
+    {
+      "index": 0,
+      "text": "作品名称",
+      "style": [
+        "3"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '3'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "jc{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': 'center'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 1,
+      "text": "（不要出现任何涉及学校名称等内容）",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "jc{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': 'center'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 2,
+      "text": "摘要",
+      "style": [],
+      "property_tags": [
+        "tabs{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 3,
+      "text": "800字内",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 4,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 5,
+      "text": "第一部分  作品概述",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 6,
+      "text": "功能与特性",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 7,
+      "text": "400字内（可加重要图）；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 8,
+      "text": "",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 9,
+      "text": "应用领域",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 10,
+      "text": "400字内（可加重要图）；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 11,
+      "text": "",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 12,
+      "text": "主要技术特点",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 13,
+      "text": "400字内；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 14,
+      "text": "",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 15,
+      "text": "主要性能指标",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 16,
+      "text": "200字内（建议用表格）；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 17,
+      "text": "",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 18,
+      "text": "主要创新点",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 19,
+      "text": "200字以内（逐点给出）；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 20,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 21,
+      "text": "设计流程",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 22,
+      "text": "200字内（可加重要图）；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 23,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 24,
+      "text": "第二部分  系统组成及功能说明",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 25,
+      "text": "阐述具体的设计细节（图文结合）",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '200'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 26,
+      "text": "",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 27,
+      "text": "整体介绍",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 28,
+      "text": "给出系统整体框图，各子模块标注清楚，并进行整体的文字说明，需要表达出各模块之间的关系。",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 29,
+      "text": "",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 30,
+      "text": "硬件系统介绍",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 31,
+      "text": "2.2.1 硬件整体介绍；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 32,
+      "text": "2.2.2 机械设计介绍（如果有的话，从总体到局部，逐级给出各组件的具体设计图，可以是CAD文件截图或者手绘图片）；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 33,
+      "text": "2.2.3 电路各模块介绍（从总体到局部，逐级给出各模块的具体设计图，并标记出关键的输入、输出信号线，可以是电路图、SCH原理图、PCB版图等截图）；",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '420'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 34,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 35,
+      "text": "软件系统介绍",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 36,
+      "text": "2.3.1 软件整体介绍（含PC端或云端，结合关键图片）；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 37,
+      "text": "2.3.2 软件各模块介绍（根据总体框图，给出各模块的具体设计说明。从顶层到底层逐次给出各函数的流程图及其关键输入、输出变量）；",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '420'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 38,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 39,
+      "text": "第三部分  完成情况及性能参数",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 40,
+      "text": "阐述最终实现的成果（图文结合，实物照片为主）",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '200'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 41,
+      "text": " 整体介绍（整个系统实物的正面、斜45°全局性照片）",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 42,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 43,
+      "text": " 工程成果（分硬件实物、软件界面等设计结果）",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 44,
+      "text": "3.2.1 机械成果；（实物照片）",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 45,
+      "text": "3.2.2 电路成果；（实物照片）",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 46,
+      "text": "3.2.3 软件成果；（界面照片）",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 47,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 48,
+      "text": " 特性成果（逐个展示功能、性能参数等量化指标）（可加重要仪器测试或现场照片）；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 49,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 50,
+      "text": "第四部分  总结",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 51,
+      "text": "",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 52,
+      "text": "",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 53,
+      "text": " 可扩展之处",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 54,
+      "text": "300字内；",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 55,
+      "text": " 心得体会",
+      "style": [
+        "12"
+      ],
+      "property_tags": [
+        "pStyle{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val': '12'}",
+        "numPr{}",
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '0'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 56,
+      "text": "1000字内，可包括研发和制作细节；",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "ind{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '420', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '175'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 57,
+      "text": "",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 58,
+      "text": "第五部分  参考文献",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 59,
+      "text": "按照标准格式，限20篇以内。",
+      "style": [],
+      "property_tags": [
+        "spacing{'{http://schemas.openxmlformats.org/wordprocessingml/2006/main}line': '360', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}lineRule': 'auto'}",
+        "rPr{}"
+      ]
+    },
+    {
+      "index": 60,
+      "text": "",
+      "style": [],
+      "property_tags": []
+    }
+  ],
+  "section": "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" xmlns:wpsCustomData=\"http://www.wps.cn/officeDocument/2013/wpsCustomData\"><w:headerReference r:id=\"rId5\" w:type=\"first\"/><w:footerReference r:id=\"rId8\" w:type=\"first\"/><w:headerReference r:id=\"rId3\" w:type=\"default\"/><w:footerReference r:id=\"rId6\" w:type=\"default\"/><w:headerReference r:id=\"rId4\" w:type=\"even\"/><w:footerReference r:id=\"rId7\" w:type=\"even\"/><w:pgSz w:w=\"11906\" w:h=\"16838\"/><w:pgMar w:top=\"1440\" w:right=\"1800\" w:bottom=\"1440\" w:left=\"1800\" w:header=\"851\" w:footer=\"992\" w:gutter=\"0\"/><w:cols w:space=\"425\" w:num=\"1\"/><w:docGrid w:type=\"lines\" w:linePitch=\"312\" w:charSpace=\"0\"/></w:sectPr>",
+  "styles": [
+    {
+      "id": "1",
+      "name": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "2",
+      "name": [
+        "heading 1"
+      ]
+    },
+    {
+      "id": "3",
+      "name": [
+        "heading 2"
+      ]
+    },
+    {
+      "id": "8",
+      "name": [
+        "Default Paragraph Font"
+      ]
+    },
+    {
+      "id": "7",
+      "name": [
+        "Normal Table"
+      ]
+    },
+    {
+      "id": "4",
+      "name": [
+        "Balloon Text"
+      ]
+    },
+    {
+      "id": "5",
+      "name": [
+        "footer"
+      ]
+    },
+    {
+      "id": "6",
+      "name": [
+        "header"
+      ]
+    },
+    {
+      "id": "9",
+      "name": [
+        "标题 2 字符"
+      ]
+    },
+    {
+      "id": "10",
+      "name": [
+        "页脚 字符"
+      ]
+    },
+    {
+      "id": "11",
+      "name": [
+        "页眉 字符"
+      ]
+    },
+    {
+      "id": "12",
+      "name": [
+        "List Paragraph"
+      ]
+    },
+    {
+      "id": "13",
+      "name": [
+        "标题 1 字符"
+      ]
+    },
+    {
+      "id": "14",
+      "name": [
+        "批注框文本 字符"
+      ]
+    }
+  ]
+}

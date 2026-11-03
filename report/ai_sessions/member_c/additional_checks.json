@@ -1,0 +1,209 @@
+[
+  {
+    "label": "assets_20261018_v5",
+    "checked": 31,
+    "matched": 31,
+    "items": [
+      {
+        "file": "guidance_search.png",
+        "match": true
+      },
+      {
+        "file": "guidance_left.png",
+        "match": true
+      },
+      {
+        "file": "guidance_right.png",
+        "match": true
+      },
+      {
+        "file": "guidance_up.png",
+        "match": true
+      },
+      {
+        "file": "guidance_down.png",
+        "match": true
+      },
+      {
+        "file": "guidance_zoom_out.png",
+        "match": true
+      },
+      {
+        "file": "guidance_zoom_in.png",
+        "match": true
+      },
+      {
+        "file": "guidance_hold.png",
+        "match": true
+      },
+      {
+        "file": "guidance_clockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_counterclockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_confirming.png",
+        "match": true
+      },
+      {
+        "file": "guidance_recalibrating.png",
+        "match": true
+      },
+      {
+        "file": "guidance_up_then_clockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_up_then_counterclockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_down_then_clockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_down_then_counterclockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_left_then_clockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_left_then_counterclockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_right_then_clockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_right_then_counterclockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_zoom_out_then_clockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_zoom_out_then_counterclockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_zoom_in_then_clockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_zoom_in_then_counterclockwise.png",
+        "match": true
+      },
+      {
+        "file": "guidance_up_then_left.png",
+        "match": true
+      },
+      {
+        "file": "guidance_up_then_right.png",
+        "match": true
+      },
+      {
+        "file": "guidance_down_then_left.png",
+        "match": true
+      },
+      {
+        "file": "guidance_down_then_right.png",
+        "match": true
+      },
+      {
+        "file": "history_empty.png",
+        "match": true
+      },
+      {
+        "file": "history_available.png",
+        "match": true
+      },
+      {
+        "file": "history_demo.png",
+        "match": true
+      }
+    ]
+  },
+  {
+    "label": "preview_20261018_v5",
+    "checked": 0,
+    "matched": 0,
+    "items": []
+  },
+  {
+    "label": "paired_ce:legacy_clean_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce:legacy_stress_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce:legacy_worst_angle_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce:pair_clean_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce:pair_rgb565_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce:pair_argmax_changes",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce:pair_state_changes",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce_js:legacy_clean_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce_js:legacy_stress_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce_js:legacy_worst_angle_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce_js:pair_clean_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce_js:pair_rgb565_f1",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce_js:pair_argmax_changes",
+    "mean_match": true,
+    "sample_sd_match": true
+  },
+  {
+    "label": "paired_ce_js:pair_state_changes",
+    "mean_match": true,
+    "sample_sd_match": true
+  }
+]

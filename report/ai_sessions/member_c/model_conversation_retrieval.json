@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-22",
+  "thread_pages_read": 10,
+  "scope": "selected visible texts only",
+  "exports": [
+    {
+      "case": "session_01_detection",
+      "turns": 2,
+      "messages": 18
+    },
+    {
+      "case": "session_02_model_selection",
+      "turns": 5,
+      "messages": 40
+    },
+    {
+      "case": "session_03_rgb565",
+      "turns": 3,
+      "messages": 31
+    }
+  ],
+  "not_exported": "unrelated topic turns, credential/SSH setup, reasoning, hidden prompts, full tool stream"
+}

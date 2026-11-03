@@ -1,0 +1,5 @@
+obj-m += wb_frame_pool.o
+obj-m += wb_rgb565_format.o
+KDIR ?= /lib/modules/$(shell uname -r)/build
+all:
+	$(MAKE) -C $(KDIR) M=$(CURDIR) modules

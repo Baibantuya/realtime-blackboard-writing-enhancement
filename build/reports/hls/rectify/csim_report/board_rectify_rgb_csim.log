@@ -1,0 +1,8 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../../sim/tb/test_rectify.cpp in debug mode
+   Compiling ../../../../../src/pl/hls/board_rectify_rgb.cpp in debug mode
+   Generating csim.exe
+PASS 20 cases 1920x1080, full RGB comparison, cache refresh, atomic invalid and guards
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2073600
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

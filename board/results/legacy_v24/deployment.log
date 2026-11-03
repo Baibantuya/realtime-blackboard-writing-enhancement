@@ -1,0 +1,21 @@
+{"event": "SLIM_SWITCHED", "previous": "/home/ubuntu/kv260_apps/whiteboard_candidate.previous", "older_previous": "/home/ubuntu/kv260_apps/history/whiteboard_previous_before_slim_20261026"}
+remove from slot 0 returns: -1 (Error)
+pre_load: /usr/local/share/pynq-venv/bin/python3 /home/ubuntu/kv260_apps/whiteboard_candidate/drivers/preload_v6.py /lib/firmware/xilinx/imx219-fusion-v24/imx219-fusion-v24.hwh
+0xfd615000: 0x00000200 -> 0x00000200
+0xff419000: 0x00000000 -> 0x00000000
+0xfd380000: 0x000003b0 -> 0x000003b0
+0xfd380014: 0x000003b0 -> 0x000003b0
+0xfd390000: 0x000003b0 -> 0x000003b0
+0xfd390014: 0x000003b0 -> 0x000003b0
+0xfd3a0000: 0x000003b0 -> 0x000003b0
+0xfd3a0014: 0x000003b0 -> 0x000003b0
+Time taken to load BIN is 1037.000000 Milli Seconds
+
+BIN FILE loaded through FPGA manager successfully
+
+PYNQ_METADATA_REGISTERED
+PYNQ_OVERLAY_LOADED
+media_setup: /usr/local/share/pynq-venv/bin/python3 /home/ubuntu/kv260_apps/whiteboard_candidate/drivers/configure_restore_capture.py
+{"sensor": "/dev/v4l-subdev0", "rotation180": "sensor_registers", "bayer": "SBGGR8_1X8", "controls": {"horizontal_flip": 1, "vertical_flip": 1, "exposure": 2724, "analogue_gain": 205}}
+DEPLOY_RUNNING folder=/home/ubuntu/kv260_apps/whiteboard_candidate pid=12500 FPGA_reloaded=True log=/home/ubuntu/kv260_apps/whiteboard_candidate.data/live.log
+{"event": "SLIM_LAUNCHED", "state": {"folder": "/home/ubuntu/kv260_apps/whiteboard_candidate", "pid": 12500, "process_marker": "/home/ubuntu/kv260_apps/whiteboard_candidate/app/main.py", "hardware_hash": "b73e57106610dd1e91dbf6f46f81048ebe28f84f63e8928472c5c78d0686113d", "started": "2025-10-17 08:29:46"}}

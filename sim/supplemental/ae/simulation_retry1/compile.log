@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "W:/local6/ae/rtl/axis_ae_status.v" into library work
+INFO: [VRFC 10-311] analyzing module axis_ae_status
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "W:/local6/ae/rtl/axis_luma_meter.sv" into library work
+INFO: [VRFC 10-311] analyzing module axis_luma_meter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "W:/local6/ae/rtl/ae_controller.sv" into library work
+INFO: [VRFC 10-311] analyzing module ae_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "W:/local6/ae/simulation_retry1/reference.v" into library work
+INFO: [VRFC 10-311] analyzing module axis_ae_status_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "W:/local6/ae/tb_ae.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ae

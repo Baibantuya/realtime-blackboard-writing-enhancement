@@ -1,0 +1,36 @@
+test_bad_metric_input_rejected (__main__.BenchmarkTests.test_bad_metric_input_rejected) ... ok
+test_empty_and_one_frame_have_no_rate_claim_and_reports_work (__main__.BenchmarkTests.test_empty_and_one_frame_have_no_rate_claim_and_reports_work) ... ok
+test_explicit_threshold_fails_positive_fps (__main__.BenchmarkTests.test_explicit_threshold_fails_positive_fps) ... ok
+test_golden_no_false_nan_empty_or_unsigned_wrap_pass (__main__.BenchmarkTests.test_golden_no_false_nan_empty_or_unsigned_wrap_pass) ... ok
+test_stage_latency_not_startup_or_interval_jitter (__main__.BenchmarkTests.test_stage_latency_not_startup_or_interval_jitter) ... ok
+test_warmup_explicit_window (__main__.BenchmarkTests.test_warmup_explicit_window) ... ok
+test_all_70_real_register_words_match_independent_hls_headers (__main__.CodegenTests.test_all_70_real_register_words_match_independent_hls_headers) ... ok
+test_bad_xml_fails (__main__.CodegenTests.test_bad_xml_fails) ... ok
+test_class_name_injection_rejected (__main__.CodegenTests.test_class_name_injection_rejected) ... ok
+test_cli_and_generated_test_actual_filename (__main__.CodegenTests.test_cli_and_generated_test_actual_filename) ... ok
+test_duplicate_instance_fails (__main__.CodegenTests.test_duplicate_instance_fails) ... ok
+test_duplicate_register_fails (__main__.CodegenTests.test_duplicate_register_fails) ... ok
+test_exact_instance_rejects_substring (__main__.CodegenTests.test_exact_instance_rejects_substring) ... ok
+test_missing_offset_fails (__main__.CodegenTests.test_missing_offset_fails) ... ok
+test_namespace_supported (__main__.CodegenTests.test_namespace_supported) ... ok
+test_overlap_fails (__main__.CodegenTests.test_overlap_fails) ... ok
+test_pointer_contract_mismatch_fails (__main__.CodegenTests.test_pointer_contract_mismatch_fails) ... ok
+test_restore_64bit_pointer_writes_both_words (__main__.CodegenTests.test_restore_64bit_pointer_writes_both_words) ... ok
+test_scene_control_not_skipped_and_32bit_pointer_rejects_truncation (__main__.CodegenTests.test_scene_control_not_skipped_and_32bit_pointer_rejects_truncation) ... ok
+test_allocator_overlap_and_partial_failure_cleanup (__main__.DmaTests.test_allocator_overlap_and_partial_failure_cleanup) ... ok
+test_close_during_cpu_lease_rejected (__main__.DmaTests.test_close_during_cpu_lease_rejected) ... ok
+test_completed_buffer_flush_invalidate_then_release (__main__.DmaTests.test_completed_buffer_flush_invalidate_then_release) ... ok
+test_done_without_confirmed_contract_still_quarantines (__main__.DmaTests.test_done_without_confirmed_contract_still_quarantines) ... ok
+test_gc_retains_unresolved_buffers (__main__.DmaTests.test_gc_retains_unresolved_buffers) ... ok
+test_mmio_read_error_quarantines (__main__.DmaTests.test_mmio_read_error_quarantines) ... ok
+test_no_implicit_numpy_or_pynq_allocator (__main__.DmaTests.test_no_implicit_numpy_or_pynq_allocator) ... ok
+test_start_write_may_take_effect_before_exception (__main__.DmaTests.test_start_write_may_take_effect_before_exception) ... ok
+test_timeout_quarantine_until_confirmed_recovery (__main__.DmaTests.test_timeout_quarantine_until_confirmed_recovery) ... ok
+test_no_automatic_backend_or_metadata_with_dtbo (__main__.OverlayTests.test_no_automatic_backend_or_metadata_with_dtbo) ... ok
+test_readonly_inspection_creates_no_directory_and_does_not_import_pynq (__main__.OverlayTests.test_readonly_inspection_creates_no_directory_and_does_not_import_pynq) ... ok
+test_wrong_hash_and_missing_file_fail (__main__.OverlayTests.test_wrong_hash_and_missing_file_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.147s
+
+OK

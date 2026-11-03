@@ -1,0 +1,15 @@
+{
+  "status": "PASS_PACKAGE_INTEGRITY_NOT_BOARD_TESTED",
+  "archive": "KV260_2025_2_c5_board_candidate.zip",
+  "bytes": 9523423,
+  "sha256": "0b6ad1888b496dc76e4f8c5fe541011c52a3def5e1536856052bce4d9778dd5f",
+  "payload_files": 81,
+  "manifest_schema": 2,
+  "board_test": "NOT_RUN",
+  "full_clean_rebuild": "r5 still in progress",
+  "hardware_identity": "imx219-v24-2025-2-c5",
+  "bit_sha256": "159c246baa0e5182649de16eff0b5e5c4c58df625e7ec11924146bc7773226e4",
+  "hwh_sha256": "a45979c5e66187d9b06dbaef02553e74197c891570fec64b9a6812ae434fa567",
+  "bit_bin_sha256": "9d0813f8b193dab7517b4992ff4a057c7cdfd47d175b7802f9979126c9ae2387",
+  "dtbo_sha256": "f7e26198fd5e8391b4b02b4d33b9f9a1447bdd5f61ee4bf2d5b4907b4088d5ed"
+}

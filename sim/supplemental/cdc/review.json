@@ -1,0 +1,727 @@
+{
+  "status": "PASS_SCOPED_STRUCTURE_AND_RESET_TEST_NOT_CDC_SIGNOFF",
+  "reset_luts": [
+    {
+      "lut": "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/AXI_LITE.reg_inf/xpm_arst_03_i_1",
+      "primitive": "LUT2",
+      "init": "4'h8",
+      "fanin_startpoints": [
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/vid_areset_le_1500.maxis_aresetn_reg_replica_1/C",
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/AXI_LITE.reg_inf/xpm_single_02/syncstages_ff_reg[2]/C"
+      ],
+      "sinks": {
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/AXI_LITE.reg_inf/gen_spkt_fifo/xpm_arst_03/arststages_ff_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b1",
+          "ASYNC_REG": "1"
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/AXI_LITE.reg_inf/gen_spkt_fifo/xpm_arst_03/arststages_ff_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b1",
+          "ASYNC_REG": "1"
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/AXI_LITE.reg_inf/gen_spkt_fifo/xpm_arst_03/arststages_ff_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b1",
+          "ASYNC_REG": "1"
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/data/ERR_FRAME_SYNC[7].fs_hunt_reg[7]": {
+          "REF_NAME": "FDRE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/data/ERR_FRAME_SYNC[6].fs_hunt_reg[6]": {
+          "REF_NAME": "FDRE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/data/ERR_FRAME_SYNC[5].fs_hunt_reg[5]": {
+          "REF_NAME": "FDRE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/data/ERR_FRAME_SYNC[4].fs_hunt_reg[4]": {
+          "REF_NAME": "FDRE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/data/ERR_FRAME_SYNC[15].fs_hunt_reg[15]": {
+          "REF_NAME": "FDRE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/data/ERR_FRAME_SYNC[11].fs_hunt_reg[11]": {
+          "REF_NAME": "FDRE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/mipi_csi2_rx_subsyst_0/inst/rx/mipi_csi2_rx_ctrl_v1_0_14_top_dut/data/ERR_FRAME_SYNC[10].fs_hunt_reg[10]": {
+          "REF_NAME": "FDRE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        }
+      },
+      "clocks": [
+        "clk_out2_video_design_1_clk_wiz_0_0"
+      ],
+      "sink_count": 10,
+      "async_reg_sinks": 3
+    },
+    {
+      "lut": "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/gpregsm1.curr_fwft_state[1]_i_2",
+      "primitive": "LUT3",
+      "init": "8'hFE",
+      "fanin_startpoints": [
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gcc_rst.sckt_wr_rst_cc_reg[1]/C",
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gcc_rst.sckt_wr_rst_cc_reg[0]/C",
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst/arststages_ff_reg[1]/C"
+      ],
+      "sinks": {
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[0]": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[0]": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        }
+      },
+      "clocks": [
+        "clk_out2_video_design_1_clk_wiz_0_0"
+      ],
+      "sink_count": 32,
+      "async_reg_sinks": 0
+    },
+    {
+      "lut": "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/gpregsm1.curr_fwft_state[1]_i_2",
+      "primitive": "LUT3",
+      "init": "8'hFE",
+      "fanin_startpoints": [
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gcc_rst.sckt_wr_rst_cc_reg[1]/C",
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gcc_rst.sckt_wr_rst_cc_reg[0]/C",
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst/arststages_ff_reg[1]/C"
+      ],
+      "sinks": {
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[0]": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[0]": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        }
+      },
+      "clocks": [
+        "clk_out2_video_design_1_clk_wiz_0_0"
+      ],
+      "sink_count": 32,
+      "async_reg_sinks": 0
+    },
+    {
+      "lut": "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/gpregsm1.curr_fwft_state[1]_i_2",
+      "primitive": "LUT3",
+      "init": "8'hFE",
+      "fanin_startpoints": [
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gcc_rst.sckt_wr_rst_cc_reg[1]/C",
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gcc_rst.sckt_wr_rst_cc_reg[0]/C",
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst/arststages_ff_reg[1]/C"
+      ],
+      "sinks": {
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_fb_i_reg": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[0]": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[0]": {
+          "REF_NAME": "FDPE",
+          "INIT": "1'b1",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[4]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[3]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[2]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[1]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[0]": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        },
+        "design_1_i/ps8_0_axi_periph_1/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i_reg": {
+          "REF_NAME": "FDCE",
+          "INIT": "1'b0",
+          "ASYNC_REG": ""
+        }
+      },
+      "clocks": [
+        "clk_out2_video_design_1_clk_wiz_0_0"
+      ],
+      "sink_count": 32,
+      "async_reg_sinks": 0
+    }
+  ],
+  "configuration_synchronizers": {
+    "xpm_array_single_04": {
+      "flip_flops": 6,
+      "async_reg_set": 6,
+      "stage_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    "xpm_vcen": {
+      "flip_flops": 48,
+      "async_reg_set": 48,
+      "stage_indices": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "reset_simulation_events": [
+    {
+      "index": 1,
+      "active_clock_edges": 95,
+      "duration_ns": 472.5
+    },
+    {
+      "index": 2,
+      "active_clock_edges": 64,
+      "duration_ns": 320.0
+    },
+    {
+      "index": 3,
+      "active_clock_edges": 84,
+      "duration_ns": 420.0
+    },
+    {
+      "index": 4,
+      "active_clock_edges": 124,
+      "duration_ns": 620.0
+    },
+    {
+      "index": 5,
+      "active_clock_edges": 64,
+      "duration_ns": 320.0
+    },
+    {
+      "index": 6,
+      "active_clock_edges": 84,
+      "duration_ns": 420.0
+    },
+    {
+      "index": 7,
+      "active_clock_edges": 124,
+      "duration_ns": 620.0
+    },
+    {
+      "index": 8,
+      "active_clock_edges": 64,
+      "duration_ns": 320.0
+    },
+    {
+      "index": 9,
+      "active_clock_edges": 84,
+      "duration_ns": 420.0
+    },
+    {
+      "index": 10,
+      "active_clock_edges": 124,
+      "duration_ns": 620.0
+    },
+    {
+      "index": 11,
+      "active_clock_edges": 64,
+      "duration_ns": 320.0
+    },
+    {
+      "index": 12,
+      "active_clock_edges": 84,
+      "duration_ns": 420.0
+    },
+    {
+      "index": 13,
+      "active_clock_edges": 124,
+      "duration_ns": 620.0
+    },
+    {
+      "index": 14,
+      "active_clock_edges": 64,
+      "duration_ns": 320.0
+    },
+    {
+      "index": 15,
+      "active_clock_edges": 124,
+      "duration_ns": 620.0
+    },
+    {
+      "index": 16,
+      "active_clock_edges": 68,
+      "duration_ns": 937.5
+    },
+    {
+      "index": 17,
+      "active_clock_edges": 68,
+      "duration_ns": 937.5
+    },
+    {
+      "index": 18,
+      "active_clock_edges": 124,
+      "duration_ns": 620.0
+    }
+  ],
+  "retained_r5_cdc": {
+    "critical": 0,
+    "warnings": 70,
+    "CDC-6": 2,
+    "CDC-15": 68,
+    "LUTAR-1": 4
+  },
+  "limits": [
+    "Digital functional simulation cannot model metastability or analog reset glitches.",
+    "First-stage driver enumeration is incomplete across protected/hierarchical vendor boundaries; empty field is not proof of no driver.",
+    "Three-stage bit synchronizers do not prove atomic configuration-word transfers.",
+    "Full MIPI/FIFO reset and software configuration protocols remain unproven. No warnings waived."
+  ]
+}

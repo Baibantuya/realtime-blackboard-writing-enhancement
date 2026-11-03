@@ -1,0 +1,746 @@
+{
+  "batch": "v24_20261027",
+  "files": [
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\ai_sessions_sync_v24_20261027.md",
+      "copy": "evidence/handoff/ai_sessions_sync.md",
+      "kind": "handoff_or_summary_not_transcript",
+      "status": "copied",
+      "bytes": 16984,
+      "source_sha256": "26079bda48f2c54d580198c71f15277ea8e98610a075ce4e01f432af047d8321",
+      "copy_sha256": "26079bda48f2c54d580198c71f15277ea8e98610a075ce4e01f432af047d8321",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_sync_v24_20261027.md",
+      "copy": "evidence/handoff/pynq_sync.md",
+      "kind": "handoff_or_summary_not_transcript",
+      "status": "copied",
+      "bytes": 17643,
+      "source_sha256": "f38eec50b5b044e2d45988704a986c5f2a5dfa39a972bbf04336bddd7e778e13",
+      "copy_sha256": "f38eec50b5b044e2d45988704a986c5f2a5dfa39a972bbf04336bddd7e778e13",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\docs\\V24最终素材核验与Word报告交接_20261026.md",
+      "copy": "evidence/handoff/v24_word_handoff.md",
+      "kind": "handoff_or_summary_not_transcript",
+      "status": "copied",
+      "bytes": 6104,
+      "source_sha256": "ff07556080167f964723aa3dd3d98e003c9b0f5c7b260f52dc0a9bae88058094",
+      "copy_sha256": "ff07556080167f964723aa3dd3d98e003c9b0f5c7b260f52dc0a9bae88058094",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\docs\\V24整合包核验与报告依据_20261025.md",
+      "copy": "evidence/handoff/v24_old_freeze_review.md",
+      "kind": "handoff_or_summary_not_transcript",
+      "status": "copied",
+      "bytes": 8729,
+      "source_sha256": "42956a6c80ccb931a31f158b950d30f8e7b8aade3a5ce97590277ab50b070097",
+      "copy_sha256": "42956a6c80ccb931a31f158b950d30f8e7b8aade3a5ce97590277ab50b070097",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\_build\\word_report_v24_20261026\\material_audit.json",
+      "copy": "evidence/word/material_audit.json",
+      "kind": "existing_author_audit",
+      "status": "copied",
+      "bytes": 12149,
+      "source_sha256": "56bbc0c78de167d1140f80a553eb23a1634b04a7590611de83be8084dcf00725",
+      "copy_sha256": "56bbc0c78de167d1140f80a553eb23a1634b04a7590611de83be8084dcf00725",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\_build\\word_report_v24_20261026\\model_scope_change.json",
+      "copy": "evidence/word/model_scope_change.json",
+      "kind": "existing_author_audit",
+      "status": "copied",
+      "bytes": 440,
+      "source_sha256": "dc1f76c43ad1d522bb10dd110eff26e7773e371de90d7d36bdc509eeca5fbdea",
+      "copy_sha256": "dc1f76c43ad1d522bb10dd110eff26e7773e371de90d7d36bdc509eeca5fbdea",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\_build\\word_report_v24_20261026\\report_fidelity.json",
+      "copy": "evidence/word/report_fidelity.json",
+      "kind": "existing_author_audit",
+      "status": "copied",
+      "bytes": 641,
+      "source_sha256": "ce168aab361924aff88e5952e31ae3ddb8d76d7ff2fe5ea65260cc14c57d06e2",
+      "copy_sha256": "ce168aab361924aff88e5952e31ae3ddb8d76d7ff2fe5ea65260cc14c57d06e2",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\_build\\word_report_v24_20261026\\template_audit.json",
+      "copy": "evidence/word/template_audit.json",
+      "kind": "existing_author_audit",
+      "status": "copied",
+      "bytes": 38985,
+      "source_sha256": "ca48a7acbc82447e37a0e5946a425ad852870f5eb4459589caa044a92f3c8291",
+      "copy_sha256": "ca48a7acbc82447e37a0e5946a425ad852870f5eb4459589caa044a92f3c8291",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\_build\\word_report_v24_20261026\\qa_model_scope.md",
+      "copy": "evidence/word/qa_model_scope.md",
+      "kind": "existing_author_audit",
+      "status": "copied",
+      "bytes": 864,
+      "source_sha256": "496a49d5c72e8abfd5084ef201f6fa03bfb3e2cdc5ff076eade75a007730b512",
+      "copy_sha256": "496a49d5c72e8abfd5084ef201f6fa03bfb3e2cdc5ff076eade75a007730b512",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\报告模板\\_build\\word_report_v24_20261026\\qa_final.md",
+      "copy": "evidence/word/qa_final.md",
+      "kind": "existing_author_audit",
+      "status": "copied",
+      "bytes": 1287,
+      "source_sha256": "e8a18afbfce3d002e86e12e655f00220d252d7d143a75bac50a54165a2b95a0f",
+      "copy_sha256": "e8a18afbfce3d002e86e12e655f00220d252d7d143a75bac50a54165a2b95a0f",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\reports\\impl\\signoff_timing.json",
+      "copy": "evidence/release/build/reports/impl/signoff_timing.json",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 114,
+      "source_sha256": "d6a7f8a1256ba979bc85cf20e3d06a13b7db3050ee1f201d074d8b47faca892b",
+      "copy_sha256": "d6a7f8a1256ba979bc85cf20e3d06a13b7db3050ee1f201d074d8b47faca892b",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\reports\\impl\\timing_result.txt",
+      "copy": "evidence/release/build/reports/impl/timing_result.txt",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 67,
+      "source_sha256": "fd6771dd6d181ce0a1288fbf8b850b07b2e7a111f2f9a48700f0df8cc6afed0b",
+      "copy_sha256": "fd6771dd6d181ce0a1288fbf8b850b07b2e7a111f2f9a48700f0df8cc6afed0b",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\rebuild_vivado.tcl",
+      "copy": "evidence/release/build/rebuild_vivado.tcl",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 5212,
+      "source_sha256": "d18a35eb7d3ac7084761cd8beb117ab000933b64fc7acf2a2c8b3f29fe682efb",
+      "copy_sha256": "d18a35eb7d3ac7084761cd8beb117ab000933b64fc7acf2a2c8b3f29fe682efb",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\rebuild_hls.tcl",
+      "copy": "evidence/release/build/rebuild_hls.tcl",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 1883,
+      "source_sha256": "d675537c05a277f040d81519c361c97a709b260d2d7f6e41e98fdf36d694fd3a",
+      "copy_sha256": "d675537c05a277f040d81519c361c97a709b260d2d7f6e41e98fdf36d694fd3a",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\results\\validation.json",
+      "copy": "evidence/release/board/results/validation.json",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 3010,
+      "source_sha256": "80a531380c69c86f6ce6ea0fa663d7b699c70d192a01f8a26c8bf868a743b405",
+      "copy_sha256": "80a531380c69c86f6ce6ea0fa663d7b699c70d192a01f8a26c8bf868a743b405",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\config\\deployment.json",
+      "copy": "evidence/release/board/runtime/config/deployment.json",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 1032,
+      "source_sha256": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d",
+      "copy_sha256": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\config\\runtime_manifest.json",
+      "copy": "evidence/release/board/runtime/config/runtime_manifest.json",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 24883,
+      "source_sha256": "4096087e94f67d736c169c2d1014bfa8c74d773ca3b9b60f76a26c552a5bbf08",
+      "copy_sha256": "4096087e94f67d736c169c2d1014bfa8c74d773ca3b9b60f76a26c552a5bbf08",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\sim\\results\\v24\\board_scene_quantize_cosim.rpt",
+      "copy": "evidence/release/sim/results/v24/board_scene_quantize_cosim.rpt",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 1252,
+      "source_sha256": "21cd75ff514fc27f19d172c49890ccca42030d361eb82ecc64c83f3628d185c6",
+      "copy_sha256": "21cd75ff514fc27f19d172c49890ccca42030d361eb82ecc64c83f3628d185c6",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\sim\\results\\v24\\board_scene_quantize_csim.log",
+      "copy": "evidence/release/sim/results/v24/board_scene_quantize_csim.log",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 428,
+      "source_sha256": "f0418e5eeed1508f63c199b4546814ce2b51534dd11f7e461a78cb4f32c76372",
+      "copy_sha256": "f0418e5eeed1508f63c199b4546814ce2b51534dd11f7e461a78cb4f32c76372",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\sim\\results\\v24\\recorded_vectors_check_20261026.json",
+      "copy": "evidence/release/sim/results/v24/recorded_vectors_check_20261026.json",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 295,
+      "source_sha256": "a2b3768b51ec051d5c344ddb1ad1630bfdf6dff4626e548615ac86fccfe47f4e",
+      "copy_sha256": "a2b3768b51ec051d5c344ddb1ad1630bfdf6dff4626e548615ac86fccfe47f4e",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\sim\\results\\v24\\whiteboard_restore_cosim.rpt",
+      "copy": "evidence/release/sim/results/v24/whiteboard_restore_cosim.rpt",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 1252,
+      "source_sha256": "412ca10e97a6c0b234195b039ac3c34c865aa5e783cd60cdadeb8d11a4a62f43",
+      "copy_sha256": "412ca10e97a6c0b234195b039ac3c34c865aa5e783cd60cdadeb8d11a4a62f43",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\sim\\results\\v24\\whiteboard_restore_csim.log",
+      "copy": "evidence/release/sim/results/v24/whiteboard_restore_csim.log",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 544,
+      "source_sha256": "4ba621d012906a1c13b9ef87c753f2f9161aa6347cb453823cbfa9d0288665d3",
+      "copy_sha256": "4ba621d012906a1c13b9ef87c753f2f9161aa6347cb453823cbfa9d0288665d3",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\README.md",
+      "copy": "evidence/migration/README.md",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 20156,
+      "source_sha256": "161dc533cbe4900d6c186a2dd772c2accd9c103b1a3cd9524a727263f992c26e",
+      "copy_sha256": "161dc533cbe4900d6c186a2dd772c2accd9c103b1a3cd9524a727263f992c26e",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\phase2_notes_20261027.md",
+      "copy": "evidence/migration/phase2_notes_20261027.md",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 20692,
+      "source_sha256": "273612ebbfd78bd7c783557abea750a565bf5159d0d8a4137c6c3f33fde3f549",
+      "copy_sha256": "273612ebbfd78bd7c783557abea750a565bf5159d0d8a4137c6c3f33fde3f549",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\phase2_validation.json",
+      "copy": "evidence/migration/phase2_validation.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 117036,
+      "source_sha256": "29cfa6b0fb88e6ef68959f836ea3a4920b04063f5f33b5fa7e8a8c8d0442ffa9",
+      "copy_sha256": "29cfa6b0fb88e6ef68959f836ea3a4920b04063f5f33b5fa7e8a8c8d0442ffa9",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\timing_research_20261027.md",
+      "copy": "evidence/migration/timing_research_20261027.md",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 12925,
+      "source_sha256": "0bedcf19861f10d165f2fde1d0ece2b11a6f5b3850d6decbb70fd801c5d024ef",
+      "copy_sha256": "0bedcf19861f10d165f2fde1d0ece2b11a6f5b3850d6decbb70fd801c5d024ef",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\restore_inferred\\manifest.json",
+      "copy": "evidence/migration/restore_inferred/manifest.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 988,
+      "source_sha256": "bdb2771e93f4f814c2477b33b2935afccddddf251ce69013973e8edba2d68a74",
+      "copy_sha256": "bdb2771e93f4f814c2477b33b2935afccddddf251ce69013973e8edba2d68a74",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\scene_count_tree\\manifest.json",
+      "copy": "evidence/migration/scene_count_tree/manifest.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 2646,
+      "source_sha256": "842a83d8bae36e1f234b339bdb427d2ee6b378e5e4d51224e9129002c0082a72",
+      "copy_sha256": "842a83d8bae36e1f234b339bdb427d2ee6b378e5e4d51224e9129002c0082a72",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\scene_count_tree\\tally_test.log",
+      "copy": "evidence/migration/scene_count_tree/tally_test.log",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 75,
+      "source_sha256": "d8e946319fdc3f1b6585921083d761f8a3c5025a13234e9ae194c0307b8870e6",
+      "copy_sha256": "d8e946319fdc3f1b6585921083d761f8a3c5025a13234e9ae194c0307b8870e6",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\hls_probe_luma.log",
+      "copy": "evidence/migration/hls_probe_luma.log",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 7219,
+      "source_sha256": "e766e1d83802a46522222e2e653dd26d66535228e8e758ba451b677a373f9b48",
+      "copy_sha256": "e766e1d83802a46522222e2e653dd26d66535228e8e758ba451b677a373f9b48",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\hls_probe_inferred_luma.log",
+      "copy": "evidence/migration/hls_probe_inferred_luma.log",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 12036,
+      "source_sha256": "04aeab4c8c689d43ce26b342018de5b1ee52c3b0317bd8bfc39472e263b7533d",
+      "copy_sha256": "04aeab4c8c689d43ce26b342018de5b1ee52c3b0317bd8bfc39472e263b7533d",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\hls_restore_inline_ascii_cwd.log",
+      "copy": "evidence/migration/hls_restore_inline_ascii_cwd.log",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 8576,
+      "source_sha256": "0cf5c668eea839c23ef84fd86f8b4d41656bf16a6be93a0a99aa62382d04e374",
+      "copy_sha256": "0cf5c668eea839c23ef84fd86f8b4d41656bf16a6be93a0a99aa62382d04e374",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\restore_inferred_20261027.log",
+      "copy": "evidence/migration/restore_inferred_20261027.log",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 325796,
+      "source_sha256": "3431b12a69b7b576da923bc1332b7b3e92b5936e57930650b4f9932d4ca4eef7",
+      "copy_sha256": "3431b12a69b7b576da923bc1332b7b3e92b5936e57930650b4f9932d4ca4eef7",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\scene_count_tree_cosim_20261027.log",
+      "copy": "evidence/migration/scene_count_tree_cosim_20261027.log",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 83972,
+      "source_sha256": "9f6b9310d8b4918301e09553e738143aa00910a5a1b1985889f163435d88fd99",
+      "copy_sha256": "9f6b9310d8b4918301e09553e738143aa00910a5a1b1985889f163435d88fd99",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\startup_no_local_data_result.json",
+      "copy": "evidence/migration/startup_no_local_data_result.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 548,
+      "source_sha256": "e825edbfdb4d45917d94c9a093de980854a1b2f3686f1b01fe4d2789ac9d83db",
+      "copy_sha256": "e825edbfdb4d45917d94c9a093de980854a1b2f3686f1b01fe4d2789ac9d83db",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\startup_no_local_data_probe.log",
+      "copy": "evidence/migration/startup_no_local_data_probe.log",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 3813,
+      "source_sha256": "955828d04e77f5ec7fe02e1edc9cc3bf76242161177840a834766df23a78f676",
+      "copy_sha256": "955828d04e77f5ec7fe02e1edc9cc3bf76242161177840a834766df23a78f676",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\drive_cleanup.json",
+      "copy": "evidence/migration/drive_cleanup.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 196,
+      "source_sha256": "65bc4d604369cc7045348291311d939738d8ac4add786420db0ea3310c5c5aad",
+      "copy_sha256": "65bc4d604369cc7045348291311d939738d8ac4add786420db0ea3310c5c5aad",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\candidate3_bd_diff.json",
+      "copy": "evidence/migration/candidate3_bd_diff.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 74720,
+      "source_sha256": "4076aca53e8d28850a50840ea359e1fd0cf41f09abc0030dca963f22623fc8a9",
+      "copy_sha256": "4076aca53e8d28850a50840ea359e1fd0cf41f09abc0030dca963f22623fc8a9",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\candidate3_hwh_diff.json",
+      "copy": "evidence/migration/candidate3_hwh_diff.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 128402,
+      "source_sha256": "dc53748995122713de4cd444929eaba2ce97e949a215fcbfa9c7e87dce80a7b8",
+      "copy_sha256": "dc53748995122713de4cd444929eaba2ce97e949a215fcbfa9c7e87dce80a7b8",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\candidate2_hls_contract_diff.json",
+      "copy": "evidence/migration/candidate2_hls_contract_diff.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 279089,
+      "source_sha256": "430aed57fb59e7240e8252ffac75e94bfc84b781578087d3a8606baf5fb2de7c",
+      "copy_sha256": "430aed57fb59e7240e8252ffac75e94bfc84b781578087d3a8606baf5fb2de7c",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\ps_candidate\\validation_c3_win32.json",
+      "copy": "evidence/migration/ps_candidate/validation_c3_win32.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 677,
+      "source_sha256": "569c7beb091693484d87f6ff993f1c018dfdb9aff5cf32f18a54c80dfc7402e1",
+      "copy_sha256": "569c7beb091693484d87f6ff993f1c018dfdb9aff5cf32f18a54c80dfc7402e1",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\ps_candidate\\validation_c3_linux.json",
+      "copy": "evidence/migration/ps_candidate/validation_c3_linux.json",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 655,
+      "source_sha256": "18228540b7d48ea844cded25d98affca1baaa4ce33acd639c9ac96da81edd761",
+      "copy_sha256": "18228540b7d48ea844cded25d98affca1baaa4ce33acd639c9ac96da81edd761",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\rh1\\s\\sim\\report\\whiteboard_restore_cosim.rpt",
+      "copy": "evidence/migration/rh1/s/sim/report/whiteboard_restore_cosim.rpt",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 1256,
+      "source_sha256": "8551899d38da9b216087cbcdcbe41ab772ea264a8e934d0729b5326eee8244bd",
+      "copy_sha256": "8551899d38da9b216087cbcdcbe41ab772ea264a8e934d0729b5326eee8244bd",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\sc1\\s\\sim\\report\\board_scene_quantize_cosim.rpt",
+      "copy": "evidence/migration/sc1/s/sim/report/board_scene_quantize_cosim.rpt",
+      "kind": "historical_execution_in_other_thread_not_rerun",
+      "status": "copied",
+      "bytes": 1256,
+      "source_sha256": "2763b845e26aa08d34628588e66846c2d99a85c9f1fd6f772e85953149e75d5b",
+      "copy_sha256": "2763b845e26aa08d34628588e66846c2d99a85c9f1fd6f772e85953149e75d5b",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl1\\timing.rpt",
+      "copy": "evidence/migration/impl1/timing.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 607900,
+      "source_sha256": "038d38907a0b68d5e9d9c93ecc3fc432a33b1b84f1603516960e00f81c7c5ea1",
+      "copy_sha256": "038d38907a0b68d5e9d9c93ecc3fc432a33b1b84f1603516960e00f81c7c5ea1",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl1\\stages.tsv",
+      "copy": "evidence/migration/impl1/stages.tsv",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 412,
+      "source_sha256": "b71fcdf9f07be06dba267fc3d751ff9a6d63f204dbb985c95df405b951032e11",
+      "copy_sha256": "b71fcdf9f07be06dba267fc3d751ff9a6d63f204dbb985c95df405b951032e11",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl1\\route_status.rpt",
+      "copy": "evidence/migration/impl1/route_status.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 651,
+      "source_sha256": "65e768c8337316fed5cde79a3ae65e70787b67a0b3d5bb6eb3072520ff69794e",
+      "copy_sha256": "65e768c8337316fed5cde79a3ae65e70787b67a0b3d5bb6eb3072520ff69794e",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl1\\cdc.rpt",
+      "copy": "evidence/migration/impl1/cdc.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 80755,
+      "source_sha256": "204a17da228b8d4cdbc092d05dc5c653efd01d7cd598d414534d4a554f59c5dd",
+      "copy_sha256": "204a17da228b8d4cdbc092d05dc5c653efd01d7cd598d414534d4a554f59c5dd",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl2\\timing.rpt",
+      "copy": "evidence/migration/impl2/timing.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 614005,
+      "source_sha256": "207cfa7b6dbb31c7736f86acb65771b933472007c54c948f6d13e52452e74288",
+      "copy_sha256": "207cfa7b6dbb31c7736f86acb65771b933472007c54c948f6d13e52452e74288",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl2\\stages.tsv",
+      "copy": "evidence/migration/impl2/stages.tsv",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 495,
+      "source_sha256": "87fdd25aaa74ba1823e730dfbfa3dd081e066cb7bfddd7e1cd925a1720f1368e",
+      "copy_sha256": "87fdd25aaa74ba1823e730dfbfa3dd081e066cb7bfddd7e1cd925a1720f1368e",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl2\\route_status.rpt",
+      "copy": "evidence/migration/impl2/route_status.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 651,
+      "source_sha256": "0ab98866719eead1a072643912f4d14e6afa848245ced76cc854f67f97d4de39",
+      "copy_sha256": "0ab98866719eead1a072643912f4d14e6afa848245ced76cc854f67f97d4de39",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl2\\cdc.rpt",
+      "copy": "evidence/migration/impl2/cdc.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 80910,
+      "source_sha256": "39dfd4fd30462817c98ba4e082d86e3fbaf266ad6dc2e3a2adbe4308462204a3",
+      "copy_sha256": "39dfd4fd30462817c98ba4e082d86e3fbaf266ad6dc2e3a2adbe4308462204a3",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl3\\timing.rpt",
+      "copy": "evidence/migration/impl3/timing.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 610458,
+      "source_sha256": "fd8e5bba5a840cfe6d6745e6433dba9049c15fa5e709f9adf528798aef6d4869",
+      "copy_sha256": "fd8e5bba5a840cfe6d6745e6433dba9049c15fa5e709f9adf528798aef6d4869",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl3\\stages.tsv",
+      "copy": "evidence/migration/impl3/stages.tsv",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 495,
+      "source_sha256": "b463fd23409c7337ae271a64a6943e9a8d61bceb835eed7bfb732c855c22aaa4",
+      "copy_sha256": "b463fd23409c7337ae271a64a6943e9a8d61bceb835eed7bfb732c855c22aaa4",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl3\\route_status.rpt",
+      "copy": "evidence/migration/impl3/route_status.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 651,
+      "source_sha256": "4e01587e51bf9fb3cd4ebf7e2a2fbca5d8ec0895838839f8e28ba311316db2ce",
+      "copy_sha256": "4e01587e51bf9fb3cd4ebf7e2a2fbca5d8ec0895838839f8e28ba311316db2ce",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\impl3\\cdc.rpt",
+      "copy": "evidence/migration/impl3/cdc.rpt",
+      "kind": "historical_implementation_report",
+      "status": "copied",
+      "bytes": 80910,
+      "source_sha256": "993a7a68ac2a6a014d0308745ebbcbf27526f412cd943348ad7bf28417b34a9e",
+      "copy_sha256": "993a7a68ac2a6a014d0308745ebbcbf27526f412cd943348ad7bf28417b34a9e",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\evidence\\20261022\\v22_preflight.json",
+      "copy": "evidence/pynq/evidence/20261022/v22_preflight.json",
+      "kind": "pynq_existing_offline_result_or_draft",
+      "status": "copied",
+      "bytes": 82823,
+      "source_sha256": "5bd8ee9f228e21fdf7fb89dcf46c77e36ea98ae7f54d48e83c4ffdd066fcb985",
+      "copy_sha256": "5bd8ee9f228e21fdf7fb89dcf46c77e36ea98ae7f54d48e83c4ffdd066fcb985",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\evidence\\20261022\\constructed_tests.json",
+      "copy": "evidence/pynq/evidence/20261022/constructed_tests.json",
+      "kind": "pynq_existing_offline_result_or_draft",
+      "status": "copied",
+      "bytes": 1540,
+      "source_sha256": "f23a1d3623f392b2c2e8339e000a794da13d64b7c98540fde031a38454462768",
+      "copy_sha256": "f23a1d3623f392b2c2e8339e000a794da13d64b7c98540fde031a38454462768",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\evidence\\20261022\\constructed_tests.log",
+      "copy": "evidence/pynq/evidence/20261022/constructed_tests.log",
+      "kind": "pynq_existing_offline_result_or_draft",
+      "status": "copied",
+      "bytes": 1822,
+      "source_sha256": "af06a41f8ee301a3206356f2f4603a10d36247554a3862c12ffa29728ae73829",
+      "copy_sha256": "af06a41f8ee301a3206356f2f4603a10d36247554a3862c12ffa29728ae73829",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\evidence\\20261022\\skill_format_validation.log",
+      "copy": "evidence/pynq/evidence/20261022/skill_format_validation.log",
+      "kind": "pynq_existing_offline_result_or_draft",
+      "status": "copied",
+      "bytes": 116,
+      "source_sha256": "8c5794b97e8ce38ea009bdfe74ce4792d2bb6b1932804ba39db037570dd9078f",
+      "copy_sha256": "8c5794b97e8ce38ea009bdfe74ce4792d2bb6b1932804ba39db037570dd9078f",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\skill\\pynq-overlay-preflight\\SKILL.md",
+      "copy": "evidence/pynq/skill/pynq-overlay-preflight/SKILL.md",
+      "kind": "pynq_existing_offline_result_or_draft",
+      "status": "copied",
+      "bytes": 2707,
+      "source_sha256": "ac6eb64ce6b1b9d0c0cac97e359ce75566ea02b56ac36628b94972fd01313dbe",
+      "copy_sha256": "ac6eb64ce6b1b9d0c0cac97e359ce75566ea02b56ac36628b94972fd01313dbe",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_submission_workspace\\ai_session_links.md",
+      "copy": "evidence/pynq/ai_session_links.md",
+      "kind": "pynq_existing_offline_result_or_draft",
+      "status": "copied",
+      "bytes": 2342,
+      "source_sha256": "5dd232d48821d87b799c30fdb7c825bfd95e06164792506e27fd2907a1f8b9a5",
+      "copy_sha256": "5dd232d48821d87b799c30fdb7c825bfd95e06164792506e27fd2907a1f8b9a5",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\_sync_checks_20261027\\pynq_codegen_audit.json",
+      "copy": "evidence/pynq/pynq_codegen_audit.json",
+      "kind": "other_thread_actual_offline_failure",
+      "status": "copied",
+      "bytes": 9368,
+      "source_sha256": "cf093b7d4fd7b576779e8155883494b5751ec81decfa97471348470858f347ff",
+      "copy_sha256": "cf093b7d4fd7b576779e8155883494b5751ec81decfa97471348470858f347ff",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\README.md",
+      "copy": "evidence/received_skills/01_overlay_manager/README.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 3266,
+      "source_sha256": "c10195ab77c7fb115fc081c7a3c22d1cb975e2abb17579c16f8810e8acdfac32",
+      "copy_sha256": "c10195ab77c7fb115fc081c7a3c22d1cb975e2abb17579c16f8810e8acdfac32",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\README.md",
+      "copy": "evidence/received_skills/02_dma_buffer_guard/README.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 3435,
+      "source_sha256": "4b58e9ef0062b8860538152527317a484469593b19dfd2b6dca39c06b5827d3b",
+      "copy_sha256": "4b58e9ef0062b8860538152527317a484469593b19dfd2b6dca39c06b5827d3b",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\README.md",
+      "copy": "evidence/received_skills/03_contract_codegen/README.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 2558,
+      "source_sha256": "5d37fcfc76f1032ca208a0b139cf0926ab9e82a91e2553ea31c0ba3fac29aadc",
+      "copy_sha256": "5d37fcfc76f1032ca208a0b139cf0926ab9e82a91e2553ea31c0ba3fac29aadc",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\README.md",
+      "copy": "evidence/received_skills/04_golden_benchmark/README.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 3191,
+      "source_sha256": "eded6556fdc06edcab7593a1ae515b45cdabb47b2b994be51b18e56f565b2680",
+      "copy_sha256": "eded6556fdc06edcab7593a1ae515b45cdabb47b2b994be51b18e56f565b2680",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\05_troubleshooting\\TROUBLESHOOTING.md",
+      "copy": "evidence/received_skills/05_troubleshooting/TROUBLESHOOTING.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 11926,
+      "source_sha256": "d3c21a1a7987d7d5b0aad59fa1da506ed8eb438626c0074e76600e435120888a",
+      "copy_sha256": "d3c21a1a7987d7d5b0aad59fa1da506ed8eb438626c0074e76600e435120888a",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\06_prompt_workflows\\01_algorithmic_hardware_partition.md",
+      "copy": "evidence/received_skills/06_prompt_workflows/01_algorithmic_hardware_partition.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 2523,
+      "source_sha256": "4756211e3dc55800ae7f563e477b9b2c179493fa29425032aaca1912e4acecfd",
+      "copy_sha256": "4756211e3dc55800ae7f563e477b9b2c179493fa29425032aaca1912e4acecfd",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\06_prompt_workflows\\02_hls_interface_optimization.md",
+      "copy": "evidence/received_skills/06_prompt_workflows/02_hls_interface_optimization.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 2651,
+      "source_sha256": "36c5a3dec9129413e977b3a44d556ef1c770d019e24fbf7e3c60cd81a2cc2cab",
+      "copy_sha256": "36c5a3dec9129413e977b3a44d556ef1c770d019e24fbf7e3c60cd81a2cc2cab",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\06_prompt_workflows\\03_arm_cpu_bottleneck_audit.md",
+      "copy": "evidence/received_skills/06_prompt_workflows/03_arm_cpu_bottleneck_audit.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 3047,
+      "source_sha256": "4e7de25aa9b68916b2fc777f19ee98bd4ae5fc41318b4d9a07caddd69b285265",
+      "copy_sha256": "4e7de25aa9b68916b2fc777f19ee98bd4ae5fc41318b4d9a07caddd69b285265",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\06_prompt_workflows\\README.md",
+      "copy": "evidence/received_skills/06_prompt_workflows/README.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 1751,
+      "source_sha256": "7171f2454df556577d6a14751ee9d618074681b9b3be36f6f38443d4e9ff9117",
+      "copy_sha256": "7171f2454df556577d6a14751ee9d618074681b9b3be36f6f38443d4e9ff9117",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\README.md",
+      "copy": "evidence/received_skills/README.md",
+      "kind": "received_candidate_document_not_proven_usage",
+      "status": "copied",
+      "bytes": 5219,
+      "source_sha256": "0015f3cf76b44cd1fe7b9553cc27a5be72e01ba089aba38ca909128e586c9df2",
+      "copy_sha256": "0015f3cf76b44cd1fe7b9553cc27a5be72e01ba089aba38ca909128e586c9df2",
+      "transformation": "none; local review copy retains original paths"
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\reports\\impl\\combined_timing.rpt",
+      "copy": "evidence/release/build/reports/impl/combined_timing.rpt",
+      "kind": "delivery_original_not_rerun",
+      "status": "copied",
+      "bytes": 588887,
+      "source_sha256": "248d5e025bed791ec769fd6610ef12859a00332aa9c70445bd31315f9d6ba228",
+      "copy_sha256": "248d5e025bed791ec769fd6610ef12859a00332aa9c70445bd31315f9d6ba228",
+      "transformation": "none; local review copy retains original paths"
+    }
+  ],
+  "scope": "Explicit local selection only; no hardware/software tool execution, public release or full engineering archive."
+}

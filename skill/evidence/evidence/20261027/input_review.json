@@ -1,0 +1,2141 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Asia/Taipei",
+  "runtime_submission": {
+    "root": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime",
+    "payload": [
+      {
+        "path": "app/main.py",
+        "expected": "b4398db514cff31974601079906e2f5e116eb674786ba7e5f87952c0b9d8d63a",
+        "actual": "b4398db514cff31974601079906e2f5e116eb674786ba7e5f87952c0b9d8d63a",
+        "match": true
+      },
+      {
+        "path": "app/manage.py",
+        "expected": "a7ac89cb2d41c6a9251f2bef59e142ef67c503d1f4231def9a6e8229c3284d2d",
+        "actual": "a7ac89cb2d41c6a9251f2bef59e142ef67c503d1f4231def9a6e8229c3284d2d",
+        "match": true
+      },
+      {
+        "path": "app/pipeline_metrics.py",
+        "expected": "a2b7e00eb5142176269c59e0fede19fd3e437cde3f12dfad60e3f8761fb6e01c",
+        "actual": "a2b7e00eb5142176269c59e0fede19fd3e437cde3f12dfad60e3f8761fb6e01c",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/__init__.py",
+        "expected": "c38db3736659d64a346960410841dd770495e65ca057e8f4d51bb0644f9b4816",
+        "actual": "c38db3736659d64a346960410841dd770495e65ca057e8f4d51bb0644f9b4816",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/__main__.py",
+        "expected": "079850810cd5a6341512268e57d52f9938b1b3beb1075f6d7d18a900d80546f8",
+        "actual": "079850810cd5a6341512268e57d52f9938b1b3beb1075f6d7d18a900d80546f8",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/board.py",
+        "expected": "7e64c978f6244a0510e744e8845f7f6ca8c61838b62700bc3b075aa03a5b194a",
+        "actual": "7e64c978f6244a0510e744e8845f7f6ca8c61838b62700bc3b075aa03a5b194a",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/content.py",
+        "expected": "17cf90065fd49212a8620404cac5ac81fd79e86490f7040b51ed2e845115b99a",
+        "actual": "17cf90065fd49212a8620404cac5ac81fd79e86490f7040b51ed2e845115b99a",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/contracts.py",
+        "expected": "608cf0529c6ce003c174fd5c562c95c8681ead0c9b274da85b53da06de6ab957",
+        "actual": "608cf0529c6ce003c174fd5c562c95c8681ead0c9b274da85b53da06de6ab957",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/geometry.py",
+        "expected": "2044513dc27d5041cae842657b803618df8025c62654743cf88ed114f91f32d8",
+        "actual": "2044513dc27d5041cae842657b803618df8025c62654743cf88ed114f91f32d8",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/policy.py",
+        "expected": "8a9c96b0b1692ea3afb01611d378667419a55bc37d98a494f9c17d940b67492f",
+        "actual": "8a9c96b0b1692ea3afb01611d378667419a55bc37d98a494f9c17d940b67492f",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/scheduler.py",
+        "expected": "ecafa1731418d309cb69107ae29a76e50d5e36c67d9d15d7d9ecb8969ac2c586",
+        "actual": "ecafa1731418d309cb69107ae29a76e50d5e36c67d9d15d7d9ecb8969ac2c586",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/sensor.py",
+        "expected": "346c9fde827a481bd29c65a27d6caa98dcdffe83307b6d2e835be81e2fdd2d5b",
+        "actual": "346c9fde827a481bd29c65a27d6caa98dcdffe83307b6d2e835be81e2fdd2d5b",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/service.py",
+        "expected": "f01f14b4a332ed76d157548b18ada2ac00be730f3ec1d7811b4df536f5545f83",
+        "actual": "f01f14b4a332ed76d157548b18ada2ac00be730f3ec1d7811b4df536f5545f83",
+        "match": true
+      },
+      {
+        "path": "app/rgb565.py",
+        "expected": "41719431e3de849e71a196a781bbb16650dba4a74aa010d1ef5b8a9a3e51eed5",
+        "actual": "41719431e3de849e71a196a781bbb16650dba4a74aa010d1ef5b8a9a3e51eed5",
+        "match": true
+      },
+      {
+        "path": "app/runtime_paths.py",
+        "expected": "8e8521e9f8f061143e086f818aa0150e2b9dd0f87196ade8f1ec53eaf00fd5d2",
+        "actual": "8e8521e9f8f061143e086f818aa0150e2b9dd0f87196ade8f1ec53eaf00fd5d2",
+        "match": true
+      },
+      {
+        "path": "app/scene_tracking.py",
+        "expected": "7461451b01727255e7325261792e55ffddad3732f6780e4bc374141c622ca2d0",
+        "actual": "7461451b01727255e7325261792e55ffddad3732f6780e4bc374141c622ca2d0",
+        "match": true
+      },
+      {
+        "path": "app/verify_manifest.py",
+        "expected": "84bfd921a9e39d5045b60023d9c8580adc63baed2e48195c684d2c495a7a7fe5",
+        "actual": "84bfd921a9e39d5045b60023d9c8580adc63baed2e48195c684d2c495a7a7fe5",
+        "match": true
+      },
+      {
+        "path": "config/deployment.json",
+        "expected": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d",
+        "actual": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d",
+        "match": true
+      },
+      {
+        "path": "drivers/auto_exposure.py",
+        "expected": "0a52b5b9a73dcc715ab6a6df5a774e759e30bf1916fedc281d66694b5f556fc8",
+        "actual": "0a52b5b9a73dcc715ab6a6df5a774e759e30bf1916fedc281d66694b5f556fc8",
+        "match": true
+      },
+      {
+        "path": "drivers/baseline_stages.py",
+        "expected": "78ce515a17811e6ebf374d53c766fbe55bcaab851d093b0bc3e401937a8bda13",
+        "actual": "78ce515a17811e6ebf374d53c766fbe55bcaab851d093b0bc3e401937a8bda13",
+        "match": true
+      },
+      {
+        "path": "drivers/configure_restore_capture.py",
+        "expected": "07fa63d2716ddb1982dacb8d238d36bbb33aca789feecbfbf94f42a399e66112",
+        "actual": "07fa63d2716ddb1982dacb8d238d36bbb33aca789feecbfbf94f42a399e66112",
+        "match": true
+      },
+      {
+        "path": "drivers/ensure_kernel.py",
+        "expected": "38db2266e3ca9257a072dd0530c4f151668d82075e2662870dcf89e9220a58cb",
+        "actual": "38db2266e3ca9257a072dd0530c4f151668d82075e2662870dcf89e9220a58cb",
+        "match": true
+      },
+      {
+        "path": "drivers/isp_white_balance.py",
+        "expected": "9c008e71e16bb3e966bc5f4c036b5a6852be4ff850a8a17989251542c768aa71",
+        "actual": "9c008e71e16bb3e966bc5f4c036b5a6852be4ff850a8a17989251542c768aa71",
+        "match": true
+      },
+      {
+        "path": "drivers/load_overlay.py",
+        "expected": "39db9559a0575976a4169523c933a11bfc5913e75a4e7f2fe1232181f146133a",
+        "actual": "39db9559a0575976a4169523c933a11bfc5913e75a4e7f2fe1232181f146133a",
+        "match": true
+      },
+      {
+        "path": "drivers/preload_v6.py",
+        "expected": "3113a701fbc59c0ff0df706a136b63625441eb02017b40f446cb706bea36b85d",
+        "actual": "3113a701fbc59c0ff0df706a136b63625441eb02017b40f446cb706bea36b85d",
+        "match": true
+      },
+      {
+        "path": "drivers/rectify_rgb.py",
+        "expected": "201c765b581147c777e2f139ff2f2e5ecfd3826872f8ec596bbdb4a56b556729",
+        "actual": "201c765b581147c777e2f139ff2f2e5ecfd3826872f8ec596bbdb4a56b556729",
+        "match": true
+      },
+      {
+        "path": "drivers/scene_registers.py",
+        "expected": "1566f027b7fc28eca1799583259bfd597dbd99e7c106f89fa9dfee8519742a6f",
+        "actual": "1566f027b7fc28eca1799583259bfd597dbd99e7c106f89fa9dfee8519742a6f",
+        "match": true
+      },
+      {
+        "path": "drivers/scene_stage.py",
+        "expected": "f2f4e27608f574a6aea1effc0ed518f4b7b978333f4b80125da07bb5fd7be8fe",
+        "actual": "f2f4e27608f574a6aea1effc0ed518f4b7b978333f4b80125da07bb5fd7be8fe",
+        "match": true
+      },
+      {
+        "path": "drivers/set_ps_widths.py",
+        "expected": "562080598bc3346e29abfdb44d1b56fdd85a555bee95e2b9e1a048ec3aa2befe",
+        "actual": "562080598bc3346e29abfdb44d1b56fdd85a555bee95e2b9e1a048ec3aa2befe",
+        "match": true
+      },
+      {
+        "path": "drivers/shared_scanout.py",
+        "expected": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+        "actual": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+        "match": true
+      },
+      {
+        "path": "drivers/v4l2_rgb565.py",
+        "expected": "7c05374b46a734b8ac42f1981ab0bea311ad5bec06fac4ad665896e8664b702c",
+        "actual": "7c05374b46a734b8ac42f1981ab0bea311ad5bec06fac4ad665896e8664b702c",
+        "match": true
+      },
+      {
+        "path": "drivers/v4l2_types.py",
+        "expected": "01d3fd5d24a35a3f02ba862efde088546decf9d88e5348679fa902e954eac4d3",
+        "actual": "01d3fd5d24a35a3f02ba862efde088546decf9d88e5348679fa902e954eac4d3",
+        "match": true
+      },
+      {
+        "path": "drivers/whiteboard_ip.py",
+        "expected": "c07d4730f0deeb63062a2a54815afcfbcd164c86c26e45f3cedd6d251750ec3b",
+        "actual": "c07d4730f0deeb63062a2a54815afcfbcd164c86c26e45f3cedd6d251750ec3b",
+        "match": true
+      },
+      {
+        "path": "hardware/imx219-fusion-v24.bit",
+        "expected": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6",
+        "actual": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6",
+        "match": true
+      },
+      {
+        "path": "hardware/imx219-fusion-v24.bit.bin",
+        "expected": "4a22dd880535517d01f00455bad0a5cbe8f472909fc246c59946f5290b8bf8bc",
+        "actual": "4a22dd880535517d01f00455bad0a5cbe8f472909fc246c59946f5290b8bf8bc",
+        "match": true
+      },
+      {
+        "path": "hardware/imx219-fusion-v24.dtbo",
+        "expected": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f",
+        "actual": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f",
+        "match": true
+      },
+      {
+        "path": "hardware/imx219-fusion-v24.hwh",
+        "expected": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+        "actual": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+        "match": true
+      },
+      {
+        "path": "hardware/wb_frame_pool.ko",
+        "expected": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+        "actual": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+        "match": true
+      },
+      {
+        "path": "hardware/wb_rgb565_format.ko",
+        "expected": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+        "actual": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+        "match": true
+      },
+      {
+        "path": "hardware/whiteboard_registers.json",
+        "expected": "dc5832cf9a2f5a93c470b7f9cdfe5eb9857f78c667010b92b84af43b065786a4",
+        "actual": "dc5832cf9a2f5a93c470b7f9cdfe5eb9857f78c667010b92b84af43b065786a4",
+        "match": true
+      },
+      {
+        "path": "readme.md",
+        "expected": "8b870e89fd80e2fff24d25ce3d64e0c0310ef979282b7c11908565b0c74aaf5a",
+        "actual": "8b870e89fd80e2fff24d25ce3d64e0c0310ef979282b7c11908565b0c74aaf5a",
+        "match": true
+      },
+      {
+        "path": "run.sh",
+        "expected": "b2328f10acd1a9d109b6285fb4acd49ea75f4192b76ede944009c9f0b3ff9b26",
+        "actual": "b2328f10acd1a9d109b6285fb4acd49ea75f4192b76ede944009c9f0b3ff9b26",
+        "match": true
+      },
+      {
+        "path": "ui/archive_ui.py",
+        "expected": "c8e1c9081f90a4c915d769826ad5f210fa375dcc839a3cc623c108b821d2f9d0",
+        "actual": "c8e1c9081f90a4c915d769826ad5f210fa375dcc839a3cc623c108b821d2f9d0",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_clockwise.png",
+        "expected": "17e9df05a25d703f5082184f3f2aab6d0e299b81f37e30244bd3573d63238e1e",
+        "actual": "17e9df05a25d703f5082184f3f2aab6d0e299b81f37e30244bd3573d63238e1e",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_confirming.png",
+        "expected": "dce047123aee054f5577571c30df3102bc4c8e83f1dbd394ee83713f77738b55",
+        "actual": "dce047123aee054f5577571c30df3102bc4c8e83f1dbd394ee83713f77738b55",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_counterclockwise.png",
+        "expected": "2e52455db7919438d50b633c4b9501126b625e6c2688dcd73a89d70ce97d8482",
+        "actual": "2e52455db7919438d50b633c4b9501126b625e6c2688dcd73a89d70ce97d8482",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down.png",
+        "expected": "acd5141d341fd457a4470569770b7a80414e3ef86e21165068f9e1b1c742662a",
+        "actual": "acd5141d341fd457a4470569770b7a80414e3ef86e21165068f9e1b1c742662a",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down_then_clockwise.png",
+        "expected": "1621e839d91737caf1d3d115c86386e1404430e98ce58ada2f25248bb308cf5f",
+        "actual": "1621e839d91737caf1d3d115c86386e1404430e98ce58ada2f25248bb308cf5f",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down_then_counterclockwise.png",
+        "expected": "fc4c40740bc20781eb085934fd4ce46bead64f590d82fcf68aa5b0a623fdb981",
+        "actual": "fc4c40740bc20781eb085934fd4ce46bead64f590d82fcf68aa5b0a623fdb981",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down_then_left.png",
+        "expected": "cd0b782e301c479581ce3b220bc538fd54899aeb4ffbe02ebd34655b891eaf66",
+        "actual": "cd0b782e301c479581ce3b220bc538fd54899aeb4ffbe02ebd34655b891eaf66",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down_then_right.png",
+        "expected": "8cbd5fd533151a908fd7b40ee6a13bef2a00c25ae891db2afaf18420820eb391",
+        "actual": "8cbd5fd533151a908fd7b40ee6a13bef2a00c25ae891db2afaf18420820eb391",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_hold.png",
+        "expected": "9f454bc49073b5ee6ce18ba8eaf425041b68cf8ad0380f78d1cc1a36dd4b311e",
+        "actual": "9f454bc49073b5ee6ce18ba8eaf425041b68cf8ad0380f78d1cc1a36dd4b311e",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_left.png",
+        "expected": "04024d51803c228ac92bd973554426e529e97a531b7270723ce90b2042047014",
+        "actual": "04024d51803c228ac92bd973554426e529e97a531b7270723ce90b2042047014",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_left_then_clockwise.png",
+        "expected": "ceed8a7f93a7d6e6dca81dec2f3063fda70cca63b1ff3a57cb325c21d9a6adae",
+        "actual": "ceed8a7f93a7d6e6dca81dec2f3063fda70cca63b1ff3a57cb325c21d9a6adae",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_left_then_counterclockwise.png",
+        "expected": "0d89609e440ef1329c557e9e78202faf2653b150d7d0a9506dc0ff45fc69b340",
+        "actual": "0d89609e440ef1329c557e9e78202faf2653b150d7d0a9506dc0ff45fc69b340",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_recalibrating.png",
+        "expected": "fdc83b0f550d3161758b845f9875074676c9c61023473f0ee7b1c2b5c231e2d0",
+        "actual": "fdc83b0f550d3161758b845f9875074676c9c61023473f0ee7b1c2b5c231e2d0",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_right.png",
+        "expected": "b8f0563e835df561eafca482a369ff9fdc0f1355f0289dade99cb6979138a665",
+        "actual": "b8f0563e835df561eafca482a369ff9fdc0f1355f0289dade99cb6979138a665",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_right_then_clockwise.png",
+        "expected": "5fe84131c5697d972b9bca3b0fba60b89ef820cf12a6db78f0ccccd98c0d585e",
+        "actual": "5fe84131c5697d972b9bca3b0fba60b89ef820cf12a6db78f0ccccd98c0d585e",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_right_then_counterclockwise.png",
+        "expected": "21363f20eef7d8376b444b73899c67185c87e1dd362cbfa584d499f974d5e67f",
+        "actual": "21363f20eef7d8376b444b73899c67185c87e1dd362cbfa584d499f974d5e67f",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_search.png",
+        "expected": "6294165196a243f27aae2c1ee6ac724d9a06af01910e073b479ec8a2e3bd260e",
+        "actual": "6294165196a243f27aae2c1ee6ac724d9a06af01910e073b479ec8a2e3bd260e",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up.png",
+        "expected": "eb986bdf598f02420ae2261bdd9fe83df90c62c2926071e8a22e6c12050a82d8",
+        "actual": "eb986bdf598f02420ae2261bdd9fe83df90c62c2926071e8a22e6c12050a82d8",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up_then_clockwise.png",
+        "expected": "80fd91c6d46729b5e851163183a4a6466ddfef04c8c1a0b453b9da096e241af6",
+        "actual": "80fd91c6d46729b5e851163183a4a6466ddfef04c8c1a0b453b9da096e241af6",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up_then_counterclockwise.png",
+        "expected": "0ef51efefd973437adc02ecfbc7f4fac8feeef49879f999c33f70d8a0b2e48ec",
+        "actual": "0ef51efefd973437adc02ecfbc7f4fac8feeef49879f999c33f70d8a0b2e48ec",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up_then_left.png",
+        "expected": "18549dd9c97f06e37187cfb36ebca64cda305e74c8d5f13e0345bad868a3bc7a",
+        "actual": "18549dd9c97f06e37187cfb36ebca64cda305e74c8d5f13e0345bad868a3bc7a",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up_then_right.png",
+        "expected": "acf283f21b0a262fcc9149c48b00dac028cb8e27b583ae0b928b7b4795ccd1b6",
+        "actual": "acf283f21b0a262fcc9149c48b00dac028cb8e27b583ae0b928b7b4795ccd1b6",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_in.png",
+        "expected": "be9766d0cd778bef8f718c6bf9487fb72b2c9dfab7183b817a3dd9c529c03f7a",
+        "actual": "be9766d0cd778bef8f718c6bf9487fb72b2c9dfab7183b817a3dd9c529c03f7a",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_in_then_clockwise.png",
+        "expected": "5e9efd28f8666b0bebfccfb9b696d6a46f92e00192550e1f5c9ed0466ed42bd4",
+        "actual": "5e9efd28f8666b0bebfccfb9b696d6a46f92e00192550e1f5c9ed0466ed42bd4",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_in_then_counterclockwise.png",
+        "expected": "3933ca2549abb7937cc6a2b8c163bdce8923f1743f6b1dc7abb13e3bc27d776d",
+        "actual": "3933ca2549abb7937cc6a2b8c163bdce8923f1743f6b1dc7abb13e3bc27d776d",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_out.png",
+        "expected": "bf7f0f51452f6a48d48f6f024050942392f2e0cbf0b6536cc753ecd58d0165ca",
+        "actual": "bf7f0f51452f6a48d48f6f024050942392f2e0cbf0b6536cc753ecd58d0165ca",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_out_then_clockwise.png",
+        "expected": "56952e5d0736919a688fa5968899a6cff71243498db54992e3da7e1b19480d1d",
+        "actual": "56952e5d0736919a688fa5968899a6cff71243498db54992e3da7e1b19480d1d",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_out_then_counterclockwise.png",
+        "expected": "137f28e5d142c045792644b82bb12f0da1805d1db42d06f6c0feb654ddb58101",
+        "actual": "137f28e5d142c045792644b82bb12f0da1805d1db42d06f6c0feb654ddb58101",
+        "match": true
+      },
+      {
+        "path": "ui/assets/history_available.png",
+        "expected": "e3eb05d914e06963e33f4bf115ad3eda975228619dfa5e4a68039f11492d4bc2",
+        "actual": "e3eb05d914e06963e33f4bf115ad3eda975228619dfa5e4a68039f11492d4bc2",
+        "match": true
+      },
+      {
+        "path": "ui/assets/history_demo.png",
+        "expected": "29d4346905abf8f54e4831010dfed9afcf780941766e8c9b605cce301c2367f7",
+        "actual": "29d4346905abf8f54e4831010dfed9afcf780941766e8c9b605cce301c2367f7",
+        "match": true
+      },
+      {
+        "path": "ui/assets/history_empty.png",
+        "expected": "39b521cfc17760fee8d7c699c8144c7605961f1ce510e8a59e6bdf0fb602a854",
+        "actual": "39b521cfc17760fee8d7c699c8144c7605961f1ce510e8a59e6bdf0fb602a854",
+        "match": true
+      },
+      {
+        "path": "ui/assets/manifest.json",
+        "expected": "47a88ae12f553d35628a97c74fb4b52144748087e4e9f01ddf69cfa2972b2515",
+        "actual": "47a88ae12f553d35628a97c74fb4b52144748087e4e9f01ddf69cfa2972b2515",
+        "match": true
+      },
+      {
+        "path": "ui/libboard_ps_ui.so",
+        "expected": "54a78c628ab1cbeef4037e86f50dec6593860b8631e8c54070e06fee2b9a6054",
+        "actual": "54a78c628ab1cbeef4037e86f50dec6593860b8631e8c54070e06fee2b9a6054",
+        "match": true
+      },
+      {
+        "path": "ui/licenses/lvgl-license.txt",
+        "expected": "27a80bd36832ab42d35ad60c08b2b230a807a9bc0d58e94ec1531543dc49cbe8",
+        "actual": "27a80bd36832ab42d35ad60c08b2b230a807a9bc0d58e94ec1531543dc49cbe8",
+        "match": true
+      },
+      {
+        "path": "ui/licenses/ofl.txt",
+        "expected": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded",
+        "actual": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded",
+        "match": true
+      },
+      {
+        "path": "ui/osd_frontend.py",
+        "expected": "d67985881d124a2cf75182bb2c1594a36d093a1354dca38a6e823424f89a9d05",
+        "actual": "d67985881d124a2cf75182bb2c1594a36d093a1354dca38a6e823424f89a9d05",
+        "match": true
+      },
+      {
+        "path": "ui/scene_input.py",
+        "expected": "62a34b0978fb84987b4224f5655ff4f54c1714ae6c5dba11ab48394c278617b7",
+        "actual": "62a34b0978fb84987b4224f5655ff4f54c1714ae6c5dba11ab48394c278617b7",
+        "match": true
+      }
+    ],
+    "count": 80,
+    "all_match": true
+  },
+  "runtime_independent": {
+    "root": "D:\\2026嵌赛\\最终素材\\v24_slim_runtime_20261026\\v24_slim_runtime_20261026",
+    "payload": [
+      {
+        "path": "app/main.py",
+        "expected": "b4398db514cff31974601079906e2f5e116eb674786ba7e5f87952c0b9d8d63a",
+        "actual": "b4398db514cff31974601079906e2f5e116eb674786ba7e5f87952c0b9d8d63a",
+        "match": true
+      },
+      {
+        "path": "app/manage.py",
+        "expected": "a7ac89cb2d41c6a9251f2bef59e142ef67c503d1f4231def9a6e8229c3284d2d",
+        "actual": "a7ac89cb2d41c6a9251f2bef59e142ef67c503d1f4231def9a6e8229c3284d2d",
+        "match": true
+      },
+      {
+        "path": "app/pipeline_metrics.py",
+        "expected": "a2b7e00eb5142176269c59e0fede19fd3e437cde3f12dfad60e3f8761fb6e01c",
+        "actual": "a2b7e00eb5142176269c59e0fede19fd3e437cde3f12dfad60e3f8761fb6e01c",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/__init__.py",
+        "expected": "c38db3736659d64a346960410841dd770495e65ca057e8f4d51bb0644f9b4816",
+        "actual": "c38db3736659d64a346960410841dd770495e65ca057e8f4d51bb0644f9b4816",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/__main__.py",
+        "expected": "079850810cd5a6341512268e57d52f9938b1b3beb1075f6d7d18a900d80546f8",
+        "actual": "079850810cd5a6341512268e57d52f9938b1b3beb1075f6d7d18a900d80546f8",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/board.py",
+        "expected": "7e64c978f6244a0510e744e8845f7f6ca8c61838b62700bc3b075aa03a5b194a",
+        "actual": "7e64c978f6244a0510e744e8845f7f6ca8c61838b62700bc3b075aa03a5b194a",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/content.py",
+        "expected": "17cf90065fd49212a8620404cac5ac81fd79e86490f7040b51ed2e845115b99a",
+        "actual": "17cf90065fd49212a8620404cac5ac81fd79e86490f7040b51ed2e845115b99a",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/contracts.py",
+        "expected": "608cf0529c6ce003c174fd5c562c95c8681ead0c9b274da85b53da06de6ab957",
+        "actual": "608cf0529c6ce003c174fd5c562c95c8681ead0c9b274da85b53da06de6ab957",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/geometry.py",
+        "expected": "2044513dc27d5041cae842657b803618df8025c62654743cf88ed114f91f32d8",
+        "actual": "2044513dc27d5041cae842657b803618df8025c62654743cf88ed114f91f32d8",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/policy.py",
+        "expected": "8a9c96b0b1692ea3afb01611d378667419a55bc37d98a494f9c17d940b67492f",
+        "actual": "8a9c96b0b1692ea3afb01611d378667419a55bc37d98a494f9c17d940b67492f",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/scheduler.py",
+        "expected": "ecafa1731418d309cb69107ae29a76e50d5e36c67d9d15d7d9ecb8969ac2c586",
+        "actual": "ecafa1731418d309cb69107ae29a76e50d5e36c67d9d15d7d9ecb8969ac2c586",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/sensor.py",
+        "expected": "346c9fde827a481bd29c65a27d6caa98dcdffe83307b6d2e835be81e2fdd2d5b",
+        "actual": "346c9fde827a481bd29c65a27d6caa98dcdffe83307b6d2e835be81e2fdd2d5b",
+        "match": true
+      },
+      {
+        "path": "app/ps_runtime_v2/service.py",
+        "expected": "f01f14b4a332ed76d157548b18ada2ac00be730f3ec1d7811b4df536f5545f83",
+        "actual": "f01f14b4a332ed76d157548b18ada2ac00be730f3ec1d7811b4df536f5545f83",
+        "match": true
+      },
+      {
+        "path": "app/rgb565.py",
+        "expected": "41719431e3de849e71a196a781bbb16650dba4a74aa010d1ef5b8a9a3e51eed5",
+        "actual": "41719431e3de849e71a196a781bbb16650dba4a74aa010d1ef5b8a9a3e51eed5",
+        "match": true
+      },
+      {
+        "path": "app/runtime_paths.py",
+        "expected": "8e8521e9f8f061143e086f818aa0150e2b9dd0f87196ade8f1ec53eaf00fd5d2",
+        "actual": "8e8521e9f8f061143e086f818aa0150e2b9dd0f87196ade8f1ec53eaf00fd5d2",
+        "match": true
+      },
+      {
+        "path": "app/scene_tracking.py",
+        "expected": "7461451b01727255e7325261792e55ffddad3732f6780e4bc374141c622ca2d0",
+        "actual": "7461451b01727255e7325261792e55ffddad3732f6780e4bc374141c622ca2d0",
+        "match": true
+      },
+      {
+        "path": "app/verify_manifest.py",
+        "expected": "84bfd921a9e39d5045b60023d9c8580adc63baed2e48195c684d2c495a7a7fe5",
+        "actual": "84bfd921a9e39d5045b60023d9c8580adc63baed2e48195c684d2c495a7a7fe5",
+        "match": true
+      },
+      {
+        "path": "config/deployment.json",
+        "expected": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d",
+        "actual": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d",
+        "match": true
+      },
+      {
+        "path": "drivers/auto_exposure.py",
+        "expected": "0a52b5b9a73dcc715ab6a6df5a774e759e30bf1916fedc281d66694b5f556fc8",
+        "actual": "0a52b5b9a73dcc715ab6a6df5a774e759e30bf1916fedc281d66694b5f556fc8",
+        "match": true
+      },
+      {
+        "path": "drivers/baseline_stages.py",
+        "expected": "78ce515a17811e6ebf374d53c766fbe55bcaab851d093b0bc3e401937a8bda13",
+        "actual": "78ce515a17811e6ebf374d53c766fbe55bcaab851d093b0bc3e401937a8bda13",
+        "match": true
+      },
+      {
+        "path": "drivers/configure_restore_capture.py",
+        "expected": "07fa63d2716ddb1982dacb8d238d36bbb33aca789feecbfbf94f42a399e66112",
+        "actual": "07fa63d2716ddb1982dacb8d238d36bbb33aca789feecbfbf94f42a399e66112",
+        "match": true
+      },
+      {
+        "path": "drivers/ensure_kernel.py",
+        "expected": "38db2266e3ca9257a072dd0530c4f151668d82075e2662870dcf89e9220a58cb",
+        "actual": "38db2266e3ca9257a072dd0530c4f151668d82075e2662870dcf89e9220a58cb",
+        "match": true
+      },
+      {
+        "path": "drivers/isp_white_balance.py",
+        "expected": "9c008e71e16bb3e966bc5f4c036b5a6852be4ff850a8a17989251542c768aa71",
+        "actual": "9c008e71e16bb3e966bc5f4c036b5a6852be4ff850a8a17989251542c768aa71",
+        "match": true
+      },
+      {
+        "path": "drivers/load_overlay.py",
+        "expected": "39db9559a0575976a4169523c933a11bfc5913e75a4e7f2fe1232181f146133a",
+        "actual": "39db9559a0575976a4169523c933a11bfc5913e75a4e7f2fe1232181f146133a",
+        "match": true
+      },
+      {
+        "path": "drivers/preload_v6.py",
+        "expected": "3113a701fbc59c0ff0df706a136b63625441eb02017b40f446cb706bea36b85d",
+        "actual": "3113a701fbc59c0ff0df706a136b63625441eb02017b40f446cb706bea36b85d",
+        "match": true
+      },
+      {
+        "path": "drivers/rectify_rgb.py",
+        "expected": "201c765b581147c777e2f139ff2f2e5ecfd3826872f8ec596bbdb4a56b556729",
+        "actual": "201c765b581147c777e2f139ff2f2e5ecfd3826872f8ec596bbdb4a56b556729",
+        "match": true
+      },
+      {
+        "path": "drivers/scene_registers.py",
+        "expected": "1566f027b7fc28eca1799583259bfd597dbd99e7c106f89fa9dfee8519742a6f",
+        "actual": "1566f027b7fc28eca1799583259bfd597dbd99e7c106f89fa9dfee8519742a6f",
+        "match": true
+      },
+      {
+        "path": "drivers/scene_stage.py",
+        "expected": "f2f4e27608f574a6aea1effc0ed518f4b7b978333f4b80125da07bb5fd7be8fe",
+        "actual": "f2f4e27608f574a6aea1effc0ed518f4b7b978333f4b80125da07bb5fd7be8fe",
+        "match": true
+      },
+      {
+        "path": "drivers/set_ps_widths.py",
+        "expected": "562080598bc3346e29abfdb44d1b56fdd85a555bee95e2b9e1a048ec3aa2befe",
+        "actual": "562080598bc3346e29abfdb44d1b56fdd85a555bee95e2b9e1a048ec3aa2befe",
+        "match": true
+      },
+      {
+        "path": "drivers/shared_scanout.py",
+        "expected": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+        "actual": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+        "match": true
+      },
+      {
+        "path": "drivers/v4l2_rgb565.py",
+        "expected": "7c05374b46a734b8ac42f1981ab0bea311ad5bec06fac4ad665896e8664b702c",
+        "actual": "7c05374b46a734b8ac42f1981ab0bea311ad5bec06fac4ad665896e8664b702c",
+        "match": true
+      },
+      {
+        "path": "drivers/v4l2_types.py",
+        "expected": "01d3fd5d24a35a3f02ba862efde088546decf9d88e5348679fa902e954eac4d3",
+        "actual": "01d3fd5d24a35a3f02ba862efde088546decf9d88e5348679fa902e954eac4d3",
+        "match": true
+      },
+      {
+        "path": "drivers/whiteboard_ip.py",
+        "expected": "c07d4730f0deeb63062a2a54815afcfbcd164c86c26e45f3cedd6d251750ec3b",
+        "actual": "c07d4730f0deeb63062a2a54815afcfbcd164c86c26e45f3cedd6d251750ec3b",
+        "match": true
+      },
+      {
+        "path": "hardware/imx219-fusion-v24.bit",
+        "expected": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6",
+        "actual": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6",
+        "match": true
+      },
+      {
+        "path": "hardware/imx219-fusion-v24.bit.bin",
+        "expected": "4a22dd880535517d01f00455bad0a5cbe8f472909fc246c59946f5290b8bf8bc",
+        "actual": "4a22dd880535517d01f00455bad0a5cbe8f472909fc246c59946f5290b8bf8bc",
+        "match": true
+      },
+      {
+        "path": "hardware/imx219-fusion-v24.dtbo",
+        "expected": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f",
+        "actual": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f",
+        "match": true
+      },
+      {
+        "path": "hardware/imx219-fusion-v24.hwh",
+        "expected": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+        "actual": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+        "match": true
+      },
+      {
+        "path": "hardware/wb_frame_pool.ko",
+        "expected": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+        "actual": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+        "match": true
+      },
+      {
+        "path": "hardware/wb_rgb565_format.ko",
+        "expected": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+        "actual": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+        "match": true
+      },
+      {
+        "path": "hardware/whiteboard_registers.json",
+        "expected": "dc5832cf9a2f5a93c470b7f9cdfe5eb9857f78c667010b92b84af43b065786a4",
+        "actual": "dc5832cf9a2f5a93c470b7f9cdfe5eb9857f78c667010b92b84af43b065786a4",
+        "match": true
+      },
+      {
+        "path": "README.md",
+        "expected": "8b870e89fd80e2fff24d25ce3d64e0c0310ef979282b7c11908565b0c74aaf5a",
+        "actual": "8b870e89fd80e2fff24d25ce3d64e0c0310ef979282b7c11908565b0c74aaf5a",
+        "match": true
+      },
+      {
+        "path": "run.sh",
+        "expected": "b2328f10acd1a9d109b6285fb4acd49ea75f4192b76ede944009c9f0b3ff9b26",
+        "actual": "b2328f10acd1a9d109b6285fb4acd49ea75f4192b76ede944009c9f0b3ff9b26",
+        "match": true
+      },
+      {
+        "path": "ui/archive_ui.py",
+        "expected": "c8e1c9081f90a4c915d769826ad5f210fa375dcc839a3cc623c108b821d2f9d0",
+        "actual": "c8e1c9081f90a4c915d769826ad5f210fa375dcc839a3cc623c108b821d2f9d0",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_clockwise.png",
+        "expected": "17e9df05a25d703f5082184f3f2aab6d0e299b81f37e30244bd3573d63238e1e",
+        "actual": "17e9df05a25d703f5082184f3f2aab6d0e299b81f37e30244bd3573d63238e1e",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_confirming.png",
+        "expected": "dce047123aee054f5577571c30df3102bc4c8e83f1dbd394ee83713f77738b55",
+        "actual": "dce047123aee054f5577571c30df3102bc4c8e83f1dbd394ee83713f77738b55",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_counterclockwise.png",
+        "expected": "2e52455db7919438d50b633c4b9501126b625e6c2688dcd73a89d70ce97d8482",
+        "actual": "2e52455db7919438d50b633c4b9501126b625e6c2688dcd73a89d70ce97d8482",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down.png",
+        "expected": "acd5141d341fd457a4470569770b7a80414e3ef86e21165068f9e1b1c742662a",
+        "actual": "acd5141d341fd457a4470569770b7a80414e3ef86e21165068f9e1b1c742662a",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down_then_clockwise.png",
+        "expected": "1621e839d91737caf1d3d115c86386e1404430e98ce58ada2f25248bb308cf5f",
+        "actual": "1621e839d91737caf1d3d115c86386e1404430e98ce58ada2f25248bb308cf5f",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down_then_counterclockwise.png",
+        "expected": "fc4c40740bc20781eb085934fd4ce46bead64f590d82fcf68aa5b0a623fdb981",
+        "actual": "fc4c40740bc20781eb085934fd4ce46bead64f590d82fcf68aa5b0a623fdb981",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down_then_left.png",
+        "expected": "cd0b782e301c479581ce3b220bc538fd54899aeb4ffbe02ebd34655b891eaf66",
+        "actual": "cd0b782e301c479581ce3b220bc538fd54899aeb4ffbe02ebd34655b891eaf66",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_down_then_right.png",
+        "expected": "8cbd5fd533151a908fd7b40ee6a13bef2a00c25ae891db2afaf18420820eb391",
+        "actual": "8cbd5fd533151a908fd7b40ee6a13bef2a00c25ae891db2afaf18420820eb391",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_hold.png",
+        "expected": "9f454bc49073b5ee6ce18ba8eaf425041b68cf8ad0380f78d1cc1a36dd4b311e",
+        "actual": "9f454bc49073b5ee6ce18ba8eaf425041b68cf8ad0380f78d1cc1a36dd4b311e",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_left.png",
+        "expected": "04024d51803c228ac92bd973554426e529e97a531b7270723ce90b2042047014",
+        "actual": "04024d51803c228ac92bd973554426e529e97a531b7270723ce90b2042047014",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_left_then_clockwise.png",
+        "expected": "ceed8a7f93a7d6e6dca81dec2f3063fda70cca63b1ff3a57cb325c21d9a6adae",
+        "actual": "ceed8a7f93a7d6e6dca81dec2f3063fda70cca63b1ff3a57cb325c21d9a6adae",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_left_then_counterclockwise.png",
+        "expected": "0d89609e440ef1329c557e9e78202faf2653b150d7d0a9506dc0ff45fc69b340",
+        "actual": "0d89609e440ef1329c557e9e78202faf2653b150d7d0a9506dc0ff45fc69b340",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_recalibrating.png",
+        "expected": "fdc83b0f550d3161758b845f9875074676c9c61023473f0ee7b1c2b5c231e2d0",
+        "actual": "fdc83b0f550d3161758b845f9875074676c9c61023473f0ee7b1c2b5c231e2d0",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_right.png",
+        "expected": "b8f0563e835df561eafca482a369ff9fdc0f1355f0289dade99cb6979138a665",
+        "actual": "b8f0563e835df561eafca482a369ff9fdc0f1355f0289dade99cb6979138a665",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_right_then_clockwise.png",
+        "expected": "5fe84131c5697d972b9bca3b0fba60b89ef820cf12a6db78f0ccccd98c0d585e",
+        "actual": "5fe84131c5697d972b9bca3b0fba60b89ef820cf12a6db78f0ccccd98c0d585e",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_right_then_counterclockwise.png",
+        "expected": "21363f20eef7d8376b444b73899c67185c87e1dd362cbfa584d499f974d5e67f",
+        "actual": "21363f20eef7d8376b444b73899c67185c87e1dd362cbfa584d499f974d5e67f",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_search.png",
+        "expected": "6294165196a243f27aae2c1ee6ac724d9a06af01910e073b479ec8a2e3bd260e",
+        "actual": "6294165196a243f27aae2c1ee6ac724d9a06af01910e073b479ec8a2e3bd260e",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up.png",
+        "expected": "eb986bdf598f02420ae2261bdd9fe83df90c62c2926071e8a22e6c12050a82d8",
+        "actual": "eb986bdf598f02420ae2261bdd9fe83df90c62c2926071e8a22e6c12050a82d8",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up_then_clockwise.png",
+        "expected": "80fd91c6d46729b5e851163183a4a6466ddfef04c8c1a0b453b9da096e241af6",
+        "actual": "80fd91c6d46729b5e851163183a4a6466ddfef04c8c1a0b453b9da096e241af6",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up_then_counterclockwise.png",
+        "expected": "0ef51efefd973437adc02ecfbc7f4fac8feeef49879f999c33f70d8a0b2e48ec",
+        "actual": "0ef51efefd973437adc02ecfbc7f4fac8feeef49879f999c33f70d8a0b2e48ec",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up_then_left.png",
+        "expected": "18549dd9c97f06e37187cfb36ebca64cda305e74c8d5f13e0345bad868a3bc7a",
+        "actual": "18549dd9c97f06e37187cfb36ebca64cda305e74c8d5f13e0345bad868a3bc7a",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_up_then_right.png",
+        "expected": "acf283f21b0a262fcc9149c48b00dac028cb8e27b583ae0b928b7b4795ccd1b6",
+        "actual": "acf283f21b0a262fcc9149c48b00dac028cb8e27b583ae0b928b7b4795ccd1b6",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_in.png",
+        "expected": "be9766d0cd778bef8f718c6bf9487fb72b2c9dfab7183b817a3dd9c529c03f7a",
+        "actual": "be9766d0cd778bef8f718c6bf9487fb72b2c9dfab7183b817a3dd9c529c03f7a",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_in_then_clockwise.png",
+        "expected": "5e9efd28f8666b0bebfccfb9b696d6a46f92e00192550e1f5c9ed0466ed42bd4",
+        "actual": "5e9efd28f8666b0bebfccfb9b696d6a46f92e00192550e1f5c9ed0466ed42bd4",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_in_then_counterclockwise.png",
+        "expected": "3933ca2549abb7937cc6a2b8c163bdce8923f1743f6b1dc7abb13e3bc27d776d",
+        "actual": "3933ca2549abb7937cc6a2b8c163bdce8923f1743f6b1dc7abb13e3bc27d776d",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_out.png",
+        "expected": "bf7f0f51452f6a48d48f6f024050942392f2e0cbf0b6536cc753ecd58d0165ca",
+        "actual": "bf7f0f51452f6a48d48f6f024050942392f2e0cbf0b6536cc753ecd58d0165ca",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_out_then_clockwise.png",
+        "expected": "56952e5d0736919a688fa5968899a6cff71243498db54992e3da7e1b19480d1d",
+        "actual": "56952e5d0736919a688fa5968899a6cff71243498db54992e3da7e1b19480d1d",
+        "match": true
+      },
+      {
+        "path": "ui/assets/guidance_zoom_out_then_counterclockwise.png",
+        "expected": "137f28e5d142c045792644b82bb12f0da1805d1db42d06f6c0feb654ddb58101",
+        "actual": "137f28e5d142c045792644b82bb12f0da1805d1db42d06f6c0feb654ddb58101",
+        "match": true
+      },
+      {
+        "path": "ui/assets/history_available.png",
+        "expected": "e3eb05d914e06963e33f4bf115ad3eda975228619dfa5e4a68039f11492d4bc2",
+        "actual": "e3eb05d914e06963e33f4bf115ad3eda975228619dfa5e4a68039f11492d4bc2",
+        "match": true
+      },
+      {
+        "path": "ui/assets/history_demo.png",
+        "expected": "29d4346905abf8f54e4831010dfed9afcf780941766e8c9b605cce301c2367f7",
+        "actual": "29d4346905abf8f54e4831010dfed9afcf780941766e8c9b605cce301c2367f7",
+        "match": true
+      },
+      {
+        "path": "ui/assets/history_empty.png",
+        "expected": "39b521cfc17760fee8d7c699c8144c7605961f1ce510e8a59e6bdf0fb602a854",
+        "actual": "39b521cfc17760fee8d7c699c8144c7605961f1ce510e8a59e6bdf0fb602a854",
+        "match": true
+      },
+      {
+        "path": "ui/assets/manifest.json",
+        "expected": "47a88ae12f553d35628a97c74fb4b52144748087e4e9f01ddf69cfa2972b2515",
+        "actual": "47a88ae12f553d35628a97c74fb4b52144748087e4e9f01ddf69cfa2972b2515",
+        "match": true
+      },
+      {
+        "path": "ui/libboard_ps_ui.so",
+        "expected": "54a78c628ab1cbeef4037e86f50dec6593860b8631e8c54070e06fee2b9a6054",
+        "actual": "54a78c628ab1cbeef4037e86f50dec6593860b8631e8c54070e06fee2b9a6054",
+        "match": true
+      },
+      {
+        "path": "ui/licenses/LVGL-LICENSE.txt",
+        "expected": "27a80bd36832ab42d35ad60c08b2b230a807a9bc0d58e94ec1531543dc49cbe8",
+        "actual": "27a80bd36832ab42d35ad60c08b2b230a807a9bc0d58e94ec1531543dc49cbe8",
+        "match": true
+      },
+      {
+        "path": "ui/licenses/OFL.txt",
+        "expected": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded",
+        "actual": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded",
+        "match": true
+      },
+      {
+        "path": "ui/osd_frontend.py",
+        "expected": "d67985881d124a2cf75182bb2c1594a36d093a1354dca38a6e823424f89a9d05",
+        "actual": "d67985881d124a2cf75182bb2c1594a36d093a1354dca38a6e823424f89a9d05",
+        "match": true
+      },
+      {
+        "path": "ui/scene_input.py",
+        "expected": "62a34b0978fb84987b4224f5655ff4f54c1714ae6c5dba11ab48394c278617b7",
+        "actual": "62a34b0978fb84987b4224f5655ff4f54c1714ae6c5dba11ab48394c278617b7",
+        "match": true
+      }
+    ],
+    "count": 80,
+    "all_match": true
+  },
+  "python_pairs": [
+    {
+      "path": "app/main.py",
+      "sha256": "b4398db514cff31974601079906e2f5e116eb674786ba7e5f87952c0b9d8d63a",
+      "match": true
+    },
+    {
+      "path": "app/manage.py",
+      "sha256": "a7ac89cb2d41c6a9251f2bef59e142ef67c503d1f4231def9a6e8229c3284d2d",
+      "match": true
+    },
+    {
+      "path": "app/pipeline_metrics.py",
+      "sha256": "a2b7e00eb5142176269c59e0fede19fd3e437cde3f12dfad60e3f8761fb6e01c",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/__init__.py",
+      "sha256": "c38db3736659d64a346960410841dd770495e65ca057e8f4d51bb0644f9b4816",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/__main__.py",
+      "sha256": "079850810cd5a6341512268e57d52f9938b1b3beb1075f6d7d18a900d80546f8",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/board.py",
+      "sha256": "7e64c978f6244a0510e744e8845f7f6ca8c61838b62700bc3b075aa03a5b194a",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/content.py",
+      "sha256": "17cf90065fd49212a8620404cac5ac81fd79e86490f7040b51ed2e845115b99a",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/contracts.py",
+      "sha256": "608cf0529c6ce003c174fd5c562c95c8681ead0c9b274da85b53da06de6ab957",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/geometry.py",
+      "sha256": "2044513dc27d5041cae842657b803618df8025c62654743cf88ed114f91f32d8",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/policy.py",
+      "sha256": "8a9c96b0b1692ea3afb01611d378667419a55bc37d98a494f9c17d940b67492f",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/scheduler.py",
+      "sha256": "ecafa1731418d309cb69107ae29a76e50d5e36c67d9d15d7d9ecb8969ac2c586",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/sensor.py",
+      "sha256": "346c9fde827a481bd29c65a27d6caa98dcdffe83307b6d2e835be81e2fdd2d5b",
+      "match": true
+    },
+    {
+      "path": "app/ps_runtime_v2/service.py",
+      "sha256": "f01f14b4a332ed76d157548b18ada2ac00be730f3ec1d7811b4df536f5545f83",
+      "match": true
+    },
+    {
+      "path": "app/rgb565.py",
+      "sha256": "41719431e3de849e71a196a781bbb16650dba4a74aa010d1ef5b8a9a3e51eed5",
+      "match": true
+    },
+    {
+      "path": "app/runtime_paths.py",
+      "sha256": "8e8521e9f8f061143e086f818aa0150e2b9dd0f87196ade8f1ec53eaf00fd5d2",
+      "match": true
+    },
+    {
+      "path": "app/scene_tracking.py",
+      "sha256": "7461451b01727255e7325261792e55ffddad3732f6780e4bc374141c622ca2d0",
+      "match": true
+    },
+    {
+      "path": "app/verify_manifest.py",
+      "sha256": "84bfd921a9e39d5045b60023d9c8580adc63baed2e48195c684d2c495a7a7fe5",
+      "match": true
+    },
+    {
+      "path": "drivers/auto_exposure.py",
+      "sha256": "0a52b5b9a73dcc715ab6a6df5a774e759e30bf1916fedc281d66694b5f556fc8",
+      "match": true
+    },
+    {
+      "path": "drivers/baseline_stages.py",
+      "sha256": "78ce515a17811e6ebf374d53c766fbe55bcaab851d093b0bc3e401937a8bda13",
+      "match": true
+    },
+    {
+      "path": "drivers/configure_restore_capture.py",
+      "sha256": "07fa63d2716ddb1982dacb8d238d36bbb33aca789feecbfbf94f42a399e66112",
+      "match": true
+    },
+    {
+      "path": "drivers/ensure_kernel.py",
+      "sha256": "38db2266e3ca9257a072dd0530c4f151668d82075e2662870dcf89e9220a58cb",
+      "match": true
+    },
+    {
+      "path": "drivers/isp_white_balance.py",
+      "sha256": "9c008e71e16bb3e966bc5f4c036b5a6852be4ff850a8a17989251542c768aa71",
+      "match": true
+    },
+    {
+      "path": "drivers/load_overlay.py",
+      "sha256": "39db9559a0575976a4169523c933a11bfc5913e75a4e7f2fe1232181f146133a",
+      "match": true
+    },
+    {
+      "path": "drivers/preload_v6.py",
+      "sha256": "3113a701fbc59c0ff0df706a136b63625441eb02017b40f446cb706bea36b85d",
+      "match": true
+    },
+    {
+      "path": "drivers/rectify_rgb.py",
+      "sha256": "201c765b581147c777e2f139ff2f2e5ecfd3826872f8ec596bbdb4a56b556729",
+      "match": true
+    },
+    {
+      "path": "drivers/scene_registers.py",
+      "sha256": "1566f027b7fc28eca1799583259bfd597dbd99e7c106f89fa9dfee8519742a6f",
+      "match": true
+    },
+    {
+      "path": "drivers/scene_stage.py",
+      "sha256": "f2f4e27608f574a6aea1effc0ed518f4b7b978333f4b80125da07bb5fd7be8fe",
+      "match": true
+    },
+    {
+      "path": "drivers/set_ps_widths.py",
+      "sha256": "562080598bc3346e29abfdb44d1b56fdd85a555bee95e2b9e1a048ec3aa2befe",
+      "match": true
+    },
+    {
+      "path": "drivers/shared_scanout.py",
+      "sha256": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+      "match": true
+    },
+    {
+      "path": "drivers/v4l2_rgb565.py",
+      "sha256": "7c05374b46a734b8ac42f1981ab0bea311ad5bec06fac4ad665896e8664b702c",
+      "match": true
+    },
+    {
+      "path": "drivers/v4l2_types.py",
+      "sha256": "01d3fd5d24a35a3f02ba862efde088546decf9d88e5348679fa902e954eac4d3",
+      "match": true
+    },
+    {
+      "path": "drivers/whiteboard_ip.py",
+      "sha256": "c07d4730f0deeb63062a2a54815afcfbcd164c86c26e45f3cedd6d251750ec3b",
+      "match": true
+    },
+    {
+      "path": "ui/archive_ui.py",
+      "sha256": "c8e1c9081f90a4c915d769826ad5f210fa375dcc839a3cc623c108b821d2f9d0",
+      "match": true
+    },
+    {
+      "path": "ui/osd_frontend.py",
+      "sha256": "d67985881d124a2cf75182bb2c1594a36d093a1354dca38a6e823424f89a9d05",
+      "match": true
+    },
+    {
+      "path": "ui/scene_input.py",
+      "sha256": "62a34b0978fb84987b4224f5655ff4f54c1714ae6c5dba11ab48394c278617b7",
+      "match": true
+    }
+  ],
+  "submission_manifest": {
+    "listed": 835,
+    "matched": 821,
+    "missing": [
+      {
+        "path": "build/reports/v24/clocks_clock_fixed.rpt",
+        "relocated": "build/reports/impl/clocks_clock_fixed.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_cdc.rpt",
+        "relocated": "build/reports/impl/combined_cdc.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_clock_interaction.rpt",
+        "relocated": "build/reports/impl/combined_clock_interaction.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_control_sets.rpt",
+        "relocated": "build/reports/impl/combined_control_sets.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_drc.rpt",
+        "relocated": "build/reports/impl/combined_drc.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_hierarchy.rpt",
+        "relocated": "build/reports/impl/combined_hierarchy.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_hold20.rpt",
+        "relocated": "build/reports/impl/combined_hold20.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_methodology.rpt",
+        "relocated": "build/reports/impl/combined_methodology.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_setup20.rpt",
+        "relocated": "build/reports/impl/combined_setup20.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_timing.rpt",
+        "relocated": "build/reports/impl/combined_timing.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/combined_utilization.rpt",
+        "relocated": "build/reports/impl/combined_utilization.rpt",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/hls_resource_preflight.json",
+        "relocated": "build/reports/impl/hls_resource_preflight.json",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/signoff_timing.json",
+        "relocated": "build/reports/impl/signoff_timing.json",
+        "relocated_hash_matches": true
+      },
+      {
+        "path": "build/reports/v24/timing_result.txt",
+        "relocated": "build/reports/impl/timing_result.txt",
+        "relocated_hash_matches": true
+      }
+    ],
+    "hash_mismatches": [],
+    "unlisted": [
+      "skill/README.md",
+      "build/reports/impl/clocks_clock_fixed.rpt",
+      "build/reports/impl/combined_cdc.rpt",
+      "build/reports/impl/combined_clock_interaction.rpt",
+      "build/reports/impl/combined_control_sets.rpt",
+      "build/reports/impl/combined_drc.rpt",
+      "build/reports/impl/combined_hierarchy.rpt",
+      "build/reports/impl/combined_hold20.rpt",
+      "build/reports/impl/combined_methodology.rpt",
+      "build/reports/impl/combined_setup20.rpt",
+      "build/reports/impl/combined_timing.rpt",
+      "build/reports/impl/combined_utilization.rpt",
+      "build/reports/impl/hls_resource_preflight.json",
+      "build/reports/impl/signoff_timing.json",
+      "build/reports/impl/timing_result.txt",
+      "skill/01_overlay_manager/overlay_loader.py",
+      "skill/01_overlay_manager/README.md",
+      "skill/01_overlay_manager/register_map_inspector.py",
+      "skill/01_overlay_manager/test_overlay_manager.py",
+      "skill/01_overlay_manager/__init__.py",
+      "skill/02_dma_buffer_guard/cache_coherent_guard.py",
+      "skill/02_dma_buffer_guard/dma_buffer_pool.py",
+      "skill/02_dma_buffer_guard/README.md",
+      "skill/02_dma_buffer_guard/test_dma_guard.py",
+      "skill/02_dma_buffer_guard/__init__.py",
+      "skill/03_contract_codegen/codegen_pynq_driver.py",
+      "skill/03_contract_codegen/example_generated_driver.py",
+      "skill/03_contract_codegen/README.md",
+      "skill/03_contract_codegen/test_codegen.py",
+      "skill/03_contract_codegen/__init__.py",
+      "skill/04_golden_benchmark/golden_comparator.py",
+      "skill/04_golden_benchmark/pynq_benchmarker.py",
+      "skill/04_golden_benchmark/README.md",
+      "skill/04_golden_benchmark/test_benchmark.py",
+      "skill/04_golden_benchmark/__init__.py",
+      "skill/05_troubleshooting/TROUBLESHOOTING.md",
+      "skill/06_prompt_workflows/01_algorithmic_hardware_partition.md",
+      "skill/06_prompt_workflows/02_hls_interface_optimization.md",
+      "skill/06_prompt_workflows/03_arm_cpu_bottleneck_audit.md",
+      "skill/06_prompt_workflows/README.md",
+      "skill/01_overlay_manager/__pycache__/register_map_inspector.cpython-39.pyc",
+      "skill/01_overlay_manager/__pycache__/test_overlay_manager.cpython-39.pyc",
+      "skill/01_overlay_manager/__pycache__/__init__.cpython-39.pyc",
+      "skill/02_dma_buffer_guard/__pycache__/cache_coherent_guard.cpython-39.pyc",
+      "skill/02_dma_buffer_guard/__pycache__/dma_buffer_pool.cpython-39.pyc",
+      "skill/02_dma_buffer_guard/__pycache__/test_dma_guard.cpython-39.pyc",
+      "skill/02_dma_buffer_guard/__pycache__/__init__.cpython-39.pyc",
+      "skill/03_contract_codegen/__pycache__/codegen_pynq_driver.cpython-39.pyc",
+      "skill/03_contract_codegen/__pycache__/test_codegen.cpython-39.pyc",
+      "skill/03_contract_codegen/__pycache__/__init__.cpython-39.pyc",
+      "skill/04_golden_benchmark/__pycache__/golden_comparator.cpython-39.pyc",
+      "skill/04_golden_benchmark/__pycache__/pynq_benchmarker.cpython-39.pyc",
+      "skill/04_golden_benchmark/__pycache__/test_benchmark.cpython-39.pyc",
+      "skill/04_golden_benchmark/__pycache__/__init__.cpython-39.pyc"
+    ],
+    "intentional_empty": [
+      "report",
+      "skill"
+    ]
+  },
+  "inputs": [
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\main.py",
+      "sha256": "b4398db514cff31974601079906e2f5e116eb674786ba7e5f87952c0b9d8d63a",
+      "size": 5463,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\manage.py",
+      "sha256": "a7ac89cb2d41c6a9251f2bef59e142ef67c503d1f4231def9a6e8229c3284d2d",
+      "size": 11750,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\pipeline_metrics.py",
+      "sha256": "a2b7e00eb5142176269c59e0fede19fd3e437cde3f12dfad60e3f8761fb6e01c",
+      "size": 4122,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\__init__.py",
+      "sha256": "c38db3736659d64a346960410841dd770495e65ca057e8f4d51bb0644f9b4816",
+      "size": 123,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\__main__.py",
+      "sha256": "079850810cd5a6341512268e57d52f9938b1b3beb1075f6d7d18a900d80546f8",
+      "size": 3680,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\board.py",
+      "sha256": "7e64c978f6244a0510e744e8845f7f6ca8c61838b62700bc3b075aa03a5b194a",
+      "size": 21063,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\content.py",
+      "sha256": "17cf90065fd49212a8620404cac5ac81fd79e86490f7040b51ed2e845115b99a",
+      "size": 16660,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\contracts.py",
+      "sha256": "608cf0529c6ce003c174fd5c562c95c8681ead0c9b274da85b53da06de6ab957",
+      "size": 3569,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\geometry.py",
+      "sha256": "2044513dc27d5041cae842657b803618df8025c62654743cf88ed114f91f32d8",
+      "size": 15966,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\policy.py",
+      "sha256": "8a9c96b0b1692ea3afb01611d378667419a55bc37d98a494f9c17d940b67492f",
+      "size": 2031,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\scheduler.py",
+      "sha256": "ecafa1731418d309cb69107ae29a76e50d5e36c67d9d15d7d9ecb8969ac2c586",
+      "size": 6338,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\sensor.py",
+      "sha256": "346c9fde827a481bd29c65a27d6caa98dcdffe83307b6d2e835be81e2fdd2d5b",
+      "size": 3665,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\ps_runtime_v2\\service.py",
+      "sha256": "f01f14b4a332ed76d157548b18ada2ac00be730f3ec1d7811b4df536f5545f83",
+      "size": 6358,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\rgb565.py",
+      "sha256": "41719431e3de849e71a196a781bbb16650dba4a74aa010d1ef5b8a9a3e51eed5",
+      "size": 779,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\runtime_paths.py",
+      "sha256": "8e8521e9f8f061143e086f818aa0150e2b9dd0f87196ade8f1ec53eaf00fd5d2",
+      "size": 340,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\scene_tracking.py",
+      "sha256": "7461451b01727255e7325261792e55ffddad3732f6780e4bc374141c622ca2d0",
+      "size": 27121,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\app\\verify_manifest.py",
+      "sha256": "84bfd921a9e39d5045b60023d9c8580adc63baed2e48195c684d2c495a7a7fe5",
+      "size": 1012,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\config\\deployment.json",
+      "sha256": "3532bd3e7ecad17141328f30b33abaea3e2fe1770305f71c57dd17401abe858d",
+      "size": 1032,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\config\\runtime_manifest.json",
+      "sha256": "4096087e94f67d736c169c2d1014bfa8c74d773ca3b9b60f76a26c552a5bbf08",
+      "size": 24883,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\auto_exposure.py",
+      "sha256": "0a52b5b9a73dcc715ab6a6df5a774e759e30bf1916fedc281d66694b5f556fc8",
+      "size": 12731,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\baseline_stages.py",
+      "sha256": "78ce515a17811e6ebf374d53c766fbe55bcaab851d093b0bc3e401937a8bda13",
+      "size": 4661,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\configure_restore_capture.py",
+      "sha256": "07fa63d2716ddb1982dacb8d238d36bbb33aca789feecbfbf94f42a399e66112",
+      "size": 2683,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\ensure_kernel.py",
+      "sha256": "38db2266e3ca9257a072dd0530c4f151668d82075e2662870dcf89e9220a58cb",
+      "size": 1936,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\isp_white_balance.py",
+      "sha256": "9c008e71e16bb3e966bc5f4c036b5a6852be4ff850a8a17989251542c768aa71",
+      "size": 3401,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\load_overlay.py",
+      "sha256": "39db9559a0575976a4169523c933a11bfc5913e75a4e7f2fe1232181f146133a",
+      "size": 4100,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\preload_v6.py",
+      "sha256": "3113a701fbc59c0ff0df706a136b63625441eb02017b40f446cb706bea36b85d",
+      "size": 884,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\rectify_rgb.py",
+      "sha256": "201c765b581147c777e2f139ff2f2e5ecfd3826872f8ec596bbdb4a56b556729",
+      "size": 3383,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\scene_registers.py",
+      "sha256": "1566f027b7fc28eca1799583259bfd597dbd99e7c106f89fa9dfee8519742a6f",
+      "size": 3333,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\scene_stage.py",
+      "sha256": "f2f4e27608f574a6aea1effc0ed518f4b7b978333f4b80125da07bb5fd7be8fe",
+      "size": 9158,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\set_ps_widths.py",
+      "sha256": "562080598bc3346e29abfdb44d1b56fdd85a555bee95e2b9e1a048ec3aa2befe",
+      "size": 2268,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\shared_scanout.py",
+      "sha256": "6ef33155d65766dc44f98bd2131ef16099b99ece6a9082c22bfa39a6e15cc924",
+      "size": 14280,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\v4l2_rgb565.py",
+      "sha256": "7c05374b46a734b8ac42f1981ab0bea311ad5bec06fac4ad665896e8664b702c",
+      "size": 10094,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\v4l2_types.py",
+      "sha256": "01d3fd5d24a35a3f02ba862efde088546decf9d88e5348679fa902e954eac4d3",
+      "size": 4310,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\drivers\\whiteboard_ip.py",
+      "sha256": "c07d4730f0deeb63062a2a54815afcfbcd164c86c26e45f3cedd6d251750ec3b",
+      "size": 6062,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\imx219-fusion-v24.bit",
+      "sha256": "752d4223580a7f84ad85ba9758315dd953a9a0d03f2d769d93d34f25f20baea6",
+      "size": 7797812,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\imx219-fusion-v24.bit.bin",
+      "sha256": "4a22dd880535517d01f00455bad0a5cbe8f472909fc246c59946f5290b8bf8bc",
+      "size": 7797692,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\imx219-fusion-v24.dtbo",
+      "sha256": "cef40ede0e747a6f95d314286981ac2c043b219ec7327fe877495ba8400fe35f",
+      "size": 15536,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\imx219-fusion-v24.hwh",
+      "sha256": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+      "size": 1164029,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\wb_frame_pool.ko",
+      "sha256": "04e30be79d326052397be92b7253d69915432c8d4919176fa43ec0865caca5ca",
+      "size": 422384,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\wb_rgb565_format.ko",
+      "sha256": "28b56974afb9e2ef3b77a3e9d77d98e522699a2dd98860c57ee3d77d911aa01c",
+      "size": 445480,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\hardware\\whiteboard_registers.json",
+      "sha256": "dc5832cf9a2f5a93c470b7f9cdfe5eb9857f78c667010b92b84af43b065786a4",
+      "size": 1027,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\readme.md",
+      "sha256": "8b870e89fd80e2fff24d25ce3d64e0c0310ef979282b7c11908565b0c74aaf5a",
+      "size": 2217,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\run.sh",
+      "sha256": "b2328f10acd1a9d109b6285fb4acd49ea75f4192b76ede944009c9f0b3ff9b26",
+      "size": 174,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\archive_ui.py",
+      "sha256": "c8e1c9081f90a4c915d769826ad5f210fa375dcc839a3cc623c108b821d2f9d0",
+      "size": 13942,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_clockwise.png",
+      "sha256": "17e9df05a25d703f5082184f3f2aab6d0e299b81f37e30244bd3573d63238e1e",
+      "size": 81563,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_confirming.png",
+      "sha256": "dce047123aee054f5577571c30df3102bc4c8e83f1dbd394ee83713f77738b55",
+      "size": 74877,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_counterclockwise.png",
+      "sha256": "2e52455db7919438d50b633c4b9501126b625e6c2688dcd73a89d70ce97d8482",
+      "size": 81935,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down.png",
+      "sha256": "acd5141d341fd457a4470569770b7a80414e3ef86e21165068f9e1b1c742662a",
+      "size": 74829,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down_then_clockwise.png",
+      "sha256": "1621e839d91737caf1d3d115c86386e1404430e98ce58ada2f25248bb308cf5f",
+      "size": 84239,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down_then_counterclockwise.png",
+      "sha256": "fc4c40740bc20781eb085934fd4ce46bead64f590d82fcf68aa5b0a623fdb981",
+      "size": 84475,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down_then_left.png",
+      "sha256": "cd0b782e301c479581ce3b220bc538fd54899aeb4ffbe02ebd34655b891eaf66",
+      "size": 84185,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_down_then_right.png",
+      "sha256": "8cbd5fd533151a908fd7b40ee6a13bef2a00c25ae891db2afaf18420820eb391",
+      "size": 84194,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_hold.png",
+      "sha256": "9f454bc49073b5ee6ce18ba8eaf425041b68cf8ad0380f78d1cc1a36dd4b311e",
+      "size": 74433,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_left.png",
+      "sha256": "04024d51803c228ac92bd973554426e529e97a531b7270723ce90b2042047014",
+      "size": 78789,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_left_then_clockwise.png",
+      "sha256": "ceed8a7f93a7d6e6dca81dec2f3063fda70cca63b1ff3a57cb325c21d9a6adae",
+      "size": 87980,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_left_then_counterclockwise.png",
+      "sha256": "0d89609e440ef1329c557e9e78202faf2653b150d7d0a9506dc0ff45fc69b340",
+      "size": 88255,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_recalibrating.png",
+      "sha256": "fdc83b0f550d3161758b845f9875074676c9c61023473f0ee7b1c2b5c231e2d0",
+      "size": 79516,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_right.png",
+      "sha256": "b8f0563e835df561eafca482a369ff9fdc0f1355f0289dade99cb6979138a665",
+      "size": 78626,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_right_then_clockwise.png",
+      "sha256": "5fe84131c5697d972b9bca3b0fba60b89ef820cf12a6db78f0ccccd98c0d585e",
+      "size": 87824,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_right_then_counterclockwise.png",
+      "sha256": "21363f20eef7d8376b444b73899c67185c87e1dd362cbfa584d499f974d5e67f",
+      "size": 88100,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_search.png",
+      "sha256": "6294165196a243f27aae2c1ee6ac724d9a06af01910e073b479ec8a2e3bd260e",
+      "size": 77304,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up.png",
+      "sha256": "eb986bdf598f02420ae2261bdd9fe83df90c62c2926071e8a22e6c12050a82d8",
+      "size": 74428,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up_then_clockwise.png",
+      "sha256": "80fd91c6d46729b5e851163183a4a6466ddfef04c8c1a0b453b9da096e241af6",
+      "size": 83875,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up_then_counterclockwise.png",
+      "sha256": "0ef51efefd973437adc02ecfbc7f4fac8feeef49879f999c33f70d8a0b2e48ec",
+      "size": 84111,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up_then_left.png",
+      "sha256": "18549dd9c97f06e37187cfb36ebca64cda305e74c8d5f13e0345bad868a3bc7a",
+      "size": 83826,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_up_then_right.png",
+      "sha256": "acf283f21b0a262fcc9149c48b00dac028cb8e27b583ae0b928b7b4795ccd1b6",
+      "size": 83831,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_in.png",
+      "sha256": "be9766d0cd778bef8f718c6bf9487fb72b2c9dfab7183b817a3dd9c529c03f7a",
+      "size": 81453,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_in_then_clockwise.png",
+      "sha256": "5e9efd28f8666b0bebfccfb9b696d6a46f92e00192550e1f5c9ed0466ed42bd4",
+      "size": 90509,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_in_then_counterclockwise.png",
+      "sha256": "3933ca2549abb7937cc6a2b8c163bdce8923f1743f6b1dc7abb13e3bc27d776d",
+      "size": 90787,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_out.png",
+      "sha256": "bf7f0f51452f6a48d48f6f024050942392f2e0cbf0b6536cc753ecd58d0165ca",
+      "size": 80492,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_out_then_clockwise.png",
+      "sha256": "56952e5d0736919a688fa5968899a6cff71243498db54992e3da7e1b19480d1d",
+      "size": 89640,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\guidance_zoom_out_then_counterclockwise.png",
+      "sha256": "137f28e5d142c045792644b82bb12f0da1805d1db42d06f6c0feb654ddb58101",
+      "size": 89911,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\history_available.png",
+      "sha256": "e3eb05d914e06963e33f4bf115ad3eda975228619dfa5e4a68039f11492d4bc2",
+      "size": 96839,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\history_demo.png",
+      "sha256": "29d4346905abf8f54e4831010dfed9afcf780941766e8c9b605cce301c2367f7",
+      "size": 103434,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\history_empty.png",
+      "sha256": "39b521cfc17760fee8d7c699c8144c7605961f1ce510e8a59e6bdf0fb602a854",
+      "size": 117914,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\assets\\manifest.json",
+      "sha256": "47a88ae12f553d35628a97c74fb4b52144748087e4e9f01ddf69cfa2972b2515",
+      "size": 87980,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\libboard_ps_ui.so",
+      "sha256": "54a78c628ab1cbeef4037e86f50dec6593860b8631e8c54070e06fee2b9a6054",
+      "size": 1753600,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\licenses\\lvgl-license.txt",
+      "sha256": "27a80bd36832ab42d35ad60c08b2b230a807a9bc0d58e94ec1531543dc49cbe8",
+      "size": 1072,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\licenses\\ofl.txt",
+      "sha256": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded",
+      "size": 4387,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\osd_frontend.py",
+      "sha256": "d67985881d124a2cf75182bb2c1594a36d093a1354dca38a6e823424f89a9d05",
+      "size": 11480,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\runtime\\ui\\scene_input.py",
+      "sha256": "62a34b0978fb84987b4224f5655ff4f54c1714ae6c5dba11ab48394c278617b7",
+      "size": 7215,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\__init__.py",
+      "sha256": "be7aeaf3ca3796d832d2413bee6a871dc4e2126acca3c9a100f70560be4b631d",
+      "size": 33,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\__pycache__\\__init__.cpython-39.pyc",
+      "sha256": "5a1ec2966bbe76d280a8225f47febf0b919990512e9252ec5f6c09da36c7ffd6",
+      "size": 215,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\__pycache__\\register_map_inspector.cpython-39.pyc",
+      "sha256": "38e43aec5a3d8e8dcd0112d9a9424ac80935384446d917768619e29f3fb96e8d",
+      "size": 5787,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\__pycache__\\test_overlay_manager.cpython-39.pyc",
+      "sha256": "703e6497a6cce8ef333e728ee572cc0439a1afd1f252d9c3b730e02dbf121c67",
+      "size": 3112,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\overlay_loader.py",
+      "sha256": "7853e0294ddb1f19b1140a48986782e8d3fc5562a3188aeb58a6a05ed2236cac",
+      "size": 5709,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\README.md",
+      "sha256": "c10195ab77c7fb115fc081c7a3c22d1cb975e2abb17579c16f8810e8acdfac32",
+      "size": 3266,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\register_map_inspector.py",
+      "sha256": "43ba3ffcd83ad812a9bcddbc7bb70594398a02a0e965db962915d6e081a7eac3",
+      "size": 6351,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\01_overlay_manager\\test_overlay_manager.py",
+      "sha256": "f97d801fcf5ac8a6c3fdfa3eeda41d4b410e3bc235c40fb3ea3bdaf4f6734d86",
+      "size": 2377,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\__init__.py",
+      "sha256": "16c62d04f5f72b4c811094e7f5055042910c57e1d8fe0f343f7b861a71cbad3f",
+      "size": 34,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\__pycache__\\__init__.cpython-39.pyc",
+      "sha256": "c46b8eb6612e13b2f4dc1bd4894cd991f1424bdbe6d4472ed45403acc765765f",
+      "size": 217,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\__pycache__\\cache_coherent_guard.cpython-39.pyc",
+      "sha256": "58677029488f84431e26a520da5227ad26a5c7f3079bb8855e6f70748c12a461",
+      "size": 3578,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\__pycache__\\dma_buffer_pool.cpython-39.pyc",
+      "sha256": "6c59c2ea588997957a7a46d6604e11475553ef21c06367837cd7ad3ad2ef9a1b",
+      "size": 4405,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\__pycache__\\test_dma_guard.cpython-39.pyc",
+      "sha256": "baf0f2b8326b022da76b6dbf69854e3de0341c76911410f6c2f4b41eac8a23d0",
+      "size": 4471,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\cache_coherent_guard.py",
+      "sha256": "77eda10aa883a44c65a4f0e6653226ce59b08eece7be39ec0cce120059b29177",
+      "size": 3686,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\dma_buffer_pool.py",
+      "sha256": "f3e01d0199fc9c0b9e6892294a4dde1dee951d51f7f68f2d3c2cf50c10f31068",
+      "size": 4476,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\README.md",
+      "sha256": "4b58e9ef0062b8860538152527317a484469593b19dfd2b6dca39c06b5827d3b",
+      "size": 3435,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\02_dma_buffer_guard\\test_dma_guard.py",
+      "sha256": "73d279c965241565283712ee2b6505ce1f5851c6c29d18994662a1fd7d5144af",
+      "size": 4051,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\__init__.py",
+      "sha256": "0bf711d2a33ee63989fb854421a9a116f2ac4f7f1bd63731004664675a296d01",
+      "size": 34,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\__pycache__\\__init__.cpython-39.pyc",
+      "sha256": "09755af27a762b98907fca4b4adeb373c93d7e661df1180990b4b9d5ed464b59",
+      "size": 217,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\__pycache__\\codegen_pynq_driver.cpython-39.pyc",
+      "sha256": "bed7510346e95fd60220e5b8d9ab43f22c2ceb47ea0b7263264b934eca8245b6",
+      "size": 7590,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\__pycache__\\test_codegen.cpython-39.pyc",
+      "sha256": "a8753d0c813ebbc93d12c959338366811ede3e9b9b65fe048158ff6846ef2cbc",
+      "size": 2194,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\codegen_pynq_driver.py",
+      "sha256": "8925a02b16d21eeed1bc8fd2ed8613606e845c817d34bc948f6c1ef1b36011a0",
+      "size": 8954,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\example_generated_driver.py",
+      "sha256": "e79070152e0a79beace2df9aac9cdec77bf8119910f9c11ddd4827d2019cc928",
+      "size": 2377,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\README.md",
+      "sha256": "5d37fcfc76f1032ca208a0b139cf0926ab9e82a91e2553ea31c0ba3fac29aadc",
+      "size": 2558,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\03_contract_codegen\\test_codegen.py",
+      "sha256": "788d8c92b8253d9f3a263fe0fc64ba4a96d90d30a8f53f4bafbec4f12ab0fd6d",
+      "size": 2055,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\__init__.py",
+      "sha256": "0464759e046adde40298b784c2a476ddeaccfbfb5f12754982639cdad75c6647",
+      "size": 34,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\__pycache__\\__init__.cpython-39.pyc",
+      "sha256": "4c4353e160dd95c34096f1684257f2689c176d28999970cb6816ae9f56536859",
+      "size": 217,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\__pycache__\\golden_comparator.cpython-39.pyc",
+      "sha256": "00d33ba277e8297acb6835ec246efd0d73dbc5896a566dce7adfe9f9fcb42410",
+      "size": 3489,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\__pycache__\\pynq_benchmarker.cpython-39.pyc",
+      "sha256": "5ab0c9dc036b6b28d944680378f23838959e4e80974923601e4fdc264ec22a4e",
+      "size": 5120,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\__pycache__\\test_benchmark.cpython-39.pyc",
+      "sha256": "9a6fff030f688d4c6b0890781da4e521e3531a712f0bd20d73de689ae51bf940",
+      "size": 2360,
+      "copied": false
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\golden_comparator.py",
+      "sha256": "5921334876c535ed3cbdea9f0d8b6dae851c402967b78b3d8e3cc5ade2714277",
+      "size": 3703,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\pynq_benchmarker.py",
+      "sha256": "f81959c806d12a794190fb835583de66b90a786b57e97f31087a5983f5eb0a74",
+      "size": 5408,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\README.md",
+      "sha256": "eded6556fdc06edcab7593a1ae515b45cdabb47b2b994be51b18e56f565b2680",
+      "size": 3191,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\04_golden_benchmark\\test_benchmark.py",
+      "sha256": "4ec9351517076cdb8c4b21d90064e336b573092b9833577039d69d8b8403a11e",
+      "size": 2322,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\05_troubleshooting\\TROUBLESHOOTING.md",
+      "sha256": "d3c21a1a7987d7d5b0aad59fa1da506ed8eb438626c0074e76600e435120888a",
+      "size": 11926,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\06_prompt_workflows\\01_algorithmic_hardware_partition.md",
+      "sha256": "4756211e3dc55800ae7f563e477b9b2c179493fa29425032aaca1912e4acecfd",
+      "size": 2523,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\06_prompt_workflows\\02_hls_interface_optimization.md",
+      "sha256": "36c5a3dec9129413e977b3a44d556ef1c770d019e24fbf7e3c60cd81a2cc2cab",
+      "size": 2651,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\06_prompt_workflows\\03_arm_cpu_bottleneck_audit.md",
+      "sha256": "4e7de25aa9b68916b2fc777f19ee98bd4ae5fc41318b4d9a07caddd69b285265",
+      "size": 3047,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\06_prompt_workflows\\README.md",
+      "sha256": "7171f2454df556577d6a14751ee9d618074681b9b3be36f6f38443d4e9ff9117",
+      "size": 1751,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\skill\\README.md",
+      "sha256": "0015f3cf76b44cd1fe7b9553cc27a5be72e01ba089aba38ca909128e586c9df2",
+      "size": 5219,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\README.md",
+      "sha256": "5d18507cd9fe49bf2e4b5073128167403d5c515bf795cfbc2d73680b904bf371",
+      "size": 8381,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\submission_manifest.json",
+      "sha256": "7b72dda7f371807c6058fa2396b4ff48d77fc1bd185d6c7abb34754887816574",
+      "size": 117148,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\verify_submission.py",
+      "sha256": "7d56df3daab5bcbdef142bb094f09a97e18a0aa52d012a7a1454e7862cfec34b",
+      "size": 1036,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\material_origins.json",
+      "sha256": "1821790adcef3f8870825053eceefa5df942fcc55b622ba47349517afcde3b17",
+      "size": 353659,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\results\\validation.json",
+      "sha256": "80a531380c69c86f6ce6ea0fa663d7b699c70d192a01f8a26c8bf868a743b405",
+      "size": 3010,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\results\\local_verification.json",
+      "sha256": "8c826ade5b8ebbb833f8932b4e1eff45f9c6e865d6ea68276d12ca06f747f784",
+      "size": 279,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\results\\board_health.json",
+      "sha256": "30a2883c90288ed69fa653a928c23cb2f116bf1f5120996628aebc74d5bd630a",
+      "size": 3228,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\build\\reports\\impl\\signoff_timing.json",
+      "sha256": "d6a7f8a1256ba979bc85cf20e3d06a13b7db3050ee1f201d074d8b47faca892b",
+      "size": 114,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\src\\pl\\ip\\rectify\\drivers\\board_rectify_rgb_v1_0\\src\\xboard_rectify_rgb_hw.h",
+      "sha256": "6dc74943d6fcdd1bcb2366ee569d26bbd2212a41b8d96a59338b514f20a2ee51",
+      "size": 3937,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\src\\pl\\ip\\restore\\drivers\\whiteboard_restore_v1_0\\src\\xwhiteboard_restore_hw.h",
+      "sha256": "ff6f04195f16751523c572e11da27edad021d4dbc59152ed0db07c89617aa0f8",
+      "size": 7612,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\src\\pl\\ip\\scene\\drivers\\board_scene_quantize_v1_0\\src\\xboard_scene_quantize_hw.h",
+      "sha256": "79f3d397bb9febf5f1c59d39373883c4059c22445b67287bf9078877311eb83f",
+      "size": 5278,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\pynq_sync_v24_20261027.md",
+      "sha256": "f38eec50b5b044e2d45988704a986c5f2a5dfa39a972bbf04336bddd7e778e13",
+      "size": 17643,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\报告\\_sync_checks_20261027\\pynq_codegen_audit.json",
+      "sha256": "cf093b7d4fd7b576779e8155883494b5751ec81decfa97471348470858f347ff",
+      "size": 9368,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\实时板书增强系统\\docs\\V24最终素材核验与Word报告交接_20261026.md",
+      "sha256": "ff07556080167f964723aa3dd3d98e003c9b0f5c7b260f52dc0a9bae88058094",
+      "size": 6104,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\README.md",
+      "sha256": "161dc533cbe4900d6c186a2dd772c2accd9c103b1a3cd9524a727263f992c26e",
+      "size": 20156,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\phase2_notes_20261027.md",
+      "sha256": "273612ebbfd78bd7c783557abea750a565bf5159d0d8a4137c6c3f33fde3f549",
+      "size": 20692,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\phase2_validation.json",
+      "sha256": "29cfa6b0fb88e6ef68959f836ea3a4920b04063f5f33b5fa7e8a8c8d0442ffa9",
+      "size": 117036,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\hwh_contract_diff.json",
+      "sha256": "3bd157313ce7625fa2d1a05079de06f9bc4f0ff8aaeb8a4d5f5a39e6fbdd3ab4",
+      "size": 2015,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\candidate3_hwh_diff.json",
+      "sha256": "dc53748995122713de4cd444929eaba2ce97e949a215fcbfa9c7e87dce80a7b8",
+      "size": 128402,
+      "copied": true
+    },
+    {
+      "source": "D:\\2026嵌赛\\v24_2025_2\\candidate3_bd_diff.json",
+      "sha256": "4076aca53e8d28850a50840ea359e1fd0cf41f09abc0030dca963f22623fc8a9",
+      "size": 74720,
+      "copied": true
+    }
+  ],
+  "scope": "Byte/JSON checks; no delivered entrypoints or loaders executed; no hardware access"
+}

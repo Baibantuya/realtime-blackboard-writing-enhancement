@@ -1,0 +1,33 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xillinx/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_reset_extended glbl -L unisims_ver -L secureip -s reset_extended 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.FDRE_default
+Compiling module work.design_1_rst_clk_wiz_0_200M_0_xp...
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module work.design_1_rst_clk_wiz_0_200M_0_xp...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.SRL16E(INIT=16'b1111111111111111...
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module work.design_1_rst_clk_wiz_0_200M_0_lp...
+Compiling module unisims_ver.FDSE_default
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3(INIT=8'b01111000)
+Compiling module unisims_ver.LUT6(INIT=64'b011111111111111111...
+Compiling module work.design_1_rst_clk_wiz_0_200M_0_up...
+Compiling module work.design_1_rst_clk_wiz_0_200M_0_se...
+Compiling module work.design_1_rst_clk_wiz_0_200M_0_pr...
+Compiling module work.design_1_rst_clk_wiz_0_200M_0
+Compiling module work.tb_reset_extended
+Compiling module work.glbl
+Built simulation snapshot reset_extended

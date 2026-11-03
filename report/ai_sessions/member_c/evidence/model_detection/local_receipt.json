@@ -1,0 +1,109 @@
+{
+  "server_directory": "/home/wutong/hand_training_20261010/runs/analysis_public20k_20261017_01",
+  "verified_server_files": [
+    "original_artifact_integrity.json",
+    "tool_manifest.json",
+    "export/details.json",
+    "export/optimization_replay.json",
+    "export/sample_manifest.json",
+    "export/summary.json",
+    "objects/objects.jsonl.gz",
+    "objects/predictions_at_0_01.jsonl.gz",
+    "objects/relations.jsonl.gz",
+    "objects/review_manifest.json",
+    "objects/summary.json"
+  ],
+  "followup_sha256_verified": true,
+  "files": [
+    {
+      "path": "export/details.json",
+      "bytes": 248061,
+      "sha256": "3852b7d2bb70e8aee091f5b12578d17f37438051dcf70cf49b8d33352d4b4b42"
+    },
+    {
+      "path": "export/optimization_replay.json",
+      "bytes": 17838,
+      "sha256": "1ceef3e84eb332790d91e90fd7148aa1ca610d64a6c42f0617d52ee2ef79e1e5"
+    },
+    {
+      "path": "export/sample_manifest.json",
+      "bytes": 10622,
+      "sha256": "7d18089c80be80ff3ce646af3c31a2a5a9e1a4de4fd552472cd7241b9e1bff17"
+    },
+    {
+      "path": "export/summary.json",
+      "bytes": 3184,
+      "sha256": "541df05d56e24c08b94ebc460dcc169b71be58bb6ca83e4b7ecda64c1fc371f3"
+    },
+    {
+      "path": "objects/cached_followup.json",
+      "bytes": 3603,
+      "sha256": "e984d7e86e4cc35694c4418a181c527bd7ed70768b607a3f15d9c07c24ef25b3"
+    },
+    {
+      "path": "objects/objects.jsonl.gz",
+      "bytes": 152971,
+      "sha256": "b3c6cd084cc6df2b884f6e7ca5f32a0ac33e52e3875faefbb77308d2613928a5"
+    },
+    {
+      "path": "objects/predictions_at_0_01.jsonl.gz",
+      "bytes": 839450,
+      "sha256": "5a5295685ca2838fc62b868e1e81d4b90bfe3b9a06a3c192d61dd1f835d9ffad"
+    },
+    {
+      "path": "objects/relations.jsonl.gz",
+      "bytes": 30758,
+      "sha256": "379270c336cd8465ad851c8851a11928ee95145045dd0d703ba466e25504d3dd"
+    },
+    {
+      "path": "objects/review_manifest.json",
+      "bytes": 139259,
+      "sha256": "78382bb3839c3104601a1d7a55371598d202494a034784321c3cfda153714185"
+    },
+    {
+      "path": "objects/summary.json",
+      "bytes": 13372,
+      "sha256": "a33ab9f8d9cde8dcda40dee23a3055b6dca42e51d234bb0c7337896080726137"
+    },
+    {
+      "path": "original_artifact_integrity.json",
+      "bytes": 3987,
+      "sha256": "55d049a27363c99b2ad3f30c8c1e992ff46bf98845f6b033569be64c2981184f"
+    },
+    {
+      "path": "output_manifest.json",
+      "bytes": 6833,
+      "sha256": "d4551c7f602e475ad7d5441cb9f8c6ebc5e58cc239678128ef85017f584d5831"
+    },
+    {
+      "path": "tool_manifest.json",
+      "bytes": 314,
+      "sha256": "22652ee81446b9f5e33a6b4f72539d83e3f21c4ddc8b035fc43cb18a53660312"
+    },
+    {
+      "path": "tools/analyze_hand_object_errors.py",
+      "bytes": 15074,
+      "sha256": "9a32ed86c312532ae39a889b2505eb51b5fc9314bda41633e2fcc19d44476155"
+    },
+    {
+      "path": "tools/diagnose_hand_object_export.py",
+      "bytes": 16156,
+      "sha256": "a3d2d875b5ea07c275fe1cedf3af5ba14cfd2f009d897b040c16b49017b3064a"
+    },
+    {
+      "path": "tools/hand_object_backend_probe_20261017_01.py",
+      "bytes": 4527,
+      "sha256": "c775115ccb2af6c308980ff4b5fe535b0867b23880703d2da145ddb0ec9e0087"
+    },
+    {
+      "path": "tools/hand_object_cached_followup_20261017_01.py",
+      "bytes": 5826,
+      "sha256": "6ee747bda3e35c5a96b2f7f76f5a895bd5fbf20a77bb7b1d85a852419a9a6554"
+    },
+    {
+      "path": "tools/hand_object_diagnostic_utils.py",
+      "bytes": 10069,
+      "sha256": "bee9afd21d25661d5e5345dae685c1259c3fbd5507249e41250dde1a3ea3c22b"
+    }
+  ]
+}

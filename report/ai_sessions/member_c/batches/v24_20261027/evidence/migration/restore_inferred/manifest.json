@@ -1,0 +1,17 @@
+{
+  "change": "Only remove three forced BIND_OP dsp latency=2 directives; integer expressions and INLINE unchanged.",
+  "removed": [
+    "#pragma HLS BIND_OP variable=r77 op=mul impl=dsp latency=2\n",
+    "#pragma HLS BIND_OP variable=g150 op=mul impl=dsp latency=2\n",
+    "#pragma HLS BIND_OP variable=b29 op=mul impl=dsp latency=2\n"
+  ],
+  "original_files": {
+    "D:\\2026嵌赛\\v24_2025_2\\baseline\\src\\pl\\hls\\resource_math.h": "07f902320bb0a86be849384c78f4bb4c53d30bee2e338375eca4edfae4ccfc72",
+    "D:\\2026嵌赛\\v24_2025_2\\baseline\\src\\pl\\hls\\whiteboard_restore.cpp": "429c4c03eaa166dbf647bc8192084ad60f7f30aae52fb0560333fcb1dc14e838"
+  },
+  "candidate_files": {
+    "probes.cpp": "320190cc3667bf52ba892a3306054c9f691a40fcfb7bb20b1718ae3244425f3e",
+    "resource_math_inferred.h": "082f0c9e0967c44fe10e15cb80ec50ff1565e49a90937db4897ed0aea9ea0cd8",
+    "whiteboard_restore.cpp": "0a2e28833ca1627e0edcd0ac0d4287c3354194793430472ad34339a6ba8b13b0"
+  }
+}

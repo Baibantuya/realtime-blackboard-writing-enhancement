@@ -1,0 +1,1583 @@
+{
+  "review_date": "2026-10-22",
+  "archives": [
+    {
+      "path": "AI_Sessions\\A\\sessions.rar",
+      "bytes": 542675,
+      "sha256": "ae7d341456ee71b9a5424cdbb4efe08500a50129a4beb2bb5d9889249215685b"
+    },
+    {
+      "path": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "bytes": 159853,
+      "sha256": "6e141cbdfea1215f1d8816f8338adbec35aa1efee86084bda8947414173363c5"
+    },
+    {
+      "path": "AI_Sessions\\B\\selected_cases_wt.zip",
+      "bytes": 11002,
+      "sha256": "16377ecb318f72b00310cf1ca19eda09c0df0e4bcdcfe082f4ae7eb66dbce44e"
+    }
+  ],
+  "members": [
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-001-repository-reset-and-pl-scope.md",
+      "bytes": 4043,
+      "sha256": "ccb0ed1eef55c5b8c21aa3d3f7631233c67abae3905c32148f6983867a98fc69",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-002-usb-ps-pl-binarize-display-assessment.md",
+      "bytes": 3791,
+      "sha256": "84f40bd00a833fa35dca3a0b6edf0d1793ca8ec483335236d841d35de1ef26f2",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-003-uvc-mjpeg-feasibility.md",
+      "bytes": 2753,
+      "sha256": "2f491abf330eef9e7dba88817f01e3157bd809756438bbcdc790702f12d74164",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-004-yuyv-alternative.md",
+      "bytes": 2241,
+      "sha256": "378ebb5c7a3b001ca242a50781c06815bac56bbafaf99c949c3473c60c583e4e",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-005-zcu104-mjpeg-30fps-assessment.md",
+      "bytes": 2435,
+      "sha256": "b1d511ea7891eab45a190ed35f99bd0bebc7ee542a699d614d5bab3054b05fd7",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-006-source-agnostic-development-plan.md",
+      "bytes": 2243,
+      "sha256": "9732c079067b3a7696c9018b69ebcc704359ea53936e606d9d422784715c3372",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-007-pl-ps-core-interface-explanation.md",
+      "bytes": 2210,
+      "sha256": "6f068393ddc9206458062489d8accf0cfb488904e332b3e242a2491eff9e333c",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-008-bgrx-gray8-interface-choice.md",
+      "bytes": 2708,
+      "sha256": "ece7cf8e3dd6e7094346559fcf2841782b2ffc19b1bc8e9534465f588f6315c0",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-17-009-day1-pl-reference-and-vectors.md",
+      "bytes": 6014,
+      "sha256": "7e314afca46db5350cff9094e592f37e9944f713ee1a130c177a641886858bbf",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-18-001-day2-pl-protocol-and-reset.md",
+      "bytes": 5324,
+      "sha256": "f0ff382fc681d2c282eea1d4a9ad902b10c6be7024c9e9d1fa9b2aa489dcebc7",
+      "status": "content_read",
+      "copy": "sources/team_a/2026-09-18-001-day2-pl-protocol-and-reset.md",
+      "copy_sha256": "f0ff382fc681d2c282eea1d4a9ad902b10c6be7024c9e9d1fa9b2aa489dcebc7",
+      "redactions": 0,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-18-002-day3-grayscale-visual-evidence.md",
+      "bytes": 6673,
+      "sha256": "0e975a69f537e90d4632b2f30ab121622fc57c36369edf371b693e27d60ccefd",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-18-003-board-only-next-steps.md",
+      "bytes": 2612,
+      "sha256": "a699db7c970366cd2c6e45ecf3a2b97e984f774d2619ddd17cefb7808a9b58c0",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-18-004-board-test-ip.md",
+      "bytes": 7661,
+      "sha256": "a20553d053392407a2c0b639b47d454601f25b361456dc8d984ca881b4d4f7db",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-19-001-full-frame-ip-loopback-simulation.md",
+      "bytes": 6143,
+      "sha256": "c27da74a4b8b406f6403dd8b62b6aaf9cec8ffef59cc77eaca666579d9f7579f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-19-002-vivado-gui-full-frame.md",
+      "bytes": 3517,
+      "sha256": "05e4066ff46f1047574fa250548944b55805247b8912275feb3b863b0db42a55",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-19-003-zcu104-throughput-feasibility.md",
+      "bytes": 4112,
+      "sha256": "5eab1b20809ab5eb29aeede946f09c41233ec37b8990d44eef1356ff02fc7fba",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-19-004-usb-hardware-unavailable.md",
+      "bytes": 2962,
+      "sha256": "9b183542e942f85bee67b633b96c3a64de7bcfb6fca3184bb405ea4130306b83",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-19-005-zcu104-usb-overcurrent-manual-review.md",
+      "bytes": 4641,
+      "sha256": "377ec1c0cf99c0884dd87b368238d42652f7072c1ba64b059fe80043db98bf38",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-19-006-camera-display-selection.md",
+      "bytes": 4106,
+      "sha256": "5f84b825b831404689273e265edf43b4cbddb468aa1d990f8637718198f90efd",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-20-001-hdmi-demo-video-output-review.md",
+      "bytes": 4413,
+      "sha256": "4993595fd4caf2b53acd0dd1c7baadc406fba5db5197dae8e12c8195149af3b2",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-20-002-fmc-binarize-hdmi-foundation.md",
+      "bytes": 5185,
+      "sha256": "841105389dbe2cb5d08ce52c3f72c26d833b6aa53268e21ab97d7f92a31b166b",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-20-003-ov5640-single-dvp-input.md",
+      "bytes": 5160,
+      "sha256": "fd0ce1e89b4dc0a35a95623f69074c88a2b389770f533f42bfff010b4bdbb776",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-20-004-mes-fmc-lpc-io-pinout-clarification.md",
+      "bytes": 2405,
+      "sha256": "c15a05c49925381d6de83e87909e9770d118c8ba443a2cff53e656a458e11b5d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-20-005-vid005-cs500-zcu104-feasibility.md",
+      "bytes": 5315,
+      "sha256": "39059e50e9b92338e2e23ebbfd781c91b8764b5d0fc0616bb066976b1510704f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-20-005-zcu104-vadj-no-jumper.md",
+      "bytes": 1663,
+      "sha256": "d68b4d1e865a409de4a487cadda941a337e490012e8fa3d0eec2564f9ccef139",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-20-006-camera-vin-vs-dovdd.md",
+      "bytes": 1651,
+      "sha256": "30ef065b02e61df68cca639d1529cb84636c1c7726fe979023dc80c8923e477e",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-20-006-zcu104-taobao-camera-options.md",
+      "bytes": 6334,
+      "sha256": "835aa935fa35c1c63a28340529681662d5c7426932def96a5086d3022c9d9cdd",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-001-fpga-linux-serial-inspection.md",
+      "bytes": 4131,
+      "sha256": "7db56bd424baa1982abfcaac80f5a78b5e7bfb23a5e2cec044b88625c371db21",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-002-vivado-root-artifacts-consolidation.md",
+      "bytes": 3768,
+      "sha256": "920fdc87c44413c965217e070a94f3ea8777942dada36c3be3c53abdfb1d4c0f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-003-ov5640-single-camera-capture.md",
+      "bytes": 5632,
+      "sha256": "d95e5a482ddd69a60f8bf1a0694ddbe8833bf8de0ce608200ddba80258d66b23",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-004-kv260-camera-display-reassessment.md",
+      "bytes": 5360,
+      "sha256": "99b1f4fca3fb572ccfcb4a3cf28a61d5d9309f5aaacbccb76c294464aabed8b8",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-005-kv260-csi2-camera-and-hdmi-ip.md",
+      "bytes": 5084,
+      "sha256": "8407ada58a1082dd869285c534e67f3c14f61c7bdd7c73404802c3d8c6a99f01",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-006-kv260-project-summary-wording.md",
+      "bytes": 3147,
+      "sha256": "eb7dbe4d6eb0b8c5c15abf1236f24b34d740371ccd67bc9df7096d26a5a5be3d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-007-archive-zcu104-demos.md",
+      "bytes": 3528,
+      "sha256": "eada43d8edd983c37e05512031359eeb88c429f55b3d09375e6b874f610de3a2",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-008-kv260-serial-board-check.md",
+      "bytes": 7380,
+      "sha256": "69c6c1a512e64a1ccf0d15157a70793841588d865ecacb42cbfb0803cd19c228",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-009-kv260-uvc-camera-check.md",
+      "bytes": 4540,
+      "sha256": "96fe019e0d2db2defbc7b7556b1c0c713accb6384c6488a0c8b79777ef38ad24",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-010-kv260-uvc-single-frame.md",
+      "bytes": 4311,
+      "sha256": "c8a1659afe22c7654a72c53e8b893ea267868ef065d3b135db1801a5fcf85089",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-011-kv260-1080p30-mjpeg-decode-feasibility.md",
+      "bytes": 5028,
+      "sha256": "32cf528ff68bd7ba3ca36786e7c414b89c8f7bbb61498ca880b3afb24751d653",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-012-kv260-pl-first-camera-architecture.md",
+      "bytes": 3523,
+      "sha256": "52e82bc27157d984ae802a2e1ce0f31fdabf1a47431fc110d9e2753b068057c3",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-013-kv260-pl-binarize-no-display-feasibility.md",
+      "bytes": 4886,
+      "sha256": "8cca40482a7896db3543099212700f15cdfade291c7f1836e71f70326850106d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-014-kv260-controlled-dma-overlay.md",
+      "bytes": 8196,
+      "sha256": "2c3a5ea6e6a79e3cedc0219675bf4f39df6b49dff6810672ca3c655cbea3d2b1",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-015-conversation-recording-and-workspace-boundary.md",
+      "bytes": 3843,
+      "sha256": "92dc5231a4385fecdae1f07e378a8426745b54adb37401abc3d1a2dae19f1fa6",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-21-016-kv260-pynq-status.md",
+      "bytes": 2846,
+      "sha256": "0a504454e796ac43e07c75e660cf7784b835e3ec16eb9bda1cea7e2061b9985f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-001-pynq-19fps-bottleneck.md",
+      "bytes": 4246,
+      "sha256": "a48c4ba03c30a30e6238ee54e4768db69180c0c658ff4b60ca5560f56f84c429",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-002-vivado-log-location.md",
+      "bytes": 3519,
+      "sha256": "147b8514d3161ef88a55be7b561af4c2a36482be6dfb9b462247822435981c1d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-003-kv260-four-level-fps-optimization.md",
+      "bytes": 8057,
+      "sha256": "cac10c3ce05c86ccff99c5793935808ab8dcc86594638fbf31c107f63452c941",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-004-kv260-mjpeg-decode-options.md",
+      "bytes": 4315,
+      "sha256": "89d828c394536c545446ba92b0930e7a7f7141dbb21e8505bb87298bb6f62da9",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-004-kv260-smb-service-check.md",
+      "bytes": 2955,
+      "sha256": "19940cd3dd7787ffd924ad59d9b3057cee434af281087c92add4554e6beadd3d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-005-kv260-root-smb-share.md",
+      "bytes": 7380,
+      "sha256": "1565ae4f1b2687e1edd831b41fec6d2092f84a066084d4821d6b8503f312554f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-006-kv260-imx219-csi2-pipeline.md",
+      "bytes": 3517,
+      "sha256": "36253716e12c97b81d0b8b13b5deb77c28d816ab5c89002f0b2c5b9cf4cae4b2",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-007-kv260-hybrid-ps-pl-board-recovery-architecture.md",
+      "bytes": 3690,
+      "sha256": "09c3147fe18f7adfed3b3bff330978a081aa1da7fedc8efcc6633b43d5af8e37",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-008-kv260-four-week-plan-and-roles.md",
+      "bytes": 3269,
+      "sha256": "0a40a9eb5e9579028fd2976b5ba4caec39c4dac9b7cdccd96e23cdd365cc22c5",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-009-kv260-uvc-threshold-hdmi-output.md",
+      "bytes": 10761,
+      "sha256": "5307548e4fac2a2b9c7bb39ddf2d8062b23cae6ca3cb05c9c216a24f26cdcf68",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-22-010-kv260-rpi-camera-v3-support.md",
+      "bytes": 4163,
+      "sha256": "5e300343d1b2c2f520fdc52a9718600991f6637790947cba29cba10b895e3f20",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-24-001-pl-ps-interface-contract.md",
+      "bytes": 4156,
+      "sha256": "84d418cdf278793b06caaa8f716cdc13a010e41348e9dee16abbbcd32e111431",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-24-002-pl-ps-interface-parameters.md",
+      "bytes": 4255,
+      "sha256": "6e747dd86ae65edd677cd94c6e5625996bc381c46687a616121b831b784eb2df",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-24-003-ps-analysis-hdmi-mode-demo.md",
+      "bytes": 4314,
+      "sha256": "ceb2e167d741bdc5ce0ffd8b9c3832b9c5918094272c5c2ec48e3146a1a79539",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-24-004-pl-board-rectification.md",
+      "bytes": 7573,
+      "sha256": "543763a85c884c1f92d23a28886e4829c7dbcb1d10edaaf8fd64f90ab2a0641f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-24-005-kv260-board-rectify-deploy.md",
+      "bytes": 4980,
+      "sha256": "8045f6b25fb7dd3585383c138362691cb044ba9f6c28f190478441a38d0aca5d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-24-006-kv260-board-rectify-hdmi.md",
+      "bytes": 3872,
+      "sha256": "20cd97ad2ab9ffb1efbc6196163ffcd73093d61b5607512593cf0cc5958727dd",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-24-007-kv260-csi-camera-readiness.md",
+      "bytes": 5878,
+      "sha256": "e4498f73c1d22c9972e4f847188f514e590ac6ce8950da0603988e4a619f9766",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-24-008-imx219-driver-output.md",
+      "bytes": 7224,
+      "sha256": "a28d276cd1b974f0207cd969ef0c75993e7a3f14cc307d30cf9df0210800208e",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-26-001-teacher-detection-data-plan.md",
+      "bytes": 5616,
+      "sha256": "2b5e0f648f8ba8560999b8286ab551f63125c8e41face8165329bc6a34bafa98",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-001-article-translation.md",
+      "bytes": 2069,
+      "sha256": "396a0713512928c7120126fd824d6edfbe9253a00cd438ce8707c6e59053495d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-002-imx415-stream-exposure-plan.md",
+      "bytes": 2538,
+      "sha256": "3dc4fa4402ed21b6b36dfc03d5d1afb0a99538d685ed4c02a3ca8799362042e7",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-003-ov5645-csi-stream-analysis.md",
+      "bytes": 3063,
+      "sha256": "b86b00db4646ac0fd40ac1b4508e65cba1e0656cceefa0e08e0ce53b8b83e4f8",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-004-imx219-fpga-github-examples.md",
+      "bytes": 3422,
+      "sha256": "a25b04df2fe312af402e72b8d44b6f150a8ba055be1d2555a5fe3c5fa42a2909",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-005-imx219-gamma-ae-pipeline.md",
+      "bytes": 5565,
+      "sha256": "fad1a2432eb0cba8956292111f23d6041e6c4e52022a82f23f80ce79d2b77446",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-006-imx219-vivado-build.md",
+      "bytes": 5604,
+      "sha256": "c88a8adb0cb9d806433b8d69e62a5bd9a013d239cdf5c09826df93d98da21ea2",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-007-imx219-complete-vivado-pipeline.md",
+      "bytes": 7190,
+      "sha256": "9eb7a0be9cddf0f0dd0464b1d5a69adcdc660f39af6cb3a1ee769247beb06712",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-008-imx219-register-header-update.md",
+      "bytes": 4710,
+      "sha256": "dad51864224bd0e0fd617556073bd292668e630d94a022a604b15e8a1223ea83",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-27-009-imx219-bitstream-test-handoff.md",
+      "bytes": 5036,
+      "sha256": "52cffa16d94ebbb963d3dde64a9fc915cc51465dd63ce5a87aab926c06b5d478",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-28-001-ssh-host-setup.md",
+      "bytes": 2690,
+      "sha256": "f393df4d38e5c76971e9495c4bd563d9a8882f2e3e0136bd278c3d0b7b77c7c0",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-28-002-git-repository-setup.md",
+      "bytes": 5129,
+      "sha256": "91eb49bc80421ed32cf9e675aadc816cdb296489f28b3c23222ae4a9e9750666",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-28-002-imx219-ps-auto-exposure.md",
+      "bytes": 4472,
+      "sha256": "ebd9fc34b71f1579e3126e171b8276b1310fdd34b4acf8260bb72c55575f8230",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-28-003-imx219-ps-ae-handoff.md",
+      "bytes": 3423,
+      "sha256": "7fdc7f2c2a2e5f78770ce570c7db1c5c1518e463124ee2785410af71dd9410e8",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-28-004-imx219-color-preserving-ae.md",
+      "bytes": 5504,
+      "sha256": "249161e82b09ba6c6e8f7f3ef71a57e60dfc4960e3fccab8e8a2408f01f11173",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-28-005-vivado-hwh-timestamp-audit.md",
+      "bytes": 5364,
+      "sha256": "d61b7322cf58427a3ab6700f1dbc0453f96579deff7224593157789365632984",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-001-design-1-board-deployment.md",
+      "bytes": 22339,
+      "sha256": "de52aa8e1573120ee5d5b231bbe99ce19e555a80c138881ec3a62a28a7950cb4",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-002-raw8-ae-board-check.md",
+      "bytes": 6739,
+      "sha256": "72ca316a18736b9884d70840ea74595ef1fc065427e81bcfb3da8b5d53e1e0ad",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-003-green-cast-white-chalk.md",
+      "bytes": 8997,
+      "sha256": "1e8a2195eecac5f884fea0b24a6dc1a7a3d4a326abd3cea791b98cffe63e11ce",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-004-repeatable-kv260-deployment.md",
+      "bytes": 5662,
+      "sha256": "ca766faa85bf5533a9844d92d9e1239f80a08cbfc0a50e93021ee26b488c17a0",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-005-kv260-display-1080p.md",
+      "bytes": 8123,
+      "sha256": "cc0ce28be7a9680c36b3032e84540bf419a85ea05857036e50dda7a568622b71",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-006-board-folder-deployment.md",
+      "bytes": 4600,
+      "sha256": "8fbe14fbb824a41b63d6fedbd63df829821dd2b4ea73ea02ed6e9dbda7131c9f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-007-kv260-deploy-failure.md",
+      "bytes": 5724,
+      "sha256": "34e38f25f1c602603c521a9539ee675e42355875ccd8efe97f6fb3bfd6ea7e40",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-007-kv260-display-mode-diagnosis.md",
+      "bytes": 21849,
+      "sha256": "5e141e9142c7adf3762b0a928cc7ce83b9cdac92d567fb5901eab357cc44bcd5",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-29-008-kv260-camera-timeout.md",
+      "bytes": 6905,
+      "sha256": "c853d557c0a2dd19f57409f947435844d606315d8e7be94c00b9f932349d65c9",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-30-009-review-c-hls-handoff.md",
+      "bytes": 5907,
+      "sha256": "b1fbd44b57413b97d31d78dbb237f0cac28fdca0dc3420d7917ee240e4b710ec",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-09-30-010-local-hls-simulation.md",
+      "bytes": 6875,
+      "sha256": "382064e2b2b7b0adf136c181318e1ec14fdc29f22b87cc1841ed3f059a5514bb",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-01-001-real-video-hls-restoration.md",
+      "bytes": 10735,
+      "sha256": "81095052f61fc9fe7c15316aad3f80c5d2b169d9c3c9417baf8d55ed674e3106",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-01-002-paper-guided-restoration-plan.md",
+      "bytes": 7086,
+      "sha256": "a22b81d2f520202685208b8c493d5df5fac5e00e331e2a746e62290f47466a85",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-01-002-rgb-rectify-fps-review.md",
+      "bytes": 2972,
+      "sha256": "603f5e99f737d56d0592523b62fcddc2ac0903f0e99ea71c8d83c6b18d719ffc",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-01-003-restoration-repair-test.md",
+      "bytes": 12400,
+      "sha256": "3a981a0cd75bde721581be8d7d04d6c4b1eac6261cccdf8238e349bcf3315ce8",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-01-003-rgb-rectify-fps-optimization.md",
+      "bytes": 9251,
+      "sha256": "e54a193ad9e1fd425c8d9844ec7f85f6424479feb3fb56bea5c0ad94cf8421de",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-01-004-integrated-restoration-hls.md",
+      "bytes": 9578,
+      "sha256": "dda09424d20da334a2c865ab15a93d5ebab287724f928211e1065daa6022b51e",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-01-004-rgb-ddr-stability.md",
+      "bytes": 9937,
+      "sha256": "0d374175ab85671b0ff0f55c56b0bb8806aaf9a577efa89b6c207f9f1c0a3d8f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-01-005-pipeline-handoff.md",
+      "bytes": 3156,
+      "sha256": "6cc94f2fcc59b4f34e2d08b230e4182fd1854d43035474aacf7865c5a176bbdc",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-08-001-camera-zero-copy-review.md",
+      "bytes": 37554,
+      "sha256": "7b3de3cb6b23da2a8e1f232263239bbd185b05e2efe7c8bb8cb660b8b0a3921f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-08-002-shared-ring-rectify-build.md",
+      "bytes": 10145,
+      "sha256": "c4376af4788760202f9b51beb0c9085aac600fc0656085bf39fbbb21b6daec18",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-08-003-kv260-dpu-yolo-references.md",
+      "bytes": 3819,
+      "sha256": "08dd39dc992bbe0c44dbf7488decdc33f4e044f69b6fa69dfc953555789826b8",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-08-003-shared-ring-board-deployment.md",
+      "bytes": 8551,
+      "sha256": "f6b0897a7d8c1d897c1cb7c48af60470acf15c9c87071965120d8812d4eccb0c",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-09-001-rectify-detection-repair.md",
+      "bytes": 6513,
+      "sha256": "66c64bf07deddd523edb59737e787080c6cdf43063f7532665e227c2caf50c41",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-09-002-ddr-rings-quantize.md",
+      "bytes": 7440,
+      "sha256": "16509ae5c9271c3355cbaceebf2d2970700b4d41869f4ed353b7df33efcd01c5",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-09-003-v5-board-deployment.md",
+      "bytes": 10539,
+      "sha256": "f94fd78c40d803c1d806e6d99e537a2635167b3b65c1780043552b52b9dd2cfb",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-09-004-ps-localization-repair.md",
+      "bytes": 4424,
+      "sha256": "546b354774a750d7442c84937ab74277d635aa79a47126d7397f596b4a96556d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-09-005-live-ip-latency.md",
+      "bytes": 7989,
+      "sha256": "3ab9169f1c9781b1f957fcae1c63519a0a368be0433e53496f38d57a6652d9d0",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-09-006-pl-quality-debug-scanout.md",
+      "bytes": 18255,
+      "sha256": "c349c149bf72c24cdafaa4ad6c38eedb7422945407719f93f915251c6e64d8a9",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-10-001-quantizer-color-diagnosis.md",
+      "bytes": 2604,
+      "sha256": "50cbfb4b7698f970ad1bb2524cd744b16b97f2dc4c5530b9a72c550cb8ca0091",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-001-a6-board-deployment.md",
+      "bytes": 6967,
+      "sha256": "200eed1876880133bc675793a2cca0a8374eccf0939a55b80766689f1ae8cb27",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-002-b32-board-comparison.md",
+      "bytes": 4877,
+      "sha256": "f2cf097e8c14e5562e13154adec91930b5bfec925dac0f3095a6b48a510973b7",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-003-rectifier-rgb565-assessment.md",
+      "bytes": 4305,
+      "sha256": "1405e9da0cf29853cdb75f09b2f71acf7f28b379538b00c8f8b9725251b2092d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-004-rgb565-pipeline-build.md",
+      "bytes": 10674,
+      "sha256": "3408d7c8eb87c05fdf0de77eb1c1e5fd2791bc214d78439e81332f082b2e82f1",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-005-rgb565-board-deployment.md",
+      "bytes": 1665,
+      "sha256": "9ff341afb780af700d4160c9a04185e34d90a981087071fa2b2c9049cdb9a231",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-006-restore-local-kalman-evaluation.md",
+      "bytes": 2199,
+      "sha256": "d14e39377f80328b041a4e5e9025ad81324e4f71e5f349482e8be998474dffeb",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-007-restoration-optimization-assessment.md",
+      "bytes": 11281,
+      "sha256": "cdb264853c34d82aed913df37e2a0481b421993062710b0815acea847471637d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-008-capture-restore-optimization.md",
+      "bytes": 21519,
+      "sha256": "b4610a79ec446b164df285332f8e90e4ac1c348e2fdc7fa6a1d236a981643773",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-12-009-rgb565-regression-review.md",
+      "bytes": 5081,
+      "sha256": "af0ba1cf77503826c83ac72cf8bcc0709bb0d235dd42cba06525ed9df129a457",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-13-001-queued-dma-rgb565-repair.md",
+      "bytes": 18190,
+      "sha256": "829d34f064b3e0f43fa58b67ab08fc25fee273d9764986b5c6df4c4f9b2040ac",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-13-002-bram-sharing-and-fps-optimization.md",
+      "bytes": 9874,
+      "sha256": "542abc523a6c0a6c5caf5c3ce6d7b4968dce670fbe16bf1b30e0febcda13fd6a",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-13-002-restore-freeze-investigation.md",
+      "bytes": 7785,
+      "sha256": "0e6287616e9935e0be6cd1a5b0c8a25e3c09c2689aaf91225b61e5631672e589",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-15-001-v14-color-resource-clock-reset-assessment.md",
+      "bytes": 8470,
+      "sha256": "c6ca506f37ae8b1bb999e2b76425f59d1319f2d974046e1f4994968e56ec6568",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-15-002-v15-pre-synthesis.md",
+      "bytes": 7323,
+      "sha256": "745cba595906a888e15be723ea98d102033b159de724872611a92c0dcf17d251",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-15-003-v15-build-deploy.md",
+      "bytes": 7532,
+      "sha256": "f0f10d57d1353d243b6c34555c3db3bfdebd8e199091aae07ecd4f6dafc3d904",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-15-004-v15-quality-clock-plan.md",
+      "bytes": 3859,
+      "sha256": "569fd301166a811e7fef7eecd6cf19589053cd5000b3d57639ef48cc4561a670",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-15-005-v15-requirements-analysis-and-implementation-strategy.md",
+      "bytes": 8087,
+      "sha256": "ac2b9eba5170b088100ed0248656edd9493efc17267c9b79a6e1cfcb532ad4dd",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-15-006-v16-implementation-synthesis-deploy.md",
+      "bytes": 4425,
+      "sha256": "dab6125b95bfc320cb1ceba88a18e96a4b496926638484b709cba06b237be8ab",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-15-007-v16-streaming-rebase-osd-optimization.md",
+      "bytes": 5512,
+      "sha256": "c72184223cac524873233e7d755292af34407da521445a2af75ea847e98779e1",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-17-001-v18-occlusion-erase-noise-assessment.md",
+      "bytes": 12515,
+      "sha256": "47046c13071fae2f58c89c6a4290b96788155a6141f89a55f3dadbbe6b7a5484",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-001-v18-summary-reconciliation.md",
+      "bytes": 5920,
+      "sha256": "8b541679e48c7779c88a93e9ea2acbeea8fd95245ed54e5dba770772984b9dde",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-002-v19-quality-presynthesis.md",
+      "bytes": 10264,
+      "sha256": "598c1f962b0369decb0fcc388f7d9134d77fbe57f406da1b8abef76e24a88409",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-003-v19-200mhz-synthesis-board-trial.md",
+      "bytes": 11283,
+      "sha256": "b6027c7045451dba0c5291deb34a1997c6d8ab416044a0790db7929e560f5727",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-004-v19-ila-capture-buffer-full.md",
+      "bytes": 7615,
+      "sha256": "43489e706543cb3161d32c82324afb874ab378c0f98a176f052c3f90f1f8f23a",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-005-v19-live-pipeline-start.md",
+      "bytes": 3080,
+      "sha256": "877a039d348ae7ce6b62a783e908bef919e43cabfe306228e8f0c7655a5cf12e",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-006-v19-ps-pipeline-ui-integration.md",
+      "bytes": 8065,
+      "sha256": "efdacf871efa661704a9351c1c2a43d13a997ab210c5e8b3e73283a9216575e0",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-007-v19-ps-ui-board-trial.md",
+      "bytes": 6901,
+      "sha256": "6737ff861fdd57e5e9162fa0a31ab6cbebf502aa9dc51b3087ec0337d5ad18dc",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-008-v19-quality-motion-ui-review.md",
+      "bytes": 6210,
+      "sha256": "c6df91f87553cd675f6e4e71393c88515a481cde1e1e6f3ffd5a48c7a8d1d873",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-009-v20-system-fix-plan.md",
+      "bytes": 5247,
+      "sha256": "ae9795a45a48f14460935a23f664e3f7c0c8e465395489b0705ff1d5651050be",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-010-erasure-flicker-filter-refinement.md",
+      "bytes": 3314,
+      "sha256": "b6f2e85a322ce3a4cfc0d540055756dd56860aebfaf7e34317480a2d7fdcac57",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-18-011-v20-joint-source-implementation.md",
+      "bytes": 7293,
+      "sha256": "840507170b94c11b30381094c56e4d3ab73bbb24a852e4b051c859796265f5a3",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-012-v20-server-synthesis-package-delivery.md",
+      "bytes": 3521,
+      "sha256": "f3a2d71b248d1b4bf53c8d720fe882758df903172897827e81fb7ee381b0dff1",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-013-v20-overlay-startup-diagnosis.md",
+      "bytes": 5717,
+      "sha256": "52bfdf01c14cc630566fee76a11ce472fe56178855db7122bf0be4d0ac7fe9bc",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-014-v20-runtime-repair-board-test.md",
+      "bytes": 6783,
+      "sha256": "74ec69c23b5bd3946b943562825776e84c56e9bfc1f10304e3104261d2b8350e",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-015-v20-restart.md",
+      "bytes": 2575,
+      "sha256": "0636400e8d4a8be4886653cdd2bfcb6434b8a99503e9210af75cdbe29a402910",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-016-v20-root-cause-redesign-plan.md",
+      "bytes": 5208,
+      "sha256": "fbf894b72027617a22f818157940db9203eb2ad708a78c954bedde616aa66395",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-017-v15-frozen-restore-external-foreground-plan.md",
+      "bytes": 4327,
+      "sha256": "16c1de1f7551aa158ea7187d0b17f53b99933f2c303531b819dc8bd8aca147b9",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-018-color-and-resource-budget.md",
+      "bytes": 3494,
+      "sha256": "cc669dbc19263b1e6274dd53e1884c54cb4585d66180aef456fd849343bfe95b",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-019-fixed-resource-budget.md",
+      "bytes": 2505,
+      "sha256": "852dbae7217bdc7dbcdf2047e27a5b63c1c9348dacb87f75136bc7dcce8596fb",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-020-v21-local-implementation.md",
+      "bytes": 6182,
+      "sha256": "6ba9e61bfa37942037d3a006acc8ea451981d02420f0b4d457602b1bd6309c04",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-021-v21-server-build-board-trial.md",
+      "bytes": 27403,
+      "sha256": "1e4d3ed45fe496e5c7acd25ae75fac30b2a12ba60495d8ea624bbb28699b3625",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-19-022-v21-glare-color-diagnosis.md",
+      "bytes": 4975,
+      "sha256": "c382cdf937554c0c8b8ce371c1a3db9e75a73e97a4da12ef1f1a869ae3681a12",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-20-001-v22-fusion-presynthesis.md",
+      "bytes": 8766,
+      "sha256": "e82dad44c5119ce8b7ba50a59a477ddc215bac0adb57dc48fd252d93021973fb",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-20-002-v22-server-build-package.md",
+      "bytes": 14621,
+      "sha256": "1d2ba67917842babeb8bd4395d25b58428fd6bcea22a78dbc717d696b9afd435",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-20-003-v22-board-test.md",
+      "bytes": 4275,
+      "sha256": "8c88288273bd13a7a325a060a878d401c578dba6c7924eed5a68e270f5d1f962",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-20-004-v22-camera-loss.md",
+      "bytes": 4188,
+      "sha256": "20d7de6cbfea8bcda4135dba3c1a63dc485f89076f8fdcdbf5ed7b9dedd3ed28",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-20-005-v22-continuous-geometry.md",
+      "bytes": 5709,
+      "sha256": "7abed458c8ccb346a692e55eca5121be02943905d1b684c51e9d714a6acc7f38",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-20-006-ps-algorithm-and-framerate-redesign.md",
+      "bytes": 4115,
+      "sha256": "db1cbf7bea2a26aa76d0f5756717f76f970a5fb6745e54a891d1a00f9e9ea413",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-20-007-ps-runtime-v2-rebuild.md",
+      "bytes": 10377,
+      "sha256": "33d90752c3e8d28e1451c116f2d3d0270e2af8404fc3bb41827653d1205f2cbb",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\A\\sessions.rar",
+      "member": "sessions/2026-10-20-008-v22-r4-full-release-handoff.md",
+      "bytes": 4114,
+      "sha256": "b69878d2b2d32228648f592c9ee810da75814416abe2c75eb831ae86fb3c8c75",
+      "status": "content_read",
+      "copy": "sources/team_a/2026-10-20-008-v22-r4-full-release-handoff.md",
+      "copy_sha256": "b69878d2b2d32228648f592c9ee810da75814416abe2c75eb831ae86fb3c8c75",
+      "redactions": 0,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-15-002-v15-pre-synthesis.md",
+      "bytes": 7323,
+      "sha256": "745cba595906a888e15be723ea98d102033b159de724872611a92c0dcf17d251",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-01-004-integrated-restoration-hls.md",
+      "bytes": 9578,
+      "sha256": "dda09424d20da334a2c865ab15a93d5ebab287724f928211e1065daa6022b51e",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-12-008-capture-restore-optimization.md",
+      "bytes": 21519,
+      "sha256": "b4610a79ec446b164df285332f8e90e4ac1c348e2fdc7fa6a1d236a981643773",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-12-004-rgb565-pipeline-build.md",
+      "bytes": 10674,
+      "sha256": "3408d7c8eb87c05fdf0de77eb1c1e5fd2791bc214d78439e81332f082b2e82f1",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-09-006-pl-quality-debug-scanout.md",
+      "bytes": 18255,
+      "sha256": "c349c149bf72c24cdafaa4ad6c38eedb7422945407719f93f915251c6e64d8a9",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-12-005-rgb565-board-deployment.md",
+      "bytes": 1665,
+      "sha256": "9ff341afb780af700d4160c9a04185e34d90a981087071fa2b2c9049cdb9a231",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-15-005-v15-requirements-analysis-and-implementation-strategy.md",
+      "bytes": 8087,
+      "sha256": "ac2b9eba5170b088100ed0248656edd9493efc17267c9b79a6e1cfcb532ad4dd",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-20-007-ps-runtime-v2-rebuild.md",
+      "bytes": 10377,
+      "sha256": "33d90752c3e8d28e1451c116f2d3d0270e2af8404fc3bb41827653d1205f2cbb",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-09-002-ddr-rings-quantize.md",
+      "bytes": 7440,
+      "sha256": "16509ae5c9271c3355cbaceebf2d2970700b4d41869f4ed353b7df33efcd01c5",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-09-22-006-kv260-imx219-csi2-pipeline.md",
+      "bytes": 3517,
+      "sha256": "36253716e12c97b81d0b8b13b5deb77c28d816ab5c89002f0b2c5b9cf4cae4b2",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-09-29-003-green-cast-white-chalk.md",
+      "bytes": 8997,
+      "sha256": "1e8a2195eecac5f884fea0b24a6dc1a7a3d4a326abd3cea791b98cffe63e11ce",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-18-004-v19-ila-capture-buffer-full.md",
+      "bytes": 7615,
+      "sha256": "43489e706543cb3161d32c82324afb874ab378c0f98a176f052c3f90f1f8f23a",
+      "status": "content_read",
+      "copy": "sources/team_b_sources/2026-10-18-004-v19-ila-capture-buffer-full.md",
+      "copy_sha256": "86789c8193e2b32a98e69cb95b09302ff5206ec39e6aa7c660a5756cdeb5fbec",
+      "redactions": 1,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-09-22-007-kv260-hybrid-ps-pl-board-recovery-architecture.md",
+      "bytes": 3690,
+      "sha256": "09c3147fe18f7adfed3b3bff330978a081aa1da7fedc8efcc6633b43d5af8e37",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-15-006-v16-implementation-synthesis-deploy.md",
+      "bytes": 4425,
+      "sha256": "dab6125b95bfc320cb1ceba88a18e96a4b496926638484b709cba06b237be8ab",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-13-002-restore-freeze-investigation.md",
+      "bytes": 7785,
+      "sha256": "0e6287616e9935e0be6cd1a5b0c8a25e3c09c2689aaf91225b61e5631672e589",
+      "status": "content_read",
+      "copy": "sources/team_b_sources/2026-10-13-002-restore-freeze-investigation.md",
+      "copy_sha256": "0e6287616e9935e0be6cd1a5b0c8a25e3c09c2689aaf91225b61e5631672e589",
+      "redactions": 0,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-09-001-rectify-detection-repair.md",
+      "bytes": 6513,
+      "sha256": "66c64bf07deddd523edb59737e787080c6cdf43063f7532665e227c2caf50c41",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-08-002-shared-ring-rectify-build.md",
+      "bytes": 10145,
+      "sha256": "c4376af4788760202f9b51beb0c9085aac600fc0656085bf39fbbb21b6daec18",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-01-003-restoration-repair-test.md",
+      "bytes": 12400,
+      "sha256": "3a981a0cd75bde721581be8d7d04d6c4b1eac6261cccdf8238e349bcf3315ce8",
+      "status": "content_read",
+      "copy": "sources/team_b_sources/2026-10-01-003-restoration-repair-test.md",
+      "copy_sha256": "3a981a0cd75bde721581be8d7d04d6c4b1eac6261cccdf8238e349bcf3315ce8",
+      "redactions": 0,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-09-22-008-kv260-four-week-plan-and-roles.md",
+      "bytes": 3269,
+      "sha256": "0a40a9eb5e9579028fd2976b5ba4caec39c4dac9b7cdccd96e23cdd365cc22c5",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-08-003-shared-ring-board-deployment.md",
+      "bytes": 8551,
+      "sha256": "f6b0897a7d8c1d897c1cb7c48af60470acf15c9c87071965120d8812d4eccb0c",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-09-22-004-kv260-mjpeg-decode-options.md",
+      "bytes": 4315,
+      "sha256": "89d828c394536c545446ba92b0930e7a7f7141dbb21e8505bb87298bb6f62da9",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-09-22-003-kv260-four-level-fps-optimization.md",
+      "bytes": 8057,
+      "sha256": "cac10c3ce05c86ccff99c5793935808ab8dcc86594638fbf31c107f63452c941",
+      "status": "content_read",
+      "copy": "sources/team_b_sources/2026-09-22-003-kv260-four-level-fps-optimization.md",
+      "copy_sha256": "793fe3fa1ef4d6f0acb982b685c1f3620baaa2fa74de90decacab4f83d938eb0",
+      "redactions": 1,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-18-002-v19-quality-presynthesis.md",
+      "bytes": 10264,
+      "sha256": "598c1f962b0369decb0fcc388f7d9134d77fbe57f406da1b8abef76e24a88409",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-01-003-rgb-rectify-fps-optimization.md",
+      "bytes": 9251,
+      "sha256": "e54a193ad9e1fd425c8d9844ec7f85f6424479feb3fb56bea5c0ad94cf8421de",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-13-001-queued-dma-rgb565-repair.md",
+      "bytes": 18190,
+      "sha256": "829d34f064b3e0f43fa58b67ab08fc25fee273d9764986b5c6df4c4f9b2040ac",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-10-001-quantizer-color-diagnosis.md",
+      "bytes": 2604,
+      "sha256": "50cbfb4b7698f970ad1bb2524cd744b16b97f2dc4c5530b9a72c550cb8ca0091",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-01-004-rgb-ddr-stability.md",
+      "bytes": 9937,
+      "sha256": "0d374175ab85671b0ff0f55c56b0bb8806aaf9a577efa89b6c207f9f1c0a3d8f",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-20-006-ps-algorithm-and-framerate-redesign.md",
+      "bytes": 4115,
+      "sha256": "db1cbf7bea2a26aa76d0f5756717f76f970a5fb6745e54a891d1a00f9e9ea413",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-09-005-live-ip-latency.md",
+      "bytes": 7989,
+      "sha256": "3ab9169f1c9781b1f957fcae1c63519a0a368be0433e53496f38d57a6652d9d0",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-09-004-ps-localization-repair.md",
+      "bytes": 4424,
+      "sha256": "546b354774a750d7442c84937ab74277d635aa79a47126d7397f596b4a96556d",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-10-15-003-v15-build-deploy.md",
+      "bytes": 7532,
+      "sha256": "f0f10d57d1353d243b6c34555c3db3bfdebd8e199091aae07ecd4f6dafc3d904",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\candidate-sessions—wt.zip",
+      "member": "candidate-sessions/2026-09-29-004-repeatable-kv260-deployment.md",
+      "bytes": 5662,
+      "sha256": "ca766faa85bf5533a9844d92d9e1239f80a08cbfc0a50e93021ee26b488c17a0",
+      "status": "member_bytes_hashed_only"
+    },
+    {
+      "archive": "AI_Sessions\\B\\selected_cases_wt.zip",
+      "member": "CASE-01-kv260-fps-bottleneck.md",
+      "bytes": 3572,
+      "sha256": "e7efd9660490c03d46e8730022f94b548de3213552b5c433cd7ba3511b0ed804",
+      "status": "content_read",
+      "copy": "sources/team_b_selected/case-01-kv260-fps-bottleneck.md",
+      "copy_sha256": "e7efd9660490c03d46e8730022f94b548de3213552b5c433cd7ba3511b0ed804",
+      "redactions": 0,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\B\\selected_cases_wt.zip",
+      "member": "CASE-02-restoration-repair-and-correction.md",
+      "bytes": 3655,
+      "sha256": "c23418530f79d0fbda1b41372c26d40378d212aa49ed4f696d834653cd6955d7",
+      "status": "content_read",
+      "copy": "sources/team_b_selected/case-02-restoration-repair-and-correction.md",
+      "copy_sha256": "c23418530f79d0fbda1b41372c26d40378d212aa49ed4f696d834653cd6955d7",
+      "redactions": 0,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\B\\selected_cases_wt.zip",
+      "member": "CASE-03-restore-deadlock-and-board-fix.md",
+      "bytes": 3707,
+      "sha256": "678d272d0e5e556007bc60a96eefaa58ea0952d160c78131ba27a6f664104351",
+      "status": "content_read",
+      "copy": "sources/team_b_selected/case-03-restore-deadlock-and-board-fix.md",
+      "copy_sha256": "678d272d0e5e556007bc60a96eefaa58ea0952d160c78131ba27a6f664104351",
+      "redactions": 0,
+      "record_kind": "structured_summary_not_raw_conversation"
+    },
+    {
+      "archive": "AI_Sessions\\B\\selected_cases_wt.zip",
+      "member": "CASE-04-async-reset-buffer-full.md",
+      "bytes": 3716,
+      "sha256": "cdec4ef2dffbe0ca18a8ddfb70a97e4df9521f7388786eaf639f3c330f8b4ddf",
+      "status": "content_read",
+      "copy": "sources/team_b_selected/case-04-async-reset-buffer-full.md",
+      "copy_sha256": "cdec4ef2dffbe0ca18a8ddfb70a97e4df9521f7388786eaf639f3c330f8b4ddf",
+      "redactions": 0,
+      "record_kind": "structured_summary_not_raw_conversation"
+    }
+  ],
+  "overlap": [
+    {
+      "member_b": "candidate-sessions/2026-10-15-002-v15-pre-synthesis.md",
+      "member_a": "sessions/2026-10-15-002-v15-pre-synthesis.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-01-004-integrated-restoration-hls.md",
+      "member_a": "sessions/2026-10-01-004-integrated-restoration-hls.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-12-008-capture-restore-optimization.md",
+      "member_a": "sessions/2026-10-12-008-capture-restore-optimization.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-12-004-rgb565-pipeline-build.md",
+      "member_a": "sessions/2026-10-12-004-rgb565-pipeline-build.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-09-006-pl-quality-debug-scanout.md",
+      "member_a": "sessions/2026-10-09-006-pl-quality-debug-scanout.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-12-005-rgb565-board-deployment.md",
+      "member_a": "sessions/2026-10-12-005-rgb565-board-deployment.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-15-005-v15-requirements-analysis-and-implementation-strategy.md",
+      "member_a": "sessions/2026-10-15-005-v15-requirements-analysis-and-implementation-strategy.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-20-007-ps-runtime-v2-rebuild.md",
+      "member_a": "sessions/2026-10-20-007-ps-runtime-v2-rebuild.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-09-002-ddr-rings-quantize.md",
+      "member_a": "sessions/2026-10-09-002-ddr-rings-quantize.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-09-22-006-kv260-imx219-csi2-pipeline.md",
+      "member_a": "sessions/2026-09-22-006-kv260-imx219-csi2-pipeline.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-09-29-003-green-cast-white-chalk.md",
+      "member_a": "sessions/2026-09-29-003-green-cast-white-chalk.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-18-004-v19-ila-capture-buffer-full.md",
+      "member_a": "sessions/2026-10-18-004-v19-ila-capture-buffer-full.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-09-22-007-kv260-hybrid-ps-pl-board-recovery-architecture.md",
+      "member_a": "sessions/2026-09-22-007-kv260-hybrid-ps-pl-board-recovery-architecture.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-15-006-v16-implementation-synthesis-deploy.md",
+      "member_a": "sessions/2026-10-15-006-v16-implementation-synthesis-deploy.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-13-002-restore-freeze-investigation.md",
+      "member_a": "sessions/2026-10-13-002-restore-freeze-investigation.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-09-001-rectify-detection-repair.md",
+      "member_a": "sessions/2026-10-09-001-rectify-detection-repair.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-08-002-shared-ring-rectify-build.md",
+      "member_a": "sessions/2026-10-08-002-shared-ring-rectify-build.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-01-003-restoration-repair-test.md",
+      "member_a": "sessions/2026-10-01-003-restoration-repair-test.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-09-22-008-kv260-four-week-plan-and-roles.md",
+      "member_a": "sessions/2026-09-22-008-kv260-four-week-plan-and-roles.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-08-003-shared-ring-board-deployment.md",
+      "member_a": "sessions/2026-10-08-003-shared-ring-board-deployment.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-09-22-004-kv260-mjpeg-decode-options.md",
+      "member_a": "sessions/2026-09-22-004-kv260-mjpeg-decode-options.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-09-22-003-kv260-four-level-fps-optimization.md",
+      "member_a": "sessions/2026-09-22-003-kv260-four-level-fps-optimization.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-18-002-v19-quality-presynthesis.md",
+      "member_a": "sessions/2026-10-18-002-v19-quality-presynthesis.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-01-003-rgb-rectify-fps-optimization.md",
+      "member_a": "sessions/2026-10-01-003-rgb-rectify-fps-optimization.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-13-001-queued-dma-rgb565-repair.md",
+      "member_a": "sessions/2026-10-13-001-queued-dma-rgb565-repair.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-10-001-quantizer-color-diagnosis.md",
+      "member_a": "sessions/2026-10-10-001-quantizer-color-diagnosis.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-01-004-rgb-ddr-stability.md",
+      "member_a": "sessions/2026-10-01-004-rgb-ddr-stability.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-20-006-ps-algorithm-and-framerate-redesign.md",
+      "member_a": "sessions/2026-10-20-006-ps-algorithm-and-framerate-redesign.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-09-005-live-ip-latency.md",
+      "member_a": "sessions/2026-10-09-005-live-ip-latency.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-09-004-ps-localization-repair.md",
+      "member_a": "sessions/2026-10-09-004-ps-localization-repair.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-10-15-003-v15-build-deploy.md",
+      "member_a": "sessions/2026-10-15-003-v15-build-deploy.md",
+      "byte_identical": true
+    },
+    {
+      "member_b": "candidate-sessions/2026-09-29-004-repeatable-kv260-deployment.md",
+      "member_a": "sessions/2026-09-29-004-repeatable-kv260-deployment.md",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Only selected summaries copied; excluded macOS metadata. Archive/member hashes are identity checks, not proof of message provenance or experiment success."
+}

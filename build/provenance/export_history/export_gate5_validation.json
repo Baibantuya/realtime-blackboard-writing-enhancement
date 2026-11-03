@@ -1,0 +1,105 @@
+{
+  "status": "PASS_HOST_EXPORT_GATE_ONLY",
+  "vivado_export": "NOT_RUN",
+  "script": "export_hardware5.tcl",
+  "sha256": "e125d265befc393910c51260915f55eea9e3954827052a27703ae41df99bf515",
+  "scope": "Synthetic/parser cases only, not FPGA timing or board evidence. Export remains gated on actual routed result.",
+  "cases": [
+    {
+      "case": "actual_p4_negative_setup",
+      "expected_rejection": true,
+      "error": "Negative setup, hold, or pulse slack",
+      "passed": true
+    },
+    {
+      "case": "valid_synthetic",
+      "expected_rejection": false,
+      "error": null,
+      "passed": true
+    },
+    {
+      "case": "negative_hold",
+      "expected_rejection": true,
+      "error": "Negative setup, hold, or pulse slack",
+      "passed": true
+    },
+    {
+      "case": "negative_pulse",
+      "expected_rejection": true,
+      "error": "Negative setup, hold, or pulse slack",
+      "passed": true
+    },
+    {
+      "case": "nonzero_setup_count",
+      "expected_rejection": true,
+      "error": "Nonzero timing violation total/count",
+      "passed": true
+    },
+    {
+      "case": "nonzero_hold_total",
+      "expected_rejection": true,
+      "error": "Nonzero timing violation total/count",
+      "passed": true
+    },
+    {
+      "case": "nonzero_pulse_count",
+      "expected_rejection": true,
+      "error": "Nonzero timing violation total/count",
+      "passed": true
+    },
+    {
+      "case": "missing_coverage",
+      "expected_rejection": true,
+      "error": "Missing timing coverage check: no_clock",
+      "passed": true
+    },
+    {
+      "case": "missing_clock",
+      "expected_rejection": true,
+      "error": "Unconstrained timing check: no_clock",
+      "passed": true
+    },
+    {
+      "case": "unconstrained_endpoint",
+      "expected_rejection": true,
+      "error": "Unconstrained timing check: unconstrained_internal_endpoints",
+      "passed": true
+    },
+    {
+      "case": "malformed_timing",
+      "expected_rejection": true,
+      "error": "Cannot parse timing report",
+      "passed": true
+    },
+    {
+      "case": "actual_p4_routing",
+      "expected_rejection": false,
+      "error": null,
+      "passed": true
+    },
+    {
+      "case": "partial_routing",
+      "expected_rejection": true,
+      "error": "Incomplete or erroneous routing",
+      "passed": true
+    },
+    {
+      "case": "routing_error",
+      "expected_rejection": true,
+      "error": "Incomplete or erroneous routing",
+      "passed": true
+    },
+    {
+      "case": "empty_design",
+      "expected_rejection": true,
+      "error": "Incomplete or erroneous routing",
+      "passed": true
+    },
+    {
+      "case": "malformed_route",
+      "expected_rejection": true,
+      "error": "Missing route metric: routable nets",
+      "passed": true
+    }
+  ]
+}

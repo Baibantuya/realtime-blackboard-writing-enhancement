@@ -1,0 +1,7 @@
+{
+  "source": "D:\\2026嵌赛\\最终素材\\submission_v24\\submission_v24\\board\\hardware\\imx219-fusion-v24.dts",
+  "source_sha256": "2d4cea2999dc96ac5bc62740081a0c513f31b758417dbc1fc11c7d4df8dd7498",
+  "change": "Only firmware-name; all hardware bindings retained",
+  "status": "PREPARED_NOT_COMPILED",
+  "board_test": "NOT_RUN"
+}

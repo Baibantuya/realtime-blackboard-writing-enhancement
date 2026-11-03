@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-27",
+  "batch": "v24_20261027",
+  "scope": "Archival identity/mapping/link/report-field checks only; no engineering execution",
+  "checks": [
+    {
+      "check": "copied_file_identity",
+      "passed": true,
+      "count": 74,
+      "errors": []
+    },
+    {
+      "check": "selected_sources_still_match_read_snapshot",
+      "passed": true,
+      "count": 74,
+      "changed": [],
+      "limitation": "Other active tasks may later change source documents; copies retain this batch identity"
+    },
+    {
+      "check": "old_messages_receipts_word_latex_preserved",
+      "passed": true,
+      "count": 18,
+      "errors": []
+    },
+    {
+      "check": "platform_id_deduplication",
+      "passed": true,
+      "old_messages": 182,
+      "new_messages": 142,
+      "combined_unique_messages": 324,
+      "old_turns": 24,
+      "new_turns": 5,
+      "combined_unique_turns": 29,
+      "limitation": "Selected visible turns only; A/B overlap uses one message record"
+    },
+    {
+      "check": "visible_text_mapping",
+      "passed": true,
+      "count": 142,
+      "errors": []
+    },
+    {
+      "check": "selected_command_metadata",
+      "passed": true,
+      "count": 93,
+      "output_retrieval": "Not requested; command wrapper exit status is not child build signoff"
+    },
+    {
+      "check": "historical_limited_delegation_provenance",
+      "passed": true,
+      "activity_records": 7,
+      "started_agents": 3,
+      "scope": "Historical material review only; no delegation in this archival task"
+    },
+    {
+      "check": "migration_raw_timing_reports",
+      "passed": true,
+      "count": 3,
+      "rows": [
+        {
+          "run": "impl1",
+          "WNS_ns": -1.014,
+          "TNS_ns": -1014.192,
+          "setup_failing_endpoints": 4143,
+          "hold_failing_endpoints": 0
+        },
+        {
+          "run": "impl2",
+          "WNS_ns": -1.411,
+          "TNS_ns": -1201.115,
+          "setup_failing_endpoints": 2961,
+          "hold_failing_endpoints": 0
+        },
+        {
+          "run": "impl3",
+          "WNS_ns": -0.219,
+          "TNS_ns": -84.981,
+          "setup_failing_endpoints": 624,
+          "hold_failing_endpoints": 0
+        }
+      ],
+      "errors": [],
+      "engineering_status": "All three have negative setup slack; archival checks do not make timing pass"
+    },
+    {
+      "check": "v24_summary_disagreement_recorded",
+      "passed": true,
+      "full_report": {
+        "WNS_ns": -1.588,
+        "TNS_ns": -2182.223,
+        "setup_failing_endpoints": 8069,
+        "hold_failing_endpoints": 0
+      },
+      "summary_setup_count": 100,
+      "status": "DISAGREEMENT_PENDING_SOURCE_OWNER_REVIEW"
+    },
+    {
+      "check": "migration_prior_manifest_selected_hashes",
+      "passed": true,
+      "count": 24,
+      "errors": []
+    },
+    {
+      "check": "word_scope_revision_identity",
+      "passed": true,
+      "current_matches_historical_after": true,
+      "limitation": "Identity comparison only; no DOCX edits or new page rendering"
+    },
+    {
+      "check": "skill_receipt_scope",
+      "passed": true,
+      "v22_check_status": {
+        "pass": 429,
+        "not_checked": 7
+      },
+      "constructed_tests": 23,
+      "codegen_checked": 70,
+      "codegen_mismatches": 67,
+      "limitation": "Existing receipts read, not rerun; current S candidates are separate from V22 preflight and the live PS driver"
+    },
+    {
+      "check": "generated_navigation_links",
+      "passed": true,
+      "count": 275,
+      "errors": [],
+      "excluded": "Raw transcript and copied source links; not complete offline engineering reproduction"
+    },
+    {
+      "check": "batch_english_child_paths",
+      "passed": true,
+      "errors": [],
+      "limitation": "Chinese parent workspace path remains; not a final submission root audit"
+    },
+    {
+      "check": "obvious_secret_private_host_scan",
+      "passed": true,
+      "locations_only": [],
+      "limitation": "Limited pattern scan; personal paths remain, not public anonymization approval"
+    },
+    {
+      "check": "batch_json_parse",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "passed_checks": 16,
+  "total_checks": 16,
+  "all_checks_passed": true,
+  "engineering_acceptance": "NOT_PASSED: negative timing, no new bit/XSA/board tests; summary discrepancy remains"
+}

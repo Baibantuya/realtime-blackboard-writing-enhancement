@@ -1,0 +1,114 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date              : Wed Oct 28 18:24:50 2026
+| Host              : 白板涂鸦 running 64-bit major release  (build 9200)
+| Command           : report_clocks -file W:/impl5/clocks.rpt
+| Design            : design_1_wrapper
+| Device            : xck26-sfvc784
+| Speed File        : -2LV  PRODUCTION 1.30 05-15-2022
+| Design State      : Routed
+| Temperature Grade : C
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock                                                                                                  Period(ns)  Waveform(ns)     Attributes  Sources
+clk_pl_0                                                                                               10.000      {0.000 5.000}    P           {design_1_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]}
+mipi_csi_raspi_clk_p                                                                                   2.193       {0.000 1.097}    P           {mipi_csi_raspi_clk_p}
+design_1_i/debug_bridge_xvc/inst/axi_jtag/inst/u_jtag_proc/tck_i_reg/Q                                 40.000      {0.000 20.000}   P,G         {design_1_i/debug_bridge_xvc/inst/axi_jtag/inst/u_jtag_proc/tck_i_reg/Q}
+design_1_i/debug_bridge_xvc/inst/bsip/inst/USE_SOFTBSCAN.U_BSCAN_TAP/U_BASETAP/U_TAP/UPDATEDR_O_reg/Q  40.000      {20.000 40.000}  P,G         {design_1_i/debug_bridge_xvc/inst/bsip/inst/USE_SOFTBSCAN.U_BSCAN_TAP/U_BASETAP/U_TAP/UPDATEDR_O_reg/Q}
+GEN_PLL_IN_IP_USP.pll0_clkout0                                                                         5.333       {0.000 2.667}    P,G,A       {design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/clk_rst_top_inst/clk_scheme_inst/GEN_PLL_IN_IP_USP.plle4_adv_pll0_inst/CLKOUT0}
+clk_out1_design_1_clk_wiz_0_0                                                                          5.000       {0.000 2.500}    P,G,A       {design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKOUT0}
+clk_out2_video_design_1_clk_wiz_0_0                                                                    5.000       {0.000 2.500}    P,G,A       {design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKOUT1}
+clk_out3_phy_design_1_clk_wiz_0_0                                                                      5.000       {0.000 2.500}    P,G,A       {design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKOUT2}
+clkoutphy_out                                                                                          0.667       {0.000 0.333}    P,G,A       {design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/clk_rst_top_inst/clk_scheme_inst/GEN_PLL_IN_IP_USP.plle4_adv_pll0_inst/CLKOUTPHY}
+clkoutphy_out_DIV                                                                                      5.333       {0.000 2.667}    P,G,A       {design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/bs_ctrl_top_inst/BITSLICE_CTRL[4].bs_ctrl_inst/RX_DIV4_CLK_Q design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/bs_ctrl_top_inst/BITSLICE_CTRL[4].bs_ctrl_inst/TX_DIV4_CLK_Q}
+mipi_csi_raspi_clk_p_FIFO_WRCLK_OUT                                                                    8.772       {0.000 4.386}    P,G,A       {design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/bs_top_inst/u_rx_bs/RX_BS[26].rx_bitslice_if_bs/FIFO_WRCLK_OUT}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : design_1_i/debug_bridge_xvc/inst/axi_jtag/inst/u_jtag_proc/tck_i_reg/Q
+Master Source       : design_1_i/debug_bridge_xvc/inst/axi_jtag/inst/u_jtag_proc/tck_i_reg/C
+Master Clock        : clk_out1_design_1_clk_wiz_0_0
+Divide By           : 8
+Generated Sources   : {design_1_i/debug_bridge_xvc/inst/axi_jtag/inst/u_jtag_proc/tck_i_reg/Q}
+
+Generated Clock     : design_1_i/debug_bridge_xvc/inst/bsip/inst/USE_SOFTBSCAN.U_BSCAN_TAP/U_BASETAP/U_TAP/UPDATEDR_O_reg/Q
+Master Source       : design_1_i/debug_bridge_xvc/inst/bsip/inst/USE_SOFTBSCAN.U_BSCAN_TAP/U_BASETAP/U_TAP/UPDATEDR_O_reg/C
+Master Clock        : design_1_i/debug_bridge_xvc/inst/axi_jtag/inst/u_jtag_proc/tck_i_reg/Q
+Divide By           : 1
+Generated Sources   : {design_1_i/debug_bridge_xvc/inst/bsip/inst/USE_SOFTBSCAN.U_BSCAN_TAP/U_BASETAP/U_TAP/UPDATEDR_O_reg/Q}
+
+Generated Clock     : GEN_PLL_IN_IP_USP.pll0_clkout0
+Master Source       : design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/clk_rst_top_inst/clk_scheme_inst/GEN_PLL_IN_IP_USP.plle4_adv_pll0_inst/CLKIN
+Master Clock        : clk_out3_phy_design_1_clk_wiz_0_0
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 0.167 0.333}
+Generated Sources   : {design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/clk_rst_top_inst/clk_scheme_inst/GEN_PLL_IN_IP_USP.plle4_adv_pll0_inst/CLKOUT0}
+
+Generated Clock     : clk_out1_design_1_clk_wiz_0_0
+Master Source       : design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKIN1
+Master Clock        : clk_pl_0
+Multiply By         : 2
+Generated Sources   : {design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKOUT0}
+
+Generated Clock     : clk_out2_video_design_1_clk_wiz_0_0
+Master Source       : design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKIN1
+Master Clock        : clk_pl_0
+Multiply By         : 2
+Generated Sources   : {design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKOUT1}
+
+Generated Clock     : clk_out3_phy_design_1_clk_wiz_0_0
+Master Source       : design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKIN1
+Master Clock        : clk_pl_0
+Multiply By         : 2
+Generated Sources   : {design_1_i/clk_wiz_0/inst/mmcme4_adv_inst/CLKOUT2}
+
+Generated Clock     : clkoutphy_out
+Master Source       : design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/clk_rst_top_inst/clk_scheme_inst/GEN_PLL_IN_IP_USP.plle4_adv_pll0_inst/CLKIN
+Master Clock        : clk_out3_phy_design_1_clk_wiz_0_0
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -2.167 -4.333}
+Generated Sources   : {design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/clk_rst_top_inst/clk_scheme_inst/GEN_PLL_IN_IP_USP.plle4_adv_pll0_inst/CLKOUTPHY}
+
+Generated Clock     : clkoutphy_out_DIV
+Master Source       : design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/clk_rst_top_inst/clk_scheme_inst/GEN_PLL_IN_IP_USP.plle4_adv_pll0_inst/CLKOUTPHY
+Master Clock        : clkoutphy_out
+Divide By           : 8
+Generated Sources   : {design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/bs_ctrl_top_inst/BITSLICE_CTRL[4].bs_ctrl_inst/RX_DIV4_CLK_Q design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/bs_ctrl_top_inst/BITSLICE_CTRL[4].bs_ctrl_inst/TX_DIV4_CLK_Q}
+
+Generated Clock     : mipi_csi_raspi_clk_p_FIFO_WRCLK_OUT
+Master Source       : design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/bs_top_inst/u_rx_bs/RX_BS[26].rx_bitslice_if_bs/RX_BIT_CTRL_IN[20]
+Master Clock        : mipi_csi_raspi_clk_p
+Divide By           : 4
+Generated Sources   : {design_1_i/mipi_csi2_rx_subsyst_0/inst/phy/inst/inst/bd_d10d_phy_0_rx_support_i/slave_rx.bd_d10d_phy_0_rx_hssio_i/inst/top_inst/bs_top_inst/u_rx_bs/RX_BS[26].rx_bitslice_if_bs/FIFO_WRCLK_OUT}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+Clock     Jitter(ns)
+clk_pl_0  0.100
+

@@ -1,0 +1,11 @@
+test_localization_absence_and_match (__main__.TraceTests) ... ok
+test_nms_loss_differs_from_low_score (__main__.TraceTests) ... ok
+test_score_filter_and_class_are_distinct (__main__.TraceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.057s
+
+OK
+
+Full 55-frame baseline reproduced exactly; all 66 hand traces reconciled.
+All 66 unchanged-scale context controls verified target input pixels bit-identical.

@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../../sim/tb/test_scene_rebase565.cpp in debug mode
+   Compiling ../../../../../src/pl/hls/guarded_state.cpp in debug mode
+   Compiling ../../../../../src/pl/hls/whiteboard_restore.cpp in debug mode
+   Generating csim.exe
+SCENE_REBASE565 PASS static_person white_shirt trusted_frames one_shot epochs=2 tail_guard
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2048
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

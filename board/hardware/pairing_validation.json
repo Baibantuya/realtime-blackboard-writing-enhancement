@@ -1,0 +1,314 @@
+{
+  "checked_at": "2026-10-28T18:38:22.567537+08:00",
+  "status": "PASS_XSA_BIT_HWH_PAIRING",
+  "xsa_crc_ok": true,
+  "xsa_bit_equal_exported_bit": false,
+  "xsa_bit_payload_equal": true,
+  "bit_header_differences": {
+    "d": [
+      "18:29:18",
+      "18:30:02"
+    ]
+  },
+  "bit_headers": [
+    {
+      "a": "design_1_wrapper;UserID=0XFFFFFFFF;Version=2025.2;SW_CRC=d98e8bb1",
+      "b": "xck26-sfvc784-2LV-c",
+      "c": "2026/10/28",
+      "d": "18:29:18"
+    },
+    {
+      "a": "design_1_wrapper;UserID=0XFFFFFFFF;Version=2025.2;SW_CRC=d98e8bb1",
+      "b": "xck26-sfvc784-2LV-c",
+      "c": "2026/10/28",
+      "d": "18:30:02"
+    }
+  ],
+  "payload_sha256": "f4bdd1a6ffc471ec3dd1daaee15862087d65b58bbb47529cd15adf4d0b84b704",
+  "payload_bytes": 7797692,
+  "xsa_hwh_equal_generated_hwh": true,
+  "artifacts": {
+    "imx219-v24-2025-2-c5.bit": {
+      "bytes": 7797828,
+      "sha256": "159c246baa0e5182649de16eff0b5e5c4c58df625e7ec11924146bc7773226e4"
+    },
+    "imx219-v24-2025-2-c5.hwh": {
+      "bytes": 1089140,
+      "sha256": "a45979c5e66187d9b06dbaef02553e74197c891570fec64b9a6812ae434fa567"
+    },
+    "imx219-v24-2025-2-c5.xsa": {
+      "bytes": 6015100,
+      "sha256": "ad0d6a989cec4efba1157a139cc67aa20b298436e99b60369543a5a8e458592e"
+    }
+  },
+  "xsa_entries": [
+    {
+      "name": "bd_c7bd_smartconnect_0_0.hwh",
+      "bytes": 1043622,
+      "crc32": "88e848aa"
+    },
+    {
+      "name": "design_1.bda",
+      "bytes": 62400,
+      "crc32": "f6aa7202"
+    },
+    {
+      "name": "design_1.hwh",
+      "bytes": 1089140,
+      "crc32": "593d5b81"
+    },
+    {
+      "name": "design_1_axi_smc_0.hwh",
+      "bytes": 475373,
+      "crc32": "9a720ceb"
+    },
+    {
+      "name": "design_1_debug_bridge_xvc_0.hwh",
+      "bytes": 20951,
+      "crc32": "9d5d3e71"
+    },
+    {
+      "name": "design_1_mipi_csi2_rx_subsyst_0_0.hwh",
+      "bytes": 78299,
+      "crc32": "9252b30b"
+    },
+    {
+      "name": "design_1_rectify_mem_0.hwh",
+      "bytes": 1906987,
+      "crc32": "f108395c"
+    },
+    {
+      "name": "design_1_restore_mem_0.hwh",
+      "bytes": 2477724,
+      "crc32": "12ffae10"
+    },
+    {
+      "name": "design_1_v_proc_ss_csc_0.hwh",
+      "bytes": 30578,
+      "crc32": "7c2b31b4"
+    },
+    {
+      "name": "design_1_v_proc_ss_scaler_0.hwh",
+      "bytes": 127431,
+      "crc32": "a3b18c1d"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/data/board_rectify_rgb.mdd",
+      "bytes": 629,
+      "crc32": "eb2ce852"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/data/board_rectify_rgb.tcl",
+      "bytes": 934,
+      "crc32": "5fa2b49c"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/data/board_rectify_rgb.yaml",
+      "bytes": 678,
+      "crc32": "864b67b2"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/src/CMakeLists.txt",
+      "bytes": 1262,
+      "crc32": "96d7e76c"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/src/Makefile",
+      "bytes": 1510,
+      "crc32": "08e080ca"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb.c",
+      "bytes": 12982,
+      "crc32": "f6863ddc"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb.h",
+      "bytes": 5664,
+      "crc32": "61d615a5"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb_hw.h",
+      "bytes": 4060,
+      "crc32": "f69a8d1e"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb_linux.c",
+      "bytes": 4938,
+      "crc32": "0db34aa7"
+    },
+    {
+      "name": "drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb_sinit.c",
+      "bytes": 2234,
+      "crc32": "bab3ec4e"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/data/board_scene_quantize.mdd",
+      "bytes": 638,
+      "crc32": "83613975"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/data/board_scene_quantize.tcl",
+      "bytes": 946,
+      "crc32": "5ea9be61"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/data/board_scene_quantize.yaml",
+      "bytes": 687,
+      "crc32": "5737daf3"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/src/CMakeLists.txt",
+      "bytes": 1289,
+      "crc32": "771aa4a9"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/src/Makefile",
+      "bytes": 1513,
+      "crc32": "bf5f23e5"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize.c",
+      "bytes": 16676,
+      "crc32": "04bbcc7a"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize.h",
+      "bytes": 6729,
+      "crc32": "529f976e"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize_hw.h",
+      "bytes": 5429,
+      "crc32": "648479ba"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize_linux.c",
+      "bytes": 4983,
+      "crc32": "75dac85f"
+    },
+    {
+      "name": "drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize_sinit.c",
+      "bytes": 2309,
+      "crc32": "24a92902"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/data/whiteboard_restore.mdd",
+      "bytes": 632,
+      "crc32": "c25f04f3"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/data/whiteboard_restore.tcl",
+      "bytes": 938,
+      "crc32": "d5b23fd2"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/data/whiteboard_restore.yaml",
+      "bytes": 681,
+      "crc32": "6a92a883"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/src/CMakeLists.txt",
+      "bytes": 1271,
+      "crc32": "3cfe0a77"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/src/Makefile",
+      "bytes": 1511,
+      "crc32": "da562f50"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore.c",
+      "bytes": 23746,
+      "crc32": "82ecbc13"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore.h",
+      "bytes": 7751,
+      "crc32": "1be226fb"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore_hw.h",
+      "bytes": 7813,
+      "crc32": "048a6abc"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore_linux.c",
+      "bytes": 4953,
+      "crc32": "d0a718b0"
+    },
+    {
+      "name": "drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore_sinit.c",
+      "bytes": 2259,
+      "crc32": "709358f6"
+    },
+    {
+      "name": "imx219-v24-2025-2-c5.bit",
+      "bytes": 7797828,
+      "crc32": "91cfb1db"
+    },
+    {
+      "name": "imx219-v24-2025-2-c5.nts",
+      "bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "psu_init.c",
+      "bytes": 929459,
+      "crc32": "d1178e46"
+    },
+    {
+      "name": "psu_init.h",
+      "bytes": 1600880,
+      "crc32": "d1fe60bb"
+    },
+    {
+      "name": "psu_init.html",
+      "bytes": 54513,
+      "crc32": "e7f0af21"
+    },
+    {
+      "name": "psu_init.tcl",
+      "bytes": 840508,
+      "crc32": "37bbedff"
+    },
+    {
+      "name": "psu_init_gpl.c",
+      "bytes": 929850,
+      "crc32": "fc145cd0"
+    },
+    {
+      "name": "psu_init_gpl.h",
+      "bytes": 1601498,
+      "crc32": "6e58494d"
+    },
+    {
+      "name": "sysdef.xml",
+      "bytes": 5689,
+      "crc32": "5a64a70e"
+    },
+    {
+      "name": "vsom_kit.jpg",
+      "bytes": 1710574,
+      "crc32": "0657ed2d"
+    },
+    {
+      "name": "xsa.json",
+      "bytes": 3138,
+      "crc32": "8a657c19"
+    },
+    {
+      "name": "xsa.xml",
+      "bytes": 1410,
+      "crc32": "a76996e9"
+    }
+  ],
+  "metadata": {
+    "xsa.json": "{\r\n    \"versionMajor\": \"0\",\r\n    \"versionMinor\": \"0\",\r\n    \"usesPR\": \"false\",\r\n    \"platformState\": \"pre_synth\",\r\n    \"acceleratorBinaryFormat\": \"xclbin2\",\r\n    \"acceleratorBinaryContent\": \"bitstream\",\r\n    \"validAcceleratorBinaryContentValues\": \"dcp,bitstream\",\r\n    \"dcpFunctionStripped\": \"false\",\r\n    \"dcpEncrypted\": \"false\",\r\n    \"defaultOutputType\": \"hw_export\",\r\n    \"designIntent\": {\r\n        \"dataCenter\": {\r\n            \"value\": \"false\",\r\n            \"explicit\": \"false\"\r\n        },\r\n        \"embedded\": {\r\n            \"value\": \"false\",\r\n            \"explicit\": \"false\"\r\n        },\r\n        \"externalHost\": {\r\n            \"value\": \"false\",\r\n            \"explicit\": \"false\"\r\n        },\r\n        \"serverManaged\": {\r\n            \"value\": \"false\",\r\n            \"explicit\": \"false\"\r\n        }\r\n    },\r\n    \"board\": {\r\n        \"name\": \"xilinx.com:kv260_som:1.2\",\r\n        \"vendor\": \"xilinx.com\",\r\n        \"part\": \"XCK26-SFVC784-2LV-C\",\r\n        \"boardPart\": \"xilinx.com:kv260_som:part0:1.2\",\r\n        \"imageFileHdpi\": \"vsom_kit.jpg\"\r\n    },\r\n    \"devices\": [\r\n        {\r\n            \"name\": \"fpga0\",\r\n            \"type\": \"8\",\r\n            \"fpgaPart\": \"zynquplus:xck26:sfvc784:-2LV:c\",\r\n            \"part\": {\r\n                \"name\": \"xck26-sfvc784-2LV-c\",\r\n                \"architecture\": \"zynquplus\",\r\n                \"device\": \"xck26\",\r\n                \"package\": \"sfvc784\",\r\n                \"speedGrade\": \"-2LV\",\r\n                \"tempGrade\": \"c\"\r\n            },\r\n            \"numSLRs\": \"1\",\r\n            \"core\": {\r\n                \"name\": \"OCL_REGION_0\",\r\n                \"type\": \"clc_region\",\r\n                \"numComputeUnits\": \"60\",\r\n                \"availableResources\": {\r\n                    \"bramCount\": \"63\",\r\n                    \"dspCount\": \"409\",\r\n                    \"lutCount\": \"41803\",\r\n                    \"registerCount\": \"142113\"\r\n                }\r\n            }\r\n        }\r\n    ],\r\n    \"files\": [\r\n        {\r\n            \"name\": \"imx219-v24-2025-2-c5.bit\",\r\n            \"type\": \"FULL_BIT\"\r\n        },\r\n        {\r\n            \"name\": \"imx219-v24-2025-2-c5.nts\",\r\n            \"type\": \"NOC_TRAFFIC\"\r\n        }\r\n    ],\r\n    \"vendor\": \"xilinx\",\r\n    \"boardId\": \"kv260_som_som240_1_connector_kv260_carrier_som240_1_connector\",\r\n    \"description\": \"Vivado generated Hardware Platform\",\r\n    \"uniqueName\": \"xilinx:kv260_som_som240_1_connector_kv260_carrier_som240_1_connector::0.0\",\r\n    \"fpgaPart\": \"zynquplus\",\r\n    \"fpgaDevice\": \"xck26\",\r\n    \"unifiedPlatform\": \"true\",\r\n    \"expandablePlatform\": \"false\",\r\n    \"hardware\": \"true\",\r\n    \"softwareEmulation\": \"true\",\r\n    \"hardwareEmulation\": \"false\",\r\n    \"hardwareEmuPlatform\": \"false\",\r\n    \"usesNIFD\": \"false\",\r\n    \"generatedName\": \"Vivado\",\r\n    \"generatedVersion\": \"2025.2\",\r\n    \"generatedChangeList\": \"6299465\",\r\n    \"generatedIpChangeList\": \"6300035\",\r\n    \"generatedSharedDataChangeList\": \"6298862\",\r\n    \"generatedTimestamp\": \"Wed Oct 28 18:29:20 2026\",\r\n    \"idCode\": \"04a49093\",\r\n    \"designIDs\": {\r\n        \"designID\": \"3582626272\"\r\n    },\r\n    \"resources\": [\r\n        {\r\n            \"type\": \"REG\",\r\n            \"count\": \"142113\"\r\n        }\r\n    ]\r\n}\r\n\r\n",
+    "xsa.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<Root VersionMajor=\"1\" VersionMinor=\"15\">\r\n  <GenAppInfo Name=\"Vivado\" Version=\"2025.2\" CL=\"6299465\" TimeStamp=\"Wed Oct 28 18:29:20 2026\"/>\r\n  <DSA Vendor=\"xilinx\" BoardId=\"kv260_som_som240_1_connector_kv260_carrier_som240_1_connector\" Name=\"\" VersionMajor=\"0\" VersionMinor=\"0\" Description=\"Vivado generated Hardware Platform\" FeatureRomTimestamp=\"0\" DcpLogicFunctionStripped=\"false\" DcpEncrypt=\"false\" Unified=\"true\" Fixed=\"true\" DefaultOutputType=\"hw_export\">\r\n    <Build UsesPR=\"false\" PlatformState=\"pre_synth\" AcceleratorBinaryContent=\"bitstream\" ValidBinaryContentValues=\"dcp,bitstream\"/>\r\n    <Board Name=\"xilinx.com:kv260_som:1.2\" Vendor=\"xilinx.com\" Part=\"XCK26-SFVC784-2LV-C\" BoardPart=\"xilinx.com:kv260_som:part0:1.2\">\r\n      <Images>\r\n        <Img Type=\"HDPI\" File=\"vsom_kit.jpg\"/>\r\n        <Img Type=\"MDPI\" File=\"\"/>\r\n        <Img Type=\"LDPI\" File=\"\"/>\r\n      </Images>\r\n    </Board>\r\n    <Devices>\r\n      <Device Name=\"fpga0\" Type=\"8\" FpgaDevice=\"zynquplus:xck26:sfvc784:-2LV:c\">\r\n        <Core Name=\"OCL_REGION_0\" Type=\"clc_region\" ComputeUnits=\"60\">\r\n          <AvailableResources LUT=\"41803\" REG=\"142113\" BRAM=\"63\" DSP=\"409\"/>\r\n        </Core>\r\n      </Device>\r\n    </Devices>\r\n    <Files>\r\n      <File Type=\"FULL_BIT\" Name=\"imx219-v24-2025-2-c5.bit\"/>\r\n      <File Type=\"NOC_TRAFFIC\" Name=\"imx219-v24-2025-2-c5.nts\"/>\r\n    </Files>\r\n  </DSA>\r\n</Root>\r\n",
+    "sysdef.xml": "<?xml version=\"1.0\"?>\r\n<Project Version=\"1\" Minor=\"7\" DIGEST=\"\">\r\n\t<TOOL_VERSION Version=\"2025.2\"/>\r\n\t<MODE Name=\"Post-Synthesis\"/>\r\n\t<SYSTEMINFO BOARD=\"xilinx.com:kv260_som_som240_1_connector_kv260_carrier_som240_1_connector:1.2\" PART=\"xck26-sfvc784-2LV-c\" ARCH=\"zynquplus\" PACKAGE=\"sfvc784\" DEVICE=\"xck26\" SPEED=\"-2LV\" LUT=\"117120\" FF=\"234240\" BRAM=\"144\" DSP=\"1248\"/>\r\n\t<PART Name=\"xck26-sfvc784-2LV-c\">\r\n\t\t<SSIT IS_SSIT=\"0\"/>\r\n\t\t<NUM_OF_SLRS Value=\"1\"/>\r\n\t</PART>\r\n\t<HIERARCHY Name=\"design_1_wrapper\"/>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"design_1.hwh\" src_db=\"design_1.hwdef\" DESIGN_HIERARCHY=\"design_1_i\" BD_TYPE=\"DEFAULT_BD\">\r\n\t</File>\r\n\t<File Type=\"BDA\" Name=\"design_1.bda\" src_db=\"design_1.hwdef\">\r\n\t</File>\r\n\t<File Type=\"PS_FSBL_INIT\" Name=\"psu_init.c\" src_db=\"design_1_zynq_ultra_ps_e_0_0.hwdef\">\r\n\t</File>\r\n\t<File Type=\"PS_FSBL_INIT\" Name=\"psu_init.h\" src_db=\"design_1_zynq_ultra_ps_e_0_0.hwdef\">\r\n\t</File>\r\n\t<File Type=\"PS_FSBL_INIT_GPL\" Name=\"psu_init_gpl.c\" src_db=\"design_1_zynq_ultra_ps_e_0_0.hwdef\">\r\n\t</File>\r\n\t<File Type=\"PS_FSBL_INIT_GPL\" Name=\"psu_init_gpl.h\" src_db=\"design_1_zynq_ultra_ps_e_0_0.hwdef\">\r\n\t</File>\r\n\t<File Type=\"PS_INIT_HELP\" Name=\"psu_init.html\" src_db=\"design_1_zynq_ultra_ps_e_0_0.hwdef\">\r\n\t</File>\r\n\t<File Type=\"PS_XMD_INIT\" Name=\"psu_init.tcl\" src_db=\"design_1_zynq_ultra_ps_e_0_0.hwdef\">\r\n\t</File>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"design_1_v_proc_ss_scaler_0.hwh\" src_db=\"design_1_v_proc_ss_scaler_0.hwdef\" DESIGN_HIERARCHY=\"design_1_i/v_proc_ss_scaler/inst\" BD_TYPE=\"SCOPED_BD\">\r\n\t</File>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"bd_c7bd_smartconnect_0_0.hwh\" src_db=\"bd_c7bd_smartconnect_0_0.hwdef\" DESIGN_HIERARCHY=\"design_1_i/v_proc_ss_scaler/inst/smartconnect_0/inst\" BD_TYPE=\"SCOPED_BD\">\r\n\t</File>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"design_1_v_proc_ss_csc_0.hwh\" src_db=\"design_1_v_proc_ss_csc_0.hwdef\" DESIGN_HIERARCHY=\"design_1_i/v_proc_ss_csc/inst\" BD_TYPE=\"SCOPED_BD\">\r\n\t</File>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"design_1_restore_mem_0.hwh\" src_db=\"design_1_restore_mem_0.hwdef\" DESIGN_HIERARCHY=\"design_1_i/restore_mem/inst\" BD_TYPE=\"SCOPED_BD\">\r\n\t</File>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"design_1_rectify_mem_0.hwh\" src_db=\"design_1_rectify_mem_0.hwdef\" DESIGN_HIERARCHY=\"design_1_i/rectify_mem/inst\" BD_TYPE=\"SCOPED_BD\">\r\n\t</File>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"design_1_mipi_csi2_rx_subsyst_0_0.hwh\" src_db=\"design_1_mipi_csi2_rx_subsyst_0_0.hwdef\" DESIGN_HIERARCHY=\"design_1_i/mipi_csi2_rx_subsyst_0/inst\" BD_TYPE=\"SCOPED_BD\">\r\n\t</File>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"design_1_debug_bridge_xvc_0.hwh\" src_db=\"design_1_debug_bridge_xvc_0.hwdef\" DESIGN_HIERARCHY=\"design_1_i/debug_bridge_xvc/inst\" BD_TYPE=\"SCOPED_BD\">\r\n\t</File>\r\n\t<File Type=\"HW_HANDOFF\" Name=\"design_1_axi_smc_0.hwh\" src_db=\"design_1_axi_smc_0.hwdef\" DESIGN_HIERARCHY=\"design_1_i/axi_smc/inst\" BD_TYPE=\"SCOPED_BD\">\r\n\t</File>\r\n\t<File Type=\"BIT\" Name=\"imx219-v24-2025-2-c5.bit\" src_db=\"temp.hdf\">\r\n\t</File>\r\n\t<DRIVERS>\r\n\t\t<DRIVER IP_VLNV=\"whiteboard.org:hls:board_rectify_rgb:1.0\">\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/data/board_rectify_rgb.mdd\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/data/board_rectify_rgb.tcl\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/data/board_rectify_rgb.yaml\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/src/CMakeLists.txt\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/src/Makefile\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb.c\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb.h\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb_hw.h\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb_linux.c\"/>\r\n\t\t\t<File PATH=\"drivers/board_rectify_rgb_v1_0/src/xboard_rectify_rgb_sinit.c\"/>\r\n\t\t</DRIVER>\r\n\t\t<DRIVER IP_VLNV=\"whiteboard.org:hls:board_scene_quantize:1.0\">\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/data/board_scene_quantize.mdd\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/data/board_scene_quantize.tcl\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/data/board_scene_quantize.yaml\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/src/CMakeLists.txt\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/src/Makefile\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize.c\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize.h\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize_hw.h\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize_linux.c\"/>\r\n\t\t\t<File PATH=\"drivers/board_scene_quantize_v1_0/src/xboard_scene_quantize_sinit.c\"/>\r\n\t\t</DRIVER>\r\n\t\t<DRIVER IP_VLNV=\"whiteboard.org:hls:whiteboard_restore:1.0\">\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/data/whiteboard_restore.mdd\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/data/whiteboard_restore.tcl\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/data/whiteboard_restore.yaml\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/src/CMakeLists.txt\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/src/Makefile\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore.c\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore.h\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore_hw.h\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore_linux.c\"/>\r\n\t\t\t<File PATH=\"drivers/whiteboard_restore_v1_0/src/xwhiteboard_restore_sinit.c\"/>\r\n\t\t</DRIVER>\r\n\t</DRIVERS>\r\n\t<USEDRESOURCES LUT=\"75317\" FF=\"92127\" BRAM=\"81\" DSP=\"839\"/>\r\n\t<DESIGN_DATA Type=\"rm\">\r\n\t\t<DESIGN_IDS DESIGN_ID=\"3582626272\" PARENT_ID=\"0\" NODE_ID=\"0\"/>\r\n\t</DESIGN_DATA>\r\n</Project>\r\n\r\n"
+  },
+  "export_warning": "WARNING::74 Unsupported FPGA device name xck26-sfvc784-2LV-c; export exit 0, cause/platform impact still under review.",
+  "board_test": "NOT_RUN",
+  "scope": "File identity and archive integrity, not board or Vitis software-platform validation."
+}

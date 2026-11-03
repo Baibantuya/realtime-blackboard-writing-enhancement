@@ -1,0 +1,517 @@
+{
+  "status": "PASS",
+  "guidance_pages": 28,
+  "visible_text_lines": 100,
+  "max_visible_center_offset_px": 0.5,
+  "sidebar_font_sizes": [
+    24,
+    28
+  ],
+  "body_lines_per_page": 2,
+  "badge_padding_px": {
+    "horizontal": 16,
+    "vertical": 10
+  },
+  "checks": [
+    {
+      "page": "guidance_search",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_search",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_search",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_left",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_left",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_left",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_right",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_right",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_right",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_out",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_out",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_out",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_in",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_in",
+      "role": "body",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_in",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_hold",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_hold",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_hold",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_clockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_counterclockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_confirming",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_confirming",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_confirming",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_recalibrating",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_recalibrating",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_recalibrating",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_clockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_up_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_clockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_up_then_counterclockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_up_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_counterclockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_down_then_clockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_down_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down_then_clockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_down_then_counterclockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_down_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down_then_counterclockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_left_then_clockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_left_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_left_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_left_then_clockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_left_then_counterclockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_left_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_left_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_left_then_counterclockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_right_then_clockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_right_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_right_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_right_then_clockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_right_then_counterclockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_right_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_right_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_right_then_counterclockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_out_then_clockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_out_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_out_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_out_then_clockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_out_then_counterclockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_out_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_out_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_out_then_counterclockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_in_then_clockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_in_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_in_then_clockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_in_then_clockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_in_then_counterclockwise",
+      "role": "action",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_in_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_zoom_in_then_counterclockwise",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_zoom_in_then_counterclockwise",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_up_then_left",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_up_then_left",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_left",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_left",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_up_then_right",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_up_then_right",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_right",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_up_then_right",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_down_then_left",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_down_then_left",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down_then_left",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down_then_left",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_down_then_right",
+      "role": "action",
+      "visible_center_offset_px": 0.5
+    },
+    {
+      "page": "guidance_down_then_right",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down_then_right",
+      "role": "body",
+      "visible_center_offset_px": 0.0
+    },
+    {
+      "page": "guidance_down_then_right",
+      "role": "next_action",
+      "visible_center_offset_px": 0.5
+    }
+  ]
+}

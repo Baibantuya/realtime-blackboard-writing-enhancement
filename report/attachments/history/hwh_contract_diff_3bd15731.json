@@ -1,0 +1,72 @@
+{
+  "old_sha256": "07d0dd72cc0147e44fe855fa3b4a3abc2750a2e188e27a094828613cb4bcbb45",
+  "new_sha256": "063c1c3f5d5e3d1648c11f50b3a6219973f6fe9f3763c155f58947c679f3a826",
+  "memory_ranges_equal": true,
+  "memory_range_counts": [
+    26,
+    26
+  ],
+  "modules": {
+    "board_rectify_rgb_0": {
+      "versions": [
+        "whiteboard.org:hls:board_rectify_rgb:1.0",
+        "whiteboard.org:hls:board_rectify_rgb:1.0"
+      ],
+      "register_blocks_equal": true,
+      "register_status": "compared",
+      "register_counts": [
+        15,
+        15
+      ]
+    },
+    "board_quantize_rgb_0": {
+      "versions": [
+        "whiteboard.org:hls:board_scene_quantize:1.0",
+        "whiteboard.org:hls:board_scene_quantize:1.0"
+      ],
+      "register_blocks_equal": true,
+      "register_status": "compared",
+      "register_counts": [
+        20,
+        20
+      ]
+    },
+    "whiteboard_restore_0": {
+      "versions": [
+        "whiteboard.org:hls:whiteboard_restore:1.0",
+        "whiteboard.org:hls:whiteboard_restore:1.0"
+      ],
+      "register_blocks_equal": true,
+      "register_status": "compared",
+      "register_counts": [
+        35,
+        35
+      ]
+    },
+    "mipi_csi2_rx_subsyst_0": {
+      "versions": [
+        "xilinx.com:ip:mipi_csi2_rx_subsystem:5.1",
+        "xilinx.com:ip:mipi_csi2_rx_subsystem:6.0"
+      ],
+      "register_blocks_equal": null,
+      "register_status": "NOT_CHECKED_NO_REGISTER_METADATA",
+      "register_counts": [
+        0,
+        0
+      ]
+    },
+    "v_frmbuf_wr_0": {
+      "versions": [
+        "xilinx.com:ip:v_frmbuf_wr:2.3",
+        "xilinx.com:ip:v_frmbuf_wr:3.0"
+      ],
+      "register_blocks_equal": null,
+      "register_status": "NOT_CHECKED_NO_REGISTER_METADATA",
+      "register_counts": [
+        0,
+        0
+      ]
+    }
+  },
+  "limitations": "Selected register fields and memory ranges only; excludes behavior, interrupts, cache policy, clock/DRC/timing and board tests."
+}

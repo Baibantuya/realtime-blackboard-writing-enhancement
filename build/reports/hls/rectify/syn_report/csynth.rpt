@@ -1,0 +1,502 @@
+
+
+================================================================
+== Synthesis Summary Report of 'board_rectify_rgb'
+================================================================
++ General Information: 
+    * Date:           Wed Oct 28 18:33:39 2026
+    * Version:        2025.2 (Build 6295257 on Nov 12 2025)
+    * Project:        r
+    * Solution:       s (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xck26-sfvc784-2LV-c
+    
+
+* Performance & Resource Estimates: 
++-----------------------------------------------------------+------+---------------------+----------+----------+---------+----------+----------+-----------+------+---------+---------+------------+-------------+-----+
+|                          Modules                          | Issue|                     | Iteration|          |   Trip  |          |        Latency       |      |         |         |            |             |     |
+|                          & Loops                          | Type |    Violation Type   |  Latency | Interval |  Count  | Pipelined| (cycles) |    (ns)   | Slack|  BRAM   |   DSP   |     FF     |     LUT     | URAM|
++-----------------------------------------------------------+------+---------------------+----------+----------+---------+----------+----------+-----------+------+---------+---------+------------+-------------+-----+
+|+ board_rectify_rgb                                        |     -|                    -|         -|  80870586|        -|        no|  80870585|  4.044e+08|  0.00|  12 (4%)|  47 (3%)|  15425 (6%)|  13429 (11%)|    -|
+| + board_rectify_rgb_Pipeline_VITIS_LOOP_152_1             |     -|                    -|         -|         -|        -|       yes|        23|    115.000|  0.00|        -|        -|    53 (~0%)|     73 (~0%)|    -|
+|  o VITIS_LOOP_152_1                                       |     -|                    -|         3|         1|       20|       yes|        21|    105.000|  3.65|        -|        -|           -|            -|    -|
+| + board_rectify_rgb_Pipeline_VITIS_LOOP_159_2             |     -|                    -|         -|         -|        -|       yes|        11|     55.000|  0.15|        -|        -|   273 (~0%)|    126 (~0%)|    -|
+|  o VITIS_LOOP_159_2                                       |     -|                    -|         3|         1|        8|       yes|         9|     45.000|  3.65|        -|        -|           -|            -|    -|
+| + board_rectify_rgb_Pipeline_VITIS_LOOP_161_3             |     -|                    -|         -|         -|        -|       yes|         7|     35.000|  0.00|        -|        -|    40 (~0%)|    103 (~0%)|    -|
+|  o VITIS_LOOP_161_3                                       |     -|                    -|         3|         1|        4|       yes|         5|     25.000|  3.65|        -|        -|           -|            -|    -|
+| + render*                                                 |     -|                    -|         -|  80870418|        -|  dataflow|  80870509|  4.044e+08|  0.00|   6 (2%)|  47 (3%)|  11962 (5%)|    9250 (7%)|    -|
+|  + render_Block_entry_proc                                |     -|                    -|         -|         0|        -|        no|         0|      0.000|  0.23|        -|  3 (~0%)|    34 (~0%)|     40 (~0%)|    -|
+|  + coordinates                                            |     -|                    -|         -|   2073694|        -|        no|   2073694|  1.037e+07|  0.15|        -|  41 (3%)|   9068 (3%)|    5637 (4%)|    -|
+|   + coordinates_Pipeline_VITIS_LOOP_20_1_VITIS_LOOP_22_2  |     -|                    -|         -|         -|        -|       yes|   2073679|  1.037e+07|  0.15|        -|  33 (2%)|   7651 (3%)|    4777 (4%)|    -|
+|    o VITIS_LOOP_20_1_VITIS_LOOP_22_2                      |     -|                    -|        79|         1|  2073600|       yes|   2073677|  1.037e+07|  3.65|        -|        -|           -|            -|    -|
+|  + fetch                                                  |     -|                    -|         -|  80870417|        -|        no|  80870417|  4.044e+08|  0.00|        -|  3 (~0%)|  1705 (~0%)|    2259 (1%)|    -|
+|   o VITIS_LOOP_75_1                                       |     -|                    -|        39|         -|  2073600|        no|  80870400|  4.044e+08|  3.65|        -|        -|           -|            -|    -|
+|    + fetch_Pipeline_VITIS_LOOP_52_1                       |     -|                    -|         -|         -|        -|       yes|        19|     95.000|  0.00|        -|        -|    51 (~0%)|     74 (~0%)|    -|
+|     o VITIS_LOOP_52_1                                     |     -|                    -|         3|         1|       16|       yes|        17|     85.000|  3.65|        -|        -|           -|            -|    -|
+|    + fetch_Pipeline_VITIS_LOOP_57_2                       |     -|                    -|         -|         -|        -|       yes|        27|    135.000|  0.00|        -|        -|   426 (~0%)|    374 (~0%)|    -|
+|     o VITIS_LOOP_57_2                                     |     -|                    -|        11|         1|       16|       yes|        25|    125.000|  3.65|        -|        -|           -|            -|    -|
+|  + pack                                                   |     -|                    -|         -|   2073604|        -|        no|   2073604|  1.037e+07|  0.00|        -|        -|   150 (~0%)|    365 (~0%)|    -|
+|   + pack_Pipeline_VITIS_LOOP_98_1                         |     -|                    -|         -|         -|        -|       yes|   2073602|  1.037e+07|  0.44|        -|        -|    53 (~0%)|    201 (~0%)|    -|
+|    o VITIS_LOOP_98_1                                      |    II|  Resource Limitation|         5|         4|   518400|       yes|   2073600|  1.037e+07|  3.65|        -|        -|           -|            -|    -|
+|  + write_frame                                            |     -|                    -|         -|   1555212|        -|        no|   1555212|  7.776e+06|  0.00|        -|        -|   233 (~0%)|    556 (~0%)|    -|
+|   + write_frame_Pipeline_VITIS_LOOP_107_1                 |     -|                    -|         -|         -|        -|       yes|   1555203|  7.776e+06|  0.00|        -|        -|    67 (~0%)|    137 (~0%)|    -|
+|    o VITIS_LOOP_107_1                                     |     -|                    -|         3|         1|  1555200|       yes|   1555201|  7.776e+06|  3.65|        -|        -|           -|            -|    -|
++-----------------------------------------------------------+------+---------------------+----------+----------+---------+----------+----------+-----------+------+---------+---------+------------+-------------+-----+
+    II Violation Information: docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* M_AXI
++-------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| Interface   | Read/Write | Data Width | Address Width | Latency | Offset | Register | Max Widen | Max Read     | Max Write    | Num Read    | Num Write   | Resource Estimate |
+|             |            | (SW->HW)   |               |         |        |          | Bitwidth  | Burst Length | Burst Length | Outstanding | Outstanding |                   |
++-------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| m_axi_gmem0 | READ_ONLY  | 32 -> 32   | 32            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          | BRAM=2            |
+| m_axi_gmem1 | WRITE_ONLY | 32 -> 32   | 32            | 0       | slave  | 0        | 0         | 16           | 64           | 16          | 16          | BRAM=2            |
+| m_axi_gmem2 | READ_WRITE | 32 -> 32   | 32            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          | BRAM=2            |
++-------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 7             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+---------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register      | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+---------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL          | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER          | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER        | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR        | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | src           | 0x10   | 32    | W      | Data signal of src               |                                                                      |
+| s_axi_control | dst           | 0x18   | 32    | W      | Data signal of dst               |                                                                      |
+| s_axi_control | status        | 0x20   | 32    | W      | Data signal of status            |                                                                      |
+| s_axi_control | hint          | 0x28   | 32    | W      | Data signal of hint              |                                                                      |
+| s_axi_control | corners       | 0x30   | 32    | W      | Data signal of corners           |                                                                      |
+| s_axi_control | binary_enable | 0x38   | 32    | W      | Data signal of binary_enable     |                                                                      |
+| s_axi_control | mode          | 0x40   | 32    | W      | Data signal of mode              |                                                                      |
+| s_axi_control | threshold     | 0x48   | 32    | W      | Data signal of threshold         |                                                                      |
+| s_axi_control | bgr           | 0x50   | 32    | W      | Data signal of bgr               |                                                                      |
+| s_axi_control | geometry      | 0x58   | 32    | W      | Data signal of geometry          |                                                                      |
+| s_axi_control | diagnostics   | 0x60   | 32    | W      | Data signal of diagnostics       |                                                                      |
++---------------+---------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++---------------+-----------+----------------------+
+| Argument      | Direction | Datatype             |
++---------------+-----------+----------------------+
+| src           | in        | unsigned int const * |
+| dst           | out       | unsigned int*        |
+| status        | inout     | unsigned int*        |
+| hint          | inout     | unsigned int*        |
+| corners       | inout     | unsigned int*        |
+| binary_enable | in        | unsigned int         |
+| mode          | in        | unsigned int         |
+| threshold     | in        | unsigned int         |
+| bgr           | in        | unsigned int         |
+| geometry      | inout     | unsigned int const * |
+| diagnostics   | inout     | unsigned int*        |
++---------------+-----------+----------------------+
+
+* SW-to-HW Mapping
++---------------+---------------+-----------+----------+-----------------------------------------+
+| Argument      | HW Interface  | HW Type   | HW Usage | HW Info                                 |
++---------------+---------------+-----------+----------+-----------------------------------------+
+| src           | m_axi_gmem0   | interface |          | channel=0                               |
+| src           | s_axi_control | register  | offset   | name=src offset=0x10 range=32           |
+| dst           | m_axi_gmem1   | interface |          | channel=0                               |
+| dst           | s_axi_control | register  | offset   | name=dst offset=0x18 range=32           |
+| status        | m_axi_gmem2   | interface |          | channel=0                               |
+| status        | s_axi_control | register  | offset   | name=status offset=0x20 range=32        |
+| hint          | m_axi_gmem2   | interface |          | channel=0                               |
+| hint          | s_axi_control | register  | offset   | name=hint offset=0x28 range=32          |
+| corners       | m_axi_gmem2   | interface |          | channel=0                               |
+| corners       | s_axi_control | register  | offset   | name=corners offset=0x30 range=32       |
+| binary_enable | s_axi_control | register  |          | name=binary_enable offset=0x38 range=32 |
+| mode          | s_axi_control | register  |          | name=mode offset=0x40 range=32          |
+| threshold     | s_axi_control | register  |          | name=threshold offset=0x48 range=32     |
+| bgr           | s_axi_control | register  |          | name=bgr offset=0x50 range=32           |
+| geometry      | m_axi_gmem2   | interface |          | channel=0                               |
+| geometry      | s_axi_control | register  | offset   | name=geometry offset=0x58 range=32      |
+| diagnostics   | m_axi_gmem2   | interface |          | channel=0                               |
+| diagnostics   | s_axi_control | register  | offset   | name=diagnostics offset=0x60 range=32   |
++---------------+---------------+-----------+----------+-----------------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+* Inferred Burst Summary
++--------------+-----------+----------+-------+------------------+--------------------------------------------+
+| HW Interface | Direction | Length   | Width | Loop             | Loop Location                              |
++--------------+-----------+----------+-------+------------------+--------------------------------------------+
+| m_axi_gmem0  | read      | 16       | 32    | VITIS_LOOP_52_1  | ../src/pl/hls/board_rectify_rgb.cpp:52:30  |
+| m_axi_gmem1  | write     | variable | 32    | VITIS_LOOP_107_1 | ../src/pl/hls/board_rectify_rgb.cpp:107:23 |
+| m_axi_gmem2  | write     | 9        | 32    |                  |                                            |
+| m_axi_gmem2  | read      | 20       | 32    | VITIS_LOOP_152_1 | ../src/pl/hls/board_rectify_rgb.cpp:152:23 |
+| m_axi_gmem2  | write     | 4        | 32    | VITIS_LOOP_161_3 | ../src/pl/hls/board_rectify_rgb.cpp:161:23 |
++--------------+-----------+----------+-------+------------------+--------------------------------------------+
+
+* All M_AXI Variable Accesses
++--------------+-------------+--------------------------------------------+-----------+--------------+----------+------------------+--------------------------------------------+------------+-------------------------------------------------------------------------------------------------------+
+| HW Interface | Variable    | Access Location                            | Direction | Burst Status | Length   | Loop             | Loop Location                              | Resolution | Problem                                                                                               |
++--------------+-------------+--------------------------------------------+-----------+--------------+----------+------------------+--------------------------------------------+------------+-------------------------------------------------------------------------------------------------------+
+| m_axi_gmem0  | src         | ../src/pl/hls/board_rectify_rgb.cpp:54:31  | read      | Widen Fail   |          | VITIS_LOOP_52_1  | ../src/pl/hls/board_rectify_rgb.cpp:52:30  | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem0  | src         | ../src/pl/hls/board_rectify_rgb.cpp:54:31  | read      | Fail         |          | VITIS_LOOP_75_1  | ../src/pl/hls/board_rectify_rgb.cpp:75:22  | 214-232    | Access call is in the conditional branch                                                              |
+| m_axi_gmem0  | src         | ../src/pl/hls/board_rectify_rgb.cpp:54:31  | read      | Inferred     | 16       | VITIS_LOOP_52_1  | ../src/pl/hls/board_rectify_rgb.cpp:52:30  |            |                                                                                                       |
+| m_axi_gmem0  | src         | ../src/pl/hls/board_rectify_rgb.cpp:59:62  | read      | Fail         |          | VITIS_LOOP_57_2  | ../src/pl/hls/board_rectify_rgb.cpp:57:33  | 214-232    | Access load is in the conditional branch                                                              |
+| m_axi_gmem1  | dst         | ../src/pl/hls/board_rectify_rgb.cpp:110:15 | write     | Widen Fail   |          | VITIS_LOOP_107_1 | ../src/pl/hls/board_rectify_rgb.cpp:107:23 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem1  | dst         | ../src/pl/hls/board_rectify_rgb.cpp:110:15 | write     | Inferred     | variable | VITIS_LOOP_107_1 | ../src/pl/hls/board_rectify_rgb.cpp:107:23 |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:92:68  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:92:46  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:92:19  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:92:68  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:92:46  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:92:19  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:93:61  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:93:39  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:93:19  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:93:61  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:93:39  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:93:19  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:94:68  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:94:47  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:94:19  | write     | Widen Fail   |          |                  |                                            | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:94:68  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:94:47  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | diagnostics | ../src/pl/hls/board_rectify_rgb.cpp:94:19  | write     | Inferred     | 9        |                  |                                            |            |                                                                                                       |
+| m_axi_gmem2  | geometry    | ../src/pl/hls/board_rectify_rgb.cpp:152:50 | read      | Widen Fail   |          | VITIS_LOOP_152_1 | ../src/pl/hls/board_rectify_rgb.cpp:152:23 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | geometry    | ../src/pl/hls/board_rectify_rgb.cpp:152:50 | read      | Inferred     | 20       | VITIS_LOOP_152_1 | ../src/pl/hls/board_rectify_rgb.cpp:152:23 |            |                                                                                                       |
+| m_axi_gmem2  | corners     | ../src/pl/hls/board_rectify_rgb.cpp:161:54 | write     | Widen Fail   |          | VITIS_LOOP_161_3 | ../src/pl/hls/board_rectify_rgb.cpp:161:23 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem2  | corners     | ../src/pl/hls/board_rectify_rgb.cpp:161:54 | write     | Inferred     | 4        | VITIS_LOOP_161_3 | ../src/pl/hls/board_rectify_rgb.cpp:161:23 |            |                                                                                                       |
++--------------+-------------+--------------------------------------------+-----------+--------------+----------+------------------+--------------------------------------------+------------+-------------------------------------------------------------------------------------------------------+
+
+    * Resolution URL: docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
+
+================================================================
+== Bind Op Report
+================================================================
++-----------------------------------------------------------+-----+--------+----------------+-----------+--------------------------+---------+
+| Name                                                      | DSP | Pragma | Variable       | Op        | Impl                     | Latency |
++-----------------------------------------------------------+-----+--------+----------------+-----------+--------------------------+---------+
+| + board_rectify_rgb                                       | 47  |        |                |           |                          |         |
+|   icmp_ln154_fu_584_p2                                    |     |        | icmp_ln154     | seteq     | auto                     | 0       |
+|   icmp_ln154_1_fu_590_p2                                  |     |        | icmp_ln154_1   | setne     | auto                     | 0       |
+|   icmp_ln154_2_fu_509_p2                                  |     |        | icmp_ln154_2   | setgt     | auto                     | 0       |
+|   icmp_ln154_3_fu_596_p2                                  |     |        | icmp_ln154_3   | setlt     | auto                     | 0       |
+|   icmp_ln154_4_fu_515_p2                                  |     |        | icmp_ln154_4   | seteq     | auto                     | 0       |
+|   icmp_ln155_fu_601_p2                                    |     |        | icmp_ln155     | setgt     | auto                     | 0       |
+|   icmp_ln155_1_fu_606_p2                                  |     |        | icmp_ln155_1   | setlt     | auto                     | 0       |
+|   xor_ln155_fu_618_p2                                     |     |        | xor_ln155      | xor       | auto                     | 0       |
+|   xor_ln155_1_fu_529_p2                                   |     |        | xor_ln155_1    | xor       | auto                     | 0       |
+|   grp_fu_427_p2                                           |     |        | icmp_ln155_2   | setgt     | auto                     | 0       |
+|   grp_fu_427_p2                                           |     |        | icmp_ln155_3   | setgt     | auto                     | 0       |
+|   icmp_ln156_fu_535_p2                                    |     |        | icmp_ln156     | setlt     | auto                     | 0       |
+|   xor_ln156_fu_540_p2                                     |     |        | xor_ln156      | xor       | auto                     | 0       |
+|   icmp_ln156_1_fu_624_p2                                  |     |        | icmp_ln156_1   | setlt     | auto                     | 0       |
+|   xor_ln156_1_fu_628_p2                                   |     |        | xor_ln156_1    | xor       | auto                     | 0       |
+|   sub_ln156_fu_558_p2                                     |     |        | sub_ln156      | sub       | fabric                   | 0       |
+|   icmp_ln156_2_fu_562_p2                                  |     |        | icmp_ln156_2   | setlt     | auto                     | 0       |
+|   xor_ln156_2_fu_567_p2                                   |     |        | xor_ln156_2    | xor       | auto                     | 0       |
+|   sub_ln156_1_fu_685_p2                                   |     |        | sub_ln156_1    | sub       | fabric                   | 0       |
+|   icmp_ln156_3_fu_689_p2                                  |     |        | icmp_ln156_3   | setlt     | auto                     | 0       |
+|   xor_ln156_3_fu_694_p2                                   |     |        | xor_ln156_3    | xor       | auto                     | 0       |
+|   and_ln154_fu_546_p2                                     |     |        | and_ln154      | and       | auto                     | 0       |
+|   and_ln154_1_fu_552_p2                                   |     |        | and_ln154_1    | and       | auto                     | 0       |
+|   and_ln154_2_fu_634_p2                                   |     |        | and_ln154_2    | and       | auto                     | 0       |
+|   and_ln154_3_fu_640_p2                                   |     |        | and_ln154_3    | and       | auto                     | 0       |
+|   and_ln154_4_fu_646_p2                                   |     |        | and_ln154_4    | and       | auto                     | 0       |
+|   and_ln154_5_fu_652_p2                                   |     |        | and_ln154_5    | and       | auto                     | 0       |
+|   and_ln154_6_fu_573_p2                                   |     |        | and_ln154_6    | and       | auto                     | 0       |
+|   and_ln154_7_fu_579_p2                                   |     |        | and_ln154_7    | and       | auto                     | 0       |
+|   and_ln154_8_fu_657_p2                                   |     |        | and_ln154_8    | and       | auto                     | 0       |
+|   and_ln154_9_fu_662_p2                                   |     |        | and_ln154_9    | and       | auto                     | 0       |
+|   and_ln154_10_fu_668_p2                                  |     |        | and_ln154_10   | and       | auto                     | 0       |
+|   and_ln154_11_fu_674_p2                                  |     |        | and_ln154_11   | and       | auto                     | 0       |
+|   and_ln154_12_fu_679_p2                                  |     |        | and_ln154_12   | and       | auto                     | 0       |
+|   ok_ph_fu_700_p2                                         |     |        | ok_ph          | and       | auto                     | 0       |
+|   xor_ln160_fu_719_p2                                     |     |        | xor_ln160      | xor       | auto                     | 0       |
+|   select_ln160_fu_739_p3                                  |     |        | select_ln160   | select    | auto_sel                 | 0       |
+|  + board_rectify_rgb_Pipeline_VITIS_LOOP_152_1            | 0   |        |                |           |                          |         |
+|    icmp_ln152_fu_88_p2                                    |     |        | icmp_ln152     | seteq     | auto                     | 0       |
+|    add_ln152_fu_94_p2                                     |     |        | add_ln152      | add       | fabric                   | 0       |
+|  + board_rectify_rgb_Pipeline_VITIS_LOOP_159_2            | 0   |        |                |           |                          |         |
+|    icmp_ln159_fu_231_p2                                   |     |        | icmp_ln159     | seteq     | auto                     | 0       |
+|    add_ln159_fu_237_p2                                    |     |        | add_ln159      | add       | fabric                   | 0       |
+|    fcmp_32ns_32ns_1_2_no_dsp_1_U4                         |     |        | tmp            | fcmp      | auto                     | 1       |
+|    xor_ln159_fu_367_p2                                    |     |        | xor_ln159      | xor       | auto                     | 0       |
+|    and_ln159_fu_373_p2                                    |     |        | and_ln159      | and       | auto                     | 0       |
+|    icmp_ln159_2_fu_355_p2                                 |     |        | icmp_ln159_2   | setne     | auto                     | 0       |
+|    icmp_ln159_3_fu_361_p2                                 |     |        | icmp_ln159_3   | seteq     | auto                     | 0       |
+|    or_ln159_fu_379_p2                                     |     |        | or_ln159       | or        | auto                     | 0       |
+|    fcmp_32ns_32ns_1_2_no_dsp_1_U5                         |     |        | tmp_13         | fcmp      | auto                     | 1       |
+|    and_ln159_1_fu_383_p2                                  |     |        | and_ln159_1    | and       | auto                     | 0       |
+|    ok_1_fu_389_p2                                         |     |        | ok_1           | and       | auto                     | 0       |
+|  + board_rectify_rgb_Pipeline_VITIS_LOOP_161_3            | 0   |        |                |           |                          |         |
+|    icmp_ln161_fu_107_p2                                   |     |        | icmp_ln161     | seteq     | auto                     | 0       |
+|    add_ln161_fu_113_p2                                    |     |        | add_ln161      | add       | fabric                   | 0       |
+|    cond70_fu_145_p3                                       |     |        | cond70         | select    | auto_sel                 | 0       |
+|  + render                                                 | 47  |        |                |           |                          |         |
+|   + render_Block_entry_proc                               | 3   |        |                |           |                          |         |
+|     mul_32s_32s_32_1_1_U22                                | 3   |        | mul_ln122      | mul       | auto                     | 0       |
+|   + coordinates                                           | 41  |        |                |           |                          |         |
+|     sitofp_32ns_32_6_no_dsp_1_U77                         |     |        | conv1          | sitofp    | auto                     | 5       |
+|     fadd_32ns_32ns_32_8_full_dsp_1_U75                    | 2   |        | sub1           | fadd      | fulldsp                  | 7       |
+|     sitofp_32ns_32_6_no_dsp_1_U78                         |     |        | conv2          | sitofp    | auto                     | 5       |
+|     fadd_32ns_32ns_32_8_full_dsp_1_U76                    | 2   |        | sub2           | fadd      | fulldsp                  | 7       |
+|     empty_54_fu_208_p2                                    |     |        | empty_54       | setgt     | auto                     | 0       |
+|     smax_fu_214_p3                                        |     |        | smax           | select    | auto_sel                 | 0       |
+|     empty_55_fu_222_p2                                    |     |        | empty_55       | setgt     | auto                     | 0       |
+|     smax1_fu_227_p3                                       |     |        | smax1          | select    | auto_sel                 | 0       |
+|     mul_31ns_31ns_62_1_1_U79                              | 4   |        | bound          | mul       | auto                     | 0       |
+|    + coordinates_Pipeline_VITIS_LOOP_20_1_VITIS_LOOP_22_2 | 33  |        |                |           |                          |         |
+|      icmp_ln22_fu_427_p2                                  |     |        | icmp_ln22      | setlt     | auto                     | 0       |
+|      icmp_ln20_fu_432_p2                                  |     |        | icmp_ln20      | seteq     | auto                     | 0       |
+|      add_ln20_fu_437_p2                                   |     |        | add_ln20       | add       | fabric                   | 0       |
+|      add_ln20_1_fu_446_p2                                 |     |        | add_ln20_1     | add       | fabric                   | 0       |
+|      select_ln20_fu_452_p3                                |     |        | select_ln20    | select    | auto_sel                 | 0       |
+|      select_ln20_1_fu_464_p3                              |     |        | select_ln20_1  | select    | auto_sel                 | 0       |
+|      v_fu_476_p2                                          |     |        | v              | sub       | fabric                   | 0       |
+|      icmp_ln26_fu_522_p2                                  |     |        | icmp_ln26      | setlt     | auto                     | 0       |
+|      xor_ln26_1_fu_526_p2                                 |     |        | xor_ln26_1     | xor       | auto                     | 0       |
+|      fmul_32ns_32ns_32_5_max_dsp_1_U34                    | 3   |        | mul1           | fmul      | maxdsp                   | 4       |
+|      fmul_32ns_32ns_32_5_max_dsp_1_U36                    | 3   |        | mul2           | fmul      | maxdsp                   | 4       |
+|      fmul_32ns_32ns_32_5_max_dsp_1_U37                    | 3   |        | mul3           | fmul      | maxdsp                   | 4       |
+|      u_fu_481_p2                                          |     |        | u              | sub       | fabric                   | 0       |
+|      icmp_ln26_1_fu_539_p2                                |     |        | icmp_ln26_1    | setlt     | auto                     | 0       |
+|      xor_ln26_2_fu_543_p2                                 |     |        | xor_ln26_2     | xor       | auto                     | 0       |
+|      or_ln26_1_fu_549_p2                                  |     |        | or_ln26_1      | or        | auto                     | 0       |
+|      or_ln26_2_fu_555_p2                                  |     |        | or_ln26_2      | or        | auto                     | 0       |
+|      or_ln26_fu_561_p2                                    |     |        | or_ln26        | or        | auto                     | 0       |
+|      fmul_32ns_32ns_32_5_max_dsp_1_U35                    | 3   |        | mul            | fmul      | maxdsp                   | 4       |
+|      icmp_ln28_fu_584_p2                                  |     |        | icmp_ln28      | setne     | auto                     | 0       |
+|      icmp_ln28_1_fu_590_p2                                |     |        | icmp_ln28_1    | seteq     | auto                     | 0       |
+|      or_ln28_fu_596_p2                                    |     |        | or_ln28        | or        | auto                     | 0       |
+|      fcmp_32ns_32ns_1_2_no_dsp_1_U44                      |     |        | tmp_1          | fcmp      | auto                     | 1       |
+|      fcmp_32ns_32ns_1_2_no_dsp_1_U45                      |     |        | tmp_2          | fcmp      | auto                     | 1       |
+|      or_ln28_1_fu_602_p2                                  |     |        | or_ln28_1      | or        | auto                     | 0       |
+|      and_ln28_fu_608_p2                                   |     |        | and_ln28       | and       | auto                     | 0       |
+|      fmul_32ns_32ns_32_5_max_dsp_1_U38                    | 3   |        | mul4           | fmul      | maxdsp                   | 4       |
+|      fadd_32ns_32ns_32_8_full_dsp_1_U28                   | 2   |        | add2           | fadd      | fulldsp                  | 7       |
+|      fadd_32ns_32ns_32_8_full_dsp_1_U30                   | 2   |        | add3           | fadd      | fulldsp                  | 7       |
+|      fdiv_32ns_32ns_32_16_no_dsp_1_U40                    |     |        | sx             | fdiv      | fabric                   | 15      |
+|      fmul_32ns_32ns_32_5_max_dsp_1_U39                    | 3   |        | mul5           | fmul      | maxdsp                   | 4       |
+|      fadd_32ns_32ns_32_8_full_dsp_1_U29                   | 2   |        | add4           | fadd      | fulldsp                  | 7       |
+|      fadd_32ns_32ns_32_8_full_dsp_1_U31                   | 2   |        | add5           | fadd      | fulldsp                  | 7       |
+|      fdiv_32ns_32ns_32_16_no_dsp_1_U41                    |     |        | sy             | fdiv      | fabric                   | 15      |
+|      icmp_ln31_fu_631_p2                                  |     |        | icmp_ln31      | setne     | auto                     | 0       |
+|      icmp_ln31_1_fu_637_p2                                |     |        | icmp_ln31_1    | seteq     | auto                     | 0       |
+|      or_ln31_fu_643_p2                                    |     |        | or_ln31        | or        | auto                     | 0       |
+|      fcmp_32ns_32ns_1_2_no_dsp_1_U46                      |     |        | tmp_4          | fcmp      | auto                     | 1       |
+|      icmp_ln31_2_fu_658_p2                                |     |        | icmp_ln31_2    | setne     | auto                     | 0       |
+|      icmp_ln31_3_fu_664_p2                                |     |        | icmp_ln31_3    | seteq     | auto                     | 0       |
+|      or_ln31_1_fu_669_p2                                  |     |        | or_ln31_1      | or        | auto                     | 0       |
+|      fcmp_32ns_32ns_1_2_no_dsp_1_U47                      |     |        | tmp_6          | fcmp      | auto                     | 1       |
+|      icmp_ln32_fu_692_p2                                  |     |        | icmp_ln32      | setne     | auto                     | 0       |
+|      icmp_ln32_1_fu_698_p2                                |     |        | icmp_ln32_1    | seteq     | auto                     | 0       |
+|      or_ln32_fu_704_p2                                    |     |        | or_ln32        | or        | auto                     | 0       |
+|      fcmp_32ns_32ns_1_2_no_dsp_1_U48                      |     |        | tmp_9          | fcmp      | auto                     | 1       |
+|      icmp_ln32_2_fu_719_p2                                |     |        | icmp_ln32_2    | setne     | auto                     | 0       |
+|      icmp_ln32_3_fu_725_p2                                |     |        | icmp_ln32_3    | seteq     | auto                     | 0       |
+|      or_ln32_1_fu_730_p2                                  |     |        | or_ln32_1      | or        | auto                     | 0       |
+|      and_ln32_fu_736_p2                                   |     |        | and_ln32       | and       | auto                     | 0       |
+|      fcmp_32ns_32ns_1_2_no_dsp_1_U49                      |     |        | tmp_11         | fcmp      | auto                     | 1       |
+|      and_ln32_1_fu_742_p2                                 |     |        | and_ln32_1     | and       | auto                     | 0       |
+|      and_ln31_3_fu_748_p2                                 |     |        | and_ln31_3     | and       | auto                     | 0       |
+|      and_ln31_fu_754_p2                                   |     |        | and_ln31       | and       | auto                     | 0       |
+|      and_ln31_1_fu_760_p2                                 |     |        | and_ln31_1     | and       | auto                     | 0       |
+|      and_ln31_4_fu_766_p2                                 |     |        | and_ln31_4     | and       | auto                     | 0       |
+|      and_ln31_2_fu_772_p2                                 |     |        | and_ln31_2     | and       | auto                     | 0       |
+|      fadd_32ns_32ns_32_8_full_dsp_1_U32                   | 2   |        | dc             | fadd      | fulldsp                  | 7       |
+|      add_ln317_fu_932_p2                                  |     |        | add_ln317      | add       | fabric                   | 0       |
+|      sub_ln18_fu_946_p2                                   |     |        | sub_ln18       | sub       | fabric                   | 0       |
+|      select_ln18_fu_956_p3                                |     |        | select_ln18    | select    | auto_sel                 | 0       |
+|      lshr_ln18_fu_972_p2                                  |     |        | lshr_ln18      | lshr      | auto_pipe                | 0       |
+|      shl_ln18_fu_978_p2                                   |     |        | shl_ln18       | shl       | auto_pipe                | 0       |
+|      val_fu_1004_p3                                       |     |        | val            | select    | auto_sel                 | 0       |
+|      result_2_fu_1023_p2                                  |     |        | result_2       | sub       | fabric                   | 0       |
+|      result_fu_1035_p3                                    |     |        | result         | select    | auto_sel                 | 0       |
+|      fadd_32ns_32ns_32_8_full_dsp_1_U33                   | 2   |        | dc_1           | fadd      | fulldsp                  | 7       |
+|      add_ln317_1_fu_819_p2                                |     |        | add_ln317_1    | add       | fabric                   | 0       |
+|      sub_ln18_1_fu_833_p2                                 |     |        | sub_ln18_1     | sub       | fabric                   | 0       |
+|      select_ln18_2_fu_843_p3                              |     |        | select_ln18_2  | select    | auto_sel                 | 0       |
+|      lshr_ln18_1_fu_859_p2                                |     |        | lshr_ln18_1    | lshr      | auto_pipe                | 0       |
+|      shl_ln18_1_fu_865_p2                                 |     |        | shl_ln18_1     | shl       | auto_pipe                | 0       |
+|      val_1_fu_891_p3                                      |     |        | val_1          | select    | auto_sel                 | 0       |
+|      result_6_fu_1012_p2                                  |     |        | result_6       | sub       | fabric                   | 0       |
+|      result_7_fu_1017_p3                                  |     |        | result_7       | select    | auto_sel                 | 0       |
+|      mul_32s_32s_32_1_1_U50                               | 3   |        | mul_ln34       | mul       | auto                     | 0       |
+|      index_fu_1041_p2                                     |     |        | index          | add       | fabric                   | 0       |
+|      add_ln22_fu_486_p2                                   |     |        | add_ln22       | add       | fabric                   | 0       |
+|      x_3_fu_492_p3                                        |     |        | x_3            | select    | auto_sel                 | 0       |
+|   + fetch                                                 | 3   |        |                |           |                          |         |
+|     sub_ln122_fu_509_p2                                   |     |        | sub_ln122      | sub       | fabric                   | 0       |
+|     sub_ln122_2_fu_524_p2                                 |     |        | sub_ln122_2    | sub       | fabric                   | 0       |
+|     words_fu_530_p3                                       |     |        | words          | select    | auto_sel                 | 0       |
+|     icmp_ln75_fu_551_p2                                   |     |        | icmp_ln75      | setlt     | auto                     | 0       |
+|     add_ln75_fu_556_p2                                    |     |        | add_ln75       | add       | fabric                   | 0       |
+|     icmp_ln78_fu_566_p2                                   |     |        | icmp_ln78      | seteq     | auto                     | 0       |
+|     valid_pixels_1_fu_617_p2                              |     |        | valid_pixels_1 | add       | fabric                   | 0       |
+|     sparsemux_9_2_1_1_1_U118                              |     |        | tmp            | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_9_2_32_1_1_U119                             |     |        | tmp_1          | sparsemux | compactencoding_dontcare | 0       |
+|     icmp_ln47_fu_705_p2                                   |     |        | icmp_ln47      | seteq     | auto                     | 0       |
+|     misses_1_fu_711_p2                                    |     |        | misses_1       | add       | fabric                   | 0       |
+|     add_ln51_fu_729_p2                                    |     |        | add_ln51       | add       | fabric                   | 0       |
+|     icmp_ln51_fu_735_p2                                   |     |        | icmp_ln51      | setgt     | auto                     | 0       |
+|     add_ln52_fu_757_p2                                    |     |        | add_ln52       | add       | fabric                   | 0       |
+|     loaded_1_fu_772_p2                                    |     |        | loaded_1       | add       | fabric                   | 0       |
+|     hits_1_fu_783_p2                                      |     |        | hits_1         | add       | fabric                   | 0       |
+|     sparsemux_9_2_32_1_1_U120                             |     |        | lo             | sparsemux | compactencoding_dontcare | 0       |
+|     lshr_ln82_fu_899_p2                                   |     |        | lshr_ln82      | lshr      | auto_pipe                | 0       |
+|     mac_muladd_8ns_8ns_15ns_16_4_1_U125                   | 1   |        | mul_ln86       | mul       | dsp_slice                | 3       |
+|     mac_muladd_8ns_5ns_15s_15_4_1_U123                    | 1   |        | mul_ln86_3     | mul       | dsp_slice                | 3       |
+|     mac_muladd_8ns_5ns_15s_15_4_1_U123                    | 1   |        | zext_ln86      | zext      | dsp_slice                | 3       |
+|     mul_8ns_8ns_15_1_1_U121                               |     |        | mul_ln86_4     | mul       | auto                     | 0       |
+|     mac_muladd_8ns_5ns_15s_15_4_1_U123                    | 1   |        | add_ln86       | add       | dsp_slice                | 3       |
+|     mul_8ns_8ns_15_1_1_U122                               |     |        | mul_ln86_1     | mul       | auto                     | 0       |
+|     mac_muladd_8ns_5ns_15s_15_4_1_U124                    | 1   |        | mul_ln86_2     | mul       | dsp_slice                | 3       |
+|     mac_muladd_8ns_5ns_15s_15_4_1_U124                    | 1   |        | zext_ln86_1    | zext      | dsp_slice                | 3       |
+|     mac_muladd_8ns_5ns_15s_15_4_1_U124                    | 1   |        | add_ln86_1     | add       | dsp_slice                | 3       |
+|     cond_i_in_v_v_fu_1031_p3                              |     |        | cond_i_in_v_v  | select    | auto_sel                 | 0       |
+|     mac_muladd_8ns_8ns_15ns_16_4_1_U125                   | 1   |        | cond_i_in      | add       | dsp_slice                | 3       |
+|     icmp_ln87_fu_1049_p2                                  |     |        | icmp_ln87      | setlt     | auto                     | 0       |
+|     white_fu_1054_p2                                      |     |        | white          | xor       | auto                     | 0       |
+|     select_ln77_fu_1060_p3                                |     |        | select_ln77    | select    | auto_sel                 | 0       |
+|     rgb_3_fu_1068_p3                                      |     |        | rgb_3          | select    | auto_sel                 | 0       |
+|     add_ln92_fu_1090_p2                                   |     |        | add_ln92       | add       | fabric                   | 0       |
+|     sub_ln94_fu_1096_p2                                   |     |        | sub_ln94       | sub       | fabric                   | 0       |
+|    + fetch_Pipeline_VITIS_LOOP_52_1                       | 0   |        |                |           |                          |         |
+|      icmp_ln52_fu_155_p2                                  |     |        | icmp_ln52      | seteq     | auto                     | 0       |
+|      add_ln52_fu_161_p2                                   |     |        | add_ln52       | add       | fabric                   | 0       |
+|    + fetch_Pipeline_VITIS_LOOP_57_2                       | 0   |        |                |           |                          |         |
+|      icmp_ln57_fu_242_p2                                  |     |        | icmp_ln57      | seteq     | auto                     | 0       |
+|      add_ln57_fu_248_p2                                   |     |        | add_ln57       | add       | fabric                   | 0       |
+|      icmp_ln59_fu_274_p2                                  |     |        | icmp_ln59      | setlt     | auto                     | 0       |
+|      add_ln59_fu_300_p2                                   |     |        | add_ln59       | add       | fabric                   | 0       |
+|      loaded_fu_320_p2                                     |     |        | loaded         | add       | fabric                   | 0       |
+|   + pack                                                  | 0   |        |                |           |                          |         |
+|     sub_ln125_fu_73_p2                                    |     |        | sub_ln125      | sub       | fabric                   | 0       |
+|     sub_ln125_1_fu_99_p2                                  |     |        | sub_ln125_1    | sub       | fabric                   | 0       |
+|     groups_fu_104_p3                                      |     |        | groups         | select    | auto_sel                 | 0       |
+|    + pack_Pipeline_VITIS_LOOP_98_1                        | 0   |        |                |           |                          |         |
+|      icmp_ln98_fu_137_p2                                  |     |        | icmp_ln98      | setlt     | auto                     | 0       |
+|      add_ln98_fu_143_p2                                   |     |        | add_ln98       | add       | fabric                   | 0       |
+|   + write_frame                                           | 0   |        |                |           |                          |         |
+|     sub_ln122_fu_109_p2                                   |     |        | sub_ln122      | sub       | fabric                   | 0       |
+|     sub_ln122_1_fu_135_p2                                 |     |        | sub_ln122_1    | sub       | fabric                   | 0       |
+|     count_fu_140_p3                                       |     |        | count          | select    | auto_sel                 | 0       |
+|     icmp_ln107_fu_150_p2                                  |     |        | icmp_ln107     | setgt     | auto                     | 0       |
+|     empty_fu_156_p3                                       |     |        | empty          | select    | auto_sel                 | 0       |
+|    + write_frame_Pipeline_VITIS_LOOP_107_1                | 0   |        |                |           |                          |         |
+|      icmp_ln107_fu_108_p2                                 |     |        | icmp_ln107     | setlt     | auto                     | 0       |
+|      add_ln107_fu_114_p2                                  |     |        | add_ln107      | add       | fabric                   | 0       |
++-----------------------------------------------------------+-----+--------+----------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++-------------------------+---------------+-------------+------+------+--------+--------------------+--------+---------+------------------+
+| Name                    | Usage         | Type        | BRAM | URAM | Pragma | Variable           | Impl   | Latency | Bitwidth, Depth, |
+|                         |               |             |      |      |        |                    |        |         | Banks            |
++-------------------------+---------------+-------------+------+------+--------+--------------------+--------+---------+------------------+
+| + board_rectify_rgb     |               |             | 12   | 0    |        |                    |        |         |                  |
+|   control_s_axi_U       | interface     | s_axilite   |      |      |        |                    |        |         |                  |
+|   gmem0_m_axi_U         | interface     | m_axi       | 2    |      |        |                    |        |         |                  |
+|   gmem1_m_axi_U         | interface     | m_axi       | 2    |      |        |                    |        |         |                  |
+|   gmem2_m_axi_U         | interface     | m_axi       | 2    |      |        |                    |        |         |                  |
+|   g_U                   | ram_2p array  |             |      |      |        | g                  | auto   | 1       | 32, 20, 1        |
+|  + render               |               |             | 6    | 0    |        |                    |        |         |                  |
+|    mul_loc_c2_channel_U | fifo channel  | task level  |      |      |        | mul_loc_c2_channel | srl    | 0       | 32, 2, 1         |
+|    positions_U          | fifo channel  | stream      | 2    |      |        | positions          | memory | 0       | 32, 256, 1       |
+|    colors_U             | fifo channel  | stream      | 2    |      |        | colors             | memory | 0       | 32, 64, 1        |
+|    mul_loc_c1_U         | fifo channel  | scalar prop |      |      |        | mul_loc_c1         | srl    | 0       | 32, 2, 1         |
+|    words_U              | fifo channel  | stream      | 2    |      |        | words              | memory | 0       | 32, 128, 1       |
+|    mul_loc_c_U          | fifo channel  | scalar prop |      |      |        | mul_loc_c          | srl    | 0       | 32, 2, 1         |
+|   + fetch               |               |             | 0    | 0    |        |                    |        |         |                  |
+|     data_U              | ram_t2p array |             |      |      |        | data               | auto   | 1       | 32, 16, 1        |
+|     data_1_U            | ram_t2p array |             |      |      |        | data_1             | auto   | 1       | 32, 16, 1        |
+|     data_2_U            | ram_t2p array |             |      |      |        | data_2             | auto   | 1       | 32, 16, 1        |
+|     data_3_U            | ram_t2p array |             |      |      |        | data_3             | auto   | 1       | 32, 16, 1        |
++-------------------------+---------------+-------------+------+------+--------+--------------------+--------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Inferred Pragmas
++--------------+---------+-----------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
+| Type         | Options | Location                                                                                                                          | Inferred From                                   |
++--------------+---------+-----------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
+| LOOP_FLATTEN |         | loop VITIS_LOOP_20_1 (../src/pl/hls/board_rectify_rgb.cpp:20:22) in coordinates (../src/pl/hls/board_rectify_rgb.cpp:20)          | pipeline ../src/pl/hls/board_rectify_rgb.cpp:24 |
+| PIPELINE     |         | loop VITIS_LOOP_98_1 (../src/pl/hls/board_rectify_rgb.cpp:98:22) in pack (../src/pl/hls/board_rectify_rgb.cpp:98)                 | syn.compile.pipeline_loops=64                   |
+| PIPELINE     |         | loop VITIS_LOOP_152_1 (../src/pl/hls/board_rectify_rgb.cpp:152:23) in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:152) | syn.compile.pipeline_loops=64                   |
+| PIPELINE     |         | loop VITIS_LOOP_159_2 (../src/pl/hls/board_rectify_rgb.cpp:159:23) in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:159) | syn.compile.pipeline_loops=64                   |
+| PIPELINE     |         | loop VITIS_LOOP_161_3 (../src/pl/hls/board_rectify_rgb.cpp:161:23) in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:161) | syn.compile.pipeline_loops=64                   |
++--------------+---------+-----------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
+
+* Valid Pragma Syntax
++-----------------+-----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| Type            | Options                                                                                                   | Location                                                       |
++-----------------+-----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| LOOP_TRIPCOUNT  | min=16 max=1080                                                                                           | in coordinates (../src/pl/hls/board_rectify_rgb.cpp:21)        |
+| LOOP_TRIPCOUNT  | min=16 max=1920                                                                                           | in coordinates (../src/pl/hls/board_rectify_rgb.cpp:23)        |
+| PIPELINE        | ii=1                                                                                                      | in coordinates (../src/pl/hls/board_rectify_rgb.cpp:24)        |
+| PIPELINE        | ii=1                                                                                                      | in cached_word (../src/pl/hls/board_rectify_rgb.cpp:53)        |
+| PIPELINE        | ii=1                                                                                                      | in cached_word (../src/pl/hls/board_rectify_rgb.cpp:58)        |
+| ARRAY_PARTITION | variable=data complete dim=1                                                                              | in fetch (../src/pl/hls/board_rectify_rgb.cpp:71)              |
+| ARRAY_PARTITION | variable=tags complete                                                                                    | in fetch (../src/pl/hls/board_rectify_rgb.cpp:72)              |
+| ARRAY_PARTITION | variable=valid complete                                                                                   | in fetch (../src/pl/hls/board_rectify_rgb.cpp:73)              |
+| LOOP_TRIPCOUNT  | min=256 max=2073600                                                                                       | in fetch (../src/pl/hls/board_rectify_rgb.cpp:76)              |
+| LOOP_TRIPCOUNT  | min=64 max=518400                                                                                         | in pack (../src/pl/hls/board_rectify_rgb.cpp:99)               |
+| LOOP_TRIPCOUNT  | min=192 max=1555200                                                                                       | in write_frame (../src/pl/hls/board_rectify_rgb.cpp:108)       |
+| PIPELINE        | ii=1                                                                                                      | in write_frame (../src/pl/hls/board_rectify_rgb.cpp:109)       |
+| DATAFLOW        |                                                                                                           | in render (../src/pl/hls/board_rectify_rgb.cpp:117)            |
+| STREAM          | variable=positions depth=256                                                                              | in render (../src/pl/hls/board_rectify_rgb.cpp:119)            |
+| STREAM          | variable=colors depth=64                                                                                  | in render (../src/pl/hls/board_rectify_rgb.cpp:120)            |
+| STREAM          | variable=words depth=128                                                                                  | in render (../src/pl/hls/board_rectify_rgb.cpp:121)            |
+| INTERFACE       | m_axi port=src offset=slave bundle=gmem0 depth=1036800 max_read_burst_length=16 num_read_outstanding=16   | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:132) |
+| INTERFACE       | m_axi port=dst offset=slave bundle=gmem1 depth=1036800 max_write_burst_length=64 num_write_outstanding=16 | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:133) |
+| INTERFACE       | m_axi port=status offset=slave bundle=gmem2 depth=1                                                       | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:134) |
+| INTERFACE       | m_axi port=hint offset=slave bundle=gmem2 depth=1                                                         | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:135) |
+| INTERFACE       | m_axi port=corners offset=slave bundle=gmem2 depth=4                                                      | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:136) |
+| INTERFACE       | m_axi port=geometry offset=slave bundle=gmem2 depth=20                                                    | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:137) |
+| INTERFACE       | m_axi port=diagnostics offset=slave bundle=gmem2 depth=16                                                 | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:138) |
+| INTERFACE       | s_axilite port=src bundle=control                                                                         | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:139) |
+| INTERFACE       | s_axilite port=dst bundle=control                                                                         | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:140) |
+| INTERFACE       | s_axilite port=status bundle=control                                                                      | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:141) |
+| INTERFACE       | s_axilite port=hint bundle=control                                                                        | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:142) |
+| INTERFACE       | s_axilite port=corners bundle=control                                                                     | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:143) |
+| INTERFACE       | s_axilite port=binary_enable bundle=control                                                               | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:144) |
+| INTERFACE       | s_axilite port=mode bundle=control                                                                        | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:145) |
+| INTERFACE       | s_axilite port=threshold bundle=control                                                                   | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:146) |
+| INTERFACE       | s_axilite port=bgr bundle=control                                                                         | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:147) |
+| INTERFACE       | s_axilite port=geometry bundle=control                                                                    | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:148) |
+| INTERFACE       | s_axilite port=diagnostics bundle=control                                                                 | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:149) |
+| INTERFACE       | s_axilite port=return bundle=control                                                                      | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:150) |
+| ARRAY_PARTITION | variable=c complete                                                                                       | in board_rectify_rgb (../src/pl/hls/board_rectify_rgb.cpp:158) |
++-----------------+-----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+
+

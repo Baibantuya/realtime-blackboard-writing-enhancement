@@ -1,0 +1,742 @@
+/dts-v1/;
+
+/ {
+
+	fragment@0 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x02>;
+			#size-cells = <0x02>;
+			firmware-name = "imx219-v24-2025-2-c5.bit.bin";
+			resets = <0xffffffff 0x74>;
+			phandle = <0x16>;
+		};
+	};
+
+	fragment@1 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			phandle = <0x17>;
+
+			afi0 {
+				compatible = "xlnx,afi-fpga";
+				config-afi = <0x00 0x00 0x01 0x00 0x02 0x00 0x03 0x00 0x04 0x00 0x05 0x00 0x06 0x00 0x07 0x00 0x08 0x00 0x09 0x00 0x0a 0x00 0x0b 0x00 0x0c 0x00 0x0d 0x00 0x0e 0xa00 0x0f 0x00>;
+				phandle = <0x18>;
+			};
+
+			clocking0 {
+				#clock-cells = <0x00>;
+				assigned-clock-rates = <0x5f5dd19>;
+				assigned-clocks = <0xffffffff 0x47>;
+				clock-output-names = "fabric_clk";
+				clocks = <0xffffffff 0x47>;
+				compatible = "xlnx,fclk";
+				phandle = <0x19>;
+			};
+
+			clocking1 {
+				#clock-cells = <0x00>;
+				assigned-clock-rates = <0x5f5dd19>;
+				assigned-clocks = <0xffffffff 0x48>;
+				clock-output-names = "fabric_clk";
+				clocks = <0xffffffff 0x48>;
+				compatible = "xlnx,fclk";
+				phandle = <0x1a>;
+			};
+		};
+	};
+
+	fragment@2 {
+		target-path = [2f 00];
+
+		__overlay__ {
+			phandle = <0x1b>;
+
+			fixedregulator0 {
+				compatible = "regulator-fixed";
+				regulator-name = "imx219_vana";
+				regulator-min-microvolt = <0x2ab980>;
+				regulator-max-microvolt = <0x2ab980>;
+				phandle = <0x03>;
+			};
+
+			fixedregulator1 {
+				compatible = "regulator-fixed";
+				regulator-name = "imx219_vdig";
+				regulator-min-microvolt = <0x1b7740>;
+				regulator-max-microvolt = <0x1b7740>;
+				phandle = <0x04>;
+			};
+
+			fixedregulator2 {
+				compatible = "regulator-fixed";
+				regulator-name = "imx219_vddl";
+				regulator-min-microvolt = <0x124f80>;
+				regulator-max-microvolt = <0x124f80>;
+				phandle = <0x05>;
+			};
+
+			camera-clk {
+				compatible = "fixed-clock";
+				#clock-cells = <0x00>;
+				clock-frequency = <0x16e3600>;
+				phandle = <0x02>;
+			};
+		};
+	};
+
+	fragment@3 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			#address-cells = <0x02>;
+			#size-cells = <0x02>;
+			phandle = <0x1c>;
+
+			i2c@80030000 {
+				#address-cells = <0x01>;
+				#size-cells = <0x00>;
+				clock-names = "s_axi_aclk";
+				clocks = <0x01>;
+				compatible = "xlnx,axi-iic-2.1\0xlnx,xps-iic-2.00.a";
+				interrupt-names = "iic2intc_irpt";
+				interrupt-parent = <0xffffffff>;
+				interrupts = <0x00 0x68 0x04>;
+				reg = <0x00 0x80030000 0x00 0x10000>;
+				phandle = <0x1d>;
+
+				i2c_mux@74 {
+					compatible = "nxp,pca9546";
+					#address-cells = <0x01>;
+					#size-cells = <0x00>;
+					reg = <0x74>;
+					phandle = <0x1e>;
+
+					i2c@0 {
+						reg = <0x00>;
+						phandle = <0x1f>;
+					};
+
+					i2c@1 {
+						reg = <0x01>;
+						phandle = <0x20>;
+					};
+
+					i2c@2 {
+						#address-cells = <0x01>;
+						#size-cells = <0x00>;
+						reg = <0x02>;
+						phandle = <0x21>;
+
+						sensor@10 {
+							compatible = "sony,imx219";
+							reg = <0x10>;
+							clocks = <0x02>;
+							VANA-supply = <0x03>;
+							VDIG-supply = <0x04>;
+							VDDL-supply = <0x05>;
+							phandle = <0x22>;
+
+							port {
+
+								endpoint {
+									remote-endpoint = <0x06>;
+									data-lanes = <0x01 0x02>;
+									clock-noncontinuous;
+									link-frequencies = <0x00 0x1b2e0200>;
+									phandle = <0x09>;
+								};
+							};
+						};
+					};
+				};
+			};
+
+			misc_clk_0 {
+				#clock-cells = <0x00>;
+				clock-frequency = <0x5f5dd18>;
+				compatible = "fixed-clock";
+				phandle = <0x01>;
+			};
+
+			mipi_csi2_rx_subsystem@80002000 {
+				clock-names = "lite_aclk\0dphy_clk_200M\0video_aclk";
+				clocks = <0x01 0x07 0x07>;
+				compatible = "xlnx,mipi-csi2-rx-subsystem-5.0";
+				interrupt-names = "csirxss_csi_irq";
+				interrupt-parent = <0xffffffff>;
+				interrupts = <0x00 0x69 0x04>;
+				reg = <0x00 0x80002000 0x00 0x2000>;
+				xlnx,axis-tdata-width = <0x08>;
+				xlnx,csi-pxl-format = <0x2a>;
+				xlnx,en-active-lanes;
+				xlnx,en-csi-v2-0;
+				xlnx,en-vcx;
+				xlnx,max-lanes = <0x02>;
+				xlnx,ppc = <0x01>;
+				xlnx,vc = <0x04>;
+				xlnx,vfb;
+				phandle = <0x23>;
+
+				ports {
+					#address-cells = <0x01>;
+					#size-cells = <0x00>;
+					phandle = <0x24>;
+
+					port@1 {
+						reg = <0x01>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x25>;
+
+						endpoint {
+							remote-endpoint = <0x08>;
+							phandle = <0x0b>;
+						};
+					};
+
+					port@0 {
+						reg = <0x00>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x26>;
+
+						endpoint {
+							remote-endpoint = <0x09>;
+							data-lanes = <0x01 0x02>;
+							phandle = <0x06>;
+						};
+					};
+				};
+			};
+
+			misc_clk_1 {
+				#clock-cells = <0x00>;
+				clock-frequency = <0xbebba30>;
+				compatible = "fixed-clock";
+				phandle = <0x07>;
+			};
+
+			v_demosaic@a0010000 {
+				clock-names = "ap_clk";
+				clocks = <0x07>;
+				compatible = "xlnx,v-demosaic-1.1\0xlnx,v-demosaic";
+				interrupt-names = "interrupt";
+				interrupt-parent = <0xffffffff>;
+				interrupts = <0x00 0x6a 0x04>;
+				reg = <0x00 0xa0010000 0x00 0x10000>;
+				reset-gpios = <0xffffffff 0x4e 0x01>;
+				xlnx,max-height = <0x438>;
+				xlnx,max-width = <0x780>;
+				xlnx,s-axi-ctrl-addr-width = <0x06>;
+				xlnx,s-axi-ctrl-data-width = <0x20>;
+				phandle = <0x27>;
+
+				ports {
+					#address-cells = <0x01>;
+					#size-cells = <0x00>;
+					phandle = <0x28>;
+
+					port@1 {
+						reg = <0x01>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x29>;
+
+						endpoint {
+							remote-endpoint = <0x0a>;
+							phandle = <0x0d>;
+						};
+					};
+
+					port@0 {
+						reg = <0x00>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x2a>;
+
+						endpoint {
+							remote-endpoint = <0x0b>;
+							phandle = <0x08>;
+						};
+					};
+				};
+			};
+
+			v_frmbuf_wr@a0020000 {
+				#dma-cells = <0x01>;
+				clock-names = "ap_clk";
+				clocks = <0x07>;
+				compatible = "xlnx,v-frmbuf-wr-2.4\0xlnx,axi-frmbuf-wr-v2.2";
+				interrupt-names = "interrupt";
+				interrupt-parent = <0xffffffff>;
+				interrupts = <0x00 0x6c 0x04>;
+				reg = <0x00 0xa0020000 0x00 0x10000>;
+				reset-gpios = <0xffffffff 0x52 0x01>;
+				xlnx,dma-addr-width = <0x20>;
+				xlnx,dma-align = <0x08>;
+				xlnx,max-height = <0x7d0>;
+				xlnx,max-width = <0xfa0>;
+				xlnx,pixels-per-clock = <0x01>;
+				xlnx,s-axi-ctrl-addr-width = <0x07>;
+				xlnx,s-axi-ctrl-data-width = <0x20>;
+				xlnx,vid-formats = "yuyv\0rgb888\0bgr888\0xbgr8888\0xrgb8888\0xbgr2101010\0vuy888\0xvuy8888\0nv12";
+				xlnx,video-width = <0x08>;
+				phandle = <0x14>;
+			};
+
+			v_gamma_lut@a0030000 {
+				clock-names = "ap_clk";
+				clocks = <0x07>;
+				compatible = "xlnx,v-gamma-lut-1.1\0xlnx,v-gamma-lut";
+				interrupt-names = "interrupt";
+				interrupt-parent = <0xffffffff>;
+				interrupts = <0x00 0x6b 0x04>;
+				reg = <0x00 0xa0030000 0x00 0x10000>;
+				reset-gpios = <0xffffffff 0x4f 0x01>;
+				xlnx,max-height = <0x438>;
+				xlnx,max-width = <0x780>;
+				xlnx,s-axi-ctrl-addr-width = <0x0d>;
+				xlnx,s-axi-ctrl-data-width = <0x20>;
+				phandle = <0x2b>;
+
+				ports {
+					#address-cells = <0x01>;
+					#size-cells = <0x00>;
+					phandle = <0x2c>;
+
+					port@1 {
+						reg = <0x01>;
+						xlnx,video-format = <0x02>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x2d>;
+
+						endpoint {
+							remote-endpoint = <0x0c>;
+							phandle = <0x0f>;
+						};
+					};
+
+					port@0 {
+						reg = <0x00>;
+						xlnx,video-format = <0x02>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x2e>;
+
+						endpoint {
+							remote-endpoint = <0x0d>;
+							phandle = <0x0a>;
+						};
+					};
+				};
+			};
+
+			v_proc_ss_csc@a0040000 {
+				clock-names = "aclk";
+				clocks = <0x07>;
+				compatible = "xlnx,v-vpss-csc";
+				reg = <0x00 0xa0040000 0x00 0x10000>;
+				reset-gpios = <0xffffffff 0x50 0x01>;
+				xlnx,colorspace-support = <0x01>;
+				xlnx,max-height = <0x438>;
+				xlnx,max-width = <0x780>;
+				xlnx,num-video-components = <0x03>;
+				xlnx,samples-per-clk = <0x01>;
+				xlnx,use-uram = <0x00>;
+				xlnx,video-width = <0x08>;
+				phandle = <0x2f>;
+
+				ports {
+					#address-cells = <0x01>;
+					#size-cells = <0x00>;
+					phandle = <0x30>;
+
+					port@1 {
+						reg = <0x01>;
+						xlnx,video-format = <0x02>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x31>;
+
+						endpoint {
+							remote-endpoint = <0x0e>;
+							phandle = <0x11>;
+						};
+					};
+
+					port@0 {
+						reg = <0x00>;
+						xlnx,video-format = <0x02>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x32>;
+
+						endpoint {
+							remote-endpoint = <0x0f>;
+							phandle = <0x0c>;
+						};
+					};
+				};
+			};
+
+			v_proc_ss_scaler@a0080000 {
+				clock-names = "aclk_axis\0aclk_ctrl";
+				clocks = <0x07 0x07>;
+				compatible = "xlnx,v-vpss-scaler-2.2";
+				reg = <0x00 0xa0080000 0x00 0x40000>;
+				reset-gpios = <0xffffffff 0x51 0x01>;
+				xlnx,colorspace-support = <0x01>;
+				xlnx,csc-enable-window = "true";
+				xlnx,enable-csc = "false";
+				xlnx,h-scaler-phases = <0x40>;
+				xlnx,h-scaler-taps = <0x06>;
+				xlnx,max-height = <0x438>;
+				xlnx,max-num-phases = <0x40>;
+				xlnx,max-width = <0x780>;
+				xlnx,num-hori-taps = <0x06>;
+				xlnx,num-vert-taps = <0x06>;
+				xlnx,pix-per-clk = <0x01>;
+				xlnx,samples-per-clk = <0x01>;
+				xlnx,scaler-algorithm = <0x02>;
+				xlnx,topology = <0x00>;
+				xlnx,use-uram = <0x00>;
+				xlnx,v-scaler-phases = <0x40>;
+				xlnx,v-scaler-taps = <0x06>;
+				xlnx,video-width = <0x08>;
+				phandle = <0x33>;
+
+				ports {
+					#address-cells = <0x01>;
+					#size-cells = <0x00>;
+					phandle = <0x34>;
+
+					port@1 {
+						reg = <0x01>;
+						xlnx,video-format = <0x02>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x35>;
+
+						endpoint {
+							remote-endpoint = <0x10>;
+							phandle = <0x12>;
+						};
+					};
+
+					port@0 {
+						reg = <0x00>;
+						xlnx,video-format = <0x02>;
+						xlnx,video-width = <0x08>;
+						phandle = <0x36>;
+
+						endpoint {
+							remote-endpoint = <0x11>;
+							phandle = <0x0e>;
+						};
+					};
+				};
+			};
+
+			rgb565_format_adapter {
+				compatible = "whiteboard,rgb565-format-1.0";
+
+				ports {
+					#address-cells = <0x01>;
+					#size-cells = <0x00>;
+
+					port@0 {
+						reg = <0x00>;
+
+						endpoint {
+							remote-endpoint = <0x12>;
+							phandle = <0x10>;
+						};
+					};
+
+					port@1 {
+						reg = <0x01>;
+
+						endpoint {
+							remote-endpoint = <0x13>;
+							phandle = <0x15>;
+						};
+					};
+				};
+			};
+
+			vcap_v_proc_ss_scaler {
+				compatible = "xlnx,video";
+				dma-names = "port0";
+				dmas = <0x14 0x00>;
+
+				ports {
+					#address-cells = <0x01>;
+					#size-cells = <0x00>;
+					phandle = <0x37>;
+
+					port@0 {
+						reg = <0x00>;
+						direction = "input";
+
+						endpoint {
+							remote-endpoint = <0x15>;
+							phandle = <0x13>;
+						};
+					};
+				};
+			};
+		};
+	};
+
+	__symbols__ {
+		overlay0 = "/fragment@0/__overlay__";
+		overlay1 = "/fragment@1/__overlay__";
+		afi0 = "/fragment@1/__overlay__/afi0";
+		clocking0 = "/fragment@1/__overlay__/clocking0";
+		clocking1 = "/fragment@1/__overlay__/clocking1";
+		overlay2 = "/fragment@2/__overlay__";
+		imx219_vana = "/fragment@2/__overlay__/fixedregulator0";
+		imx219_vdig = "/fragment@2/__overlay__/fixedregulator1";
+		imx219_vddl = "/fragment@2/__overlay__/fixedregulator2";
+		imx219_clk = "/fragment@2/__overlay__/camera-clk";
+		overlay3 = "/fragment@3/__overlay__";
+		axi_iic_0 = "/fragment@3/__overlay__/i2c@80030000";
+		iic_mux_0 = "/fragment@3/__overlay__/i2c@80030000/i2c_mux@74";
+		isa0_i2c0 = "/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@0";
+		isa1_i2c1 = "/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@1";
+		rpi_i2c2 = "/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@2";
+		imx219 = "/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@2/sensor@10";
+		imx219_0 = "/fragment@3/__overlay__/i2c@80030000/i2c_mux@74/i2c@2/sensor@10/port/endpoint";
+		misc_clk_0 = "/fragment@3/__overlay__/misc_clk_0";
+		mipi_csi2_rx_subsyst_0 = "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000";
+		mipi_csi_portsmipi_csi2_rx_subsyst_0 = "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000/ports";
+		mipi_csi_port1mipi_csi2_rx_subsyst_0 = "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000/ports/port@1";
+		mipi_csirx_outmipi_csi2_rx_subsyst_0 = "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000/ports/port@1/endpoint";
+		mipi_csi_port0mipi_csi2_rx_subsyst_0 = "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000/ports/port@0";
+		mipi_csi_inmipi_csi2_rx_subsyst_0 = "/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000/ports/port@0/endpoint";
+		misc_clk_1 = "/fragment@3/__overlay__/misc_clk_1";
+		v_demosaic_0 = "/fragment@3/__overlay__/v_demosaic@a0010000";
+		demosaic_portsv_demosaic_0 = "/fragment@3/__overlay__/v_demosaic@a0010000/ports";
+		demosaic_port1v_demosaic_0 = "/fragment@3/__overlay__/v_demosaic@a0010000/ports/port@1";
+		demo_outv_demosaic_0 = "/fragment@3/__overlay__/v_demosaic@a0010000/ports/port@1/endpoint";
+		demosaic_port0v_demosaic_0 = "/fragment@3/__overlay__/v_demosaic@a0010000/ports/port@0";
+		v_demosaic_0mipi_csi2_rx_subsyst_0 = "/fragment@3/__overlay__/v_demosaic@a0010000/ports/port@0/endpoint";
+		v_frmbuf_wr_0 = "/fragment@3/__overlay__/v_frmbuf_wr@a0020000";
+		v_gamma_lut_0 = "/fragment@3/__overlay__/v_gamma_lut@a0030000";
+		gamma_portsv_gamma_lut_0 = "/fragment@3/__overlay__/v_gamma_lut@a0030000/ports";
+		gamma_port1v_gamma_lut_0 = "/fragment@3/__overlay__/v_gamma_lut@a0030000/ports/port@1";
+		gamma_outv_gamma_lut_0 = "/fragment@3/__overlay__/v_gamma_lut@a0030000/ports/port@1/endpoint";
+		gamma_port0v_gamma_lut_0 = "/fragment@3/__overlay__/v_gamma_lut@a0030000/ports/port@0";
+		v_gamma_lut_0v_demosaic_0 = "/fragment@3/__overlay__/v_gamma_lut@a0030000/ports/port@0/endpoint";
+		v_proc_ss_csc = "/fragment@3/__overlay__/v_proc_ss_csc@a0040000";
+		csc_portsv_proc_ss_csc = "/fragment@3/__overlay__/v_proc_ss_csc@a0040000/ports";
+		csc_port1v_proc_ss_csc = "/fragment@3/__overlay__/v_proc_ss_csc@a0040000/ports/port@1";
+		csc_outv_proc_ss_csc = "/fragment@3/__overlay__/v_proc_ss_csc@a0040000/ports/port@1/endpoint";
+		csc_port0v_proc_ss_csc = "/fragment@3/__overlay__/v_proc_ss_csc@a0040000/ports/port@0";
+		v_proc_ss_cscv_gamma_lut_0 = "/fragment@3/__overlay__/v_proc_ss_csc@a0040000/ports/port@0/endpoint";
+		v_proc_ss_scaler = "/fragment@3/__overlay__/v_proc_ss_scaler@a0080000";
+		scaler_portsv_proc_ss_scaler = "/fragment@3/__overlay__/v_proc_ss_scaler@a0080000/ports";
+		scaler_port1v_proc_ss_scaler = "/fragment@3/__overlay__/v_proc_ss_scaler@a0080000/ports/port@1";
+		sca_outv_proc_ss_scaler = "/fragment@3/__overlay__/v_proc_ss_scaler@a0080000/ports/port@1/endpoint";
+		scaler_port0v_proc_ss_scaler = "/fragment@3/__overlay__/v_proc_ss_scaler@a0080000/ports/port@0";
+		v_proc_ss_scalerv_proc_ss_csc = "/fragment@3/__overlay__/v_proc_ss_scaler@a0080000/ports/port@0/endpoint";
+		rgb565_sink = "/fragment@3/__overlay__/rgb565_format_adapter/ports/port@0/endpoint";
+		rgb565_source = "/fragment@3/__overlay__/rgb565_format_adapter/ports/port@1/endpoint";
+		vcap_portsv_proc_ss_scaler = "/fragment@3/__overlay__/vcap_v_proc_ss_scaler/ports";
+		v_frmbuf_wr_0v_proc_ss_scaler = "/fragment@3/__overlay__/vcap_v_proc_ss_scaler/ports/port@0/endpoint";
+	};
+
+	__fixups__ {
+		fpga_full = "/fragment@0:target:0";
+		zynqmp_reset = "/fragment@0/__overlay__:resets:0";
+		amba = "/fragment@1:target:0\0/fragment@3:target:0", "/fragment@99:target:0";
+		zynqmp_clk = "/fragment@1/__overlay__/clocking0:assigned-clocks:0\0/fragment@1/__overlay__/clocking0:clocks:0\0/fragment@1/__overlay__/clocking1:assigned-clocks:0\0/fragment@1/__overlay__/clocking1:clocks:0";
+		gic = "/fragment@3/__overlay__/i2c@80030000:interrupt-parent:0\0/fragment@3/__overlay__/mipi_csi2_rx_subsystem@80002000:interrupt-parent:0\0/fragment@3/__overlay__/v_demosaic@a0010000:interrupt-parent:0\0/fragment@3/__overlay__/v_frmbuf_wr@a0020000:interrupt-parent:0\0/fragment@3/__overlay__/v_gamma_lut@a0030000:interrupt-parent:0";
+		gpio = "/fragment@3/__overlay__/v_demosaic@a0010000:reset-gpios:0\0/fragment@3/__overlay__/v_frmbuf_wr@a0020000:reset-gpios:0\0/fragment@3/__overlay__/v_gamma_lut@a0030000:reset-gpios:0\0/fragment@3/__overlay__/v_proc_ss_csc@a0040000:reset-gpios:0\0/fragment@3/__overlay__/v_proc_ss_scaler@a0080000:reset-gpios:0";
+	};
+
+	__local_fixups__ {
+
+		fragment@3 {
+
+			__overlay__ {
+
+				i2c@80030000 {
+					clocks = <0x00>;
+
+					i2c_mux@74 {
+
+						i2c@2 {
+
+							sensor@10 {
+								clocks = <0x00>;
+								VANA-supply = <0x00>;
+								VDIG-supply = <0x00>;
+								VDDL-supply = <0x00>;
+
+								port {
+
+									endpoint {
+										remote-endpoint = <0x00>;
+									};
+								};
+							};
+						};
+					};
+				};
+
+				mipi_csi2_rx_subsystem@80002000 {
+					clocks = <0x00 0x04 0x08>;
+
+					ports {
+
+						port@1 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+
+						port@0 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+					};
+				};
+
+				v_demosaic@a0010000 {
+					clocks = <0x00>;
+
+					ports {
+
+						port@1 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+
+						port@0 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+					};
+				};
+
+				v_frmbuf_wr@a0020000 {
+					clocks = <0x00>;
+				};
+
+				v_gamma_lut@a0030000 {
+					clocks = <0x00>;
+
+					ports {
+
+						port@1 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+
+						port@0 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+					};
+				};
+
+				v_proc_ss_csc@a0040000 {
+					clocks = <0x00>;
+
+					ports {
+
+						port@1 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+
+						port@0 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+					};
+				};
+
+				v_proc_ss_scaler@a0080000 {
+					clocks = <0x00 0x04>;
+
+					ports {
+
+						port@1 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+
+						port@0 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+					};
+				};
+
+				rgb565_format_adapter {
+
+					ports {
+
+						port@0 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+
+						port@1 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+					};
+				};
+
+				vcap_v_proc_ss_scaler {
+					dmas = <0x00>;
+
+					ports {
+
+						port@0 {
+
+							endpoint {
+								remote-endpoint = <0x00>;
+							};
+						};
+					};
+				};
+			};
+		};
+	};
+
+    fragment@99 {
+        target = <0xffffffff>;
+        __overlay__ {
+            #address-cells = <2>;
+            #size-cells = <2>;
+            board_rectify@80040000 {
+                compatible = "whiteboard,shared-rectify-5.0";
+                reg = <0 0x80040000 0 0x10000>, <0 0x80060000 0 0x10000>;
+                dma-noncoherent;
+                status = "okay";
+            };
+        };
+    };
+};

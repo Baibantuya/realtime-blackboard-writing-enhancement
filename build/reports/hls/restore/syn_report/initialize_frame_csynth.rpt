@@ -1,0 +1,553 @@
+
+
+================================================================
+== Vitis HLS Report for 'initialize_frame'
+================================================================
+* Date:           Wed Oct 28 18:51:01 2026
+
+* Version:        2025.2 (Build 6295257 on Nov 12 2025)
+* Project:        w
+* Solution:       s (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+-----------+-----+---------+---------+
+    |  Latency (cycles) |  Latency (absolute)  |    Interval   | Pipeline|
+    |   min   |   max   |    min   |    max    | min |   max   |   Type  |
+    +---------+---------+----------+-----------+-----+---------+---------+
+    |       37|  2073621|  0.185 us|  10.368 ms|   37|  2073621|       no|
+    +---------+---------+----------+-----------+-----+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------------------------------------+--------------------------------------------+---------+---------+-----------+-----------+-----+-----+-------------------+
+        |                                                       |                                            |  Latency (cycles) |   Latency (absolute)  |  Interval |      Pipeline     |
+        |                        Instance                       |                   Module                   |   min   |   max   |    min    |    max    | min | max |        Type       |
+        +-------------------------------------------------------+--------------------------------------------+---------+---------+-----------+-----------+-----+-----+-------------------+
+        |grp_initialize_frame_Pipeline_VITIS_LOOP_282_2_fu_229  |initialize_frame_Pipeline_VITIS_LOOP_282_2  |        6|   518402|  30.000 ns|   2.592 ms|    0|    0|  loop pipeline stp|
+        |grp_initialize_frame_Pipeline_VITIS_LOOP_277_1_fu_238  |initialize_frame_Pipeline_VITIS_LOOP_277_1  |       15|  1555203|  75.000 ns|   7.776 ms|    0|    0|  loop pipeline stp|
+        |grp_initialize_frame_Pipeline_VITIS_LOOP_287_3_fu_255  |initialize_frame_Pipeline_VITIS_LOOP_287_3  |        3|     8162|  15.000 ns|  40.810 us|    0|    0|  loop pipeline stp|
+        +-------------------------------------------------------+--------------------------------------------+---------+---------+-----------+-----------+-----+-----+-------------------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|     385|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     8|     133|     332|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       0|    1050|    -|
+|Register         |        -|     -|     731|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     8|     864|    1767|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |      288|  1248|  234240|  117120|   64|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|    ~0|      ~0|       1|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------------------------------------+--------------------------------------------+---------+----+----+-----+-----+
+    |                        Instance                       |                   Module                   | BRAM_18K| DSP| FF | LUT | URAM|
+    +-------------------------------------------------------+--------------------------------------------+---------+----+----+-----+-----+
+    |grp_initialize_frame_Pipeline_VITIS_LOOP_277_1_fu_238  |initialize_frame_Pipeline_VITIS_LOOP_277_1  |        0|   1|  67|  118|    0|
+    |grp_initialize_frame_Pipeline_VITIS_LOOP_282_2_fu_229  |initialize_frame_Pipeline_VITIS_LOOP_282_2  |        0|   1|  32|   86|    0|
+    |grp_initialize_frame_Pipeline_VITIS_LOOP_287_3_fu_255  |initialize_frame_Pipeline_VITIS_LOOP_287_3  |        0|   1|  34|   88|    0|
+    |mul_32s_26ns_32_1_1_U609                               |mul_32s_26ns_32_1_1                         |        0|   2|   0|   20|    0|
+    |mul_32s_32s_32_1_1_U608                                |mul_32s_32s_32_1_1                          |        0|   3|   0|   20|    0|
+    +-------------------------------------------------------+--------------------------------------------+---------+----+----+-----+-----+
+    |Total                                                  |                                            |        0|   8| 133|  332|    0|
+    +-------------------------------------------------------+--------------------------------------------+---------+----+----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |sub_ln276_1_fu_319_p2             |         -|   0|  0|  38|           1|          31|
+    |sub_ln276_2_fu_358_p2             |         -|   0|  0|  37|           1|          30|
+    |sub_ln276_fu_304_p2               |         -|   0|  0|  39|           1|          32|
+    |icmp_ln277_fu_331_p2              |      icmp|   0|  0|  38|          31|           1|
+    |icmp_ln282_fu_370_p2              |      icmp|   0|  0|  37|          30|           1|
+    |icmp_ln287_fu_500_p2              |      icmp|   0|  0|  39|          32|           1|
+    |ap_block_state12_on_subcall_done  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state17                  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state7_io                |        or|   0|  0|   2|           1|           1|
+    |empty_175_fu_379_p3               |    select|   0|  0|  29|           1|          29|
+    |empty_178_fu_510_p3               |    select|   0|  0|  31|           1|          31|
+    |empty_fu_340_p3                   |    select|   0|  0|  30|           1|          30|
+    |groups_fu_364_p3                  |    select|   0|  0|  30|           1|          30|
+    |words_fu_325_p3                   |    select|   0|  0|  31|           1|          31|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0| 385|         104|         250|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +---------------------------------+----+-----------+-----+-----------+
+    |               Name              | LUT| Input Size| Bits| Total Bits|
+    +---------------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                        |  89|         18|    1|         18|
+    |block_memory_blk_n_AW            |   9|          2|    1|          2|
+    |block_memory_blk_n_B             |   9|          2|    1|          2|
+    |frame_in_blk_n_AR                |   9|          2|    1|          2|
+    |frame_out_blk_n_AW               |   9|          2|    1|          2|
+    |frame_out_blk_n_B                |   9|          2|    1|          2|
+    |history_blk_n_AW                 |   9|          2|    1|          2|
+    |history_blk_n_B                  |   9|          2|    1|          2|
+    |m_axi_block_memory_0_AWADDR      |  14|          3|   64|        192|
+    |m_axi_block_memory_0_AWBURST     |   9|          2|    2|          4|
+    |m_axi_block_memory_0_AWCACHE     |   9|          2|    4|          8|
+    |m_axi_block_memory_0_AWID        |   9|          2|    1|          2|
+    |m_axi_block_memory_0_AWLEN       |  14|          3|   32|         96|
+    |m_axi_block_memory_0_AWLOCK      |   9|          2|    2|          4|
+    |m_axi_block_memory_0_AWPROT      |   9|          2|    3|          6|
+    |m_axi_block_memory_0_AWQOS       |   9|          2|    4|          8|
+    |m_axi_block_memory_0_AWREGION    |   9|          2|    4|          8|
+    |m_axi_block_memory_0_AWSIZE      |   9|          2|    3|          6|
+    |m_axi_block_memory_0_AWUSER      |   9|          2|    1|          2|
+    |m_axi_block_memory_0_AWVALID     |  14|          3|    1|          3|
+    |m_axi_block_memory_0_BREADY      |  14|          3|    1|          3|
+    |m_axi_block_memory_0_WVALID      |   9|          2|    1|          2|
+    |m_axi_frame_in_0_ARADDR          |  14|          3|   64|        192|
+    |m_axi_frame_in_0_ARBURST         |   9|          2|    2|          4|
+    |m_axi_frame_in_0_ARCACHE         |   9|          2|    4|          8|
+    |m_axi_frame_in_0_ARID            |   9|          2|    1|          2|
+    |m_axi_frame_in_0_ARLEN           |  14|          3|   32|         96|
+    |m_axi_frame_in_0_ARLOCK          |   9|          2|    2|          4|
+    |m_axi_frame_in_0_ARPROT          |   9|          2|    3|          6|
+    |m_axi_frame_in_0_ARQOS           |   9|          2|    4|          8|
+    |m_axi_frame_in_0_ARREGION        |   9|          2|    4|          8|
+    |m_axi_frame_in_0_ARSIZE          |   9|          2|    3|          6|
+    |m_axi_frame_in_0_ARUSER          |   9|          2|    1|          2|
+    |m_axi_frame_in_0_ARVALID         |  14|          3|    1|          3|
+    |m_axi_frame_in_0_RREADY          |   9|          2|    1|          2|
+    |m_axi_frame_out_0_AWADDR         |  14|          3|   64|        192|
+    |m_axi_frame_out_0_AWBURST        |   9|          2|    2|          4|
+    |m_axi_frame_out_0_AWCACHE        |   9|          2|    4|          8|
+    |m_axi_frame_out_0_AWID           |   9|          2|    1|          2|
+    |m_axi_frame_out_0_AWLEN          |  14|          3|   32|         96|
+    |m_axi_frame_out_0_AWLOCK         |   9|          2|    2|          4|
+    |m_axi_frame_out_0_AWPROT         |   9|          2|    3|          6|
+    |m_axi_frame_out_0_AWQOS          |   9|          2|    4|          8|
+    |m_axi_frame_out_0_AWREGION       |   9|          2|    4|          8|
+    |m_axi_frame_out_0_AWSIZE         |   9|          2|    3|          6|
+    |m_axi_frame_out_0_AWUSER         |   9|          2|    1|          2|
+    |m_axi_frame_out_0_AWVALID        |  14|          3|    1|          3|
+    |m_axi_frame_out_0_BREADY         |  14|          3|    1|          3|
+    |m_axi_frame_out_0_WVALID         |   9|          2|    1|          2|
+    |m_axi_history_0_AWADDR           |  14|          3|   64|        192|
+    |m_axi_history_0_AWBURST          |   9|          2|    2|          4|
+    |m_axi_history_0_AWCACHE          |   9|          2|    4|          8|
+    |m_axi_history_0_AWID             |   9|          2|    1|          2|
+    |m_axi_history_0_AWLEN            |  14|          3|   32|         96|
+    |m_axi_history_0_AWLOCK           |   9|          2|    2|          4|
+    |m_axi_history_0_AWPROT           |   9|          2|    3|          6|
+    |m_axi_history_0_AWQOS            |   9|          2|    4|          8|
+    |m_axi_history_0_AWREGION         |   9|          2|    4|          8|
+    |m_axi_history_0_AWSIZE           |   9|          2|    3|          6|
+    |m_axi_history_0_AWUSER           |   9|          2|    1|          2|
+    |m_axi_history_0_AWVALID          |  14|          3|    1|          3|
+    |m_axi_history_0_BREADY           |  14|          3|    1|          3|
+    |m_axi_history_0_WVALID           |   9|          2|    1|          2|
+    |m_axi_pixel_state_0_AWADDR       |  14|          3|   64|        192|
+    |m_axi_pixel_state_0_AWBURST      |   9|          2|    2|          4|
+    |m_axi_pixel_state_0_AWCACHE      |   9|          2|    4|          8|
+    |m_axi_pixel_state_0_AWID         |   9|          2|    1|          2|
+    |m_axi_pixel_state_0_AWLEN        |  14|          3|   32|         96|
+    |m_axi_pixel_state_0_AWLOCK       |   9|          2|    2|          4|
+    |m_axi_pixel_state_0_AWPROT       |   9|          2|    3|          6|
+    |m_axi_pixel_state_0_AWQOS        |   9|          2|    4|          8|
+    |m_axi_pixel_state_0_AWREGION     |   9|          2|    4|          8|
+    |m_axi_pixel_state_0_AWSIZE       |   9|          2|    3|          6|
+    |m_axi_pixel_state_0_AWUSER       |   9|          2|    1|          2|
+    |m_axi_pixel_state_0_AWVALID      |  14|          3|    1|          3|
+    |m_axi_pixel_state_0_BREADY       |  14|          3|    1|          3|
+    |m_axi_pixel_state_0_WVALID       |   9|          2|    1|          2|
+    |m_axi_previous_frame_0_AWADDR    |  14|          3|   64|        192|
+    |m_axi_previous_frame_0_AWBURST   |   9|          2|    2|          4|
+    |m_axi_previous_frame_0_AWCACHE   |   9|          2|    4|          8|
+    |m_axi_previous_frame_0_AWID      |   9|          2|    1|          2|
+    |m_axi_previous_frame_0_AWLEN     |  14|          3|   32|         96|
+    |m_axi_previous_frame_0_AWLOCK    |   9|          2|    2|          4|
+    |m_axi_previous_frame_0_AWPROT    |   9|          2|    3|          6|
+    |m_axi_previous_frame_0_AWQOS     |   9|          2|    4|          8|
+    |m_axi_previous_frame_0_AWREGION  |   9|          2|    4|          8|
+    |m_axi_previous_frame_0_AWSIZE    |   9|          2|    3|          6|
+    |m_axi_previous_frame_0_AWUSER    |   9|          2|    1|          2|
+    |m_axi_previous_frame_0_AWVALID   |  14|          3|    1|          3|
+    |m_axi_previous_frame_0_BREADY    |  14|          3|    1|          3|
+    |m_axi_previous_frame_0_WVALID    |   9|          2|    1|          2|
+    |pixel_state_blk_n_AW             |   9|          2|    1|          2|
+    |pixel_state_blk_n_B              |   9|          2|    1|          2|
+    |previous_frame_blk_n_AW          |   9|          2|    1|          2|
+    |previous_frame_blk_n_B           |   9|          2|    1|          2|
+    +---------------------------------+----+-----------+-----+-----------+
+    |Total                            |1050|        229|  749|       2101|
+    +---------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------------------------------------+----+----+-----+-----------+
+    |                                Name                                | FF | LUT| Bits| Const Bits|
+    +--------------------------------------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                                                           |  17|   0|   17|          0|
+    |empty_175_reg_587                                                   |  29|   0|   29|          0|
+    |empty_178_reg_665                                                   |  31|   0|   31|          0|
+    |empty_reg_577                                                       |  30|   0|   30|          0|
+    |groups_reg_582                                                      |  30|   0|   30|          0|
+    |grp_initialize_frame_Pipeline_VITIS_LOOP_277_1_fu_238_ap_start_reg  |   1|   0|    1|          0|
+    |grp_initialize_frame_Pipeline_VITIS_LOOP_282_2_fu_229_ap_start_reg  |   1|   0|    1|          0|
+    |grp_initialize_frame_Pipeline_VITIS_LOOP_287_3_fu_255_ap_start_reg  |   1|   0|    1|          0|
+    |lshr_ln276_2_reg_560                                                |  31|   0|   31|          0|
+    |mul_ln276_reg_549                                                   |  32|   0|   32|          0|
+    |mul_ln285_reg_645                                                   |  32|   0|   32|          0|
+    |shl_ln290_reg_680                                                   |  32|   0|   32|          0|
+    |tmp_26_reg_554                                                      |   1|   0|    1|          0|
+    |tmp_s_reg_566                                                       |  30|   0|   30|          0|
+    |trunc_ln277_1_reg_615                                               |  62|   0|   62|          0|
+    |trunc_ln277_2_reg_625                                               |  62|   0|   62|          0|
+    |trunc_ln277_3_reg_635                                               |  62|   0|   62|          0|
+    |trunc_ln7_reg_650                                                   |  62|   0|   62|          0|
+    |trunc_ln8_reg_670                                                   |  62|   0|   62|          0|
+    |trunc_ln_reg_592                                                    |  62|   0|   62|          0|
+    |words_reg_572                                                       |  31|   0|   31|          0|
+    |zext_ln277_reg_602                                                  |  30|   0|   64|         34|
+    +--------------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                               | 731|   0|  765|         34|
+    +--------------------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------------------+-----+-----+------------+------------------+--------------+
+|            RTL Ports            | Dir | Bits|  Protocol  |   Source Object  |    C Type    |
++---------------------------------+-----+-----+------------+------------------+--------------+
+|ap_clk                           |   in|    1|  ap_ctrl_hs|  initialize_frame|  return value|
+|ap_rst                           |   in|    1|  ap_ctrl_hs|  initialize_frame|  return value|
+|ap_start                         |   in|    1|  ap_ctrl_hs|  initialize_frame|  return value|
+|ap_done                          |  out|    1|  ap_ctrl_hs|  initialize_frame|  return value|
+|ap_idle                          |  out|    1|  ap_ctrl_hs|  initialize_frame|  return value|
+|ap_ready                         |  out|    1|  ap_ctrl_hs|  initialize_frame|  return value|
+|m_axi_frame_in_0_AWVALID         |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWREADY         |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWADDR          |  out|   64|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWID            |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWLEN           |  out|   32|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWSIZE          |  out|    3|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWBURST         |  out|    2|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWLOCK          |  out|    2|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWCACHE         |  out|    4|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWPROT          |  out|    3|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWQOS           |  out|    4|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWREGION        |  out|    4|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_AWUSER          |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_WVALID          |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_WREADY          |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_WDATA           |  out|   32|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_WSTRB           |  out|    4|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_WLAST           |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_WID             |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_WUSER           |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARVALID         |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARREADY         |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARADDR          |  out|   64|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARID            |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARLEN           |  out|   32|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARSIZE          |  out|    3|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARBURST         |  out|    2|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARLOCK          |  out|    2|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARCACHE         |  out|    4|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARPROT          |  out|    3|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARQOS           |  out|    4|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARREGION        |  out|    4|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_ARUSER          |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_RVALID          |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_RREADY          |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_RDATA           |   in|   32|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_RLAST           |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_RID             |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_RFIFONUM        |   in|   11|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_RUSER           |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_RRESP           |   in|    2|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_BVALID          |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_BREADY          |  out|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_BRESP           |   in|    2|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_BID             |   in|    1|       m_axi|          frame_in|       pointer|
+|m_axi_frame_in_0_BUSER           |   in|    1|       m_axi|          frame_in|       pointer|
+|input_r                          |   in|   64|     ap_none|           input_r|        scalar|
+|m_axi_frame_out_0_AWVALID        |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWREADY        |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWADDR         |  out|   64|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWID           |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWLEN          |  out|   32|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWSIZE         |  out|    3|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWBURST        |  out|    2|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWLOCK         |  out|    2|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWCACHE        |  out|    4|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWPROT         |  out|    3|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWQOS          |  out|    4|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWREGION       |  out|    4|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_AWUSER         |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_WVALID         |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_WREADY         |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_WDATA          |  out|   32|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_WSTRB          |  out|    4|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_WLAST          |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_WID            |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_WUSER          |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARVALID        |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARREADY        |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARADDR         |  out|   64|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARID           |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARLEN          |  out|   32|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARSIZE         |  out|    3|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARBURST        |  out|    2|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARLOCK         |  out|    2|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARCACHE        |  out|    4|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARPROT         |  out|    3|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARQOS          |  out|    4|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARREGION       |  out|    4|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_ARUSER         |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_RVALID         |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_RREADY         |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_RDATA          |   in|   32|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_RLAST          |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_RID            |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_RFIFONUM       |   in|    9|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_RUSER          |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_RRESP          |   in|    2|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_BVALID         |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_BREADY         |  out|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_BRESP          |   in|    2|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_BID            |   in|    1|       m_axi|         frame_out|       pointer|
+|m_axi_frame_out_0_BUSER          |   in|    1|       m_axi|         frame_out|       pointer|
+|output_r                         |   in|   64|     ap_none|          output_r|        scalar|
+|m_axi_history_0_AWVALID          |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_AWREADY          |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_AWADDR           |  out|   64|       m_axi|           history|       pointer|
+|m_axi_history_0_AWID             |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_AWLEN            |  out|   32|       m_axi|           history|       pointer|
+|m_axi_history_0_AWSIZE           |  out|    3|       m_axi|           history|       pointer|
+|m_axi_history_0_AWBURST          |  out|    2|       m_axi|           history|       pointer|
+|m_axi_history_0_AWLOCK           |  out|    2|       m_axi|           history|       pointer|
+|m_axi_history_0_AWCACHE          |  out|    4|       m_axi|           history|       pointer|
+|m_axi_history_0_AWPROT           |  out|    3|       m_axi|           history|       pointer|
+|m_axi_history_0_AWQOS            |  out|    4|       m_axi|           history|       pointer|
+|m_axi_history_0_AWREGION         |  out|    4|       m_axi|           history|       pointer|
+|m_axi_history_0_AWUSER           |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_WVALID           |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_WREADY           |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_WDATA            |  out|   32|       m_axi|           history|       pointer|
+|m_axi_history_0_WSTRB            |  out|    4|       m_axi|           history|       pointer|
+|m_axi_history_0_WLAST            |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_WID              |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_WUSER            |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_ARVALID          |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_ARREADY          |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_ARADDR           |  out|   64|       m_axi|           history|       pointer|
+|m_axi_history_0_ARID             |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_ARLEN            |  out|   32|       m_axi|           history|       pointer|
+|m_axi_history_0_ARSIZE           |  out|    3|       m_axi|           history|       pointer|
+|m_axi_history_0_ARBURST          |  out|    2|       m_axi|           history|       pointer|
+|m_axi_history_0_ARLOCK           |  out|    2|       m_axi|           history|       pointer|
+|m_axi_history_0_ARCACHE          |  out|    4|       m_axi|           history|       pointer|
+|m_axi_history_0_ARPROT           |  out|    3|       m_axi|           history|       pointer|
+|m_axi_history_0_ARQOS            |  out|    4|       m_axi|           history|       pointer|
+|m_axi_history_0_ARREGION         |  out|    4|       m_axi|           history|       pointer|
+|m_axi_history_0_ARUSER           |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_RVALID           |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_RREADY           |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_RDATA            |   in|   32|       m_axi|           history|       pointer|
+|m_axi_history_0_RLAST            |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_RID              |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_RFIFONUM         |   in|   11|       m_axi|           history|       pointer|
+|m_axi_history_0_RUSER            |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_RRESP            |   in|    2|       m_axi|           history|       pointer|
+|m_axi_history_0_BVALID           |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_BREADY           |  out|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_BRESP            |   in|    2|       m_axi|           history|       pointer|
+|m_axi_history_0_BID              |   in|    1|       m_axi|           history|       pointer|
+|m_axi_history_0_BUSER            |   in|    1|       m_axi|           history|       pointer|
+|background                       |   in|   64|     ap_none|        background|        scalar|
+|m_axi_previous_frame_0_AWVALID   |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWREADY   |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWADDR    |  out|   64|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWID      |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWLEN     |  out|   32|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWSIZE    |  out|    3|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWBURST   |  out|    2|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWLOCK    |  out|    2|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWCACHE   |  out|    4|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWPROT    |  out|    3|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWQOS     |  out|    4|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWREGION  |  out|    4|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_AWUSER    |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_WVALID    |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_WREADY    |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_WDATA     |  out|   32|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_WSTRB     |  out|    4|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_WLAST     |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_WID       |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_WUSER     |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARVALID   |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARREADY   |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARADDR    |  out|   64|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARID      |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARLEN     |  out|   32|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARSIZE    |  out|    3|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARBURST   |  out|    2|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARLOCK    |  out|    2|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARCACHE   |  out|    4|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARPROT    |  out|    3|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARQOS     |  out|    4|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARREGION  |  out|    4|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_ARUSER    |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_RVALID    |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_RREADY    |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_RDATA     |   in|   32|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_RLAST     |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_RID       |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_RFIFONUM  |   in|   11|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_RUSER     |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_RRESP     |   in|    2|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_BVALID    |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_BREADY    |  out|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_BRESP     |   in|    2|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_BID       |   in|    1|       m_axi|    previous_frame|       pointer|
+|m_axi_previous_frame_0_BUSER     |   in|    1|       m_axi|    previous_frame|       pointer|
+|previous                         |   in|   64|     ap_none|          previous|        scalar|
+|m_axi_pixel_state_0_AWVALID      |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWREADY      |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWADDR       |  out|   64|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWID         |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWLEN        |  out|   32|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWSIZE       |  out|    3|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWBURST      |  out|    2|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWLOCK       |  out|    2|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWCACHE      |  out|    4|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWPROT       |  out|    3|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWQOS        |  out|    4|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWREGION     |  out|    4|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_AWUSER       |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_WVALID       |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_WREADY       |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_WDATA        |  out|   32|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_WSTRB        |  out|    4|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_WLAST        |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_WID          |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_WUSER        |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARVALID      |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARREADY      |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARADDR       |  out|   64|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARID         |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARLEN        |  out|   32|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARSIZE       |  out|    3|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARBURST      |  out|    2|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARLOCK       |  out|    2|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARCACHE      |  out|    4|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARPROT       |  out|    3|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARQOS        |  out|    4|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARREGION     |  out|    4|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_ARUSER       |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_RVALID       |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_RREADY       |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_RDATA        |   in|   32|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_RLAST        |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_RID          |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_RFIFONUM     |   in|   11|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_RUSER        |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_RRESP        |   in|    2|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_BVALID       |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_BREADY       |  out|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_BRESP        |   in|    2|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_BID          |   in|    1|       m_axi|       pixel_state|       pointer|
+|m_axi_pixel_state_0_BUSER        |   in|    1|       m_axi|       pixel_state|       pointer|
+|pixel_quiet                      |   in|   64|     ap_none|       pixel_quiet|        scalar|
+|m_axi_block_memory_0_AWVALID     |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWREADY     |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWADDR      |  out|   64|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWID        |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWLEN       |  out|   32|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWSIZE      |  out|    3|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWBURST     |  out|    2|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWLOCK      |  out|    2|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWCACHE     |  out|    4|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWPROT      |  out|    3|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWQOS       |  out|    4|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWREGION    |  out|    4|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_AWUSER      |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_WVALID      |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_WREADY      |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_WDATA       |  out|   32|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_WSTRB       |  out|    4|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_WLAST       |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_WID         |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_WUSER       |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARVALID     |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARREADY     |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARADDR      |  out|   64|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARID        |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARLEN       |  out|   32|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARSIZE      |  out|    3|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARBURST     |  out|    2|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARLOCK      |  out|    2|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARCACHE     |  out|    4|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARPROT      |  out|    3|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARQOS       |  out|    4|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARREGION    |  out|    4|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_ARUSER      |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_RVALID      |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_RREADY      |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_RDATA       |   in|   32|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_RLAST       |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_RID         |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_RFIFONUM    |   in|    9|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_RUSER       |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_RRESP       |   in|    2|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_BVALID      |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_BREADY      |  out|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_BRESP       |   in|    2|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_BID         |   in|    1|       m_axi|      block_memory|       pointer|
+|m_axi_block_memory_0_BUSER       |   in|    1|       m_axi|      block_memory|       pointer|
+|block_state                      |   in|   64|     ap_none|       block_state|        scalar|
+|width                            |   in|   32|     ap_none|             width|        scalar|
+|height                           |   in|   32|     ap_none|            height|        scalar|
+|count                            |   in|   32|     ap_none|             count|        scalar|
+|stable_r                         |   in|   32|     ap_none|          stable_r|        scalar|
++---------------------------------+-----+-----+------------+------------------+--------------+
+

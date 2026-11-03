@@ -1,0 +1,55 @@
+{
+  "source": "scene_vote_fabric/board_scene_quantize.cpp",
+  "source_sha256": "043cc2e51ed2408fd6842f1c393e7b41b382937410a46ead3466ce5992dac0dc",
+  "candidate_sha256": "01ece45d998e22bb5ae674983ae760fe2d66ee9ec18d731c6b2fe6e714617bd3",
+  "change": "Only replace six-neighbor conditional tally with prefix validity + fabric addition trees; retain original thresholds, span and conflict tests; no frequency or II change.",
+  "state": "IMPLEMENTED_TIMING_FAIL",
+  "checked_at": "2026-10-27T17:21:27.447579+08:00",
+  "files_sha256": {
+    "scene_count_tree\\board_scene_quantize.cpp": "01ece45d998e22bb5ae674983ae760fe2d66ee9ec18d731c6b2fe6e714617bd3",
+    "scene_count_tree\\ray_tally.h": "20f6b4e3ed1fe91938c1c03e3ac915dd5d78d40122a807fdf428398e4b75f6f4",
+    "scene_count_tree\\test_ray_tally.cpp": "f2267e0f2735118588dd91fb9f448e019001c84251cc8329b18c72ca972efce1",
+    "scene_count_tree\\tally_test.log": "d8e946319fdc3f1b6585921083d761f8a3c5025a13234e9ae194c0307b8870e6",
+    "scene_count_tree_20261027.log": "dbaef743b58af45bc428c195034fca5378e0db55a5f6fcb2c671e6f3d45cbc1c",
+    "scene_count_tree_cosim_20261027.log": "9f6b9310d8b4918301e09553e738143aa00910a5a1b1985889f163435d88fd99",
+    "sc1\\s\\impl\\ip\\component.xml": "4c7a9c4daf6153c57c9db1ab431819200edfe6a28aec57fa39b7725d68ac8c33"
+  },
+  "validation": {
+    "native": "531441 label-class combinations + 100000 seeded byte-label cases",
+    "original_csim": "PASS",
+    "original_verilog_cosim": "PASS, 9 transactions, 160x33 test",
+    "static_ip_contract_vs_sf1": "PASS, no selected metadata differences",
+    "board": "NOT_RUN",
+    "limits": "No full 1080p RTL coverage or formal equivalence claim.",
+    "system_post_route": {
+      "WNS_ns": -0.219,
+      "TNS_ns": -84.981,
+      "setup_failing_endpoints": 624.0,
+      "setup_total_endpoints": 315618.0,
+      "WHS_ns": 0.01,
+      "THS_ns": 0.0,
+      "hold_failing_endpoints": 0.0,
+      "hold_total_endpoints": 315545.0,
+      "WPWS_ns": 0.164,
+      "TPWS_ns": 0.0,
+      "pulse_failing_endpoints": 0.0,
+      "pulse_total_endpoints": 103599.0,
+      "coverage_checks": {
+        "no_clock": 0,
+        "constant_clock": 0,
+        "pulse_width_clock": 0,
+        "unconstrained_internal_endpoints": 0,
+        "no_input_delay": 4,
+        "no_output_delay": 2,
+        "multiple_clock": 0,
+        "generated_clocks": 0,
+        "loops": 0,
+        "partial_input_delay": 0,
+        "partial_output_delay": 0,
+        "latch_loops": 0
+      },
+      "status": "FAIL",
+      "sha256": "fd8e5bba5a840cfe6d6745e6433dba9049c15fa5e709f9adf528798aef6d4869"
+    }
+  }
+}

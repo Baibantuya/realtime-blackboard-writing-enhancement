@@ -1,0 +1,142 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                       | Instructions | Description                                                                            |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                            |   7,811      | After all functions are compiled and linked into a single design                       |
+|               |                            |              |                                                                                        |
+| Unroll/Inline |                            |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                 | 136,465 *    | user unroll pragmas are applied                                                        |
+|               | (2) simplification         |  14,353      | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                 |  14,001      | user inline pragmas are applied                                                        |
+|               | (4) simplification         |  13,988      | simplification of applied user inline pragmas                                          |
+|               |                            |              |                                                                                        |
+| Array/Struct  |                            |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition        |  14,555      | user array partition pragmas are applied                                               |
+|               | (2) simplification         |  12,438      | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate |  12,438      | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape          |  12,438      | apply array reshape pragmas                                                            |
+|               | (5) access patterns        |  12,509      | array access pattern optmizations                                                      |
+|               |                            |              |                                                                                        |
+| Performance   |                            |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification    |  12,520      | loop and instruction simplification                                                    |
+|               | (2) parallelization        |  12,470      | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition        |  12,459      | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification         |  12,459      | simplification of design after performance transformations                             |
+|               |                            |              |                                                                                        |
+| HW Transforms |                            |              | After hardware transfomations                                                          |
+|               | (1) lowering               |  12,193      | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations          |  12,182      | high level synthesis optimizations                                                     |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+    * - Exceeded design size warning message threshold
+
+* Instructions per Function for each Compilation Phase
++---------------------------------------+------------------------------+-----------------+------------------+------------------+------------------+------------------+
+| Function                              | Location                     | Compile/Link    | Unroll/Inline    | Array/Struct     | Performance      | HW Transforms    |
++---------------------------------------+------------------------------+-----------------+------------------+------------------+------------------+------------------+
+| + board_scene_quantize                | board_scene_quantize.cpp:687 | 7,811           | 13,988           | 12,509           | 12,459           | 12,182           |
+|  + render                             | board_scene_quantize.cpp:652 | 7,745           | 13,926           | 12,442           | 12,392           | 12,095           |
+|     read_inputs                       | board_scene_quantize.cpp:465 |  129            |   120            |   129            |   132            |   156            |
+|   + scan                              | board_scene_quantize.cpp:511 | 6,818           | 13,298           | 11,796           | 11,748           | 11,392           |
+|      wb_swap565                       | rgb565.h:12                  |   12            |                  |                  |                  |                  |
+|    + dark_material                    | board_scene_quantize.cpp:73  |  214            |                  |                  |                  |                  |
+|     + channel                         | board_scene_quantize.cpp:33  |  168 (6 calls)  |                  |                  |                  |                  |
+|        wb_expand565                   | rgb565.h:5                   |  132 (6 calls)  |                  |                  |                  |                  |
+|       maximum                         | board_scene_quantize.cpp:25  |   24 (4 calls)  |                  |                  |                  |                  |
+|    + channel                          | board_scene_quantize.cpp:33  |   84 (3 calls)  |                  |                  |                  |                  |
+|       wb_expand565                    | rgb565.h:5                   |   66 (3 calls)  |                  |                  |                  |                  |
+|      maximum                          | board_scene_quantize.cpp:25  |   18 (3 calls)  |                  |                  |                  |                  |
+|    + residual                         | board_scene_quantize.cpp:64  |   87            |                  |                  |                  |                  |
+|     + channel                         | board_scene_quantize.cpp:33  |   56 (2 calls)  |                  |                  |                  |                  |
+|        wb_expand565                   | rgb565.h:5                   |   44 (2 calls)  |                  |                  |                  |                  |
+|       absolute                        | board_scene_quantize.cpp:29  |    7            |                  |                  |                  |                  |
+|       maximum                         | board_scene_quantize.cpp:25  |    6            |                  |                  |                  |                  |
+|    + pigment                          | board_scene_quantize.cpp:126 |  897            |                  |                  |                  |                  |
+|     + color_chroma                    | board_scene_quantize.cpp:101 |  895            |                  |                  |                  |                  |
+|      + residual                       | board_scene_quantize.cpp:64  |   87            |                  |                  |                  |                  |
+|       + channel                       | board_scene_quantize.cpp:33  |   56 (2 calls)  |                  |                  |                  |                  |
+|          wb_expand565                 | rgb565.h:5                   |   44 (2 calls)  |                  |                  |                  |                  |
+|         absolute                      | board_scene_quantize.cpp:29  |    7            |                  |                  |                  |                  |
+|         maximum                       | board_scene_quantize.cpp:25  |    6            |                  |                  |                  |                  |
+|      + neutral                        | board_scene_quantize.cpp:81  |  361            |                  |                  |                  |                  |
+|       + channel                       | board_scene_quantize.cpp:33  |   84 (3 calls)  |                  |                  |                  |                  |
+|          wb_expand565                 | rgb565.h:5                   |   66 (3 calls)  |                  |                  |                  |                  |
+|         maximum                       | board_scene_quantize.cpp:25  |   18 (3 calls)  |                  |                  |                  |                  |
+|       + dark_material                 | board_scene_quantize.cpp:73  |  214            |                  |                  |                  |                  |
+|        + channel                      | board_scene_quantize.cpp:33  |  168 (6 calls)  |                  |                  |                  |                  |
+|           wb_expand565                | rgb565.h:5                   |  132 (6 calls)  |                  |                  |                  |                  |
+|          maximum                      | board_scene_quantize.cpp:25  |   24 (4 calls)  |                  |                  |                  |                  |
+|      + channel                        | board_scene_quantize.cpp:33  |  112 (4 calls)  |                  |                  |                  |                  |
+|         wb_expand565                  | rgb565.h:5                   |   88 (4 calls)  |                  |                  |                  |                  |
+|      + dark_material                  | board_scene_quantize.cpp:73  |  214            |                  |                  |                  |                  |
+|       + channel                       | board_scene_quantize.cpp:33  |  168 (6 calls)  |                  |                  |                  |                  |
+|          wb_expand565                 | rgb565.h:5                   |  132 (6 calls)  |                  |                  |                  |                  |
+|         maximum                       | board_scene_quantize.cpp:25  |   24 (4 calls)  |                  |                  |                  |                  |
+|        maximum                        | board_scene_quantize.cpp:25  |   24 (4 calls)  |                  |                  |                  |                  |
+|        absolute                       | board_scene_quantize.cpp:29  |    7            |                  |                  |                  |                  |
+|    + stroke                           | board_scene_quantize.cpp:176 | 5,160           |                  |                  |                  |                  |
+|     + dark_material                   | board_scene_quantize.cpp:73  |  214            |                  |                  |                  |                  |
+|      + channel                        | board_scene_quantize.cpp:33  |  168 (6 calls)  |                  |                  |                  |                  |
+|         wb_expand565                  | rgb565.h:5                   |  132 (6 calls)  |                  |                  |                  |                  |
+|        maximum                        | board_scene_quantize.cpp:25  |   24 (4 calls)  |                  |                  |                  |                  |
+|     + channel                         | board_scene_quantize.cpp:33  |  700 (25 calls) |                  |                  |                  |                  |
+|        wb_expand565                   | rgb565.h:5                   |  550 (25 calls) |                  |                  |                  |                  |
+|       balanced_sum<unsigned short,... | board_scene_quantize.cpp:40  |   40            |                  |                  |                  |                  |
+|       maximum                         | board_scene_quantize.cpp:25  |  120 (20 calls) |                  |                  |                  |                  |
+|     + pigment                         | board_scene_quantize.cpp:126 | 1,794 (2 calls) |                  |                  |                  |                  |
+|      + color_chroma                   | board_scene_quantize.cpp:101 | 1,790 (2 calls) |                  |                  |                  |                  |
+|       + residual                      | board_scene_quantize.cpp:64  |  174 (2 calls)  |                  |                  |                  |                  |
+|        + channel                      | board_scene_quantize.cpp:33  |  112 (4 calls)  |                  |                  |                  |                  |
+|           wb_expand565                | rgb565.h:5                   |   88 (4 calls)  |                  |                  |                  |                  |
+|          absolute                     | board_scene_quantize.cpp:29  |   14 (2 calls)  |                  |                  |                  |                  |
+|          maximum                      | board_scene_quantize.cpp:25  |   12 (2 calls)  |                  |                  |                  |                  |
+|       + neutral                       | board_scene_quantize.cpp:81  |  722 (2 calls)  |                  |                  |                  |                  |
+|        + channel                      | board_scene_quantize.cpp:33  |  168 (6 calls)  |                  |                  |                  |                  |
+|           wb_expand565                | rgb565.h:5                   |  132 (6 calls)  |                  |                  |                  |                  |
+|          maximum                      | board_scene_quantize.cpp:25  |   36 (6 calls)  |                  |                  |                  |                  |
+|        + dark_material                | board_scene_quantize.cpp:73  |  428 (2 calls)  |                  |                  |                  |                  |
+|         + channel                     | board_scene_quantize.cpp:33  |  336 (12 calls) |                  |                  |                  |                  |
+|            wb_expand565               | rgb565.h:5                   |  264 (12 calls) |                  |                  |                  |                  |
+|           maximum                     | board_scene_quantize.cpp:25  |   48 (8 calls)  |                  |                  |                  |                  |
+|       + channel                       | board_scene_quantize.cpp:33  |  224 (8 calls)  |                  |                  |                  |                  |
+|          wb_expand565                 | rgb565.h:5                   |  176 (8 calls)  |                  |                  |                  |                  |
+|       + dark_material                 | board_scene_quantize.cpp:73  |  428 (2 calls)  |                  |                  |                  |                  |
+|        + channel                      | board_scene_quantize.cpp:33  |  336 (12 calls) |                  |                  |                  |                  |
+|           wb_expand565                | rgb565.h:5                   |  264 (12 calls) |                  |                  |                  |                  |
+|          maximum                      | board_scene_quantize.cpp:25  |   48 (8 calls)  |                  |                  |                  |                  |
+|         maximum                       | board_scene_quantize.cpp:25  |   48 (8 calls)  |                  |                  |                  |                  |
+|         absolute                      | board_scene_quantize.cpp:29  |   14 (2 calls)  |                  |                  |                  |                  |
+|     + residual                        | board_scene_quantize.cpp:64  |  261 (3 calls)  |                  |                  |                  |                  |
+|      + channel                        | board_scene_quantize.cpp:33  |  168 (6 calls)  |                  |                  |                  |                  |
+|         wb_expand565                  | rgb565.h:5                   |  132 (6 calls)  |                  |                  |                  |                  |
+|        absolute                       | board_scene_quantize.cpp:29  |   21 (3 calls)  |                  |                  |                  |                  |
+|        maximum                        | board_scene_quantize.cpp:25  |   18 (3 calls)  |                  |                  |                  |                  |
+|       absolute                        | board_scene_quantize.cpp:29  |   35 (5 calls)  |                  |                  |                  |                  |
+|     + soft_hue                        | board_scene_quantize.cpp:91  |  438 (3 calls)  |                  |                  |                  |                  |
+|      + channel                        | board_scene_quantize.cpp:33  |  252 (9 calls)  |                  |                  |                  |                  |
+|         wb_expand565                  | rgb565.h:5                   |  198 (9 calls)  |                  |                  |                  |                  |
+|        maximum                        | board_scene_quantize.cpp:25  |   36 (6 calls)  |                  |                  |                  |                  |
+|       balanced_sum<unsigned char, ... | board_scene_quantize.cpp:40  |   40            |                  |                  |                  |                  |
+|     + ray_tally                       | ray_tally.h:22               |  239            |                  |                  |                  |                  |
+|        sum8                           | ray_tally.h:7                |   80 (2 calls)  |                  |                  |                  |                  |
+|      wb_expand565                     | rgb565.h:5                   |                 | 1,554 (74 calls) | 1,554 (74 calls) | 1,554 (74 calls) | 1,554 (74 calls) |
+|   + apply_verdicts                    | board_scene_quantize.cpp:602 |  651            |   411            |   416            |   408            |   424            |
+|      color_vote_next                  | board_scene_quantize.cpp:143 |   44            |                  |                  |                  |                  |
+|    + palette                          | board_scene_quantize.cpp:130 |  360 (3 calls)  |                  |                  |                  |                  |
+|       wb_pack565                      | rgb565.h:9                   |  180 (18 calls) |                  |                  |                  |                  |
+|       wb_swap565                      | rgb565.h:12                  |   36 (3 calls)  |                  |                  |                  |                  |
+|      wb_pack565                       | rgb565.h:9                   |                 |   180 (18 calls) |   180 (18 calls) |   180 (18 calls) |   180 (18 calls) |
+|     write_outputs                     | board_scene_quantize.cpp:496 |   88            |    68            |    72            |    75            |    92            |
++---------------------------------------+------------------------------+-----------------+------------------+------------------+------------------+------------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

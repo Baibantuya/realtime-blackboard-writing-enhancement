@@ -1,0 +1,12 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xillinx/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_ae -s ae_check 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+ERROR: [XSIM 43-4099] "W:/local6/ae/rtl/axis_ae_status.v" Line 7. Module axis_ae_status(FRAME_PIXELS=64) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps

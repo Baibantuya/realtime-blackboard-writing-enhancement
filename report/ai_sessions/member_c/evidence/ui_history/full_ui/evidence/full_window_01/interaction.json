@@ -1,0 +1,169 @@
+{
+  "scope": "WSLg real LVGL + recorded video; identity-geometry/control fixture; no PL or KV260",
+  "sequence": 392,
+  "record_calls": 1,
+  "actions": [
+    {
+      "id": 1,
+      "action": 3,
+      "applied": true,
+      "epoch": 2
+    },
+    {
+      "id": 2,
+      "action": 2,
+      "applied": true,
+      "epoch": 2
+    }
+  ],
+  "captures": [
+    {
+      "name": "expanded",
+      "state": [
+        2,
+        6,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        24,
+        6,
+        16,
+        3,
+        0
+      ],
+      "panel": 0,
+      "history": false
+    },
+    {
+      "name": "record_confirmation",
+      "state": [
+        2,
+        17,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        24,
+        6,
+        16,
+        3,
+        0
+      ],
+      "panel": 1,
+      "history": false
+    },
+    {
+      "name": "recorded",
+      "state": [
+        2,
+        35,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        24,
+        6,
+        16,
+        3,
+        0
+      ],
+      "panel": 0,
+      "history": false
+    },
+    {
+      "name": "recovery_on",
+      "state": [
+        2,
+        52,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        24,
+        6,
+        16,
+        3,
+        0
+      ],
+      "panel": 0,
+      "history": false
+    },
+    {
+      "name": "history_page",
+      "state": [
+        2,
+        69,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        24,
+        6,
+        16,
+        3,
+        0
+      ],
+      "panel": 0,
+      "history": true
+    },
+    {
+      "name": "live_again",
+      "state": [
+        2,
+        87,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        24,
+        6,
+        16,
+        3,
+        0
+      ],
+      "panel": 0,
+      "history": false
+    },
+    {
+      "name": "collapsed",
+      "state": [
+        2,
+        104,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        24,
+        6,
+        16,
+        3,
+        0
+      ],
+      "panel": 0,
+      "history": false
+    }
+  ],
+  "window_keys": []
+}

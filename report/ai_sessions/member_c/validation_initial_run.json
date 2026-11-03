@@ -1,0 +1,171 @@
+{
+  "status": "initial_check_failed_then_corrected",
+  "cause": "The API labels visible final messages final_answer; the initial validator only allowed final. No message content or role was changed.",
+  "failed_checks": [
+    {
+      "check": "visible_message_mapping",
+      "passed": false,
+      "cases": [
+        {
+          "case": "session_01_detection",
+          "messages": 18,
+          "turns": 2
+        },
+        {
+          "case": "session_02_model_selection",
+          "messages": 40,
+          "turns": 5
+        },
+        {
+          "case": "session_03_rgb565",
+          "messages": 31,
+          "turns": 3
+        },
+        {
+          "case": "user_01_ui_linux",
+          "messages": 41,
+          "turns": 4
+        },
+        {
+          "case": "user_02_ui_guidance",
+          "messages": 19,
+          "turns": 5
+        },
+        {
+          "case": "user_03_ui_pipeline",
+          "messages": 33,
+          "turns": 5
+        }
+      ],
+      "total_messages": 182,
+      "total_selected_turns": 24,
+      "errors": [
+        {
+          "case": "session_01_detection",
+          "id": "M11",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_01_detection",
+          "id": "M18",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_02_model_selection",
+          "id": "M04",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_02_model_selection",
+          "id": "M12",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_02_model_selection",
+          "id": "M22",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_02_model_selection",
+          "id": "M40",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_03_rgb565",
+          "id": "M12",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_03_rgb565",
+          "id": "M21",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_03_rgb565",
+          "id": "M23",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "session_03_rgb565",
+          "id": "M31",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_01_ui_linux",
+          "id": "U12",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_01_ui_linux",
+          "id": "U23",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_01_ui_linux",
+          "id": "U35",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_01_ui_linux",
+          "id": "U41",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_02_ui_guidance",
+          "id": "U05",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_02_ui_guidance",
+          "id": "U08",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_02_ui_guidance",
+          "id": "U11",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_02_ui_guidance",
+          "id": "U16",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_02_ui_guidance",
+          "id": "U19",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_03_ui_pipeline",
+          "id": "U07",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_03_ui_pipeline",
+          "id": "U15",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_03_ui_pipeline",
+          "id": "U18",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_03_ui_pipeline",
+          "id": "U21",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_03_ui_pipeline",
+          "id": "U30",
+          "reason": "unexpected role/phase"
+        },
+        {
+          "case": "user_03_ui_pipeline",
+          "id": "U33",
+          "reason": "unexpected role/phase"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-27T17:21:27.346990+08:00",
+  "scope": "Native installed Vivado 2025.2, one AE OOC synthesis, process-local XILINX_LOCAL_USER_DATA=no; no private UTF-8 overlay.",
+  "exit_code": -1073740940,
+  "status": "FAIL_PROCESS_TERMINATION",
+  "observed": "Elaborated axis_ae_status and submodules, then process terminated; no completion marker or checkpoint.",
+  "limits": "Does not reproduce or disprove the parallel Tcl startup race. The environment variable alone did not complete this native Windows synthesis probe."
+}

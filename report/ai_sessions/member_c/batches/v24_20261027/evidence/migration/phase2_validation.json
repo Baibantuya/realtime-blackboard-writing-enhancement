@@ -1,0 +1,2061 @@
+{
+  "checked_at": "2026-10-27T17:22:45.887756+08:00",
+  "limits": "Report evidence only. No bitstream or board verification. A completed tool flow is not timing/CDC signoff.",
+  "implementations": {
+    "impl1": {
+      "stages": "stage\tresult\ttime\r\nopen\tRUNNING\t2026-10-27T13:45:45\r\nopen\tCOMPLETE\t2026-10-27T13:47:00\r\nopt\tRUNNING\t2026-10-27T13:47:02\r\nopt\tCOMPLETE\t2026-10-27T13:49:39\r\nplace\tRUNNING\t2026-10-27T13:50:34\r\nplace\tCOMPLETE\t2026-10-27T14:03:45\r\nphys_opt\tRUNNING\t2026-10-27T14:04:30\r\nphys_opt\tCOMPLETE\t2026-10-27T14:14:46\r\nroute\tRUNNING\t2026-10-27T14:15:08\r\nroute\tCOMPLETE\t2026-10-27T14:23:47\r\nreports\tCOMPLETE\t2026-10-27T14:25:45\r\n",
+      "post_place": {
+        "WNS_ns": -1.508,
+        "TNS_ns": -390.629,
+        "setup_failing_endpoints": 893.0,
+        "setup_total_endpoints": 332951.0,
+        "WHS_ns": -0.144,
+        "THS_ns": -32.071,
+        "hold_failing_endpoints": 1396.0,
+        "hold_total_endpoints": 332900.0,
+        "WPWS_ns": 0.164,
+        "TPWS_ns": 0.0,
+        "pulse_failing_endpoints": 0.0,
+        "pulse_total_endpoints": 108175.0,
+        "coverage_checks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 4,
+          "no_output_delay": 2,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        },
+        "status": "FAIL",
+        "sha256": "b372a8dda0d7938a8dc365f48d8005fffc4bcda02ceea50d524a7dd9416ed1f2"
+      },
+      "post_route": {
+        "WNS_ns": -1.014,
+        "TNS_ns": -1014.192,
+        "setup_failing_endpoints": 4143.0,
+        "setup_total_endpoints": 332886.0,
+        "WHS_ns": 0.01,
+        "THS_ns": 0.0,
+        "hold_failing_endpoints": 0.0,
+        "hold_total_endpoints": 332835.0,
+        "WPWS_ns": 0.164,
+        "TPWS_ns": 0.0,
+        "pulse_failing_endpoints": 0.0,
+        "pulse_total_endpoints": 108358.0,
+        "coverage_checks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 4,
+          "no_output_delay": 2,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        },
+        "status": "FAIL",
+        "sha256": "038d38907a0b68d5e9d9c93ecc3fc432a33b1b84f1603516960e00f81c7c5ea1"
+      },
+      "cdc_summary": [
+        "CDC-3   Info         85  1-bit synchronized with ASYNC_REG property",
+        "CDC-6   Warning       2  Multi-bit synchronized with ASYNC_REG property",
+        "CDC-9   Info          3  Asynchronous reset synchronized with ASYNC_REG property",
+        "CDC-15  Warning      68  Clock enable controlled CDC structure detected"
+      ],
+      "worst_setup_paths": [
+        {
+          "slack_ns": "-1.014",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_248/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_545_5_fu_419/add_9ns_9ns_9_1_1_U742/board_scene_quantize_add_9ns_9ns_9_1_1_AddSub_DSP_9_U/s/DSP_C_DATA_INST/CLK\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_248/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_545_5_fu_419/ap_phi_reg_pp0_iter50_center_pigment_1_reg_4638_reg[0]/D\r",
+          "data_path_delay": "5.869ns  (logic 2.972ns (50.635%)  route 2.897ns (49.365%))\r",
+          "logic_levels": "13  (CARRY8=1 DSP_ALU=1 DSP_OUTPUT=1 LUT3=2 LUT4=2 LUT5=1 LUT6=5)\r"
+        },
+        {
+          "slack_ns": "-1.014",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_248/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_545_5_fu_419/add_9ns_9ns_9_1_1_U742/board_scene_quantize_add_9ns_9ns_9_1_1_AddSub_DSP_9_U/s/DSP_C_DATA_INST/CLK\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_248/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_545_5_fu_419/ap_phi_reg_pp0_iter50_center_pigment_1_reg_4638_reg[2]/D\r",
+          "data_path_delay": "5.869ns  (logic 2.972ns (50.635%)  route 2.897ns (49.365%))\r",
+          "logic_levels": "13  (CARRY8=1 DSP_ALU=1 DSP_OUTPUT=1 LUT3=2 LUT4=2 LUT5=1 LUT6=5)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[10]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[11]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[12]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[13]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[14]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[15]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[16]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[17]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[18]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[19]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[20]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[21]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[22]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[23]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[24]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[25]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[26]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[27]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[28]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[29]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[30]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[31]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[32]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[33]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[34]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[35]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[36]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        },
+        {
+          "slack_ns": "-1.003",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/add_ln95_17_reg_2612_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_988/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_3_VITIS_LOOP_74_4_fu_97/mac_mul_sub_8ns_6ns_14ns_15_4_1_U257/whiteboard_restore_mac_mul_sub_8ns_6ns_14ns_15_4_1_DSP48_4_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[37]\r",
+          "data_path_delay": "5.836ns  (logic 3.638ns (62.335%)  route 2.198ns (37.665%))\r",
+          "logic_levels": "11  (CARRY8=2 DSP_A_B_DATA=1 DSP_ALU=3 DSP_C_DATA=1 DSP_OUTPUT=2 LUT3=1 LUT4=1)\r"
+        }
+      ],
+      "route_status": "Design Route Status\n                                               :      # nets :\n   ------------------------------------------- : ----------- :\n   # of logical nets.......................... :     1145286 :\n       # of nets not needing routing.......... :      980128 :\n           # of internally routed nets........ :      813372 :\n           # of nets with no loads............ :      166756 :\n       # of routable nets..................... :      165158 :\n           # of fully routed nets............. :      165158 :\n       # of nets with routing errors.......... :           0 :\n   ------------------------------------------- : ----------- :\n\n",
+      "utilization": {
+        "CLB LUTs": {
+          "used": 77895.0,
+          "available": 117120.0,
+          "percent": 66.51
+        },
+        "CLB Registers": {
+          "used": 93744.0,
+          "available": 234240.0,
+          "percent": 40.02
+        },
+        "CLB": {
+          "used": 14376.0,
+          "available": 14640.0,
+          "percent": 98.2
+        },
+        "Unique Control Sets": {
+          "used": 4941.0,
+          "available": 29280.0,
+          "percent": 16.88
+        },
+        "DSPs": {
+          "used": 1145.0,
+          "available": 1248.0,
+          "percent": 91.75
+        },
+        "Block RAM Tile": {
+          "used": 84.0,
+          "available": 144.0,
+          "percent": 58.33
+        },
+        "URAM": {
+          "used": 50.0,
+          "available": 64.0,
+          "percent": 78.13
+        }
+      },
+      "drc_rules": [
+        {
+          "rule": "DPIP-2",
+          "severity": "Warning",
+          "count": 722
+        },
+        {
+          "rule": "DPOP-3",
+          "severity": "Warning",
+          "count": 748
+        },
+        {
+          "rule": "DPOP-4",
+          "severity": "Warning",
+          "count": 103
+        },
+        {
+          "rule": "DPREG-7",
+          "severity": "Warning",
+          "count": 19
+        },
+        {
+          "rule": "PDCN-1569",
+          "severity": "Warning",
+          "count": 3
+        },
+        {
+          "rule": "RTSTAT-10",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "AVAL-155",
+          "severity": "Advisory",
+          "count": 26
+        },
+        {
+          "rule": "AVAL-156",
+          "severity": "Advisory",
+          "count": 6
+        },
+        {
+          "rule": "REQP-1669",
+          "severity": "Advisory",
+          "count": 30
+        },
+        {
+          "rule": "REQP-1673",
+          "severity": "Advisory",
+          "count": 30
+        },
+        {
+          "rule": "REQP-1678",
+          "severity": "Advisory",
+          "count": 30
+        }
+      ],
+      "methodology_rules": [
+        {
+          "rule": "LUTAR-1",
+          "severity": "Warning",
+          "count": 4
+        },
+        {
+          "rule": "TIMING-9",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "TIMING-16",
+          "severity": "Warning",
+          "count": 43
+        },
+        {
+          "rule": "TIMING-24",
+          "severity": "Warning",
+          "count": 5
+        },
+        {
+          "rule": "TIMING-28",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "ULMTCS-2",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "CLKC-56",
+          "severity": "Advisory",
+          "count": 1
+        },
+        {
+          "rule": "CLKC-58",
+          "severity": "Advisory",
+          "count": 1
+        }
+      ]
+    },
+    "impl2": {
+      "stages": "stage\tresult\ttime\r\nopen\tRUNNING\t2026-10-27T15:30:21\r\nopen\tCOMPLETE\t2026-10-27T15:31:28\r\nconstraints\tRUNNING\t2026-10-27T15:31:29\r\nconstraints\tCOMPLETE\t2026-10-27T15:32:08\r\nopt\tRUNNING\t2026-10-27T15:32:08\r\nopt\tCOMPLETE\t2026-10-27T15:34:15\r\nplace\tRUNNING\t2026-10-27T15:34:57\r\nplace\tCOMPLETE\t2026-10-27T15:50:02\r\nphys_opt\tRUNNING\t2026-10-27T15:50:41\r\nphys_opt\tCOMPLETE\t2026-10-27T15:54:39\r\nroute\tRUNNING\t2026-10-27T15:54:55\r\nroute\tCOMPLETE\t2026-10-27T15:59:46\r\nreports\tCOMPLETE\t2026-10-27T16:01:44\r\n",
+      "post_place": {
+        "WNS_ns": -2.229,
+        "TNS_ns": -770.263,
+        "setup_failing_endpoints": 1005.0,
+        "setup_total_endpoints": 315489.0,
+        "WHS_ns": -0.133,
+        "THS_ns": -39.801,
+        "hold_failing_endpoints": 1670.0,
+        "hold_total_endpoints": 315416.0,
+        "WPWS_ns": 0.164,
+        "TPWS_ns": 0.0,
+        "pulse_failing_endpoints": 0.0,
+        "pulse_total_endpoints": 103075.0,
+        "coverage_checks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 4,
+          "no_output_delay": 2,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        },
+        "status": "FAIL",
+        "sha256": "b15c07072a5df4e8ca22ceef8b308734c2f331984d83041881a7547dcf56026e"
+      },
+      "post_route": {
+        "WNS_ns": -1.411,
+        "TNS_ns": -1201.115,
+        "setup_failing_endpoints": 2961.0,
+        "setup_total_endpoints": 315527.0,
+        "WHS_ns": 0.008,
+        "THS_ns": 0.0,
+        "hold_failing_endpoints": 0.0,
+        "hold_total_endpoints": 315454.0,
+        "WPWS_ns": 0.164,
+        "TPWS_ns": 0.0,
+        "pulse_failing_endpoints": 0.0,
+        "pulse_total_endpoints": 103157.0,
+        "coverage_checks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 4,
+          "no_output_delay": 2,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        },
+        "status": "FAIL",
+        "sha256": "207cfa7b6dbb31c7736f86acb65771b933472007c54c948f6d13e52452e74288"
+      },
+      "cdc_summary": [
+        "CDC-3   Info         85  1-bit synchronized with ASYNC_REG property",
+        "CDC-6   Warning       2  Multi-bit synchronized with ASYNC_REG property",
+        "CDC-9   Info          3  Asynchronous reset synchronized with ASYNC_REG property",
+        "CDC-15  Warning      68  Clock enable controlled CDC structure detected"
+      ],
+      "worst_setup_paths": [
+        {
+          "slack_ns": "-1.411",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_29_reg_68130_reg[0]/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_117_reg_68526_reg[1]/D\r",
+          "data_path_delay": "6.547ns  (logic 4.665ns (71.249%)  route 1.882ns (28.751%))\r",
+          "logic_levels": "16  (DSP_ALU=4 DSP_C_DATA=4 DSP_OUTPUT=4 LUT3=2 LUT5=2)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[0]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[10]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[11]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[12]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[13]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[14]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[15]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[16]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[17]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[18]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[19]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[1]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[20]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[21]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[22]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[23]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[24]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[25]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[26]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[27]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[28]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[29]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[2]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[30]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[31]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[32]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[33]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[34]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        },
+        {
+          "slack_ns": "-1.408",
+          "source": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/label_2_reg_2552_pp0_iter24_reg_reg[1]_replica_2/C\r",
+          "destination": "design_1_i/board_quantize_rgb_0/inst/grp_p_anonymous_namespace_render_fu_256/p_anonymous_namespace_scan_U0/grp_p_anonymous_namespace_scan_Pipeline_VITIS_LOOP_553_5_fu_380/count_98_reg_68506_reg/DSP_OUTPUT_INST/ALU_OUT[35]\r",
+          "data_path_delay": "6.196ns  (logic 4.403ns (71.067%)  route 1.793ns (28.933%))\r",
+          "logic_levels": "14  (DSP_ALU=4 DSP_C_DATA=3 DSP_OUTPUT=3 LUT2=1 LUT5=2 LUT6=1)\r"
+        }
+      ],
+      "route_status": "Design Route Status\n                                               :      # nets :\n   ------------------------------------------- : ----------- :\n   # of logical nets.......................... :     1092386 :\n       # of nets not needing routing.......... :      933948 :\n           # of internally routed nets........ :      774605 :\n           # of nets with no loads............ :      159343 :\n       # of routable nets..................... :      158438 :\n           # of fully routed nets............. :      158438 :\n       # of nets with routing errors.......... :           0 :\n   ------------------------------------------- : ----------- :\n\n",
+      "utilization": {
+        "CLB LUTs": {
+          "used": 73514.0,
+          "available": 117120.0,
+          "percent": 62.77
+        },
+        "CLB Registers": {
+          "used": 89926.0,
+          "available": 234240.0,
+          "percent": 38.39
+        },
+        "CLB": {
+          "used": 14192.0,
+          "available": 14640.0,
+          "percent": 96.94
+        },
+        "Unique Control Sets": {
+          "used": 4040.0,
+          "available": 29280.0,
+          "percent": 13.8
+        },
+        "DSPs": {
+          "used": 1098.0,
+          "available": 1248.0,
+          "percent": 87.98
+        },
+        "Block RAM Tile": {
+          "used": 81.5,
+          "available": 144.0,
+          "percent": 56.6
+        },
+        "URAM": {
+          "used": 50.0,
+          "available": 64.0,
+          "percent": 78.13
+        }
+      },
+      "drc_rules": [
+        {
+          "rule": "DPIP-2",
+          "severity": "Warning",
+          "count": 681
+        },
+        {
+          "rule": "DPOP-3",
+          "severity": "Warning",
+          "count": 755
+        },
+        {
+          "rule": "DPOP-4",
+          "severity": "Warning",
+          "count": 114
+        },
+        {
+          "rule": "DPREG-7",
+          "severity": "Warning",
+          "count": 20
+        },
+        {
+          "rule": "PDCN-1569",
+          "severity": "Warning",
+          "count": 3
+        },
+        {
+          "rule": "RTSTAT-10",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "AVAL-155",
+          "severity": "Advisory",
+          "count": 26
+        },
+        {
+          "rule": "AVAL-156",
+          "severity": "Advisory",
+          "count": 6
+        },
+        {
+          "rule": "REQP-1669",
+          "severity": "Advisory",
+          "count": 26
+        },
+        {
+          "rule": "REQP-1673",
+          "severity": "Advisory",
+          "count": 26
+        },
+        {
+          "rule": "REQP-1678",
+          "severity": "Advisory",
+          "count": 26
+        }
+      ],
+      "methodology_rules": [
+        {
+          "rule": "LUTAR-1",
+          "severity": "Warning",
+          "count": 4
+        },
+        {
+          "rule": "TIMING-9",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "TIMING-16",
+          "severity": "Warning",
+          "count": 216
+        },
+        {
+          "rule": "ULMTCS-1",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "CLKC-56",
+          "severity": "Advisory",
+          "count": 1
+        },
+        {
+          "rule": "CLKC-58",
+          "severity": "Advisory",
+          "count": 1
+        }
+      ]
+    },
+    "impl3": {
+      "stages": "stage\tresult\ttime\r\nopen\tRUNNING\t2026-10-27T16:45:28\r\nopen\tCOMPLETE\t2026-10-27T16:46:41\r\nconstraints\tRUNNING\t2026-10-27T16:46:43\r\nconstraints\tCOMPLETE\t2026-10-27T16:47:22\r\nopt\tRUNNING\t2026-10-27T16:47:22\r\nopt\tCOMPLETE\t2026-10-27T16:49:56\r\nplace\tRUNNING\t2026-10-27T16:50:36\r\nplace\tCOMPLETE\t2026-10-27T17:00:25\r\nphys_opt\tRUNNING\t2026-10-27T17:01:08\r\nphys_opt\tCOMPLETE\t2026-10-27T17:05:50\r\nroute\tRUNNING\t2026-10-27T17:06:13\r\nroute\tCOMPLETE\t2026-10-27T17:11:48\r\nreports\tCOMPLETE\t2026-10-27T17:13:34\r\n",
+      "post_place": {
+        "WNS_ns": -0.59,
+        "TNS_ns": -206.245,
+        "setup_failing_endpoints": 557.0,
+        "setup_total_endpoints": 315578.0,
+        "WHS_ns": -0.145,
+        "THS_ns": -40.657,
+        "hold_failing_endpoints": 1753.0,
+        "hold_total_endpoints": 315505.0,
+        "WPWS_ns": 0.164,
+        "TPWS_ns": 0.0,
+        "pulse_failing_endpoints": 0.0,
+        "pulse_total_endpoints": 103393.0,
+        "coverage_checks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 4,
+          "no_output_delay": 2,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        },
+        "status": "FAIL",
+        "sha256": "b9feb0307446a66b192916533fee420fb241f211beacd1bbb753c003553ea3ac"
+      },
+      "post_route": {
+        "WNS_ns": -0.219,
+        "TNS_ns": -84.981,
+        "setup_failing_endpoints": 624.0,
+        "setup_total_endpoints": 315618.0,
+        "WHS_ns": 0.01,
+        "THS_ns": 0.0,
+        "hold_failing_endpoints": 0.0,
+        "hold_total_endpoints": 315545.0,
+        "WPWS_ns": 0.164,
+        "TPWS_ns": 0.0,
+        "pulse_failing_endpoints": 0.0,
+        "pulse_total_endpoints": 103599.0,
+        "coverage_checks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 4,
+          "no_output_delay": 2,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        },
+        "status": "FAIL",
+        "sha256": "fd8e5bba5a840cfe6d6745e6433dba9049c15fa5e709f9adf528798aef6d4869"
+      },
+      "cdc_summary": [
+        "CDC-3   Info         85  1-bit synchronized with ASYNC_REG property",
+        "CDC-6   Warning       2  Multi-bit synchronized with ASYNC_REG property",
+        "CDC-9   Info          3  Asynchronous reset synchronized with ASYNC_REG property",
+        "CDC-15  Warning      68  Clock enable controlled CDC structure detected"
+      ],
+      "worst_setup_paths": [
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[0]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[10]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[11]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[12]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[13]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[14]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[15]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[16]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[17]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[18]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[19]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[1]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[20]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[21]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[22]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[23]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[24]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[25]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[26]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[27]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[28]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[29]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[2]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[30]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[31]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[32]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[33]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[34]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[35]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        },
+        {
+          "slack_ns": "-0.219",
+          "source": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/win_fu_64_reg[3]/C\r",
+          "destination": "design_1_i/whiteboard_restore_0/inst/grp_render_frame_fu_738/local_ink_U0/grp_local_ink_Pipeline_VITIS_LOOP_74_4_fu_290/sub_ln95_21_reg_2212_reg/DSP_OUTPUT_INST/ALU_OUT[36]\r",
+          "data_path_delay": "5.288ns  (logic 4.775ns (90.299%)  route 0.513ns (9.701%))\r",
+          "logic_levels": "11  (DSP_A_B_DATA=1 DSP_ALU=5 DSP_OUTPUT=4 LUT2=1)\r"
+        }
+      ],
+      "route_status": "Design Route Status\n                                               :      # nets :\n   ------------------------------------------- : ----------- :\n   # of logical nets.......................... :      985926 :\n       # of nets not needing routing.......... :      827798 :\n           # of internally routed nets........ :      689425 :\n           # of nets with no loads............ :      138373 :\n       # of routable nets..................... :      158128 :\n           # of fully routed nets............. :      158128 :\n       # of nets with routing errors.......... :           0 :\n   ------------------------------------------- : ----------- :\n\n",
+      "utilization": {
+        "CLB LUTs": {
+          "used": 73513.0,
+          "available": 117120.0,
+          "percent": 62.77
+        },
+        "CLB Registers": {
+          "used": 90422.0,
+          "available": 234240.0,
+          "percent": 38.6
+        },
+        "CLB": {
+          "used": 13833.0,
+          "available": 14640.0,
+          "percent": 94.49
+        },
+        "Unique Control Sets": {
+          "used": 4113.0,
+          "available": 29280.0,
+          "percent": 14.05
+        },
+        "DSPs": {
+          "used": 964.0,
+          "available": 1248.0,
+          "percent": 77.24
+        },
+        "Block RAM Tile": {
+          "used": 81.5,
+          "available": 144.0,
+          "percent": 56.6
+        },
+        "URAM": {
+          "used": 50.0,
+          "available": 64.0,
+          "percent": 78.13
+        }
+      },
+      "drc_rules": [
+        {
+          "rule": "DPIP-2",
+          "severity": "Warning",
+          "count": 589
+        },
+        {
+          "rule": "DPOP-3",
+          "severity": "Warning",
+          "count": 645
+        },
+        {
+          "rule": "DPOP-4",
+          "severity": "Warning",
+          "count": 111
+        },
+        {
+          "rule": "DPREG-7",
+          "severity": "Warning",
+          "count": 23
+        },
+        {
+          "rule": "PDCN-1569",
+          "severity": "Warning",
+          "count": 3
+        },
+        {
+          "rule": "RTSTAT-10",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "AVAL-155",
+          "severity": "Advisory",
+          "count": 26
+        },
+        {
+          "rule": "AVAL-156",
+          "severity": "Advisory",
+          "count": 6
+        },
+        {
+          "rule": "REQP-1669",
+          "severity": "Advisory",
+          "count": 26
+        },
+        {
+          "rule": "REQP-1673",
+          "severity": "Advisory",
+          "count": 26
+        },
+        {
+          "rule": "REQP-1678",
+          "severity": "Advisory",
+          "count": 26
+        },
+        {
+          "rule": "REQP-1680",
+          "severity": "Advisory",
+          "count": 3
+        }
+      ],
+      "methodology_rules": [
+        {
+          "rule": "LUTAR-1",
+          "severity": "Warning",
+          "count": 4
+        },
+        {
+          "rule": "TIMING-9",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "ULMTCS-1",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "rule": "CLKC-56",
+          "severity": "Advisory",
+          "count": 1
+        },
+        {
+          "rule": "CLKC-58",
+          "severity": "Advisory",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "hls": {
+    "rh1": {
+      "csim_pass": true,
+      "cosim_pass": true,
+      "errors": [],
+      "log_sha256": "3431b12a69b7b576da923bc1332b7b3e92b5936e57930650b4f9932d4ca4eef7",
+      "ip_export_exists": true,
+      "csynth_estimates": {
+        "BRAM_18K": "99",
+        "DSP": "211",
+        "FF": "24305",
+        "LUT": "34952",
+        "URAM": "35"
+      },
+      "estimated_period_ns": "3.650",
+      "cosim_report": "Report time       : Tue Oct 27 14:31:39     2026.\r\nSolution          : s.\r\nSimulation tool   : xsim.\r\n\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n|          |          |             Latency(Clock Cycles)             |              Interval(Clock Cycles)           | Total Execution Time |\r\n+   RTL    +  Status  +-----------------------------------------------+-----------------------------------------------+    (Clock Cycles)    +\r\n|          |          |      min      |      avg      |      max      |      min      |      avg      |      max      |                      |\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n|      VHDL|        NA|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|\r\n|   Verilog|      Pass|              4|          10857|          11278|             53|          10978|          11313|               1339388|\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n"
+    },
+    "sf1": {
+      "csim_pass": true,
+      "cosim_pass": true,
+      "errors": [
+        "ERROR: Please check the snapshot name which is created during 'xelab',the current snapshot name \"xsim.dir/board_scene_quantize/xsimk.exe\" does not exist ",
+        "ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***"
+      ],
+      "log_sha256": "43eafb52f9b613b1b999c6d6560163afa786716b98d8bac3028abc8bb2da0853",
+      "ip_export_exists": true,
+      "initial_cosim_interruption": "xelab was intentionally stopped due to system commit memory below 1 GB; exit 1 retained in sf1_interrupted. Not a demonstrated functional mismatch.",
+      "retry_log_sha256": "4208e5f7b157f4745dba629ecd37864829ae04b49116a386039db4ef29609e10",
+      "csynth_estimates": {
+        "BRAM_18K": "4",
+        "DSP": "785",
+        "FF": "48897",
+        "LUT": "72199",
+        "URAM": "6"
+      },
+      "estimated_period_ns": "4.510",
+      "cosim_report": "Report time       : Tue Oct 27 14:40:09     2026.\r\nSolution          : s.\r\nSimulation tool   : xsim.\r\n\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n|          |          |             Latency(Clock Cycles)             |              Interval(Clock Cycles)           | Total Execution Time |\r\n+   RTL    +  Status  +-----------------------------------------------+-----------------------------------------------+    (Clock Cycles)    +\r\n|          |          |      min      |      avg      |      max      |      min      |      avg      |      max      |                      |\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n|      VHDL|        NA|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|\r\n|   Verilog|      Pass|              4|           7910|           9007|             39|           7806|           9042|                 71457|\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n"
+    },
+    "sc1": {
+      "csim_pass": true,
+      "cosim_pass": true,
+      "errors": [],
+      "log_sha256": "dbaef743b58af45bc428c195034fca5378e0db55a5f6fcb2c671e6f3d45cbc1c",
+      "ip_export_exists": true,
+      "tally_test_log": "PASS: 531441 exhaustive label-class cases + 100000 seeded byte-label cases\n",
+      "contract_check": "PASS_STATIC_METADATA",
+      "cosim_log_sha256": "9f6b9310d8b4918301e09553e738143aa00910a5a1b1985889f163435d88fd99",
+      "csynth_estimates": {
+        "BRAM_18K": "4",
+        "DSP": "649",
+        "FF": "49154",
+        "LUT": "73472",
+        "URAM": "6"
+      },
+      "estimated_period_ns": "4.510",
+      "cosim_report": "Report time       : Tue Oct 27 16:23:58     2026.\r\nSolution          : s.\r\nSimulation tool   : xsim.\r\n\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n|          |          |             Latency(Clock Cycles)             |              Interval(Clock Cycles)           | Total Execution Time |\r\n+   RTL    +  Status  +-----------------------------------------------+-----------------------------------------------+    (Clock Cycles)    +\r\n|          |          |      min      |      avg      |      max      |      min      |      avg      |      max      |                      |\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n|      VHDL|        NA|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|\r\n|   Verilog|      Pass|              4|           7910|           9007|             39|           7806|           9042|                 71457|\r\n+----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+\r\n"
+    }
+  },
+  "artifacts": {
+    "phase2_notes_20261027.md": {
+      "exists": true,
+      "sha256": "273612ebbfd78bd7c783557abea750a565bf5159d0d8a4137c6c3f33fde3f549"
+    },
+    "cdc_review_packet_20261027.md": {
+      "exists": true,
+      "sha256": "11a2fcafdc147b0fe05b7c0a65b9504c2084f29c8a3f61ff74daa40c7c0a1648"
+    },
+    "clock_review_buffered_20261027.tcl": {
+      "exists": true,
+      "sha256": "70fa982bc392c2ff909f641b53b008f697a92e545c1a0cc2dc4df1290f2a27eb"
+    },
+    "cr2/corrected_synth.dcp": {
+      "exists": true,
+      "sha256": "2cb558a7fbf9024efc0e3b58aff91697526dbf422a6b7b362812fc09e3aff872"
+    },
+    "restore_inferred/manifest.json": {
+      "exists": true,
+      "sha256": "bdb2771e93f4f814c2477b33b2935afccddddf251ce69013973e8edba2d68a74"
+    },
+    "scene_vote_fabric/manifest.json": {
+      "exists": true,
+      "sha256": "6456dee59e8ee726e942bfd02d0f382ce722eb89e6df38efe81ca582ede7112c"
+    },
+    "mipi_leaf2/cdc_all_checks.rpt": {
+      "exists": true,
+      "sha256": "ea859f7c4481d1a4ad3f65305c4406bc5b8273c32105b8f9389ef6f2696ec3ff"
+    },
+    "candidate2_system.tcl": {
+      "exists": true,
+      "sha256": "08f6dafc2022663bacc1de0f9a89723a12d0c45f6cda90289e0d46a1ca757275"
+    },
+    "candidate3_system.tcl": {
+      "exists": true,
+      "sha256": "e33edb2b3d7bced746205253ff5837c911aa8cb89c785723e736bc210f68fd3f"
+    },
+    "implement_candidate3_20261027.tcl": {
+      "exists": true,
+      "sha256": "524a6402e985fa878521b1d64fe7dc7aa8df410635ff84a9f985e50f8fbcccf2"
+    },
+    "timing_research_20261027.md": {
+      "exists": true,
+      "sha256": "0bedcf19861f10d165f2fde1d0ece2b11a6f5b3850d6decbb70fd801c5d024ef"
+    },
+    "scene_count_tree/manifest.json": {
+      "exists": true,
+      "sha256": "842a83d8bae36e1f234b339bdb427d2ee6b378e5e4d51224e9129002c0082a72"
+    },
+    "scene_count_tree/board_scene_quantize.cpp": {
+      "exists": true,
+      "sha256": "01ece45d998e22bb5ae674983ae760fe2d66ee9ec18d731c6b2fe6e714617bd3"
+    },
+    "scene_count_tree/ray_tally.h": {
+      "exists": true,
+      "sha256": "20f6b4e3ed1fe91938c1c03e3ac915dd5d78d40122a807fdf428398e4b75f6f4"
+    },
+    "scene_count_tree/test_ray_tally.cpp": {
+      "exists": true,
+      "sha256": "f2267e0f2735118588dd91fb9f448e019001c84251cc8329b18c72ca972efce1"
+    },
+    "scene_count_tree_contract_diff.json": {
+      "exists": true,
+      "sha256": "0eb426132719282cf430292c2e8078759e96b592a9459869a7d85e42ddaa170c"
+    },
+    "impl1\\bus_skew.rpt": {
+      "exists": true,
+      "sha256": "eee2d68d957cf2a5bb2dcfb040b62cb91d804d16bdcbe46c7b546eafe0945e93"
+    },
+    "impl1\\cdc.rpt": {
+      "exists": true,
+      "sha256": "204a17da228b8d4cdbc092d05dc5c653efd01d7cd598d414534d4a554f59c5dd"
+    },
+    "impl1\\clocks.rpt": {
+      "exists": true,
+      "sha256": "4b31fbeb561e8f5f9d4ad081425f160a4a4860a03a4d37da875eb05bf6bac5fc"
+    },
+    "impl1\\drc.rpt": {
+      "exists": true,
+      "sha256": "73d283e81659023562562ee27e609e8dff9f83589cd994e1e0348a8c514f1ca5"
+    },
+    "impl1\\hold30.rpt": {
+      "exists": true,
+      "sha256": "8b6eaea6f4201947d05eb920f89eb173928147d0957337f567b0d9b2b05e2419"
+    },
+    "impl1\\interactions.rpt": {
+      "exists": true,
+      "sha256": "34ce33f20cc3dfbd9e471594675efb62367e0db9df213fb14d017299f38fea67"
+    },
+    "impl1\\methodology.rpt": {
+      "exists": true,
+      "sha256": "a23a8189f63f28b1553644cd92992d1f6cab7be42208281e59931307053d522b"
+    },
+    "impl1\\optimized.dcp": {
+      "exists": true,
+      "sha256": "d8c590482c0f7ef45d69c33b95458b5a18c7dbf5422944d01c09b369e1614018"
+    },
+    "impl1\\physopt.dcp": {
+      "exists": true,
+      "sha256": "7f14ef97108daf80a5309516d270f27ebf710e92451c6d0374d528a186c82b02"
+    },
+    "impl1\\placed.dcp": {
+      "exists": true,
+      "sha256": "597c43789986065bc46e264ce4961d85367775af15b5b027de230b9cb5705f25"
+    },
+    "impl1\\post_opt_drc.rpt": {
+      "exists": true,
+      "sha256": "f4ef363ab3b568091936a7589ad2de7d05c61736b2f5fc840c1cf341fb3d73b8"
+    },
+    "impl1\\post_place_timing.rpt": {
+      "exists": true,
+      "sha256": "b372a8dda0d7938a8dc365f48d8005fffc4bcda02ceea50d524a7dd9416ed1f2"
+    },
+    "impl1\\routed.dcp": {
+      "exists": true,
+      "sha256": "0af78114ed0a350e9c348fc4711564914e537c9f6fd6944923963b83a82f28d5"
+    },
+    "impl1\\route_status.rpt": {
+      "exists": true,
+      "sha256": "65e768c8337316fed5cde79a3ae65e70787b67a0b3d5bb6eb3072520ff69794e"
+    },
+    "impl1\\setup30.rpt": {
+      "exists": true,
+      "sha256": "10afa3a9880f8e0e42b8fdfc6161c30fce2bb5947f994b27406042c87cf8b62e"
+    },
+    "impl1\\stages.tsv": {
+      "exists": true,
+      "sha256": "b71fcdf9f07be06dba267fc3d751ff9a6d63f204dbb985c95df405b951032e11"
+    },
+    "impl1\\timing.rpt": {
+      "exists": true,
+      "sha256": "038d38907a0b68d5e9d9c93ecc3fc432a33b1b84f1603516960e00f81c7c5ea1"
+    },
+    "impl1\\timing_constraints.xdc": {
+      "exists": true,
+      "sha256": "8ea37479413b982513b5959e3a25cb2238ea30d7c552236babb31a282ab7b751"
+    },
+    "impl1\\utilization.rpt": {
+      "exists": true,
+      "sha256": "29a91f269b1684887f6d3a3116c4a1666d2f9731969df92184afc16d12b0fd15"
+    },
+    "impl2\\before_implementation_clocks.rpt": {
+      "exists": true,
+      "sha256": "119ffd1c9fcec636e7c3df83c5c841ecffbb8c9699c1c8518dd8fb6d41c002ab"
+    },
+    "impl2\\bus_skew.rpt": {
+      "exists": true,
+      "sha256": "9723a462c7bfb6b186ca5955ef675d21f06d5431d0aa2ef8f050eef30f326e1f"
+    },
+    "impl2\\cdc.rpt": {
+      "exists": true,
+      "sha256": "39dfd4fd30462817c98ba4e082d86e3fbaf266ad6dc2e3a2adbe4308462204a3"
+    },
+    "impl2\\clocks.rpt": {
+      "exists": true,
+      "sha256": "630737086fc6d0634dd012ab9df4723d38c4f8515b46e8bb47437605af9787b3"
+    },
+    "impl2\\control_sets.rpt": {
+      "exists": true,
+      "sha256": "dcd2184e9a9d833d3bdbaacfcf8947c5daebb9eb1c92085a9ee1694164eb591a"
+    },
+    "impl2\\drc.rpt": {
+      "exists": true,
+      "sha256": "953de21117659420da35d580b3c7a63b56a183d1e5055d2fe82e2ac6c6166dfa"
+    },
+    "impl2\\hold30.rpt": {
+      "exists": true,
+      "sha256": "3604eb7cc05d6a3008b3a39e0800aa2bfc675fa71628472c09bfe4eebc395804"
+    },
+    "impl2\\interactions.rpt": {
+      "exists": true,
+      "sha256": "5d20d184b4ffed60e7ba182952b087a2625cabf004d17014dc8f6c9a786bebd7"
+    },
+    "impl2\\methodology.rpt": {
+      "exists": true,
+      "sha256": "8191109ebf6cc0ee41b3bd7ffb1d11d0c7349f60b3574c6fa53946d7b0f671c0"
+    },
+    "impl2\\optimized.dcp": {
+      "exists": true,
+      "sha256": "e2e8f995ef405e483f9f8f4879a5dff658bb6357ddf6898f88c90f2c6f472731"
+    },
+    "impl2\\physopt.dcp": {
+      "exists": true,
+      "sha256": "9a79dc7ddb64ddae940fced31a913abc588fb3d828d6b491c799d55d02c94362"
+    },
+    "impl2\\placed.dcp": {
+      "exists": true,
+      "sha256": "07a84352cf7192e76be4c4d82e3f16bf980637c20a6ae894569c962682799985"
+    },
+    "impl2\\post_opt_drc.rpt": {
+      "exists": true,
+      "sha256": "cc79e0314c9db40bde6cfe030dc1b77acc05cb1ff29cddaf421ba9aeb5823e42"
+    },
+    "impl2\\post_place_timing.rpt": {
+      "exists": true,
+      "sha256": "b15c07072a5df4e8ca22ceef8b308734c2f331984d83041881a7547dcf56026e"
+    },
+    "impl2\\routed.dcp": {
+      "exists": true,
+      "sha256": "44c547d40506857677c6e8acfb654fdfd755995cc82fab043f84bc0c39e2603e"
+    },
+    "impl2\\route_status.rpt": {
+      "exists": true,
+      "sha256": "0ab98866719eead1a072643912f4d14e6afa848245ced76cc854f67f97d4de39"
+    },
+    "impl2\\setup30.rpt": {
+      "exists": true,
+      "sha256": "33af6a62d8a26ead1ef48b01e14dc0c475f1d12906234aced10484385e0917ac"
+    },
+    "impl2\\stages.tsv": {
+      "exists": true,
+      "sha256": "87fdd25aaa74ba1823e730dfbfa3dd081e066cb7bfddd7e1cd925a1720f1368e"
+    },
+    "impl2\\timing.rpt": {
+      "exists": true,
+      "sha256": "207cfa7b6dbb31c7736f86acb65771b933472007c54c948f6d13e52452e74288"
+    },
+    "impl2\\timing_constraints.xdc": {
+      "exists": true,
+      "sha256": "79fbbd21990c0dd867d922400d7f82ad8f900d539bf4216ecdbfb0b29daf2402"
+    },
+    "impl2\\utilization.rpt": {
+      "exists": true,
+      "sha256": "d31a2964e12b043e0254c0094d2a071fad901cacad4333a7029b689247ee0d4d"
+    },
+    "impl2\\utilization_hierarchy.rpt": {
+      "exists": true,
+      "sha256": "8dfaf26e7c6dbfd022d78d58f76c3c2e2f5891ec210acbad9454fe688ec91958"
+    },
+    "impl3\\before_implementation_clocks.rpt": {
+      "exists": true,
+      "sha256": "8ce9fecd85d72dd1d16722d0ea11cbe0e4813cd125856eff59f0ba08672101bf"
+    },
+    "impl3\\bus_skew.rpt": {
+      "exists": true,
+      "sha256": "3d4ec6124af21e561d27b43ceeeddc832ada36a7553c6f281c06f9df0469a8b9"
+    },
+    "impl3\\cdc.rpt": {
+      "exists": true,
+      "sha256": "993a7a68ac2a6a014d0308745ebbcbf27526f412cd943348ad7bf28417b34a9e"
+    },
+    "impl3\\clocks.rpt": {
+      "exists": true,
+      "sha256": "daca5b135507e5da3b2f33853692f6df5df4a24922b80fe830f45469a79e14ea"
+    },
+    "impl3\\control_sets.rpt": {
+      "exists": true,
+      "sha256": "bb70140effaa2537c868def89b1b410ab5cc7ae6d8bbc5db57797f9d04ff8c88"
+    },
+    "impl3\\drc.rpt": {
+      "exists": true,
+      "sha256": "a428b7e5b361f1a134eb8b1b8b4606a0c7f8cfccfcee0e85a9480160b6088fd9"
+    },
+    "impl3\\hold30.rpt": {
+      "exists": true,
+      "sha256": "dee487c6bf13694c13caf2284c2fb49767c023bae5aa4e04217fd1b5b5ff66b0"
+    },
+    "impl3\\interactions.rpt": {
+      "exists": true,
+      "sha256": "b32cad05807387b9b5a24602d12350e9c23f93c9a836f62e1c756b10f6ea6697"
+    },
+    "impl3\\methodology.rpt": {
+      "exists": true,
+      "sha256": "0ffb5dcb5e9776b86a796dfc1dfa71217df5e0d7965164232611f7e0afdf4d55"
+    },
+    "impl3\\optimized.dcp": {
+      "exists": true,
+      "sha256": "865bc220aa2f1da62fc9147fac62426fc3989b346f16e14d1c897a3402a4c2fa"
+    },
+    "impl3\\physopt.dcp": {
+      "exists": true,
+      "sha256": "d601d063900fec78b8f4efa80459dcee2710a80cf72350d525f54280da47d9c9"
+    },
+    "impl3\\placed.dcp": {
+      "exists": true,
+      "sha256": "83eab4808c490eca4e5fdc15169c1b3661a849a665cfa66f9b53f740d95b429b"
+    },
+    "impl3\\post_opt_drc.rpt": {
+      "exists": true,
+      "sha256": "d8c6090cbf6de0f432def5b4a64691d7754f95aa79cef1a8dc1118d8e7b472b7"
+    },
+    "impl3\\post_place_timing.rpt": {
+      "exists": true,
+      "sha256": "b9feb0307446a66b192916533fee420fb241f211beacd1bbb753c003553ea3ac"
+    },
+    "impl3\\routed.dcp": {
+      "exists": true,
+      "sha256": "634eba89e4028aa6c19ff2458f13d116999ff3804e792105484e6b100a1ff038"
+    },
+    "impl3\\route_status.rpt": {
+      "exists": true,
+      "sha256": "4e01587e51bf9fb3cd4ebf7e2a2fbca5d8ec0895838839f8e28ba311316db2ce"
+    },
+    "impl3\\setup30.rpt": {
+      "exists": true,
+      "sha256": "9ed1a6c9209e335363e02cb92603e0f0ea26ac4c95f4bf81729f31dc6dd9fd91"
+    },
+    "impl3\\stages.tsv": {
+      "exists": true,
+      "sha256": "b463fd23409c7337ae271a64a6943e9a8d61bceb835eed7bfb732c855c22aaa4"
+    },
+    "impl3\\timing.rpt": {
+      "exists": true,
+      "sha256": "fd8e5bba5a840cfe6d6745e6433dba9049c15fa5e709f9adf528798aef6d4869"
+    },
+    "impl3\\timing_constraints.xdc": {
+      "exists": true,
+      "sha256": "9cb5695d86e355c639c90280779b3ede9a2e3bec3b5dcabf11aa38b15b170d9d"
+    },
+    "impl3\\utilization.rpt": {
+      "exists": true,
+      "sha256": "3ab79bdbad3c12a748d7864952af0004d75d8c7a30a23031d27b8fada677899c"
+    },
+    "impl3\\utilization_hierarchy.rpt": {
+      "exists": true,
+      "sha256": "f75d4575b75acbe8d82386933a96e918edf0eae98f256a9af80c924c0e7f2207"
+    },
+    "c2\\reports\\cdc.rpt": {
+      "exists": true,
+      "sha256": "c6133d630321d4e0744834a31511a98f478c8e1b63854c6bd7024ff15c826d82"
+    },
+    "c2\\reports\\clocks.rpt": {
+      "exists": true,
+      "sha256": "fcab91044d2f85c980f0dc5739d3e54512bed451f6e01efa03e68aa5ae350086"
+    },
+    "c2\\reports\\drc.rpt": {
+      "exists": true,
+      "sha256": "022c5b68ed1d0daf63efd30ae80df98c4195bc7acec48797b9fdd02bf89ee04b"
+    },
+    "c2\\reports\\ip_status.rpt": {
+      "exists": true,
+      "sha256": "ec8e6c60e4f7d0e1655fc8df9bb182ee3e52ca8c8e13fc721bb6807e7a475318"
+    },
+    "c2\\reports\\run_status.tsv": {
+      "exists": true,
+      "sha256": "1543b60de92fec7114feac51c30445b69dc77b6f90aa4705a25e2dddb6f64078"
+    },
+    "c2\\reports\\run_status_retry.tsv": {
+      "exists": true,
+      "sha256": "65d7898886cc4a44578ea70e1312a356ad0aa5a0ffdc3ecf2bc6d5ee531ee516"
+    },
+    "c2\\reports\\synthesized.dcp": {
+      "exists": true,
+      "sha256": "ebc5423716a404f400dfb1cc1aa0982d83709020c048e5386de1afb669dd0780"
+    },
+    "c2\\reports\\timing.rpt": {
+      "exists": true,
+      "sha256": "f271112d54a4c303465fb900555961aa846af01e2484c6a5217f7f107ab3d8b9"
+    },
+    "c2\\reports\\utilization.rpt": {
+      "exists": true,
+      "sha256": "78d5c450f005716343cee2e8394bc5b312fe3d1695c461783dd3c89e05164461"
+    },
+    "c3\\reports\\cdc.rpt": {
+      "exists": true,
+      "sha256": "42ed1ae205e4be94eac8f0ea91e2d32ec8fb62d51864eee6360783d6767118b3"
+    },
+    "c3\\reports\\clocks.rpt": {
+      "exists": true,
+      "sha256": "759eb2a399792cdee430aa70f0c3e6a689c0741755ca81cce8df2ee954a60bdb"
+    },
+    "c3\\reports\\drc.rpt": {
+      "exists": true,
+      "sha256": "2fa89c8eea2552ba6005984a07ba797d2590c030272c420c731a58ef486b3a96"
+    },
+    "c3\\reports\\ip_status.rpt": {
+      "exists": true,
+      "sha256": "656bcd4a6c68e56c2daeecff21f423056cd8b7271c59916a50e57f08e41d21ff"
+    },
+    "c3\\reports\\run_status.tsv": {
+      "exists": true,
+      "sha256": "705db49c00e8d72c1ff0304ea85d371e2d1019b86402a5a3646e53a4f4a1b2df"
+    },
+    "c3\\reports\\synthesized.dcp": {
+      "exists": true,
+      "sha256": "7cc7f170008c15c3a5bd22b92a894ff2828597ecf22df77f4532a661e2e72128"
+    },
+    "c3\\reports\\timing.rpt": {
+      "exists": true,
+      "sha256": "ba240f06d64099f17be61b0b598b6c2268ba6e8bf49a1afe0966860847393cba"
+    },
+    "c3\\reports\\utilization.rpt": {
+      "exists": true,
+      "sha256": "e4520ca883b4e5eb70dbd6e63fcecdeeb82a160f9854dbb66fc7490200875bdf"
+    },
+    "candidate2_resume_startup.log": {
+      "exists": true,
+      "sha256": "a2451e95247f6c834477c633946cc908fbff8d06588df58d01749cf9407a8e88"
+    },
+    "candidate2_resume_top_reset.log": {
+      "exists": true,
+      "sha256": "218e7bf27b4c094281b3833b653e4e344539f84c62c2c14aa181a4bbbf06ef44"
+    },
+    "candidate2_resume_startup.tcl": {
+      "exists": true,
+      "sha256": "28ea88c780b29cd4df0186640469e37eb9cfdacd37a5aa6c61ece7d12753c633"
+    },
+    "candidate2_resume_top_reset.tcl": {
+      "exists": true,
+      "sha256": "86c71869a5dd3a55c6008127ec2b80d3136d2d80b25efd3783f05b8b1c51f97d"
+    },
+    "implement_candidate2_20261027.tcl": {
+      "exists": true,
+      "sha256": "5135419aebdfaf0095751d389dffff053a3e6bcf4a74733460b396b65b686f44"
+    },
+    "tighten_mipi_exception.tcl": {
+      "exists": true,
+      "sha256": "95d7146851e0fbe9eab010c7e44f1c25480bf04e5773b48fed7f4d892085cb6f"
+    },
+    "clock_source_jitter.xdc": {
+      "exists": true,
+      "sha256": "12718b866ce9a01e4d2e05d02cec9a5e3971f207bf9acb76de0e733cbb4a1735"
+    },
+    "candidate2_bd_diff.json": {
+      "exists": true,
+      "sha256": "b87e0abf3c2ac2b2682d0142b65e3c40c1d1012df30a8d2ef2359f5fc5b7fa1b"
+    },
+    "candidate2_hwh_diff.json": {
+      "exists": true,
+      "sha256": "565da71f7467543a85be22e81d7494a40cb1457184a81ac7b7f9c2b5266dcded"
+    },
+    "candidate2_hls_contract_diff.json": {
+      "exists": true,
+      "sha256": "430aed57fb59e7240e8252ffac75e94bfc84b781578087d3a8606baf5fb2de7c"
+    },
+    "ps_candidate/scene_registers.py": {
+      "exists": true,
+      "sha256": "e8ddc0c95bfedf353daff82483438c417dd879a684f8f45c7f19086874c267e4"
+    },
+    "candidate3_bd_diff.json": {
+      "exists": true,
+      "sha256": "4076aca53e8d28850a50840ea359e1fd0cf41f09abc0030dca963f22623fc8a9"
+    },
+    "candidate3_hwh_diff.json": {
+      "exists": true,
+      "sha256": "dc53748995122713de4cd444929eaba2ce97e949a215fcbfa9c7e87dce80a7b8"
+    },
+    "run_candidate3.ps1": {
+      "exists": true,
+      "sha256": "555107f9b1867288a100f01d92f93bfa4fc4630db2c5be277854a59f8056e638"
+    },
+    "scene_count_tree_cosim_20261027.tcl": {
+      "exists": true,
+      "sha256": "3ce52618be904873ea3ff31bedd3898fc59ca17e89c927db4faf62e58fa7548f"
+    },
+    "scene_count_tree_20261027.tcl": {
+      "exists": true,
+      "sha256": "a9e31c29faf8c0ab3c2078e015ad696f947b2492f46ba886da495f0e203d7ff6"
+    },
+    "startup_no_local_data_probe.tcl": {
+      "exists": true,
+      "sha256": "78ccee1fdafa9b568c186b1a57eaa6144a055a2137f789d9aa189e48fe2a61d6"
+    },
+    "startup_no_local_data_probe.log": {
+      "exists": true,
+      "sha256": "955828d04e77f5ec7fe02e1edc9cc3bf76242161177840a834766df23a78f676"
+    },
+    "startup_no_local_data_result.json": {
+      "exists": true,
+      "sha256": "e825edbfdb4d45917d94c9a093de980854a1b2f3686f1b01fe4d2789ac9d83db"
+    },
+    "finalize_phase2_docs.py": {
+      "exists": true,
+      "sha256": "97f3749f3d8963956c5da86fa5548c1fd06a6709d12f60e75dba788d47ea3ccb"
+    },
+    "control_set_driver_summary.json": {
+      "exists": true,
+      "sha256": "f170b2fc83fce899265e7d2414bc326598a895a1c724c565bf14e917f2e6f042"
+    },
+    "drive_cleanup.json": {
+      "exists": true,
+      "sha256": "65bc4d604369cc7045348291311d939738d8ac4add786420db0ea3310c5c5aad"
+    },
+    "check_ps_alias_candidate3.py": {
+      "exists": true,
+      "sha256": "2eab69430ea073645f95b522cf2ae7f9e69181a31fbf1a5ab42d72f6c06c9c0a"
+    },
+    "ps_candidate/validation_c3_win32.json": {
+      "exists": true,
+      "sha256": "569c7beb091693484d87f6ff993f1c018dfdb9aff5cf32f18a54c80dfc7402e1"
+    },
+    "ps_candidate/validation_c3_linux.json": {
+      "exists": true,
+      "sha256": "18228540b7d48ea844cded25d98affca1baaa4ce33acd639c9ac96da81edd761"
+    },
+    "mipi_exception_review3\\bus_skew.rpt": {
+      "exists": true,
+      "sha256": "330a81679d94d79845a34dab219be6d3191dd3a6aad78d1688e43ad9f0f29c4f"
+    },
+    "mipi_exception_review3\\cdc_all_checks.rpt": {
+      "exists": true,
+      "sha256": "3bfd6f5c3d072725cb5fcd7422b31433f592510f342c161d049103e460da393c"
+    },
+    "mipi_exception_review3\\clock_definitions_after.txt": {
+      "exists": true,
+      "sha256": "91f2c2984cb937be7da0bbbb3de84e920c53821df6f0e6cc658877c36f11b9ea"
+    },
+    "mipi_exception_review3\\clock_definitions_before.txt": {
+      "exists": true,
+      "sha256": "6e836ae0ad61346b8d6b3737f84f0dd6d52776512ce645cc87c62c3022b3bc82"
+    },
+    "mipi_exception_review3\\clock_lists.txt": {
+      "exists": true,
+      "sha256": "ac2652c11476bddd5bd08d43b3b1dd90e542808554caddaf4785db313fc9b408"
+    },
+    "mipi_exception_review3\\fifo_to_video.rpt": {
+      "exists": true,
+      "sha256": "4b4a8d56c11d138297ca869edfc7afde7f34231c93a20f2c2b6e6350cf983cb5"
+    },
+    "mipi_exception_review3\\interactions.rpt": {
+      "exists": true,
+      "sha256": "77a0c6eacd672e5fc7d942045f97f9faccb5e252cc812784416ab5452a580b01"
+    },
+    "mipi_exception_review3\\methodology.rpt": {
+      "exists": true,
+      "sha256": "ba0dd32756bfb4431ec5179f844201d4331d330898524b5c0a1bfa7148bd6941"
+    },
+    "mipi_exception_review3\\original.xdc": {
+      "exists": true,
+      "sha256": "98892b4fcdbfaf1640e1261150a876cfa7f189b03883876d05746407be2a4cf7"
+    },
+    "mipi_exception_review3\\stricter_diagnostic.xdc": {
+      "exists": true,
+      "sha256": "37c1b21ee5ea03efca956f6f16bbcf90587494b6fbd1285b00a37b5166115ed0"
+    },
+    "mipi_exception_review3\\timing.rpt": {
+      "exists": true,
+      "sha256": "dc98188cbb9adbf493dd5916a7e221b9235ac712f091d36344cb61eb07a38340"
+    },
+    "mipi_exception_review3\\video_to_fifo.rpt": {
+      "exists": true,
+      "sha256": "61b8dfa34bf1e22af2938909416acf38ca855f69b48586fd84b1890ef772d39a"
+    },
+    "impl2\\mipi_constraints\\clock_definitions_after.txt": {
+      "exists": true,
+      "sha256": "73a7e4a709a5c8a912c995413da59c8ad28b62484cd86764fae912113412abf6"
+    },
+    "impl2\\mipi_constraints\\clock_definitions_before.txt": {
+      "exists": true,
+      "sha256": "73a7e4a709a5c8a912c995413da59c8ad28b62484cd86764fae912113412abf6"
+    },
+    "impl2\\mipi_constraints\\clock_lists.txt": {
+      "exists": true,
+      "sha256": "c03e99b0527733ca5a417bb44eaae02a516499be1166a6b4939408840cf80fb8"
+    },
+    "impl2\\mipi_constraints\\original.xdc": {
+      "exists": true,
+      "sha256": "e8e025ca20cd311ab2d429493e777a43e38d83764688036dca0e7e6395f8bf7c"
+    },
+    "impl2\\mipi_constraints\\stricter_diagnostic.xdc": {
+      "exists": true,
+      "sha256": "861510a0a81181a412340890a8af9cc565b1677ff442fd1e07d9edc0435bc220"
+    },
+    "impl3\\mipi_constraints\\clock_definitions_after.txt": {
+      "exists": true,
+      "sha256": "73a7e4a709a5c8a912c995413da59c8ad28b62484cd86764fae912113412abf6"
+    },
+    "impl3\\mipi_constraints\\clock_definitions_before.txt": {
+      "exists": true,
+      "sha256": "73a7e4a709a5c8a912c995413da59c8ad28b62484cd86764fae912113412abf6"
+    },
+    "impl3\\mipi_constraints\\clock_lists.txt": {
+      "exists": true,
+      "sha256": "c03e99b0527733ca5a417bb44eaae02a516499be1166a6b4939408840cf80fb8"
+    },
+    "impl3\\mipi_constraints\\original.xdc": {
+      "exists": true,
+      "sha256": "a1005f99a058bd3ed437609bdb5f6a6f30b58cf5c520e06e07409b8f1a50a1e6"
+    },
+    "impl3\\mipi_constraints\\stricter_diagnostic.xdc": {
+      "exists": true,
+      "sha256": "162b63be131066cd76d77d4a9695fb696954c451ed5fbb35831b717bf3d1cd5f"
+    },
+    "cdc_impl_review\\optimized_all_checks.rpt": {
+      "exists": true,
+      "sha256": "24a8b07ddf728cf0be2c48a87c3cbcf790a325203005d119a719d24419066ed7"
+    },
+    "cdc_impl_review\\optimized_clocks.rpt": {
+      "exists": true,
+      "sha256": "0db82550eeffaebc32022308344f9ff7e8f8e8cb748a5adb73ad4454f90d2171"
+    },
+    "cdc_impl_review\\optimized_constraints.xdc": {
+      "exists": true,
+      "sha256": "d87281a50af16ec93487a31914e8732125915e58072382e693330367f7502ef4"
+    },
+    "cdc_impl_review\\routed_all_checks.rpt": {
+      "exists": true,
+      "sha256": "09fdec0a81a69c478c3bc56a122725def5c33b07bf8b9d404632c5d803459bda"
+    },
+    "cdc_impl_review\\routed_clocks.rpt": {
+      "exists": true,
+      "sha256": "71e9d9e303219ec28a3f7066a47fa57f693a21f876a4201c6ffce589542f7f68"
+    },
+    "cdc_impl_review\\routed_constraints.xdc": {
+      "exists": true,
+      "sha256": "f64ad2259b5aa3707d92d020aca1e7786a90904d7ea9bfbd290b6c4a5060eaf4"
+    }
+  },
+  "post_impl_cdc_all_checks": {
+    "optimized_all_checks.rpt": {
+      "summary": [
+        "CDC-3   Info         85  1-bit synchronized with ASYNC_REG property",
+        "CDC-6   Warning       2  Multi-bit synchronized with ASYNC_REG property",
+        "CDC-9   Info          3  Asynchronous reset synchronized with ASYNC_REG property",
+        "CDC-15  Warning      68  Clock enable controlled CDC structure detected"
+      ],
+      "sha256": "24a8b07ddf728cf0be2c48a87c3cbcf790a325203005d119a719d24419066ed7"
+    },
+    "routed_all_checks.rpt": {
+      "summary": [
+        "CDC-3   Info         85  1-bit synchronized with ASYNC_REG property",
+        "CDC-6   Warning       2  Multi-bit synchronized with ASYNC_REG property",
+        "CDC-9   Info          3  Asynchronous reset synchronized with ASYNC_REG property",
+        "CDC-15  Warning      68  Clock enable controlled CDC structure detected"
+      ],
+      "sha256": "09fdec0a81a69c478c3bc56a122725def5c33b07bf8b9d404632c5d803459bda"
+    }
+  },
+  "stricter_mipi_diagnostic": {
+    "scope": "impl1 routed DCP only; impl2 separately applies guarded helper before optimization",
+    "timing": {
+      "WNS_ns": -1.014,
+      "TNS_ns": -1014.192,
+      "setup_failing_endpoints": 4143.0,
+      "setup_total_endpoints": 332908.0,
+      "WHS_ns": 0.01,
+      "THS_ns": 0.0,
+      "hold_failing_endpoints": 0.0,
+      "hold_total_endpoints": 332835.0,
+      "WPWS_ns": 0.164,
+      "TPWS_ns": 0.0,
+      "pulse_failing_endpoints": 0.0,
+      "pulse_total_endpoints": 108358.0,
+      "coverage_checks": {
+        "no_clock": 0,
+        "constant_clock": 0,
+        "pulse_width_clock": 0,
+        "unconstrained_internal_endpoints": 0,
+        "no_input_delay": 4,
+        "no_output_delay": 2,
+        "multiple_clock": 0,
+        "generated_clocks": 0,
+        "loops": 0,
+        "partial_input_delay": 0,
+        "partial_output_delay": 0,
+        "latch_loops": 0
+      },
+      "status": "FAIL",
+      "sha256": "dc98188cbb9adbf493dd5916a7e221b9235ac712f091d36344cb61eb07a38340"
+    },
+    "completion_marker": true,
+    "fifo_to_video": {
+      "worst_reported_slack_ns": 7.729,
+      "sha256": "4b4a8d56c11d138297ca869edfc7afde7f34231c93a20f2c2b6e6350cf983cb5"
+    },
+    "video_to_fifo": {
+      "worst_reported_slack_ns": 4.487,
+      "sha256": "61b8dfa34bf1e22af2938909416acf38ca855f69b48586fd84b1890ef772d39a"
+    }
+  },
+  "ps_static_validation": {
+    "win32": {
+      "original_current_package": "EXPECTED_REJECTION",
+      "original_error": "Incomplete scene HWH register map",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "python": "3.9.23 (main, Jun  5 2025, 13:25:08) [MSC v.1929 64 bit (AMD64)]",
+      "executable": "D:\\2026嵌赛\\实时板书增强系统\\.venv\\Scripts\\python.exe",
+      "candidate_old_and_new_register_maps_equal": true,
+      "register_count": 20,
+      "control": {
+        "offset": 104,
+        "width": 32
+      },
+      "duplicate_alias_rejected": true,
+      "board_test": "NOT_RUN",
+      "candidate_final_hwh": {
+        "status": "PASS",
+        "instance": "board_quantize_rgb_0",
+        "base": 2147876864,
+        "length": 65536
+      }
+    },
+    "linux": {
+      "original_current_package": "EXPECTED_REJECTION",
+      "original_error": "Incomplete scene HWH register map",
+      "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+      "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "executable": "/home/ubuntu/board-system/venvs/ui/bin/python",
+      "candidate_old_and_new_register_maps_equal": true,
+      "register_count": 20,
+      "control": {
+        "offset": 104,
+        "width": 32
+      },
+      "duplicate_alias_rejected": true,
+      "board_test": "NOT_RUN",
+      "candidate_final_hwh": {
+        "status": "PASS",
+        "instance": "board_quantize_rgb_0",
+        "base": 2147876864,
+        "length": 65536
+      }
+    }
+  },
+  "candidate3_ps_static_validation": {
+    "win32": {
+      "original_current_package": "EXPECTED_REJECTION",
+      "original_error": "Incomplete scene HWH register map",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "python": "3.9.23 (main, Jun  5 2025, 13:25:08) [MSC v.1929 64 bit (AMD64)]",
+      "executable": "D:\\2026嵌赛\\实时板书增强系统\\.venv\\Scripts\\python.exe",
+      "candidate_old_and_new_register_maps_equal": true,
+      "register_count": 20,
+      "control": {
+        "offset": 104,
+        "width": 32
+      },
+      "duplicate_alias_rejected": true,
+      "board_test": "NOT_RUN",
+      "candidate_final_hwh": {
+        "status": "PASS",
+        "instance": "board_quantize_rgb_0",
+        "base": 2147876864,
+        "length": 65536
+      }
+    },
+    "linux": {
+      "original_current_package": "EXPECTED_REJECTION",
+      "original_error": "Incomplete scene HWH register map",
+      "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+      "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "executable": "/home/ubuntu/board-system/venvs/ui/bin/python",
+      "candidate_old_and_new_register_maps_equal": true,
+      "register_count": 20,
+      "control": {
+        "offset": 104,
+        "width": 32
+      },
+      "duplicate_alias_rejected": true,
+      "board_test": "NOT_RUN",
+      "candidate_final_hwh": {
+        "status": "PASS",
+        "instance": "board_quantize_rgb_0",
+        "base": 2147876864,
+        "length": 65536
+      }
+    }
+  },
+  "native_startup_probe": {
+    "checked_at": "2026-10-27T17:21:27.346990+08:00",
+    "scope": "Native installed Vivado 2025.2, one AE OOC synthesis, process-local XILINX_LOCAL_USER_DATA=no; no private UTF-8 overlay.",
+    "exit_code": -1073740940,
+    "status": "FAIL_PROCESS_TERMINATION",
+    "observed": "Elaborated axis_ae_status and submodules, then process terminated; no completion marker or checkpoint.",
+    "limits": "Does not reproduce or disprove the parallel Tcl startup race. The environment variable alone did not complete this native Windows synthesis probe."
+  },
+  "drive_cleanup": {
+    "checked_at": "2026-10-27T17:21:32.4722933+08:00",
+    "removed_alias": "W:",
+    "verified_target": "D:\\2026嵌赛\\v24_2025_2",
+    "directory_preserved": true,
+    "active_tool_count": 0
+  }
+}

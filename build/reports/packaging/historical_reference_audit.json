@@ -1,0 +1,117 @@
+{
+  "entries": [
+    {
+      "file": "report/ai_sessions/member_c/batches/v24_20261027/evidence/handoff/ai_sessions_sync.md",
+      "target": "报告模板/实时板书增强系统技术报告_v24_20261026.docx"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "手形RGB565成对训练与抓握诊断记录_20261019.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "../evidence/member_c/gesture_rgb565_replicates_20261019_01/server_results/three_seed_summary.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "../evidence/member_c/gesture_rgb565_replicates_20261019_01/server_results/replication_config.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "../evidence/member_c/gesture_rgb565_replicates_20261019_01/server_results/phone66_multiseed_native_cpu.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "实拍手形复核与数据接入说明_20261019.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/rgb565_replicates.md",
+      "target": "../evidence/member_c/gesture_rgb565_replicates_20261019_01/local_verification.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "手势公开数据适配训练方案与研究依据_20261019.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/author_detector_opencv_compatibility.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/s640_15hz_01/summary.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/author_10hz_01/summary.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/s640_15hz_01/review/manual_box_crops.jpg"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/s640_15hz_01/review/frame_000306.jpg"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/s640_15hz_01/review/frame_004856.jpg"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/cached_rate_comparison_01/comparison.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/keypoints_phone55_01/keypoints_vs_classifier.jpg"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/keypoints_phone55_01/summary.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/versioned_candidates_01/domain_aug_events.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/versioned_candidates_01/manual_box_shapes_to_annotate.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/server_results/versioned_candidates_01/event_truth_to_annotate.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "../evidence/member_c/gesture_sequence_20261019_01/public_data/IPN_quarantine_record.json"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_models/sequence_boundary.md",
+      "target": "手形旋转适配与真实素材回放记录_20261019.md"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_ui/guidance_readme.md",
+      "target": "../lvgl/fonts/OFL.txt"
+    },
+    {
+      "file": "report/ai_sessions/member_c/sources/user_ui/guidance_readme.md",
+      "target": "../../model_integration/v16_ps_ui_2hz_20261018/UI_2HZ_readme.md"
+    },
+    {
+      "file": "sim/supplemental/local7/readme.md",
+      "target": "tooling/FPGA工作流_Skill_MCP优化建议_20261029.md"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "target": "../../../赛题信息/AMD赛题.pdf"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "target": "../../工作空间/A和B发送的资料/V22/v22_ps_runtime_v2_r4_20261020.zip"
+    },
+    {
+      "file": "skill/evidence/source_inventory.md",
+      "target": "../../工作空间/A和B发送的资料/V22/HANDOFF (1"
+    }
+  ],
+  "note": "Historical source excerpts and isolated experiment references; current root entry links verified. Retained as source-history references, not claimed to be a complete offline transcript export."
+}

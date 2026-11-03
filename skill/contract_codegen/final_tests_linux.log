@@ -1,0 +1,24 @@
+test_parse_hls_header_and_generate_code (test_codegen_original.TestContractCodegen) ... ok
+test_actual_old_and_new_hwh (test_regression.RegisterContractTests) ... ok
+test_application_control_register_is_generated (test_regression.RegisterContractTests) ... ok
+test_conflicting_metadata_is_rejected (test_regression.RegisterContractTests) ... ok
+test_duplicate_offsets_are_rejected (test_regression.RegisterContractTests) ... ok
+test_duplicate_register_name_is_rejected (test_regression.RegisterContractTests) ... ok
+test_empty_or_invalid_register_name (test_regression.RegisterContractTests) ... ok
+test_exact_instance_not_substring (test_regression.RegisterContractTests) ... ok
+test_field_offsets_are_not_register_offsets (test_regression.RegisterContractTests) ... ok
+test_full_hierarchy_disambiguates (test_regression.RegisterContractTests) ... ok
+test_generated_test_imports_output_module (test_regression.RegisterContractTests) ... ok
+test_generated_wide_register_and_access (test_regression.RegisterContractTests) ... ok
+test_invalid_offsets_are_rejected (test_regression.RegisterContractTests) ... ok
+test_missing_offset_is_rejected (test_regression.RegisterContractTests) ... ok
+test_no_partial_name_match (test_regression.RegisterContractTests) ... ok
+test_property_decimal_and_attribute_hex (test_regression.RegisterContractTests) ... ok
+test_read_only_suffix_pair_is_not_a_writable_pointer (test_regression.RegisterContractTests) ... ok
+test_real_header_and_64_bit_width (test_regression.RegisterContractTests) ... ok
+test_xml_namespace (test_regression.RegisterContractTests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.461s
+
+OK

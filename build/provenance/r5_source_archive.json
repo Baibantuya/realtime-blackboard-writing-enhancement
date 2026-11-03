@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_ZIP_INTEGRITY_PASS",
+  "archive": "v24_2025_2_source_c5_repro_r5.zip",
+  "bytes": 27838839,
+  "sha256": "058fff70534100903ac35183eda06d180a9d81c408a73dc448a3ddbf970c6e5e",
+  "source_files": 107,
+  "full_clean_build": "PASS_CLEAN_REBUILD_SCOPED_VERIFICATION",
+  "timing_evidence": "impl5 is paired with exported C5 hardware; r5/i is independent source rebuild",
+  "board_test": "NOT_RUN",
+  "contains_vendor_executables": false,
+  "contains_generated_hardware": false,
+  "full_clean_build_evidence": "clean5_final_status.json",
+  "reproduction_checked_at": "2026-10-28T22:32:34.471164+08:00",
+  "reproduction_timing": {
+    "WNS_ns": 0.011,
+    "TNS_ns": 0.0,
+    "setup_failures": 0.0,
+    "setup_endpoints": 317430.0,
+    "WHS_ns": 0.01,
+    "THS_ns": 0.0,
+    "hold_failures": 0.0,
+    "hold_endpoints": 317357.0,
+    "WPWS_ns": 0.164,
+    "TPWS_ns": 0.0,
+    "pulse_failures": 0.0,
+    "pulse_endpoints": 105410.0
+  }
+}

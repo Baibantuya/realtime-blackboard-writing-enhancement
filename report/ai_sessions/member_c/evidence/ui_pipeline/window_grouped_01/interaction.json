@@ -1,0 +1,128 @@
+{
+  "scope": "WSLg real LVGL and recorded pixels; no PL enhancement or DRM/board execution",
+  "frames": 477,
+  "captures": [
+    {
+      "name": "expanded",
+      "mode": 2,
+      "page": 0,
+      "records": 0,
+      "collapsed": false
+    },
+    {
+      "name": "deep_saved",
+      "mode": 2,
+      "page": 0,
+      "records": 1,
+      "collapsed": false
+    },
+    {
+      "name": "raw_mode",
+      "mode": 0,
+      "page": 0,
+      "records": 1,
+      "collapsed": false
+    },
+    {
+      "name": "raw_saved",
+      "mode": 0,
+      "page": 0,
+      "records": 2,
+      "collapsed": false
+    },
+    {
+      "name": "basic_mode",
+      "mode": 1,
+      "page": 0,
+      "records": 2,
+      "collapsed": false
+    },
+    {
+      "name": "basic_saved",
+      "mode": 1,
+      "page": 0,
+      "records": 3,
+      "collapsed": false
+    },
+    {
+      "name": "history_3",
+      "mode": 1,
+      "page": 3,
+      "records": 3,
+      "collapsed": false
+    },
+    {
+      "name": "history_2",
+      "mode": 0,
+      "page": 2,
+      "records": 3,
+      "collapsed": false
+    },
+    {
+      "name": "history_1",
+      "mode": 2,
+      "page": 1,
+      "records": 3,
+      "collapsed": false
+    },
+    {
+      "name": "live_again",
+      "mode": 1,
+      "page": 0,
+      "records": 3,
+      "collapsed": false
+    },
+    {
+      "name": "collapsed",
+      "mode": 1,
+      "page": 0,
+      "records": 3,
+      "collapsed": true
+    },
+    {
+      "name": "expanded_again",
+      "mode": 1,
+      "page": 0,
+      "records": 3,
+      "collapsed": false
+    },
+    {
+      "name": "auto_hidden",
+      "mode": 1,
+      "page": 0,
+      "records": 3,
+      "collapsed": true
+    }
+  ],
+  "events": [
+    {
+      "event": "saved",
+      "page": 1,
+      "mode": 2,
+      "sequence": 18
+    },
+    {
+      "event": "saved",
+      "page": 2,
+      "mode": 0,
+      "sequence": 56
+    },
+    {
+      "event": "saved",
+      "page": 3,
+      "mode": 1,
+      "sequence": 92
+    }
+  ],
+  "window_keys": [],
+  "saved_modes": [
+    2,
+    0,
+    1
+  ],
+  "saved_sequences": [
+    18,
+    56,
+    92
+  ]
+}

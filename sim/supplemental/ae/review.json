@@ -1,0 +1,55 @@
+{
+  "status": "PASS_LOCAL_AE_METADATA_AND_BEHAVIOR",
+  "checks": {
+    "functional_source_axis_ae_status.v": true,
+    "functional_source_axis_luma_meter.sv": true,
+    "functional_source_ae_controller.sv": true,
+    "bd_ports_unchanged": true,
+    "bd_interface_ports_unchanged": true,
+    "bd_nets_unchanged": true,
+    "bd_interface_nets_unchanged": true,
+    "bd_addressing_unchanged": true,
+    "monitor_mode": true,
+    "all_observer_ports_are_inputs": true,
+    "integration_exit_zero": true,
+    "behavior_pass": true,
+    "no_reported_critical_or_error": true,
+    "specific_tready_warning_absent": true,
+    "normalized_functional_netlists_equal": true,
+    "ooc_resources_equal": true
+  },
+  "resources": {
+    "before": {
+      "CLB LUTs*": 277,
+      "CLB Registers": 159,
+      "Block RAM Tile": 0,
+      "DSPs": 0
+    },
+    "after": {
+      "CLB LUTs*": 277,
+      "CLB Registers": 159,
+      "Block RAM Tile": 0,
+      "DSPs": 0
+    }
+  },
+  "ordinary_warning_counts": {
+    "IP_Flow 19-11770": 3,
+    "BD 41-1753": 1,
+    "BD 41-176": 14,
+    "BD 41-394": 2,
+    "IP_Flow 19-4747": 1,
+    "BD 41-1306": 84,
+    "BD 41-1629": 16,
+    "BD 41-3281": 2,
+    "BD 41-2121": 2,
+    "BD 41-237": 20,
+    "BD 41-1271": 50,
+    "BD 41-1771": 2,
+    "BD 41-2937": 1,
+    "BD 41-2925": 1,
+    "Timing 38-242": 2,
+    "DRC 23-814": 2
+  },
+  "scope": "Metadata, BD connections/addressing, behavioral simulation and OOC synthesis. Not a new routed design or formal equivalence proof.",
+  "source_sha256": "e6e0123bf6b8c3abdc84e32014e27b27e688335fe9de16748ba1b3aab8c2e1e6"
+}

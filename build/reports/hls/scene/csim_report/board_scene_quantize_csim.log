@@ -1,0 +1,8 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../../sim/tb/test_scene_hls.cpp in debug mode
+   Compiling ../../../../../src/pl/hls/board_scene_quantize.cpp in debug mode
+   Generating csim.exe
+scene native/HLS-compatible testbench errors=0
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 5280
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

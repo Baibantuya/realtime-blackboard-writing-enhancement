@@ -1,0 +1,133 @@
+{
+  "checked_at": "2026-10-28T22:32:18.157683+08:00",
+  "status": "PASS_CLEAN_REBUILD_SCOPED_VERIFICATION",
+  "checks": {
+    "input_count_107": true,
+    "inputs_before": true,
+    "inputs_after": true,
+    "source_identity": true,
+    "tool_exit": true,
+    "top_level_tool_errors": true,
+    "all_hls_tests": true,
+    "reset_component": true,
+    "build_completion": true,
+    "numeric_timing_route": true,
+    "clock_definitions_unchanged": true,
+    "primary_input_jitter_100ps": true,
+    "hls_interfaces": true,
+    "exact_generated_hls_rtl": true,
+    "bd_connections": true,
+    "vendor_parameters": true,
+    "ps_static_contracts": true,
+    "ps_runtime_hwh_only": true,
+    "static_evidence_inputs": true,
+    "rtl_evidence_inputs": true,
+    "bus_skew_reported_paths": true,
+    "source_archive_sha256": true,
+    "source_archive_crc": true,
+    "source_archive_files": true,
+    "source_archive_identity": true,
+    "source_archive_manifest": true
+  },
+  "timing": {
+    "WNS_ns": 0.011,
+    "TNS_ns": 0.0,
+    "setup_failures": 0.0,
+    "setup_endpoints": 317430.0,
+    "WHS_ns": 0.01,
+    "THS_ns": 0.0,
+    "hold_failures": 0.0,
+    "hold_endpoints": 317357.0,
+    "WPWS_ns": 0.164,
+    "TPWS_ns": 0.0,
+    "pulse_failures": 0.0,
+    "pulse_endpoints": 105410.0
+  },
+  "route": {
+    "routable": 156816,
+    "routed": 156816,
+    "errors": 0
+  },
+  "timing_coverage": {
+    "no_clock": 0,
+    "constant_clock": 0,
+    "pulse_width_clock": 0,
+    "unconstrained_internal_endpoints": 0,
+    "no_input_delay": 4,
+    "no_output_delay": 2,
+    "multiple_clock": 0,
+    "generated_clocks": 0,
+    "loops": 0,
+    "partial_input_delay": 0,
+    "partial_output_delay": 0,
+    "latch_loops": 0
+  },
+  "processing_clock_periods_ns": {
+    "clk_out1_design_1_clk_wiz_0_0": 5.0,
+    "clk_out2_video_design_1_clk_wiz_0_0": 5.0,
+    "clk_out3_phy_design_1_clk_wiz_0_0": 5.0
+  },
+  "cdc": {
+    "CDC-3": {
+      "severity": "Info",
+      "count": 85
+    },
+    "CDC-6": {
+      "severity": "Warning",
+      "count": 2
+    },
+    "CDC-9": {
+      "severity": "Info",
+      "count": 3
+    },
+    "CDC-15": {
+      "severity": "Warning",
+      "count": 68
+    }
+  },
+  "bus_skew": {
+    "reported_paths": 10,
+    "worst_slack_ns": 3.831,
+    "violations": 0
+  },
+  "top_level_console_messages": {
+    "critical_warning_occurrences": 1,
+    "critical_warning_unique": [
+      "CRITICAL WARNING: [IP_Flow 19-3480] Bus Interface 's_axis': Portmap direction mismatched between component port 's_axis_tready' and definition port 'TREADY'."
+    ],
+    "error_occurrences": 0,
+    "errors_unique": [],
+    "scope": "Entire top-level console log; synthesis subprocess logs and final DRC/CDC reports are separate evidence."
+  },
+  "source_archive": "v24_2025_2_source_c5_repro_r5.zip",
+  "source_archive_sha256": "058fff70534100903ac35183eda06d180a9d81c408a73dc448a3ddbf970c6e5e",
+  "board_test": "NOT_RUN",
+  "full_cdc_signoff": "REVIEW_PENDING",
+  "r5_bitstream": "NOT_EXPORTED",
+  "c5_bitstream": "Separate matched candidate; see candidate_delivery5.md",
+  "limitations": [
+    "Limited HLS testbenches; Rectify has no RTL co-simulation.",
+    "Reset component simulation does not validate camera/DPHY/actual Linux startup.",
+    "CDC and methodology warnings remain for review; timing margin must be reported.",
+    "Windows native-tool run only; no Linux complete 2025.2 tool run or ARM hardware test.",
+    "Private process-level UTF-8 compatibility overlay used; not an AMD official patch."
+  ],
+  "evidence_sha256": {
+    "clean5_validation.json": "c47872b02e04a76246e83fcbbb69fcdbdf1246e75aacfbd9ba87c9a0bc426ee6",
+    "report_review_r5_i.json": "75c832f3ff54f7ef800787c56ca3ad14c21e4c96829dbe66a472ff55e7e70fce",
+    "cdc_evidence_r5_i.json": "caf8a114ec624a22645fa9c90b4e2d457d7963503e83487e1a7eba02bb6aec62",
+    "r5/build/source_manifest.json": "d2caa61887df2a1b5e7e58dbe9824cc312ce9f139c60f85a9956b46239bd0e03",
+    "r5/logs/inputs_before.json": "570563d0272217cc6dc14e907db0b378b688c093b8f0db273c8f49fb4d05ae59",
+    "r5/logs/inputs_after.json": "570563d0272217cc6dc14e907db0b378b688c093b8f0db273c8f49fb4d05ae59",
+    "r5/report/structure.json": "d720eb3ce0dd896a83aad938f82dd14a7766021a26845478f4a1a0b38a21beb5",
+    "r5/report/hls_contracts.json": "38062c4fd4e708420d10e202a08f0030e2a68b2c8bad1138258ef281736d0603",
+    "r5/report/rtl_identity.json": "23579b1e964273e7b422dceacdbdf4462932540e0c89a3347ce8912fb1f06f76",
+    "r5/report/ps_contract/result_win32.json": "7d593ea2c00354d9d0d2a2acc6f5eb6fd98b6016addee36372ce1597212166a3",
+    "r5/report/ps_contract/result_linux.json": "da1d4956ac5ab672e965ccfa03737095b76d9ac2c0bf68bdaf2a3d29fdcb427a",
+    "r5/report/reset/result.json": "a171cda5f94041a88645327181af4f0bf7660c8e39a42ee1969ae70e0068b992",
+    "r5/i/routed.dcp": "7dbdb7ec751691b004be3fb1961a2708cea5e4c52f3f1d2d9a1a85fa00d53f21",
+    "v24_2025_2_source_c5_repro_r5.zip": "058fff70534100903ac35183eda06d180a9d81c408a73dc448a3ddbf970c6e5e",
+    "r5/i/mipi_constraints/clock_definitions_before.txt": "73a7e4a709a5c8a912c995413da59c8ad28b62484cd86764fae912113412abf6",
+    "r5/i/mipi_constraints/clock_definitions_after.txt": "73a7e4a709a5c8a912c995413da59c8ad28b62484cd86764fae912113412abf6"
+  }
+}

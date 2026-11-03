@@ -1,0 +1,614 @@
+{
+  "schema": "hand-object-optimization-replay-v1",
+  "model_sha256": "842898a9f2b54b8aac75c505fb5c51825f7a38daabbe749a76f71b4d903dffae",
+  "probe_script_sha256": "c775115ccb2af6c308980ff4b5fe535b0867b23880703d2da145ddb0ec9e0087",
+  "rtol": 0.001,
+  "atol": 0.001,
+  "cpu_threads": 1,
+  "gpu_used": false,
+  "selection": "only images with any original strict failure in the fixed 51-image sample",
+  "totals": {
+    "ort_optimization_disabled": {
+      "images": 27,
+      "strict_failed_images": 11,
+      "failed_elements": 14,
+      "decision_changed_images": 0
+    },
+    "ort_basic_optimization": {
+      "images": 27,
+      "strict_failed_images": 11,
+      "failed_elements": 14,
+      "decision_changed_images": 0
+    },
+    "opencv_fusion_disabled": {
+      "images": 27,
+      "strict_failed_images": 27,
+      "failed_elements": 41,
+      "decision_changed_images": 0
+    }
+  },
+  "inference_ms_no_formal_warmup": {
+    "ort_optimization_disabled": {
+      "p50": 50.129884853959084,
+      "p95": 62.91388026438653
+    },
+    "ort_basic_optimization": {
+      "p50": 49.75340305827558,
+      "p95": 54.680761927738786
+    },
+    "opencv_fusion_disabled": {
+      "p50": 109.78910396806896,
+      "p95": 120.25256508495659
+    }
+  },
+  "records": [
+    {
+      "split": "train",
+      "image_id": 2,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0006134770810604095
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0006134770810604095
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0010628290474414825
+        }
+      }
+    },
+    {
+      "split": "train",
+      "image_id": 20000,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008941739797592163
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008941739797592163
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0017987638711929321
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 114,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0037618279457092285
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0037618279457092285
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.008031368255615234
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1701,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0011023283004760742
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0011023283004760742
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0022702813148498535
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1588,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0007939934730529785
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0007939934730529785
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0015331506729125977
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 720,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008716583251953125
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008716583251953125
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0016174912452697754
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 23,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0016176104545593262
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0016176104545593262
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.003413647413253784
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 90,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008784718811511993
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008784718811511993
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0016208039596676826
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 474,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0015065371990203857
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0015065371990203857
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0024341419339179993
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 769,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0007821023464202881
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0007821023464202881
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.002124607563018799
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 69,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008141696453094482
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008141696453094482
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0020412206649780273
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 436,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0016964077949523926
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0016964077949523926
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 4,
+          "max_direction_abs_error": 0.003482729196548462
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1781,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.008377373218536377
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.008377373218536377
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 3,
+          "max_direction_abs_error": 0.017122596502304077
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1220,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008608698844909668
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008608698844909668
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0017867088317871094
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 217,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0016395337879657745
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0016395337879657745
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0032015442848205566
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1107,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.001731574535369873
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.001731574535369873
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0032731294631958008
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1170,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.002105236053466797
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.002105236053466797
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 3,
+          "max_direction_abs_error": 0.00387418270111084
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1280,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0005333870649337769
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0005333870649337769
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0017865188419818878
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1925,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0015575066208839417
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0015575066208839417
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0027346834540367126
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1837,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0015805214643478394
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0015805214643478394
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.003110840916633606
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1147,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0005359053611755371
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0005359053611755371
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0014871656894683838
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1981,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008104443550109863
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0008104443550109863
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.001493304967880249
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1712,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0006688535213470459
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0006688535213470459
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.001513257622718811
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 1408,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0011040568351745605
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0011040568351745605
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.002037525177001953
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 679,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0006367042660713196
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0006367042660713196
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0012867115437984467
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 40,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0015291869640350342
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.0015291869640350342
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 1,
+          "max_direction_abs_error": 0.003008216619491577
+        }
+      }
+    },
+    {
+      "split": "val",
+      "image_id": 140,
+      "variants": {
+        "ort_optimization_disabled": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0009893151000142097
+        },
+        "ort_basic_optimization": {
+          "strict_allclose": true,
+          "failed_elements": 0,
+          "max_direction_abs_error": 0.0009893151000142097
+        },
+        "opencv_fusion_disabled": {
+          "strict_allclose": false,
+          "failed_elements": 2,
+          "max_direction_abs_error": 0.0022362410090863705
+        }
+      }
+    }
+  ],
+  "limits": "Diagnostic backend options only; original model, criterion and validate entry unchanged; this is not a full-sample pass claim."
+}

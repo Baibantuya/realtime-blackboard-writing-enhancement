@@ -1,0 +1,31 @@
+{
+  "source": "D:\\2026嵌赛\\v24_2025_2\\dtbo_candidate5\\imx219-v24-2025-2-c5.dts",
+  "source_sha256": "9037d9515c7cc68182779e1494fd95d88e8c181887503bf647fecf7c06ce2475",
+  "hardware": "D:\\2026嵌赛\\v24_2025_2\\hardware_candidate5\\imx219-v24-2025-2-c5.hwh",
+  "hardware_sha256": "a45979c5e66187d9b06dbaef02553e74197c891570fec64b9a6812ae434fa567",
+  "findings": [
+    {
+      "property": "xlnx,en-active-lanes",
+      "parameter": "C_CSI_EN_ACTIVELANES",
+      "hardware_value": "false",
+      "before_dts_present": true,
+      "after_dts_present": false
+    },
+    {
+      "property": "xlnx,en-csi-v2-0",
+      "parameter": "C_EN_CSI_V2_0",
+      "hardware_value": "false",
+      "before_dts_present": true,
+      "after_dts_present": false
+    },
+    {
+      "property": "xlnx,en-vcx",
+      "parameter": "C_EN_VCX",
+      "hardware_value": "false",
+      "before_dts_present": true,
+      "after_dts_present": false
+    }
+  ],
+  "firmware_name": "imx219-v24-2025-2-c5.bit.bin",
+  "board_test": "NOT_RUN"
+}

@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Oct 27 17:18:23 2026
+# Process ID         : 35184
+# Current directory  : W:/
+# Command line       : vivado.exe -mode batch -source W:/startup_no_local_data_probe.tcl -log W:/startup_no_local_data_probe.log -journal W:/startup_no_local_data_probe.jou
+# Log file           : W:/startup_no_local_data_probe.log
+# Journal file       : W:/startup_no_local_data_probe.jou
+# Running On         : °×°åÍ¿Ñ»
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i9-14900HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 34141 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 68501 MB
+# Available Virtual  : 45858 MB
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'no'.
+source W:/startup_no_local_data_probe.tcl
+# set here [file dirname [file normalize [info script]]]
+# set result [file join $here startup_no_local_data]
+# if {[file exists $result]} {error "Preserve prior probe evidence"}
+# if {![info exists ::env(XILINX_LOCAL_USER_DATA)] || $::env(XILINX_LOCAL_USER_DATA) ne "no"} {
+#     error "Expected process-local XILINX_LOCAL_USER_DATA=no"
+# }
+# foreach name {XILINX_PATH MYVIVADO} {
+#     if {[info exists ::env($name)] && [string match -nocase *private_utf8* $::env($name)]} {
+#         error "Native executable probe requires no private overlay"
+#     }
+# }
+# file mkdir $result
+# set_param general.maxThreads 2
+# create_project -in_memory -part xck26-sfvc784-2LV-c
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 527.000 ; gain = 217.000
+# read_verilog [file join $here baseline src pl rtl axis_ae_status.v]
+# read_verilog -sv [file join $here baseline src pl rtl axis_luma_meter.sv]
+# read_verilog -sv [file join $here baseline src pl rtl ae_controller.sv]
+# synth_design -top axis_ae_status -part xck26-sfvc784-2LV-c -mode out_of_context
+Command: synth_design -top axis_ae_status -part xck26-sfvc784-2LV-c -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 30460
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1070.168 ; gain = 538.227
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'axis_ae_status' [W:/baseline/src/pl/rtl/axis_ae_status.v:7]
+INFO: [Synth 8-6157] synthesizing module 'axis_luma_meter' [W:/baseline/src/pl/rtl/axis_luma_meter.sv:4]
+	Parameter FRAME_PIXELS bound to: 2073600 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_luma_meter' (0#1) [W:/baseline/src/pl/rtl/axis_luma_meter.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'ae_controller' [W:/baseline/src/pl/rtl/ae_controller.sv:2]
+	Parameter FRAME_LENGTH bound to: 16'b0000011011100011 
+INFO: [Synth 8-6155] done synthesizing module 'ae_controller' (0#1) [W:/baseline/src/pl/rtl/ae_controller.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'axis_ae_status' (0#1) [W:/baseline/src/pl/rtl/axis_ae_status.v:7]
