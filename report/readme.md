@@ -6,3 +6,5 @@
 - [团队 AI Sessions](ai_sessions/readme.md)：三位成员的资料与来源。
 - [仓库结构](github_structure.md)：GitHub 目录与发行组织方式。
 - [历史评审](../report_review.md)：此前核对记录；其中单独提交版的建议留作历史参考。2026-11-03 用户要求该报告保持原样。
+
+- [实物照片与建议图题](photos/readme.md)：整机全貌、开发板俯视与斜视原图。

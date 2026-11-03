@@ -16,7 +16,7 @@
 | 7.1–7.2 板端环境 | [环境说明](../board/environment.md)、[二进制核验](../board/environment_binary_inspection.json) | Ubuntu22.04/PYNQ3.0.1为历史确认；内核和ARM64来自随包文件；待现场采集项见说明 |
 | 7.3–7.4 构建与封装 | [当前入口说明](../readme.md)、[构建目录](../build/)、[C5导出记录](../build/provenance/export_history/) | 使用2025.2入口；整机P&R与硬件导出步骤分别列明 |
 | 历史60+4测试 | [原始汇总](attachments/legacy_test_summary.json)、[旧入口](attachments/legacy_run_tests.py.txt) | 属于历史交付汇总；当前测试单独列举 |
-| 整机实拍 | 用户后续提供 | 建议正面、45°整机、摄像头/板卡/显示屏连接各一张 |
+| 整机实拍 | [照片与图题](photos/readme.md)、[原文件哈希](photos/source_manifest.json) | 已提供1张整机全貌、2张板卡实物图；整机正面照可与现有全貌图配对 |
 
 ## 历史附件整理
 

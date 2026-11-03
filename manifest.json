@@ -3576,8 +3576,8 @@
       "sha256": "dd48a26279173c998cb6ef4f2c3878e0bdfb8596a10a3971f4be6d1bcfefbc1d"
     },
     "report/evidence_index.md": {
-      "bytes": 3680,
-      "sha256": "825b7c0b325611e74f6dea1a8514caa1ef8cd6994b37ccd1e0e41b881b798818"
+      "bytes": 3769,
+      "sha256": "e0d04d9d1c005458fd326068330b3e28d77ae8c6e32942ec68e8589766de5091"
     },
     "report/format_review.json": {
       "bytes": 1777,
@@ -3587,13 +3587,33 @@
       "bytes": 1521,
       "sha256": "8ce6771b4cc354ef762ea63bfc80d34192f62ecbe4fd8fc65b4d1ed3a442e4d5"
     },
+    "report/photos/kv260_oblique_view.jpg": {
+      "bytes": 2252501,
+      "sha256": "c4c3e4c032931ddeae2275aba849037dafa8f24d356356854133569c41158ef4"
+    },
+    "report/photos/kv260_top_view.jpg": {
+      "bytes": 2148789,
+      "sha256": "5bf9a43941fdd714049f541e63ae261914b4532c4c9550e7560a135ceb4cfaa6"
+    },
+    "report/photos/readme.md": {
+      "bytes": 1372,
+      "sha256": "df09b96df6b0ae9529b87e150fe1bf0bc463854b9b251b1fd590a700c7a24c03"
+    },
+    "report/photos/source_manifest.json": {
+      "bytes": 1768,
+      "sha256": "bb1e4afe8e94147645bb8dabd8cbd93d01ce310bff4f1d43002d97799b2d5006"
+    },
+    "report/photos/system_overview.jpg": {
+      "bytes": 7520240,
+      "sha256": "39d99fae5ae587c2fb1689802606f2b91399ac3a3d6809105350c4a6b2a0d650"
+    },
     "report/readme.md": {
-      "bytes": 625,
-      "sha256": "0bea46dda46a3d05756bda0ba549b276e5af5830c69e90be92bee5b12027c548"
+      "bytes": 729,
+      "sha256": "d39dc00c1caf666614509ad4055f5c9ac7ddf2bcd95cb98fa98cc7fab3f87d08"
     },
     "report/submission_requirements.md": {
-      "bytes": 3935,
-      "sha256": "59db66f054aa917c06c5028ae39528a4c3c7bd8f53102086085c8ef9ea56ff37"
+      "bytes": 4045,
+      "sha256": "9986261159ed38b92c685d4337a51d739dea2817b7a0aca9b7560362b562c959"
     },
     "report/technical_report.docx": {
       "bytes": 1699088,

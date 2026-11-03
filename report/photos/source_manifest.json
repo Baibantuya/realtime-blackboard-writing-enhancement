@@ -1,0 +1,51 @@
+{
+  "received_date": "2026-11-03",
+  "files": [
+    {
+      "file": "kv260_top_view.jpg",
+      "original_filename": "开发板1.jpg",
+      "caption": "KV260 开发板俯视实物图",
+      "sha256": "5bf9a43941fdd714049f541e63ae261914b4532c4c9550e7560a135ceb4cfaa6",
+      "bytes": 2148789,
+      "pixel_size": [
+        3072,
+        4096
+      ],
+      "exif_orientation": 6,
+      "source": "user_provided_original_photo",
+      "transformation": "filename_only; original bytes preserved",
+      "associated_bitstream_version": null
+    },
+    {
+      "file": "kv260_oblique_view.jpg",
+      "original_filename": "开发板2.jpg",
+      "caption": "KV260 开发板斜视实物图",
+      "sha256": "c4c3e4c032931ddeae2275aba849037dafa8f24d356356854133569c41158ef4",
+      "bytes": 2252501,
+      "pixel_size": [
+        4096,
+        3072
+      ],
+      "exif_orientation": 1,
+      "source": "user_provided_original_photo",
+      "transformation": "filename_only; original bytes preserved",
+      "associated_bitstream_version": null
+    },
+    {
+      "file": "system_overview.jpg",
+      "original_filename": "作品全貌图.jpg",
+      "caption": "实时板书增强系统实物全貌",
+      "sha256": "39d99fae5ae587c2fb1689802606f2b91399ac3a3d6809105350c4a6b2a0d650",
+      "bytes": 7520240,
+      "pixel_size": [
+        4096,
+        3072
+      ],
+      "exif_orientation": 1,
+      "source": "user_provided_original_photo",
+      "transformation": "filename_only; original bytes preserved",
+      "associated_bitstream_version": null
+    }
+  ],
+  "version_evidence": "Photographs document physical equipment and displayed interface; firmware identity is recorded separately in board test results."
+}
