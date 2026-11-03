@@ -1,6 +1,6 @@
 # Real-time Blackboard Writing Enhancement
 
-基于 AMD Kria KV260 的实时板书增强系统。树莓派 V2 摄像头采集板书，PL 执行透视校正、恢复辅助处理和场景量化，PS 负责缩略图分析、流水调度与 UI，香橙派便携显示屏呈现原图、校正图和增强图。
+基于 AMD Kria KV260 的实时板书增强系统。摄像头采集板书，PL 执行透视校正、恢复辅助处理和场景量化，PS 负责缩略图分析、流水调度与 UI，显示屏呈现原图、校正图和增强图。
 
 ## PL version
 

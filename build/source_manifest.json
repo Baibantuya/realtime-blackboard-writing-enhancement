@@ -19,7 +19,7 @@
     "build/tighten_mipi_exception.tcl": "95d7146851e0fbe9eab010c7e44f1c25480bf04e5773b48fed7f4d892085cb6f",
     "build/verify_sources.py": "effc8fa8aba0252b6463400cd1e972f86f3ae1dae37603b2d73a34453f00c0f4",
     "build/vivado.tcl": "12392cd326910e62fc27ff9e471b3ef2b5f011c5218aa7e94aa858bb5f2e9675",
-    "readme.md": "ca2d4b418d172c1e215749d21bd057b3dd3f91ca11e4a2ca57366a483a4adc1b",
+    "readme.md": "c50def9dd295d3b714af683a17b0c030b5fe5731dea74f284a99b3fbf8f2484a",
     "readme_2025_2.md": "060ed009046714153f9d4ab3063c7e5a4f60c6358496466c1f1fe3e5130c8e8f",
     "sim/run_native_math.sh": "b585a4cd60c0be605f7d9be3320bf82a224a55fed245028236cf290ef43b4dc9",
     "sim/tb/tb_reset.sv": "88d50f3d9c21b1953670ba4415ca798345a5e69ed05c79b2a1ae5dcec9145c94",
