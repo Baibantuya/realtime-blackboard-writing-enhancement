@@ -1,24 +1,25 @@
-# 板级验收准备（未执行）
+# Board package
 
-用户于2026-10-27确认板卡暂不可用。本目录不代表板测通过，不包含自动部署或加载 FPGA 的动作。
+`runtime/` 为 2025.2 C5 配套运行包，`hardware/` 保存 XSA、设备树源码及导出记录。运行包使用统一前缀 `imx219-v24-2025-2-c5`，配置入口为 `runtime/config/deployment.json`，文件哈希见 `runtime/config/runtime_manifest.json`。
 
-## 先确认候选身份
+## Runtime entry
 
-最终产物必须来自同一次通过审查的构建：bit、HWH、XSA、匹配 DTBO／驱动、PS源码与 ARM UI库。分别记录SHA256、工具版本、器件、时钟、目标Linux／内核版本。现有旧v24可用于回退，但不能配候选HWH。不得把x86_64 WSL编译的so放到ARM板上。
+在已配置项目环境的 KV260 上，进入 `runtime/` 后使用：
 
-当前没有经过签核的新位流，先不更换板端。时序、CDC和接口审查通过后才生成配套上板产物并更新清单。
+```bash
+bash run.sh check
+sudo bash run.sh deploy
+bash run.sh status
+```
 
-## 接入板卡后的顺序
+`stop` 停止服务，`rollback` 使用已有回退版本。具体行为见运行包说明及脚本。硬件文件、HWH、设备树、驱动和运行程序按同一配套包使用。
 
-1. 在实际KV260运行 `python3 preflight.py --output /tmp/wb_preflight_001`。该脚本只读系统／媒体设备信息并写结果，不加载overlay、不读写MMIO。保存相机IMX219、DP连接方式、输入设备和电源信息。
-2. 备份实际板端当前版本及启动方式，确认可回退。记录 `uname -r` 与设备树兼容；先审查MIPI RX 6.0和帧缓存3.0与现用内核驱动的匹配。
-3. 通过候选的明确部署入口加载完整配套产物，记录启动日志与首帧，确认相机、AXI/DMA、DP、UI、键鼠／翻页笔。这里需要实际板卡，尚无自动通过结果。
-4. 使用同一输入帧、同一模式和同一恢复状态／epoch，保存原图、校正、恢复、量化输出及参考。运行 `python3 compare_rgb565.py --reference reference.bin --actual actual.bin --width 1920 --height 1080 --output compare.json`。若浮点坐标或算法定义允许误差，先另行明确误差规则，不能为了通过而临时放宽此逐像素检查。
-5. 恢复核额外覆盖初始化、可信背景、遮挡、擦除、重置、历史页面切换；记录每次状态和输入序列。只有屏幕截图而没有相同输入／状态参考，不能记作逐像素等价验证。
-6. 分别测量capture、rectify、restore、quantize、display提交及实际呈现帧率，记录测量时长、分辨率、光照、丢帧／故障／超时和CPU占用。覆盖开灯／暗光、热插拔和反复启停；验收阈值以项目指标为准，不从200MHz时钟推算帧率。
+## Environment and results
 
-## CDC／复位专项
+[环境信息](environment.md)汇总历史配置与随包二进制字段。`results/legacy_v24/` 保存原V24实测记录，并保留原版本标识。当前C5/R5实现结果位于 `../build/reports/`。
 
-MIPI视频复位需要满足官方PG232的最小40个200MHz时钟周期，并核对源端在复位时的LP状态和初始化顺序。active_lanes和VC选择是配置跨域，不能仅因报告写“多位同步”就无条件忽略；检查驱动何时更新、是否在停流／复位稳定后设置。内部FIFO的CDC-15及LUT复位警告须保留端点和审查依据。
+`preflight.py` 提供只读环境采集；`compare_rgb565.py` 比较两份相同尺寸的RGB565输出。例：
 
-实际执行后保存 preflight、版本清单、输入／参考／输出、比较JSON、运行日志及实拍／采集卡记录。没有执行的项写NOT_RUN，不填预期值作实测值。
+```bash
+python3 compare_rgb565.py --reference reference.bin --actual actual.bin --width 1920 --height 1080 --output compare.json
+```

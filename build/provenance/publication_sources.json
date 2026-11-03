@@ -15,7 +15,7 @@
     "path": "board/readme.md",
     "origin": "v24_2025_2_source_c5_repro_r5.zip!v24_2025_2_candidate/board/readme.md",
     "source_sha256": "11e1b241316540a1d4e5f0e210eb5538db428cf1b0343f0a1f10413f77cf6415",
-    "published_sha256": "11e1b241316540a1d4e5f0e210eb5538db428cf1b0343f0a1f10413f77cf6415"
+    "published_sha256": "8559aff52070664ca337befd8985175fc1358cb7f1258333df4e57c141f41397"
   },
   {
     "path": "build/build_kernel.sh",
@@ -111,7 +111,7 @@
     "path": "readme.md",
     "origin": "v24_2025_2_source_c5_repro_r5.zip!v24_2025_2_candidate/readme.md",
     "source_sha256": "5fc42db225a643af27cbe89f08aab0c10e176cef8741e53b1ef4bd43ed95ef67",
-    "published_sha256": "9d22ed33a953b28fc4fa2afe8ab7efb05a92613cdd745e2d88b9109276dcc9cf"
+    "published_sha256": "ca2d4b418d172c1e215749d21bd057b3dd3f91ca11e4a2ca57366a483a4adc1b"
   },
   {
     "path": "readme_2025_2.md",
@@ -645,7 +645,7 @@
     "path": "build/source_manifest.json",
     "origin": "v24_2025_2_source_c5_repro_r5.zip!v24_2025_2_candidate/build/source_manifest.json",
     "source_sha256": "d2caa61887df2a1b5e7e58dbe9824cc312ce9f139c60f85a9956b46239bd0e03",
-    "published_sha256": "510be78b8762afeefe5c5ba46a7e784714431df770f5293c5dffb4beb08d0f26"
+    "published_sha256": "42e602c1921ae47c8d79e058d18f43c808a0ed0014325de668ead4555c23ddcc"
   },
   {
     "path": "build/provenance/r5_source_archive.json",
