@@ -24,8 +24,6 @@
 | `skill/` | 可复用工具、说明和测试 |
 | `report/` | 仓库报告、团队AI Sessions、照片和附件 |
 
-历史AI记录和Skill跨版本测试样本保留原版本标识；主工程从 `src/pl/` 与 `build/` 构建。
-
 ## Implementation results
 
 | Item | C5 / R5 |
@@ -36,7 +34,7 @@
 | LUT / FF | 75,317 / 92,127 |
 | BRAM / URAM / DSP | 81.5 / 50 / 839 |
 
-原始时序、CDC、DRC和资源结果见各自报告目录。报告文件保留工具输出内容，配套关系和哈希见 `build/provenance/`。
+时序、CDC、DRC和资源报告见 `build/reports/`，配套关系和哈希见 `build/provenance/`。
 
 ## Verify files
 
@@ -72,4 +70,3 @@ C5硬件导出Tcl与记录位于 `build/provenance/export_history/`；现成配�
 - [Third-party notices](third_party_notices.md)
 - [GitHub repository](https://github.com/Baibantuya/realtime-blackboard-writing-enhancement)
 
-展开目录与文件名使用小写英文、数字、下划线、连字符和扩展名分隔点；厂商IP归档内部沿用工具原生名称。

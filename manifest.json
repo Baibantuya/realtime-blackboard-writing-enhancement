@@ -537,11 +537,11 @@
     },
     "build/provenance/publication_input_changes.json": {
       "bytes": 839,
-      "sha256": "adfd507730f2e16d4e718feb62f3fcc04442cbfe2d987c22d5c51bba62ebf2ef"
+      "sha256": "80ecf2807edda88cbf3542ebb415978996cf52c8f1b64039d4880c0d6f8946eb"
     },
     "build/provenance/publication_sources.json": {
       "bytes": 274463,
-      "sha256": "8e7ee2c91db53000f024f2f4fe5dda749630f138f1c16f91a0f0adacf9e0d5cb"
+      "sha256": "d9b508dc2d3017eaf80cc33e8a27bbff7aa33f63c5127afff28612c68288bdde"
     },
     "build/provenance/r5_source_archive.json": {
       "bytes": 945,
@@ -1489,7 +1489,7 @@
     },
     "build/source_manifest.json": {
       "bytes": 11594,
-      "sha256": "0b4636be7a036d9328761ed19d4431805ae6ef49191a94ea0306f0161a88d2da"
+      "sha256": "dee907bc140de7d6207a12a322d32a53a07be4addd30494a06b8fc4ce7ed0f34"
     },
     "build/tighten_mipi_exception.tcl": {
       "bytes": 2640,
@@ -1604,8 +1604,8 @@
       "sha256": "337fc804ea7dace6c31dc9788e191a4ec0a7cf8538c7a663e5484b2a488b5fcb"
     },
     "readme.md": {
-      "bytes": 3938,
-      "sha256": "c50def9dd295d3b714af683a17b0c030b5fe5731dea74f284a99b3fbf8f2484a"
+      "bytes": 3628,
+      "sha256": "39f3fa56294b751835cce5800648ddfcce869c00a1bd620c522dc4e05f2354a5"
     },
     "readme_2025_2.md": {
       "bytes": 204,

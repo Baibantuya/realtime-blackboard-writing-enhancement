@@ -111,7 +111,7 @@
     "path": "readme.md",
     "origin": "v24_2025_2_source_c5_repro_r5.zip!v24_2025_2_candidate/readme.md",
     "source_sha256": "5fc42db225a643af27cbe89f08aab0c10e176cef8741e53b1ef4bd43ed95ef67",
-    "published_sha256": "c50def9dd295d3b714af683a17b0c030b5fe5731dea74f284a99b3fbf8f2484a"
+    "published_sha256": "39f3fa56294b751835cce5800648ddfcce869c00a1bd620c522dc4e05f2354a5"
   },
   {
     "path": "readme_2025_2.md",
@@ -645,7 +645,7 @@
     "path": "build/source_manifest.json",
     "origin": "v24_2025_2_source_c5_repro_r5.zip!v24_2025_2_candidate/build/source_manifest.json",
     "source_sha256": "d2caa61887df2a1b5e7e58dbe9824cc312ce9f139c60f85a9956b46239bd0e03",
-    "published_sha256": "0b4636be7a036d9328761ed19d4431805ae6ef49191a94ea0306f0161a88d2da"
+    "published_sha256": "dee907bc140de7d6207a12a322d32a53a07be4addd30494a06b8fc4ce7ed0f34"
   },
   {
     "path": "build/provenance/r5_source_archive.json",
